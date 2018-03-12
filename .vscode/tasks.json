@@ -1,0 +1,34 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Serve (include drafts)",
+      "type": "shell",
+      "command": "open http://localhost:1313/ && hugo server -D",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "never"
+      },
+    },
+    {
+      "label": "Serve (exclude drafts)",
+      "type": "shell",
+      "command": "open http://localhost:1313/ && hugo server",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "never"
+      },
+    },
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "rm -rf public && hugo",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "never"
+      },
+    }
+  ]
+}
