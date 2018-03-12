@@ -1,3 +1,11 @@
 baseURL = "https://pawelgrzybek.com/"
-languageCode = "en-us"
 title = "pawelgrzybek.com"
+disableKinds = ["taxonomy","taxonomyTerm"]
+
+disqusShortname = "studiorgb"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsStyle = "manni"
+
+[permalinks]
+  posts = "/:slug/"
