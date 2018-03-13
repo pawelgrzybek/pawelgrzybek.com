@@ -18,6 +18,13 @@ Content: <strong>{{ .Content }}</strong>
 {{ template "_internal/pagination.html" . }}
 
 
+{{ range .Site.RegularPages }}
+  {{ print .WordCount }}
+{{ end }}
+
+<!-- {{ print .RSSLink }} -->
+
+
 <br>
 <br>
 
