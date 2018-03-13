@@ -1,11 +1,6 @@
 {{ partial "header.html" . }}
 
-  <br>
-  <br>
-
-  title: {{ .Title }} <br>
-  description: {{ .Params.description }} <br>
-  date: {{ .Params.date }} <br>
-  content: {{ .Content }} <br>
+<h1>{{ .Title }}</h1>
+<p>{{ .Content }}</p>
 
 {{ partial "footer.html" . }}

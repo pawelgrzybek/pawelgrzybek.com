@@ -1,9 +1,24 @@
 {{ partial "header.html" . }}
 
-{{ .Title }}
-{{ .Content }}
+<br>
+<br>
 
-<h1>list.html list.html list.html list.html list.html list.html</h1>
-{{ partial "main.html" . }}
+Title: <strong>{{ .Title }}</strong>
+Content: <strong>{{ .Content }}</strong>
+
+<br>
+<br>
+
+<ul>
+  {{ range (.Paginate ( where .Data.Pages.ByDate "Section" "posts" )).Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+
+{{ template "_internal/pagination.html" . }}
+
+
+<br>
+<br>
 
 {{ partial "footer.html" . }}

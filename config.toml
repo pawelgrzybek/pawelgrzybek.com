@@ -5,7 +5,11 @@ disableKinds = ["taxonomy","taxonomyTerm"]
 disqusShortname = "studiorgb"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-pygmentsStyle = "manni"
+Paginate = 3
+
+# waitin for 0.38 to enable it
+# [frontmatter]
+# date  = [":filename", ":default"]
 
 [permalinks]
   posts = "/:slug/"

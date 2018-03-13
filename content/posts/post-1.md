@@ -1,10 +1,10 @@
 ---
-title: "My First Post"
-description: "This is a description"
-date: 2018-03-11T15:42:20Z
-slug: "/this-is-cusrom-url/"
+title: Post one
+excerpt: This is a description one.
+date: 2018-03-11T15:44:20Z
 draft: false
 ---
+
 
 This is just a test bro...s
 
