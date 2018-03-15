@@ -6,7 +6,7 @@
     {
       "label": "Serve (include drafts)",
       "type": "shell",
-      "command": "open http://localhost:1313/ && hugo server -D",
+      "command": "open http://localhost:1313/ && hugo server -D --ignoreCache --noHTTPCache",
       "problemMatcher": [],
       "presentation": {
         "reveal": "never"
