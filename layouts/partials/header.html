@@ -1,31 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
+<header class="header">
 
-    {{ $title := .Site.Title }}
-    <!-- if post: Post title -->
-    <!-- if page: Page title -->
-    <!-- if index: Global title -->
+  <a class="header__skip" href="#main">Skip to content</a>
 
-    {{ $description := .Site.Title }}
-    <!-- if post: Post title -->
-    <!-- if page: Page title -->
-    <!-- if index: Global title -->
-
-    <title>{{ $title }}</title>
-    <meta name="description" content="{{ $description }}">
-
-    <style>{{ readFile "static/css/style.css" | safeCSS }}</style>
-
-</head>
-<body>
-  <header>header</header>
-  <a href="/">Home</a>
-  <a href="{{ with .Site.GetPage "section" "posts" }}{{ .Permalink }}{{ end }}">{{ with .Site.GetPage "section" "posts" }}{{ .Title }}{{ end }}</a>
-
-
-
+  <nav class="nav">
+    <ul class="nav__l">
+      <li class="nav__i">
+        <a href="http://twitter.com/pawelgrzybek" title="Pawel Grzybek on Twitter">Twitter</a>
+      </li>
+      <li class="nav__i">
+        <a href="http://github.com/pawelgrzybek" title="Pawel Grzybek on Github">Github</a>
+      </li>
+    </ul>
+  </nav>
+</header>

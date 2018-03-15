@@ -1,31 +1,17 @@
-{{ partial "header.html" . }}
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+<body>
 
-<br>
-<br>
+    <div class="wrap">
+      {{ partial "header.html" . }}
 
-Title: <strong>{{ .Title }}</strong>
-Content: <strong>{{ .Content }}</strong>
+      <main id="main">
+        {{ partial "main.html" . }}
+      </main>
 
-<br>
-<br>
+      {{ partial "footer.html" . }}
+    </div>
 
-<ul>
-  {{ range (.Paginate ( where .Data.Pages.ByDate "Section" "posts" )).Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-  {{ end }}
-</ul>
-
-{{ template "_internal/pagination.html" . }}
-
-
-{{ range .Site.RegularPages }}
-  {{ print .WordCount }}
-{{ end }}
-
-<!-- {{ print .RSSLink }} -->
-
-
-<br>
-<br>
-
-{{ partial "footer.html" . }}
+</body>
+</html>

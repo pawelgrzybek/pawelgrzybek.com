@@ -1,11 +1,274 @@
-* {
-  margin: 0;
+/* Variables */
+:root {
+  --color-text: #333;
+  --color-link: #d33a2c;
+
+  --fz: 1rem;
+  --lh: 1.777777778rem;
+  --type-scale: 1.3333;
+}
+
+/* Globals */
+::selection {
+  background: var(--color-link);
+  color: #fff;
+  text-shadow: none;
+}
+
+html {
+  font-size: 112.5%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
 }
 
-body {
-  font-family: sans-serif;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
+
+body {
+  color: (--color-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: var(--fz);
+  line-height: var(--lh);
+
+  background-image: linear-gradient(rgba(50, 50, 50, .2) 1px, transparent 1px);
+  background-size: 100% 32px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+a {
+  background: transparent;
+  color: var(--color-link);
+  word-wrap: break-word;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #333;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: var(--lh);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: calc(var(--lh) * 1.5);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: calc(var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale));
+  line-height: calc(var(--lh) * 1.5);
+}
+
+h2 {
+  font-size: calc(var(--fz) * var(--type-scale) * var(--type-scale));
+  line-height: calc(var(--lh) * 1.5);
+}
+
+h3 {
+  font-size: calc(var(--fz) * var(--type-scale));
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: calc(var(--fz) / var(--type-scale));
+}
+
+h6 {
+  font-size: calc(var(--fz) / var(--type-scale) / var(--type-scale));
+}
+
+ul,
+ol {
+  margin: 0 0 var(--lh) var(--lh);
+}
+
+hr {
+  display: block;
+  height: var(--lh);
+  border: 0;
+  box-shadow: inset 0 1px 0 #eee;
+}
+
+blockquote {
+  margin-bottom: var(--lh);
+  padding: var(--lh);
+  background: #f7f7f7;
+  box-shadow: inset 0 0 0 1px #eee;
+}
+
+blockquote p {
+  margin: 0;
+  font-style: italic;
+}
+
+/* Wrap */
+.wrap {
+  width: 100%;
+  max-width: calc(700px + (2 * var(--lh)));
+  margin: 0 auto;
+  padding: 0 var(--lh);
+}
+
+/* Header */
+.header {
+  position: relative;
+}
+
+.header__skip {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: 0 calc(var(--lh) / 2);
+  font-size: .8em;
+
+  &:focus {
+    opacity: 1;
+  }
+}
+
+/* Nav */
+.nav {
+  padding: calc(var(--lh) * 2) 0;
+}
+
+.nav__l {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav__i {
+  margin-right: calc(var(--lh) / 4);
+
+  @media screen and (min-width: 764px) {
+    margin-right: calc(var(--lh) / 2);
+  }
+
+  &:first-of-type {
+    flex-basis: 100%;
+
+    @media screen and (min-width: 764px) {
+      flex-basis: auto;
+    }
+  }
+}
+
+.nav__logo {
+  margin: 0;
+  font-size: var(--fz);
+  font-weight: 600;
+  line-height: var(--lh);
+  display: inline-block;
+}
+
+/* Post */
+.post {
+  margin-bottom: var(--lh) * 2;
+}
+
+.post__title {
+  margin: 0;
+}
+
+.post__date {
+  font-size: var(--fz) / var(--type-scale);
+}
+
+/* Footer */
+.footer {
+  padding: (var(--lh) * 2) 0;
+}
+
+/* Pager */
+.pager {
+  display: flex;
+}
+
+.pager__btn {
+  flex-grow: 1;
+}
+
+.pager__btn--prev {
+  text-align: left;
+}
+
+.pager__btn--next {
+  text-align: right;
+}
+
+/* Share */
+
+.share {
+  margin: (var(--lh) * 2) 0;
+}
+
+.share__btn {
+  display: inline-block;
+  margin: 0 (var(--lh) / 2) (var(--lh) / 2) 0;
+  padding: 0 var(--lh);
+  font-size: var(--fz) / var(--type-scale);
+  line-height: var(--lh) * 2;
+  box-shadow: inset 0 0 0 1px var(--color-link);
+  vertical-align: middle;
+}
+
+.share__btn:hover,
+.share__btn:focus {
+  background-color: var(--color-link);
+  color: #fff;
+  fill: #fff;
+}
+
+/* Archive */
+.archive {
+  margin-left: 0;
+  list-style: none;
+}
+
+.archive__item {
+  padding: (var(--lh) / 2) 0;
+  box-shadow: 0 1px 0 0 #eee;
+}
+
+.archive__date {
+  margin: 0;
+  font-size: var(--fz) / var(--type-scale);
+}
+
+/* Syntax */
 
 /* Background */ .chroma { background-color: #f0f3f3 }
 /* Error */ .chroma .err { color: #aa0000; background-color: #ffaaaa }

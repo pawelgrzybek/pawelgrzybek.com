@@ -1,6 +1,18 @@
-{{ partial "header.html" . }}
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+<body>
 
-<h1>{{ .Title }}</h1>
-<p>{{ .Content }}</p>
+    <div class="wrap">
+      {{ partial "header.html" . }}
 
-{{ partial "footer.html" . }}
+      <main id="main">
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Content }}</p>
+      </main>
+
+      {{ partial "footer.html" . }}
+    </div>
+
+</body>
+</html>

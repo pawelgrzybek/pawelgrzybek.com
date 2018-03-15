@@ -5,7 +5,6 @@ disableKinds = ["taxonomy","taxonomyTerm"]
 disqusShortname = "studiorgb"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-Paginate = 3
 
 # waitin for 0.38 to enable it
 # [frontmatter]

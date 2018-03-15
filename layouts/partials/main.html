@@ -1,0 +1,8 @@
+Title: <strong>{{ .Title }}</strong>
+Content: <strong>{{ .Content }}</strong>
+
+<ul>
+  {{ range (.Paginate ( where .Data.Pages.ByDate "Section" "posts" )).Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
