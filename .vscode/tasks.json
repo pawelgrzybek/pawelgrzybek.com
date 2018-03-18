@@ -6,29 +6,20 @@
     {
       "label": "Serve (include drafts)",
       "type": "shell",
-      "command": "open http://localhost:1313/ && hugo server -D --ignoreCache --noHTTPCache",
+      "command": "npm run dev",
       "problemMatcher": [],
       "presentation": {
         "reveal": "never"
-      },
-    },
-    {
-      "label": "Serve (exclude drafts)",
-      "type": "shell",
-      "command": "open http://localhost:1313/ && hugo server",
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "never"
-      },
+      }
     },
     {
       "label": "Build",
       "type": "shell",
-      "command": "rm -rf public && hugo",
+      "command": "npm run build",
       "problemMatcher": [],
       "presentation": {
         "reveal": "never"
-      },
+      }
     }
   ]
 }

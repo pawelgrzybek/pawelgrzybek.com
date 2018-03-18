@@ -3,16 +3,37 @@
   {{ partial "head.html" . }}
 <body>
 
-    <div class="wrap">
-      {{ partial "header.html" . }}
+  {{ partial "header.html" . }}
 
-      <main id="main">
-        <h1>{{ .Title }}</h1>
-        <p>{{ .Content }}</p>
-      </main>
+  <main id="main">
+    <strong>data: {{ .Data }}</strong>
+    <!-- post -->
+    <article class="post">
+      <h1 class="post__title">{{ .Title }}</h1>
 
-      {{ partial "footer.html" . }}
-    </div>
+      {{ if eq .Type "posts" }}
+      <p class="post__meta">Published: <time datetime="2018-03-03">2018.03.03</time> | {{ .ReadingTime }} minutes read</p>
+      {{ end }}
+
+      {{ .Content }}
+
+
+      {{ if eq .Type "posts" }}
+      <!-- share -->
+      <section class="share">
+        Share on: <a class="share__link" href="">Twitter</a>, <a class="share__link" href="">Facebook</a>
+      </section>
+      <!-- / share -->
+
+      DISQS goes here !
+      {{ end }}
+
+    </article>
+    <!-- / post -->
+
+  </main>
+
+  {{ partial "footer.html" . }}
 
 </body>
 </html>

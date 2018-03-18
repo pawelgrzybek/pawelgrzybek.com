@@ -1,0 +1,31 @@
+/* Post */
+.post {
+  margin-bottom: $lh * 3;
+}
+
+.post__title {
+  margin-top: 0;
+}
+
+.post__url {
+  text-decoration: none;
+  color: $color-text;
+
+  &:hover {
+    color: $color-link;
+  }
+}
+
+.post__meta {
+  margin-top: -$lh;
+  font-size: $fz / $type-scale;
+}
+
+.post__more {
+  font-style: italic;
+  font-weight: 900;
+  text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}

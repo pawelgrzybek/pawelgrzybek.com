@@ -5,6 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
 
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css"/>
+  <style>{{ readFile "static/css/style.css" | safeCSS }}</style>
 
 </head>

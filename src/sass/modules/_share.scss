@@ -1,0 +1,36 @@
+.share {
+  margin: ($lh * 2) 0;
+  font-style: italic;
+  font-weight: 900;
+  text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:  $fz / $type-scale;
+}
+
+.share__link {
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color-text;
+  }
+}
+
+.share__btn {
+  display: inline-block;
+  margin: 0 calc(var(--lh) / 2) calc(var(--lh) / 2) 0;
+  padding: 0 var(--lh);
+  font-size: calc(var(--fz) / var(--type-scale));
+  line-height: calc(var(--lh) * 2);
+  box-shadow: inset 0 0 0 1px var(--color-link);
+  vertical-align: middle;
+}
+
+.share__btn:hover,
+.share__btn:focus {
+  background-color: var(--color-link);
+  color: #fff;
+  fill: #fff;
+}

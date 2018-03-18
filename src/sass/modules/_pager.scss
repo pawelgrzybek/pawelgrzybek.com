@@ -1,0 +1,15 @@
+.pager {
+  display: flex;
+}
+
+.pager__btn {
+  flex-grow: 1;
+}
+
+.pager__btn--prev {
+  text-align: left;
+}
+
+.pager__btn--next {
+  text-align: right;
+}

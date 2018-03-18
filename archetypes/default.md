@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-excerpt: "This is a description"
+description: "This is a description"
 draft: true
 ---
 

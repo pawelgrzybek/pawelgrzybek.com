@@ -1,0 +1,14 @@
+.archive {
+  margin-left: 0;
+  list-style: none;
+}
+
+.archive__item {
+  padding: calc(var(--lh) / 2) 0;
+  box-shadow: 0 1px 0 0 #eee;
+}
+
+.archive__date {
+  margin: 0;
+  font-size: calc(var(--fz) / var(--type-scale));
+}

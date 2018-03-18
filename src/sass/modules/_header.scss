@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+  padding: ($lh * 3) 0;
+}
+
+.header__skip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 ($lh / 2);
+  font-size: $fz / $type-scale;
+  font-style: italic;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: scale(0);
+}
+
+.header__skip:focus {
+  transform: scale(1);
+}
+
+.header__logo {
+  margin: 0;
+  font-size: $fz * $type-scale;
+  line-height: $lh;
+}
+
+.header__link {
+  color: $color-text;
+  font-size: $fz / $type-scale;
+  font-style: italic;
+  font-weight: 900;
+  text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+
+  &:hover {
+    color: $color-link;
+  }
+}
+
+.header__link--logo {
+  font-size: $fz * $type-scale;
+}
+
+.header__nav {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+
+.header__item {
+  margin-right: $lh / 4;
+}
