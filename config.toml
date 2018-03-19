@@ -6,6 +6,9 @@ disqusShortname = "studiorgb"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
+[params]
+  description = "Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Northampton (UK). When I'm not coding, I'm spinning funky vinyl records."
+
 # waitin for 0.38 to enable it
 # [frontmatter]
 # date  = [":filename", ":default"]
