@@ -5,6 +5,31 @@ description: The last few years have brought us lots of revolutionary features f
 
 Working with asynchronous JavaScript has changed a lot in the last few years. When `Promise`s were introduced to ECMAScript a few years ago life became a dream. Two years later, the `async` function was added to the specification — I still can't believe how nice and easy to read it is! What's next? Time will tell, but now let's review what we went through to get where we are. You have to agree — a random Chuck Norris joke generator is the perfect demo program!
 
+{{< highlight js "hl_lines=3 5-8,linenostart=5" >}}
+function getRandomJoke() {
+
+  // show loading screen
+  loading.classList.add('loading--active');
+
+  fetch('https://api.icndb.com/jokes/random/1')
+    .then(response => response.json())
+    .then(joke => {
+      // print a joke
+      main.innerHTML = joke.value[0].joke;
+
+      // hide loading screen
+      loading.classList.remove('loading--active');
+    })
+    .catch(err => {
+      // print an error
+      main.textContent = `Error: ${err}`;
+
+      // hide loading screen
+      loading.classList.remove('loading--active');
+    });
+}
+{{< / highlight >}}
+
 ## Callbacks
 
 If you joined the JS stage a few years ago or earlier you'll remember the [doom](https://en.wikipedia.org/wiki/Pyramid_of_doom_(programming)) that you could easily end up in by nesting callbacks. Luckily those days are over. A simple `XMLHttpRequest` request fetches a piece of JSON from an API and it isn't hard to read (yet). Imagine a situation where you have to call another request based on the result of the first one — I don't miss that. 

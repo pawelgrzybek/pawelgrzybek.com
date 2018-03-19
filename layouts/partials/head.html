@@ -16,6 +16,7 @@
   <!-- on post: Posts desctiption -->
   <!-- on page: pages description -->
   <!-- on archive page: global -->
+  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
 
   <style>{{ readFile "static/css/style.css" | safeCSS }}</style>
 
