@@ -17,6 +17,19 @@
 
       {{ .Content }}
 
+      {{ if eq .Title "Archive" }}
+      <!-- archive -->
+      <ul class="archive">
+        {{ range where .Site.Pages.ByDate "Section" "posts" }}
+        <li class="archive__item">
+          <a class="archive__link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+          <p class="archive__date">Published: <time datetime="2018-03-03">2018.03.03</time></p>
+        </li>
+        {{ end }}
+      </ul>
+      <!-- / archive -->
+      {{ end }}
+
 
       {{ if eq .Type "posts" }}
       <!-- share -->
