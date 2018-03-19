@@ -6,13 +6,12 @@
   {{ partial "header.html" . }}
 
   <main id="main">
-    <strong>data: {{ .Data }}</strong>
     <!-- post -->
     <article class="post">
       <h1 class="post__title">{{ .Title }}</h1>
 
       {{ if eq .Type "posts" }}
-      <p class="post__meta">Published: <time datetime="2018-03-03">2018.03.03</time> | {{ .ReadingTime }} minutes read</p>
+      <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> | {{ .ReadingTime }} minutes read</p>
       {{ end }}
 
       {{ .Content }}
@@ -23,7 +22,7 @@
         {{ range where .Site.Pages.ByDate "Section" "posts" }}
         <li class="archive__item">
           <a class="archive__link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-          <p class="archive__date">Published: <time datetime="2018-03-03">2018.03.03</time></p>
+          <p class="archive__date">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time></p>
         </li>
         {{ end }}
       </ul>
@@ -34,11 +33,13 @@
       {{ if eq .Type "posts" }}
       <!-- share -->
       <section class="share">
-        Share on: <a class="share__link" href="">Twitter</a>, <a class="share__link" href="">Facebook</a>
+        Share on:
+        <a href="https://twitter.com/intent/tweet?text={{ .Title }}&amp;url={{ .Permalink }}&amp;via=pawelgrzybek" class="share__link" title="Share on Twitter">Twitter</a>,
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="share__link" title="Share on Facebook">Facebook</a>
       </section>
       <!-- / share -->
 
-      DISQS goes here !
+      {{ template "_internal/disqus.html" . }}
       {{ end }}
 
     </article>
