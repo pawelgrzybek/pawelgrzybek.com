@@ -3,20 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
+  <meta name="author" content="Pawel Grzybek - {{ .Site.BaseURL }}">
 
   <!-- title -->
   <!-- on index: pawelgrzybek.com -->
-  <!-- on post: Title of a post | pawelgrzybek.com -->
-  <!-- on page: Title of a page | pawelgrzybek.com -->
   <!-- on archive page: pawelgrzybek.com -->
+  <!-- on page: Title of a page | pawelgrzybek.com -->
+  <!-- on post: Title of a post | pawelgrzybek.com -->
+  <title></title>
 
   <!-- description -->
   <!-- on index: Global -->
-  <!-- on post: Posts desctiption -->
-  <!-- on page: pages description -->
   <!-- on archive page: global -->
-  <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+  <!-- on page: pages description -->
+  <!-- on post: Posts desctiption -->
+  <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
 
   <style>{{ readFile "static/css/style.css" | safeCSS }}</style>
 
