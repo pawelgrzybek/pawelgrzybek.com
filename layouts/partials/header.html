@@ -1,40 +1,16 @@
-<!-- <h1>
-    {{ .URL | absURL }}
-</h1> -->
-
-<!-- <strong>* * *</strong> <br> -->
-<!-- <strong>Site.BaseURL</strong>: {{ .Site.BaseURL }} <br> -->
-<!-- <strong>Site.DisqusShortname</strong>: {{ .Site.DisqusShortname }} <br> -->
-<!-- <strong>Site.RSSLink</strong>: {{ .Site.RSSLink }} <br> -->
-<!-- <strong>Site.Title</strong>: {{ .Site.Title }} <br> -->
-<!-- <strong>Site.Params.description</strong>: {{ .Site.Params.description }} <br> -->
-
-<!-- <strong>* * *</strong> <br> -->
-
-<!-- <strong>URL</strong>: {{ .URL }} <br> -->
-<!-- <strong>Title</strong>: {{ .Title }} <br> -->
-<!-- <strong>Description</strong>: {{ .Description }} <br> -->
-<!-- <strong>IsHome</strong>: {{ .IsHome }} <br> -->
-<!-- <strong>NextInSection</strong>: {{ .NextInSection }} <br> -->
-<!-- <strong>PrevInSection</strong>: {{ .PrevInSection }} <br> -->
-<!-- <strong>Permalink</strong>: {{ .Permalink }} <br> -->
-<!-- <strong>Date</strong>: {{ .Date }} <br> -->
-<!-- <strong>PublishDate</strong>: {{ .PublishDate }} <br> -->
-<!-- <strong>Type</strong>: {{ .Type }} <br> -->
-<!-- <strong>Section</strong>: {{ .Section }} <br> -->
-<!-- <strong>Kind</strong>: {{ .Kind }} <br> -->
-
-
   <header class="header">
 
     <a class="header__skip" href="#main">Skip to content</a>
 
-    <!-- <div class="header__logo">
-      <a class="header__link header__link--logo" href="/" class="header__link">pawelgrzybek.com</a>
-    </div> -->
+    {{ if eq .IsHome true }}
     <h1 class="header__logo">
       <a class="header__link header__link--logo" href="/" class="header__link">pawelgrzybek.com</a>
     </h1>
+    {{ else }}
+    <div class="header__logo">
+      <a class="header__link header__link--logo" href="/" class="header__link">pawelgrzybek.com</a>
+    </div>
+    {{ end }}
 
     <nav>
       <ul class="header__nav">
