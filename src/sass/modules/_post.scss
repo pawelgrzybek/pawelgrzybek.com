@@ -8,8 +8,8 @@
 }
 
 .post__url {
-  text-decoration: none;
   color: $color-text;
+  text-decoration: none;
 
   &:hover {
     color: $color-link;
@@ -27,4 +27,5 @@
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
+  vertical-align: top;
 }

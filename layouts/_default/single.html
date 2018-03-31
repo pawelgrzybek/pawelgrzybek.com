@@ -19,11 +19,13 @@
       {{ if eq .Title "Archive" }}
       <!-- archive -->
       <ul class="archive">
-        {{ range where .Site.Pages.ByDate "Section" "posts" }}
-        <li class="archive__item">
-          <a class="archive__link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-          <p class="archive__date">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time></p>
-        </li>
+        {{ range where .Site.Pages.ByDate.Reverse "Section" "posts" }}
+          {{ if ne .Kind "section" }}
+          <li class="archive__item">
+            <a class="archive__link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+            <p class="archive__date">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time></p>
+          </li>
+          {{ end }}
         {{ end }}
       </ul>
       <!-- / archive -->

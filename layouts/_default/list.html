@@ -7,7 +7,7 @@
 
   <main id="main">
 
-    {{ range (.Paginate ( where .Data.Pages.ByDate "Section" "posts" )).Pages }}
+    {{ range (.Paginate ( where .Data.Pages "Section" "posts" ).ByDate.Reverse).Pages }}
     <!-- post -->
     <article class="post">
       <h2 class="post__title">
@@ -19,6 +19,18 @@
     </article>
     <!-- / post -->
     {{ end }}
+
+    <!-- pager -->
+    <div class="pager">
+      {{ if eq .Paginator.HasPrev true }}
+      <a href="{{ .Paginator.Prev.URL }}" class="pager__btn pager__btn--prev" title="Go to page {{ .Paginator.Prev.PageNumber }}">Previous page ({{ .Paginator.Prev.PageNumber }} / {{ .Paginator.TotalPages }})</a>
+      {{ end }}
+
+      {{ if eq .Paginator.HasNext true }}
+      <a href="{{ .Paginator.Next.URL }}" class="pager__btn pager__btn--next" title="Go to page {{ .Paginator.Next.PageNumber }}">Next page ({{ .Paginator.Next.PageNumber }} / {{ .Paginator.TotalPages }})</a>
+      {{ end }}
+    </div>
+    <!-- / pager -->
 
   </main>
 
