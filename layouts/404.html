@@ -1,7 +1,25 @@
-{{ partial "header.html" . }}
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+<body>
 
-<h1>Error 404</h1>
+  {{ partial "header.html" . }}
 
-<p>The page you requested doesn't exist.</p>
+  <main id="main">
 
-{{ partial "footer.html" . }}
+    <!-- post -->
+    <article class="post">
+      <h1 class="post__title">Error 404</h1>
+
+      <p>The page you requested doesn't exist.</p>
+
+    </article>
+    <!-- / post -->
+
+  </main>
+
+  {{ partial "footer.html" . }}
+
+</body>
+</html>
+
