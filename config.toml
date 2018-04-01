@@ -15,3 +15,8 @@ pygmentsUseClasses = true
 
 [permalinks]
   posts = "/:slug/"
+
+# disable default rss feeds
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
