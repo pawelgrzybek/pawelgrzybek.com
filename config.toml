@@ -18,5 +18,9 @@ pygmentsUseClasses = true
 
 # disable default rss feeds
 [outputs]
-  home = ["HTML"]
+  home = ["HTML", "RSS"]
   section = ["HTML"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"
