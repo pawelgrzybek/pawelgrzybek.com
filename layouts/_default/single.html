@@ -6,7 +6,7 @@
   {{ partial "header.html" . }}
 
   <main id="main">
-    <!-- post -->
+    {{ "<!-- post -->" | safeHTML }}
     <article class="post">
       <h1 class="post__title">{{ .Title }}</h1>
 
@@ -17,7 +17,7 @@
       {{ .Content }}
 
       {{ if eq .Title "Archive" }}
-      <!-- archive -->
+      {{ "<!-- archive -->" | safeHTML }}
       <ul class="archive">
         {{ range where .Site.Pages.ByDate.Reverse "Section" "posts" }}
           {{ if ne .Kind "section" }}
@@ -28,23 +28,23 @@
           {{ end }}
         {{ end }}
       </ul>
-      <!-- / archive -->
+      {{ "<!-- / archive -->" | safeHTML }}
       {{ end }}
 
       {{ if eq .Type "posts" }}
-      <!-- share -->
+      {{ "<!-- share -->" | safeHTML }}
       <section class="share">
         Share on:
         <a href="https://twitter.com/intent/tweet?text={{ .Title }}&amp;url={{ .Permalink }}&amp;via=pawelgrzybek" class="share__link" title="Share on Twitter">Twitter</a>,
         <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="share__link" title="Share on Facebook">Facebook</a>
       </section>
-      <!-- / share -->
+      {{ "<!-- / share -->" | safeHTML }}
 
       {{ template "_internal/disqus.html" . }}
       {{ end }}
 
     </article>
-    <!-- / post -->
+    {{ "<!-- / post -->" | safeHTML }}
 
   </main>
 

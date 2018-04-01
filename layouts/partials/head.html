@@ -4,12 +4,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - {{ .Site.BaseURL }}">
+  {{ .Hugo.Generator }}
 
   <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-
   <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
-  <!-- Open graph data -->
+  {{ "<!-- Open graph data -->" | safeHTML }}
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
   <meta property="og:url" content="{{ .URL | absURL }}">
@@ -17,17 +17,17 @@
   <meta property="og:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:image" content="{{ if eq .Type "page" }}{{ .Site.BaseURL }}assets/logo.png{{ else }}{{ .Site.BaseURL }}photos/{{ .Params.photo }}{{ end }}">
 
-  <!-- Twitter Card -->
+  {{ "<!-- Twitter Card -->" | safeHTML }}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@pawelgrzybek" />
   <meta name="twitter:creator" content="@pawelgrzybek" />
 
-  <!-- Standard Stuff -->
+  {{ "<!-- Standard Stuff -->" | safeHTML }}
   <link rel="canonical" href="{{ .URL | absURL }}">
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="" />
   <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="" />
 
-  <!-- Favicons -->
+  {{ "<!-- Favicons -->" | safeHTML }}
   <link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-touch-icon-114x114.png">
   <link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-touch-icon-120x120.png">
   <link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-touch-icon-144x144.png">
@@ -44,6 +44,7 @@
   <meta name="msapplication-config" content="/assets/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
+  {{ "<!-- Styles -->" | safeHTML }}
   <style>{{ readFile "static/css/style.css" | safeCSS }}</style>
 
 </head>
