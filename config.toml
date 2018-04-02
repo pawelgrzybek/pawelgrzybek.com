@@ -1,7 +1,6 @@
 baseURL = "https://pawelgrzybek.com/"
 title = "pawelgrzybek.com"
-disableKinds = ["taxonomy","taxonomyTerm"]
-
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 disqusShortname = "studiorgb"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -15,7 +14,6 @@ pygmentsUseClasses = true
 [permalinks]
   posts = "/:slug/"
 
-# disable default rss feeds
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML"]
