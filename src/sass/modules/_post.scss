@@ -29,3 +29,13 @@
   text-transform: uppercase;
   vertical-align: top;
 }
+
+.post__hash {
+  text-decoration: none;
+  margin-left: $lh / 4;
+  color: rgba($color-text, .25);
+
+  &:hover {
+    color: $color-link;
+  }
+}
