@@ -12,7 +12,10 @@
     "url": "https://pawelgrzybek.com/"
   },
   "items": [
-    {{ range where .Data.Pages "Section" "posts" }}
+    {{ $list := (where .Data.Pages "Section" "posts") }}
+    {{ $len := (len $list) }}
+
+    {{ range $index, $element := $list }}
     {
       "id": {{ sha1 .Title | jsonify }},
       "title": {{ .Title | jsonify }},
@@ -28,7 +31,7 @@
         "name": "Palwel Grzybek",
         "url": "https://pawelgrzybek.com/"
       }
-    },
+    }{{ if ne (add $index 1) $len }},{{ end }}
     {{ end }}
   ]
 }
