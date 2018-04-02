@@ -1,7 +1,6 @@
 ---
 title: Using the JavaScript console in Visual Studio Code
 description: The JavaScript console in the browser is one of the most popular debugging methods. It would be cool to see its output straight in the code editor, wouldn't it?
-date: 2017-01-18
 photo: 2017-01-18.jpg
 ---
 

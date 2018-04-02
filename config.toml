@@ -9,18 +9,21 @@ pygmentsUseClasses = true
 [params]
   description = "Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Northampton (UK). When I'm not coding, I'm spinning funky vinyl records."
 
-# waitin for 0.38 to enable it
-# [frontmatter]
-# date  = [":filename", ":default"]
+[frontmatter]
+  date  = [":filename", ":default"]
 
 [permalinks]
   posts = "/:slug/"
 
 # disable default rss feeds
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
   section = ["HTML"]
 
 [outputFormats.RSS]
   mediatype = "application/rss"
+  baseName = "feed"
+
+[outputFormats.JSON]
+  mediatype = "application/json"
   baseName = "feed"

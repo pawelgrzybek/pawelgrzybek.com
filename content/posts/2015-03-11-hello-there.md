@@ -1,7 +1,6 @@
 ---
 title: Hello there!
 description: Welcome to my website. After a while of being a web developer I found out that It gives my a massive pleasure to share knowledge, so I decided to run this blog.
-date: 2015-03-11
 photo: 2015-03-11.jpg
 ---
 

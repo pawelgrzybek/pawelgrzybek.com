@@ -1,7 +1,6 @@
 ---
 title: How to stay informed in web development game
 description: Web design industry is very changeable. You need to flow new trends, frameworks, methodologies, concepts and standards to stay in the game. That’s how I do it.
-date: 2015-04-16
 photo: 2015-04-16.jpg
 ---
 

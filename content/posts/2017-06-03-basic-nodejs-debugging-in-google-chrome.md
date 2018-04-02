@@ -1,7 +1,6 @@
 ---
 title: Basic Node.js debugging in Google Chrome
 description: We have been testing front-end code in Google Chrome Dev Tools for quite a while. How about testing Node.js code in exactly the same way?
-date: 2017-06-03
 photo: 2017-06-03.jpg
 ---
 

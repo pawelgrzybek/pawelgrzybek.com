@@ -1,7 +1,6 @@
 ---
 title: Manipulate JavaScript Arrays like a boss
 description: JavaScript arrays come with many useful methods. Mastering them can make you a much more efficient programmer. Let's have a look at a few of them.
-date: 2016-03-29
 photo: 2016-03-29.jpg
 ---
 

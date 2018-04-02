@@ -1,7 +1,6 @@
 ---
 title: Top picks — 2018 January
 description: Easier purchase process with the Payment Request API, improvements to the Web Animations API, Array & Object explorer, changes in Apple Developer Program, HDR Photography in Microsoft Excel, rise of the state machines, HTML 5.2, AMP drama, JavaScript frameworks, CSS Print API, brand new Bootstrap 4, CSS Grid by Wes Bos, laws of good UX, mobile search ranking changes, HTTPS everywhere, Safari meets Service Workers and more!
-date: 2018-01-31
 photo: top-picks.jpg
 ---
 

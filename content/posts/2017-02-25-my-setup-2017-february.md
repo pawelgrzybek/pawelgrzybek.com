@@ -1,7 +1,6 @@
 ---
 title: My setup — 2017 February
 description: Which hardware, software and web apps other professionals are using is something that I enjoy reading about. Today's post is about my own setup from February 2017.
-date: 2017-02-25
 photo: 2017-02-25.jpg
 ---
 

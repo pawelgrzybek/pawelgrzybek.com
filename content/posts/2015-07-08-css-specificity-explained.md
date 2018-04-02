@@ -1,7 +1,6 @@
 ---
 title: CSS Specificity explained
 description: CSS Specificity is the most misunderstood part of Cascading Style Sheets. Let me explain how the browser understands and interprets the jungle of selectors.
-date: 2015-07-08
 photo: 2015-07-08.jpg
 ---
 

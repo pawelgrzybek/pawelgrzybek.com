@@ -1,7 +1,6 @@
 ---
 title: CSS mixins with @apply rule
 description: I'm excited about a recently added CSS features. Previously we discussed custom properties, now it's a time to talk about mixins using the @apply rule.
-date: 2016-04-18
 photo: 2016-04-18.jpg
 ---
 

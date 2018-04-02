@@ -1,7 +1,6 @@
 ---
 title: From callback hell, through promises to async functions
 description: The last few years have brought us lots of revolutionary features for working with asynchronous JavaScript operations. Let's review the most popular ones together.
-date: 2017-10-25
 photo: 2017-10-25.jpg
 ---
 

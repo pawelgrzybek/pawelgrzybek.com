@@ -1,7 +1,6 @@
 ---
 title: Div — a simple Alfred window manager
 description: I'm happy to present you Div — a simple Alfred window manager. Let me explain the full potential of this easy and powerful tool in this blog post.
-date: 2016-08-28
 photo: 2016-08-28.jpg
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Top picks — 2017 December
 description: React explained one more time, non-config bundler called Parcel, Turbo as a new npm alternative, mobile first indexing enable by default, better adds, JavaScript compiled to binaries and more on the last top picks of a 2017.
-date: 2017-12-31
 photo: top-picks.jpg
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Top picks — 2018 February
 description: Math concepts explained better, Phase — another Sketch compeitor is coming, event loop in JavaScript, debugging Node.js in VSCode and danger that comes with using third party scripts and stylesheets.
-date: 2018-02-28
 photo: top-picks.jpg
 ---
 

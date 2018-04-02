@@ -1,7 +1,6 @@
 ---
 title: Cloning DOM nodes and handling attached events
 description: As a creator and maintainer of a popular DOM library, I found myself in a situation where I had to clone an element. Sounds trivial? This is what I learnt.
-date: 2017-06-27
 photo: 2017-06-27.jpg
 ---
 

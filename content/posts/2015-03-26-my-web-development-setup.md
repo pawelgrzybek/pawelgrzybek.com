@@ -1,7 +1,6 @@
 ---
 title: My web development setup
 description: I like to read about tools, software, frameworks and frequently used tricks and tips of web developers. Today I would like to show you my set.
-date: 2015-03-26
 photo: 2015-03-26.jpg
 ---
 

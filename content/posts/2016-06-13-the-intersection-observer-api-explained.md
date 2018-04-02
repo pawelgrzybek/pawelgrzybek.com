@@ -1,7 +1,6 @@
 ---
 title: The Intersection Observer API explained
 description: Detecting when elements become visible on the viewport has always been an expensive task. Not anymore — the Intersection Observer API just landed in Chromium.
-date: 2016-06-13
 photo: 2016-06-13.jpg
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: I built a thing - an Alfred workflow to manage Things lists
 description: Alfred is my favourite productivity booster for macOS. Things is my GTD tool of choice that perfectly suits my workflow. I've connected the power of the two apps together.
-date: 2018-02-23
 photo: 2018-02-23.jpg
 ---
 

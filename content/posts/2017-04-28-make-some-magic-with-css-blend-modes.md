@@ -1,7 +1,6 @@
 ---
 title: Make some magic with CSS blend modes
 description: Remember the bloody wars between web designers and front-end developers about blend modes? Those times are over — thanks to the power of CSS!
-date: 2017-04-28
 photo: 2017-04-28.jpg
 ---
 

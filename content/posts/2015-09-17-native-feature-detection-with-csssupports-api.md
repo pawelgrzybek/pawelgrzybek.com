@@ -1,7 +1,6 @@
 ---
 title: Native feature detection with CSS.supports() API
 description: Feature detection is something that every front end developer faced at some point. CSS.supports() API allows us to use very elegant form to doing it.
-date: 2015-09-17
 photo: 2015-09-17.jpg
 ---
 

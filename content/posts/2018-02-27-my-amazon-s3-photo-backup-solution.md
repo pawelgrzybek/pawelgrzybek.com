@@ -1,7 +1,6 @@
 ---
 title: My Amazon S3 photo backup solution
 description: As an amateur photographer I have been looking for a cloud backup solution for years. Keeping a physical backup on an external hard drive is definitely not enough. Then I came across Amazon S3.
-date: 2018-02-27
 photo: 2018-02-27.jpg
 ---
 

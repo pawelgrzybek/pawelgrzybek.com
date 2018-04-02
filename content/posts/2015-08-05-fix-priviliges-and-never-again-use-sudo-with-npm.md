@@ -1,7 +1,6 @@
 ---
 title: Fix priviliges and never again use sudo with npm
 description: Running npm with sudo allows hackers to have full control over your computer. Fortunatelly it works perfectly fine without root powers. Let's fix it!
-date: 2015-08-05
 photo: 2015-08-05.jpg
 ---
 

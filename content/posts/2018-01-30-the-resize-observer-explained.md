@@ -1,7 +1,6 @@
 ---
 title: The Resize Observer explained
 description: How many occasions have you attached a resize listener to a whole document just to track changes on a single DOM element? Those times are over — the Resize Observer is here.
-date: 2018-01-30
 photo: 2018-01-30.jpg
 ---
 

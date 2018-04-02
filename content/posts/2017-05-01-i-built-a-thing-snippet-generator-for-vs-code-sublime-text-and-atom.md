@@ -1,7 +1,6 @@
 ---
 title: I built a thing - Snippet Generator for VS Code, Sublime Text and Atom
 description: Snippets — probably the most powerful feature of code editors. I love using them but I don't like creating them manually. Let me simplify things a little bit.
-date: 2017-05-01
 photo: 2017-05-01.jpg
 ---
 

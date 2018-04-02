@@ -1,7 +1,6 @@
 ---
 title: Loop through a collection of DOM elements
 description: Looping through a NodeList isn't as easy as iterating over a JavaScript array. In this article I am going to cover the possible methods (and hacks) to do it.
-date: 2016-10-19
 photo: 2016-10-19.jpg
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Background video made easy
 description: HTML5 comes with video tag that we can use to create video as a background with a little bit help from CSS. Let’s add some movement to our projects.
-date: 2015-12-06
 photo: 2015-12-06.jpg
 ---
 
