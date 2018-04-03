@@ -12,3 +12,7 @@ Cloudflare and APNIC joined their powers and as a result of this partnership 1.1
 ## [w descriptors and sizes: Under the hood](https://beta.observablehq.com/@eeeps/w-descriptors-and-sizes-under-the-hood)
 
 Eric Portis from Cloudinary elaborated about a `w` descriptor from `srcset` attribute used in markup for HTML responsive images. It is such a great read an [Observable](https://beta.observablehq.com/) makes it really helpful to understand its complexity. I can't think of a better guy to explain this concept than someone from Cloudinary team.
+
+## [Introducing TensorFlow.js: Machine Learning in Javascript](https://medium.com/tensorflow/introducing-tensorflow-js-machine-learning-in-javascript-bf3eab376db)
+
+TensorFlow — probably the most popular open-source machine learning framework just released a JavaScript implementation. This is the best option for client side developers to start a journey with ML (machine learning). Medium article is a great explainer, presents some demos and code examples.
