@@ -1,8 +1,7 @@
 ---
 title: "From Jekyll to Hugo! From GitHub Pages to Netlify!"
 description: "After a few years of blogging using Jekyll, my website became slow and I stopped enjoying working on fresh content. Hugo and Netlify have solved my problem."
-photo: 2018-04-05.jpg
-draft: true
+photo: 2018-04-03.jpg
 ---
 
 After a few years of blogging using [Jekyll](https://jekyllrb.com/), my website became slow and I stopped enjoying working on fresh content. The effortless integration of this static site generator with [GitHub Pages](https://pages.github.com/) was the only reason why I kept this setup for so long. A smart quote always looks good on a geeky article, so let me smash one by Benjamin Franklin.
@@ -15,7 +14,7 @@ Jekyll is a great tool and its integration with free GitHub hosting makes it a g
 
 Looking for a Jekyll replacement didn't take me long despite the fact that the [list of static site generators is enormous](https://staticsitegenerators.net/). Performance, great documentation and simplicity is all I need — [Hugo](https://gohugo.io/) seemed to be a perfect candidate. It is written entirely in [Go](https://golang.org/) which has been made famous by its concurrency (processing of multiple tasks simultaneously). [Setting up your first project](https://gohugo.io/getting-started/quick-start/) takes no time at all and [the fantastic documentation](https://gohugo.io/documentation/) makes adding custom functionality on top of it a breeze. I am not the only one who thinks that Hugo is fab! [Smashing Magazine](https://www.smashingmagazine.com/), [1Password](https://support.1password.com/) and [Let’s Encrypt](https://letsencrypt.org/) are also big fans just to name a few.
 
-As a result of this transition I have a smooth workflow, instant builds and most importantly I really enjoy blogging again. The compilation time hasn't been reduced from minutes to seconds, but to milliseconds. To rebuild over a hundred articles on these pages Hugo doesn't choke at all — 200ms is all it needs. Thank you [Bjørn Erik Pedersen](https://twitter.com/bepsays), [Steve Francia](https://twitter.com/spf13) and rest of the team for building this tool!
+As a result of this transition I have a smooth workflow, instant builds and most importantly I really enjoy blogging again. The compilation time hasn't been reduced from minutes to seconds, but to milliseconds. To rebuild over a hundred articles on this page Hugo doesn't choke at all — 200ms is all it needs. Thank you [Bjørn Erik Pedersen](https://twitter.com/bepsays), [Steve Francia](https://twitter.com/spf13) and rest of the team for building this tool!
 
 ## From GitHub Pages to Netlify
 
