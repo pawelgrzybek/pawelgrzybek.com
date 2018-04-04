@@ -10,7 +10,7 @@ A year ago I published a [summary of new features from the 2016 spec](https://pa
 
 ## Async functions
 
-Chained callbacks should have been ditched a long time ago. The combination of promises and generators provides a much better opportunity to work with asynchronous code in ECMAScript. [Async functions](https://tc39.github.io/ecmascript-asyncawait/) proposed by [Brian Terlson](https://twitter.com/bterlson) introduces a syntactic sugar for this powerful combination. [Jake Archibald](https://twitter.com/jaffathecake) published a [good introduction](https://developers.google.com/web/fundamentals/getting-started/primers/async-functions) to the subject but if you are looking for a deeper explanation with tons of examples and use cases I highly recommend you have a look at ["Understanding JavaScript’s async await"](https://ponyfoo.com/articles/understanding-javascript-async-await) by [Nicolás Bevacqua](https://twitter.com/nzgb).
+Chained callbacks should have been ditched a long time ago. The combination of promises and generators provides a much better opportunity to work with asynchronous code in ECMAScript. [Async functions](https://tc39.github.io/ecmascript-asyncawait/) proposed by [Brian Terlson](https://twitter.com/bterlson) introduces a syntactic sugar for this powerful combination. [Jake Archibald](https://twitter.com/jaffathecake) published a [good introduction](https://developers.google.com/web/fundamentals/primers/async-functions) to the subject but if you are looking for a deeper explanation with tons of examples and use cases I highly recommend you have a look at ["Understanding JavaScript’s async await"](https://ponyfoo.com/articles/understanding-javascript-async-await) by [Nicolás Bevacqua](https://twitter.com/nzgb).
 
 ```
 async function doSomething(id) {
@@ -33,7 +33,7 @@ async function doSomething(id) {
 
 > Support for hand-written JS or JS+asm.js that makes use of multiprocessing facilities for select tasks, such as image processing, asset management, or game AI.
 
-[A brief tutorial](https://github.com/tc39/ecmascript_sharedmem/blob/master/TUTORIAL.md) created by Lars T Hansen is a great explainer. [This article](http://www.2ality.com/2017/01/shared-array-buffer.html) by Dr. Axel Rauschmayer is a lengthy article that I highly encourage you to read if you would like to understand the background and dive deeper.
+[A brief tutorial](https://github.com/tc39/ecmascript_sharedmem/blob/master/TUTORIAL.md) created by Lars T Hansen is a great explainer. [This article](http://2ality.com/2017/01/shared-array-buffer.html) by Dr. Axel Rauschmayer is a lengthy article that I highly encourage you to read if you would like to understand the background and dive deeper.
 
 ## Object.values and Object.entries
 
@@ -85,7 +85,7 @@ Finally! [Jordan Harband & Rick Waldron](https://github.com/tc39/proposal-string
 
 ## Object.getOwnPropertyDescriptors
 
-Copying between two objects has never been simple and never more required than now. In the age of functional programming where an object's immutability is crucial, having a native method to help us with that would be perfect. Introduced in ES2015 `Object.assign()` seems to be a good candidate to do this, but unfortunately [it has its limitations](http://www.2ality.com/2016/02/object-getownpropertydescriptors.html). Jordan Harband & Andrea Giammarchi proposed [this feature](https://github.com/tc39/proposal-object-getownpropertydescriptors) to solve the issue.
+Copying between two objects has never been simple and never more required than now. In the age of functional programming where an object's immutability is crucial, having a native method to help us with that would be perfect. Introduced in ES2015 `Object.assign()` seems to be a good candidate to do this, but unfortunately [it has its limitations](http://2ality.com/2016/02/object-getownpropertydescriptors.html). Jordan Harband & Andrea Giammarchi proposed [this feature](https://github.com/tc39/proposal-object-getownpropertydescriptors) to solve the issue.
 
 ```js
 const source = {

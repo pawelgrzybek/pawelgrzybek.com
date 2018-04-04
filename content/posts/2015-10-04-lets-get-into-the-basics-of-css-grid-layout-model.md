@@ -6,7 +6,7 @@ photo: 2015-10-04.jpg
 
 CSS is getting stronger and gives us much more power than a few years ago. It is difficult to miss the huge buzz about Flexbox recently. This powerful part of CSS is well supported in all modern browsers and you don't have an excuse for not using it yet. I found it very helpful in some circumstances, but it's definitely not the ideal candidate for building entire layouts. We tend to build them using floating or inline blocking elements, but it’s definitely not reason why these features were created. For me this is a broken idea, exactly the same like using fonts for icons. CSS never had a built in feature just for building layouts so we don’t have a much choice and we need to use these hacks. The good news is that CSS Grid Layout Model is just around the corner and I'm really looking forward to using it. Let's dive into it together and rebuild some standard looking layout using some basic features of brand new model.
 
-At the point of writing this article [browser support for CSS Grid Layout Model](http://caniuse.com/#feat=css-grid) is minimal. The only browsers that supports it are Edge and latest Internet Explorer. Luckily we have full implementation of that feature in Google Chrome, not as a default setting though. The only thing that we need to do is to switch the 'Enable experimental Web Platform' flag and restart the browser.
+At the point of writing this article [browser support for CSS Grid Layout Model](https://caniuse.com/#feat=css-grid) is minimal. The only browsers that supports it are Edge and latest Internet Explorer. Luckily we have full implementation of that feature in Google Chrome, not as a default setting though. The only thing that we need to do is to switch the 'Enable experimental Web Platform' flag and restart the browser.
 
 ![Enable experimental Web Platform Flag](/photos/2015-10-04-1.gif)
 
@@ -150,7 +150,7 @@ How about even shorter? `grid-area` follows this order: `grid-row-start`, `grid-
 }
 ```
 
-And finally the result looks like this. Feel free to fork the [codpen](http://codepen.io/pawelgrzybek/pen/EVWKBd) example and play around with it.
+And finally the result looks like this. Feel free to fork the [codpen](https://codepen.io/pawelgrzybek/pen/EVWKBd) example and play around with it.
 
 ```css
 .wrapper {
@@ -172,7 +172,7 @@ And finally the result looks like this. Feel free to fork the [codpen](http://co
 }
 ```
 
-<p data-height="496" data-theme-id="14885" data-slug-hash="EVWKBd" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='http://codepen.io/pawelgrzybek/pen/EVWKBd/'>2015-10-04 Lets get into basics of CSS Grid Layout Model</a> by Pawel Grzybek (<a href='http://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="496" data-theme-id="14885" data-slug-hash="EVWKBd" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='https://codepen.io/pawelgrzybek/pen/EVWKBd/'>2015-10-04 Lets get into basics of CSS Grid Layout Model</a> by Pawel Grzybek (<a href='https://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Whats next?

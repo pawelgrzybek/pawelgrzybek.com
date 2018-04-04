@@ -20,7 +20,7 @@ However, things happen! Disks fail, people rob, rivers flood, comets fall. In ca
 
 ## What I consider to be a good cloud backup and things that I don't care about
 
-There are plenty of services that offer cloud storage for amateur and professional photographers. [Dropbox](http://dropbox.com), [Google Drive](https://drive.google.com/start), [Box](https://www.box.com/), [OneDrive](https://onedrive.live.com/), [Zoolz](https://home.zoolz.co.uk/) or [Backblaze](https://www.backblaze.com/) just to name a few.
+There are plenty of services that offer cloud storage for amateur and professional photographers. [Dropbox](https://dropbox.com), [Google Drive](https://www.google.com/drive/), [Box](https://www.box.com/), [OneDrive](https://onedrive.live.com/), [Zoolz](https://home.zoolz.co.uk/) or [Backblaze](https://www.backblaze.com/) just to name a few.
 
 There are a few key things that I need to get out of my cloud backup solution. Security first — I really don't want anyone to look at the pictures of my beautiful girlfriend. There is a reasonable chance that my collection will grow over time so auto-scaling and unlimited storage resources is another must-have. New services show up and vanish often and I am really not interested in investing my time in solutions that may not be around tomorrow. Do you remember [copy](https://copy.com/)? Quite a cool service but it didn't stay around for long though. Also price is an obvious factor of course.
 
@@ -64,7 +64,7 @@ In theory we are ready to use the service now but there is one thing that may he
 
 ### GUI or not
 
-Although the S3 web interface is very user friendly and fast, you may be interested in using a GUI (graphical user interface) tool to send files to your bucket. Luckily there are a lot of tools out there that let you access your Simple Storage Service easily. As a macOS user my personal preference is [ForkLift 3](https://binarynights.com/forklift/). [Transmit 5](https://panic.com/transmit/) is another app for the Apple system that has garnered a great reputation. Maybe [Cyberduck](https://cyberduck.io/)? [FileZilla Pro](https://filezillapro.com/ftp/mac/) and [S3 Browser](http://s3browser.com/) could be good options for Windows users. Play around with the available options and let me know about your preferred way to interact with S3 objects.
+Although the S3 web interface is very user friendly and fast, you may be interested in using a GUI (graphical user interface) tool to send files to your bucket. Luckily there are a lot of tools out there that let you access your Simple Storage Service easily. As a macOS user my personal preference is [ForkLift 3](https://binarynights.com/). [Transmit 5](https://panic.com/transmit/) is another app for the Apple system that has garnered a great reputation. Maybe [Cyberduck](https://cyberduck.io/)? [FileZilla Pro](https://filezillapro.com/ftp/mac/) and [S3 Browser](http://s3browser.com/) could be good options for Windows users. Play around with the available options and let me know about your preferred way to interact with S3 objects.
 
 ![Using Forklift 3 with Amazon S3](/photos/2018-02-27-4.jpg)
 

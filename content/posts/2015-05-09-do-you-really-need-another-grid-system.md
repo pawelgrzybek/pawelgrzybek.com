@@ -115,14 +115,14 @@ BOOM! Just two variables and two SASS mixins gives us a powerful tool to build g
 
 Standard blog layout with content area and sidebar. That is very easy one.
 
-<p data-height="216" data-theme-id="14885" data-slug-hash="RPrNXw" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='http://codepen.io/pawelgrzybek/pen/RPrNXw/'>Do you really need another grid system? - Easy blog layout</a> by Pawel Grzybek (<a href='http://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="216" data-theme-id="14885" data-slug-hash="RPrNXw" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='https://codepen.io/pawelgrzybek/pen/RPrNXw/'>Do you really need another grid system? - Easy blog layout</a> by Pawel Grzybek (<a href='https://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ### Two columns layout with nested gallery
 
 First part of creating this layout is similar to example above. It's more interesting with second grid that is nested inside on of the columns. Addition mixin argument (inside) used for nested gallery is necessary to reset extra padding.
 
-<p data-height="524" data-theme-id="14885" data-slug-hash="rVxVBK" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='http://codepen.io/pawelgrzybek/pen/rVxVBK/'>2015.05.09 - 2</a> by Pawel Grzybek (<a href='http://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="524" data-theme-id="14885" data-slug-hash="rVxVBK" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='https://codepen.io/pawelgrzybek/pen/rVxVBK/'>2015.05.09 - 2</a> by Pawel Grzybek (<a href='https://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ### Reordered columns inside the SASS grid system
@@ -140,7 +140,7 @@ To reorder columns, we need to add two very easy  and straight forward mixins. H
 }
 ```
 
-<p data-height="216" data-theme-id="14885" data-slug-hash="GogRQX" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='http://codepen.io/pawelgrzybek/pen/GogRQX/'>2015.05.09 - 3</a> by Pawel Grzybek (<a href='http://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="216" data-theme-id="14885" data-slug-hash="GogRQX" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='https://codepen.io/pawelgrzybek/pen/GogRQX/'>2015.05.09 - 3</a> by Pawel Grzybek (<a href='https://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Do you really need another grid system?

@@ -5,7 +5,7 @@ photo: top-picks.jpg
 ---
 
 ## Hate Comic Sans? You don’t know anything about typography
-[https://medium.com/@caliberi/you-hate-comic-sans-you-dont-know-anything-about-typography-5133fbd4c8c4](https://medium.com/@caliberi/you-hate-comic-sans-you-dont-know-anything-about-typography-5133fbd4c8c4)
+[https://blog.prototypr.io/you-hate-comic-sans-you-dont-know-anything-about-typography-5133fbd4c8c4](https://blog.prototypr.io/you-hate-comic-sans-you-dont-know-anything-about-typography-5133fbd4c8c4)
 
 Do you hate Comic Sans? Of course you do. Do you have a strong opinion about it or just follow the crowd? Thomas Payne shares his perspective and gives tons of interesting insights and facts about the most disliked typeface ever. I found extremely interesting the words of Comic Sans author…
 
@@ -25,7 +25,7 @@ Glen Maddern (the guy behind [Front End Center](https://frontend.center/)) recor
 
 [https://unwttng.com/compression-decompressed](https://unwttng.com/compression-decompressed)
 
-A great visual guide to compression, compression ratio and Kolmogorov complexity by [Jack Preston](Jack Preston). Very well presented! Great sense of humor.
+A great visual guide to compression, compression ratio and Kolmogorov complexity by [Jack Preston](https://twitter.com/unwttng). Very well presented! Great sense of humor.
 
 - - -
 

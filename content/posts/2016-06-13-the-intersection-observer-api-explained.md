@@ -4,7 +4,7 @@ description: Detecting when elements become visible on the viewport has always b
 photo: 2016-06-13.jpg
 ---
 
-Detecting which elements are visible within the current viewport's boundaries has always been a tricky and expensive task in terms of performance. Lazy loaded images on Medium.com, infinite scrolling pictures of vegan food on Pinterest or animated images on every f*****g Tumblr theme are just a few examples where this functionality can be found in abundance. [The reporting of ad "visibility"](http://www.iab.com/viewability-has-arrived-what-you-need-to-know-to-see-through-this-sea-change/) for monetizing purpose is another important use case. There's good news on the horizon though! The web platform doesn't have to struggle to do all these things manually anymore — [`The Intersection Observer API`](https://wicg.github.io/IntersectionObserver/) just landed in [Chromium 51](http://blog.chromium.org/2016/05/new-apis-to-help-developers-improve.html). It allows us to do these things with ease, reduce CPU usage, increase battery life and eliminate rendering junk.
+Detecting which elements are visible within the current viewport's boundaries has always been a tricky and expensive task in terms of performance. Lazy loaded images on Medium.com, infinite scrolling pictures of vegan food on Pinterest or animated images on every f*****g Tumblr theme are just a few examples where this functionality can be found in abundance. [The reporting of ad "visibility"](https://www.iab.com/viewability-has-arrived-what-you-need-to-know-to-see-through-this-sea-change/) for monetizing purpose is another important use case. There's good news on the horizon though! The web platform doesn't have to struggle to do all these things manually anymore — [`The Intersection Observer API`](https://www.w3.org/TR/intersection-observer/) just landed in [Chromium 51](https://blog.chromium.org/2016/05/new-apis-to-help-developers-improve.html). It allows us to do these things with ease, reduce CPU usage, increase battery life and eliminate rendering junk.
 
 Bare in mind that we are talking about a really new API. At the moment of writing this article the [browser support](https://www.chromestatus.com/feature/5695342691483648) is restricted to Google Chrome 51 and Opera 38. If you want to play around with it in older browsers give some thanks to [Surma](https://twitter.com/dassurma) for this great [polyfill](https://github.com/surma-dump/IntersectionObserver/blob/polyfill/polyfill/intersectionobserver-polyfill.js).
 
@@ -19,9 +19,9 @@ var watchMe = new IntersectionObserver(callback, options);
 watchMe.observe(elm);
 ```
 
-By default, the callback function will be fired whenever an element appears and leaves the viewport. The function returns an array of [`IntersectionObserverEntry`](https://wicg.github.io/IntersectionObserver/#intersection-observer-entry) objects and each of them contains properties about each element that has been shown on the viewport (`boundingClientRect`, `intersectionRatio`, `intersectionRect`, `rootBounds`, `target` and `time`).
+By default, the callback function will be fired whenever an element appears and leaves the viewport. The function returns an array of [`IntersectionObserverEntry`](https://www.w3.org/TR/intersection-observer/#intersection-observer-entry) objects and each of them contains properties about each element that has been shown on the viewport (`boundingClientRect`, `intersectionRatio`, `intersectionRect`, `rootBounds`, `target` and `time`).
 
-The second parameter (`options`) allows you to specify some settings by passing the [`IntersectionObserverInit`](https://wicg.github.io/IntersectionObserver/#intersection-observer-init) object. You can change the context (`root`) that defaults to `null` which is document’s viewport, the amount of margin from the context's boundaries (`rootMargin`) with a default value `0px`, and finally an array of `threshold` which is a list of thresholds at which to trigger the callback.
+The second parameter (`options`) allows you to specify some settings by passing the [`IntersectionObserverInit`](https://www.w3.org/TR/intersection-observer/#intersection-observer-init) object. You can change the context (`root`) that defaults to `null` which is document’s viewport, the amount of margin from the context's boundaries (`rootMargin`) with a default value `0px`, and finally an array of `threshold` which is a list of thresholds at which to trigger the callback.
 
 If you need to observe more than one element, simply call the `observe` method multiple times.
 
@@ -62,7 +62,7 @@ for (let elm of elements) {
 ```
 
 <p>
-<p data-height="400" data-theme-id="dark" data-slug-hash="YWqWXJ" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/pawelgrzybek/pen/YWqWXJ/">Intersection Observer API explained</a> by Pawel Grzybek (<a href="http://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="400" data-theme-id="dark" data-slug-hash="YWqWXJ" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/YWqWXJ/">Intersection Observer API explained</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 

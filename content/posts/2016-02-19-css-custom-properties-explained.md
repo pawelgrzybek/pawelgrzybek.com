@@ -153,7 +153,7 @@ document.documentElement.style.setProperty('--brand-color', 'purple');
 
 ## Detect the browser support for CSS Custom Properties
 
-Browser support for [CSS Variables](http://caniuse.com/#search=css%20var) isn't great at the time of writing this article. Google Chrome 49+, Firefox 31+, Safari 9.1+ and iOS 9.3+ doesn't make it reliable enough to use it in production. Luckily we have a few methods to detect the hero of today's article. [Native feature detection with CSS.supports() API](https://pawelgrzybek.com/native-feature-detection-with-csssupports-api/) helps us with that. Lets have a look at how to use it in CSS and JavaScript.
+Browser support for [CSS Variables](https://caniuse.com/#search=css%20var) isn't great at the time of writing this article. Google Chrome 49+, Firefox 31+, Safari 9.1+ and iOS 9.3+ doesn't make it reliable enough to use it in production. Luckily we have a few methods to detect the hero of today's article. [Native feature detection with CSS.supports() API](https://pawelgrzybek.com/native-feature-detection-with-csssupports-api/) helps us with that. Lets have a look at how to use it in CSS and JavaScript.
 
 ```css
 body {
@@ -207,7 +207,7 @@ testCSSVariables();
 
 ## Day / night mode switch
 
-Codepen is already full of beautiful projects that use CSS Custom Properties. Mine is nothing near this level of creativity but I had good fun doing it. Before checking example below, please make sure your browser [supports CSS Custom Properties](http://caniuse.com/#feat=css-variables) first. I'm super curious about how you use CSS Custom Properties. Don't be shy and post a link in the comments section :)
+Codepen is already full of beautiful projects that use CSS Custom Properties. Mine is nothing near this level of creativity but I had good fun doing it. Before checking example below, please make sure your browser [supports CSS Custom Properties](https://caniuse.com/#feat=css-variables) first. I'm super curious about how you use CSS Custom Properties. Don't be shy and post a link in the comments section :)
 
-<p data-height="391" data-theme-id="14885" data-slug-hash="KVLmXQ" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='http://codepen.io/pawelgrzybek/pen/KVLmXQ/'>2016-02-19-css-custom-properties-explained</a> by Pawel Grzybek (<a href='http://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="391" data-theme-id="14885" data-slug-hash="KVLmXQ" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='https://codepen.io/pawelgrzybek/pen/KVLmXQ/'>2016-02-19-css-custom-properties-explained</a> by Pawel Grzybek (<a href='https://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

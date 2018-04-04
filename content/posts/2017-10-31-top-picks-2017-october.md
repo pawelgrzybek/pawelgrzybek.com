@@ -30,7 +30,7 @@ Chris Coyier collected a great list of tips to build a slider in pure HTML and C
 
 ## Firefox Quantum
 
-[https://www.mozilla.org/en-US/firefox/quantum/](https://www.mozilla.org/en-US/firefox/quantum/)
+[https://www.mozilla.org/en-US/firefox/](https://www.mozilla.org/en-US/firefox/)
 
 New generation of one of the most popular browsers is coming. Firefox Quantum apparently is twice as fast and requires 30% less energy than the most popular Google Chrome. Apart from internal changes it is entirely redesigned — screen shots available on demo website look really stunning. Will new Mozilla product shake the world of browsers again — I hope so! November 14th is the day — for now enjoy a beautiful presentation page.
 
@@ -46,7 +46,7 @@ Few years ago Sketch was born. Successful app that entirely changed the UI desig
 
 ## Welcome Adobe XD CC
 
-[https://blogs.adobe.com/creativecloud/welcome-adobe-xd-cc/](https://blogs.adobe.com/creativecloud/welcome-adobe-xd-cc/)
+[https://theblog.adobe.com/welcome-adobe-xd-cc/](https://theblog.adobe.com/welcome-adobe-xd-cc/)
 
 Boom! Just wrote about InVision Studio just to read another big announcement. Adobe XD is officially out od beta and you can have it for £9.98/month in new Single App plan.
 

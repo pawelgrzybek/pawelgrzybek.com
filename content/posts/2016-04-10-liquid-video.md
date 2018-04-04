@@ -42,5 +42,5 @@ var LiquidVideo = require('liquid-video');
 var lv = new LiquidVideo(document.querySelectorAll('.post iframe'));
 ```
 
-<p data-height="429" data-theme-id="14885" data-slug-hash="vGxqaq" data-default-tab="result" data-user="pawelgrzybek" class="codepen">See the Pen <a href="http://codepen.io/pawelgrzybek/pen/vGxqaq/">Liquid video</a> by Pawel Grzybek (<a href="http://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="429" data-theme-id="14885" data-slug-hash="vGxqaq" data-default-tab="result" data-user="pawelgrzybek" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/vGxqaq/">Liquid video</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

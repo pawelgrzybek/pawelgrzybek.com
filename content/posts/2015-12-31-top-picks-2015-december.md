@@ -66,7 +66,7 @@ Sarah Drainer shared with us long list of front end related conferences in 2016.
 
 [http://philipwalton.com/articles/why-im-excited-about-native-css-variables/](http://philipwalton.com/articles/why-im-excited-about-native-css-variables/)
 
-[Philip Walton](https://twitter.com/philwalton) from Google explains the general difference between preprocessors variables and new custom properties. This feature is already available in [Firefox and in Google Chrome](http://caniuse.com/#feat=css-variables) behind the experimental flag. Hopefully it is going to be implemented in core of browsers because it can make our life much easier. I have so many practical use cases for this in my head, but I will keep these ideas for future article.
+[Philip Walton](https://twitter.com/philwalton) from Google explains the general difference between preprocessors variables and new custom properties. This feature is already available in [Firefox and in Google Chrome](https://caniuse.com/#feat=css-variables) behind the experimental flag. Hopefully it is going to be implemented in core of browsers because it can make our life much easier. I have so many practical use cases for this in my head, but I will keep these ideas for future article.
 
 - - -
 

@@ -24,7 +24,7 @@ I learned tons about authentication, authorization, and user management from [Ra
 
 ## Sketch — Libraries (Beta)
 
-[https://sketchapp.com/learn/documentation/libraries/](https://sketchapp.com/learn/documentation/libraries/)
+[https://sketchapp.com/docs/libraries/](https://sketchapp.com/docs/libraries/)
 
 Sketch 47 comes with another revolutionary feature called Libraries. If you are a Sketch user, it won't take long to master new version. The concept is essentially the same as using symbols — the only difference is the fact that symbols are no longer attached to a single document and become global. If the file is marked as a library you can drop it to your server or local network and use with all team members. It will make projects well synced and consistent. I'm sure the players of big design teams will benefit from this feature. [This Medium article](https://medium.com/ux-power-tools/sketch-libraries-how-they-work-and-the-crazy-stuff-you-can-do-with-them-fc10f142ac80) by [Jon Moore](https://twitter.com/uxpowertools) is a great primer to this feature.
 
@@ -42,7 +42,7 @@ Jake Archibald wrote a nice primer to bleeding edge `createImageBitmap` API that
 
 [http://2ality.com/2017/09/native-esm-node.html](http://2ality.com/2017/09/native-esm-node.html)
 
-Native support for ECMAScript modules in Node should be dropped with version 10 LTS. Thanks to [Bradley Farias](Bradley Farias) we may play around with a current version of Node by passing a flag `--experimental-modules`. On this article [Dr. Axel Rauschmayer](https://twitter.com/rauschma) explains technical details and provides an example.
+Native support for ECMAScript modules in Node should be dropped with version 10 LTS. Thanks to [Bradley Farias](https://twitter.com/bradleymeck) we may play around with a current version of Node by passing a flag `--experimental-modules`. On this article [Dr. Axel Rauschmayer](https://twitter.com/rauschma) explains technical details and provides an example.
 
 - - -
 
@@ -51,13 +51,6 @@ Native support for ECMAScript modules in Node should be dropped with version 10 
 [https://www.sublimetext.com/blog/articles/sublime-text-3-point-0](https://www.sublimetext.com/blog/articles/sublime-text-3-point-0)
 
 Finally! After years of waiting and lots of people migrating to other tools like an Atom or my favorite Visual Studio Code — Sublime Text just officially hit version 3. The upgrade costs next to noting (in majority of cases it is totally for free) and the brand new license costs just 80$. Made from grounds up, redesigned with brand new website and documentation! Worth dropping money for!
-
-- - -
-
-## What's Coming in EdgeHTML 16
-[https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/whats-new/edgehtml-16](https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/whats-new/edgehtml-16)
-
-New Microsoft EDGE is coming with quite big and important changes. CSS Grid Layout, CSS `object-fit` and `object-position`, improved Developer Tools, Payment Request API, Service Workers, WebVR and tons of minor improvements. Sounds silly but I'm the most excited about CSS `object-fit` in Microsoft product. Finally!
 
 - - -
 

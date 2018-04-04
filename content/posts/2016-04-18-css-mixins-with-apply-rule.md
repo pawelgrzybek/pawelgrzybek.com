@@ -33,7 +33,7 @@ h1 {
 }
 ```
 
-<p data-height="170" data-theme-id="dark" data-slug-hash="MyGVoo" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/pawelgrzybek/pen/MyGVoo/">2016.04.18 - 1</a> by Pawel Grzybek (<a href="http://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="170" data-theme-id="dark" data-slug-hash="MyGVoo" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/MyGVoo/">2016.04.18 - 1</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Local variables in CSS mixins

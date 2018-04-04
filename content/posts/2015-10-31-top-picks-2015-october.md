@@ -112,6 +112,6 @@ One of the most popular MVC frameworks is finally released in version 1.0. If yo
 
 ## Jekyll 3.0 Released
 
-[http://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/](http://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/)
+[https://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/](https://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/)
 
 It’s been a month of updates. This one is one the most important for me. As a big fun of Jekyll I’m looking forward to play around with new things in new Jekyll 3.0. Profiler is the most important new feature. Check it up! If you would like to see a video from official presentation of latest version of Jekyll, you can find it [here](https://youtu.be/sPZK8w55cBQ).

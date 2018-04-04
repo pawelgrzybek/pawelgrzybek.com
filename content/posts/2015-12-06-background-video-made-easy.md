@@ -82,12 +82,12 @@ If we cannot provide high quality video, we need to find a way to mask artefacts
 
 [Paternity](http://www.patternify.com/) is a super cool tool that you can use to quickly generate base64 patters. It takes few seconds to create one and get a code to paste straight into your project. I created few ready to copy/paste examples for you.
 
-<p data-height="250" data-theme-id="14885" data-slug-hash="JGjLeM" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='http://codepen.io/pawelgrzybek/pen/JGjLeM/'>JGjLeM</a> by Pawel Grzybek (<a href='http://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="250" data-theme-id="14885" data-slug-hash="JGjLeM" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='https://codepen.io/pawelgrzybek/pen/JGjLeM/'>JGjLeM</a> by Pawel Grzybek (<a href='https://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Final result
 
 Hopefully you found it useful. If you have any advice on how can I improve my technique, please let me know in the comments below. If you liked it, please [follow me on twitter](https://twitter.com/pawelgrzybek) to don’t miss future articles on my blog.
 
-<p data-height="410" data-theme-id="14885" data-slug-hash="WrNpJj" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='http://codepen.io/pawelgrzybek/pen/WrNpJj/'>Background video test</a> by Pawel Grzybek (<a href='http://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="410" data-theme-id="14885" data-slug-hash="WrNpJj" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='https://codepen.io/pawelgrzybek/pen/WrNpJj/'>Background video test</a> by Pawel Grzybek (<a href='https://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

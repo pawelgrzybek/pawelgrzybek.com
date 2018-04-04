@@ -43,7 +43,7 @@ This is a good news for all publishers and everyday Google Chrome users. [Coalit
 
 ## commandlinefu.com
 
-[http://www.commandlinefu.com/](http://www.commandlinefu.com/)
+[http://www.commandlinefu.com/](http://www.commandlinefu.com/index.php)
 
 Tons of great command line tricks and tips!
 

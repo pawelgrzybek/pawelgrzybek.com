@@ -85,7 +85,7 @@ class myElement {
 };
 ```
 
-<p><p data-height="584" data-theme-id="dark" data-slug-hash="KWyPQq" data-default-tab="js,result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="1" class="codepen">See the Pen <a href="http://codepen.io/pawelgrzybek/pen/KWyPQq/">1</a> by Pawel Grzybek (<a href="http://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p><p data-height="584" data-theme-id="dark" data-slug-hash="KWyPQq" data-default-tab="js,result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="1" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/KWyPQq/">1</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></p>
 
 Fluent interface explained. Bye :-*

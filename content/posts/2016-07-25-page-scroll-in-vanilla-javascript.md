@@ -15,7 +15,7 @@ $('.js-btn').click(() => {
 ```
 
 <p>
-<p data-height="350" data-theme-id="14885" data-slug-hash="akqXro" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/pawelgrzybek/pen/akqXro/">Page scrolling in vanilla JavaScript 1</a> by Pawel Grzybek (<a href="http://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="350" data-theme-id="14885" data-slug-hash="akqXro" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/akqXro/">Page scrolling in vanilla JavaScript 1</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
@@ -200,13 +200,13 @@ document.querySelector('.js-btn50000').addEventListener('click', () => scrollIt(
 ```
 
 <p>
-<p data-height="390" data-theme-id="dark" data-slug-hash="ZeomJB" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="PURE JS scrolling" class="codepen">See the Pen <a href="http://codepen.io/pawelgrzybek/pen/ZeomJB/">PURE JS scrolling</a> by Pawel Grzybek (<a href="http://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="390" data-theme-id="dark" data-slug-hash="ZeomJB" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="PURE JS scrolling" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/ZeomJB/">PURE JS scrolling</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
 ### A future solution using scroll-behavior: smooth
 
-**UPDATE!** As correctly pointed out by [Šime Vidas](https://twitter.com/simevidas) there is another solution. There is a property of the [CSSOM View module](https://developer.mozilla.org/en-US/docs/Web/CSS/CSSOM_View) called [`scroll-behavior`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior). This is a native solution for the problem that I'm trying to solve by my script. The implementation is extremely easy, but unfortunately this method [isn't supported well enough](http://caniuse.com/#feat=css-scroll-behavior) to be used reliably (yet). It doesn't allow us to control timing functions or the duration either. It takes the user-agent values as its defaults. If you want to test examples below, use Firefox or Google Chrome with [Experimental Web Platform features](chrome://flags/#enable-experimental-web-platform-features) flag enabled.
+**UPDATE!** As correctly pointed out by [Šime Vidas](https://twitter.com/simevidas) there is another solution. There is a property of the [CSSOM View module](https://developer.mozilla.org/en-US/docs/Web/CSS/CSSOM_View) called [`scroll-behavior`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior). This is a native solution for the problem that I'm trying to solve by my script. The implementation is extremely easy, but unfortunately this method [isn't supported well enough](https://caniuse.com/#feat=css-scroll-behavior) to be used reliably (yet). It doesn't allow us to control timing functions or the duration either. It takes the user-agent values as its defaults. If you want to test examples below, use Firefox or Google Chrome with [Experimental Web Platform features](chrome://flags/#enable-experimental-web-platform-features) flag enabled.
 
 ```js
 function scrollIt(element) {
@@ -224,7 +224,7 @@ scrollIt(elm);
 ```
 
 <p>
-<p data-height="300" data-theme-id="14885" data-slug-hash="QEAZdP" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/pawelgrzybek/pen/QEAZdP/">2016.07.25 - 3</a> by Pawel Grzybek (<a href="http://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="300" data-theme-id="14885" data-slug-hash="QEAZdP" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/QEAZdP/">2016.07.25 - 3</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
@@ -242,10 +242,10 @@ body {
 ```
 
 <p>
-<p data-height="350" data-theme-id="14885" data-slug-hash="RRyXxJ" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/pawelgrzybek/pen/RRyXxJ/">2016.07.25 - 4</a> by Pawel Grzybek (<a href="http://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="350" data-theme-id="14885" data-slug-hash="RRyXxJ" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/RRyXxJ/">2016.07.25 - 4</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
 ## Wrap it up
 
-Please let me know what you think about my solution. I know that the [browser support](http://caniuse.com/#feat=requestanimationframe) isn't that amazing compared to the usual jQuery solution. The compromise between browser support, bloating code and performance is a question that you need to answer yourself depending on your project. I had good fun building this script but it's even more enjoyable for me to share it with you.
+Please let me know what you think about my solution. I know that the [browser support](https://caniuse.com/#feat=requestanimationframe) isn't that amazing compared to the usual jQuery solution. The compromise between browser support, bloating code and performance is a question that you need to answer yourself depending on your project. I had good fun building this script but it's even more enjoyable for me to share it with you.

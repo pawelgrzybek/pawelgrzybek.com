@@ -63,7 +63,7 @@ Surma from Google explains something that I am well excited about — canvas for
 
 ## [Bootstrap 4](http://blog.getbootstrap.com/2018/01/18/bootstrap-4/)
 
-Personally I don't use any frameworks, but working as a front end developer, it is hard to not to do something related with a Bootstrap. Version 3 came out in 2015 and about 3 years and 6000 commits later, there it is — Bootstrap 4.0. Nice [Mark Otto](Mark Otto) and team!
+Personally I don't use any frameworks, but working as a front end developer, it is hard to not to do something related with a Bootstrap. Version 3 came out in 2015 and about 3 years and 6000 commits later, there it is — Bootstrap 4.0. Nice [Mark Otto](https://twitter.com/mdo) and team!
 
 
 ## [Vanishing boxes with display contents](https://rachelandrew.co.uk/archives/2016/01/29/vanishing-boxes-with-display-contents/)

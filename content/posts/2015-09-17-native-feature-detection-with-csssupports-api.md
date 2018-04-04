@@ -25,7 +25,7 @@ if (CSS.supports('background', 'conic-gradient(#eee, #bbb)')) {
 
 ## Poor support for @support
 
-I know this heading sounds weird, but it's cruel reality. This feature is too nice to be ready to use. [Browser support](http://caniuse.com/#feat=css-supports-api) isn't good at all.
+I know this heading sounds weird, but it's cruel reality. This feature is too nice to be ready to use. [Browser support](https://caniuse.com/#feat=css-supports-api) isn't good at all.
 
 - Internet Explorer and Opera Mini - forgot about it
 - Edge is OK
