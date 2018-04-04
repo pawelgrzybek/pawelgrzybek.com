@@ -15,7 +15,7 @@
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <description>{{ .Description }}</description>
+      <description>{{ .Content }}</description>
       <author>Pawel Grzybek</author>
       <guid>{{ .Permalink }}</guid>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
