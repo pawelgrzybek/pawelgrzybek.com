@@ -4,8 +4,6 @@ description: Running npm with sudo allows hackers to have full control over your
 photo: 2015-08-05.jpg
 ---
 
-{{% update %}}This article is few years old. I wouldn't recommend this method today. Simple `brew instal node` does the job very well!{{% /update %}}
-
 We have a few options to install Node and npm. Using [Homebrew](http://brew.sh/) is the safest and recommended way to do it. Another safety option is using [Node Version Manager](https://github.com/creationix/nvm). Next method is using [installer available on official node website](https://nodejs.org/). This way is the most obvious and the easiest one, but not necessarily the safest one. Fortunately there is a very easy fix.
 
 If you used installer, whenever you want to install a package globally you need to use a super user power to do it. For example:
