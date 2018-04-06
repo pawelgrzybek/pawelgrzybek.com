@@ -4,6 +4,8 @@ description: For years Adobe products were the obvious choice for web designers.
 photo: 2015-08-11.jpg
 ---
 
+
+
 Adobe Photoshop, Adobe Illustrator and Adobe Fireworks were web design industry standard for many years. Everybody is familiar with these tools not because they are incredibly amazing but because they were the only choice. Some time ago Adobe changed their sales model to a monthly subscription. So many web developers and designers (including myself) were not very happy with that politics. Fortunately few new applications came out recently and finally we have the opportunity to use something else. I have tested a few of them: Sketch for UI and Pixelmator and Affinity Photo for photo retouching. Finally I'm ready to leave Adobe’s world!
 
 My toolset of choice is Sketch + Affinity Photo. I can't describe how amazing these two tools are. Pixelmator is an amazing piece of software as well, but it doesn't do anything that I'm not able to do with Affinity Photo. Let me list few things that I like the most in my new set of design software.
