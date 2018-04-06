@@ -1,0 +1,21 @@
+.update {
+  position: relative;
+  padding: $lh;
+  background-color: lighten($color-link, 45%);
+  box-shadow: 0 0 0 1px lighten($color-link, 30%);
+
+  &::before {
+    position: absolute;
+    top: -$lh / 2;
+    left: $lh / 2;
+    height: $lh;
+    padding: 0 ($lh / 2);
+    background-color: lighten($color-link, 30%);
+    color: #fff;
+    font-size: $fz / $type-scale;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    content: 'Update';
+  }
+}
