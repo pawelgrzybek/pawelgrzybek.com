@@ -16,3 +16,7 @@ Eric Portis from Cloudinary elaborated about a `w` descriptor from `srcset` attr
 ## [Introducing TensorFlow.js: Machine Learning in Javascript](https://medium.com/tensorflow/introducing-tensorflow-js-machine-learning-in-javascript-bf3eab376db)
 
 TensorFlow — probably the most popular open-source machine learning framework just released a JavaScript implementation. This is the best option for client side developers to start a journey with ML (machine learning). Medium article is a great explainer, presents some demos and code examples.
+
+## [How browsers position floats](https://float-layout.glitch.me/)
+
+CSS `float` property has always been a tricky one to grasp by newcomers. Luckily flexbox and grid are great solutions for things that we always tried to solve by floating elements. For curious ones, this visual demo created by smart Google developers explains the concept very well.
