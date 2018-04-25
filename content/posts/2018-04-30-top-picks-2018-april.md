@@ -1,7 +1,7 @@
 ---
 title: "Top picks — 2018 April"
 description: ""
-photo: 2018-04-02.jpg
+photo: 2018-04-30.jpg
 draft: true
 ---
 
