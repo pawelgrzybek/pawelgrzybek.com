@@ -1,5 +1,5 @@
 ---
-title: "React Context API"
+title: "Escape the maze of React props with the Context API"
 description: ""
 photo: 2018-04-26.jpg
 draft: true
