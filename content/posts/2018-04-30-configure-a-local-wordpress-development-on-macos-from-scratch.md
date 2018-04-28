@@ -193,4 +193,8 @@ alias am-stop="sudo apachectl stop && mysql.server stop"
 
 ## Enjoy WordPressing
 
-Voilà! We ended up with a robust local environment for your Wordpress development. You can easily run other frameworks like [Laravel](https://laravel.com/) on this setup with ease. I hope that you found this article helpful. Until next time!
+Voilà! We ended up with a robust local environment for your Wordpress development. You can easily run other frameworks like [Laravel](https://laravel.com/) on this setup with ease. I hope that you found this article helpful.
+
+I almost forgot! Thanks a ton for proofreading to [Marcin Krzemiński](https://twitter.com/krzeminskinet) who gave me tons of great advices how to make this article better. I highly advice this dude for any Wordpress related stuff — he knows his craft!
+
+Until next time!
