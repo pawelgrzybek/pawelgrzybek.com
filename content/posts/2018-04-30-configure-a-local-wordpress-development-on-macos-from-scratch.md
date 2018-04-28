@@ -2,7 +2,6 @@
 title: "Configure a local Wordpress development on macOS from scratch"
 description: "So you are about to build a WordPress website. Apache HTTP Server, PHP and MySQL database is all that you need. Let me guide you step by step."
 photo: 2018-04-30.jpg
-draft: true
 ---
 
 So you are a [macOS](https://www.apple.com/uk/macos/) user and you want to configure a local environment to build a [WordPress](https://wordpress.org/) project. Great choice, it is a fantastic piece of software! There are plenty of tools that let you set it up in no time at no cost — [MAMP](https://www.mamp.info/) and [XAMPP](https://www.apachefriends.org/) are probably the best choices for beginners. Smashing Magazine just published ["WordPress Local Development For Beginners: From Setup To Deployment" by Nick Schäferhoff](https://www.smashingmagazine.com/2018/04/wordpress-local-development-beginners-setup-deployment/) which is a great guide through the journey using these kind of tools. There is one disadvantage though — applications like that hide lots of important details from user and come pre-bundled with lots of stuff that you just don't need to run a Wordpress website.
