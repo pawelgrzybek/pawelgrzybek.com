@@ -1,8 +1,7 @@
 ---
 title: "Configure a local Wordpress development on macOS from scratch"
 description: "So you're about to build a WordPress website. An Apache HTTP Server, PHP and MySQL database is all that you need. Let me guide you step by step."
-photo: 2018-04-30.jpg
-draft: true
+photo: 2018-04-29.jpg
 ---
 
 So you are a [macOS](https://www.apple.com/uk/macos/) user and you want to configure a local environment to build a [WordPress](https://wordpress.org/) project. Great choice, it is a fantastic piece of software! There are plenty of tools that let you set it up in no time at no cost — [MAMP](https://www.mamp.info/) and [XAMPP](https://www.apachefriends.org/) are probably the best choices for beginners. Smashing Magazine just published an article called ["WordPress Local Development For Beginners: From Setup To Deployment" by Nick Schäferhoff](https://www.smashingmagazine.com/2018/04/wordpress-local-development-beginners-setup-deployment/) which is a great guide that takes you through the journey when using these kinds of tools. There is one disadvantage though — applications like these hide lots of important details from the user and come pre-bundled with lots of stuff that you just don't need to run a Wordpress website.
@@ -11,7 +10,7 @@ My approach is a little bit more complicated but gives you enough knowledge abou
 
 ## Configure an Apache HTTP server and enable PHP
 
-The Apache HTTP Server and PHP language are already on your machine. You can confirm they are installed by checking the current version for each of them in the Terminal app.
+The Apache HTTP Server and PHP language are already on your machine. You can confirm they are installed by checking the current version for each of them in the command line.
 
 ```
 apachectl -v
@@ -27,7 +26,7 @@ Before we run the server we need to make a tiny adjustment in its configuration 
 sudo nano /etc/apache2/httpd.conf
 ```
 
-![Apache httpd configuration file](/photos/2018-04-30-1.jpg)
+![Apache httpd configuration file](/photos/2018-04-29-1.jpg)
 
 This is the main Apache configuration file that contains tons of helpful comments about all the available directives. We need to proceed with a few tweaks here:
 
@@ -104,7 +103,7 @@ Hopefully the commands are self-explanatory. Please bare in mind that every sing
 
 Test time! Now let's create a test `index.php` file in the root directory that we specified in the Apache configuration file (`/Users/pawelgrzybek/Sites/index.php` in my case). Put a `<?php phpinfo();` in there please. If you followed my previous instructions carefully, this is what you should see under [http://localhost/](http://localhost/).
 
-![PHP info page on Apache on macOS](/photos/2018-04-30-2.jpg)
+![PHP info page on Apache on macOS](/photos/2018-04-29-2.jpg)
 
 ## Point *.localhost domains to 127.0.0.1
 
@@ -116,7 +115,7 @@ My convention is to use `.localhost` as a domain suffix for locally stored websi
 sudo nano /etc/hosts
 ```
 
-![Add local domains to hosts file on macOS](/photos/2018-04-30-3.jpg)
+![Add local domains to hosts file on macOS](/photos/2018-04-29-3.jpg)
 
 ## MySQL to store data, Sequel Pro to manage it
 
@@ -132,7 +131,7 @@ brew cask install sequel-pro
 
 Now you have everything that you need. Run a `mysql.server start` command to initialise a MySQL daemon and launch your recently installed Sequel Pro app to create the first database that we are going to use on our website later on. On the initial screen use a descriptive name for your connection, `127.0.0.1` as a host, `root` as a username, keep the password blank and hit the "Connect" button.
 
-![Configure a connection to local database via Sequel Pro](/photos/2018-04-30-4.jpg)
+![Configure a connection to local database via Sequel Pro](/photos/2018-04-29-4.jpg)
 
 Are you in? From the dropdown in the top-left corner pick "Add database…", give it a meaningful name (I always follow the convention: `localhost_nameofawebsite`), confirm and you are done.
 
@@ -177,7 +176,7 @@ The `DocumentRoot` tells Apache which directory the domain specified under the `
 sudo apachectl restart
 ```
 
-![WordPress website running locally](/photos/2018-04-30-5.jpg)
+![WordPress website running locally](/photos/2018-04-29-5.jpg)
 
 ## Helpful tip
 
@@ -193,6 +192,6 @@ alias am-stop="sudo apachectl stop && mysql.server stop"
 
 Voilà! We ended up with a robust local environment for your Wordpress development. You can easily run other frameworks like [Laravel](https://laravel.com/) on this setup with ease. I hope that you found this article helpful.
 
-I almost forgot! Thanks a ton for proofreading to [Marcin Krzemiński](https://twitter.com/krzeminskinet) who gave me tons of great advices how to make this article better. I highly advice this dude for any Wordpress related stuff — he knows his craft!
+I almost forgot! Thanks a ton for proofreading to [Marcin Krzemiński](https://twitter.com/krzeminskinet) who gave me lots of great advices how to make this article better. I highly advice this dude for any Wordpress related stuff — he knows his craft!
 
 Until next time!
