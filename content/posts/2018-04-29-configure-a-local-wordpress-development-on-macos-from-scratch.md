@@ -1,10 +1,10 @@
 ---
-title: "Configure a local Wordpress development on macOS from scratch"
+title: "Configure a local WordPress development on macOS from scratch"
 description: "So you're about to build a WordPress website. An Apache HTTP Server, PHP and MySQL database is all that you need. Let me guide you step by step."
 photo: 2018-04-29.jpg
 ---
 
-So you are a [macOS](https://www.apple.com/uk/macos/) user and you want to configure a local environment to build a [WordPress](https://wordpress.org/) project. Great choice, it is a fantastic piece of software! There are plenty of tools that let you set it up in no time at no cost — [MAMP](https://www.mamp.info/) and [XAMPP](https://www.apachefriends.org/) are probably the best choices for beginners. Smashing Magazine just published an article called ["WordPress Local Development For Beginners: From Setup To Deployment" by Nick Schäferhoff](https://www.smashingmagazine.com/2018/04/wordpress-local-development-beginners-setup-deployment/) which is a great guide that takes you through the journey when using these kinds of tools. There is one disadvantage though — applications like these hide lots of important details from the user and come pre-bundled with lots of stuff that you just don't need to run a Wordpress website.
+So you are a [macOS](https://www.apple.com/uk/macos/) user and you want to configure a local environment to build a [WordPress](https://wordpress.org/) project. Great choice, it is a fantastic piece of software! There are plenty of tools that let you set it up in no time at no cost — [MAMP](https://www.mamp.info/) and [XAMPP](https://www.apachefriends.org/) are probably the best choices for beginners. Smashing Magazine just published an article called ["WordPress Local Development For Beginners: From Setup To Deployment" by Nick Schäferhoff](https://www.smashingmagazine.com/2018/04/wordpress-local-development-beginners-setup-deployment/) which is a great guide that takes you through the journey when using these kinds of tools. There is one disadvantage though — applications like these hide lots of important details from the user and come pre-bundled with lots of stuff that you just don't need to run a WordPress website.
 
 My approach is a little bit more complicated but gives you enough knowledge about the environment to walk away confidently. An [Apache HTTP server](https://httpd.apache.org/), [MySQL database](https://www.mysql.com/) and [PHP programming language](http://php.net/) is all that we need and, believe it or not, your Apple computer comes with the majority of these elements baked in.
 
@@ -61,7 +61,7 @@ new: LoadModule rewrite_module libexec/apache2/mod_rewrite.so
 
 ### Enable PHP
 
-Wordpress is written in PHP. That being so our server surely needs to know how to deal with `.php` files. It is as easy as uncommenting `LoadModule php7_module libexec/apache2/libphp7.so` (line 176 in my case).
+WordPress is written in PHP. That being so our server surely needs to know how to deal with `.php` files. It is as easy as uncommenting `LoadModule php7_module libexec/apache2/libphp7.so` (line 176 in my case).
 
 ```
 old: #LoadModule php7_module libexec/apache2/libphp7.so
@@ -180,7 +180,7 @@ sudo apachectl restart
 
 ## Helpful tip
 
-As a front end developer, the majority of the time I use some node-based servers for my local environment. I rarely build Wordpress projects so there is no need for me to keep Apache and MySQL always running in a background. I created two quick bash aliases that enable / disable those tools for me in a blink of an eye. If you like my approach, add it to your `.bash_profile` file.
+As a front end developer, the majority of the time I use some node-based servers for my local environment. I rarely build WordPress projects so there is no need for me to keep Apache and MySQL always running in a background. I created two quick bash aliases that enable / disable those tools for me in a blink of an eye. If you like my approach, add it to your `.bash_profile` file.
 
 ```bash
 # start / stop Apache & MySQL
@@ -190,8 +190,8 @@ alias am-stop="sudo apachectl stop && mysql.server stop"
 
 ## Enjoy WordPressing
 
-Voilà! We ended up with a robust local environment for your Wordpress development. You can easily run other frameworks like [Laravel](https://laravel.com/) on this setup with ease. I hope that you found this article helpful.
+Voilà! We ended up with a robust local environment for your WordPress development. You can easily run other frameworks like [Laravel](https://laravel.com/) on this setup with ease. I hope that you found this article helpful.
 
-I almost forgot! Thanks a ton for proofreading to [Marcin Krzemiński](https://twitter.com/krzeminskinet) who gave me lots of great advices how to make this article better. I highly advice this dude for any Wordpress related stuff — he knows his craft!
+I almost forgot! Thanks a ton for proofreading to [Marcin Krzemiński](https://twitter.com/krzeminskinet) who gave me lots of great advices how to make this article better. I highly advice this dude for any WordPress related stuff — he knows his craft!
 
 Until next time!
