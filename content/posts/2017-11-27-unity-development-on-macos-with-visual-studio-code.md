@@ -1,6 +1,6 @@
 ---
 title: Unity development on macOS with Visual Studio Code
-description: As a fresh Unity developer I really struggled to jump from my favourite code ediot to MonoDevelop. It took me a while to realise that this actually isn't a necessity.
+description: As a fresh Unity developer I really struggled to jump from my favourite code editor to MonoDevelop. It took me a while to realize that this actually isn't a necessity.
 photo: 2017-11-27.jpg
 ---
 
