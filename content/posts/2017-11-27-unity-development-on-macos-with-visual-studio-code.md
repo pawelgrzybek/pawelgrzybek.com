@@ -4,6 +4,8 @@ description: As a fresh Unity developer I really struggled to jump from my favou
 photo: 2017-11-27.jpg
 ---
 
+{{% update %}}I published this article some time ago and Unity environment changed a lot. I wouldn't recommend this path nowadays. Just download [Visual Studio Community](https://www.visualstudio.com/vs/community/), switch default Unity IDE and enjoy very smooth integration.{{% /update %}}
+
 First things first — I'm not an experienced game developer. I just started my journey with Unity not long time ago and this article is a result of my early explorations that can be useful for newcomers.
 
 As a day to day front end developer I spend majority of the time in HTML, CSS and JavaScript. Jumping from one territory to a completely new environment is a fantastic experience but comes with lots of difficulties. My biggest issue on early Unity expedition wasn't a C#, it wasn't a convoluted interface, nor a crazy amount of 3D vector math. It was a MonoDevelop — the default IDE that Unity comes with and works smoothly out of the box. Lack of my favorite shortcuts, snippets system and absence of core functionalities that I use hundreds times a day. Visual Studio Code served me well for last few months and I couldn't stand writing a single line of code without it. After a while it turned up that VSCode can be linked with Unity to take an advantage of all the things that it is best at. Let's go through the whole process step by step.
