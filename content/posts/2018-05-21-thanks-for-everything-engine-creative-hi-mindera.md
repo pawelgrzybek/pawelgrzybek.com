@@ -2,7 +2,6 @@
 title: Thanks for everything Engine Creative! Hi Mindera!
 description: "Time moves on, my perception about life has taken shape and my list of priorities have changed order. I am super happy to announce that I am leaving the Engine Creative family to join Mindera!"
 photo: 2018-05-21.jpg
-draft: true
 ---
 
 Two years ago I was really lucky that I joined the team at [Engine Creative](https://www.enginecreative.co.uk/). They are a bunch of creative, smart and inspiring people motivated to deliver top quality work to an endless list of clients. During my time at Engine Creative I had the pleasure of working on multiple projects that nearly melted my brain, whilst exploring a hell of a lot of bleeding edge technologies. I would like to thank everyone there for my time working with you and wish you all the best in the future!
