@@ -1,6 +1,6 @@
 ---
 title: "C++ for JavaScript developers"
-description: ""
+description: "One of my 2018 resolutions is to learn a new programming language. I decided to go with a C++ and after a few months, I am ready to share with you some of my thoughts."
 photo: 2018-06-01.jpg
 draft: true
 ---
