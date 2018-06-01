@@ -2,18 +2,15 @@
 title: "C++ for JavaScript developers"
 description: "One of my resolutions for 2018 is to learn a new programming language. I decided to go with C++ and after a few months, I am ready to share with you some of my thoughts."
 photo: 2018-06-01.jpg
-draft: true
 ---
 
 At the end of 2017 I committed myself to [learning a new programming language as one of my resolutions for 2018](https://pawelgrzybek.com/a-look-back-at-2017/#in-2018-i-will). I've spent the last few months jumping between client projects written mainly in JavaScript and learning C++ in my own time. I am still nowhere near proficient at it, but it is a great time to share with you a few of my conclusions.
 
-!!! photo of my to-do list with new language ticked !!!
+![Learn new programming language — 2018 resolution](/photos/2018-06-01-1.jpg)
 
 ## New perspective
 
 JavaScript, being a very forgiving language appears to be an attractive choice for new programmers. It works the same on every single browser (I mean the core concepts, not the API implementations so spare your evil comments please) and the same applies to the server world using [Node.js](https://nodejs.org/). To spin a script you don't need much more apart from the application that you already have — a browser. You can use a browser's built-in console, a simple text editor like [Visual Studio Code](https://code.visualstudio.com/) or full-blown IDE (integrated development environment) like [WebStorm](https://www.jetbrains.com/webstorm/) — the tool doesn't matter — the interpreted nature of this language enables you to view feedback at runtime with no required configuration whatsoever.
-
-!!! photo of two screens, one in a browser another one in an xCode !!!
 
 C++ on the other hand requires you to do some solid homework before you launch your first line of code. Having a good IDE helps a ton. [Visual Studio](https://www.visualstudio.com/) by Microsoft, the superb [CLion](https://www.jetbrains.com/clion/) by JetBrains or [Xcode](https://developer.apple.com/xcode/) are great choices to consider. The compiled nature of this language will require you to brush up on some basic knowledge about memory allocation and the architecture that you are working on and building for.
 
@@ -37,11 +34,12 @@ For me the most efficient way of learning is watching videos with a great balanc
 
 The [C++ playlist](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) by [Yan Chernikov](https://twitter.com/thecherno) is one of the best resources that I've found. It has a good balance between theory and practice, it keeps an optimal pace and is interspersed with a great sense of humour that makes it a perfect stating point for C++ newcomers. The [C++ playlist by Derek Banas](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQ9S8YSV0iDsuEU8v11yP9M) is another one that is a little less energetic but filled with great theoretical explanations.
 
-!!! Two screenshots with two playlists from Youtube !!!
+![C++ Playlists on YouTube](/photos/2018-06-01-2.jpg)
 
 Whenever I struggle with a particular subject I dig into [The C++ Programming Language (4th Edition) by Bjarne Stroustrup](http://www.stroustrup.com/4th.html). This publication is written in an academic manner by the author of the C++ language. Reading verbose tomes like this one is not my preferred way of learning, but it is worth keeping on the shelf.
 
-!!! photo of this big book !!!
+![Programming Principles and Practice Using C++](/photos/2018-06-01-3.jpg)
+
 
 ## More, more, more…
 
