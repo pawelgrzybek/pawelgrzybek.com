@@ -26,8 +26,9 @@ body {
   max-width: calc(700px + (2 * #{$lh}));
   margin: 0 auto;
   padding: 0 $lh;
+  background-color: #fff;
   color: $color-text;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: $fz;
   line-height: $lh;
 
@@ -73,7 +74,6 @@ h6 {
   margin-top: $lh * 1.5;
   font-style: italic;
   font-weight: 900;
-  text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
 }
