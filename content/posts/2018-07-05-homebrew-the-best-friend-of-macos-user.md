@@ -1,5 +1,5 @@
 ---
-title: "Homebrew — the best friend of mac os user"
+title: "Homebrew — the best friend of macOS user"
 description: ""
 photo: 2018-07-05.jpg
 draft: true
