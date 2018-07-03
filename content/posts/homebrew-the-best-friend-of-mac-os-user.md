@@ -31,14 +31,33 @@ Familiarity with command line would be cool. You don't need to be Terminal ninja
 
 ## Brew and its most popular commands
 
-[Homebrew documentation](https://brew.sh/) doesn't do a great job explainig its capacity to novice users. I resisted to use it for years because I didn't understand the geeky slang that is spread all over the documentation. I will do my best to help you to:
+[Homebrew documentation](https://brew.sh/) doesn't do a great job explaining its capacity to novice users. I resisted to use it for years because I didn't understand the geeky terminology. I will do my best to help you to:
 
-- install / remove 
-- install / remove macOS app
-- upgrade package /macOS app
+- search for stuff via Homebrew
+- install / remove stuff via Homebrew
+- install / remove macOS app via Homebrew
+- upgrade package / macOS app via Homebrew
 
-But before anything…
+Before doing so, we need one thing. We need `brew`.
 
 ### Install brew CLI
 
-### Commands that I use 
+I recently joined a new company, where I got a new MacBook ready to set up. Intuitively I tried to install `brew` via `brew` — thats how using it is welded to my muscle memory. Of course this command didn't work so I had to visit a [Homebrew installation guide](https://brew.sh/#install) to copy one-liner and paste it into my command line. I `brew`ed the rest afterwards.
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### Search for stuff via Homebrew
+
+You can find tons of things on Homebrew! The default [homebrew-core repository](https://github.com/Homebrew/homebrew-core/tree/master/Formula) contains thousands of formulas and new ones are added on daily basis. Formula is just a  fancy name to call a little Ruby script that contains enough of information to download a package to your machine. To look for package of interest you can manually browse repository, use [online Brew Search](http://searchbrew.com/) or use a command line. The `cowsay` is the most useless piece of software ever — thats why I love it and use it as an example.
+
+```
+brew search cowsay
+```
+
+### Install / remove stuff via Homebrew
+
+### Install / remove macOS app via Homebrew
+
+### Upgrade package / macOS app via Homebrew
