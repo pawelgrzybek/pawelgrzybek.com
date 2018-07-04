@@ -1,6 +1,6 @@
 ---
 title: "Homebrew — the best friend of macOS user"
-description: ""
+description: "As a curious human being you are probably doing a lot of this monotonous tasks: installing and removing software, switching versions of dependencies and searching for new tools. Make your life easier with Homebrew."
 photo: 2018-07-05.jpg
 draft: true
 ---
