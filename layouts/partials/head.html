@@ -50,9 +50,12 @@
   {{ $styles := resources.Get "scss/styles.scss" | toCSS $cssOpts }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}">
   {{ else }}
+  {{/*
   {{ $cssOpts := (dict "targetPath" "styles.css" ) }}
   {{ $styles := resources.Get "scss/styles.scss" | toCSS $cssOpts | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+  */}}
+  <link rel="stylesheet" href="styles.css">
   {{ end }}
 
 
