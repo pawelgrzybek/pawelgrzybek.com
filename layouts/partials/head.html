@@ -45,18 +45,8 @@
   <meta name="theme-color" content="#ffffff">
 
   {{ "<!-- Styles -->" | safeHTML }}
-  {{ if .Site.IsServer }}
   {{ $cssOpts := (dict "targetPath" "styles.css" "enableSourceMap" true ) }}
-  {{ $styles := resources.Get "scss/styles.scss" | toCSS $cssOpts }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}">
-  {{ else }}
-  {{/*
-  {{ $cssOpts := (dict "targetPath" "styles.css" ) }}
-  {{ $styles := resources.Get "scss/styles.scss" | toCSS $cssOpts | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
-  */}}
-  <link rel="stylesheet" href="styles.css">
-  {{ end }}
-
+  {{ $styles := resources.Get "scss/styles.scss" | toCSS $cssOpts | minify }}
+  <style>{{ $styles.Content | safeCSS }}</style>
 
 </head>

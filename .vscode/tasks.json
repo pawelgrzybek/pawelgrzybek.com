@@ -15,7 +15,7 @@
     {
       "label": "Build",
       "type": "shell",
-      "command": "hugo",
+      "command": "hugo --gc",
       "problemMatcher": [],
       "presentation": {
         "reveal": "never"
