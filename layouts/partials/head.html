@@ -45,7 +45,7 @@
   <meta name="theme-color" content="#ffffff">
 
   {{ "<!-- Styles -->" | safeHTML }}
-  {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "targetPath" "styles.css" ) | minify }}
+  {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
   <style>{{ $styles.Content | safeCSS }}</style>
 
 </head>
