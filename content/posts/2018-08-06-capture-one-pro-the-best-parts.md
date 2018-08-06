@@ -1,8 +1,7 @@
 ---
 title: "Capture One Pro — the best parts"
-description: "Amongst thee multiple RAW image converters available on the market, I settled with the one by Phase One. Let me share with you a few reasons why I made this choice."
+description: "Amongst the multiple RAW image converters available on the market, I settled with the one by Phase One. Let me share with you a few reasons why I made this choice."
 photo: 2018-08-06.jpg
-draft: true
 ---
 
 From Monday to Friday I am a Senior Front-end Developer at [Mindera](https://mindera.com/) but come the weekend, I turn into a hobbyist photographer. After shooting analog using a Hasselblad 500C/M for years I recently became the happy owner of a [Sony α7R III](https://www.sony.co.uk/electronics/interchangeable-lens-cameras/ilce-7rm3). As far as shooting goes on an advanced camera like this it is pure pleasure. To take a good picture you need to have a good eye — this applies to both analog and digital worlds. The differences start after pressing the shutter button when instead of going to the darkroom, everything goes to software.
@@ -59,6 +58,6 @@ The simplicity of using the advanced color editor and skin tone tool in Capture 
 
 ## Give it a go!
 
-There is more to it, but I've tried hard to pick my favourite parts of the app without making this article miles long. I cannot wait for new releases and new feature announcements. I would like to have a tiny UI update to make it look a bit more like 2018. The history panel (in the style of Luminar) would be a nice feature to have. Also I would like to see a more intuitive way to preview before and after changes (I know about clicking the reset button and holding the option key, but a dedicated button would be very appreciated).
+There is more to it, but I've tried hard to pick my favourite parts of the app without making this article miles long. I cannot wait for new releases and new feature announcements. I would like to have a tiny UI update to make it look a bit more like 2018. The history panel (in the style of Luminar 2018) would be a nice feature to have. Also I would like to see a more intuitive way to preview before and after changes (I know about clicking the reset button and holding the option key, but a dedicated button would be very appreciated).
 
 This isn't a sponsored post whatsoever and I don't work for Capture One (but I would love to though!). I just really love this software and I wanted to share with you my experience with it. I am very curious about your opinions, favourite parts, and other software that you use. Let me know in the comments section below. For now, keep taking new photos and see you soon.
