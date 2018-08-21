@@ -16,9 +16,12 @@ pre {
   overflow-x: auto;
 }
 
-p code {
-  padding: 4px 6px;
-  box-shadow: 0 0 0 1px #eee;
+p,
+li {
+  code {
+    padding: 4px 6px;
+    box-shadow: 0 0 0 1px #eee;
+  }
 }
 
 /* Background */ .chroma { background-color: #f7f7f7; }
