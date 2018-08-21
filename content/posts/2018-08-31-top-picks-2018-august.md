@@ -13,4 +13,8 @@ draft: true
 
 This is my new favorite CSS Grid cheat sheet. Thanks [Chris Malven](https://twitter.com/cmalven/)!
 
+## [Blink LazyLoad](https://docs.google.com/document/d/1e8ZbVyUwgIkQMvJma3kKUDg8UUkLRRdANStqKuOIvHg/edit#heading=h.fuqo94v1qejx)
+
+It is amazing to see that Google Chrome team is actively working on native image / frame lazy loading. It will make such a big impact on web performance! I can't wait for some info from other vendors.
+
 ## 
