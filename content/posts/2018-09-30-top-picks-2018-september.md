@@ -2,6 +2,7 @@
 title: "Top picks — 2018 September"
 description: ""
 photo: top-picks.jpg
+draft: true
 ---
 
 ## [React Fire: Modernizing React DOM](https://github.com/facebook/react/issues/13525)
