@@ -15,3 +15,6 @@ draft: true
 
 In my opinion hiding content from user is an anti-pattern but is is unavoidable on some projects so Front End developers came out with multiple solutions over the years. Carousels is one of the solutions that is one of the most frequently used choices — I even built one [quite popular one](https://pawelgrzybek.github.io/siema/). It is an anti-pattern — don't use it! There is a better way now — native and 100% CSS. This article is one of the best resources out there.
 
+## [GitHub Pull Requests in Visual Studio Code](https://code.visualstudio.com/blogs/2018/09/10/introducing-github-pullrequests)
+
+Since now on you can manage GitHub PRs straight from my favorite code editor. VS Code is getting better and better — shame that I mainly deal with GitLab nowadays because I wish to use this feature more often than I can.
