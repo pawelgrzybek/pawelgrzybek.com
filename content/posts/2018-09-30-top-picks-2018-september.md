@@ -18,3 +18,8 @@ In my opinion hiding content from user is an anti-pattern but is is unavoidable 
 ## [GitHub Pull Requests in Visual Studio Code](https://code.visualstudio.com/blogs/2018/09/10/introducing-github-pullrequests)
 
 Since now on you can manage GitHub PRs straight from my favorite code editor. VS Code is getting better and better — shame that I mainly deal with GitLab nowadays because I wish to use this feature more often than I can.
+
+## (The ultimate guide to proper use of animation in UX)[https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9]
+
+[Taras Skytskyi](https://twitter.com/skytskyi) published this outstanding guide to 101 of good animation principals in UX. Each section is decorated with a click animation and comparison between commonly used mistakes and good, recommended practice.
+
