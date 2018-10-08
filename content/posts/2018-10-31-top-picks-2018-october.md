@@ -2,6 +2,7 @@
 title: "Top picks — 2018 October"
 description: ""
 photo: top-picks.jpg
+draft: true
 ---
 
 ## [Welcome to Solid](https://solid.inrupt.com/)
