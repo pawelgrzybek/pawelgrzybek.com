@@ -9,7 +9,7 @@ Internet is full of useful things that are worth to revisit in the future. Bookm
 
 > There is absolutely nothing interesting about the Pinboard architecture or implementation; I consider that a feature!
 
-After few years of working with Pinboard my collection grown a lot and it is getting bigger day by day visiting resources that I don't want to loose. Adding new and browsing existing ones is a thing that bookmarking service should do effectively — unfortunatelly I identified some Pinboard UI issues on this territory. There are few browser plugins that make your life easier but they are not solving all my issues.
+After few years of working with Pinboard my collection grown a lot and it is getting bigger day by day visiting resources that I don't want to loose. Adding new and browsing existing ones is a thing that bookmarking service should do effectively — unfortunately I identified some Pinboard UI issues on this territory. There are few browser plugins that make your life easier but they are not solving all my issues.
 
 I had few technologies that I wanted to  play with on my list for a long time. I know a little bit of HTML, CSS and JavaScript too — that is all that you need to build a browser extension. So I built…
 
@@ -19,13 +19,13 @@ I had few technologies that I wanted to  play with on my list for a long time. I
 
 ### API token to authenticate
 
-PinBuddy never asks you for your personal password — it uses an API token to authenticate that you are you. You can find your personal token on a [setting page under the password tab](https://pinboard.in/settings/password). This short indetifier can be invalidated and regenerated on user request at any time.
+PinBuddy never asks you for your personal password — it uses an API token to authenticate that you are you. You can find your personal token on a [setting page under the password tab](https://pinboard.in/settings/password). This short identifier can be invalidated and regenerated on user request at any time.
 
 ![PinBuddy uses API token to authenticate](/photos/2018-10-16-1.jpg)
 
 ### Configurable
 
-Options page allows you to log out and configure few very useful settings that may boost your productivity a lot. Decide wheather the browsing or adding a new bookmark should be your main screen, wheather "private" or "read later"  should be checkeb by default when you add a new resource or toggle system notifications for successfully saved or deleted links.
+Options page allows you to log out and configure few very useful settings that may boost your productivity a lot. Decide whether the browsing or adding a new bookmark should be your main screen, whether "private" or "read later" should be checked by default when you add a new resource or toggle system notifications for successfully saved or deleted links.
 
 ![PinBuddy options page](/photos/2018-10-16-2.jpg)
 
@@ -70,6 +70,6 @@ PinBuddy is an ongoing project and I am planning to add new features based on us
 - Thanks to [Zuzanna Rupińska](https://www.instagram.com/zuzanna.rupinska/) for brewing a coffee for me during development  :-*
 - Potentially you…
 
-For the time being english and polish are the only languages supported by PinBuddy. Luckily adding new translations is easy — your merge requests will be apreciated. All user suggestions, bug reports and feature requests are more than welcome. Hit me up on [Twitter](https://twitter.com/pawelgrzybek) or open an issue on [PinBuddy GitHub repository](https://github.com/pawelgrzybek/PinBuddy).
+For the time being english and polish are the only languages supported by PinBuddy. Luckily adding new translations is easy — your merge requests will be appreciated. All user suggestions, bug reports and feature requests are more than welcome. Hit me up on [Twitter](https://twitter.com/pawelgrzybek) or open an issue on [PinBuddy GitHub repository](https://github.com/pawelgrzybek/PinBuddy).
 
 [Download PinBuddy from Chrome Web Store](https://chrome.google.com/webstore/detail/pinbuddy/ppokjacfheflhaojmndcblibahmopkfl) today and let me know what you think. Enjoy!
