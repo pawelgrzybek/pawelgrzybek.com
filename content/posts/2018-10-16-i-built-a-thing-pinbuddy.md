@@ -1,11 +1,11 @@
 ---
 title: I built a thing! PinBuddy!
-description: PinBuddy is a Google Chrome tolbar extension for the Pinboard bookmarking service that lets you browse and add new bookmarks with ease. It is fully keyboard accessible and highlights previously bookmarked websites. It uses API token to make a servers calls and never asks you for your password.
+description: PinBuddy is a Google Chrome toolbar extension for the Pinboard bookmarking service that lets you browse and add new bookmarks with ease. It is fully keyboard accessible and highlights already bookmarked websites. It uses an API token to make servers calls and never asks you for your password. Enjoy!
 photo: 2018-10-16.jpg
 draft: true
 ---
 
-Internet is full of useful things that are worth to revisit in the future. Bookmarking them all in a browser built-in feature is an option but it is getting unmanageable after a while so multiple bookmarking services has been born to solve this issue. My favourite one is a [Pinboard](http://pinboard.in) built by Maciej Cegłowski. Maybe it isn't the prettiest website around neither the API is the cleanest and most intuitive amongst the others but it is definitely coming with one big advantage — it works.
+Internet is full of useful things that are worth to revisit in the future. Bookmarking them all in a browser built-in feature is an option but it is getting unmanageable after a while so multiple bookmarking services has been born to solve this issue. My favorite one is a [Pinboard](http://pinboard.in) built by Maciej Cegłowski. Maybe it isn't the prettiest website around nor the API is the cleanest and most intuitive amongst the others but it is definitely coming with one big advantage — it works.
 
 > There is absolutely nothing interesting about the Pinboard architecture or implementation; I consider that a feature!
 
