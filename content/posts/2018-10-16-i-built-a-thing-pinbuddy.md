@@ -5,7 +5,7 @@ photo: 2018-10-16.jpg
 draft: true
 ---
 
-Internet is full of useful things that are worth to revisit in the future. Bookmarking them all in a browser built-in feature is an option but it is getting unmanageable after a while so multiple bookmarking services has been born to solve this issue. My option of choice is a [Pinboard](http://pinboard.in) built by Maciej Cegłowski. Maybe it isn't the prettiest website around neither the API is the cleanest and most intuitive amongst the others but it is definitely coming with one big advantage — it works.
+Internet is full of useful things that are worth to revisit in the future. Bookmarking them all in a browser built-in feature is an option but it is getting unmanageable after a while so multiple bookmarking services has been born to solve this issue. My favourite one is a [Pinboard](http://pinboard.in) built by Maciej Cegłowski. Maybe it isn't the prettiest website around neither the API is the cleanest and most intuitive amongst the others but it is definitely coming with one big advantage — it works.
 
 > There is absolutely nothing interesting about the Pinboard architecture or implementation; I consider that a feature!
 
@@ -31,7 +31,7 @@ Options page allows you to log out and configure few very useful settings that m
 
 ### Keyboard accessible
 
-I am a keyboard shortcut geek and I use them all the time. Luckily PinBoard allows you to browse and add new URLs without leaving your keyboard.
+I am a keyboard shortcut geek and I use them all the time. Luckily PinBoard allows you to browse and add new URLs without ever leaving your keyboard.
 
 - `⌥ + p` - show / hide PinBuddy
 - `⌥ + 1` - go to all view
