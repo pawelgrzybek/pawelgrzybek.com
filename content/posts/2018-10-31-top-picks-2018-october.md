@@ -17,3 +17,7 @@ Year’s worth of improvements in a single dependency update just announced by R
 
 The state of Houdini project with core contributor [Das Surma](https://twitter.com/dassurma). About the Houdini basics, worklets and its API. Everything that you need to know about its current state in a single screencast.
 
+## [Typekit is Adobe Fonts](https://theblog.adobe.com/typekit-is-adobe-fonts/)
+
+Seven years ago TypeKit has been acquired by Adobe. Since then products was slowly merging into an Adobe ecosystem and today probably the biggest change happened. It is not a TypeKit anymore — say hello to Adobe fonts. No more pageviews and comain limits. Sounds really cool for all Adobe Creative Cloud owners.
+ 
