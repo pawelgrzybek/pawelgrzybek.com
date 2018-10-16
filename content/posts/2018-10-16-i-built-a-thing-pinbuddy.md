@@ -75,6 +75,6 @@ PinBuddy is an ongoing project and I am planning to add new features based on us
 - Thanks to [Frode Grimstad Bang](https://www.frodebang.com/) for the Norwegian translation
 - Potentially you…
 
-For the time being, English and Polish are the only languages supported by PinBuddy. Luckily adding new translations is easy — your merge requests will be appreciated. All user suggestions, bug reports, and feature requests are more than welcome. Hit me up on [Twitter](https://twitter.com/pawelgrzybek) or open an issue on [PinBuddy GitHub repository](https://github.com/pawelgrzybek/PinBuddy).
+If your native language isn't supported — your merge request will be be appreciated. All user suggestions, bug reports, and feature requests are more than welcome. Hit me up on [Twitter](https://twitter.com/pawelgrzybek) or open an issue on [PinBuddy GitHub repository](https://github.com/pawelgrzybek/PinBuddy).
 
 [Download PinBuddy from Chrome Web Store](https://chrome.google.com/webstore/detail/pinbuddy/ppokjacfheflhaojmndcblibahmopkfl) today and let me know what you think. Enjoy!
