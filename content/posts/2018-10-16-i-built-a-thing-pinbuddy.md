@@ -66,7 +66,13 @@ PinBuddy is an ongoing project and I am planning to add new features based on us
 
 - Thanks to [Miłosz Kaniuk](https://www.behance.net/miloszkanibf79) for great logo and UI / UX recommendations
 - Thanks to [Gregory Assasie](https://twitter.com/gregory_jarvez) for dev tips
-- Thanks to [Zuzanna Rupińska](https://www.instagram.com/zuzanna.rupinska/) for brewing a coffee for me during development:-*
+- Thanks to [Zuzanna Rupińska](https://www.instagram.com/zuzanna.rupinska/) for brewing a coffee for me during development  :-*
+- Thanks to [Lionel Foucambert](https://github.com/LionelFW) for the French translation
+- Thanks to [Christian](https://github.com/chmartinez) for the Spanish translation
+- Thanks to [Fredrika](https://github.com/femtioelva) for the Swedish translation
+- Thanks to [David Hölkeskamp](https://github.com/dhkamp) for the German translation
+- Thanks to [Bublik](https://github.com/Bigbublik) for the Russian translation
+- Thanks to [Frode Grimstad Bang](https://www.frodebang.com/) for the Norwegian translation
 - Potentially you…
 
 For the time being, English and Polish are the only languages supported by PinBuddy. Luckily adding new translations is easy — your merge requests will be appreciated. All user suggestions, bug reports, and feature requests are more than welcome. Hit me up on [Twitter](https://twitter.com/pawelgrzybek) or open an issue on [PinBuddy GitHub repository](https://github.com/pawelgrzybek/PinBuddy).
