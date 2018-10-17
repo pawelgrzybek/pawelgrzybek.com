@@ -21,3 +21,6 @@ The state of Houdini project with core contributor [Das Surma](https://twitter.c
 
 Seven years ago TypeKit has been acquired by Adobe. Since then products was slowly merging into an Adobe ecosystem and today probably the biggest change happened. It is not a TypeKit anymore — say hello to Adobe fonts. No more pageviews and comain limits. Sounds really cool for all Adobe Creative Cloud owners.
  
+ ## [GitHub Actions](https://github.com/features/actions)
+
+ Back in the days GitHub pages was a killer in terms of free hosting for static websites. Then players like Netlify came around and changed the game drastically by offering more amazing features at a very low cost. GitHub is coming back with Actions. They allow you to stream your workflow by hooking GitHub events to  simple but powerful commands. I cannot wait to play a bit with this feature and possibly publish some primer on this website very shortly.
