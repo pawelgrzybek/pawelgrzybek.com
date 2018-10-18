@@ -11,7 +11,7 @@ Sir Tim Berners-Lee — the creator of World Wide Web — announced the Solid ec
 
 ## [Create React App 2.0: Babel 7, Sass, and More](https://reactjs.org/blog/2018/10/01/create-react-app-v2.html)
 
-Year’s worth of improvements in a single dependency update just announced by React team. New version of React starter kit comes bundled via Webpack 4 and contains things like: Babel 7, Jest 23, Sass and CSS Modules support and tons of under the hood improvements.
+Year’s worth of improvements in a single dependency update just announced by React team. New version of React starter kit comes bundled via WebPack 4 and contains things like: Babel 7, Jest 23, Sass and CSS Modules support and tons of under the hood improvements.
 
 ## [Modern Web Podcast - Houdini](https://youtu.be/QbHJIybbPLM)
 
@@ -19,8 +19,8 @@ The state of Houdini project with core contributor [Das Surma](https://twitter.c
 
 ## [Typekit is Adobe Fonts](https://theblog.adobe.com/typekit-is-adobe-fonts/)
 
-Seven years ago TypeKit has been acquired by Adobe. Since then products was slowly merging into an Adobe ecosystem and today probably the biggest change happened. It is not a TypeKit anymore — say hello to Adobe fonts. No more pageviews and comain limits. Sounds really cool for all Adobe Creative Cloud owners.
- 
- ## [GitHub Actions](https://github.com/features/actions)
+Seven years ago TypeKit has been acquired by Adobe. Since then product was slowly merging into an Adobe ecosystem and today probably the biggest change happened. It is not a TypeKit anymore — say hello to Adobe fonts. No more page-views and domain limits. Sounds really cool for all Adobe Creative Cloud owners.
 
- Back in the days GitHub pages was a killer in terms of free hosting for static websites. Then players like Netlify came around and changed the game drastically by offering more amazing features at a very low cost. GitHub is coming back with Actions. They allow you to stream your workflow by hooking GitHub events to  simple but powerful commands. I cannot wait to play a bit with this feature and possibly publish some primer on this website very shortly.
+## [GitHub Actions](https://github.com/features/actions)
+
+Back in the days GitHub pages was a killer in terms of free hosting for static websites. Then players like Netlify came around and changed the game drastically by offering more cool features at a very low cost (or for free). Now enter the GitHub Actions. They allow you to stream your workflow by hooking GitHub events to simple but powerful commands created by little snippets of code or via GUI. I cannot wait to play a bit with this feature and possibly publish some primer on this website very shortly. If you wan't to find out more, I can't recommend enough [Introducing GitHub Actions](https://css-tricks.com/introducing-github-actions/) by [Sarah Drasner](https://twitter.com/sarah_edo).
