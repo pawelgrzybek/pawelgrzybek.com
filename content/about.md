@@ -11,4 +11,5 @@ I am a self-taught front-end developer looking for an opportunity to work with t
 - [Siema - Lightweight and simple carousel in pure JavaScript](https://github.com/pawelgrzybek/siema)
 - [Snippet generator for Visual Studio Code, Sublime Text and Atom](https://github.com/pawelgrzybek/snippet-generator)
 - [Gatito Theme - Modern Visual Studio Code theme](https://github.com/pawelgrzybek/gatito-theme)
+- [PinBuddy](https://github.com/pawelgrzybek/pinbuddy)
 
