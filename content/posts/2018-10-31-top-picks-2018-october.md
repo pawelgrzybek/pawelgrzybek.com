@@ -24,3 +24,7 @@ Seven years ago TypeKit has been acquired by Adobe. Since then product was slowl
 ## [GitHub Actions](https://github.com/features/actions)
 
 Back in the days GitHub pages was a killer in terms of free hosting for static websites. Then players like Netlify came around and changed the game drastically by offering more cool features at a very low cost (or for free). Now enter the GitHub Actions. They allow you to stream your workflow by hooking GitHub events to simple but powerful commands created by little snippets of code or via GUI. I cannot wait to play a bit with this feature and possibly publish some primer on this website very shortly. If you wan't to find out more, I can't recommend enough [Introducing GitHub Actions](https://css-tricks.com/introducing-github-actions/) by [Sarah Drasner](https://twitter.com/sarah_edo).
+
+## [The Intl.RelativeTimeFormat API](https://developers.google.com/web/updates/2018/10/intl-relativetimeformat)
+
+[Mathias Bynens](https://twitter.com/mathias) explains a very exciting spec that is slowly joining the Internationalization API — `RelativeTimeFormat`. If you have ever tried to print on your web app a phrase like "yesterday" or "4 weeks ago" you know how hard this is. Moment.js was my answer for it for years — it comes with some disadvantages tho — performance. This method is going to be helpful. Great explained by Mathias from V8 team.
