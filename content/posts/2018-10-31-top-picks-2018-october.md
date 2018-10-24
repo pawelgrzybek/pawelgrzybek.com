@@ -28,3 +28,7 @@ Back in the days GitHub pages was a killer in terms of free hosting for static w
 ## [The Intl.RelativeTimeFormat API](https://developers.google.com/web/updates/2018/10/intl-relativetimeformat)
 
 [Mathias Bynens](https://twitter.com/mathias) explains a very exciting spec that is slowly joining the Internationalization API — `RelativeTimeFormat`. If you have ever tried to print on your web app a phrase like "yesterday" or "4 weeks ago" you know how hard this is. Moment.js was my answer for it for years — it comes with some disadvantages tho — performance. This method is going to be helpful. Great explained by Mathias from V8 team.
+
+## [React v16.6.0: lazy, memo and contextType](https://reactjs.org/blog/2018/10/23/react-v-16-6.html)
+
+New minor upgrade to React came out. The most exciting part of a new release is definitely `React.lazy` and `<Suspense />` that allows developers to implement a lazy loaded chunks with ease. The new `contextType` provides a much better way to work with introduced in 16.3 Context API. `React.memo` brings the advantages of `PureComponent` to functional components. Nice release.
