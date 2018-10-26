@@ -32,3 +32,7 @@ Back in the days GitHub pages was a killer in terms of free hosting for static w
 ## [React v16.6.0: lazy, memo and contextType](https://reactjs.org/blog/2018/10/23/react-v-16-6.html)
 
 New minor upgrade to React came out. The most exciting part of a new release is definitely `React.lazy` and `<Suspense />` that allows developers to implement a lazy loaded chunks with ease. The new `contextType` provides a much better way to work with introduced in 16.3 Context API. `React.memo` brings the advantages of `PureComponent` to functional components. Nice release.
+
+## [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
+
+[Dan Abramov](https://twitter.com/dan_abramov) presented something incredibly cool on [React Conf 2018](https://conf.reactjs.org/) — [Hooks](https://reactjs.org/docs/hooks-intro.html). It allows developers to supercharge functional components and give them a tons of power of class based components. Adding state via `useState()` or subscribing to a change via `useEffect()` are not the only things that you can do with it. [Custom Hooks](https://reactjs.org/docs/hooks-custom.html) are the most exciting! Cant wait to use it in production and I am just waiting for the community to come up with some smart use cases. Biggie!
