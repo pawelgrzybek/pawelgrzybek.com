@@ -39,7 +39,6 @@ I am a keyboard shortcut geek and I use them all the time. Luckily PinBoard allo
 - `⌘ + Enter` / `Ctrl + Enter` - open bookmark in background (all view)
 - `⌘ + Backspace` / `Ctrl + Backspace` - delete bookmark (all view)
 
-
 ![PinBuddy is keyboard accessible](/photos/2018-10-16-3.gif)
 
 ### Browsing bookmarks
@@ -50,7 +49,7 @@ Search for a keyword in title, filter private, public, untagged or unread. Delet
 
 ### Adding bookmarks
 
-Adding a page could not be easier. The title is prefilled based on the website's `<title/>` tag which normally works for me but feel free to edit it — it is just a helpful feature of PinBuddy. The long description is optional and can be fetched based on user cursor selection. Handy, isn't it? Tags are probably the field you will edit the most.  Hit the "add bookmark" button or simply `⌘ + Enter` / `Ctrl + Enter`  when you are ready to add it to your collection.
+Adding a page could not be easier. The title is prefilled based on the website's `<title/>` tag which normally works for me but feel free to edit it — it is just a helpful feature of PinBuddy. The long description is optional and can be fetched based on user cursor selection. Handy, isn't it? Tags are probably the field you will edit the most. Hit the "add bookmark" button or simply `⌘ + Enter` / `Ctrl + Enter` when you are ready to add it to your collection.
 
 ![Add Pinboard bookmark with PinBuddy](/photos/2018-10-16-5.jpg)
 
@@ -66,7 +65,7 @@ PinBuddy is an ongoing project and I am planning to add new features based on us
 
 - Thanks to [Miłosz Kaniuk](https://www.behance.net/miloszkanibf79) for great logo and UI / UX recommendations
 - Thanks to [Gregory Assasie](https://twitter.com/gregory_jarvez) for dev tips
-- Thanks to [Zuzanna Rupińska](https://www.instagram.com/zuzanna.rupinska/) for brewing a coffee for me during development  :-*
+- Thanks to [Zuzanna Rupińska](https://www.instagram.com/zuzanna.rupinska/) for brewing a coffee for me during development :-\*
 - Thanks to [Lionel Foucambert](https://github.com/LionelFW) for the French translation
 - Thanks to [Christian](https://github.com/chmartinez) for the Spanish translation
 - Thanks to [Fredrika](https://github.com/femtioelva) for the Swedish translation
@@ -81,6 +80,9 @@ PinBuddy is an ongoing project and I am planning to add new features based on us
 - Thanks to [Tom Veldman](https://github.com/progBorg) for the Dutch translation
 - Thanks to [Ana Gilda Rodrigues](https://github.com/AnaGilda) for the Portuguese translation
 - Thanks to [Nikita Rudenko](https://github.com/nick-rudenko) for the Ukrainian translation
+- Thanks to [Yotam Salmon](https://github.com/yotam180) for the Hebrew translation
+- Thanks to [murat emir cabaroğlu](https://github.com/mrTmr12) for the Turkish translation
+- Thanks to [Jovan Ferryal E. F.](https://wecreative.co.id/) for the Indonesian translation
 - Potentially you…
 
 If your native language isn't supported — your merge request will be appreciated. All user suggestions, bug reports, and feature requests are more than welcome. Hit me up on [Twitter](https://twitter.com/pawelgrzybek) or open an issue on [PinBuddy GitHub repository](https://github.com/pawelgrzybek/PinBuddy).
