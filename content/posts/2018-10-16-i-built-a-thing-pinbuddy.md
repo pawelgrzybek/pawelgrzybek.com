@@ -76,13 +76,15 @@ PinBuddy is an ongoing project and I am planning to add new features based on us
 - Thanks to [Igor Guastalla](https://github.com/guastallaigor) for the Brazilian translation
 - Thanks to [Oskari Holopainen](https://github.com/Ikaros1510) for the Finnish translation
 - Thanks to [Cristian Bell](https://github.com/cristianbell) for the Romanian translation
-- Thanks to [Xavier Marquès](https://github.com/wolframtheta) for the Catalan translation
+- Thanks to [Xavier Marquès](https://github.com/wolframtheta) and [oriolhub](https://github.com/oriolhub) for the Catalan translation
 - Thanks to [Tom Veldman](https://github.com/progBorg) for the Dutch translation
 - Thanks to [Ana Gilda Rodrigues](https://github.com/AnaGilda) for the Portuguese translation
 - Thanks to [Nikita Rudenko](https://github.com/nick-rudenko) for the Ukrainian translation
 - Thanks to [Yotam Salmon](https://github.com/yotam180) for the Hebrew translation
 - Thanks to [murat emir cabaroğlu](https://github.com/mrTmr12) for the Turkish translation
 - Thanks to [Jovan Ferryal E. F.](https://wecreative.co.id/) for the Indonesian translation
+- Thanks to [Aleš Jiránek](https://github.com/AlesJiranek) for the Czech translation
+- Thanks to [Po Chun, Lu](https://github.com/Sirius207) for the traditional Chinese translation
 - Potentially you…
 
 If your native language isn't supported — your merge request will be appreciated. All user suggestions, bug reports, and feature requests are more than welcome. Hit me up on [Twitter](https://twitter.com/pawelgrzybek) or open an issue on [PinBuddy GitHub repository](https://github.com/pawelgrzybek/PinBuddy).
