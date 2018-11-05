@@ -6,7 +6,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  description = "Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Northampton (UK). When I'm not coding, I'm spinning funky vinyl records."
+  description = "Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records."
 
 [frontmatter]
   date  = [":filename", ":default"]
