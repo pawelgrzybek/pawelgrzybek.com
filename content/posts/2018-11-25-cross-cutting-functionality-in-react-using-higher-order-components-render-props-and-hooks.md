@@ -279,7 +279,7 @@ This is clean, this is reusable, this is easy to read! I am Hook'ed!
 
 No necessary nesting, no need to care about complex patterns, no need for classes, HOCs or `render` props. Despite the fact that Hooks API added 1,5 of gzipped kilobyte to React codebase, in the scale of a real life projects the minified results shows some impressive bundle size reductions (based on some early tests of some brave community members). Backward compatible, well designed, very declarative and self descriptive API.
 
-### HOOKS cons:
+### Cons of using HOOKS
 
 :-)
 
