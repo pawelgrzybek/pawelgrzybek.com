@@ -15,4 +15,6 @@ Developers from V8 team (JavaScript engine behind the Google Chrome, Node and El
 
 The 6th Chrome Dev Summit took place on November 12th and 13th! Surely one of the most important events for web professionals. Dive deep, browse the playlist and watch everything that interests you. There is a lot to catch in terms of new performance best practices, tooling and techniques.
 
-##
+## [The State of JavaScript 2018](https://2018.stateofjs.com/)
+
+It is out with another shocking numbers presented in exceptional way. Just check it out!
