@@ -9,7 +9,7 @@ Working with modern JavaScript frameworks is all about reusable components that 
 
 ![Cross-cutting functionality in React — illustration by Zuzanna Rupinska](/photos/2018-11-25-1.jpg)
 
-Practice is the best teacher so let's say that we have two components, `<Content />` and `<Sidebar />` and each of them fetches a random Chuck Norris joke from [chucknorris.io](https://api.chucknorris.io/) API. Like so…
+Practice is the best teacher so let's say that we have two components, `<Content />` and `<Sidebar />` and each of them fetches a random Chuck Norris joke from [ICNDb.com](http://www.icndb.com/) API. Like so…
 
 ```jsx
 import React, { Component } from "react";
@@ -24,9 +24,9 @@ export default class Content extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api.chucknorris.io/jokes/random")
+    fetch("https://api.icndb.com/jokes/random")
       .then(response => response.json())
-      .then(joke => this.setState({ joke: joke.value }))
+      .then(joke => this.setState({ joke: joke.value.joke }))
       .catch(() => this.setState({ joke: "Error" }));
   }
 
@@ -54,9 +54,9 @@ export default class Sidebar extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api.chucknorris.io/jokes/random")
+    fetch("https://api.icndb.com/jokes/random")
       .then(response => response.json())
-      .then(joke => this.setState({ joke: joke.value }))
+      .then(joke => this.setState({ joke: joke.value.joke }))
       .catch(() => this.setState({ joke: "Error" }));
   }
 
@@ -95,9 +95,9 @@ const withJoke = WrappedComponent =>
     }
 
     componentDidMount() {
-      fetch("https://api.chucknorris.io/jokes/random")
+      fetch("https://api.icndb.com/jokes/random")
         .then(response => response.json())
-        .then(joke => this.setState({ joke: joke.value }))
+        .then(joke => this.setState({ joke: joke.value.joke }))
         .catch(() => this.setState({ joke: "Error" }));
     }
 
@@ -155,7 +155,7 @@ There is no rose without a thorn. Chained higher order components can lead to pr
 
 ## Render Props
 
-Render props is another technique of reusing logic in multiple components. Compared to HOCs it requires much less boiler code and data flow is much more transparent. The concept is simple — **build your component as you would normally do** and let the `render()` method **invoke a function with the extra logic** as a parameter. Our mission is to build a provider of a data fetched from [chucknorris.io](https://api.chucknorris.io/) API, so let's do it.
+Render props is another technique of reusing logic in multiple components. Compared to HOCs it requires much less boiler code and data flow is much more transparent. The concept is simple — **build your component as you would normally do** and let the `render()` method **invoke a function with the extra logic** as a parameter. Our mission is to build a provider of a data fetched from [ICNDb.com](http://www.icndb.com/) API, so let's do it.
 
 ```jsx
 import { Component } from "react";
@@ -170,9 +170,9 @@ export default class Joke extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api.chucknorris.io/jokes/random")
+    fetch("https://api.icndb.com/jokes/random")
       .then(response => response.json())
-      .then(joke => this.setState({ joke: joke.value }))
+      .then(joke => this.setState({ joke: joke.value.joke }))
       .catch(() => this.setState({ joke: "Error" }));
   }
 
@@ -228,9 +228,9 @@ export default function useJoke() {
   const [joke, setJoke] = useState("Loading…");
 
   useEffect(() => {
-    fetch("https://api.chucknorris.io/jokes/random")
+    fetch("https://api.icndb.com/jokes/random")
       .then(response => response.json())
-      .then(joke => setJoke(joke.value))
+      .then(joke => setJoke(joke.value.joke))
       .catch(() => setJoke("Error"));
   }, []);
   return joke;
