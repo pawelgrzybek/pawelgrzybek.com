@@ -1,13 +1,13 @@
 ---
 title: "Cross-cutting functionality in React using Higher-Order Components, Render Props and Hooks"
 description: "When working with modern JavaScript frameworks we often have to share the same piece of functionality across multiple components. Let me explain a few patterns that make this a breeze."
-photo: 2018-11-25.jpg
+photo: 2018-11-22.jpg
 draft: true
 ---
 
 Working with modern JavaScript frameworks is all about reusable components that contain the markup, styling and business logic — React is fantastic at it and is [gaining more popularity](https://2018.stateofjs.com/front-end-frameworks/react/) every year. Very often though, we have a situation where a few components contain the same functionality and we need a way to abstract it out according to our [DRY (don't repeat yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle that we've been developing for years.
 
-![Cross-cutting functionality in React — illustration by Zuzanna Rupinska](/photos/2018-11-25-1.jpg)
+![Cross-cutting functionality in React — illustration by Zuzanna Rupinska](/photos/2018-11-22-1.jpg)
 
 Practice is the best teacher so let's say that we have two components: `<Content />` and `<Sidebar />`. Each of them fetches a random Chuck Norris joke from the [ICNDb.com](http://www.icndb.com/) API. Like so…
 
@@ -81,7 +81,7 @@ Can you spot the duplication of logic? Wouldn't it be nicer to pass a joke as a 
 
 In the world of mathematics and computer science, a [higher-order function](https://en.wikipedia.org/wiki/Higher-order_function) is one that takes a function as an argument or returns a function as a result. To translate this into more React-like jargon; it is a function that takes a **component as an argument** and **returns another component** (with some "extra powers"). It is very similar to the [Decorator pattern](https://en.wikipedia.org/wiki/Decorator_pattern) used extensively in software development. The naming convention adopted in the React ecosystem is to use `with` as a prefix for HOCs because it describes what the "extra power" of the returned component is (ie. `withData`).
 
-Theory aside and let's build a HOC `withJoke` that returns a component with extra an `joke` prop that encapsulates the logic duplicated in both of our components.
+Theory aside and let's build a HOC `withJoke` that returns a component with an extra `joke` prop that encapsulates the logic duplicated in both of our components.
 
 ```jsx
 const withJoke = WrappedComponent =>
@@ -107,7 +107,7 @@ const withJoke = WrappedComponent =>
   };
 ```
 
-The returned component has a new `joke` prop and receives all the props of its source component via `...props`. In doing so we have created a reusable supplier of data fetched from the API. With this we can now revisit our test application and remove the duplicated logic from `<Content />` and `<Sidebar />`, convert both of them to functional components and decorate them using the `withJoke` higher order component.
+The returned component has a new `joke` prop and receives all the props of its source component via `...props`. In doing so we have created a reusable provider of data fetched from the API. With this we can now revisit our test application and remove the duplicated logic from `<Content />` and `<Sidebar />`, convert both of them to functional components and decorate them using the `withJoke` higher order component.
 
 ```jsx
 import React from "react";
