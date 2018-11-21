@@ -149,7 +149,7 @@ HOCs provide a nice pattern to reuse a logic. Number of popular projects uses th
 
 There is no rose without a thorn. Chained higher order components can lead to prop naming collisions — technically there is nothing incorrect about the implementation but unexpected results are painful to debug. When overused it is hard to guess where particular prop is coming from and going through nested tree in a console isn't pleasant at all. Some rare issues with using them inside a `render()`, class static methods and passing `ref`s are well detailed on React docs under the [Higher-Order Components — Caveats](https://reactjs.org/docs/higher-order-components.html#caveats) section.
 
-[Michael Jackson](https://twitter.com/mjackson), creator of [React Router](https://github.com/ReactTraining/react-router) and tons of other popular open source projects pointed out a lot of issues with HOCs in his talk ["Never Write Another HoC"](https://youtu.be/BcVAq3YFiuc) presented at Phoenix ReactJS in September 2017. His solution leads me to another way of cross-cutting functionality in React.
+[Michael Jackson](https://twitter.com/mjackson), creator of [React Router](https://github.com/ReactTraining/react-router) and few other popular open source projects pointed out a lot of issues with HOCs in his talk ["Never Write Another HoC"](https://youtu.be/BcVAq3YFiuc) presented at Phoenix ReactJS in September 2017. His solution leads me to another way of cross-cutting functionality in React.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I can do anything you&#39;re doing with your HOC using a regular component with a render prop. Come fight me.</p>&mdash; MICHAEL JACKSON (@mjackson) <a href="https://twitter.com/mjackson/status/885910701520207872?ref_src=twsrc%5Etfw">July 14, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -201,7 +201,7 @@ Another possible implementation is to use `props.children()` as a function — t
 
 ### Pros of using Render props
 
-If you watched ["Never Write Another HoC"](https://youtu.be/BcVAq3YFiuc) by Michael Jackson, you probably understand the number of benefits of using Render Props over HOC. There is plenty of well know libraries that extensively use this pattern: [Downshift](https://github.com/paypal/downshift), [React-Motion](https://github.com/chenglou/react-motion) and [React Router](https://reacttraining.com/react-router/) to list a few. Have a look at the [Awesome React Render Props](https://github.com/jaredpalmer/awesome-react-render-props) by Jared Palmer to find hundreds more. Ooo, wait a second! [React Context API](https://reactjs.org/docs/context.html) uses that too.
+If you watched ["Never Write Another HoC"](https://youtu.be/BcVAq3YFiuc) by Michael Jackson, you probably understand the number of benefits of using Render Props over HOC. There is plenty of well know libraries that extensively use this pattern: [Downshift](https://github.com/paypal/downshift), [React-Motion](https://github.com/chenglou/react-motion) and [React Router](https://reacttraining.com/react-router/) to list a few. Have a look at the [Awesome React Render Props](https://github.com/jaredpalmer/awesome-react-render-props) by Jared Palmer for hundreds more. Ooo, wait a second! [React Context API](https://reactjs.org/docs/context.html) uses that too.
 
 Compared to imperative HOCs, Render Props provide a clean declarative API that is easy to reason about and compose. No need to worry about naming collisions of props, coping methods or out of the blue props attached to a component.
 
@@ -217,9 +217,9 @@ First and foremost! On this section I am talking about a part of an API that is 
 
 On React Conf 2018 [Sophie Alpert](https://twitter.com/sophiebits) and [Dan Abramov](https://twitter.com/dan_abramov) announced [Hooks proposal](https://reactjs.org/docs/hooks-intro.html) — presumably the most excited thing in React land this year. ["React Today and Tomorrow"](https://youtu.be/V-QO-KO90iQ) followed by ["90% Cleaner React With Hooks" by Ryan Florence](https://youtu.be/wXLf18DsV-I) is required homework for those who are not familiar with Hooks yet.
 
-Clear pattern to logic reusability was one of the main reasons why React Hooks API has been designed by [Sebastian Markbåge](https://twitter.com/sebmarkbage). Giving developers [a few built-in hooks](https://reactjs.org/docs/hooks-reference.html) to manage a state, lifecycle and context was a necessary design decision to allow React developers to create more powerful custom hooks — [Dan Abramov](https://twitter.com/dan_abramov) agrees that [custom Hooks are the most appealing part of the Hooks proposal](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889#f7df). This article is not about Hooks per se but about logic reusability — please familiarize yourself with basics on ["Introducing Hooks" section on React documentation](https://reactjs.org/docs/hooks-intro.html).
+Clear pattern to logic reusability was one of the main reasons why React Hooks API has been designed by [Sebastian Markbåge](https://twitter.com/sebmarkbage). [A few built-in hooks](https://reactjs.org/docs/hooks-reference.html) to manage a state, lifecycle and context opens an opportunity to create more powerful custom hooks — [Dan Abramov](https://twitter.com/dan_abramov) agrees that [custom Hooks are the most appealing part of the Hooks proposal](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889#f7df). This article is not about Hooks per se but about logic reusability — please familiarize yourself with basics on ["Introducing Hooks" section on React documentation](https://reactjs.org/docs/hooks-intro.html).
 
-Back to `joke` provider…
+Back to `joke` provider. Look how nice this is using Hooks.
 
 ```js
 import { useState, useEffect } from "react";
@@ -277,7 +277,7 @@ This is clean, this is reusable, this is easy to read! I am Hook'ed!
 
 ### Pros of using HOOKS
 
-No necessary nesting, no need to care about complex patterns, no need for classes, HOCs or `render` props. Despite the fact that Hooks API added 1,5 of gzipped kilobyte to React codebase, in the scale of a real life projects the minified results shows some impressive bundle size reductions (based on some early tests of some brave community members). Backward compatible, well designed, very declarative and self descriptive API.
+No necessary nesting, no need to care about complex patterns, no need for classes, HOCs or `render` props. Despite the fact that Hooks API added 1,5kb to gzipped React codebase, in the scale of a real life projects the minified results shows some impressive bundle size reductions (based on some early tests of some brave community members). Backward compatible, well designed, very declarative and self descriptive API.
 
 ### Cons of using HOOKS
 
@@ -285,7 +285,7 @@ No necessary nesting, no need to care about complex patterns, no need for classe
 
 ## Wrap up
 
-Hopefully you don't mind Chuck Norris joke application. It is just oversimplified example similar to the one that you may have tomorrow in your real-life project. The point is to understand reusability in React.
+Chuck Norris joke application is oversimplified example similar to the one that you may have tomorrow in your real-life project. The point is to understand reusability in React.
 
 To build a fantastic web applications you don't need to know any of these patters but they may help you to put your work to the next level. Every abstraction comes with some cost. Which of these patters you are going to follow is just your personal preference. Personally speaking — Hooks is my way to go if I can, Render Props if I cannot use Hooks, HOCs if I have no choice.
 
