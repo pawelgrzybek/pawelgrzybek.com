@@ -212,8 +212,6 @@ There's not too much that I can criticise this pattern for but there is one more
 
 ## Hooks
 
-First and foremost! In this section I am talking about part of an API that is in the proposal stage. Bare that in mind because it may change in the future — hopefully it won't though.
-
 At React Conf 2018 [Sophie Alpert](https://twitter.com/sophiebits) and [Dan Abramov](https://twitter.com/dan_abramov) announced the [Hooks proposal](https://reactjs.org/docs/hooks-intro.html) — possibly the most exciting thing in React-land this year. ["React Today and Tomorrow"](https://youtu.be/V-QO-KO90iQ) followed by ["90% Cleaner React With Hooks" by Ryan Florence](https://youtu.be/wXLf18DsV-I) is compulsory homework for those who are not familiar with Hooks yet.
 
 A clear pattern for logic reusability was one of the main reasons why the React Hooks API has been designed by [Sebastian Markbåge](https://twitter.com/sebmarkbage). [A few built-in hooks](https://reactjs.org/docs/hooks-reference.html) to manage state, lifecycle and context opens up opportunities to create more powerful custom hooks. [Dan Abramov](https://twitter.com/dan_abramov) agrees that [custom Hooks are the most appealing part of the Hooks proposal](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889#f7df). This article is not about Hooks per se but about logic reusability — please familiarise yourself with the basics in the ["Introducing Hooks" section of the React documentation](https://reactjs.org/docs/hooks-intro.html).
