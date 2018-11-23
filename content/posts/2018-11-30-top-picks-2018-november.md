@@ -22,3 +22,9 @@ It is out with another shocking numbers presented in exceptional way. Just check
 ## [A Guide to Custom Elements for React Developers](https://css-tricks.com/a-guide-to-custom-elements-for-react-developers/#article-header-id-1)
 
 Great article to get the basics of Custom Elements. I am big fan of embracing the platform, so the author of this article is. Clean comparison to popular React with highlighted pros and cons.
+
+## [web.dev](https://web.dev/)
+
+Presented on Google Summit 2018 cool project with multiple learning path that will make you a much better web developer. From security, through performance to accessibility. Loggin via your Google account, track your progress and make a web a better place.
+
+## []()
