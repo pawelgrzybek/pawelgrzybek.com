@@ -18,3 +18,7 @@ The 6th Chrome Dev Summit took place on November 12th and 13th! Surely one of th
 ## [The State of JavaScript 2018](https://2018.stateofjs.com/)
 
 It is out with another shocking numbers presented in exceptional way. Just check it out!
+
+## [A Guide to Custom Elements for React Developers](https://css-tricks.com/a-guide-to-custom-elements-for-react-developers/#article-header-id-1)
+
+Great article to get the basics of Custom Elements. I am big fan of embracing the platform, so the author of this article is. Clean comparison to popular React with highlighted pros and cons.
