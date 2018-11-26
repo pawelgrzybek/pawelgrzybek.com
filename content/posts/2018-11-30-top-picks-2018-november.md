@@ -27,4 +27,8 @@ Great article to get the basics of Custom Elements. I am big fan of embracing th
 
 Presented on Google Summit 2018 cool project with multiple learning path that will make you a much better web developer. From security, through performance to accessibility. Log-in via your Google account, track your progress and make a web a better place.
 
+## ["Uncle" Bob Martin - The Future of Programming](https://youtu.be/ecIWPzGEbFc)
+
+Very insightful talk by Robert C. Martin about the past, present and future of programming. Where we came from, where are we heading to and what should we do to make our job and life of other people much better — worth to hit this play button.
+
 ## []()
