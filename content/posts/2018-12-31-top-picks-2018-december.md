@@ -12,3 +12,9 @@ Chromium based Anaheim is going to be a replacement for Microsoft Edge that will
 ## [Overreacted](https://overreacted.io/)
 
 After reading ["How Does React Tell a Class from a Function?"](https://overreacted.io/how-does-react-tell-a-class-from-a-function/) by [Dan Abramov](https://twitter.com/dan_abramov) on his new personal blog I decided to read rest of articles. The way how Dan explains complex concepts in simple words is amazing. I highly recommend following his blog to all JavaScript enthusiasts (non only React framework users).
+
+## [WordPress 5.0 “Bebo”](https://wordpress.org/news/2018/12/bebo/)
+
+Built with blocks in mind, big update to the most popular CMS platform arrived. Wordpress drives around 30% of websites nowadays, offers easy to use platform for clients and nice API for developers. Today platform becomes even more powerful. Adding abilities to easily build custom blocks by developers the possibilities are endless. Can't wait for the new ideas that Wordpress community is going to come out with.
+
+{{< youtube 72xdCU__XCk >}}
