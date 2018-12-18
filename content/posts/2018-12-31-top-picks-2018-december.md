@@ -18,3 +18,7 @@ After reading ["How Does React Tell a Class from a Function?"](https://overreact
 Built with blocks in mind, big update to the most popular CMS platform arrived. Wordpress drives around 30% of websites nowadays, offers easy to use platform for clients and nice API for developers. Today platform becomes even more powerful. Adding abilities to easily build custom blocks by developers the possibilities are endless. Can't wait for the new ideas that Wordpress community is going to come out with.
 
 {{< youtube 72xdCU__XCk >}}
+
+## [The Intl.ListFormat API](https://developers.google.com/web/updates/2018/12/intl-listformat)
+
+After adding [`RelativeTimeFormat`](https://developers.google.com/web/updates/2018/10/intl-relativetimeformat) to V8's `Intl` prototype, [Mathias Bynens](https://twitter.com/mathias) just introduced [`Intl.ListFormat API`](https://developers.google.com/web/updates/2018/12/intl-listformat) — a simple way to use lists of dynamic data.
