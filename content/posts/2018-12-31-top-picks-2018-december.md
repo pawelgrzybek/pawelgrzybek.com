@@ -22,3 +22,9 @@ Built with blocks in mind, big update to the most popular CMS platform arrived. 
 ## [The Intl.ListFormat API](https://developers.google.com/web/updates/2018/12/intl-listformat)
 
 After adding [`RelativeTimeFormat`](https://developers.google.com/web/updates/2018/10/intl-relativetimeformat) to V8's `Intl` prototype, [Mathias Bynens](https://twitter.com/mathias) just introduced [`Intl.ListFormat API`](https://developers.google.com/web/updates/2018/12/intl-listformat) — a simple way to use lists of dynamic data.
+
+## [Things I Don’t Know as of 2018](https://overreacted.io/things-i-dont-know-as-of-2018/)
+
+Very reputable developer from React core team Dan Abramov, published his confession about the list of thing that he doesn't know. This post is fantastic because lots of junior developers assume that these popular on Twitter developers know everything under the sun. It is very often a reason of burnout or anxiety — not necessary because it is absolutely normal to don;t know about XYZ.
+
+> This doesn’t devalue my knowledge and experience. There’s plenty of things that I can do well. For example, learning technologies when I need them.
