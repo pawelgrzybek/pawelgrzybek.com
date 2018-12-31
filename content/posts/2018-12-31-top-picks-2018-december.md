@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2018 December"
-description: "Chromium-based Anaheim browser on Windows, Dan Abramov started his blog, WordPress 5 Bebo landed, "
+description: "Chromium-based Anaheim browser on Windows, Dan Abramov started his blog, WordPress 5 Bebo landed and more!"
 photo: top-picks.jpg
 ---
 
