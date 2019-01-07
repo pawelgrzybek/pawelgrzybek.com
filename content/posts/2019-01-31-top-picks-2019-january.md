@@ -11,6 +11,6 @@ draft: true
 
 {{< youtube qOUtkN6M52M >}}
 
-## [GitHub now gives free users unlimited private repositories](https://thenextweb.com/dd/2019/01/05/github-now-gives-free-users-unlimited-private-repositories/)
+## [New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering](https://blog.github.com/2019-01-07-new-year-new-github/)
 
-GitHub with free private repositories — finally! Everything that Microsoft is doing in last few years is amazing, and this one is another step that pushed this industry forward. Up to three users collaboration on private project is the only restriction for free tier accounts. In this situation I will probably say goodby to BitBucket as this news suits all my private version control needs.
+GitHub with free private repositories — finally! New enterprise offer has landed too. Everything that Microsoft is doing in last few years is amazing, and this one is another step that pushed this industry forward. Up to three users collaboration on private project is the only restriction for free tier accounts. In this situation I will probably say goodby to BitBucket as this news suits all my private version control needs.
