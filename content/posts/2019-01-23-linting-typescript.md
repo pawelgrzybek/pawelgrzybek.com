@@ -1,7 +1,7 @@
 ---
 title: Linting TypeScript
 description: Lint or not to lint? TSLint or ESLint? It is hard to decide what to use to identify potential errors. Let me elaborate why I chose ESLint to help me doing that.
-photo: 2019-01-22.jpg
+photo: 2019-01-23.jpg
 draft: true
 ---
 
