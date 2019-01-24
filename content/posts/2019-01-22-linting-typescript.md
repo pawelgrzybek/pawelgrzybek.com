@@ -19,16 +19,12 @@ After the TypeScript core team shared their plan to invest in ESLint integration
 Looking for a quick copy / paste `.eslintrc.js` config file for lazy people? I've got your back :-\*
 
 ```
-yarn add -D eslint @typescript-eslint/parser prettier eslint-plugin-prettier
+yarn add -D eslint @typescript-eslint/parser prettier eslint-plugin-prettier eslint-config-prettier
 ```
 
 ```js
 module.exports = {
   parser: "@typescript-eslint/parser",
-  plugins: ["prettier"],
-  extends: ["eslint:recommended"],
-  rules: {
-    "prettier/prettier": 2
-  }
+  extends: ["eslint:recommended", "plugin:prettier/recommended"]
 };
 ```
