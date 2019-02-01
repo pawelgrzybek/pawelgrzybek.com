@@ -124,6 +124,21 @@ The `String.prototype.trim()` has been a part of a standard for years. This prop
 
 ## Array.prototype.flat / Array.prototype.flatMap by Brian Terlson, Michael Ficarra and Mathias Bynens
 
-Do you remember [SmooshGate](https://developers.google.com/web/updates/2018/03/smooshgate)? It is finally over.
+Do you remember [SmooshGate](https://developers.google.com/web/updates/2018/03/smooshgate)? It is finally over. `Array.prototype.flat()` flattens arrays recursively up to the specified depth. The default depth is 1. Let's have a look at some examples:
+
+```
+[1, 2, [3, 4, [5, 6]]].flat()
+// [ 1, 2, 3, 4, [ 5, 6 ] ]
+
+[1, 2, [3, 4, [5, 6]]].flat(2);
+// [ 1, 2, 3, 4, 5, 6 ]
+```
+
+The `Array.prototype.flatMap()` returns a flatten result of `Array.prototype.map()` method. Think of it like `arr.map(mapper).flat(1)`.
+
+```js
+[1, 2, 3].flatMap(item => [item, item * 100]);
+// (6) [1, 100, 2, 200, 3, 300]
+```
 
 - [Array.prototype.flat / Array.prototype.flatMap proposal](https://github.com/tc39/proposal-flatMap)
