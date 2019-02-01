@@ -5,12 +5,7 @@ photo: 2019-02-05.jpg
 draft: true
 ---
 
-The Ecma TC39 committee responsible for the ECMAScript specification confirmed a list of features that have reached [stage 4](https://tc39.github.io/process-document/), meaning that they will become a part of ECMAScript 2019. Three years ago I published ["What's new in ECMAScript 2016"](https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/), two years ago ["What's new in ECMAScript 2017"](https://pawelgrzybek.com/whats-new-in-ecmascript-2017/) and year later ["What's new in ECMAScript 2018"](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/). It is time to add few more goodies.
-
-<!--
-String.prototype.{trimStart,trimEnd}
-Array.prototype.{flat,flatMap}
--->
+The Ecma TC39 committee responsible for the ECMAScript specification confirmed a list of features that have reached [stage 4](https://tc39.github.io/process-document/), meaning that they will become a part of ECMAScript 2019 specification. Three years ago I published ["What's new in ECMAScript 2016"](https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/), two years ago ["What's new in ECMAScript 2017"](https://pawelgrzybek.com/whats-new-in-ecmascript-2017/) and year later ["What's new in ECMAScript 2018"](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/). It is time to add few more goodies.
 
 ## Optional catch binding by Michael Ficarra
 
@@ -24,7 +19,7 @@ try {
 }
 ```
 
-Why if you don’t need to bind the `error` parameter of the catch clause? Now you can skip it. Thanks to [Michael Ficarra](https://twitter.com/smooshMap).
+Why if you don’t need to bind the `error` parameter of the catch clause? Now you can skip this parameter binding. Thanks to [Michael Ficarra](https://twitter.com/smooshMap).
 
 ```js
 try {
@@ -38,19 +33,22 @@ try {
 
 ## JSON superset by Richard Gibson, Mark Miller and Mathias Bynens
 
-This one is specification update than a new language feature — fully backward compatible though. Although [ECMAScript documentation calls JSON as a subset of `JSON.parse()`](https://tc39.github.io/ecma262/#sec-json.parse), this is not entirely the truth. The fact that JSON can contain unescaped line separator (`U+2028`) and paragraph separator (`U+2029`) and ECMAScript string cannot makes this claim falsity. This may cause occasional bugs, adds unnecessary complexity to specification. This proposal introduces a consistency between JSON and the output of `JSON.parse()`.
+This one is more a specification update than a new language feature — fully backward compatible though. Although [ECMAScript documentation calls JSON as a subset of `JSON.parse()`](https://tc39.github.io/ecma262/#sec-json.parse), in reality JSON standard is not a subset of ECMAScript. JSON can contain unescaped line separator (`U+2028`) and paragraph separator (`U+2029`) but ECMAScript must use an escape sequence add them to a string. This may cause occasional bugs and adds unnecessary complexity to specification. This proposal introduces a consistency between ECMAScript string literals and JSON string literals.
 
 - [JSON superset proposal](https://github.com/tc39/proposal-json-superset)
 
 ## Symbol.prototype.description by Michael Ficarra
 
-To improve debugging experience a `Symbol` can be created with an optional description. Historically we use to access this description by `Symbol.prototype.toString()` that returns description enclosed inside `Symbol()` string. Using ECMAScript 2019 you can do better.
+To improve debugging experience a `Symbol` can be created with an optional description. Historically we use to access this description by `Symbol.prototype.toString()` that returns description enclosed inside `Symbol()` string. Using ECMAScript 2019 you can do better — `Symbol.prototype.description` simply retrieves a description without any decorators around the string.
 
 ```js
 const foo = Symbol("My super symbol");
 
-console.log(foo.toString()); // Symbol(My super symbol)
-console.log(foo.description); // My super symbol
+foo.toString();
+// Symbol(My super symbol)
+
+foo.description;
+// My super symbol
 ```
 
 - [`Symbol.prototype.description` proposal](https://github.com/tc39/proposal-Symbol-description)
@@ -64,14 +62,14 @@ function hi(name) {
   retuen`Hi ${name}`;
 }
 
-console.log(hi.toString());
+hi.toString();
 // function hi(name) {
 //   retuen`Hi ${name}`;
 // }
 ```
 
 ```js
-console.log(Array.isArray.toString());
+Array.isArray.toString();
 // function isArray() { [native code] }
 ```
 
@@ -84,10 +82,10 @@ Very handy way to convert a list of key-value pairs into an object.
 ```js
 const arr = [["name", "Pawel"], ["surname", "Grzybek"], ["age", 31]];
 const obj = Object.fromEntries(arr);
-
-console.log(obj);
 // {name: "Pawel", surname: "Grzybek", age: 31}
 ```
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">ECMAScript 2019 Object.fromEntries() is very cool! No more Array.prototype.reduce()<a href="https://t.co/Rtk9bEhvzz">https://t.co/Rtk9bEhvzz</a><a href="https://twitter.com/hashtag/js?src=hash&amp;ref_src=twsrc%5Etfw">#js</a> <a href="https://twitter.com/hashtag/javascript?src=hash&amp;ref_src=twsrc%5Etfw">#javascript</a> <a href="https://twitter.com/hashtag/ecmascript?src=hash&amp;ref_src=twsrc%5Etfw">#ecmascript</a> <a href="https://t.co/RC43G4O5Ac">pic.twitter.com/RC43G4O5Ac</a></p>&mdash; Paweł Grzybek (@pawelgrzybek) <a href="https://twitter.com/pawelgrzybek/status/1090551539058511873?ref_src=twsrc%5Etfw">January 30, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 - [Object.fromEntries proposals](https://github.com/tc39/proposal-object-from-entries)
 
@@ -106,3 +104,26 @@ JSON.stringify("\u{D800}");
 ```
 
 - [Well-formed JSON.stringify proposal](https://github.com/tc39/proposal-well-formed-stringify)
+
+## String.prototype.trimStart / String.prototype.trimEnd by Sebastian Markbåge and Mathias Bynens
+
+The `String.prototype.trim()` has been a part of a standard for years. This proposal introduces `String.prototype.trimStart()` and `String.prototype.trimEnd()`. They were added to web browsers years ago too — it is a good time to standardize them.
+
+```js
+"   javascript   ".trim();
+// "javascript"
+
+"   javascript   ".trimStart();
+// "javascript   "
+
+"   javascript   ".trimEnd();
+// "   javascript"
+```
+
+- [String.prototype.trimStart / String.prototype.trimEnd proposal](https://github.com/tc39/proposal-string-left-right-trim)
+
+## Array.prototype.flat / Array.prototype.flatMap by Brian Terlson, Michael Ficarra and Mathias Bynens
+
+Do you remember [SmooshGate](https://developers.google.com/web/updates/2018/03/smooshgate)? It is finally over.
+
+- [Array.prototype.flat / Array.prototype.flatMap proposal](https://github.com/tc39/proposal-flatMap)
