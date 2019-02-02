@@ -1,8 +1,7 @@
 ---
 title: What's new in ECMAScript 2019
 description: The final list of features that are joining the ECMAScript specification this year is ready. Here's a quick summary and look at some practical examples.
-photo: 2019-02-05.jpg
-draft: true
+photo: 2019-02-02.jpg
 ---
 
 The Ecma TC39 committee responsible for the ECMAScript specification confirmed a list of features that have reached [stage 4](https://tc39.github.io/process-document/), meaning that they will become part of the ECMAScript 2019 specification. Three years ago I published ["What's new in ECMAScript 2016"](https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/), two years ago ["What's new in ECMAScript 2017"](https://pawelgrzybek.com/whats-new-in-ecmascript-2017/) and year later ["What's new in ECMAScript 2018"](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/). It's time to add a few more goodies.
@@ -33,7 +32,7 @@ try {
 
 ## JSON superset by Richard Gibson, Mark Miller and Mathias Bynens
 
-This one is more of a specification update than a new language feature — it's fully backwards compatible though. Although the [ECMAScript documentation calls JSON as a subset of `JSON.parse()`](https://tc39.github.io/ecma262/#sec-json.parse), in reality the JSON standard is not a subset of ECMAScript. JSON can contain an unescaped line separator (`U+2028`) and paragraph separator (`U+2029`) but ECMAScript must use an escape sequence to add them to a string. This may cause occasional bugs and adds unnecessary complexity to the pecification. This proposal introduces some consistency between ECMAScript string literals and JSON string literals.
+This one is more of a specification update than a new language feature — it's fully backwards compatible though. Although the [ECMAScript documentation calls JSON as a subset of `JSON.parse()`](https://tc39.github.io/ecma262/#sec-json.parse), in reality the JSON standard is not a subset of ECMAScript. JSON can contain an unescaped line separator (`U+2028`) and paragraph separator (`U+2029`) but ECMAScript must use an escape sequence to add them to a string. This may cause occasional bugs and adds unnecessary complexity to the specification. This proposal introduces some consistency between ECMAScript string literals and JSON string literals.
 
 - [JSON superset proposal](https://github.com/tc39/proposal-json-superset)
 
@@ -124,13 +123,14 @@ The `String.prototype.trim()` has been part of the standard for years. This prop
 
 ## Array.prototype.flat / Array.prototype.flatMap by Brian Terlson, Michael Ficarra and Mathias Bynens
 
-Do you remember [SmooshGate](https://developers.google.com/web/updates/2018/03/smooshgate)? It is finally over thanks to this new feature. `Array.prototype.flat()` flattens arrays recursively up to a specified depth. The default depth is 1. Let's have a look at some examples:
+Do you remember [SmooshGate](https://developers.google.com/web/updates/2018/03/smooshgate)? `Array.prototype.flat()` flattens arrays recursively up to a specified depth. The default depth is 1. Let's have a look at some examples:
 
-```
-[1, 2, [3, 4, [5, 6]]].flat()
-// [ 1, 2, 3, 4, [ 5, 6 ] ]
+```js
+[1, 2, [3, 4, [5, 6]]].flat()[
+  // [ 1, 2, 3, 4, [ 5, 6 ] ]
 
-[1, 2, [3, 4, [5, 6]]].flat(2);
+  (1, 2, [3, 4, [5, 6]])
+].flat(2);
 // [ 1, 2, 3, 4, 5, 6 ]
 ```
 
@@ -138,7 +138,7 @@ The `Array.prototype.flatMap()` returns a flattened result of `Array.prototype.m
 
 ```js
 [1, 2, 3].flatMap(item => [item, item * 100]);
-// (6) [1, 100, 2, 200, 3, 300]
+// [1, 100, 2, 200, 3, 300]
 ```
 
 - [Array.prototype.flat / Array.prototype.flatMap proposal](https://github.com/tc39/proposal-flatMap)
