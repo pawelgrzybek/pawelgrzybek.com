@@ -58,12 +58,12 @@ The implementation of `toString()` has been revised (again) and standardises the
 
 ```js
 function hi(name) {
-  return`Hi ${name}`;
+  return `Hi ${name}`;
 }
 
 hi.toString();
 // function hi(name) {
-//   return`Hi ${name}`;
+//   return `Hi ${name}`;
 // }
 ```
 
@@ -125,12 +125,11 @@ The `String.prototype.trim()` has been part of the standard for years. This prop
 
 Do you remember [SmooshGate](https://developers.google.com/web/updates/2018/03/smooshgate)? `Array.prototype.flat()` flattens arrays recursively up to a specified depth. The default depth is 1. Let's have a look at some examples:
 
-```js
-[1, 2, [3, 4, [5, 6]]].flat()[
-  // [ 1, 2, 3, 4, [ 5, 6 ] ]
+```
+[1, 2, [3, 4, [5, 6]]].flat();
+// [ 1, 2, 3, 4, [ 5, 6 ] ]
 
-  (1, 2, [3, 4, [5, 6]])
-].flat(2);
+[1, 2, [3, 4, [5, 6]]].flat(2);
 // [ 1, 2, 3, 4, 5, 6 ]
 ```
 
