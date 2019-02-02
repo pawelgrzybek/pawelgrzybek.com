@@ -58,12 +58,12 @@ The implementation of `toString()` has been revised (again) and standardises the
 
 ```js
 function hi(name) {
-  retuen`Hi ${name}`;
+  return`Hi ${name}`;
 }
 
 hi.toString();
 // function hi(name) {
-//   retuen`Hi ${name}`;
+//   return`Hi ${name}`;
 // }
 ```
 
