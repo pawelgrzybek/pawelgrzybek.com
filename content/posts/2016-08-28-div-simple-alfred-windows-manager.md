@@ -16,7 +16,7 @@ As I mentioned previously — [Div](http://www.packal.org/workflow/div) is a sim
 
 ### Enable access for assistive devices (required)
 
-Applescript works nicely with the majority of Mac OS X applications. Unfortunately some of them are non-scriptable. The solution is not to control app's position but the window around it. We need to give Alfred access for assistive devices first. Just follow these easy steps:
+AppleScript works nicely with the majority of Mac OS X applications. Unfortunately some of them are non-scriptable. The solution is not to control app's position but the window around it. We need to give Alfred access for assistive devices first. Just follow these easy steps:
 
 1. Open System Preferences
 2. Go to Security & Privacy
@@ -36,7 +36,7 @@ Applescript works nicely with the majority of Mac OS X applications. Unfortunate
 
 ### Using hotkeys
 
-There are a few predefined hotkeys. It is probably the quickest and most efficient way to manage your layouts. That's how I use it mainly.
+There are a few predefined settings. It is probably the quickest and most efficient way to manage your layouts. That's how I use it mainly. Bind your favorite hotkeys to these settings or even add your own ones.
 
 - `⌃ ⌥ 1` Full
 - `⌃ ⌥ 2` Medium
@@ -47,7 +47,6 @@ There are a few predefined hotkeys. It is probably the quickest and most efficie
 - `⌃ ⌥ ↓` Bottom
 
 ![Using hotkeys in Div Alfred workflow](/photos/2016-08-28-4.gif)
-
 
 ### Custom arguments
 
@@ -67,4 +66,4 @@ Choose a custom size by passing 2 (space separated) values. For example `div 800
 
 ## Thanks for using Div
 
-Hopefully you will find [it](http://www.packal.org/workflow/div) useful. If you need something more advanced have a look at the amazing [Alfred 2 layout](http://www.packal.org/workflow/alfred2-layout) workflow by Bodo Junglas. As always, user feedback is welcome. Use the comments section below to share your love, opinions or report any bugs. If you would like to help me in the future development of [Div](http://www.packal.org/workflow/div) feel free to fork it on [Github](https://github.com/pawelgrzybek/div) and send a pull request. Enjoy :*
+Hopefully you will find [it](http://www.packal.org/workflow/div) useful. If you need something more advanced have a look at the amazing [Alfred 2 layout](http://www.packal.org/workflow/alfred2-layout) workflow by Bodo Junglas. As always, user feedback is welcome. Use the comments section below to share your love, opinions or report any bugs. If you would like to help me in the future development of [Div](http://www.packal.org/workflow/div) feel free to fork it on [Github](https://github.com/pawelgrzybek/div) and send a pull request. Enjoy!
