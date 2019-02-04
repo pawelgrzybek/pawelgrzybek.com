@@ -32,7 +32,7 @@ try {
 
 ## JSON superset by Richard Gibson, Mark Miller and Mathias Bynens
 
-This one is more of a specification update than a new language feature — it's fully backwards compatible though. Although the [ECMAScript documentation calls JSON as a subset of `JSON.parse()`](https://tc39.github.io/ecma262/#sec-json.parse), in reality the JSON standard was not a subset of ECMAScript. JSON could contain an unescaped line separator (`U+2028`) and paragraph separator (`U+2029`) but ECMAScript must have been using an escape sequence to add them to a string. This may cause occasional bugs and adds unnecessary complexity to the specification. This proposal introduces some consistency between ECMAScript string literals and JSON string literals. The JSON standard is a legit subset of ECMAScript!
+This one is more of a specification update than a new language feature — it's fully backwards compatible though. Although the [ECMAScript documentation calls JSON as a subset of `JSON.parse()`](https://tc39.github.io/ecma262/#sec-json.parse), in reality the JSON standard was not a subset of ECMAScript. JSON could contain an unescaped line separator (`U+2028`) and paragraph separator (`U+2029`) but ECMAScript must have been using an escape sequence to add them to a string. This may cause occasional bugs and adds unnecessary complexity to the specification. This proposal introduces some consistency between ECMAScript string literals and JSON string literals. The JSON standard is a legit subset of ECMAScript now.
 
 - [JSON superset proposal](https://github.com/tc39/proposal-json-superset)
 
