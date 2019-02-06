@@ -32,7 +32,7 @@ try {
 
 ## JSON superset by Richard Gibson, Mark Miller and Mathias Bynens
 
-This one is more of a specification update than a new language feature — it's fully backwards compatible though. Although the [ECMAScript documentation calls JSON as a subset of `JSON.parse()`](https://tc39.github.io/ecma262/#sec-json.parse), in reality the JSON standard is not a subset of ECMAScript. JSON can contain an unescaped line separator (`U+2028`) and paragraph separator (`U+2029`) but ECMAScript must use an escape sequence to add them to a string. This may cause occasional bugs and adds unnecessary complexity to the specification. This proposal introduces some consistency between ECMAScript string literals and JSON string literals.
+This one is more of a specification update than a new language feature — it's fully backwards compatible though. Although the [ECMAScript documentation calls JSON as a subset of `JSON.parse()`](https://tc39.github.io/ecma262/#sec-json.parse), in reality the JSON standard was not a subset of ECMAScript. JSON could contain an unescaped line separator (`U+2028`) and paragraph separator (`U+2029`) but ECMAScript must have been using an escape sequence to add them to a string. This may cause occasional bugs and adds unnecessary complexity to the specification. This proposal introduces some consistency between ECMAScript string literals and JSON string literals. The JSON standard is a legit subset of ECMAScript now.
 
 - [JSON superset proposal](https://github.com/tc39/proposal-json-superset)
 
@@ -141,3 +141,9 @@ The `Array.prototype.flatMap()` returns a flattened result of `Array.prototype.m
 ```
 
 - [Array.prototype.flat / Array.prototype.flatMap proposal](https://github.com/tc39/proposal-flatMap)
+
+## Array.prototype.sort stability by Mathias Bynens
+
+Previously arrays with more than 10 elements used an unstable [QuickSort algorithm](https://en.wikipedia.org/wiki/Quicksort). Moving forward, this functionality is going to be replaced with stable [TimSort algorithm](https://en.wikipedia.org/wiki/Timsort). If you are very curious I highly recommend catching up ["Getting things sorted in V8"](https://v8.dev/blog/array-sort) posted by [Simon Zünd](https://twitter.com/nimODota) from V8 team.
+
+- [Array.prototype.sort stability PR](https://github.com/tc39/ecma262/pull/1340)
