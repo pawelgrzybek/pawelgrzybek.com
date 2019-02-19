@@ -24,3 +24,9 @@ Hosted by [Tracy Lee](https://twitter.com/ladyleet) and [Bonnie Brennan](https:/
 Month ago I shared a news about [the future of TypeScript on ESLint](https://eslint.org/blog/2019/01/future-typescript-eslint) and this month another exciting news from the field. TSLint (de facto the standard linter for TypeScript) is going to be deprecated and the team is going to focus on improving ESLint’s TypeScript support.
 
 > Once we consider ESLint feature-complete w.r.t. TSLint, we will deprecate TSLint and help users migrate to ESLint
+
+## [Applying the Twelve-Factor App Methodology to Serverless Applications](https://aws.amazon.com/blogs/compute/applying-the-twelve-factor-app-methodology-to-serverless-applications/)
+
+[A Twelve-Factor Application Model](https://12factor.net/) is a set of guidelines to build large-scale server-less applications evangelized by [Heroku](https://www.heroku.com/) platform users. [Chris Munns](https://twitter.com/chrismunns) looks at this set of rules from the perspective of Senior Developer Advocate working for AWS (Amazon Web Services). The content of this article has been presented at [Functions 2017 conference — "Twelve Factor Serverless Applications" by Chris Munns](https://youtu.be/19SCqWGqtto).
+
+{{< youtube 19SCqWGqtto >}}
