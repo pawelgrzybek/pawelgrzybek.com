@@ -1,17 +1,16 @@
 ---
 title: "Top picks — 2019 February"
-description: ""
+description: "React Hooks landed in v16.8, CSS position sticky explained, State of JavaScript Frameworks & Libraries, future of TSLint and Twelve-Factor App Methodology to Serverless Applications."
 photo: top-picks.jpg
-draft: true
 ---
 
 ## [React v16.8: The One With Hooks](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html)
 
-Presented on React Conf 2018 few months ago hooks are part of a stable React 16.8 now. This is one of the most exciting news for front end developers in a while.
+Presented on the React Conf 2018 few months ago hooks are part of a stable React 16.8. This is one of the most exciting news for front end developers in a while.
 
 ## [CSS Position Sticky - How It Really Works!](https://medium.com/@elad/css-position-sticky-how-it-really-works-54cd01dc2d46)
 
-This article by [Elad Shechter](https://twitter.com/eladsc) is the best explanation of CSS `position: sticky` around.
+This article by [Elad Shechter](https://twitter.com/eladsc) is the best explanation of CSS `position: sticky` around. Sticked to my brain after reading it.
 
 ## [This.JavaScript - State of Frameworks & Libraries](https://youtu.be/DFF9eOlTWzY)
 
@@ -21,7 +20,7 @@ Hosted by [Tracy Lee](https://twitter.com/ladyleet) and [Bonnie Brennan](https:/
 
 ## [TSLint in 2019](https://medium.com/palantir/tslint-in-2019-1a144c2317a9)
 
-Month ago I shared a news about [the future of TypeScript on ESLint](https://eslint.org/blog/2019/01/future-typescript-eslint) and this month another exciting news from the field. TSLint (de facto the standard linter for TypeScript) is going to be deprecated and the team is going to focus on improving ESLint’s TypeScript support.
+[Month ago](https://pawelgrzybek.com/top-picks-2019-january/) I shared a news about [the future of TypeScript on ESLint](https://eslint.org/blog/2019/01/future-typescript-eslint) and this month another exciting news from the field. TSLint (de facto the standard linter for TypeScript) is going to be deprecated and the team is going to focus on improving ESLint’s TypeScript support.
 
 > Once we consider ESLint feature-complete w.r.t. TSLint, we will deprecate TSLint and help users migrate to ESLint
 
