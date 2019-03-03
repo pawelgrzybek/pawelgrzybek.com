@@ -38,7 +38,7 @@ This is the main Apache configuration file that contains tons of helpful comment
 
 ### Enable vhost (Virtual Host)
 
-There is a chance that you are going to work on multiple WordPress projects in the future and it would be cool to access them via custom domains (i.e. `somewebsite.localhost` or `anotherone.localhost`). [Virtual Host](https://httpd.apache.org/docs/2.4/vhosts/) is a term that describes exactly this functionality. To enable it uncomment `LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so` (line 167 in my case) and `Include /private/etc/apache2/extra/httpd-vhosts.conf` (line 516 in my case) inside your Apache configuration file.
+There is a chance that you are going to work on multiple WordPress projects in the future and it would be cool to access them via custom domains (i.e. `somewebsite.localhost` or `anotherone.localhost`). [Virtual Host](https://httpd.apache.org/docs/2.4/vhosts/) is a term that describes exactly this functionality. To enable it uncomment `LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so` and `Include /private/etc/apache2/extra/httpd-vhosts.conf` inside your Apache configuration file.
 
 ```
 old: #LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
@@ -52,7 +52,7 @@ new: Include /private/etc/apache2/extra/httpd-vhosts.conf
 
 ### Enable rewrites
 
-By default [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) follows the filesystem path. For example the URL to a page about your company may end up being `mycompany.com/about.php`. In the case of WordPress we will more likely see something like `mycompany.com/?p=1`. Wouldn't it be cool to simplify it to `mycompany.com/about`? This is the reason why we need to explicitly enable it. Uncomment `LoadModule rewrite_module libexec/apache2/mod_rewrite.so` (line 175 in my case).
+By default [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) follows the filesystem path. For example the URL to a page about your company may end up being `mycompany.com/about.php`. In the case of WordPress we will more likely see something like `mycompany.com/?p=1`. Wouldn't it be cool to simplify it to `mycompany.com/about`? This is the reason why we need to explicitly enable it. Uncomment `LoadModule rewrite_module libexec/apache2/mod_rewrite.so`.
 
 ```
 old: #LoadModule rewrite_module libexec/apache2/mod_rewrite.so
@@ -61,7 +61,7 @@ new: LoadModule rewrite_module libexec/apache2/mod_rewrite.so
 
 ### Enable PHP
 
-WordPress is written in PHP. That being so our server surely needs to know how to deal with `.php` files. It is as easy as uncommenting `LoadModule php7_module libexec/apache2/libphp7.so` (line 176 in my case).
+WordPress is written in PHP. That being so our server surely needs to know how to deal with `.php` files. It is as easy as uncommenting `LoadModule php7_module libexec/apache2/libphp7.so`.
 
 ```
 old: #LoadModule php7_module libexec/apache2/libphp7.so
@@ -70,7 +70,7 @@ new: LoadModule php7_module libexec/apache2/libphp7.so
 
 ### Change the default location for our projects
 
-Personally I store the source files to all websites that I am working on inside a `Sites` folder in my home directory. It is not a requirement, just a convention. The default root directory for the Apache server is `/Library/WebServer/Documents`. We have to amend this path (line 244 and 255 in my case). Please, be sure to change the name of your username folder — the chances that your directory is called `pawelgrzybek` are slim!
+Personally I store the source files to all websites that I am working on inside a `Sites` folder in my home directory. It is not a requirement, just a convention. The default root directory for the Apache server is `/Library/WebServer/Documents`. We have to amend this path. Please, be sure to change the name of your username folder — the chances that your directory is called `pawelgrzybek` are slim!
 
 ```
 old: DocumentRoot "/Library/WebServer/Documents"
@@ -81,7 +81,7 @@ new: <Directory "/Users/pawelgrzybek/Sites/">
 
 ### Enable .htaccess
 
-To easily change the server configuration on a per-directory basis, Apache uses [`.htaccess` files](https://httpd.apache.org/docs/2.4/howto/htaccess.html). The `AllowOverride controls` section (line 266 in my case) of the configuration file allows us to enable the use of .htaccess files. Edit the value of `AllowOverride` from `None` to `All`. We are done here!
+To easily change the server configuration on a per-directory basis, Apache uses [`.htaccess` files](https://httpd.apache.org/docs/2.4/howto/htaccess.html). The `AllowOverride controls` section of the configuration file allows us to enable the use of .htaccess files. Edit the value of `AllowOverride` from `None` to `All`. We are done here!
 
 ```
 old: AllowOverride None
@@ -105,7 +105,7 @@ Test time! Now let's create a test `index.php` file in the root directory that w
 
 ![PHP info page on Apache on macOS](/photos/2018-04-29-2.jpg)
 
-## Point *.localhost domains to 127.0.0.1
+## Point localhost domains to 127.0.0.1
 
 Every time when you visit a website your browser asks a DNS server for the IP address to redirect the request to. DNS server is like a massive phone book that maps domain names to IP numbers.
 
