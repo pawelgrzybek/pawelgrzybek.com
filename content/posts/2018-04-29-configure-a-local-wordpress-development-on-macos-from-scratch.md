@@ -52,7 +52,7 @@ old: #Include /private/etc/apache2/extra/httpd-vhosts.conf
 new: Include /private/etc/apache2/extra/httpd-vhosts.conf
 ```
 
-Initially the included file (`httpd-vhosts.conf`) contains some example configuration that may cause some issue later on. Please comment it out or remove undesired `VirtualHost` config blocks.
+The included file (`httpd-vhosts.conf`) contains some example configuration that may cause some issue later on. Please comment it out or remove undesired `VirtualHost` config blocks.
 
 ### Enable rewrites
 
