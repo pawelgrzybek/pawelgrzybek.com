@@ -4,7 +4,7 @@ description: "So you're about to build a WordPress website. An Apache HTTP Serve
 photo: 2018-04-29.jpg
 ---
 
-{{% update %}}Since MySQL has been updated to version 8, it doesn't play smoothly with with [Sequel Pro](https://www.sequelpro.com/). It is [a known issue](https://github.com/sequelpro/sequelpro/issues/2699) and community is waiting for an update.{{% /update %}}
+{{% update %}}Since MySQL has been updated to version 8, it doesn't play smoothly with with this tutorial. Feel free to follow along if you are using MySQL <7.{{% /update %}}
 
 So you are a [macOS](https://www.apple.com/uk/macos/) user and you want to configure a local environment to build a [WordPress](https://wordpress.org/) project. Great choice, it is a fantastic piece of software! There are plenty of tools that let you set it up in no time at no cost — [MAMP](https://www.mamp.info/) and [XAMPP](https://www.apachefriends.org/) are probably the best choices for beginners. Smashing Magazine just published an article called ["WordPress Local Development For Beginners: From Setup To Deployment" by Nick Schäferhoff](https://www.smashingmagazine.com/2018/04/wordpress-local-development-beginners-setup-deployment/) which is a great guide that takes you through the journey when using these kinds of tools. There is one disadvantage though — applications like these hide lots of important details from the user and come pre-bundled with lots of stuff that you just don't need to run a WordPress website.
 
