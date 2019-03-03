@@ -52,6 +52,8 @@ old: #Include /private/etc/apache2/extra/httpd-vhosts.conf
 new: Include /private/etc/apache2/extra/httpd-vhosts.conf
 ```
 
+Initially the included file (`httpd-vhosts.conf`) contains some example configuration that may cause some issue later on. Please comment it out or remove undesired `VirtualHost` config blocks.
+
 ### Enable rewrites
 
 By default [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) follows the filesystem path. For example the URL to a page about your company may end up being `mycompany.com/about.php`. In the case of WordPress we will more likely see something like `mycompany.com/?p=1`. Wouldn't it be cool to simplify it to `mycompany.com/about`? This is the reason why we need to explicitly enable it. Uncomment `LoadModule rewrite_module libexec/apache2/mod_rewrite.so`.
@@ -121,7 +123,7 @@ sudo nano /etc/hosts
 
 ## MySQL to store data, Sequel Pro to manage it
 
-WordPress' mission is to edit and serve content stored in a database which is the last missing piece of our setup. In order to download the database software and a great GUI (graphical user interface) for it, we are going to use [Homebrew — the missing package manager for macOS](https://brew.sh/). If you are not a Homebrew user, please follow the installation steps from the website and take my word that it is going to make your life much easier in the future. One day I will publish an introduction to `brew` on this website.
+WordPress' mission is to edit and serve content stored in a database which is the last missing piece of our setup. In order to download the database software and a great GUI (graphical user interface) for it, we are going to use [Homebrew — the missing package manager for macOS](https://brew.sh/). If you are not a Homebrew user, please follow the installation steps from the website and take my word that it is going to make your life much easier in the future. ~~One day I will publish an introduction to `brew` on this website.~~ I published ["Homebrew — the best friend of the macOS user"](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/) where I elaborate more about benefits of using it.
 
 ```
 brew install mysql
