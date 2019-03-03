@@ -123,7 +123,7 @@ sudo nano /etc/hosts
 
 ## MySQL to store data, Sequel Pro to manage it
 
-WordPress' mission is to edit and serve content stored in a database which is the last missing piece of our setup. In order to download the database software and a great GUI (graphical user interface) for it, we are going to use [Homebrew — the missing package manager for macOS](https://brew.sh/). If you are not a Homebrew user, please follow the installation steps from the website and take my word that it is going to make your life much easier in the future. ~~One day I will publish an introduction to `brew` on this website.~~ I published ["Homebrew — the best friend of the macOS user"](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/) where I elaborate more about benefits of using it.
+WordPress' mission is to edit and serve content stored in a database which is the last missing piece of our setup. In order to download the database software and a great GUI (graphical user interface) for it, we are going to use [Homebrew — the missing package manager for macOS](https://brew.sh/). If you are not a Homebrew user, please follow the installation steps from the website and take my word that it is going to make your life much easier in the future. I published ["Homebrew — the best friend of the macOS user"](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/) where I elaborate more about benefits of using it.
 
 ```
 brew install mysql
