@@ -4,9 +4,7 @@ description: "So you're about to build a WordPress website. An Apache HTTP Serve
 photo: 2018-04-29.jpg
 ---
 
-{{% update %}}Since MySQL has been updated to version 8, it doesn't play smoothly with with this tutorial. Feel free to follow along if you are using MySQL <7.{{% /update %}}
-
-So you are a [macOS](https://www.apple.com/uk/macos/) user and you want to configure a local environment to build a [WordPress](https://wordpress.org/) project. Great choice, it is a fantastic piece of software! There are plenty of tools that let you set it up in no time at no cost — [MAMP](https://www.mamp.info/) and [XAMPP](https://www.apachefriends.org/) are probably the best choices for beginners. Smashing Magazine just published an article called ["WordPress Local Development For Beginners: From Setup To Deployment" by Nick Schäferhoff](https://www.smashingmagazine.com/2018/04/wordpress-local-development-beginners-setup-deployment/) which is a great guide that takes you through the journey when using these kinds of tools. There is one disadvantage though — applications like these hide lots of important details from the user and come pre-bundled with lots of stuff that you just don't need to run a WordPress website.
+So you are a [macOS](https://www.apple.com/uk/macos/) user and you want to configure a local environment to build a [WordPress](https://wordpress.org/) project. Great choice, it is a fantastic piece of software! There are plenty of tools that let you set it up in no time at no cost — [MAMP](https://www.mamp.info/) / [XAMPP](https://www.apachefriends.org/) and [Local by FlyWheel](https://local.getflywheel.com/) are probably the best choices for beginners. Smashing Magazine published an article called ["WordPress Local Development For Beginners: From Setup To Deployment" by Nick Schäferhoff](https://www.smashingmagazine.com/2018/04/wordpress-local-development-beginners-setup-deployment/) which is a great guide that takes you through the journey when using these kinds of tools. There is one disadvantage though — applications like these hide lots of important details from the user and come pre-bundled with lots of stuff that you just don't need to run a WordPress website.
 
 My approach is a little bit more complicated but gives you enough knowledge about the environment to walk away confidently. An [Apache HTTP server](https://httpd.apache.org/), [MySQL database](https://www.mysql.com/) and [PHP programming language](http://php.net/) is all that we need and, believe it or not, your Apple computer comes with the majority of these elements baked in.
 
@@ -52,8 +50,6 @@ old: #Include /private/etc/apache2/extra/httpd-vhosts.conf
 new: Include /private/etc/apache2/extra/httpd-vhosts.conf
 ```
 
-The included file (`httpd-vhosts.conf`) contains some example configuration that may cause some issue later on. Please comment it out or remove undesired `VirtualHost` config blocks.
-
 ### Enable rewrites
 
 By default [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) follows the filesystem path. For example the URL to a page about your company may end up being `mycompany.com/about.php`. In the case of WordPress we will more likely see something like `mycompany.com/?p=1`. Wouldn't it be cool to simplify it to `mycompany.com/about`? This is the reason why we need to explicitly enable it. Uncomment `LoadModule rewrite_module libexec/apache2/mod_rewrite.so`.
@@ -92,6 +88,32 @@ old: AllowOverride None
 new: AllowOverride All
 ```
 
+## Manage local domains using vhost
+
+Do you remember vhost (Virtual Host) that we enabled second ago? We have to configure that in a way that our `localhost` serves files from `~/Sites` and `wp.localhost` from `~/Sites/wp.localhost`. We need to add a custom configuration to its configuration file that is located under `/etc/apache2/extra/httpd-vhosts.conf`. Open this file via the text editor of your choice.
+
+```
+sudo nano /etc/apache2/extra/httpd-vhosts.conf
+```
+
+This file comes with some example configuration that we don't need. Feel free to comment it out or delete it. Add a configuration blocks that look like this (make sure that you have amended the paths accordingly to your username and domain):
+
+```apache
+<VirtualHost *:80>
+    DocumentRoot "/Users/pawelgrzybek/Sites"
+    ServerName localhost
+    ErrorLog "/var/log/apache2/localhost-error_log"
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "/Users/pawelgrzybek/Sites/wp.localhost"
+    ServerName wp.localhost
+    ErrorLog "/var/log/apache2/wp.localhost-error_log"
+</VirtualHost>
+```
+
+The `DocumentRoot` tells Apache which directory the domain specified under the `ServerName` should be pointing to. The `ErrorLog` enables any error log files for this website (this may be helpful for debugging in the future). If you need to set up extra domains, simply duplicate one of those blocks and amend domain and path accordingly.
+
 ## Start, stop, restart and test apache server config
 
 I know it is a little bit daunting but I promise that we'll never come back to this nasty lengthy configuration file again. Four simple commands are everything that we need to remember from now on. Start, stop, restart and configuration test.
@@ -103,9 +125,9 @@ sudo apachectl restart
 sudo apachectl configtest
 ```
 
-Hopefully the commands are self-explanatory. Please bare in mind that every single change of the configuration file requires rebooting of the server — `sudo apachectl restart` comes in very handy for this so do it now please. A good practice is to run a sanity check beforehand by executing `sudo apachectl configtest`.
+Hopefully the commands are self-explanatory. Please bare in mind that every single change of the Apache configuration files require rebooting of the server. A good practice is to run a sanity check beforehand by executing `sudo apachectl configtest`. If you get `Syntax OK` feel free to run the server using `sudo apachectl start`.
 
-Test time! Now let's create a test `index.php` file in the root directory that we specified in the Apache configuration file (`/Users/pawelgrzybek/Sites/index.php` in my case). Put a `<?php phpinfo();` in there please. If you followed my previous instructions carefully, this is what you should see under [http://localhost/](http://localhost/).
+Test time! Now let's create a test `index.php` file in the `~/Sites` as we specified in vhost config file. Put a `<?php phpinfo();` in there please. If you followed my previous instructions carefully, this is what you should see under [http://localhost/](http://localhost/).
 
 ![PHP info page on Apache on macOS](/photos/2018-04-29-2.jpg)
 
@@ -133,9 +155,13 @@ brew install mysql
 brew cask install sequel-pro
 ```
 
-Now you have everything that you need. Run a `mysql.server start` command to initialise a MySQL daemon and launch your recently installed Sequel Pro app to create the first database that we are going to use on our website later on. On the initial screen use a descriptive name for your connection, `127.0.0.1` as a host, `root` as a username, keep the password blank and hit the "Connect" button.
+MySQL has been installed and `root` user with blank password has been added. Since version 8 it uses a different method of password encoding. To make our life easier we should change this encoding for our pre-created user. Log into MySQL shell using `mysql -u root`, change a password encoding using `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';` and exit shell using `exit;`.
 
-![Configure a connection to local database via Sequel Pro](/photos/2018-04-29-4.jpg)
+![MySQL shell change root user password to mysql_native_password](/photos/2018-04-29-4.jpg)
+
+Now you have everything that you need. Run a `mysql.server start` command to initialise a MySQL daemon and launch Sequel Pro app to create the first database that we are going to use on our website later on. On the initial screen use a descriptive name for your connection, `127.0.0.1` as a host, `root` as a username, keep the password blank and hit the "Connect" button.
+
+![Configure a connection to local database via Sequel Pro](/photos/2018-04-29-5.jpg)
 
 Are you in? From the dropdown in the top-left corner pick "Add database…", give it a meaningful name (I always follow the convention: `localhost_nameofawebsite`), confirm and you are done.
 
@@ -150,37 +176,20 @@ brew install wp-cli
 Time to build out a new website! Let's call it `wp.localhost`. It was common practice to use `.dev` as a development domain but a few browser vendors made this a little bit more complicated by requiring an SSL certificate for all `.dev` domains. To avoid the additional steps required to configure it, change your habits and use `.local`, `.test` or `.localhost` instead.
 
 ```
-mkdir ~/Sites/wp.localhost && cd ~/Sites/wp.localhost && wp core download && wp config create --dbname=NAME_OF_YOUR_DATABASE --dbuser=root --dbpass= --dbhost=127.0.0.1
+mkdir ~/Sites/wp.localhost && cd ~/Sites/wp.localhost
 ```
 
-This one-liner creates a folder `wp.localhost` inside a `Sites` directory, puts all the WordPress core files into it, creates a `wp-config.php` file and fills all the necessary details for you. Nice, isn't it?
-
-### Add your local domain to the vhost config file
-
-One last thing, I promise! We want our domain `wp.localhost` to point to `~/Sites/wp.localhost`. This is the function of the Apache Virtual Host that we enabled a few steps ago. We need to add a custom configuration to its configuration file that is located under `/etc/apache2/extra/httpd-vhosts.conf`. Open this file via the text editor of your choice.
-
 ```
-sudo nano /etc/apache2/extra/httpd-vhosts.conf
+wp core download
 ```
 
-Go to the very end of this file and add a configuration block that looks like this (make sure that you have amended the paths accordingly to your username):
-
-```apache
-<VirtualHost *:80>
-    DocumentRoot "/Users/pawelgrzybek/Sites/wp.localhost"
-    ServerName wp.localhost
-
-    ErrorLog "/var/log/apache2/wp.localhost-error_log"
-</VirtualHost>
+```
+wp config create --dbname=NAME_OF_YOUR_DATABASE --dbuser=root --dbpass= --dbhost=127.0.0.1
 ```
 
-The `DocumentRoot` tells Apache which directory the domain specified under the `ServerName` should be pointing to. The `ErrorLog` enables any error log files for this website (this may be helpful for debugging in the future). Time for a quick Apache restart and check if everything is working as expected.
+These few lines create a folder `wp.localhost` inside a `Sites` directory, download all the WordPress core files into it, creates a `wp-config.php` file and fills all the necessary details for you. Nice, isn't it? Time to check if everything is working as expected.
 
-```
-sudo apachectl restart
-```
-
-![WordPress website running locally](/photos/2018-04-29-5.jpg)
+![WordPress website running locally](/photos/2018-04-29-6.jpg)
 
 ## Helpful tip
 
