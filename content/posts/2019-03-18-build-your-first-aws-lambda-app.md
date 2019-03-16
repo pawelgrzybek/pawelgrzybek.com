@@ -15,15 +15,13 @@ AWS Lambda supports multiple languages (JavaScript, Python, Ruby, Java, Go and .
 
 Familiarity with command line, code editor and some REST client will help to write and test our application. If you don't have a preference, I highly recommend [Visual Studio Code](https://code.visualstudio.com/) and [Insomnia](https://insomnia.rest/) — both of these tools are free and easy to use but superb powerful in the same time.
 
-!!! 2019-03-18-1 !!!
+![Screenshot of AWS account, Visual Studio Code and Insomnia website](/photos/2019-03-18-1.jpg)
 
-## What are we going to buils and hqt are we going to use
+## Example app — simple project but complicated architecture (for a good reason)
 
-- very simplified API that says some greetings
-- i am concious it is not a very productive, but it is a staring pont for your million dollar serverless app
-- few aws services
-- no console that can be daunting to use, we will do it like a pro using CLI only
-- setup is intense but it pays back on the end
+Send your name and get some greetings back. I know — it is not an ambitious example but the concepts and tools that we are going to use are a great base for your million dollar project. Apart from previously mentioned AWS Lambdas we are going to use few other services of this platform. We are not going to click around the AWS interface though — we will do it like a pro.
+
+Sounds overkill? Because it probably is for such a simple dumb app, but take my word on that — it will pay back on a bigger scale project.
 
 ### AWS services in use
 
