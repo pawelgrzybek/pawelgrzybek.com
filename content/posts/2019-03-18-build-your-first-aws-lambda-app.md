@@ -144,31 +144,31 @@ aws cloudformation package --template-file template.yaml --output-template-file 
 
 ![AWS CLI — CloudFormation package output](/photos/2019-03-18-5.jpg)
 
-![AWS Console S3 — Confirmation that package has been uploaded sucesfully](/photos/2019-03-18-6.jpg)
+![AWS Console S3 — Confirmation that package has been uploaded successfully](/photos/2019-03-18-6.jpg)
 
 ### Deploy serverless app
 
-## package &  deploy
+Now all the files are on S3 bucket, we have a `packaged.yaml` file that contains the information about its resources, it is a great time to deploy the stack.
 
 ```
-aws s3 mb s3://pawelgrzybek-cloudformation
+aws cloudformation deploy --template-file packaged.yaml --capabilities CAPABILITY_IAM --stack-name hi
 ```
 
-```
-aws cloudformation package --template-file template.yaml --s3-bucket pawelgrzybek-cloudformation --output-template-file packaged.yaml
-```
+![AWS CLI — CloudFormation deploy output](/photos/2019-03-18-7.jpg)
 
-```
-aws cloudformation describe-stack-events --stack-name STACK_NAME
-```
+Behind the scene CloudFormation creates IAM role — thanks to SAM template enhancements we don't need to do it ourselves. To authorize a stack to do so, we need to add `--capabilities CAPABILITY_IAM`. The `--stack-name` allow us to create a custom name for the stack — name of my stack is "hi". Confirm the deployment of the stack in AWS CloudFormation stack section.
 
-- describe what is happening
-- `aws s3 mb s3://my-bucket`
-- make a connection to s3 bucket and converts the package.yaml file to the one with legit URLs
-- `aws cloudformation package` (https://docs.aws.amazon.com/cli/latest/reference/cloudformation/package.html)
-- zip the whole project and sends it to s3
-- `aws cloudformation deploy` (https://docs.aws.amazon.com/cli/latest/reference/cloudformation/deploy/index.html)
-- "The --capabilities CAPABILITY_IAM option is necessary to authorise your stack to create IAM roles, which SAM applications do by default."
+![AWS Console CloudFormation Stacks — Confirmation that package has been deployed successfully](/photos/2019-03-18-8.jpg)
+
+Stacks resources tab clearly show us all the resources that has been created to deploy the app and link services together: Lambda function, API Gateway, IAM role and bunch of permission and deployment related stuff that SAM transformation create for us.
+
+![AWS Console CloudFormation Stack — Resources tab](/photos/2019-03-18-9.jpg)
+
+### Test serverless app
+
+
+
+
 
 ## test with rest api client
 
