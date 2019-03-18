@@ -23,13 +23,6 @@ AWS platform contains hundreds services categorized in tens different types. We 
 
 ![AWS services in use](/photos/2019-03-19-2.jpg)
 
-!!! TODO! ADD AWS IAM TO THE SCREENSHOTS !!!\
-!!! TODO! ADD AWS IAM TO THE SCREENSHOTS !!!\
-!!! TODO! ADD AWS IAM TO THE SCREENSHOTS !!!\
-!!! TODO! ADD AWS IAM TO THE SCREENSHOTS !!!\
-!!! TODO! ADD AWS IAM TO THE SCREENSHOTS !!!\
-!!! TODO! ADD AWS IAM TO THE SCREENSHOTS !!!\
-
 ### Amazon Simple Storage Service (Amazon S3)
 
 [Amazon S3](https://aws.amazon.com/s3/) being the oldest tool of entire platform, allows user to store objects of any kind inside ["buckets"](https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html). You can use it to store source files of your website, securely keep some private documents or like a [photo backup solution](https://pawelgrzybek.com/my-amazon-s3-photo-backup-solution/).
@@ -111,7 +104,7 @@ exports.handler = event => {
 };
 ```
 
-Please, spare your comments about error handling strategies, syntax and stylistic details. I am here not to teach you programming but help you to create your first serverless app.
+Please, spare your comments about error handling strategies, syntax and stylistic details. I am here not to teach programming but help you to create your first serverless app.
 
 ### Create CloudFormation template
 
