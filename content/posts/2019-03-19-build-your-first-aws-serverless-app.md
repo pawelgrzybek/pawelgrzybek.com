@@ -39,7 +39,7 @@ We are going to use this service to compute the final output based on the input 
 
 [Amazon API Gateway](https://aws.amazon.com/api-gateway/) allows users to create, maintain, and secure APIs. It is extremely easy to use. Creating endpoints and attaching the HTTP verbs (`GET`, `POST`, `PUT`, `PATCH`, and `DELETE`) to it has never been easier.
 
-We are going to use this service to define an endpoint that triggers a lambda function with a defined payload: the body of a `POST` request.
+We are going to use this service to define an endpoint that triggers a lambda function with a defined payload — the body of a `POST` request.
 
 ### AWS Identity and Access Management (IAM)
 
@@ -85,7 +85,7 @@ hi/
 └── template.yaml
 ```
 
-### Create the lambda function
+### Create the Lambda function
 
 [A Lambda function signature in Node.js](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-handler.html) is straight forward. It takes three arguments: `event` for the data provided from the trigger, `context` which stores information about the execution environment and an optional `callback` function very commonly used in Node.js. The structure is similar in other runtimes supported by AWS Lambda, but please check for details regarding your programming language of choice on the [official AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html).
 
@@ -164,7 +164,7 @@ Behind the scenes CloudFormation creates the IAM role — thanks to SAM template
 
 ![AWS Console CloudFormation Stacks — Confirmation that package has been deployed successfully](/photos/2019-03-19-8.jpg)
 
-The stacks resources tab clearly shows us all of the resources that have been created to deploy the app and link the services together: Lambda function, API Gateway, IAM role and a bunch of permission and deployment-related stuff that the SAM transformation created for us.
+The stacks "resources" tab clearly shows us all of the resources that have been created to deploy the app and link the services together: Lambda function, API Gateway, IAM role and a bunch of permission and deployment-related stuff that the SAM transformation created for us.
 
 ![AWS Console CloudFormation Stack — Resources tab](/photos/2019-03-19-9.jpg)
 
