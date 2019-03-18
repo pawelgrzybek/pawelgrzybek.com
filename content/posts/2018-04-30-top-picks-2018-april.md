@@ -28,7 +28,7 @@ Node version 10 released with tons of changes and improvements. Full support for
 
 With the release of Node 10 new version on Node Package Manager has been released too. It comes with massive security and performance improvements, some new audit related commands and more. I have a good practical news as well — no more `rm -rf node_modules && npm i` — [`npm ci`](https://docs.npmjs.com/cli/ci) does exactly that but much faster.
 
-{{< tweet 989916947981582336 >}}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">PSA: if your workflow is `rm -rf node_modules; npm install` then running `npm ci` will have the same effect but be 2-3x faster.</p>&mdash; Laurie Voss (@seldo) <a href="https://twitter.com/seldo/status/989916947981582336?ref_src=twsrc%5Etfw">April 27, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## [Tower in Public Beta: Here's What's New!](https://www.git-tower.com/blog/tower-public-beta-2018-whats-new)
 

@@ -9,7 +9,7 @@ draft: true
 
 Are you waiting for next big thing in CSS? There you go.
 
-{{< tweet 1100921258839953408 >}}
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The CSS Working Group agreed this morning on adding many math functions. We now have:<br><br>• calc()<br>• min()<br>• max()<br>• clamp()<br>• sin()<br>• cos()<br>• tan()<br>• acos()<br>• asin()<br>• atan()<br>• atan2()<br>• hypot()<br>• sqrt()<br>• pow()<br><br>The face of CSS is rapidly changing.</p>&mdash; Benjamin De Cock (@bdc) <a href="https://twitter.com/bdc/status/1100921258839953408?ref_src=twsrc%5Etfw">February 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## [KV Storage, the Web's First Built-in Module](https://developers.google.com/web/updates/2019/03/kv-storage)
 
