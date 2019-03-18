@@ -1,5 +1,5 @@
 ---
-title: "Build your first AWS Lambda app"
+title: "Build your first AWS Serverless app"
 description: ""
 photo: 2019-03-18.jpg
 draft: true
@@ -39,7 +39,7 @@ We are going to use this service to compute final output based on the input sent
 
 [Amazon API Gateway](https://aws.amazon.com/api-gateway/) allows users to to create, maintain, and secure APIs. It is extremely easy to use. Creating endpoints and attaching HTTP verbs (`GET`, `POST`, `PUT`, `PATCH`, and `DELETE`) to it has never been easier.
 
-We are going to use this service to define an endpoint that triggers lambda function with defined payload (body of a `POST` request). 
+We are going to use this service to define an endpoint that triggers lambda function with defined payload (body of a `POST` request).
 
 ### AWS Cloud​Formation
 
@@ -60,7 +60,6 @@ A new `aws` command is ready to use but it has no clue how to speak to our accou
 ![Configure AWS CLI tool](/photos/2019-03-18-3.jpg)
 
 This setup creates a `.aws` directory in you user root location with two files: `credentials` and `config`. You can add as many user as you want using `configure` command. To find out more about creating new users and particular options, visit ["Configuring the AWS CLI"](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) section on official documentation.
-
 
 ## Build a serverless greetings app
 
@@ -121,7 +120,6 @@ Resources:
           Properties:
             Path: /
             Method: POST
-
 ```
 
 [`Transform` section](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/transform-section-structure.html) defines macros that AWS CloudFormation uses to process your template. `AWS::Serverless-2016-10-31` means that the template is written in the [AWS Serverless Application Model (AWS SAM)](https://docs.aws.amazon.com/serverless-application-model/index.html#lang/en_us) syntax. It simplifies the declaration of a Lambda function and its execution role a lot. Without this transformation, CloudFormation templates are much more verbose.
@@ -165,10 +163,6 @@ Stacks resources tab clearly show us all the resources that has been created to 
 ![AWS Console CloudFormation Stack — Resources tab](/photos/2019-03-18-9.jpg)
 
 ### Test serverless app
-
-
-
-
 
 ## test with rest api client
 
