@@ -104,11 +104,7 @@ exports.handler = event => {
 };
 ```
 
-<<<<<<< HEAD
-Please, spare your comments about error handling strategies, syntax and stylistic details. I am here not to teach programming but help you to create your first serverless app.
-=======
 Please, spare your comments about error handling strategies, syntax and stylistic details. I am here not to teach you best practice programming but help you to create your first serverless app.
->>>>>>> 4d39c0e2fd164bb9d54b68ef39782ec8767ea1f8
 
 ### Create the CloudFormation template
 
