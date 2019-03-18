@@ -1,6 +1,6 @@
 ---
 title: "Build your first AWS Serverless app"
-description: ""
+description: "After years spent on frontend, through building AR / VR applications, recently I ended up in a team of talented people building serverless microservices on AWS platform. Let me share with you my explorations."
 photo: 2019-03-19.jpg
 draft: true
 ---
