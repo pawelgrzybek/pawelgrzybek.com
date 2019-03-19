@@ -49,7 +49,7 @@ We are going to use this service to create an account that allows us to manage A
 
 ### AWS Cloud​Formation
 
-[AWS Cloud​Formation](https://aws.amazon.com/cloudformation/) is the best! Infrastructure as code, also referred to as IaC, allows the user to describe and provision all of the infrastructure resources.
+[AWS Cloud​Formation](https://aws.amazon.com/cloudformation/) is the best! [Infrastructure as code, also referred to as IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code), allows the user to describe and provision all of the infrastructure resources.
 
 We are going to use this service to describe all of the resources for the app inside a single YAML file (JSON format is supported as well). A "stack" of services created using Cloud​Formation is very easy to deploy, update and delete.
 
@@ -61,11 +61,11 @@ Although it is possible to do everything that we need using the AWS console (web
 brew install awscli
 ```
 
-A new `aws` command is ready to use but it doesn't yet know how to speak to our account. To fix this we need to configure the CLI. Before doing so, please make sure that you have a [IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html) with programmatic access and sufficient privileges created. If this is in place, you should have your `aws_access_key_id` and `aws_secret_access_key` that enables you to grant programmatic access. Configure your default account using the `aws configure` command.
+A new `aws` command is ready to use but it doesn't yet know how to speak to our account. To fix this we need to configure the CLI. Before doing so, please make sure that you have a [IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html) with programmatic access and sufficient privileges created. [Creating an IAM User in Your AWS Account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) is well documented on an official documentation. If this is in place, you should have your `aws_access_key_id` and `aws_secret_access_key` that enables you to grant programmatic access. Configure your default account using the `aws configure` command.
 
 ![Configure AWS CLI tool](/photos/2019-03-19-3.jpg)
 
-This setup creates a `.aws` directory in your user root location with two files: `credentials` and `config`. You can add as many users as you want using the `configure` command. To find out more about creating new users and particular options, visit the ["Configuring the AWS CLI"](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) section on the official documentation.
+This setup creates a `.aws` directory in your user root location (`~/.aws`) with two files: `credentials` and `config`. You can add as many users as you want using the `configure` command. To find out more about creating new users and particular options, visit the ["Configuring the AWS CLI"](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) section on the official documentation.
 
 ## Build a serverless greetings app
 
@@ -94,7 +94,7 @@ The `handler` function for our greetings app is as simple as that.
 ```js
 // index.js
 
-exports.handler = event => {
+exports.handler = async event => {
   const { name } = JSON.parse(event.body);
 
   return {
