@@ -18,7 +18,7 @@ Familiarity with the command line, a code editor and a REST client will help you
 
 ## Stack
 
-The AWS platform contains hundreds of services which are categorisd into tens of different types. We are going to use only a few of them without needing to ever visit the not-so-intuitive web interface — we'll do it like the pros! We are going to use the [AWS Command Line Interface](https://aws.amazon.com/cli/) to manage all the services. Lets have a closer look at what we need.
+The AWS platform contains hundreds of services which are categorised into tens of different types. We are going to use only a few of them without needing to ever visit the not-so-intuitive web interface — we'll do it like the pros! We are going to use the [AWS Command Line Interface](https://aws.amazon.com/cli/) to manage all the services. Lets have a closer look at what we need.
 
 ![AWS services in use](/photos/2019-03-19-2.jpg)
 
@@ -30,7 +30,7 @@ We are going to use this service to store a bundled zip file containing some pro
 
 ### AWS Lambda
 
-[AWS Lambda](https://aws.amazon.com/lambda/) is a computing power provider that removes the overhead of server maintenance — that's the reason why its functions are termed "serverless". Lambda functions are stateless and can be invoked using multiple triggers, for example: a database stream, an API request or an event emited by other AWS services. Lambdas are very cost effective because we pay only for the computational duration — not for any idle time.
+[AWS Lambda](https://aws.amazon.com/lambda/) is a computing power provider that removes the overhead of server maintenance — that's the reason why its functions are termed "serverless". Lambda functions are stateless and can be invoked using multiple triggers, for example: a database stream, an API request or an event emited by other AWS services. Lambdas are very cost effective because we only pay for the computational duration — not for any idle time.
 
 We are going to use this service to compute the final output based on the input sent within a `POST` request. To create the REST APIs we are going to use…
 
@@ -60,7 +60,7 @@ Although it is possible to do everything that we need using the AWS console (web
 brew install awscli
 ```
 
-A new `aws` command is ready to use but it doesn't yet know how to speak to our account. To fix this we need to configure the CLI. Before doing so, please make sure that you have a [IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html) with programmatic access and sufficient privileges created. [Creating an IAM User in Your AWS Account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) is well documented on an official documentation. If this is in place, you should have your `aws_access_key_id` and `aws_secret_access_key` that enables you to grant programmatic access. Configure your default account using the `aws configure` command.
+A new `aws` command is ready to use but it doesn't know how to speak to our account yet. To fix this we need to configure the CLI. Before doing so, please make sure that you have a [IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html) with programmatic access and sufficient privileges created. [Creating an IAM User in Your AWS Account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) is well documented on an official documentation. If this is in place, you should have your `aws_access_key_id` and `aws_secret_access_key` that enables you to grant programmatic access. Configure your default account using the `aws configure` command.
 
 ![Configure AWS CLI tool](/photos/2019-03-19-3.jpg)
 
