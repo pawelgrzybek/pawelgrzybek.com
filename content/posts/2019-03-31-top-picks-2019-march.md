@@ -22,3 +22,7 @@ A big announcement and official confirmation — team collaboration and Sketch i
 ## [Designing An Aspect Ratio Unit For CSS](https://www.smashingmagazine.com/2019/03/aspect-ratio-unit-css/)
 
 Do you remember a CSS padding hack to implement responsive `iframe` / `embed`? The CSS Working Group is working on much more elegant solution for this issue — `aspect-ratio` property. [Rachel Andrew](https://twitter.com/rachelandrew) does a fantastic job by presenting a problem and suggesting a solution. This is part of very early drafts of [CSS Sizing Specification Level 4](https://drafts.csswg.org/css-sizing-4/#ratios) — please, don;t event try using it yet. It has not been implemented to any browser yet.
+
+## [Stadia](https://store.google.com/magazine/stadia)
+
+I am super excited about the [concept that Google presented at GDC 2019](https://youtu.be/W7hc4R8JAJY). Streaming service, with no box requires, cross platform and cross device. I am looking forward to an official public announcement.
