@@ -15,7 +15,7 @@
       </h2>
       <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> | {{ .ReadingTime }} minutes read</p>
       <p>{{ .Description }}</p>
-      <a class="post__more" href="{{ .Permalink }}" title="{{ .Title }}">Read more »</a>
+      <a class="post__more" href="{{ .Permalink }}" title="{{ .Title }}" arial-link="Read more about {{ .Title }}">Read more »</a>
     </article>
     {{ "<!-- / post -->" | safeHTML }}
     {{ end }}
