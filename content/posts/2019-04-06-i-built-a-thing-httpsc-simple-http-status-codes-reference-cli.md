@@ -1,10 +1,10 @@
 ---
 title: I built a thing — httpsc (Simple HTTP status codes reference CLI)
-description: 
+description: How often do you visit a Wikipedia for a definition of a HTTP status code? I don't know about you but it happens to me at least once a week. To make it a bit easier I created a httpsc.
 photo: 2019-04-06.jpg
 ---
 
-How often do you visit a Wikipedia for a definition of a particular HTTP status code? I don't know about you but it happens to me at least once a week. To make it a bit easier I created a [httpsc — simple HTTP status codes reference CLI](https://www.npmjs.com/package/httpsc).
+How often do you visit a Wikipedia for a definition of a HTTP status code? I don't know about you but it happens to me at least once a week. To make it a bit easier I created a [httpsc — simple HTTP status codes reference CLI](https://www.npmjs.com/package/httpsc).
 
 ![Screenshot of httpsc CLI](/photos/2019-04-06-1.jpg)
 
