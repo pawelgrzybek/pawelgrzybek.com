@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - {{ .Site.BaseURL }}">
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
 
   <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
@@ -12,7 +12,7 @@
   {{ "<!-- Open graph data -->" | safeHTML }}
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-  <meta property="og:url" content="{{ .URL | absURL }}">
+  <meta property="og:url" content="{{ .Permalink | absURL }}">
   <meta property="og:type" content="{{ if eq .Type "page" }}website{{ else }}article{{ end }}">
   <meta property="og:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:image" content="{{ if eq .Type "page" }}{{ .Site.BaseURL }}assets/logo.png{{ else }}{{ .Site.BaseURL }}photos/{{ .Params.photo }}{{ end }}">
@@ -23,7 +23,7 @@
   <meta name="twitter:creator" content="@pawelgrzybek" />
 
   {{ "<!-- Standard Stuff -->" | safeHTML }}
-  <link rel="canonical" href="{{ .URL | absURL }}">
+  <link rel="canonical" href="{{ .Permalink | absURL }}">
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.xml" />
   <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.json  " />
 
