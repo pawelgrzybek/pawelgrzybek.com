@@ -27,7 +27,7 @@ All that we need is in the correct location now, time to create symlinks to thos
 ```
 ln -s /Users/pawelgrzybek/.dotfiles/VSCode/settings.json /Users/pawelgrzybek/Library/Application\ Support/Code/User/settings.json
 ln -s /Users/pawelgrzybek/.dotfiles/VSCode/keybindings.json /Users/pawelgrzybek/Library/Application\ Support/Code/User/keybindings.json
-ln -s /Users/pawelgrzybek/.dotfiles/VSCode/snippets/ /Users/pawelgrzybek/Library/Application\ Support/Code/User/snippets
+ln -s /Users/pawelgrzybek/.dotfiles/VSCode/snippets/ /Users/pawelgrzybek/Library/Application\ Support/Code/User
 ```
 
 Boom! And it's done! Easy eh? Now you can commit the new "Code" directory to your .dotfiles repo, create symbolic links across all your machines and enjoy version controlled settings and snippets.
