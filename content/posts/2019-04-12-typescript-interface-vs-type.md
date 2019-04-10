@@ -43,12 +43,12 @@ One day someone smarter than me will update TypeScript Handbook and I will simpl
 
 Elaborate…
 
-## You can merge interfaces but not types
+## You can merge declaration of interfaces but not types
 
-Elaborate…
+http://www.typescriptlang.org/docs/handbook/declaration-files/deep-dive.html#adding-using-an-interface
 
 ## Primitives on types not on interfaces
 
-Elaborate…
+The `type` alias declaration is in some way more powerful than alias because it allows you to use primitive types (`undefined`, `null`, `boolean`, `string` and `number`). The `interface` declaration suppose to be used with derivatives of objects. In theory every type declaration that you can express with `interface`, you can recreate with a `type` alias. 
 
 ## What do I use?
