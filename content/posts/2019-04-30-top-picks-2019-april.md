@@ -22,3 +22,6 @@ Have you every tried to create an on-page link to anchor element but it didn't p
 This is one of the best news for performance oriented frontend developers. Addy Osmani shared a gist of an upcoming `loading` attribute that can be attached to HTML `img` and `iframe` tag. Apart from that, this article explains the fallback strategies for browsers that lack support of this feature. Really great news and can't wait to add `loading="lazy"` to every single image on this website!
 
 
+## [Front-end Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/)
+
+[Frontend Master](https://frontendmasters.com/) released very comprehensive guide to start your journey as a Front End Developer in 2019. It is definitely not a 5 minutes read tho.
