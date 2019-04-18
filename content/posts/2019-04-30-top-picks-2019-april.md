@@ -25,3 +25,7 @@ This is one of the best news for performance oriented frontend developers. Addy 
 ## [Front-end Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/)
 
 [Frontend Master](https://frontendmasters.com/) released very comprehensive guide to start your journey as a Front End Developer in 2019. It is definitely not a 5 minutes read tho.
+
+## [Optimizing Performance With Resource Hints](https://www.smashingmagazine.com/2019/04/optimization-performance-resource-hints/)
+
+[Drew McLellan](https://twitter.com/drewm) published this insanely helpful article about resource hints. Everything that you want to know about DNS prefetching, preconnecting, resource prefetching and prerendering in on single article. This article is a golden for all performance maniacs!
