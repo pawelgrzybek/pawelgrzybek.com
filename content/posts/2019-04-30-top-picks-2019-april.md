@@ -29,3 +29,7 @@ This is one of the best news for performance oriented frontend developers. Addy 
 ## [Optimizing Performance With Resource Hints](https://www.smashingmagazine.com/2019/04/optimization-performance-resource-hints/)
 
 [Drew McLellan](https://twitter.com/drewm) published this insanely helpful article about resource hints. Everything that you want to know about DNS prefetching, preconnecting, resource prefetching and prerendering in on single article. This article is a golden for all performance maniacs!
+
+## [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
+
+[Kent C. Dodds](https://twitter.com/kentcdodds/) about the state management in React applications again! This short article is full of very modern approaches for historically painful to solve problem. Kent is a good teacher!
