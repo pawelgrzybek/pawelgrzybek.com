@@ -5,7 +5,7 @@ photo: 2019-04-12.jpg
 draft: true
 ---
 
-I'm not an expert in TypeScript land by any means but I work with it every single day for last few months and I am really enjoying this ride. Nonetheless, beneath its straight-forward set of features there are some very confusing ones. Should it be an `interface` or `type` alias? This one definitely belongs to the the later category.
+I'm not an expert in TypeScript land by any means but I work with it every single day for last few months and I am really enjoying this ride. Nonetheless, beneath its straight-forward set of features there are some very confusing ones. Should it be an `interface` or `type` alias? One of those from later category for newcomers.
 
 ```ts
 interface DudeInterface {
@@ -35,9 +35,9 @@ Both of them are correct but which one should we use? As always — it depends. 
 
 ## Misleading section of the official TypeScript Handbook
 
-["Interfaces vs. Type Aliases"](http://www.typescriptlang.org/docs/handbook/advanced-types.html#interfaces-vs-type-aliases) section of the official TypeScript Handbook explains the characteristic of both. Since October 2015 when this part of a documentation has been updated last time TypeScript got a major version bump and lots of things has changed. The thing that hasn't changed since then is this part of a specification though.
+The ["Interfaces vs. Type Aliases"](http://www.typescriptlang.org/docs/handbook/advanced-types.html#interfaces-vs-type-aliases) section of the official TypeScript Handbook explains the characteristic of both. Since October 2015 when this part of a documentation has been updated last time TypeScript got a major version bump and lots of things has changed. Unfortunately specification didn't catch up yet.
 
-One day someone smarter than me will update TypeScript Handbook and I will simply delete this section of an article. For now it details few not anymore relevant differences so stick with me for now please.
+One day TypeScript Handbook will be updated and I will simply delete this section of an article. For now it details few not anymore relevant differences so stick with me to find a clarification.
 
 ## Syntax
 
