@@ -33,3 +33,7 @@ This is one of the best news for performance oriented frontend developers. Addy 
 ## [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 
 [Kent C. Dodds](https://twitter.com/kentcdodds/) about the state management in React applications again! This short article is full of very modern approaches for historically painful to solve problem. Kent is a good teacher!
+
+## [Announcing a new --experimental-modules](https://medium.com/@nodejs/announcing-a-new-experimental-modules-1be8d2d6c2ff)
+
+[Node.js](https://nodejs.org/) version 12 is coming soon and new ECMAScript modules implementation is coming with it. The `--experimental-modules` flag landed back in 2017 in version 8.9.0. The next iteration is of it is a big update and this article goes in depth about all the details related with it.
