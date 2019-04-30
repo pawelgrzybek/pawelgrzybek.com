@@ -1,8 +1,7 @@
 ---
 title: "Top picks — 2019 April"
-description: ""
+description: "Google Chrome Network tab explained, CSS scroll-margin and scroll-padding,native lazy-loading for images and iframes is coming, Front-end Developer Handbook 2019, performance hints guide, state management in React apps in 2019, native ECMAScript modules in Node.js and more…"
 photo: top-picks.jpg
-draft: true
 ---
 
 ## [Inspect Network Activity - Chrome DevTools 101](https://youtu.be/e1gAyQuIFQo)
@@ -13,7 +12,7 @@ Made by Google Chrome Developers great tutorial about Google Chrome Network tab.
 
 ## [Fixed Headers, On-Page Links, and Overlapping Content, Oh My!](https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/)
 
-Have you every tried to create an on-page link to anchor element but it didn't play nice with your fixed elements? There is a great solution for that now: `scroll-margin` and `scroll-padding`. Thanks god!
+Have you every tried to create an on-page link to anchor element but it didn't play nice with your fixed elements? There is a great solution for that now: `scroll-margin` and `scroll-padding`.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">On-page anchor links and fixed position elements are not the best friends — target element may be obscured (left). There is a good news (right)!<br><br>😍 😍 😍<br><br>`scroll-padding` and `scroll-margin`<br><br>😍 😍 😍<a href="https://t.co/00LtTmBcVa">https://t.co/00LtTmBcVa</a><br><br>Thanks for tip <a href="https://twitter.com/css?ref_src=twsrc%5Etfw">@css</a> and <a href="https://twitter.com/simevidas?ref_src=twsrc%5Etfw">@simevidas</a> <a href="https://twitter.com/hashtag/css?src=hash&amp;ref_src=twsrc%5Etfw">#css</a> <a href="https://twitter.com/hashtag/html?src=hash&amp;ref_src=twsrc%5Etfw">#html</a> <a href="https://t.co/4tkKnEJleN">pic.twitter.com/4tkKnEJleN</a></p>&mdash; Paweł Grzybek (@pawelgrzybek) <a href="https://twitter.com/pawelgrzybek/status/1115152001917227008?ref_src=twsrc%5Etfw">April 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -24,11 +23,11 @@ This is one of the best news for performance oriented frontend developers. Addy 
 
 ## [Front-end Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/)
 
-[Frontend Master](https://frontendmasters.com/) released very comprehensive guide to start your journey as a Front End Developer in 2019. It is definitely not a 5 minutes read tho.
+[Frontend Master](https://frontendmasters.com/) released very comprehensive guide to start your a journey as a Front End Developer in 2019. It is definitely not a 5 minutes read tho.
 
 ## [Optimizing Performance With Resource Hints](https://www.smashingmagazine.com/2019/04/optimization-performance-resource-hints/)
 
-[Drew McLellan](https://twitter.com/drewm) published this insanely helpful article about resource hints. Everything that you want to know about DNS prefetching, preconnecting, resource prefetching and prerendering in on single article. This article is a golden for all performance maniacs!
+[Drew McLellan](https://twitter.com/drewm) published this insanely helpful article about resource hints. Everything that you want to know about DNS prefetching, preconnecting, resource prefetching and prerendering put together in a single article. This article is a golden for all performance maniacs!
 
 ## [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 
@@ -36,4 +35,4 @@ This is one of the best news for performance oriented frontend developers. Addy 
 
 ## [Announcing a new --experimental-modules](https://medium.com/@nodejs/announcing-a-new-experimental-modules-1be8d2d6c2ff)
 
-[Node.js](https://nodejs.org/) version 12 is coming soon and new ECMAScript modules implementation is coming with it. The `--experimental-modules` flag landed back in 2017 in version 8.9.0. The next iteration is of it is a big update and this article goes in depth about all the details related with it.
+[Node.js](https://nodejs.org/) version 12 is coming soon and new ECMAScript modules implementation is coming with it. The `--experimental-modules` flag landed back in 2017 in version 8.9.0. The next iteration of it is a big update and this article goes in depth about all the details.
