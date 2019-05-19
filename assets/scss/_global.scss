@@ -29,7 +29,8 @@ body {
   padding: 0 $lh;
   background-color: #fff;
   color: $color-text;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: $fz;
   line-height: $lh;
 
@@ -126,4 +127,12 @@ blockquote {
 blockquote p {
   margin: 0;
   font-style: italic;
+}
+
+figure {
+  margin-bottom: $lh;
+}
+
+figcaption {
+  font-size: $fz / $type-scale / $type-scale;
 }
