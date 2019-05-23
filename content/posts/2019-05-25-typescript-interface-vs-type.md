@@ -5,7 +5,7 @@ photo: 2019-04-12.jpg
 draft: true
 ---
 
-I'm not an expert in a field of TypeScript by any means but I work with it every single day for last few months and I am really enjoying this ride. Nonetheless, beneath its straight-forward set of features there are some very confusing ones. Should it be an `interface` or `type` alias? One of those from later category for newcomers.
+I'm not an expert in a field of TypeScript by any means but I work with it every single day for last few months and I am really enjoying this ride. Beneath its straight-forward set of features there are some very confusing concepts as well. Should it be an `interface` or `type` alias? One of those asked a lot by newcomers.
 
 ```ts
 interface DudeInterface {
@@ -31,38 +31,23 @@ const pawel: DudeType = {
 };
 ```
 
-Both of them are correct but which one should we use? As always — it depends. Let me take a stab at explaining the difference.
+Both methods are correct to describe a structure of an object but which one should we use? As always — it depends. Let me compare and contrast them.
 
 ## Misleading section of the official TypeScript Handbook
 
-The ["Interfaces vs. Type Aliases"](http://www.typescriptlang.org/docs/handbook/advanced-types.html#interfaces-vs-type-aliases) section of the official TypeScript Handbook explains the characteristic of both. Since October 2015 when this part of a documentation has been updated last time TypeScript got a major version bump and lots of things has changed. Unfortunately specification didn't catch up yet.
+The ["Interfaces vs. Type Aliases"](http://www.typescriptlang.org/docs/handbook/advanced-types.html#interfaces-vs-type-aliases) section of the official TypeScript Handbook explains the characteristic of both. These are the differences as per official documentation.
 
-One day TypeScript Handbook will be updated and I will simply delete this section of an article. For now it details few not anymore relevant differences so stick with me to find a better clarification.
+1. Interfaces create a new name, Type aliases don’t
+2. Type aliases cannot be extended or implemented from
 
-## Syntax
+Since [June 2016](https://github.com/microsoft/TypeScript-Handbook/commit/939650d392f389090b663bc5117234cfda5d4812) when this part of a documentation has been updated last time, TypeScript got a major version bump and lots of functionality has changed. Unfortunately none of these points is true anymore. It is a great time to update this particular part of documentation. I will try to do a better job at explaining the differences. TypeScript Handbook will be updated eventually, then I will return to simply get rid of this section of an article.
 
-Very obvious one but needs to be mentioned. Expressing a type of an object is looking more JavaScripty when using `type` alias. Declaring an interface doesn't require `=` assignment.
+## Interfaces are restricted to object type
 
-https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/member-delimiter-style.md
-
-https://github.com/prettier/prettier/issues/1944
-
-https://github.com/storybooks/storybook/issues/6416
-
-Despite the fact that you can separate properties of interface using comma `,` documentation suggest using semicolons `;` for that. Have a look at two code snippets using both techniques.
+Interface declaration can only represent a shape of an object type. Type alias declaration can create a name for all kind of types including primitive, union, and intersection types. This difference makes the `type` much more flexible. Lets have a look at the example that can be represented using type alias, but would be beyond the power of `interface`.
 
 ```ts
-interface CarInterface {
-  make: string;
-  maxSpeed: number;
-}
-```
-
-```ts
-type CarType = {
-  make: string,
-  maxSpeed: number
-};
+type info = string | { name: string };
 ```
 
 ## You can merge declaration of interfaces but not types
