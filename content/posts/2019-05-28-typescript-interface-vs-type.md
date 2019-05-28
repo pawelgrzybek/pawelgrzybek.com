@@ -1,8 +1,7 @@
 ---
 title: "TypeScript interface vs. type"
-description: "Should it be an `interface` or a `type` alias? This is a question asked a lot by newcomers. Let me clarify the difference."
-photo: 2019-05-29.jpg
-draft: true
+description: "Should it be an interface or a type alias? This is a question asked a lot by newcomers. Let me clarify the difference."
+photo: 2019-05-28.jpg
 ---
 
 I'm not an expert in the field of TypeScript by any means but I have worked with it every single day for the last few months and I am really enjoying the ride. Beneath its straight-forward set of features there are some confusing concepts as well. Should it be an `interface` or a `type` alias? This is a question asked a lot by newcomers.
@@ -44,7 +43,7 @@ Since [June 2016](https://github.com/microsoft/TypeScript-Handbook/commit/939650
 
 ## Interfaces are restricted to an object type
 
-Interface declarations can only represent the shape of an object type. Type alias declarations can create a name for all kind of types including primitives (`undefined`, `null`, `boolean`, `string` and `number`), union, and intersection types. In a way, this difference makes the `type` more flexible. In theory every type declaration that you can express with an `interface`, you can recreate using a `type` alias. Lets have a look at an example that can be represented using a `type` alias but is beyond the power of an `interface`.
+Interface declarations can exclusively represent the shape of an object-like data structures. Type alias declarations can create a name for all kind of types including primitives (`undefined`, `null`, `boolean`, `string` and `number`), union, and intersection types. In a way, this difference makes the `type` more flexible. In theory every type declaration that you can express with an `interface`, you can recreate using a `type` alias. Lets have a look at an example that can be represented using a `type` alias but is beyond the power of an `interface`.
 
 ```ts
 type info = string | { name: string };
@@ -71,7 +70,7 @@ const pawel: DudeInterface = {
 
 Attempting to merge `type`s results in a `Duplicate identifier` compiler error.
 
-![Compiler error caused by attempting to merge type aliases](/photos/2019-05-29-1.jpg)
+![Compiler error caused by attempting to merge type aliases](/photos/2019-05-28-1.jpg)
 
 ## Type aliases can use computed properties
 
@@ -92,9 +91,7 @@ const test: DudeType = {
 
 Unfortunately we cannot take advantage of computed properties in an `interface` declaration.
 
-A computed property name must be of type 'string', 'number', 'symbol', or 'any'.
-
-![Compiler error caused by attempting to merge type aliases](/photos/2019-05-29-2.jpg)
+![Compiler error caused by using computed properties on an interface](/photos/2019-05-28-2.jpg)
 
 ## Be consistent
 
