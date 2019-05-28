@@ -4,6 +4,28 @@ title: Uses
 
 I have an [Awesome Uses](https://github.com/wesbos/awesome-uses) page too. For more geeky setup I highly encourage you to check my [.dotfiles repository on GitHub](https://github.com/pawelgrzybek/dotfiles).
 
+## Software
+
+For my day-to-day job I use mainly [Visual Studio Code](https://code.visualstudio.com/) by Microsoft that I jump on after long years with [Sublime Text](https://www.sublimetext.com/). [Hyper](https://hyper.is/) is my favorite Terminal alternative. [Insomnia](https://insomnia.rest/) is my tool of choice to help me with REST APIs and GraphQL servers that normally run on separated containers with a little help of [Docker](https://www.docker.com/). To debug front-end applications I tend to use [Google Chrome](https://www.google.com/chrome/) or [Google Chrome Canary](https://www.google.com/chrome/canary/) when I am playing with some experimental features.
+
+Talented people from Serif help me to escape the monopoly of Adobe applications. The [Affinity Designer](https://affinity.serif.com/en-gb/designer/) is an amazing alternative to an Illustrator, [Affinity Photo](https://affinity.serif.com/en-gb/photo/) to a Photoshop and [Affinity Publisher](https://affinity.serif.com/en-gb/publisher/) to an InDesign. [Capture One 12 Pro](https://www.captureone.com/en/) is a tool that helps me a lot with professional look of my photographs. [Sketch](https://www.sketch.com/) and [Figma](https://www.figma.com/files) are my favorite UX tools.
+
+I cannot imagine a productive day of my life without [1Password](https://1password.com/), [Alfred](https://www.alfredapp.com/) or [Things](https://culturedcode.com/things/). To help me with a smaller tasks I use bunch of other helper apps like:
+
+- [CleanMyMacX](https://macpaw.com/cleanmymac)
+- [ForkLift](https://binarynights.com/)
+- [ImageAlpha](https://pngmini.com/)
+- [ImageOptim](https://imageoptim.com/mac)
+- [Keynote](https://www.apple.com/uk/keynote/)
+- [Numbers](https://www.apple.com/uk/numbers/)
+- [Pages](https://www.apple.com/uk/pages/)
+- [Palette Master Element](https://www.benq.com/en-ap/support/downloads-faq/products/monitor/sw2700pt/software-driver.html)
+- [Reeder](https://reederapp.com/)
+- [ScreenFlow](http://www.telestream.net/screenflow/overview.htm)
+- [Skype](https://www.skype.com/en/)
+- [Slack](https://slack.com/)
+- [Zoom](https://zoom.us/)
+
 ## Hardware
 
 - MacBook Pro (Retina, 15-inch, Mid 2015), 2.2 GHz Intel Core i7, 16 GB 1600 MHz DDR3, Intel Iris Pro 1536 MB
@@ -15,36 +37,6 @@ I have an [Awesome Uses](https://github.com/wesbos/awesome-uses) page too. For m
 - Sony α7R III
 - Sony FE 85mm F1.4 GM
 - Sony Sonnar T* FE 35mm F2.8 ZA
-
-## Software
-
-- 1Password
-- Affinity Designer
-- Affinity Photo
-- Affinity Publisher
-- Alfred 3
-- Capture One 12 Pro
-- CleanMyMacX
-- Docker
-- ForkLift
-- Google Chrome
-- Google Chrome Canary
-- Hyper
-- ImageAlpha
-- ImageOptim
-- Insomnia
-- Keynote
-- Numbers
-- Pages
-- Palette Master Element
-- Reeder
-- ScreenFlow
-- Sketch
-- Skype
-- Slack
-- Things
-- Visual Studio Code
-- Zoom
 
 ## Other
 
