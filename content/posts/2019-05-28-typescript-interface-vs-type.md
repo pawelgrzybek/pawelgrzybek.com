@@ -76,7 +76,7 @@ Attempting to merge `type`s results in a `Duplicate identifier` compiler error.
 
 ## Type aliases can use computed properties
 
-The `in` keyword can be used to iterate over all of the items in an union of keys. We can use this feature to programmatically generate properties inside of declarations. Have a look at this example using `type` aliases.
+The `in` keyword can be used to iterate over all of the items in an union of keys. We can use this feature to programmatically generate [mapped types](https://www.typescriptlang.org/docs/handbook/advanced-types.html#mapped-types). Have a look at this example using `type` aliases.
 
 ```ts
 type Keys = "firstname" | "surname"
