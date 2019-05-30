@@ -41,6 +41,8 @@ The ["Interfaces vs. Type Aliases"](http://www.typescriptlang.org/docs/handbook/
 
 Since [June 2016](https://github.com/microsoft/TypeScript-Handbook/commit/939650d392f389090b663bc5117234cfda5d4812) when this part of the documentation was last updated, TypeScript has had a major version bump and lots of functionality has changed. Unfortunately none of these points are true anymore. It is a great time to update this obsolete part of the documentation. I will try to do a better job at explaining the difference. Hopefully the TypeScript Handbook will be updated eventually, then I will get rid of this section of the article.
 
+{{% update %}}Microsoft actively works on [a brand new TypeScript Handbook](https://microsoft.github.io/TypeScript-New-Handbook/everything/#interface-vs-alias) that does a much better job at explaining the subject. It is a work in progress and we don't know the date when it is going to replace the current Handbook.{{% /update %}}
+
 ## Interfaces are restricted to an object type
 
 Interface declarations can exclusively represent the shape of an object-like data structures. Type alias declarations can create a name for all kind of types including primitives (`undefined`, `null`, `boolean`, `string` and `number`), union, and intersection types. In a way, this difference makes the `type` more flexible. In theory every type declaration that you can express with an `interface`, you can recreate using a `type` alias. Lets have a look at an example that can be represented using a `type` alias but is beyond the power of an `interface`.
