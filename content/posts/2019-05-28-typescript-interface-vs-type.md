@@ -95,6 +95,19 @@ Unfortunately we cannot take advantage of computed properties in an `interface` 
 
 ![Compiler error caused by using computed properties on an interface](/photos/2019-05-28-2.jpg)
 
+## Deferred type resolution of interfaces vs. eager type aliases
+
+Another difference is when a type is resolved by the compiler. Resolution of an `interface` is deferred, means that you can use them to recursively chain types. Resolution of `type` aliases is eager and compiler goes crazy when you try to resolve recursively nested types. Look!
+
+```ts
+type Dude = string | Pals;
+interface Pals extends Array<Dude> {}
+```
+
+We are allowed to do it, because type of `interface`s is deferred. Equivalent with `type` alias results with `Type alias circularly references itself` compiler error.
+
+![Recursively chained type aliases result in "circularly references itself" compiler error](/photos/2019-05-28-3.jpg)
+
 ## Be consistent
 
 Just because in many situations you can use either of them, it doesn't mean you should use them interchangeably. As an active open source contributor I see some advantages of using `interface` for authoring a public API and I tend to use it more often. The `type` alias is irreplaceable in some circumstances mentioned in this article. Most importantly — keep it consistent. Hopefully this article helped you out.
