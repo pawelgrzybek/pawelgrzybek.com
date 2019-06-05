@@ -24,6 +24,16 @@ li {
   }
 }
 
+kbd {
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: .888889rem; // resolves to 16px
+  vertical-align: top;
+  padding: 4px 6px;
+  box-shadow: 0 0 0 1px #eee;
+}
+
 /* Background */ .chroma { background-color: #f7f7f7; }
 /* Error */ .chroma .err { background-color: #ffaaaa; color: #aa0000; }
 /* LineTableTD */ .chroma .lntd { margin: 0; padding: 0; border: 0; vertical-align: top; }
