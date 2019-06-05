@@ -29,21 +29,25 @@ While zsh is mostly feature compatible with bash there are some minor difference
 
 ### Supercharged auto-completion
 
-Not only can you skip `cd` to change your current working directory but you can type a path in an extremely lazy way and press then tab. No need for `cd Sites/projectname/src` anymore because `s/p/s` is more than enough. Look!
+Not only can you skip `cd` to change your current working directory but you can type a path in an extremely lazy way and press then <kbd>tab</kbd>. No need for `cd Sites/projectname/src` anymore because `s/p/s` is more than enough. Look!
 
 ![Supercharged auto-completion with zsh](/photos/2019-06-06-3.jpg)
 
+This one is absolutely mind-bending. To explore current location just press <kbd>tab</kbd> twice to traverse through inner folders using arrow keys. Thanks to [Dan Jordan](https://twitter.com/danjordan) for this hot tip.
+
+![Supercharged auto-completion with zsh](/photos/2019-06-06-4.gif)
+
 ### Discover a commands options / flags
 
-There is no need to check the `man` page of a particular command to find a flag that you want to pass. Just type `commandname -` and press tab to discover all possible options and flags.
+There is no need to check the `man` page of a particular command to find a flag that you want to pass. Just type `commandname -` and press <kbd>tab</kbd> to discover all possible options and flags.
 
-![Discover a commands options / flags](/photos/2019-06-06-4.jpg)
+![Discover a commands options / flags](/photos/2019-06-06-5.jpg)
 
 ### Plugins and themes support
 
 There is a number of popular open source tools that help you manage your Zsh configuration, but [Oh My ZSH](https://ohmyz.sh/) is by far the most popular one. Bundled with hundreds of helpers, plugins and themes which make it a breeze to drop in new functionality or change the look of your prompt.
 
-![A number of great zsh frameworks](/photos/2019-06-06-5.jpg)
+![A number of great zsh frameworks](/photos/2019-06-06-6.jpg)
 
 ### It is the default on macOS
 
