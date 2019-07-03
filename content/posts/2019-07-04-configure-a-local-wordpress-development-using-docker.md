@@ -9,7 +9,7 @@ One of the most popular articles on my website is ["Configure a local WordPress 
 
 ![Wordpress and Docker websites](/photos/2019-07-04-1.jpg)
 
-It is definitely not a Docker tutorial although by following along you learn how helpful this tool can be. I highly encourage you to familiarize yourself with few basic concepts like: [images](https://docs.docker.com/glossary/?term=image), [containers](https://docs.docker.com/glossary/?term=container), [networks](https://docs.docker.com/config/containers/container-networking/) and [volumes](https://docs.docker.com/glossary/?term=volume). Having a [docker app](https://www.docker.com/get-started) installed makes a lot of sense too. Regular readers know that [I am a great friend with Homebrew](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/). Yes, you can use it to download docker too.
+It is not a Docker tutorial although by following along you learn how helpful this tool can be. I highly encourage you to familiarize yourself with few basic concepts like: [images](https://docs.docker.com/glossary/?term=image), [containers](https://docs.docker.com/glossary/?term=container), [networks](https://docs.docker.com/config/containers/container-networking/) and [volumes](https://docs.docker.com/glossary/?term=volume). Having a [docker app](https://www.docker.com/get-started) installed makes a lot of sense too. Regular readers know that [I am a great friend with Homebrew](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/). Yes, you can use it to download docker too.
 
 ```
 brew cask install docker
@@ -17,7 +17,7 @@ brew cask install docker
 
 ## Wordpress + MySQL + phpMyAdmin
 
-When I think about bare-bone environment to work with WordPress locally I can think of two crucial and one nice to have components.
+A bare-bone environment to comfortably work with WordPress locally requires two components although third one is nice to have in some circumstances.
 
 1. [WordPress](https://wordpress.org/)
 2.  [MySQL](https://www.mysql.com/) or [MariaDB](https://mariadb.org/) database
@@ -27,8 +27,8 @@ When I think about bare-bone environment to work with WordPress locally I can th
 
 [Docker compose](https://docs.docker.com/compose/overview/) is a tool for creating multi-container Docker applications defined using single `docker-compose.yml` file (`.yml` and `.yaml` extension works just fine). Sounds like a fantastic method to connect our three building blocks together. I will  do my best to provide helpful descriptions and comments to each of the core building blocks. Make a new directory for your website, create a `docker-compose.yml` in there and let's finally get into the meat of this article.
 
-```bash
-mkdir wp && cd "$_" && touch docker-compose.yml
+```
+mkdir wp && cd $_ && touch docker-compose.yml
 ```
 
 ```yml
@@ -103,6 +103,7 @@ services:
 
   # Container 3
   # https://hub.docker.com/r/phpmyadmin/phpmyadmin
+  # This one is optional
   phpmyadmin:
     # List of dependencies
     depends_on:
@@ -138,7 +139,7 @@ volumes:
 
 That's it — time to build our stack! Bare that in mind that when you run it for a first time it is going to download all necessary stack images. Every subsequent invocation is going to be almost instant.
 
-```bash
+```
 docker-compose up -d 
 ```
 
