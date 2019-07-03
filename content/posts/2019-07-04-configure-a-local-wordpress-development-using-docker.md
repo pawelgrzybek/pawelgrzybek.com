@@ -1,15 +1,15 @@
 ---
 title: "Configure a local WordPress development using Docker"
-description: "WordPress being the absolute top of the podium of user-friendly content management systems can be a cumbersome to spin up locally. Docker containers are perfect for tasks like this so let me explain."
+description: "WordPress being the absolute top of the podium of user-friendly content management systems can be cumbersome to spin up locally. Docker containers are perfect for tasks like this so let me explain."
 photo: 2019-07-04.jpg
 draft: true
 ---
 
-One of the most popular articles on my website is ["Configure a local WordPress development on macOS from scratch"](https://pawelgrzybek.com/configure-a-local-wordpress-development-on-macos-from-scratch/). I recently use [Docker](https://www.docker.com/) a lot so I decided to tackle the same subject again but this time using containers.
+One of the most popular articles on my website is ["Configure a local WordPress development on macOS from scratch"](https://pawelgrzybek.com/configure-a-local-wordpress-development-on-macos-from-scratch/). I have recently used [Docker](https://www.docker.com/) a lot so I decided to tackle the same subject again but this time using containers.
 
 ![Wordpress and Docker websites](/photos/2019-07-04-1.jpg)
 
-It is not a Docker tutorial although by following along you learn how helpful this tool can be. I highly encourage you to familiarize yourself with few basic concepts like: [images](https://docs.docker.com/glossary/?term=image), [containers](https://docs.docker.com/glossary/?term=container), [networks](https://docs.docker.com/config/containers/container-networking/) and [volumes](https://docs.docker.com/glossary/?term=volume). Having a [docker app](https://www.docker.com/get-started) installed makes a lot of sense too. Regular readers know that [I am a great friend with Homebrew](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/). Yes, you can use it to download docker too.
+This is not a Docker tutorial although by following along you learn how helpful this tool can be. I highly encourage you to familiarize yourself with few basic concepts like: [images](https://docs.docker.com/glossary/?term=image), [containers](https://docs.docker.com/glossary/?term=container), [networks](https://docs.docker.com/config/containers/container-networking/) and [volumes](https://docs.docker.com/glossary/?term=volume). Having a [docker app](https://www.docker.com/get-started) installed makes a lot of sense too. Regular readers know that [I am a great friend with Homebrew](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/). Yes, you can use it to download docker too.
 
 ```
 brew cask install docker
@@ -17,7 +17,7 @@ brew cask install docker
 
 ## Wordpress + MySQL + phpMyAdmin
 
-A bare-bone environment to comfortably work with WordPress locally requires two components although third one is nice to have in some circumstances.
+To comfortably work with WordPress in a bare-bones local environment requires two components, although a third one is nice to have in some circumstances.
 
 1. [WordPress](https://wordpress.org/)
 2.  [MySQL](https://www.mysql.com/) or [MariaDB](https://mariadb.org/) database
@@ -25,7 +25,7 @@ A bare-bone environment to comfortably work with WordPress locally requires two 
 
 ![Wordpress + MySQL + phpMyAdmin](/photos/2019-07-04-2.jpg)
 
-[Docker compose](https://docs.docker.com/compose/overview/) is a tool for creating multi-container Docker applications defined using single `docker-compose.yml` file (`.yml` and `.yaml` extension works just fine). Sounds like a fantastic method to connect our three building blocks together. I will  do my best to provide helpful descriptions and comments to each of the core building blocks. Make a new directory for your website, create a `docker-compose.yml` in there and let's finally get into the meat of this article.
+[Docker compose](https://docs.docker.com/compose/overview/) is a tool for creating multi-container Docker applications defined using single `docker-compose.yml` file (`.yml` and `.yaml` extension works just fine). Sounds like a fantastic method to connect our three building blocks together. I will do my best to provide helpful descriptions and comments to each of the core building blocks. Start by making a new directory for your website, create a `docker-compose.yml` in there and let's finally get into the meat of this article.
 
 ```
 mkdir wp && cd $_ && touch docker-compose.yml
@@ -50,9 +50,8 @@ services:
     # https://docs.docker.com/compose/compose-file/#restart
     restart: always
     # Volumes definition
-    # https://docs.docker.com/compose/compose-file/#volumes
-    # Maps your local folder, to path in a container
-    # Useful for data persistence
+    # Named volume, allows persisted data but without caring where locally it is stored
+    # https://nickjanetakis.com/blog/docker-tip-28-named-volumes-vs-path-based-volumes
     volumes:
       - db_data:/var/lib/mysql
     # Add environment variables
@@ -137,7 +136,7 @@ volumes:
   db_data:
 ```
 
-That's it — time to build our stack! Bare that in mind that when you run it for a first time it is going to download all necessary stack images. Every subsequent invocation is going to be almost instant.
+That's it — time to build our stack! Bear in mind that when you run it for a first time it is going to download all necessary stack images. Every subsequent invocation is going to be almost instant.
 
 ```
 docker-compose up -d 
@@ -147,6 +146,6 @@ docker-compose up -d
 
 ## Voilà!
 
-Hopefully you found it helpful. This simple setup helps me a lot to spin up a new WordPress from scratch in absolutely no time. 
+Hopefully you found this helpful. This simple setup helps me a lot to spin up a new WordPress from scratch in absolutely no time. 
 
 Ps. For simple websites like this one don't use Wordpress. Use [Hugo](https://gohugo.io/) instead :)
