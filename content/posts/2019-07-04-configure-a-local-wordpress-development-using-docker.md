@@ -2,14 +2,13 @@
 title: "Configure a local WordPress development using Docker"
 description: "WordPress being the absolute top of the podium of user-friendly content management systems can be cumbersome to spin up locally. Docker containers are perfect for tasks like this so let me explain."
 photo: 2019-07-04.jpg
-draft: true
 ---
 
 One of the most popular articles on my website is ["Configure a local WordPress development on macOS from scratch"](https://pawelgrzybek.com/configure-a-local-wordpress-development-on-macos-from-scratch/). I have recently used [Docker](https://www.docker.com/) a lot so I decided to tackle the same subject again but this time using containers.
 
 ![Wordpress and Docker websites](/photos/2019-07-04-1.jpg)
 
-This is not a Docker tutorial although by following along you learn how helpful this tool can be. I highly encourage you to familiarize yourself with few basic concepts like: [images](https://docs.docker.com/glossary/?term=image), [containers](https://docs.docker.com/glossary/?term=container), [networks](https://docs.docker.com/config/containers/container-networking/) and [volumes](https://docs.docker.com/glossary/?term=volume). Having a [docker app](https://www.docker.com/get-started) installed makes a lot of sense too. Regular readers know that [I am a great friend with Homebrew](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/). Yes, you can use it to download docker too.
+This is not a Docker tutorial although by following along you learn how helpful this tool can be. I highly encourage you to familiarize yourself with few basic concepts like: [images](https://docs.docker.com/glossary/?term=image), [containers](https://docs.docker.com/glossary/?term=container), [networks](https://docs.docker.com/config/containers/container-networking/) and [volumes](https://docs.docker.com/glossary/?term=volume). Having a [Docker app](https://www.docker.com/get-started) installed makes a lot of sense too. Regular readers know that [I am a great friend with Homebrew](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/). Yes, you can use it to download Docker too.
 
 ```
 brew cask install docker
@@ -17,7 +16,7 @@ brew cask install docker
 
 ## Wordpress + MySQL + phpMyAdmin
 
-To comfortably work with WordPress in a bare-bones local environment requires two components, although a third one is nice to have in some circumstances.
+To comfortably work with WordPress in a bare-bones local environment two components are required, although a third one is nice to have in some circumstances.
 
 1. [WordPress](https://wordpress.org/)
 2.  [MySQL](https://www.mysql.com/) or [MariaDB](https://mariadb.org/) database
