@@ -1,7 +1,7 @@
 ---
 title: "Static promise methods explained"
 description: ""
-photo: 2019-07-26.jpg
+photo: 2019-08-10.jpg
 draft: true
 ---
 
