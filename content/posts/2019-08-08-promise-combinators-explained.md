@@ -2,7 +2,6 @@
 title: "Promise combinators explained"
 description: "Promise.all, Promise.race, Promise.allSettled and Promise.any help us a lot with operations on compound promises. Let me clarify the difference between them."
 photo: 2019-08-08.jpg
-draft: true
 ---
 
 [Promises added to ECMAScript 2015 specification](https://www.ecma-international.org/ecma-262/6.0/#sec-promise-objects) gave us a new way of dealing with deferred computations. In ["From callback hell
