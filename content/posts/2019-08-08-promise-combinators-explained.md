@@ -9,6 +9,8 @@ draft: true
 through promises to
 async functions"](https://pawelgrzybek.com/from-a-callback-hell-through-promises-to-async-functions/) I explained the differences between the common methods of dealing with asynchronous code. Today I would like to go through `Promise` [combinators](https://wiki.haskell.org/Combinator_pattern) — static methods that take compound promises as an argument.
 
+![Promise](/photos/2019-08-08-1.jpg)
+
 ## Prerequisite — basic promise states and methods
 
 The `than`, `catch`, `finally`, `resolve` and `reject` methods should already feel comfortable by now but just in case you need some refresher, let's have a quick glance at this simple example.
@@ -102,4 +104,4 @@ Promise.any([
 
 Hopefully this article helped you out. This should do to put it all together.
 
-![no](/photos/2019-08-08-2.jpg)
+![Comparison table: Promise.all, Promise.race, Promise.allSettled and Promise.any](/photos/2019-08-08-2.jpg)
