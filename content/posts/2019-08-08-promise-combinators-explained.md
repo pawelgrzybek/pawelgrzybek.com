@@ -13,7 +13,7 @@ async functions"](https://pawelgrzybek.com/from-a-callback-hell-through-promises
 
 ## Prerequisite — basic promise states and methods
 
-The `than`, `catch`, `finally`, `resolve` and `reject` methods should already feel comfortable by now but just in case you need some refresher, let's have a quick glance at this simple example.
+The `then`, `catch`, `finally`, `resolve` and `reject` methods should already feel comfortable by now but just in case you need a refresher, let's have a quick glance at this simple example.
 
 ```js
 fetch("https://api.github.com/users/pawelgrzybek")
@@ -28,15 +28,15 @@ Promise object like this can live in [four distinguished states](https://www.ecm
 - "pending" - still waiting
 - "fulfilled" - promise succeeded
 - "rejected" - promise failed
-- "settled" - succeeded or failed
+- "settled" - succeeded or failed, a promise will live in this state as well as in fulfilled or rejected
 
-To orchestrate its lifecycle, promises are using few methods from it's prototype:
+To orchestrate its lifecycle, promises are using a few methods from it's prototype:
 
-- `than` - adds callback to fulfilled promise
+- `then` - adds callback to fulfilled promise
 - `catch` - adds callback to rejected promise
 - `finally` - adds callback to settled promise
 
-Of course all of these is much more complicated, but to comfortably grasp the concepts explained in a further part of this article this should be more than enough.
+Of course all of these are much more complicated, but to comfortably grasp the concepts explained in the rest of this article this should be more than enough.
 
 ## Four combinators
 
@@ -49,12 +49,12 @@ The `Promise.all` and `Promise.race` are part of a JavaScript since 2015. In 202
 
 ### Promise.all()
 
-Use `Promise.all` when you check when either all promises resolved or one of them rejected.
+Use `Promise.all` when you want to check whether all promises fulfilled or if one of them rejected.
 
 ```js
 Promise.all([
   fetch("https://api.github.com/users/pawelgrzybek").then(data => data.json()),
-  fetch("https://api.github.com/users/danjordan").then(data => data.json())
+  fetch("https://api.github.com/users/gabriel403").then(data => data.json())
 ])
   .then(data =>
     console.log(`Cool dudes are: ${data.map(dude => dude.name).join(" and ")}`)
@@ -64,7 +64,7 @@ Promise.all([
 
 ### Promise.race()
 
-Use `Promise.race` when you check when either first promise resolved or one of them rejected.
+Use `Promise.race` when you want to handle the first fulfilled promise or if one of them rejected.
 
 ```js
 Promise.race([
@@ -77,7 +77,7 @@ Promise.race([
 
 ### Promise.allSettled()
 
-Use `Promise.allSettled` when you check when when all promises settled regardless of the result (resolved or rejected). Look ma, no catch!
+Use `Promise.allSettled` when you want to handle when all promises are settled regardless of the result (fulfilled or rejected). Look ma, no catch!
 
 ```js
 Promise.allSettled([
@@ -89,12 +89,12 @@ Promise.allSettled([
 
 ### Promise.any()
 
-Use `Promise.any` when you want to either first promise resolved. In contrast to `Promise.race` it doesn't reject when one of the promises fail.
+Use `Promise.any` when you want to handle the first promise that fulfills. In contrast to `Promise.race` it doesn't reject when one of the promises fail.
 
 ```js
 Promise.any([
   fetch("https://api.github.com/users/pawelgrzybek").then(data => data.json()),
-  fetch("https://api.github.com/users/danjordan").then(data => data.json())
+  fetch("https://api.github.com/users/gabriel403").then(data => data.json())
 ])
   .then(result => console.log(`Cool dude is: ${result.name}`))
   .catch(error => console.error(error));
@@ -102,6 +102,6 @@ Promise.any([
 
 ## To recapitulate
 
-Hopefully this article helped you out. This should do to put it all together.
+Hopefully this article helped you out. This should help pull it all together for you.
 
 ![Comparison table: Promise.all, Promise.race, Promise.allSettled and Promise.any](/photos/2019-08-08-2.jpg)
