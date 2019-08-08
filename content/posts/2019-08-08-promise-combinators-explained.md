@@ -2,7 +2,6 @@
 title: "Promise combinators explained"
 description: "Promise.all, Promise.race, Promise.allSettled and Promise.any help us a lot with operations on compound promises. Let me clarify the difference between them."
 photo: 2019-08-08.jpg
-draft: true
 ---
 
 [Promises added to ECMAScript 2015 specification](https://www.ecma-international.org/ecma-262/6.0/#sec-promise-objects) gave us a new way of dealing with deferred computations. In ["From callback hell
@@ -28,7 +27,7 @@ Promise object like this can live in [four distinguished states](https://www.ecm
 - "pending" - still waiting
 - "fulfilled" - promise succeeded
 - "rejected" - promise failed
-- "settled" - succeeded or failed, a promise will live in this state as well as in fulfilled or rejected
+- "settled" - succeeded or failed
 
 To orchestrate its lifecycle, promises are using a few methods from it's prototype:
 
