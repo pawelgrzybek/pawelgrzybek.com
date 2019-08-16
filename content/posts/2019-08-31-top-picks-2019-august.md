@@ -12,3 +12,7 @@ Webmaster Central Blog published a great bullet-point list of great SEO practice
 ## [How to get experience as a software engineer](https://kentcdodds.com/blog/how-to-get-experience-as-a-software-engineer)
 
 [Kent C. Dodds](https://twitter.com/kentcdodds/) writes about gaining a new experience as a software engineer. It is not full of advices that will make you a top developer in no time — totally opposite. It contains just a one solid advice that I am not going to spoil to you — you give it a read.
+
+## [WebKit Tracking Prevention Policy](https://webkit.org/tracking-prevention-policy/)
+
+Stateful, covert stateful, navigational, fingerprinting and covert tracking are just few popular methods of spying on a website user. New WebKit engine prevents all of them out of the box and this policy document goes in depth about them and explains what it means for a platform. Brave but great step forward Apple.
