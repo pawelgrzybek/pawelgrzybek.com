@@ -5,16 +5,46 @@ photo: 2019-08-30.jpg
 draft: true
 ---
 
-- proposal
-- highly possible get merged in 2020
-- lets have a look at the problem that this proposal is solving
+Over the years we found a lot of hideous solutions to get an item from deeply nested object and prevent script from failing in case the value isn't present. Luckily [Optional Chaining for JavaScript](https://github.com/tc39/proposal-optional-chaining) proposed by [Claude Pache](https://github.com/claudepache), [Gabriel Isenberg](https://twitter.com/the_gisenberg) and [Dustin Savery](https://twitter.com/dustinsavery) is coming and gives an elegent solution for this problem. Lets get into it.
 
-## What is chaining, why do we need it and what is the problem with it?
+## The current state of chaining
 
-- you get a nested object and you want to reference propoerty deeply nested
-- you cannot be assurued that prop always exists (api response, not consistent data layer or simply something is optional in a collection)
-- then reference something that exists we get a value otherwise we het a ref error app craches server stops, we are asleep and we are loosing million dollars over night, we get a depresion and we die
-- there are few options tho
+Imagine that we deal with a deeply nested object and we are after grabbing a value of a property nested few levels down. As long as we are 100% sure that property of interest exists there is no issue with that. Life of a developer is not a land of milk and honey and Murphy's law exists. Chance that property that you are expecting doesn't exist — may that be inconsistent API, buggy implementation or simply incomplete record, whatever. Example…
+
+```js
+const dudes = {
+  pawel: {
+    age: 32,
+    username: {
+      github: "pawelgrzybek",
+      twitter: "pawelgrzybek",
+      instagram: "pawelgrzybek"
+    }
+  },
+  dan: {
+    age: 32
+  }
+};
+```
+
+Let's print Pawel's Instagram username…
+
+```js
+console.log(dudes.pawel.username.instagram);
+// pawelgrzybek
+```
+
+Simple, isn't it? Now Dan's username……
+
+```js
+console.log(dudes.dan.username.instagram);
+// Uncaught TypeError: Cannot read property 'instagram' of undefined
+```
+
+Big red error thrown, app crashed but we are asleep and loosing million dollars per hour. Waking to an instant depression and die week later. This Error could be prevented using…
+
+###
+###
 
 ## How did we historically solve chaining issue
 
