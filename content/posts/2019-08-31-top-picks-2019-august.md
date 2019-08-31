@@ -1,8 +1,7 @@
 ---
 title: "Top picks — 2019 August"
-description: ""
+description: "Google’s “core updates”, get experience as a software engineer, WebKit Tracking Prevention Policy, optional chaining in JavaScript and more…"
 photo: top-picks.jpg
-draft: true
 ---
 
 ## [What webmasters should know about Google’s “core updates”](https://webmasters.googleblog.com/2019/08/core-updates.html)
@@ -15,4 +14,8 @@ Webmaster Central Blog published a great bullet-point list of great SEO practice
 
 ## [WebKit Tracking Prevention Policy](https://webkit.org/tracking-prevention-policy/)
 
-Stateful, covert stateful, navigational, fingerprinting and covert tracking are just few popular methods of spying on a website user. New WebKit engine prevents all of them out of the box and this policy document goes in depth about them and explains what it means for a platform. Brave but great step forward Apple.
+Stateful, covert stateful, navigational, fingerprinting and covert tracking are just few popular methods of spying on a user. New WebKit engine prevents all of them out of the box and this policy document goes in depth about them and explains what it means for a platform. Brave but great step forward Apple.
+
+## [Optional chaining](https://v8.dev/features/optional-chaining)
+
+Optional chaining is coming to JavaScript and it allows us to ditch old hacky solutions to get a value from deeply nested objects. Nice and clean.
