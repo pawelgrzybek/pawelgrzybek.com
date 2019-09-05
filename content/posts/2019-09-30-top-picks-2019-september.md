@@ -12,3 +12,7 @@ Recording videos, running personal blog and tweeting helpful stuff are helpful t
 ## [Command Line Heroes](https://www.redhat.com/en/command-line-heroes)
 
 I listen to a lot of podcast but very rarely I come across one that I am willing to recommend and share with other people on my website. This one definitely deserves for recognition. Command Line Heroes by [Red Hat](https://www.redhat.com/) is podcast about the history of programming languages. Short informative and very interesting.
+
+## [TypeScript vs ReasonML – A Comparison](https://blog.dubenko.dev/typescript-vs-reason/)
+
+[Oleksandr Dubenko](https://twitter.com/dubenko_) published a really interesting comparison between my beloved [TypeScript](https://www.typescriptlang.org/) and [ReasonML](https://reasonml.github.io/). It was my first exposure to ReasonML and beside the fact that I don't have a time to learn deeply this language now, I found it very interesting to see a side by side comparison.
