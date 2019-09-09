@@ -16,3 +16,7 @@ I listen to a lot of podcast but very rarely I come across one that I am willing
 ## [TypeScript vs ReasonML – A Comparison](https://blog.dubenko.dev/typescript-vs-reason/)
 
 [Oleksandr Dubenko](https://twitter.com/dubenko_) published a really interesting comparison between my beloved [TypeScript](https://www.typescriptlang.org/) and [ReasonML](https://reasonml.github.io/). It was my first exposure to ReasonML and beside the fact that I don't have a time to learn deeply this language now, I found it very interesting to see a side by side comparison.
+
+## [Advice for Technical Writing](https://css-tricks.com/advice-for-technical-writing/)
+
+[Chris Coyier](https://twitter.com/chriscoyier) from [https://twitter.com/css](CSS-Tricks) put together a great list of advices for technical publishers. it is worth to go through this list from time to time. Very helpful resource that deserves for a place in bookmarks list.
