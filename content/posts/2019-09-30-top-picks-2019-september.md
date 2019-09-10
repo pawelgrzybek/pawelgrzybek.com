@@ -20,3 +20,7 @@ I listen to a lot of podcast but very rarely I come across one that I am willing
 ## [Advice for Technical Writing](https://css-tricks.com/advice-for-technical-writing/)
 
 [Chris Coyier](https://twitter.com/chriscoyier) from [https://twitter.com/css](CSS-Tricks) put together a great list of advices for technical publishers. it is worth to go through this list from time to time. Very helpful resource that deserves for a place in bookmarks list.
+
+## [Caniuse and MDN compatibility data collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
+
+Since my early days on exploring the web platform, [Caniuse](https://caniuse.com/) was my place to to find out about particular feature support across predominant browsers. In terms of documentation, [MDN Web Docs (previously known as MDN — the Mozilla Developer Network)](https://developer.mozilla.org) is my favorite place to visit. It is amazing to see that these two services are merging their databases to provide even more accurate and detailed results to web creators. 
