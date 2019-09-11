@@ -24,3 +24,7 @@ I listen to a lot of podcast but very rarely I come across one that I am willing
 ## [Caniuse and MDN compatibility data collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
 
 Since my early days on exploring the web platform, [Caniuse](https://caniuse.com/) was my place to to find out about particular feature support across predominant browsers. In terms of documentation, [MDN Web Docs (previously known as MDN — the Mozilla Developer Network)](https://developer.mozilla.org) is my favorite place to visit. It is amazing to see that these two services are merging their databases to provide even more accurate and detailed results to web creators. 
+
+## [Announcing the FaunaDB Add-on for Netlify](https://www.netlify.com/blog/2019/09/10/announcing-the-faunadb-add-on-for-netlify/)
+
+[FaunaDB](https://fauna.com) is a low latency serverless cloud database with a native GraphQL interface. [Neflity](https://www.netlify.com) is your best friend when it comes to static website hosting. FaunaDB add-on for Netlify allows these to to communicate means that we can start building stateful applications using beloved JAM stack.
