@@ -5,7 +5,7 @@ photo: 2019-09-20.jpg
 draft: true
 ---
 
-We (humans) tend to use the decimal numeral system (base-10). Computers deeply are significantly less complex than people because they operate using binary numeral system (base-2).
+We (humankind) tend to use the decimal numeral system (base-10). Computers deeply are significantly less complex than people because they operate using binary numeral system (base-2). Central processing unit (CPU) of every single computer is made of gazillion transistors and they can store only two possible values, `0` or `1`. The smallest computing unit that describes if the transistor is on or off is a [Bit](https://en.wikipedia.org/wiki/Bit).
 
 A bitwise operator is an operator used to perform bitwise operations on bit patterns or binary numerals that involve the manipulation of individual bits.
 
