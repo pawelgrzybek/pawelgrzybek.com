@@ -28,3 +28,7 @@ Since my early days on exploring the web platform, [Caniuse](https://caniuse.com
 ## [Announcing the FaunaDB Add-on for Netlify](https://www.netlify.com/blog/2019/09/10/announcing-the-faunadb-add-on-for-netlify/)
 
 [FaunaDB](https://fauna.com) is a low latency serverless cloud database with a native GraphQL interface. [Neflity](https://www.netlify.com) is your best friend when it comes to static website hosting. FaunaDB add-on for Netlify allows these to to communicate means that we can start building stateful applications using beloved JAM stack.
+
+## [Can I email](https://www.caniemail.com)
+
+I use [Can I use](https://caniuse.com) always when am not sure about browser support for particular feature. Luckily I don't have to build email campaigns anymore, but if I had too, this new service would be my best friend.
