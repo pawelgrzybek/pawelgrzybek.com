@@ -21,10 +21,12 @@ What if I told you that `10010011`, `147` and `93` represent exactly the same va
 
 What is the easiest way of representing a numeral value? Of course — by your fingers! That is most likely the reason why [decimal numeral system ](https://en.wikipedia.org/wiki/Decimal) became the most commonly used one since the time of ancient civilizations. Although I mentioned that computers deeply operate using binary values only, numeric values are usually converted to decimal representation for the end user convenience.
 
+<iframe src="https://codesandbox.io/embed/mystifying-antonelli-vsvn2?fontsize=14&hidenavigation=1&view=preview&runonclick=0" title="2019-09-26-base-10" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:450px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 ### Hex Numeral System (Base-16)
 
-Base-16 system 
+<iframe src="https://codesandbox.io/embed/2019-09-26-base-16-wsxvt?fontsize=14&hidenavigation=1&view=preview&runonclick=0" title="2019-09-26-base-10" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:450px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 ### Binary Numeral System (Base-2)
 
-Base-2 system 
+<iframe src="https://codesandbox.io/embed/2019-09-26-base-16-byyer?fontsize=14&hidenavigation=1&view=preview&runonclick=0" title="2019-09-26-base-10" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:450px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
