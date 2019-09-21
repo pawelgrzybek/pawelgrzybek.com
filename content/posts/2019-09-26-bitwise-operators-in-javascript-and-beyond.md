@@ -1,7 +1,7 @@
 ---
 title: "Bitwise operators in JavaScript and beyond"
 description: ""
-photo: 2019-09-20.jpg
+photo: 2019-09-26.jpg
 draft: true
 ---
 
