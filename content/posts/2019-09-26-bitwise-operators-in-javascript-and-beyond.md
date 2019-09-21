@@ -19,11 +19,13 @@ What if I told you that `10010011`, `147` and `93` represent exactly the same va
 
 ### Decimal Numeral System (Base-10)
 
-What is the easiest way of representing a numeral value? Of course — by your fingers! That is most likely the reason why [decimal numeral system ](https://en.wikipedia.org/wiki/Decimal) became the most commonly used one since the time of ancient civilizations. Although I mentioned that computers deeply operate using binary values only, numeric values are usually converted to decimal representation for the end user convenience.
+What is the easiest way of representing a numeral value? Of course — using your fingers! That is most likely the reason why [decimal numeral system ](https://en.wikipedia.org/wiki/Decimal) became the most commonly used numeral system since the age of ancient civilizations. Although I mentioned that computers deeply operate using binary values only, numeric values are usually converted to decimal representation for the end user convenience.
 
 <iframe src="https://codesandbox.io/embed/mystifying-antonelli-vsvn2?fontsize=14&hidenavigation=1&view=preview&runonclick=0" title="2019-09-26-base-10" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:450px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-### Hex Numeral System (Base-16)
+### Hexadecimal Numeral System (Base-16)
+
+Hexadecimal (derived from the hex for six and decimal for tenth) is composed of sixteen unique symbols, `0-9` to represent a value between zero and nine and `a-f` to represent values between ten and fifteen. This notation has broad application in computer science because single symbol represent a human readable format of [binary nibble](https://en.wikipedia.org/wiki/Nibble). In C-like programming languages (C, C++, C#, Java, JavaScript, Python etc.) `0x` prefix is used to represent hexadecimal notation. [Hex triplets](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) are commonly used to define color values.
 
 <iframe src="https://codesandbox.io/embed/2019-09-26-base-16-wsxvt?fontsize=14&hidenavigation=1&view=preview&runonclick=0" title="2019-09-26-base-10" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:450px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
