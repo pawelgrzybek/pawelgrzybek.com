@@ -12,7 +12,7 @@
     "url": "https://pawelgrzybek.com/"
   },
   "items": [
-    {{ $list := (where .Data.Pages "Section" "posts") }}
+    {{ $list := (where .Site.RegularPages "Section" "posts") }}
     {{ $len := (len $list) }}
 
     {{ range $index, $element := $list }}
