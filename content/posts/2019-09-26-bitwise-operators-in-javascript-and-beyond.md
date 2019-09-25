@@ -17,7 +17,7 @@ What if I told you that `10010011`, `147` and `93` represent exactly the same va
 
 ### Decimal Numeral System (Base-10)
 
-What is the easiest way of representing a numeral value? Of course — using your fingers! That is most likely the reason why [decimal numeral system ](https://en.wikipedia.org/wiki/Decimal) became the most popular used numeral system since the age of ancient civilizations. Although I mentioned that computers deeply operate using binary values only, numeric values are usually converted to decimal representation for the end user convenience.
+What is the easiest way of representing a numeral value? Of course — using your fingers! That is most likely the reason why [decimal numeral system ](https://en.wikipedia.org/wiki/Decimal) became the most popular one since the age of ancient civilizations. Although I mentioned that computers deeply operate using binary values only, numeric values are usually converted to decimal representation for the end user convenience.
 
 <iframe src="https://codesandbox.io/embed/mystifying-antonelli-vsvn2?fontsize=14&hidenavigation=1&view=preview&runonclick=0" title="2019-09-26-base-10" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:468px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
@@ -29,6 +29,6 @@ Hexadecimal (derived from the hex for "six" and decimal for "tenth") is composed
 
 ### Binary Numeral System (Base-2)
 
-Binary system, represented using only two symbols (`0` or `1`) sequence of bits is a numeral system that is used almost by ever computer-based device.
+Represented using sequences of bits binary system is used under the hood almost by ever computer-based device. Back in the days simple switches or punched holes, nowadays two different voltages on microscopic transistors store binary values. Written using `0` and `1` symbol seems to be the most popular convention within mathematicians and computer scientists crowd.
 
 <iframe src="https://codesandbox.io/embed/2019-09-26-base-16-byyer?fontsize=14&hidenavigation=1&view=preview&runonclick=0" title="2019-09-26-base-10" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:468px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
