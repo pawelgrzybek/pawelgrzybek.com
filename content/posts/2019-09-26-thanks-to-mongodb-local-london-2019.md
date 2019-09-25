@@ -13,6 +13,4 @@ Having an opportunity to learn the subject from its creators is irreplaceable an
 
 Being quite regular attendee to technical conferences and meetups, I can say only superlatives about this event. Outstanding organization, fantastic venue, awesome swag and absolutely delish food! Positive vibe, always smiling and willing to help team members just show that MongoDB is a great place to work for and great community to be part of. Thanks for cool swag bag [Rebecca](https://twitter.com/BeckFastAtTiffs) :-)
 
-!!! PHOTO !!!
-
 Thanks to everyone for this amazing opportunity. I will see you next time.
