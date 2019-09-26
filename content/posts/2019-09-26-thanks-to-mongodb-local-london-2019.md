@@ -1,6 +1,6 @@
 ---
 title: "Thanks to MongoDB.local London 2019"
-description: "Thanks to MongoDB.local London 2019"
+description: "Being a MongoDB user I could not wait to go to MongoDB.local London 2019. Having an opportunity to learn the subject from its creators is irreplaceable and this time it wasn't an exception."
 photo: 2019-09-26.jpg
 draft: true
 ---
