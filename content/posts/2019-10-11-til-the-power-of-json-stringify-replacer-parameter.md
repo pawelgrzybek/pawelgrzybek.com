@@ -17,7 +17,7 @@ console.log(dudeStringified);
 // {"name":"Pawel","friends":["Dan","Pedro","Mr Gregory"]}
 ```
 
-No surprises here. Unfortunately the architecture used on my project (AWS DynamoDB for curious beasts) forced me to deal with [ECMAScript `Set`s](https://www.ecma-international.org/ecma-262/6.0/#sec-set-objects) and things became more interesting. Just look at this.
+No surprises here. Unfortunately, the architecture used on my project (AWS DynamoDB for curious beasts) forced me to deal with [ECMAScript `Set`s](https://www.ecma-international.org/ecma-262/6.0/#sec-set-objects) and things became more interesting. Just look at this.
 
 ```js
 const dude = {
@@ -30,7 +30,7 @@ console.log(dudeStringified);
 // {"name":"Pawel","friends":{}}
 ```
 
-I assumed that a set of values is going to be converted to good old plain array. As you may have guessed I was wrong — `Set`s, `WeakSet`s, `Map`s and `WeakMap`s are ignored or replaced by `null`. There is a hope though — the optional second argument of [`JSON.stringify()`](https://www.ecma-international.org/ecma-262/6.0/#sec-json.stringify) allows us to escape all `Set`s and convert them to an array.
+I assumed that a set of values is going to be converted to a good old plain array. As you may have guessed I was wrong — `Set`s, `WeakSet`s, `Map`s and `WeakMap`s are ignored or replaced by `null`. There is hope though — the optional second argument of [`JSON.stringify()`](https://www.ecma-international.org/ecma-262/6.0/#sec-json.stringify) allows us to escape all `Set`s and convert them to an array.
 
 ```js
 const dude = {
@@ -49,7 +49,7 @@ Problem solved 👏
 
 ## (TIL) Today I learned
 
-`JSON.stringify()` takes a second optional argument that may be a replacer function or an array of white-listed keys to be stringified. To summarize…
+`JSON.stringify()` takes a second optional argument that maybe a replacer function or an array of white-listed keys to be stringified. To summarize…
 
 ```js
 // Second argument as a replacer function
