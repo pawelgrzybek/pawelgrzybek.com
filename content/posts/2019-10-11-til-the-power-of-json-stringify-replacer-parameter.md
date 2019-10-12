@@ -49,7 +49,7 @@ Problem solved 👏
 
 ## (TIL) Today I learned
 
-`JSON.stringify()` takes a second optional argument that maybe a replacer function or an array of white-listed keys to be stringified. To summarize…
+`JSON.stringify()` takes a second optional argument that can be a replacer function or an array of white-listed keys to be stringified. To summarize…
 
 ```js
 // Second argument as a replacer function
