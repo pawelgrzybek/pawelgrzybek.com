@@ -49,7 +49,7 @@ Problem solved 👏
 
 ## (TIL) Today I learned
 
-`JSON.stringify()` takes a second optional argument that can be a replacer function or an array of white-listed keys to be stringified. To summarize…
+`JSON.stringify()` takes a second optional argument that can be a recursive replacer function or an array of white-listed keys to be stringified. Like so…
 
 ```js
 // Second argument as a replacer function
@@ -78,5 +78,49 @@ const dudeStringified = JSON.stringify(dude, ["name"]);
 console.log(dudeStringified);
 // {"name":"Pawel"}
 ```
+
+Third argument can be a `string` or a `number`. It decides about the number of spaces or text to used as a delimiter. Look!
+
+```js
+// Third argument as a number
+
+const dude = {
+  name: "Pawel",
+  friends: ["Dan", "Pedro", "Mr Gregory"]
+};
+const dudeStringified = JSON.stringify(dude, null, 4);
+
+console.log(dudeStringified);
+// {
+//   "name": "Pawel",
+//   "friends": [
+//       "Dan",
+//       "Pedro",
+//       "Mr Gregory"
+//   ]
+// }
+```
+
+```js
+// Third argument as a string
+
+const dude = {
+  name: "Pawel",
+  friends: ["Dan", "Pedro", "Mr Gregory"]
+};
+const dudeStringified = JSON.stringify(dude, null, "🍆");
+
+console.log(dudeStringified);
+// {
+// 🍆"name": "Pawel",
+// 🍆"friends": [
+// 🍆🍆"Dan",
+// 🍆🍆"Pedro",
+// 🍆🍆"Mr Gregory"
+// 🍆]
+// }
+```
+
+
 
 Until next time, stay curious 💋
