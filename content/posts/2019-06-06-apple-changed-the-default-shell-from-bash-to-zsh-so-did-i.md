@@ -14,11 +14,7 @@ Because this is the future of my operating system, I spent some time to explore 
 
 ## Change your default shell
 
-Fresh installation of [macOS Catalina](https://www.apple.com/macos/catalina/) will default to Z shell but an update from the previous version of Apple OS will persist your preference. It is very simple to update this setting though. You have a few options to do so:
-
-- `chsh` command-line tool
-- Users & Groups panel of System Preferences
-- Directory Utility built-in app
+Fresh installation of [macOS Catalina](https://www.apple.com/macos/catalina/) will default to Z shell but an update from the previous version of Apple OS will persist your preference. It is very simple to update this setting though. You have a few options to do so: `chsh` CLI tool, Users & Groups panel of System Preferences or Directory Utility built-in app.
 
 ```
 chsh -s /bin/zsh
