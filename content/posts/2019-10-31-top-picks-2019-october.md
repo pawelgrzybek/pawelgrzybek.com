@@ -15,3 +15,6 @@ Everything that is happening within a CSS in JS space excites me so much but goo
 
 {{< vimeo 364369506 >}}
 
+## [Faces of Open Source](http://www.facesofopensource.com)
+
+This is beautiful project! Look and read some info about the creators of projects that you use all the time. I am a big fan — instant follow on Instagram!
