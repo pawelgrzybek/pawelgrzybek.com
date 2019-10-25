@@ -18,3 +18,7 @@ Everything that is happening within a CSS in JS space excites me so much but goo
 ## [Faces of Open Source](http://www.facesofopensource.com)
 
 This is beautiful project! Look and read some info about the creators of projects that you use all the time. I am a big fan — instant follow on Instagram!
+
+## [Introducing Concurrent Mode (Experimental)](https://reactjs.org/docs/concurrent-mode-intro.html)
+
+A great guide to get your hands dirty in experimental concurrent mode in [React](https://reactjs.org/). This is an update that developers are waiting for since the big famous announcement last year. This is still and work in progress so bare that in mind and do not include any of patterns presented on this article in production ready codebase.
