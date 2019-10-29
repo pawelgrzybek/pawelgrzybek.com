@@ -22,3 +22,7 @@ This is beautiful project! Look and read some info about the creators of project
 ## [Introducing Concurrent Mode (Experimental)](https://reactjs.org/docs/concurrent-mode-intro.html)
 
 A great guide to get your hands dirty in experimental concurrent mode in [React](https://reactjs.org/). This is an update that developers are waiting for since the big famous announcement last year. This is still and work in progress so bare that in mind and do not include any of patterns presented on this article in production ready codebase.
+
+## [The two-value syntax of the CSS Display property](https://hacks.mozilla.org/2019/10/the-two-value-syntax-of-the-css-display-property/)
+
+If you are using single value for CSS `display` property you are so old-school. Rachel Andrew explains the new part of the CSS specification that introduced two-value syntax. Very well explained as always.
