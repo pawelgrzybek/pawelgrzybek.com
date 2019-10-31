@@ -1,8 +1,7 @@
 ---
 title: "Top picks — 2019 October"
-description: ""
+description: "Introducing Sass Modules, 100% CSS Mario Kart, Faces of Open Source, React Concurrent Modem, the two-value syntax of the CSS Display property and more…"
 photo: top-picks.jpg
-draft: true
 ---
 
 ## [Introducing Sass Modules](https://css-tricks.com/introducing-sass-modules/)
@@ -17,11 +16,11 @@ Everything that is happening within a CSS in JS space excites me so much but goo
 
 ## [Faces of Open Source](http://www.facesofopensource.com)
 
-This is beautiful project! Look and read some info about the creators of projects that you use all the time. I am a big fan — instant follow on Instagram!
+This is a beautiful project! Look and read some info about the creators of projects that you use all the time. I am a big fan — instant follow on Instagram!
 
 ## [Introducing Concurrent Mode (Experimental)](https://reactjs.org/docs/concurrent-mode-intro.html)
 
-A great guide to get your hands dirty in experimental concurrent mode in [React](https://reactjs.org/). This is an update that developers are waiting for since the big famous announcement last year. This is still and work in progress so bare that in mind and do not include any of patterns presented on this article in production ready codebase.
+A great guide to get your hands dirty in the experimental concurrent mode in [React](https://reactjs.org/). This is an update that developers are waiting for since the big famous announcement last year. This is still and work in progress so bear that in mind and do not include any of the patterns presented in this article in production-ready codebase.
 
 ## [The two-value syntax of the CSS Display property](https://hacks.mozilla.org/2019/10/the-two-value-syntax-of-the-css-display-property/)
 
