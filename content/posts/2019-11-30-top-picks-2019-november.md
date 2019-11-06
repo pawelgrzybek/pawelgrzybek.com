@@ -16,3 +16,7 @@ It is happening! My favorite code editor built using web technologies is moving 
 ## [The FaceTime Bug and the Dangers of Implicit State Machines](https://medium.com/@DavidKPiano/the-facetime-bug-and-the-dangers-of-implicit-state-machines-a5f0f61bdaa2)
 
 [David K. Piano](https://twitter.com/DavidKPiano) explains finite state machines using famous FaceTime bug that was introduced in one of the past iOS versions by not paying enough attention to applications state. It is a great, practical explanation of a machine state concept. I have been intrigued by the concept for a little while and after reading this article it clicked.
+
+## [Announcing TypeScript 3.7](https://devblogs.microsoft.com/typescript/announcing-typescript-3-7/)
+
+Tons of awesome new language, compiler, and tooling features are landed to TypeScript 3.7. Optional chaining and nullish coalescing as are the features that I am by far the most excite about.
