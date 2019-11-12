@@ -20,3 +20,7 @@ It is happening! My favorite code editor built using web technologies is moving 
 ## [Announcing TypeScript 3.7](https://devblogs.microsoft.com/typescript/announcing-typescript-3-7/)
 
 Tons of awesome new language, compiler, and tooling features are landed to TypeScript 3.7. Optional chaining and nullish coalescing as are the features that I am by far the most excite about.
+
+## [Chrome Dev Summit 2019](https://www.youtube.com/playlist?list=PLNYkxOF6rcIDA1uGhqy45bqlul0VcvKMr)
+
+Chrome Dev Summit 2019 videos are live put together in this one playlist. One of these events in web industry that we should pay attention to. I am planning to watch probably majority of these talks. Let me know which one seems to be outstanding one for you.
