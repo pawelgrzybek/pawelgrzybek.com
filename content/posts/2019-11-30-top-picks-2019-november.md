@@ -23,4 +23,8 @@ Tons of awesome new language, compiler, and tooling features are landed to TypeS
 
 ## [Chrome Dev Summit 2019](https://www.youtube.com/playlist?list=PLNYkxOF6rcIDA1uGhqy45bqlul0VcvKMr)
 
-Chrome Dev Summit 2019 videos are live put together in this one playlist. One of these events in web industry that we should pay attention to. I am planning to watch probably majority of these talks. Let me know which one seems to be outstanding one for you.
+Chrome Dev Summit 2019 videos are live and you can find them all in this one handy playlist. One of these events in web industry that we should pay attention to. I am planning to watch probably majority of these talks. Let me know which one seems to be outstanding one for you.
+
+## [String.prototype.replaceAll](https://v8.dev/features/string-replaceall)
+
+If you have been writing JavaScript for a while now you know that replacing all the instances of matching pattern in a string can become tricky. To simplify exactly this such a common need `replaceAll()` is coming to V8.
