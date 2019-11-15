@@ -28,3 +28,8 @@ Chrome Dev Summit 2019 videos are live and you can find them all in this one han
 ## [String.prototype.replaceAll](https://v8.dev/features/string-replaceall)
 
 If you have been writing JavaScript for a while now you know that replacing all the instances of matching pattern in a string can become tricky. To simplify exactly this such a common need `replaceAll()` is coming to V8.
+
+## [Metrics](https://web.dev/metrics/)
+
+Google team presented on Google Dev Summit a very cool resource put together by Philip Walton. This websites describes in very detailed way all the metrics that Google takes into consideration during web crawling and scoring our project agains Lighthouse CI. Great cool resource.
+
