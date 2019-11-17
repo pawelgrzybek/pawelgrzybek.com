@@ -33,3 +33,6 @@ If you have been writing JavaScript for a while now you know that replacing all 
 
 Google team presented on Google Dev Summit a very cool resource put together by Philip Walton. This websites describes in very detailed way all the metrics that Google takes into consideration during web crawling and scoring our project agains Lighthouse CI. Great cool resource.
 
+## [CSS Logical Properties](https://adrianroselli.com/2019/11/css-logical-properties.html)
+
+[Adrian Roselli](https://twitter.com/aardrian) published this really nice explainer of logical properties. It is full of interactive demos that helps a lot to understand the concept better. I am super excited about this set of new properties in CSS specification.
