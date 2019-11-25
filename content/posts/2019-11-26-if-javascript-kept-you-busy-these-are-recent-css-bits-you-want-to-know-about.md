@@ -11,6 +11,7 @@ For last few years I have been busy exploring world of JavaScript to the point t
 - [CSS Grid Layout](#css-grid-layout)
 - [Variable fonts](#variable-fonts)
 - [CSS Scroll Snap](#css-scroll-snap)
+- [CSS Logical Properties](#css-logical-properties)
 
 ## CSS custom properties (CSS variables)
 
@@ -115,6 +116,10 @@ Historically we have been throwing tons of JavaScript on our web projects to ach
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
+## CSS Logical Properties
+
+So…
+
 ## Preprocessors and the CSS in JS drama
 
 Yeah, they still exist and Sass is doing great 
@@ -123,15 +128,15 @@ I am actually happy that this subject passed me by. We had millions of them, sty
 
 Sass modules by Miriam on CSS Tricks
 
-## CSS Logical Properties
-
-So…
-
 ## Hudini
 
 So…
 
 ## TypedOM
+
+So…
+
+## @ support
 
 So…
 

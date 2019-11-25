@@ -36,3 +36,7 @@ Google team presented on Google Dev Summit a very cool resource put together by 
 ## [CSS Logical Properties](https://adrianroselli.com/2019/11/css-logical-properties.html)
 
 [Adrian Roselli](https://twitter.com/aardrian) published this really nice explainer of logical properties. It is full of interactive demos that helps a lot to understand the concept better. I am super excited about this set of new properties in CSS specification.
+
+## [New for AWS Lambda – SQS FIFO as an event source](https://aws.amazon.com/blogs/compute/new-for-aws-lambda-sqs-fifo-as-an-event-source/)
+
+First in first out finally supported by Amazon Simple Queue Service (SQS). Such a useful addition to server-less architects.
