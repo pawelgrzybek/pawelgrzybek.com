@@ -10,6 +10,7 @@ For last few years I have been busy exploring world of JavaScript to the point t
 - [CSS custom properties (CSS variables)](#css-custom-properties-css-variables)
 - [CSS Grid Layout](#css-grid-layout)
 - [Variable fonts](#variable-fonts)
+- [CSS Scroll Snap](#css-scroll-snap)
 
 ## CSS custom properties (CSS variables)
 
@@ -69,7 +70,7 @@ Layout is a thing that CSS has never been good at. From terrible hack using tabl
 
 ## Variable fonts
 
-Since the inception of the web platform we have been able to use web-safe subset of font families. This became a design restriction so we got a support for custom typefaces via `@font-face` at-rule. [CSS Fonts Module Level 4](https://drafts.csswg.org/css-fonts-4/) adds a concept of Variable Fonts that puts custom fonts to the whole new level. Rather than fetching separate font file for every width, weight, or style we get many different variations of a typeface incorporated into a single file. Performance without compromising design requirements at the same time — yes please! To control basic typeface characteristics (weight, width, slant, italic, and optical size) we can use one of the registered axis. On top of that type designers are able to register custom variation axis that gives font creators almost infinite possibilities. [Jason Pamental](https://twitter.com/jpamental) maintains an amazing resource titled ["Variable Fonts: What web authors need to know"](https://rwt.io/typography-tips/variable-fonts-what-web-authors-need-know) which is the best out there guide to use Variable Fonts. Time for quick example and demo.
+Since the inception of the web platform we have been able to use web-safe subset of font families. This became a design restriction so we got a support for custom typefaces via `@font-face` at-rule. [CSS Fonts Module Level 4](https://drafts.csswg.org/css-fonts-4/) adds a concept of Variable Fonts that puts custom fonts to the whole new level. Rather than fetching separate font file for every width, weight, or style we get many different variations of a typeface incorporated into a single file. Performance without compromising design requirements at the same time — yes please! To control basic typeface characteristics (weight, width, slant, italic, and optical size) we can use one of the registered axis. On top of that type designers are able to register custom variation axis that gives font creators almost infinite possibilities. [Jason Pamental](https://twitter.com/jpamental) maintains an amazing resource titled ["Variable Fonts: What web authors need to know"](https://rwt.io/typography-tips/variable-fonts-what-web-authors-need-know) which is the best out there guide to use Variable Fonts. Time for quick example and little interactive demo.
 
 ```css
 @font-face {
@@ -92,6 +93,28 @@ body {
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
+## CSS Scroll Snap
+
+Historically we have been throwing tons of JavaScript on our web projects to achieve some sort of scroll snapping. You can partially blame me for that because I am a creator of one of the most popular carousel libraries out there — [Siema.js](https://github.com/pawelgrzybek/siema). Let me tell you a thing — do not use it! All the JavaScript solution come with some sort of performance and accessibility drawbacks. [CSS Scroll Snap](https://drafts.csswg.org/css-scroll-snap-1/) is a native implementation that solves majority of carousel-obsessed designers requirements. Even if your projects requirement is outside of boundaries of [browsers support range for CSS Scroll Snap](https://caniuse.com/#feat=css-snappoints) you don't need to worry too much. It gracefully falls back to regular scroll experience without breaking your layout whatsoever. Quick demo time.
+
+```css
+.app {
+  overflow-y: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.app__section {
+  scroll-snap-align: start;
+}
+```
+
+<p class="codepen" data-height="300" data-theme-id="14885" data-default-tab="result" data-user="pawelgrzybek" data-slug-hash="RwwmxJy" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2019-11-20-css-scroll-snap">
+  <span>See the Pen <a href="https://codepen.io/pawelgrzybek/pen/RwwmxJy">
+  2019-11-20-css-scroll-snap</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 ## Preprocessors and the CSS in JS drama
 
 Yeah, they still exist and Sass is doing great 
@@ -101,10 +124,6 @@ I am actually happy that this subject passed me by. We had millions of them, sty
 Sass modules by Miriam on CSS Tricks
 
 ## CSS Logical Properties
-
-So…
-
-## CSS Snapping
 
 So…
 
