@@ -1,7 +1,7 @@
 ---
 title: "If JavaScript kept you busy, these are recent CSS bits you want to know about"
 description: ""
-photo: 2019-11-20.jpg
+photo: 2019-11-26.jpg
 draft: true
 ---
 
@@ -11,7 +11,10 @@ For last few years I have been busy exploring world of JavaScript to the point t
 - [CSS Grid Layout](#css-grid-layout)
 - [Variable fonts](#variable-fonts)
 - [CSS Scroll Snap](#css-scroll-snap)
-- [CSS Logical Properties](#css-logical-properties)
+- [CSS Logical Properties and Values](#css-logical-properties-and-values)
+- [Position sticky](#position-sticky)
+- [Houdini](#houdini)
+- [Feature query with @supports](#feature-query-with-supports)
 
 ## CSS custom properties (CSS variables)
 
@@ -116,7 +119,42 @@ Historically we have been throwing tons of JavaScript on our web projects to ach
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-## CSS Logical Properties
+## CSS Logical Properties and Values
+
+[CSS Logical Properties and Values](https://www.w3.org/TR/css-logical-1/) enforce creator to control layout through logical, rather than physical, direction and dimension mappings. It vastly improves working on a projects that support multiple [writing modes](https://www.w3.org/TR/css-writing-modes-4/). For example, `border-inline-start` in `horizontal-tb` draws a border on the left hand side of an element but for `vertical-lr` it will appear on the bottom of a node. This is a well thought system designed with accessibility and internationalization in mind. I cannot recommend enough ["CSS Logical Properties" by Adrian Roselli](https://adrianroselli.com/2019/11/css-logical-properties.html) – easily the best explainer out there. This CodePen taken from Adrian's post is a fantastic visual explainer.
+
+<p class="codepen" data-height="700" data-theme-id="14885" data-default-tab="result" data-user="aardrian" data-slug-hash="bGGxrvM" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Logical Properties Mapping">
+  <span>See the Pen <a href="https://codepen.io/aardrian/pen/bGGxrvM">
+  Logical Properties Mapping</a> by Adrian Roselli (<a href="https://codepen.io/aardrian">@aardrian</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+## Position sticky
+
+I can't count how many approaches of building a sticky header element I came across during my career. They were always relying on windows size combined with `scroll` event. Later on `IntersectionObserver` improved a lot — if you are not familiar with this fantastic interface, you should give my ["The Intersection Observer API explained"](https://pawelgrzybek.com/the-intersection-observer-api-explained/) a read. Wouldn't be cool to achieve this effect using just CSS? Good news is coming — it is possible now and the [browser support for `position: sticky`](https://caniuse.com/#feat=css-sticky) is sufficient for some. Example please!
+
+```css
+section {
+  position: sticky;
+  top: 1rem;
+}
+```
+
+<p class="codepen" data-height="320" data-theme-id="14885" data-default-tab="result" data-user="pawelgrzybek" data-slug-hash="BaagjrO" style="height: 320px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2019-11-26-position-sticky">
+  <span>See the Pen <a href="https://codepen.io/pawelgrzybek/pen/BaagjrO">
+  2019-11-26-position-sticky</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+## Houdini
+
+This one deserves a whole separated article but briefly… [Houdini](https://drafts.css-houdini.org) is a set of low level APIs that espose access to CSSOM (CSS Object Model) enabling developers to extend CSS by hooking into the styling and layout process of a browser’s engine. With this set of interfaces only two restrictions come into play: your imagination and the browser support clearly presented on ["Is Houdini ready yet‽"](https://ishoudinireadyyet.com) by [Surma](https://twitter.com/DasSurma). To find out about the power of Houdini I highly encourage you to check ["CSS Houdini Experiments"](https://css-houdini.rocks) by [Vincent De Oliveira](https://twitter.com/iamvdo). ["CSS Houdini & The Future of Styling by Una Kravets"](https://youtu.be/GhRE3rML9t4) is great and up-to-date introduction video. I would be careful in using it in production yet, but it is definitely a space to watch.
+
+{{< youtube GhRE3rML9t4 >}}
+
+## Feature query with @supports
 
 So…
 
@@ -128,21 +166,9 @@ I am actually happy that this subject passed me by. We had millions of them, sty
 
 Sass modules by Miriam on CSS Tricks
 
-## Hudini
 
-So…
 
-## TypedOM
 
-So…
-
-## @ support
-
-So…
-
-## Position sticky
-
-So…
 
 ## Bye
 
