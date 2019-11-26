@@ -140,6 +140,10 @@ So…
 
 So…
 
+## Position sticky
+
+So…
+
 ## Bye
 
 I know this list is intense so promise me that you will never this technology for that long again. 
