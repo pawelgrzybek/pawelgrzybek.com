@@ -15,6 +15,8 @@ For last few years I have been busy exploring world of JavaScript to the point t
 - [Position sticky](#position-sticky)
 - [Houdini](#houdini)
 - [Feature query with @supports](#feature-query-with-supports)
+- [Preprocessors and the CSS-in-JS drama](#preprocessors-and-the-css-in-js-drama)
+- [Extra stuff](#extra-stuff)
 
 ## CSS custom properties (CSS variables)
 
@@ -156,20 +158,39 @@ This one deserves a whole separated article but briefly… [Houdini](https://dra
 
 ## Feature query with @supports
 
-So…
+If you are wondering if the browser support for any feature listed above is sufficient, I have something that will give you a better motivation to start using them. Native feature detection that I elaborated about on my article ["Native feature detection with CSS.supports() API"](https://pawelgrzybek.com/native-feature-detection-with-csssupports-api/) is a CSS / JS native way to check if your browser supports feature of interest. Look how cool it is!
 
-## Preprocessors and the CSS in JS drama
+```css
+p::before {
+  content: "Your browser doesn't support ";
+}
 
-Yeah, they still exist and Sass is doing great 
+@supports (display: grid) {
+  p::before {
+    content: "Your browser supports ";
+  } 
+}
+```
 
-I am actually happy that this subject passed me by. We had millions of them, styled componsnts css modules are cool, when i dontn have to i will use sass, but most likely plain css
+<p class="codepen" data-height="280" data-theme-id="14885" data-default-tab="css,result" data-user="pawelgrzybek" data-slug-hash="vYYqZRN" style="height: 280px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="2019-11-26-feature-query-with-supports">
+  <span>See the Pen <a href="https://codepen.io/pawelgrzybek/pen/vYYqZRN">
+  2019-11-26-feature-query-with-supports</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-Sass modules by Miriam on CSS Tricks
+## Preprocessors and the CSS-in-JS drama
 
+I mentioned that on the foreword that I really regret that I neglected my passion to CSS for last few years. The CSS-in-JS drama is a thing that I am glad I missed. My take! If you need one, [styled-components](https://github.com/styled-components/styled-components), [Emotion](https://emotion.sh/) and [css-modules](https://github.com/css-modules/css-modules) are safe bets to work with and I will pick one of these when I need it. For now, I don't need it and I am happy.
 
+CSS preprocessors like [Sass](https://sass-lang.com), [LESS](http://lesscss.org) and [Stylus](http://stylus-lang.com) are not dead yet but slowly loosing popularity simply because CSS by itself is getting much more powerful. I see significant amount of people working with [PostCSS](https://postcss.org) that deserves to make it to this list. Probably one of the most exciting events from this space is announcement of Sass modules. [Miriam Suzanne](https://css-tricks.com/author/miriam/) posted recently ["Introducing Sass Modules"](https://css-tricks.com/author/miriam/) on CSS Tricks that explains the concept (shouldn't be alient for JavaScript developers familiar with modules).
 
+## Extra stuff
 
+There is a lot going on in CSS but I don't want to make this article miles long. I highly encourage you to follow [Mozilla Developer](https://www.youtube.com/MozillaDeveloper) where team members dig deeper into obscure features of CSS. Another cool resource to watch to quickly catch up some freshness is a great talk by [Una Kravets](https://twitter.com/Una) and [Adam Argyle](https://twitter.com/argyleink) ["Next-generation web styling"](https://youtu.be/-oyeaIirVC0) from Chrome Dev Summit 2019.
 
-## Bye
+{{< youtube -oyeaIirVC0 >}}
 
-I know this list is intense so promise me that you will never this technology for that long again. 
+## Keep on building beautiful things 
+
+I hope that this list helped you out to modernize a bit stylesheets of your current project. Let me know what is the most exciting modern piece of CSS for you nowadays. Keep on building beautiful things and I will see you next time. Peace!
