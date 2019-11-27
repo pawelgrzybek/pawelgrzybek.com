@@ -1,8 +1,7 @@
 ---
-title: "If JavaScript kept you too busy to care about CSS, these are recent features you want to know about"
-description: ""
+title: "Does JavaScript keep you too busy to care about CSS? Here are recent features you want to know about!"
+description: "For the last few years, I have been busy exploring the world of JavaScript to the point that I neglected my passion for CSS. I owe CSS a debt so I curated a list of recent features that you may want to know about if you didn't follow this space for a little while."
 photo: 2019-11-27.jpg
-draft: true
 ---
 
 For the last few years, I have been busy exploring the world of JavaScript to the point that I neglected my passion for CSS. I am sure there are more people like me out there. I owe CSS a debt so I curated a list of recent features that you may want to know about if you didn't follow this space for a little while.
