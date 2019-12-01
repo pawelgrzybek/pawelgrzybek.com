@@ -2,10 +2,9 @@
 title: "Attach Visual Studio Code debugger to SAM (Serverless Application Model) local endpoint"
 description: "A debugger is something that I cannot live without. Setting it up for my current project built using SAM framework and TypeScript took me a while but I finally got it right."
 photo: 2019-12-01.jpg
-draft: true
 ---
 
-Hi! I am not going to go through the basics of debugging or AWS SAM framework. At this point you are most likely familiar with those — otherwise, you wouldn't land on this page. I am going to share with you how to attach [Visual Studio Code](https://code.visualstudio.com) debugger to local endpoint served by [AWS SAM (Serverless Application Model)](https://aws.amazon.com/serverless/sam/). Let's start with a simple server-less example app.
+Hi! I am not going to go through the basics of debugging or AWS SAM framework. At this point you are most likely familiar with those — otherwise, you would’ve not landed on this page. I am going to share with you how to attach [Visual Studio Code](https://code.visualstudio.com) debugger to local endpoint served by [AWS SAM (Serverless Application Model)](https://aws.amazon.com/serverless/sam/). Let's start with a simple server-less example app.
 
 ```
 .
@@ -64,7 +63,7 @@ A debugger is my favourite way of stepping through the logic of a codebase. Some
 sam local start-api -d 5858
 ```
 
-Since now on, whenever we execute a request to our endpoint, the program will pause to let us hook up into its internals. To do so using [Visual Studio Code](https://code.visualstudio.com) we need a bit of a config inside `.vscode/launch.json` file — I got you covered!
+From now on, whenever we execute a request to our endpoint, the program will pause to let us hook up into its internals. To do so using [Visual Studio Code](https://code.visualstudio.com) we need a bit of a config inside `.vscode/launch.json` file — I got you covered!
 
 ```json
 {
