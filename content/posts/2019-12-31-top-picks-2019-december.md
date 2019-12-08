@@ -11,4 +11,4 @@ Screen reader basics explained, how they work and how people with vision impairm
 
 ## [Explaining GraphQL Connections](https://blog.apollographql.com/explaining-graphql-connections-c48b7c3d6976)
 
-Since I have been working with GraphQL, concept of Relay-like connections using `edge`s and `node`s was always a bit confusing to me. After reading this article by [Caleb Meredith](https://twitter.com/calebmer) it clicked. Very good explanation.
+Since I have been working with GraphQL, concept of [Relay-like connections](https://facebook.github.io/relay/graphql/connections.htm) using `edge`s and `node`s was always a bit confusing to me. After reading this article by [Caleb Meredith](https://twitter.com/calebmer) it clicked. Very good explanation.
