@@ -16,3 +16,7 @@ Since I have been working with GraphQL, concept of [Relay-like connections](http
 ## [Quoting in HTML: Quotations, Citations, and Blockquotes](https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/)
 
 First article by [John Rhea](https://twitter.com/storykaboom) on [CSS-Tricks](https://css-tricks.com) and I am already looking forward to the next one. Good, in depth read about quotations in HTML.
+
+## [The State of JavaScript 2019](https://2019.stateofjs.com)
+
+Every year I look at the result of annual State of JavaScript with curiosity. It is nice to go through this amazingly curated set of data. As always, data visualization is second to none.
