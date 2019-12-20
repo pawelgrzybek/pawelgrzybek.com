@@ -20,3 +20,7 @@ First article by [John Rhea](https://twitter.com/storykaboom) on [CSS-Tricks](ht
 ## [The State of JavaScript 2019](https://2019.stateofjs.com)
 
 Every year I look at the result of annual State of JavaScript with curiosity. It is nice to go through this amazingly curated set of data. As always, data visualization is second to none.
+
+## [Const Assertions in Literal Expressions in TypeScript](https://mariusschulz.com/blog/const-assertions-in-literal-expressions-in-typescript)
+
+Avoid types widening using const assertion. This is a great explainer by [Marius Schulz](https://twitter.com/mariusschulz).
