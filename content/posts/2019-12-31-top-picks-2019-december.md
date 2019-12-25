@@ -24,3 +24,7 @@ Every year I look at the result of annual State of JavaScript with curiosity. It
 ## [Const Assertions in Literal Expressions in TypeScript](https://mariusschulz.com/blog/const-assertions-in-literal-expressions-in-typescript)
 
 Avoid types widening using const assertion. This is a great explainer by [Marius Schulz](https://twitter.com/mariusschulz).
+
+## [20 ways to become a better Node.js developer in 2020](https://medium.com/@me_37286/20-ways-to-become-a-better-node-js-developer-in-2020-d6bd73fcf424)
+
+List of solid advices for all Node.js developers. I found tons of great ideas and inspirations here. I cannot recommend enough a series of GitHub repositories by [Yoni Goldberg](https://twitter.com/goldbergyoni) about best testing practices. Worth checking!
