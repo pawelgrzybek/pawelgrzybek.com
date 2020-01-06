@@ -11,4 +11,4 @@ This book is a framework that helps in creating new habits that repeated over ti
 
 ![Picture of a book](/photos/2020-01-06-1.jpg)
 
-This book gave me a different point of view of my day-to-day life. Literally, moment after going through the first few chapters I started questioning my behaviours and catching myself on doing some things that I do for years on autopilot. It helped me to redefined my annual goals to be more process-oriented over than being blindly focused on achievement. Overall great read and well worth of a few hours of my weekend sit back.
+This book gave me a different point of view of my day-to-day life. Literally, moment after going through the first few chapters I started questioning my behaviours and catching myself on doing some things that I do for years on autopilot. It helped me to redefined my annual goals to be more process-oriented over being blindly focused on achievement. Overall great read and well worth of a few hours of my weekend sit back.
