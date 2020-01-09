@@ -9,7 +9,44 @@ It is this time of year when the list of new ECMAScript features is set in stone
 
 ## String.prototype.matchAll by Jordan Harband
 
-- https://github.com/tc39/proposal-string-matchall
+When regular expressions pattern contains multiple capturing groups, we often want an access to all of them when we compare a string against it. The `match()` method from `String.prototype` isn't helpful as it returns only complete regular expression matches. Thanks to [Jordan Harband](https://twitter.com/ljharb) for the [`String.prototype.matchAll` proposal](https://github.com/tc39/proposal-string-matchall) that returns iterator that contains an exact match with companion of all the groups. Do you remember [named capture groups by Gorkem Yakin](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/#regexp-named-capture-groups-by-gorkem-yakin-and-daniel-ehrenberg) and Daniel Ehrenberg added to ECMAScript 2018? The `matchAll()` method works really well with it.
+
+```js
+const text = "From 2019.01.29 to 2019.01.30";
+const regexp = /(?<year>\d{4}).(?<month>\d{2}).(?<day>\d{2})/gu;
+const results = text.match(regexp);
+
+console.log(results);
+// [ '2019.01.29', '2019.01.30' ]
+```
+
+```js
+const text = "From 2019.01.29 to 2019.01.30";
+const regexp = /(?<year>\d{4}).(?<month>\d{2}).(?<day>\d{2})/gu;
+const results = Array.from(text.matchAll(regexp));
+
+console.log(results);
+// [
+//   [
+//     '2019.01.29',
+//     '2019',
+//     '01',
+//     '29',
+//     index: 5,
+//     input: 'From 2019.01.29 to 2019.01.30',
+//     groups: [Object: null prototype] { year: '2019', month: '01', day: '29' }
+//   ],
+//   [
+//     '2019.01.30',
+//     '2019',
+//     '01',
+//     '30',
+//     index: 19,
+//     input: 'From 2019.01.29 to 2019.01.30',
+//     groups: [Object: null prototype] { year: '2019', month: '01', day: '30' }
+//   ]
+// ]
+```
 
 ## import() by Domenic Denicola
 
