@@ -12,3 +12,9 @@ All talks from TSConf 2019 are now online. They are all very insightful and I hi
 ## [Goodbye, Clean Code](https://overreacted.io/goodbye-clean-code/)
 
 [Dan Abramov](https://twitter.com/dan_abramov) from React core team explains why striving for the cleanest and "DRYiest" implementation of your new feature is not always the best idea.
+
+## [Animate text along a path on scroll](https://youtu.be/Tae96ze3xwY)
+
+[Stephen Shaw](https://twitter.com/shshaw) from [the @keyframers](https://twitter.com/keyframers) team gives a quick and concise explanation to animate text along the svg path on scroll event. Neat and simple method.
+
+{{< youtube Tae96ze3xwY >}}
