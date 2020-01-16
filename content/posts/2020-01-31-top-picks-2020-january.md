@@ -18,3 +18,7 @@ All talks from TSConf 2019 are now online. They are all very insightful and I hi
 [Stephen Shaw](https://twitter.com/shshaw) from [the @keyframers](https://twitter.com/keyframers) team gives a quick and concise explanation to animate text along the svg path on scroll event. Neat and simple method.
 
 {{< youtube Tae96ze3xwY >}}
+
+## [New year, new browser – The new Microsoft Edge is out of preview and now available for download](https://blogs.windows.com/windowsexperience/2020/01/15/new-year-new-browser-the-new-microsoft-edge-is-out-of-preview-and-now-available-for-download/)
+
+Finally landed — Microsoft Edge based on Chromium engine is officially announced. Am I happy about it? I don't know. I am a bit skeptical about a single engine that drives them all and that probably explains the reason why I am such a big fun of Mozilla politics and day-in-day-out Safari user. One thing became much easier though — frontend development.
