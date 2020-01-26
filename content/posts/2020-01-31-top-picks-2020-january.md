@@ -26,3 +26,7 @@ Finally landed — Microsoft Edge based on Chromium engine is officially announc
 ## [JetBrains Mono: A free and open source typeface for developers](https://www.jetbrains.com/lp/mono/)
 
 Free, open-source typeface for developers from JetBrains. Increased height for a better reading experience, adapted to reading code and supports ligatures. Ready to be used in your code editor, on your next poster design, website and mobile app. You can even design your own font based on it. Sick!
+
+## [Introducing Yarn 2 !](https://dev.to/arcanis/introducing-yarn-2-4eh1)
+
+It is finally coming! Second version of `yarn` has just been announced and it is full of new features and improvement over the first one. Rewritten entirely in TypeScript, with improved CLI output, massively better workflow with workspaces and something that I am super excited about, `yarn dlx` (dlx stands for download and execute).
