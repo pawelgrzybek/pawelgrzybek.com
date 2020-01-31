@@ -2,7 +2,6 @@
 title: "Top picks — 2020 January"
 description: ""
 photo: top-picks.jpg
-draft: true
 ---
 
 ## [TSConf 2019 - Watch the Whole Conference](https://tsconf.io/videos.html)
@@ -21,12 +20,12 @@ All talks from TSConf 2019 are now online. They are all very insightful and I hi
 
 ## [New year, new browser – The new Microsoft Edge is out of preview and now available for download](https://blogs.windows.com/windowsexperience/2020/01/15/new-year-new-browser-the-new-microsoft-edge-is-out-of-preview-and-now-available-for-download/)
 
-Finally landed — Microsoft Edge based on Chromium engine is officially announced. Am I happy about it? I don't know. I am a bit skeptical about a single engine that drives them all and that probably explains the reason why I am such a big fun of Mozilla politics and day-in-day-out Safari user. One thing became much easier though — frontend development.
+Finally landed — Microsoft Edge based on Chromium engine is officially announced. Am I happy about it? I don't know. I am a bit sceptical about a single-engine that drives them all and that probably explains the reason why I am such a big fan of Mozilla politics and day-in-day-out Safari user. One thing became much easier though — frontend development.
 
 ## [JetBrains Mono: A free and open source typeface for developers](https://www.jetbrains.com/lp/mono/)
 
-Free, open-source typeface for developers from JetBrains. Increased height for a better reading experience, adapted to reading code and supports ligatures. Ready to be used in your code editor, on your next poster design, website and mobile app. You can even design your own font based on it. Sick!
+A free, open-source typeface for developers from JetBrains. Increased height for a better reading experience, adapted to reading code and supports ligatures. Ready to be used in your code editor, on your next poster design, website and mobile app. You can even design your own font based on it. Sick!
 
 ## [Introducing Yarn 2 !](https://dev.to/arcanis/introducing-yarn-2-4eh1)
 
-It is finally coming! Second version of `yarn` has just been announced and it is full of new features and improvement over the first one. Rewritten entirely in TypeScript, with improved CLI output, massively better workflow with workspaces and something that I am super excited about, `yarn dlx` (dlx stands for download and execute).
+It is finally coming! The second version of `yarn` has just been announced and it is full of new features and improvement over the first one. Rewritten entirely in TypeScript, with improved CLI output, massively better workflow with workspaces and something that I am super excited about, `yarn dlx` (dlx stands for download and execute).
