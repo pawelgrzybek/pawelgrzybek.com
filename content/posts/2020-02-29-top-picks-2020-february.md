@@ -12,3 +12,7 @@ New initiative in collaboration with Microsoft, Google, Mozilla, Samsung Interne
 ## [HTTPS Is Easy!](https://httpsiseasy.com)
 
 A little guide by amazing [Troy Hunt](https://twitter.com/troyhunt) about the HTTPS configuration with CloudFlare. Subjects like fully encrypted SSL, automatic rewrites, TLS and HSTS are very well explained. I love all the things that Troy is doing for web platform.
+
+## [esbuild](https://github.com/evanw/esbuild/)
+
+Brand new JavaScript bundler written entirely in go language. First comparison to industry standard tools is looking very promising. Space worth to follow.
