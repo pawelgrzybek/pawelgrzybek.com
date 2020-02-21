@@ -16,3 +16,7 @@ A little guide by amazing [Troy Hunt](https://twitter.com/troyhunt) about the HT
 ## [esbuild](https://github.com/evanw/esbuild/)
 
 Brand new JavaScript bundler written entirely in go language. First comparison to industry standard tools is looking very promising. Space worth to follow.
+
+## [Announcing TypeScript 3.8](https://devblogs.microsoft.com/typescript/announcing-typescript-3-8/)
+
+This release looks rather revolutionary to me. Something that I struggled with a lot in my current project has now been resolved by type-only imports and exports. Another game changes is top level await implemented in the same manner like it is in modern runtimes (Chromium dev tools for example). ECMAScript native private class fields number of new possibilities too. Very solid release that you want to use on your project.
