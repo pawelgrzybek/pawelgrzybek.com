@@ -20,3 +20,7 @@ Brand new JavaScript bundler written entirely in go language. First comparison t
 ## [Announcing TypeScript 3.8](https://devblogs.microsoft.com/typescript/announcing-typescript-3-8/)
 
 This release looks rather revolutionary to me. Something that I struggled with a lot in my current project has now been resolved by type-only imports and exports. Another game changes is top level await implemented in the same manner like it is in modern runtimes (Chromium dev tools for example). ECMAScript native private class fields number of new possibilities too. Very solid release that you want to use on your project.
+
+## [Introducing Firefox and Edge Support in Cypress 4.0](https://www.cypress.io/blog/2020/02/06/introducing-firefox-and-edge-support-in-cypress-4-0/)
+
+Cypress running on anything other than Google Chrome has been the most anticipated feature request in the history of this project. With the release of version 4.0 the dream comes true by adding a support for Firefox and Microsoft Edge. 
