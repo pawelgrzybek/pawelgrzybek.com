@@ -8,6 +8,6 @@ Despite the fact that I have never had a trophy for being the best maths student
 
 ![Picture of a "Humble Pi: A Comedy of Maths Errors" by Matt Parker book](/photos/2020-02-27-1.jpg)
 
-["Humble Pi: A Comedy of Maths Errors"](https://www.goodreads.com/book/show/39074550-humble-pi) by [Matt Parker]() is all about what happens when maths goes wrong. Short, humorous (with a few exceptions) real-life anecdotes from various fields like finance, internet, big data, architecture, electronics, statistics and more. Publication by itself is full or real geek touches like pages following reversed order. I have a signed hardcopy and if you are quick you can still get yours from the [Maths Gear online store](https://mathsgear.co.uk/collections/books/products/humble-pi-a-comedy-of-maths-errors).
+["Humble Pi: A Comedy of Maths Errors"](https://www.goodreads.com/book/show/39074550-humble-pi) by [Matt Parker]() is all about what happens when maths goes wrong. Short, humorous (with a few exceptions) real-life anecdotes from various fields like finance, internet, big data, architecture, electronics, statistics and more. The publication by itself is full or real geek touches like pages following reversed order. I have a signed hardcopy and if you are quick you can still get yours from the [Maths Gear online store](https://mathsgear.co.uk/collections/books/products/humble-pi-a-comedy-of-maths-errors).
 
 ![Picture of a "Humble Pi: A Comedy of Maths Errors" signed by Matt Parker book](/photos/2020-02-27-2.jpg)
