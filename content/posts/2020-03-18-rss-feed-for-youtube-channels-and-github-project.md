@@ -18,7 +18,7 @@ Now add it to your RSS subscription service of choice and Bob's your uncle. Pers
 
 ## Bonus tip — RSS for GitHub project releases / tags
 
-For the geeky part of my audience, I have got something special. GitHub gives us RSS feeds for project releases too. Thats my preferred way of finding out about my followed projects fixed bugs and new features.
+For the geeky part of my audience, I have got something special. GitHub gives us RSS feeds for project releases and tags. Thats my preferred way of finding out about my followed projects fixed bugs and new features.
 
 ```
 https://github.com/{{username}}/{{repository}}/releases.atom
