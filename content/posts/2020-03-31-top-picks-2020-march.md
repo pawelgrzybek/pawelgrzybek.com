@@ -22,3 +22,7 @@ Github acquires npm! Main focus after the deal closes will be to improve the pla
 ## [Different Favicon for Development](https://css-tricks.com/different-favicon-for-development/)
 
 Chris Coyier gives a great tip to differentiate a production and development websites. Apart from a great tip he expresses his frustration about the favicon standard and I cannot agree more with this gentleman. 
+
+## [CSS :nth-of-class selector](https://www.bram.us/2020/03/16/css-nth-of-class-selector/)
+
+The `:nth-of-class` CSS selector is one of the most frequently requested features. Turns out that the future that will help us to achieve this (and more) is coming. This great article by [Bram(us) Van Damme](https://twitter.com/bramusblog) explains.
