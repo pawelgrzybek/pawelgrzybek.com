@@ -26,3 +26,7 @@ Chris Coyier gives a great tip to differentiate a production and development web
 ## [CSS :nth-of-class selector](https://www.bram.us/2020/03/16/css-nth-of-class-selector/)
 
 The `:nth-of-class` CSS selector is one of the most frequently requested features. Turns out that the future that will help us to achieve this (and more) is coming. This great article by [Bram(us) Van Damme](https://twitter.com/bramusblog) explains.
+
+## [CSS Can Influence Screenreaders](https://blog.benmyers.dev/css-can-influence-screenreaders/)
+
+Shocking impact of CSS on screen readers. Ben Myers did a fantastic job of illustrating potential accessibility issue that we may accidentally introduce to out web projects by CSS. One of the best accessibility articles that I have read in a while. 
