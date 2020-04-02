@@ -1,7 +1,7 @@
 ---
 title: "What's new in ECMAScript 2020"
 description: "The final list of ECMAScript 2020 features is ready. Here's a quick summary with practical examples."
-photo: 2020-04-05.jpg
+photo: 2020-04-03.jpg
 draft: true
 ---
 
@@ -9,7 +9,7 @@ The list of new features of ECMAScript 2020 is set in stone. Similarly, how I di
 
 ## String.prototype.matchAll by Jordan Harband
 
-When regular expressions pattern contains capturing groups, we often want access to all of them when we run it against a string. The `match()` method from `String.prototype` isn't helpful as it returns only complete regular expression matches. Thanks to [Jordan Harband](https://twitter.com/ljharb) for the [`String.prototype.matchAll` proposal](https://github.com/tc39/proposal-string-matchall) that returns iterator that contains an exact match with a companion of all the groups. Do you remember [named capture groups by Gorkem Yakin](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/#regexp-named-capture-groups-by-gorkem-yakin-and-daniel-ehrenberg) and Daniel Ehrenberg added to ECMAScript 2018? The `matchAll()` method works really well with it.
+The `match()` method from `String.prototype` returns only complete matches, but doesn't return any information about particular Regex groups. Thanks to [Jordan Harband](https://twitter.com/ljharb) for the [`String.prototype.matchAll` proposal](https://github.com/tc39/proposal-string-matchall) that returns a lot more info than `match()`. The returned iterator apart from exact match gives us an access to all Regex pattern capture groups. Do you remember [named capture groups by Gorkem Yakin](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/#regexp-named-capture-groups-by-gorkem-yakin-and-daniel-ehrenberg) and Daniel Ehrenberg added to ECMAScript 2018? The `matchAll()` method works really well with it.
 
 ```js
 const text = "From 2019.01.29 to 2019.01.30";
@@ -122,10 +122,10 @@ const title = data?.article?.title
 [The nullish coalescing proposal](https://github.com/tc39/proposal-nullish-coalescing) adds a new short-circuiting operator to handle default values. [Gabriel Isenberg](https://twitter.com/the_gisenberg) did fantastic work. This feature goes hand in hand with optional chaining. In contrast to `||` operator, nullish coalescing operator `??` evaluating only when left-hand side value is strictly `null` or `undefined`.
 
 ```js
-"" || "dafault value"
-// dafault value
+"" || "default value"
+// default value
 
-"" ?? "dafault value"
+"" ?? "default value"
 // ""
 ```
 
