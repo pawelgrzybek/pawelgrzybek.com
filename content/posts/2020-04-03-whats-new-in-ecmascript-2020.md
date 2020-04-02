@@ -7,6 +7,15 @@ draft: true
 
 The list of new features of ECMAScript 2020 is set in stone. Similarly, how I did it in [2016](https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/), [2017](https://pawelgrzybek.com/whats-new-in-ecmascript-2017/), [2018](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/) and [2019](https://pawelgrzybek.com/whats-new-in-ecmascript-2019/), let's have a look at what's coming this year and a few practical examples.
 
+- [String.prototype.matchAll by Jordan Harband](#stringprototypematchall-by-jordan-harband)
+- [import() by Domenic Denicola](#import-by-domenic-denicola)
+- [BigInt – arbitrary precision integers by Daniel Ehrenberg](#bigint--arbitrary-precision-integers-by-daniel-ehrenberg)
+- [Promise.allSettled by Jason Williams, Robert Pamely and  Mathias Bynens](#promiseallsettled-by-jason-williams-robert-pamely-and--mathias-bynens)
+- [globalThis by Jordan Harband](#globalthis-by-jordan-harband)
+- [for-in mechanics by Kevin Gibbons](#for-in-mechanics-by-kevin-gibbons)
+- [Optional chaining by Gabriel Isenberg, Claude Pache, Dustin Savery](#optional-chaining-by-gabriel-isenberg-claude-pache-dustin-savery)
+- [Nullish coalescing Operator by Gabriel Isenberg](#nullish-coalescing-operator-by-gabriel-isenberg)
+
 ## String.prototype.matchAll by Jordan Harband
 
 The `match()` method from `String.prototype` returns only complete matches, but doesn't return any information about particular Regex groups. Thanks to [Jordan Harband](https://twitter.com/ljharb) for the [`String.prototype.matchAll` proposal](https://github.com/tc39/proposal-string-matchall) that returns a lot more info than `match()`. The returned iterator apart from exact match gives us an access to all Regex pattern capture groups. Do you remember [named capture groups by Gorkem Yakin](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/#regexp-named-capture-groups-by-gorkem-yakin-and-daniel-ehrenberg) and Daniel Ehrenberg added to ECMAScript 2018? The `matchAll()` method works really well with it. The example will clarify it.
