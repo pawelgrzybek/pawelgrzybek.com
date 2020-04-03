@@ -1,11 +1,10 @@
 ---
 title: "What's new in ECMAScript 2020"
-description: "The final list of ECMAScript 2020 features is ready. Here's a quick summary with practical examples."
+description: "The list of new ECMAScript 2020 features is set in stone. Let’s have a look at what’s coming this year and a few practical examples."
 photo: 2020-04-03.jpg
-draft: true
 ---
 
-The list of new features of ECMAScript 2020 is set in stone. Similarly, how I did it in [2016](https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/), [2017](https://pawelgrzybek.com/whats-new-in-ecmascript-2017/), [2018](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/) and [2019](https://pawelgrzybek.com/whats-new-in-ecmascript-2019/), let's have a look at what's coming this year and a few practical examples.
+The list of new ECMAScript 2020 features is set in stone. Similarly, how I did it in [2016](https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/), [2017](https://pawelgrzybek.com/whats-new-in-ecmascript-2017/), [2018](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/) and [2019](https://pawelgrzybek.com/whats-new-in-ecmascript-2019/), let's have a look at what's coming this year and a few practical examples.
 
 - [String.prototype.matchAll by Jordan Harband](#stringprototypematchall-by-jordan-harband)
 - [import() by Domenic Denicola](#import-by-domenic-denicola)
@@ -15,10 +14,12 @@ The list of new features of ECMAScript 2020 is set in stone. Similarly, how I di
 - [for-in mechanics by Kevin Gibbons](#for-in-mechanics-by-kevin-gibbons)
 - [Optional chaining by Gabriel Isenberg, Claude Pache, Dustin Savery](#optional-chaining-by-gabriel-isenberg-claude-pache-dustin-savery)
 - [Nullish coalescing Operator by Gabriel Isenberg](#nullish-coalescing-operator-by-gabriel-isenberg)
+- [import.meta by Domenic Denicola](#importmeta-by-domenic-denicola)
+- [export * as ns from "mod"](#export--as-ns-from-mod)
 
 ## String.prototype.matchAll by Jordan Harband
 
-The `match()` method from `String.prototype` returns only complete matches, but doesn't return any information about particular Regex groups. Thanks to [Jordan Harband](https://twitter.com/ljharb) for the [`String.prototype.matchAll` proposal](https://github.com/tc39/proposal-string-matchall) that returns a lot more info than `match()`. The returned iterator apart from exact match gives us an access to all Regex pattern capture groups. Do you remember [named capture groups by Gorkem Yakin](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/#regexp-named-capture-groups-by-gorkem-yakin-and-daniel-ehrenberg) and Daniel Ehrenberg added to ECMAScript 2018? The `matchAll()` method works really well with it. The example will clarify it.
+The `match()` method from `String.prototype` returns only complete matches, but doesn't return any information about particular Regex groups. Thanks to [Jordan Harband](https://twitter.com/ljharb) for the [`String.prototype.matchAll` proposal](https://github.com/tc39/proposal-string-matchall) that returns a lot more info than `match()`. The returned iterator apart from exact matches give us an access to all Regex pattern capture groups. Do you remember [named capture groups by Gorkem Yakin](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/#regexp-named-capture-groups-by-gorkem-yakin-and-daniel-ehrenberg) and Daniel Ehrenberg added to ECMAScript 2018? The `matchAll()` method works really well with it. The example will clarify it.
 
 ```js
 const text = "From 2019.01.29 to 2019.01.30";
@@ -140,4 +141,21 @@ const title = data?.article?.title
 
 ```js
 const title = data?.article?.title ?? "What's new in ECMAScript 2020"
+```
+
+## import.meta by Domenic Denicola
+
+The [import.meta proposal](https://github.com/tc39/proposal-import-meta) by [Domenic Denicola](https://twitter.com/domenic) adds a host-specific metadata object to the currently running module. 
+
+```js
+console.log(import.meta.url)
+// file:///Users/pawelgrzybek/main.js
+```
+
+## export * as ns from "mod"
+
+This is a [useful addition to the specification](https://spectranaut.github.io/proposal-export-ns-from/) that allows developers to export another module's namespace exotic object under the new name.
+
+```js
+export * as ns from "mod"
 ```
