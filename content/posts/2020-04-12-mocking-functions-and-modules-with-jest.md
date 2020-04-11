@@ -186,5 +186,3 @@ expect(super cool mock).toHaveBeenCalledTimes(expected)
     Expected number of calls: 1
     Received number of calls: 0
 ```
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Make your and your co-workers life easier and add descriptive name to your mock functions. Here is a simple example using <a href="https://twitter.com/fbjest?ref_src=twsrc%5Etfw">@fbjest</a>.<a href="https://t.co/DEm9kgk1b2">https://t.co/DEm9kgk1b2</a><a href="https://twitter.com/hashtag/javascript?src=hash&amp;ref_src=twsrc%5Etfw">#javascript</a> <a href="https://twitter.com/hashtag/testing?src=hash&amp;ref_src=twsrc%5Etfw">#testing</a> <a href="https://twitter.com/hashtag/nodejs?src=hash&amp;ref_src=twsrc%5Etfw">#nodejs</a> <a href="https://t.co/xaK9ACy8A5">pic.twitter.com/xaK9ACy8A5</a></p>&mdash; Paweł Grzybek (@pawelgrzybek) <a href="https://twitter.com/pawelgrzybek/status/1203697405952249856?ref_src=twsrc%5Etfw">December 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
