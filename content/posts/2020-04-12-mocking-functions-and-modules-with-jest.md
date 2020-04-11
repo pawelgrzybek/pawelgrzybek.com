@@ -1,7 +1,7 @@
 ---
 title: "Mocking functions and modules with Jest"
 description: ""
-photo: top-picks.jpg
+photo: 2020-04-12.jpg
 draft: true
 ---
 
@@ -26,7 +26,7 @@ These are my typical candidates for mocks:
 - mock calls to APIs or databases queries
 - mock conditions difficult to generate in a test environment
 
-!!! PICTURE OF RECOMMENDED RESOURCES !!!
+![Picture of website with helpful resources to understand mocks](/photos/2020-04-12-1.jpg)
 
 ## Jest mocks
 
@@ -156,7 +156,7 @@ Much nicer, isn't it? Internally jest creates an AST (abstract syntax tree) for 
 Look at this test and its result.
 
 ```js
-it("calls a function twice", () => {
+it("calls a function", () => {
   const mock = jest.fn();
 
   expect(mock).toHaveBeenCalledTimes(1);
@@ -170,19 +170,25 @@ expect(jest.fn()).toHaveBeenCalledTimes(expected)
     Received number of calls: 0
 ```
 
+![Picture of simple jest usage of mock without descriptive name](/photos/2020-04-12-2.jpg)
+
 This is OK if we have one test in a file, but it is hard to guess what `jest.fn()` is in a hundred lines long file. There is a simple solution tho. Give your mock a descriptive name using [`mockName()`](https://jestjs.io/docs/en/mock-function-api#mockfnmocknamevalue) method. Look!
 
 ```js
-it("calls a function twice", () => {
-  const mock = jest.fn().mockName("super cool mock");
+it("calls a function", () => {
+  const mock = jest.fn().mockName("my dope mock");
 
   expect(mock).toHaveBeenCalledTimes(1);
 });
 ```
 
 ```
-expect(super cool mock).toHaveBeenCalledTimes(expected)
+expect(my dope mock).toHaveBeenCalledTimes(expected)
 
     Expected number of calls: 1
     Received number of calls: 0
 ```
+
+![Picture of simple jest usage of mock with descriptive name](/photos/2020-04-12-3.jpg)
+
+Hopefully you found this article helpful and you learned a thing or two. Until next time, stay curious!
