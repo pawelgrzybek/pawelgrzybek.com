@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2020 April"
-description: "DNS server for families by CloudFlare, interesting CSS elements in new Facebook design, "
+description: "DNS server for families by CloudFlare, interesting CSS elements in new Facebook design, consideration for mocking objects in your unit tests, "
 photo: top-picks.jpg
 draft: true
 ---
@@ -12,3 +12,9 @@ Introduced two years ago secure DNS server by Cloudflare became my default resol
 ## [CSS Findings From The New Facebook Design](https://ishadeed.com/article/new-facebook-css/)
 
 Curious [Ahmad Shadeed](https://twitter.com/shadeed9) dun in the source code of a new Facebook design a lot if interesting CSS patterns. Apart from pointing them out, he listed reasons why Facebook engineer decided to use particular solution. Post is decorated with multiple tweets from original Facebook engineers responsible for implementation of solutions in an article. Very good CSS read.
+
+## [Justin Searls – Please don’t mock me](https://youtu.be/Af4M8GMoxi4)
+
+Great talk about the mocking. Full of great practical tips for the design of an application. I like the vibe of a talk and Justin's charisma.
+
+{{< youtube Af4M8GMoxi4 >}}
