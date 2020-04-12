@@ -2,22 +2,21 @@
 title: "Mocking functions and modules with Jest"
 description: "To write deterministic, repeatable unit tests, we need to control the inputs, outputs and invocations of mock objects. The Jest testing framework comes with great mocking capabilities. Let's have a look at them all."
 photo: 2020-04-12.jpg
-draft: true
 ---
 
 A JavaScript program can have several dependencies, internal and/or external, most likely represented by the list of imports on the very top of your script. To write deterministic, repeatable unit tests, we need to control the inputs, outputs and invocations of those dependencies. These objects that simulate the real objects are mocks. Let's have a look at [Wikipedia definition of Mock object](https://en.wikipedia.org/wiki/Mock_object).
 
 > Mock objects are simulated objects that mimic the behavior of real objects in controlled ways, most often as part of a software testing initiative.
 
-There is plenty of JavaScript mocking libraries out there. Today I am going to review a few methods of creating functions and modules mock using [my favorite testing framework, Jest](https://jestjs.io). 
+There is plenty of JavaScript mocking libraries out there. Today I am going to review a few methods of creating functions and modules mock using [my favourite testing framework, Jest](https://jestjs.io). 
 
 ## To mock or not to mock?
 
-Mocking all dependencies feels like a perfect solution. Who doesn't like to have a total control? Unfortunately it may cause many false positives, because we end up testing particular scenario implemented in a particular way. It is not a reliable test of a produced result.
+Mocking all dependencies feels like a perfect solution. Who doesn't like to have total control? Unfortunately it may cause many false positives, because we end up testing a particular scenario implemented in a particular way. It is not a reliable test of a produced result.
 
 On the other hand, why should we use mocks at all? Won't we get the most accurate results by testing software as it is implemented? Yes — but this is out of scope of a unit test. Unit test should be isolated, narrow in scope and quick to execute.
 
-["Please don’t mock me" by Justin Searls on YouTube](https://youtu.be/Af4M8GMoxi4) is a fantastic talk about things that should be mocked and those where mocking should be avoided. ["Mock Objects: Shortcomings and Use Cases" by Alex Ruiz](https://www.oracle.com/technical-resources/articles/enterprise-architecture/mock-shortcomings.html) is another resource that I found very helpful. If you have to mock too much it may be an indicator of high degree of coupling in your application. ["Mocking is a Code Smell" by Eric Elliott](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a) is a very helpful article that can help you to reduce tight coupling and requirement of widespread mocking.
+["Please don't mock me" by Justin Searls on YouTube](https://youtu.be/Af4M8GMoxi4) is a fantastic talk about things that should be mocked and where mocking should be avoided. ["Mock Objects: Shortcomings and Use Cases" by Alex Ruiz](https://www.oracle.com/technical-resources/articles/enterprise-architecture/mock-shortcomings.html) is another resource that I found very helpful. If you have to mock too much then this may indicate a high degree of coupling in your application. ["Mocking is a Code Smell" by Eric Elliott](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a) is a very helpful article that can help you to reduce tight coupling and a requirement of widespread mocking.
 
 >  Mocking is required when our supposed atomic units of composition are not really atomic, and our decomposition strategy has failed to decompose the larger problem into smaller, independent problems.
 
@@ -109,7 +108,7 @@ it("returns mocked and original result", () => {
 });
 ```
 
-I am sorry for a terrible example above because in real life you have no valid reasons to mock pure functions like `add()`. This is purely for illustrative purpose.
+I'm sorry for the terrible example above, this is because in real life you have no valid reasons to mock pure functions like `add()`. This is purely for illustrative purpose.
 
 ### Module mock using jest.mock()
 
