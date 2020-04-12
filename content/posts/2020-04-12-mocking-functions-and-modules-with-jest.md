@@ -1,15 +1,15 @@
 ---
 title: "Mocking functions and modules with Jest"
-description: ""
+description: "To write deterministic, repeatable unit tests, we need to control the inputs, outputs and invocations of mock objects. The Jest testing framework comes with great mocking capabilities. Let's have a look at them all."
 photo: 2020-04-12.jpg
 draft: true
 ---
 
-JavaScript program can have several dependencies, internal or external, most likely represented by the list of imports on the very top of your script. To write deterministic, repeatable unit tests, controlling input, output and invocations of those dependencies may be necessary. These objects that simulate the real objects are mocks. Let's have a look at [Wikipedia definition of Mock object](https://en.wikipedia.org/wiki/Mock_object).
+A JavaScript program can have several dependencies, internal and/or external, most likely represented by the list of imports on the very top of your script. To write deterministic, repeatable unit tests, we need to control the inputs, outputs and invocations of those dependencies. These objects that simulate the real objects are mocks. Let's have a look at [Wikipedia definition of Mock object](https://en.wikipedia.org/wiki/Mock_object).
 
 > Mock objects are simulated objects that mimic the behavior of real objects in controlled ways, most often as part of a software testing initiative.
 
-There is plenty of JavaScript mocking libraries out there. Today I am going to review a few methods of creating functions and entire modules mock using [my favorite testing framework, Jest](https://jestjs.io). 
+There is plenty of JavaScript mocking libraries out there. Today I am going to review a few methods of creating functions and modules mock using [my favorite testing framework, Jest](https://jestjs.io). 
 
 ## To mock or not to mock?
 
@@ -23,7 +23,8 @@ On the other hand, why should we use mocks at all? Won't we get the most accurat
 
 These are my typical candidates for mocks:
 
-- mock calls to APIs or databases queries
+- mock API calls
+- mock databases queries
 - mock conditions difficult to generate in a test environment
 
 ![Picture of website with helpful resources to understand mocks](/photos/2020-04-12-1.jpg)
@@ -32,36 +33,34 @@ These are my typical candidates for mocks:
 
 The Jest testing framework comes with great mocking methods built-in for functions as well as modules. Let's have a look at them all.
 
+- [Function mock using `jest.fn()`](#function-mock-using-jestfn)
+- [Function mock using `jest.spyOn()`](#function-mock-using-jestfn)
+- [Module mock using `jest.mock()`](#module-mock-using-jestmock)
+
 ### Function mock using jest.fn()
 
 The simplest and most common way of creating a mock is `jest.fn()` method. If no implementation is provided, it will return the `undefined` value. There is plenty of helpful [methods on returned Jest mock](https://jestjs.io/docs/en/mock-function-api#methods) to control its input, output and implementation. Let's have a look at a few examples.
 
 ```js
 it("returns undefined and has been called correct number of times", () => {
-  // arrange
   const mock = jest.fn();
 
-  // act
   const result = mock();
 
-  // assert
   expect(result).toBeUndefined();
   expect(mock).toHaveBeenCalledTimes(1);
   expect(mock).toHaveBeenCalledWith();
 });
 
 it("has been called with correct arguments and returns a correct value", () => {
-  // arrange
   const mock = jest
     .fn()
     .mockReturnValueOnce("first return")
     .mockReturnValueOnce("second return");
 
-  // act
   const resultFirst = mock("first call");
   const resultSecond = mock("second call");
 
-  // assert
   expect(resultFirst).toBe("first return");
   expect(resultSecond).toBe("second return");
   expect(mock).toHaveBeenCalledTimes(2);
@@ -149,7 +148,7 @@ it("mocks entire module", () => {
 });
 ```
 
-Much nicer, isn't it? Internally jest creates an AST (abstract syntax tree) for the module and then uses that to create a mock that conforms to original's exports. Pretty neat!
+Much nicer, isn't it? Internally Jest inspects the module and creates a mock that conforms to original's exports. Pretty neat!
 
 ## Hot tip — name your mock
 
@@ -172,7 +171,7 @@ expect(jest.fn()).toHaveBeenCalledTimes(expected)
 
 ![Picture of simple jest usage of mock without descriptive name](/photos/2020-04-12-2.jpg)
 
-This is OK if we have one test in a file, but it is hard to guess what `jest.fn()` is in a hundred lines long file. There is a simple solution tho. Give your mock a descriptive name using [`mockName()`](https://jestjs.io/docs/en/mock-function-api#mockfnmocknamevalue) method. Look!
+This is OK if we have one test in a file, but it is hard to guess what `jest.fn()` is in a hundred lines long file. There is a simple solution — give your mock a descriptive name using [`mockName()`](https://jestjs.io/docs/en/mock-function-api#mockfnmocknamevalue) method. Look!
 
 ```js
 it("calls a function", () => {
