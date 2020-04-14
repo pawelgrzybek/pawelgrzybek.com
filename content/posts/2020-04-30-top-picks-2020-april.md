@@ -18,3 +18,7 @@ Curious [Ahmad Shadeed](https://twitter.com/shadeed9) dun in the source code of 
 Great talk about the mocking. Full of great practical tips for the design of an application. I like the vibe of a talk and Justin's charisma.
 
 {{< youtube Af4M8GMoxi4 >}}
+
+## [GitHub is now free for teams](https://github.blog/2020-04-14-github-is-now-free-for-teams/)
+
+If you are still skeptical about Microsoft acquiring GitHub some time ago, wait for this news. Private repositories with unlimited collaborators available to all GitHub accounts fro free. This is a sweet announcement!
