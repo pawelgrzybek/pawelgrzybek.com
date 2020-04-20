@@ -22,3 +22,7 @@ Great talk about the mocking. Full of great practical tips for the design of an 
 ## [GitHub is now free for teams](https://github.blog/2020-04-14-github-is-now-free-for-teams/)
 
 If you are still skeptical about Microsoft acquiring GitHub some time ago, wait for this news. Private repositories with unlimited collaborators available to all GitHub accounts fro free. This is a sweet announcement!
+
+## [Understanding TypeScript’s type notation](https://2ality.com/2018/04/type-notation-typescript.html)
+
+I should have read this article by [Dr. Axel Rauschmayer](https://twitter.com/rauschma) before I spent ages on [official TypeScript documentation](https://www.typescriptlang.org/docs/home). This is a fantastic explanation of the way how TypeScript types notation works.
