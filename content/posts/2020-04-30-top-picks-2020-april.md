@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2020 April"
-description: "DNS server for families by CloudFlare, interesting CSS elements in new Facebook design, consideration for mocking objects in your unit tests, "
+description: "DNS server for families by CloudFlare, interesting CSS elements in new Facebook design, consideration for mocking objects in your unit tests, free GitHub for teams, TypeScript’s type notation explained, CSS 100vh in iOS Safari, "
 photo: top-picks.jpg
 draft: true
 ---
@@ -26,3 +26,7 @@ If you are still skeptical about Microsoft acquiring GitHub some time ago, wait 
 ## [Understanding TypeScript’s type notation](https://2ality.com/2018/04/type-notation-typescript.html)
 
 I should have read this article by [Dr. Axel Rauschmayer](https://twitter.com/rauschma) before I spent ages on [official TypeScript documentation](https://www.typescriptlang.org/docs/home). This is a fantastic explanation of the way how TypeScript types notation works.
+
+## [100vh in iOS Safari](https://twitter.com/AllThingsSmitty/status/1254151507412496384)
+
+[Matt Smith](https://twitter.com/AllThingsSmitty) shared a CSS tricks that made my day! I am sure you noticed the annoying way how Safari on iOS calculates `100vh`. We finally have a solution that gives us a bit more predictable results. Thanks to the `height: -webkit-fill-available` declaration.
