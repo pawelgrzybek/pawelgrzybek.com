@@ -4,7 +4,7 @@ description: "My friend Kyran recently recommended \"Permanent Record\" a book a
 photo: 2020-05-05.jpg
 ---
 
-After reading a few non-technical books I kinda missed some geeky publications. My friend Kyran recently recommended "Permanent Record" a book about a story that I had heard before from the movie "Snowden". It's been a while since I watched it, so I decided to be a bit more curious about the controversial story of NSA's employee.
+After reading a few non-technical books I kinda missed some geeky publications. My friend Kyran recently recommended "Permanent Record" a book about a story that I had heard before from the [movie "Snowden"](https://www.imdb.com/title/tt3774114/). It's been a while since I watched it, so I decided to be a bit more curious about the controversial story of NSA's employee.
 
 ![Picture of "Permanent Record" by Edward Snowden book](/photos/2020-05-05-1.jpg)
 
