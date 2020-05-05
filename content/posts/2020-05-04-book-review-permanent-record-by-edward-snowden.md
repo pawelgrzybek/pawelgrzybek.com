@@ -1,6 +1,6 @@
 ---
 title: "Book review: Permanent Record by Edward Snowden"
-description: ""
+description: "My friend Kyran recently recommended \"Permanent Record\" a book about a story that I had heard before from the movie \"Snowden\". It's been a while since I watched it, so I decided to be a bit more curious about the controversial story of NSA's employee."
 photo: 2020-05-05.jpg
 ---
 
