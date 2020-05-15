@@ -95,16 +95,18 @@ Unfortunately we cannot take advantage of computed properties in an `interface` 
 
 ![Compiler error caused by using computed properties on an interface](/photos/2019-05-28-2.jpg)
 
-## Deferred type resolution of interfaces vs. eager type aliases
+## ~~Deferred type resolution of interfaces vs. eager type aliases~~
 
-Another difference is when a type is resolved by the compiler. Resolution of an `interface` is deferred, means that you can use them to recursively chain types. Resolution of `type` aliases is eager and compiler goes crazy when you try to resolve recursively nested types. Look!
+{{% update %}}This is no longer truth. Since I wrote this article, TypeScript behavior changed slightly and now the resolution of both (types and interfaces) happens in the same phase. Looks like both of them are deferred so the example from the image below is now perfectly valid TypeScript code.{{% /update %}}
+
+~~Another difference is when a type is resolved by the compiler. Resolution of an `interface` is deferred, means that you can use them to recursively chain types. Resolution of `type` aliases is eager and compiler goes crazy when you try to resolve recursively nested types. Look!~~
 
 ```ts
 type Dude = string | Pals;
 interface Pals extends Array<Dude> {}
 ```
 
-We are allowed to do it, because type of `interface`s is deferred. Equivalent with `type` alias results with `Type alias circularly references itself` compiler error.
+~~We are allowed to do it, because type of `interface`s is deferred. Equivalent with `type` alias results with `Type alias circularly references itself` compiler error.~~
 
 ![Recursively chained type aliases result in "circularly references itself" compiler error](/photos/2019-05-28-3.jpg)
 
