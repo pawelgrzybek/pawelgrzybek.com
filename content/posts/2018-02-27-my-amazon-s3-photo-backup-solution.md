@@ -72,4 +72,4 @@ Although the S3 web interface is very user friendly and fast, you may be interes
 
 I am very happy with this solution and it works for me really well. I managed to reduce the cost of my digital backups from £8 per month to less than £1. I have a reliable and secure copy of my files and a great system in place that hopefully is going to serve me for the long term. Let me know about your backup strategy in the comments below. If you have any questions or need some more clarification on anything in this post, I am always keen to help. Happy backing up!
 
-{{% update %}}One 27 March 2019, [Amazon announced a Glacier Deep Archive](https://aws.amazon.com/blogs/aws/new-amazon-s3-storage-class-glacier-deep-archive/) which is even more cost effective storage class that perfectly suits my needs.{{% /update %}}
+{{< update >}}One 27 March 2019, [Amazon announced a Glacier Deep Archive](https://aws.amazon.com/blogs/aws/new-amazon-s3-storage-class-glacier-deep-archive/) which is even more cost effective storage class that perfectly suits my needs.{{< /update >}}

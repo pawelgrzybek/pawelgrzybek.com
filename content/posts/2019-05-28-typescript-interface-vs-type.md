@@ -41,7 +41,7 @@ The ["Interfaces vs. Type Aliases"](http://www.typescriptlang.org/docs/handbook/
 
 Since [June 2016](https://github.com/microsoft/TypeScript-Handbook/commit/939650d392f389090b663bc5117234cfda5d4812) when this part of the documentation was last updated, TypeScript has had a major version bump and lots of functionality has changed. Unfortunately none of these points are true anymore. It is a great time to update this obsolete part of the documentation. I will try to do a better job at explaining the difference. Hopefully the TypeScript Handbook will be updated eventually, then I will get rid of this section of the article.
 
-{{% update %}}Microsoft actively works on [a brand new TypeScript Handbook](https://microsoft.github.io/TypeScript-New-Handbook/everything/#interface-vs-alias) that does a much better job at explaining the subject. It is a work in progress and we don't know the date when it is going to replace the current Handbook.{{% /update %}}
+{{< update >}}Microsoft actively works on [a brand new TypeScript Handbook](https://microsoft.github.io/TypeScript-New-Handbook/everything/#interface-vs-alias) that does a much better job at explaining the subject. It is a work in progress and we don't know the date when it is going to replace the current Handbook.{{< /update >}}
 
 ## Interfaces are restricted to an object type
 
@@ -97,7 +97,7 @@ Unfortunately we cannot take advantage of computed properties in an `interface` 
 
 ## ~~Deferred type resolution of interfaces vs. eager type aliases~~
 
-{{% update %}}This is no longer truth. Since I wrote this article, TypeScript behavior changed slightly and now the resolution of both (types and interfaces) happens in the same phase. Looks like both of them are deferred so the example from the image below is now perfectly valid TypeScript code.{{% /update %}}
+{{< update >}}This is no longer truth. Since I wrote this article, TypeScript behavior changed slightly and now the resolution of both (types and interfaces) happens in the same phase. Looks like both of them are deferred so the example from the image below is now perfectly valid TypeScript code.{{< /update >}}
 
 ~~Another difference is when a type is resolved by the compiler. Resolution of an `interface` is deferred, means that you can use them to recursively chain types. Resolution of `type` aliases is eager and compiler goes crazy when you try to resolve recursively nested types. Look!~~
 

@@ -4,7 +4,7 @@ description: As a fresh Unity developer I really struggled to jump from my favou
 photo: 2017-11-27.jpg
 ---
 
-{{% update %}}I published this article some time ago and Unity environment changed a lot. I wouldn't recommend this path nowadays. Just download [Visual Studio Community](https://www.visualstudio.com/vs/community/), switch default Unity IDE and enjoy very smooth integration.{{% /update %}}
+{{< update >}}I published this article some time ago and Unity environment changed a lot. I wouldn't recommend this path nowadays. Just download [Visual Studio Community](https://www.visualstudio.com/vs/community/), switch default Unity IDE and enjoy very smooth integration.{{< /update >}}
 
 First things first — I'm not an experienced game developer. I just started my journey with Unity not long time ago and this article is a result of my early explorations that can be useful for newcomers.
 
