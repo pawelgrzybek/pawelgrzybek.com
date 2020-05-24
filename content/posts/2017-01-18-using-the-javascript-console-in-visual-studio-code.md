@@ -17,7 +17,7 @@ A VSCode Task is a set of instructions in a JSON file that resides in our projec
   "version": "2.0.0",
   "tasks": [
     {
-      "taskName": "Show in console",
+      "label": "Show in console",
       "type": "shell",
       "osx": {
         "command": "/usr/local/bin/node ${file}"
