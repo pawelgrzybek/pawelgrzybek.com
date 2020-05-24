@@ -9,10 +9,8 @@
   left: 0;
   padding: 0 ($lh / 2);
   font-size: $fz / $type-scale;
-  font-style: italic;
-  font-weight: 900;
+  font-weight: 700;
   text-decoration: none;
-  text-transform: uppercase;
   transform: scale(0);
 }
 
@@ -29,10 +27,10 @@
 .header__link {
   color: $color-text;
   font-size: $fz / $type-scale;
-  font-style: italic;
-  font-weight: 900;
+  // font-style: italic;
+  font-weight: 700;
   text-decoration: none;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   vertical-align: top;
 
   &:hover {

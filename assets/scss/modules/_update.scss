@@ -13,9 +13,9 @@
     background-color: lighten($color-link, 30%);
     color: #fff;
     font-size: $fz / $type-scale;
-    font-style: italic;
-    font-weight: 900;
-    text-transform: uppercase;
+    // font-style: italic;
+    font-weight: 700;
+    // text-transform: uppercase;
     content: "Update";
   }
 }
