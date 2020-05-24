@@ -50,19 +50,5 @@
 
   {{ partial "footer.html" . }}
 
-  <script>
-    const hs = document.querySelectorAll('.js-post h2, .js-post h3, .js-post h4, .js-post h5, .js-post h6');
-
-    for (const h of hs) {
-      const hash = document.createElement('a');
-
-      hash.href = `#${h.id}`;
-      hash.innerHTML = '#';
-      hash.className = ('post__hash');
-
-      h.appendChild(hash);
-    }
-  </script>
-
 </body>
 </html>
