@@ -1,14 +1,14 @@
 .header {
   position: relative;
-  padding: ($lh * 3) 0;
+  padding: calc(var(--lh) * 3) 0;
 }
 
 .header__skip {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 0 ($lh / 2);
-  font-size: $fz / $type-scale;
+  padding: 0 calc(var(--lh) / 2);
+  font-size: calc(var(--fz) / var(--type-scale));
   font-weight: 700;
   text-decoration: none;
   transform: scale(0);
@@ -20,26 +20,24 @@
 
 .header__logo {
   margin: 0;
-  font-size: $fz * $type-scale;
-  line-height: $lh;
+  font-size: calc(var(--fz) * var(--type-scale));
+  line-height: var(--fz);
 }
 
 .header__link {
-  color: $color-text;
-  font-size: $fz / $type-scale;
-  // font-style: italic;
+  color: var(--color-text);
+  font-size: calc(var(--fz) / var(--type-scale));
   font-weight: 700;
   text-decoration: none;
-  // text-transform: uppercase;
   vertical-align: top;
 
   &:hover {
-    color: $color-link;
+    color: var(--color-link);
   }
 }
 
 .header__link--logo {
-  font-size: $fz * $type-scale;
+  font-size: calc(var(--fz) * var(--type-scale));
 }
 
 .header__nav {
@@ -49,5 +47,6 @@
 }
 
 .header__item {
-  margin-right: $lh / 4;
+  margin-right: calc(var(--fz) / 4);
+  margin-right: calc(var(--lh) / 4);
 }

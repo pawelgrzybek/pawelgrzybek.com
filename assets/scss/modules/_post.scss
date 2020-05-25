@@ -1,6 +1,6 @@
 /* Post */
 .post {
-  margin-bottom: $lh * 3;
+  margin-bottom: calc(var(--lh) * 3);
 }
 
 .post__title {
@@ -8,31 +8,32 @@
 }
 
 .post__url {
-  color: $color-text;
+  color: var(--color-text);
   text-decoration: none;
 
   &:hover {
-    color: $color-link;
+    color: var(--color-link);
   }
 }
 
 .post__meta {
-  margin-top: -$lh;
-  font-size: $fz / $type-scale;
+  margin-top: calc(var(--lh) * -1);
+  font-size: calc(var(--fz) / var(--type-scale));
 }
 
 .post__more {
-  font-size: $fz / $type-scale;
   text-decoration: none;
   vertical-align: top;
 }
 
 .post__hash {
   text-decoration: none;
-  margin-left: $lh / 4;
-  color: rgba($color-text, 0.25);
+  margin-left: calc(var(--lh) / 4);
+  color: var(--color-text);
+  opacity: 0.25;
 
   &:hover {
-    color: $color-link;
+    color: var(--color-link);
+    opacity: 1;
   }
 }

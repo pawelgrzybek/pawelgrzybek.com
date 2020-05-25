@@ -4,7 +4,7 @@
 
 .pager__btn {
   flex-grow: 1;
-  font-size: $fz / $type-scale;
+  font-size: calc(var(--fz) / var(--type-scale));
   font-weight: 700;
   text-decoration: none;
   vertical-align: top;

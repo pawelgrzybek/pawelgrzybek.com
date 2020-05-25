@@ -1,21 +1,19 @@
 .update {
   position: relative;
-  padding: $lh;
-  background-color: lighten($color-link, 45%);
-  box-shadow: 0 0 0 1px lighten($color-link, 30%);
+  padding: var(--lh);
+  background-color: var(--color-update-background);
+  box-shadow: 0 0 0 1px var(--color-update-border);
 
   &::before {
     position: absolute;
-    top: -$lh / 2;
-    left: $lh / 2;
-    height: $lh;
-    padding: 0 ($lh / 2);
-    background-color: lighten($color-link, 30%);
+    top: calc(var(--lh) / -2);
+    left: calc(var(--lh) / 2);
+    height: var(--lh);
+    padding: 0 calc(var(--lh) / 2);
+    background-color: var(--color-update-border);
     color: #fff;
-    font-size: $fz / $type-scale;
-    // font-style: italic;
+    font-size: calc(var(--fz) / var(--type-scale));
     font-weight: 700;
-    // text-transform: uppercase;
     content: "Update";
   }
 }

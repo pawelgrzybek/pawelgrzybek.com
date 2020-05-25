@@ -1,5 +1,5 @@
 ::selection {
-  background: $color-link;
+  background: var(--color-link);
   color: #fff;
   text-shadow: none;
 }
@@ -24,15 +24,15 @@ html {
 
 body {
   width: 100%;
-  max-width: calc(700px + (2 * #{$lh}));
+  max-width: calc(700px + (2 * var(--lh)));
   margin: 0 auto;
-  padding: 0 $lh;
-  background-color: #fff;
-  color: $color-text;
+  padding: 0 var(--lh);
+  background-color: var(--color-background);
+  color: var(--color-text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: $fz;
-  line-height: $lh;
+  font-size: var(--fz);
+  line-height: var(--lh);
 
   // background-image: linear-gradient(rgba(50, 50, 50, .15) 1px, transparent 1px);
   // background-size: 100% 32px;
@@ -47,14 +47,14 @@ img {
 
 a {
   background: transparent;
-  color: $color-link;
+  color: var(--color-link);
   word-wrap: break-word;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: $color-text;
+  color: var(--color-text);
 }
 
 p,
@@ -64,7 +64,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: $lh;
+  margin-bottom: var(--lh);
 }
 
 h1,
@@ -73,22 +73,24 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: $lh * 1.5;
+  margin-top: calc(var(--lh) * 1.5);
   font-weight: 700;
   text-decoration: none;
 }
 
 h1 {
-  font-size: $fz * $type-scale * $type-scale * $type-scale;
-  line-height: $lh * 1.5;
+  font-size: calc(
+    var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale)
+  );
+  line-height: calc(var(--lh) * 1.5);
 }
 
 h2 {
-  font-size: $fz * $type-scale * $type-scale;
+  font-size: calc(var(--fz) * var(--type-scale) * var(--type-scale));
 }
 
 h3 {
-  font-size: $fz * $type-scale;
+  font-size: calc(var(--fz) * var(--type-scale));
 }
 
 h4 {
@@ -96,30 +98,30 @@ h4 {
 }
 
 h5 {
-  font-size: $fz / $type-scale;
+  font-size: calc(var(--fz) / var(--type-scale));
 }
 
 h6 {
-  font-size: $fz / $type-scale / $type-scale;
+  font-size: calc(var(--fz) / var(--type-scale) / var(--type-scale));
 }
 
 ul,
 ol {
-  margin: 0 0 $lh $lh;
+  margin: 0 0 var(--lh) var(--lh);
 }
 
 hr {
   display: block;
-  height: $lh;
+  height: var(--lh);
   border: 0;
   box-shadow: 0 1px 0 #eee;
 }
 
 blockquote {
-  margin-bottom: $lh;
-  padding: $lh;
-  background: #f7f7f7;
-  box-shadow: 0 0 0 1px #eee;
+  margin-bottom: var(--lh);
+  padding: var(--lh);
+  background: var(--color-box-background);
+  box-shadow: 0 0 0 1px var(--color-box-border);
 }
 
 blockquote p {
@@ -128,9 +130,9 @@ blockquote p {
 }
 
 figure {
-  margin-bottom: $lh;
+  margin-bottom: var(--lh);
 }
 
 figcaption {
-  font-size: $fz / $type-scale / $type-scale;
+  font-size: var(--fz) / var(--type-scale) / var(--type-scale);
 }

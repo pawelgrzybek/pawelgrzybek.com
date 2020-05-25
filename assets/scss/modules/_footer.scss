@@ -1,8 +1,8 @@
 .footer {
-  color: $color-text;
-  font-size: $fz / $type-scale / $type-scale;
+  color: var(--color-text);
+  font-size: calc(var(--fz) / var(--type-scale) / var(--type-scale));
   font-weight: 700;
   text-decoration: none;
   vertical-align: top;
-  padding: ($lh * 2) 0;
+  padding: calc(var(--lh) * 2) 0;
 }

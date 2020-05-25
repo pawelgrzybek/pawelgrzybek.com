@@ -4,21 +4,21 @@
 }
 
 .archive__item {
-  padding: ($lh / 2) 0;
+  padding: calc(var(--lh) / 2) 0;
   box-shadow: 0 1px 0 0 #eee;
 }
 
 .archive__link {
   font-weight: 700;
   text-decoration: none;
-  color: $color-text;
+  color: var(--color-text);
 
   &:hover {
-    color: $color-link;
+    color: var(--color-link);
   }
 }
 
 .archive__date {
   margin: 0;
-  font-size: $fz / $type-scale;
+  font-size: calc(var(--fz) / var(--type-scale));
 }
