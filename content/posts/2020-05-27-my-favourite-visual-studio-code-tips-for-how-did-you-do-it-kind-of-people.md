@@ -1,6 +1,6 @@
 ---
 title: "My favourite Visual Studio Code tips for \"how did you do it\" kind of people"
-description: ""
+description: "This article is for Visual Studio Code users keen to learn a few little productivity tips, keyboard shortcuts or little known hidden gems."
 photo: 2020-05-27.jpg
 ---
 
