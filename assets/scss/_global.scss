@@ -23,10 +23,6 @@ html {
 }
 
 body {
-  width: 100%;
-  max-width: calc(700px + (2 * var(--lh)));
-  margin: 0 auto;
-  padding: 0 var(--lh);
   background-color: var(--color-background);
   color: var(--color-text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
@@ -34,7 +30,10 @@ body {
   font-size: var(--fz);
   line-height: var(--lh);
 
-  // background-image: linear-gradient(rgba(50, 50, 50, .15) 1px, transparent 1px);
+  // background-image: linear-gradient(
+  //   rgba(50, 50, 50, 0.15) 1px,
+  //   transparent 1px
+  // );
   // background-size: 100% 32px;
 }
 

@@ -3,52 +3,58 @@
   {{ partial "head.html" . }}
 <body>
 
-  {{ partial "header.html" . }}
+  <div class="wrapper wrapper--wide">
+    {{ partial "header.html" . }}
+  </div>
 
-  <main id="main">
-    {{ "<!-- post -->" | safeHTML }}
-    <article class="post js-post">
-      <h1 class="post__title">{{ .Title }}</h1>
+  <div class="wrapper">
 
-      {{ if eq .Type "posts" }}
-      <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> | {{ .ReadingTime }} minutes read</p>
-      {{ end }}
+    <main id="main">
+      {{ "<!-- post -->" | safeHTML }}
+      <article class="post js-post">
+        <h1 class="post__title">{{ .Title }}</h1>
 
-      {{ .Content }}
-
-      {{ if eq .Title "Archive" }}
-      {{ "<!-- archive -->" | safeHTML }}
-      <ul class="archive">
-        {{ range where .Site.Pages.ByDate.Reverse "Section" "posts" }}
-          {{ if ne .Kind "section" }}
-          <li class="archive__item">
-            <a class="archive__link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-            <p class="archive__date">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time></p>
-          </li>
-          {{ end }}
+        {{ if eq .Type "posts" }}
+        <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> | {{ .ReadingTime }} minutes read</p>
         {{ end }}
-      </ul>
-      {{ "<!-- / archive -->" | safeHTML }}
-      {{ end }}
 
-      {{ if eq .Type "posts" }}
-      {{ "<!-- share -->" | safeHTML }}
-      <section class="share">
-        Share on:
-        <a href="https://twitter.com/intent/tweet?text={{ .Title }}&amp;url={{ .Permalink }}&amp;via=pawelgrzybek" class="share__link" title="Share on Twitter">Twitter</a>,
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="share__link" title="Share on Facebook">Facebook</a>
-      </section>
-      {{ "<!-- / share -->" | safeHTML }}
+        {{ .Content }}
 
-      {{ template "_internal/disqus.html" . }}
-      {{ end }}
+        {{ if eq .Title "Archive" }}
+        {{ "<!-- archive -->" | safeHTML }}
+        <ul class="archive">
+          {{ range where .Site.Pages.ByDate.Reverse "Section" "posts" }}
+            {{ if ne .Kind "section" }}
+            <li class="archive__item">
+              <a class="archive__link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+              <p class="archive__date">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time></p>
+            </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+        {{ "<!-- / archive -->" | safeHTML }}
+        {{ end }}
 
-    </article>
-    {{ "<!-- / post -->" | safeHTML }}
+        {{ if eq .Type "posts" }}
+        {{ "<!-- share -->" | safeHTML }}
+        <section class="share">
+          Share on:
+          <a href="https://twitter.com/intent/tweet?text={{ .Title }}&amp;url={{ .Permalink }}&amp;via=pawelgrzybek" class="share__link" title="Share on Twitter">Twitter</a>,
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="share__link" title="Share on Facebook">Facebook</a>
+        </section>
+        {{ "<!-- / share -->" | safeHTML }}
 
-  </main>
+        {{ template "_internal/disqus.html" . }}
+        {{ end }}
 
-  {{ partial "footer.html" . }}
+      </article>
+      {{ "<!-- / post -->" | safeHTML }}
+
+    </main>
+
+    {{ partial "footer.html" . }}
+
+  </div>
 
 </body>
 </html>

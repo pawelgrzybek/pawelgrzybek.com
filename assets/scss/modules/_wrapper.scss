@@ -1,0 +1,10 @@
+.wrapper {
+  width: 100%;
+  max-width: calc(700px + (2 * var(--lh)));
+  margin: 0 auto;
+  padding: 0 var(--lh);
+}
+
+.wrapper--wide {
+  max-width: calc(900px + (2 * var(--lh)));
+}
