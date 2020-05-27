@@ -12,7 +12,7 @@ Images on the web take up more bandwidth than any other type of resources. Why d
 
 ## Hugo render hook templates for the rescue
 
-[Goldmark — a markdown parser written in Go](https://github.com/yuin/goldmark/) since version 60 is the default Hugo library to render your content. It allows hooking into rendering phase of particular HTML elements, like image, link or heading. This powerful feature allows us to manipulate the HTML markup for `<img />` element and add `loading="lazy"` to it.
+[Goldmark — a markdown parser written in Go](https://github.com/yuin/goldmark/) since version 60 is the default Hugo library to render your content. It allows hooking into the rendering phase of particular HTML elements, like image, link or heading. This powerful feature allows us to manipulate the HTML markup for `<img />` elements and add `loading="lazy"` to it.
 
 [Hugo documentation for markdown render hooks](https://gohugo.io/getting-started/configuration-markup/#markdown-render-hooks) provides a lot of great examples and explanations. Using the power of this feature we are able to implement a native lazy loading using a custom template. Like so:
 
