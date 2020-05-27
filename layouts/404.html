@@ -1,25 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   {{ partial "head.html" . }}
-<body>
+  <body>
+    <div class="wrapper wrapper--wide">
+      {{ partial "header.html" . }}
+    </div>
 
-  {{ partial "header.html" . }}
+    <div class="wrapper">
+      <main id="main">
+        <!-- post -->
+        <article class="post">
+          <h1 class="post__title">Error 404</h1>
 
-  <main id="main">
+          <p>The page you requested doesn't exist.</p>
+        </article>
+        <!-- / post -->
+      </main>
 
-    <!-- post -->
-    <article class="post">
-      <h1 class="post__title">Error 404</h1>
-
-      <p>The page you requested doesn't exist.</p>
-
-    </article>
-    <!-- / post -->
-
-  </main>
-
-  {{ partial "footer.html" . }}
-
-</body>
+      {{ partial "footer.html" . }}
+    </div>
+  </body>
 </html>
-
