@@ -115,7 +115,7 @@ kbd {
 }
 /* NameAttribute */
 .chroma .na {
-  color: #330099;
+  color: var(--color-syntax-na);
 }
 /* NameBuiltin */
 .chroma .nb {
@@ -159,7 +159,7 @@ kbd {
 }
 /* NameTag */
 .chroma .nt {
-  color: #330099;
+  color: var(--color-syntax-na);
   font-weight: bold;
 }
 /* NameVariable */
