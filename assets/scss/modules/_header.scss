@@ -26,15 +26,17 @@
 }
 
 .header__logo {
+  display: flex;
+  align-items: center;
   margin: 0;
+  font-size: calc(var(--fz));
+  line-height: var(--lh);
 }
 
 .header__logo a {
   display: flex;
   align-items: center;
   font-weight: 700;
-  font-size: calc(var(--fz));
-  line-height: var(--lh);
 }
 
 @media screen and (min-width: 964px) {
@@ -48,7 +50,7 @@
     border-radius: var(--lh);
   }
 
-  .header__logo a::after {
+  .header__logo::after {
     font-weight: 400;
     white-space: pre;
     color: var(--color-text);
