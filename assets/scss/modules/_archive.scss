@@ -5,7 +5,7 @@
 
 .archive__item {
   padding: calc(var(--lh) / 2) 0;
-  box-shadow: 0 1px 0 0 #eee;
+  box-shadow: 0 1px 0 0 var(--color-box-border);
 }
 
 .archive__link {
