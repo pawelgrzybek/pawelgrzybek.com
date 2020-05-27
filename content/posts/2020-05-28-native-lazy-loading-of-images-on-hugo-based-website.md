@@ -7,7 +7,7 @@ photo: 2020-05-28.jpg
 Images on the web take up more bandwidth than any other type of resources. Why do we have to load them all even if we are never going to scroll far enough to see them? Turns out that we don't have to anymore — support for [native lazy loading](https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes) is coming. If you are using [Hugo static site generator](https://gohugo.io/), the implementation of it is equally simple as adding it to an HTML file and you don't have a good reason not to do so.
 
 ```html
-<img src="cat.jpg" alt="Cat" loading="lazy">
+<img src="cat.jpg" alt="Cat" loading="lazy" width="600" height="400">
 ```
 
 ## Hugo render hook templates for the rescue
@@ -26,6 +26,8 @@ Images on the web take up more bandwidth than any other type of resources. Why d
 ```
 
 ![Native lazy loading](/photos/2020-05-28-1.gif)
+
+To avoid content reflowing `width` and `height` attribute should be added to the compiled output. Unfortunately, currently, Hugo doesn't expose dimension info in a hook context. No biggie for now, but let's keep fingers crossed that this feature will be added in the future.
 
 Hopefully, you found this little tip helpful. Please don't be too concerned about the [browser support for lazy loading via attribute](https://caniuse.com/#feat=loading-lazy-attr). This feature comes for free! If a browser doesn't support it, it is simply ignored and everything is working as it did ever before. Progressive enhancement for the win!
 
