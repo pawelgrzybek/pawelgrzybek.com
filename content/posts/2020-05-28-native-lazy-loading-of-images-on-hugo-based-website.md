@@ -12,22 +12,24 @@ Images on the web take up more bandwidth than any other type of resources. Why d
 
 ## Hugo render hook templates for the rescue
 
-[Goldmark — a markdown parser written in Go](https://github.com/yuin/goldmark/) since version 60 is the default Hugo library to render your content. It allows hooking into the rendering phase of particular HTML elements, like image, link or heading. This powerful feature allows us to manipulate the HTML markup for `<img />` elements and add `loading="lazy"` to them.
+[Goldmark — a markdown parser written in Go](https://github.com/yuin/goldmark/) since version 60 is the default Hugo library to render your content. It allows hooking into the rendering phase of particular HTML elements, like image, link or heading. This powerful feature allows us to manipulate the HTML markup for `<img />` elements and add `loading`, `width` and `height` attributes.
 
 [Hugo documentation for markdown render hooks](https://gohugo.io/getting-started/configuration-markup/#markdown-render-hooks) provides a lot of great examples and explanations. Using the power of this feature we are able to implement a native lazy loading using a custom template. Like so:
 
 ```html
 <!-- layouts/_default/_markup/render-image.html -->
+{{ $img := imageConfig (add "/static" (.Destination | safeURL)) }}
+
 <img
   src="{{ .Destination | safeURL }}"
-  alt="{{ .Text }}" 
-  loading="lazy" 
+  alt="{{ .Text }}"
+  loading="lazy"
+  width="{{ $img.Width }}"
+  height="{{ $img.Height }}"
 />
 ```
 
 ![Native lazy loading](/photos/2020-05-28-1.gif)
-
-To avoid content reflowing `width` and `height` attribute should be added to the compiled output. Unfortunately, currently, Hugo doesn't expose dimension info in a hook context. No biggie for now, but let's keep fingers crossed that this feature will be added in the future.
 
 Hopefully, you found this little tip helpful. Please don't be too concerned about the [browser support for lazy loading via attribute](https://caniuse.com/#feat=loading-lazy-attr). This feature comes for free! If a browser doesn't support it, it is simply ignored and everything is working as it did ever before. Progressive enhancement for the win!
 
