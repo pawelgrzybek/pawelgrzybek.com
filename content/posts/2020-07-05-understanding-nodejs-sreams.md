@@ -1,5 +1,5 @@
 ---
-title: "Node.js streams for JavaScript developers coming from browsers land"
+title: "Understanding Node.js Sreams"
 description: ""
 photo: 2020-07-05.jpg
 draft: true
@@ -15,9 +15,11 @@ This article is for people familiar with JavaScript language, digging into Node.
 
 ## What is a stream?
 
-Stream is a way of performing sequential data handling in manageable size of chunks. Instead of loading a large amount of data to the memory all at once, streams are much more memory and time efficient as they allow us to process individual chunks as soon as they arrive. Streams are very useful (and sometimes the only way) to work with large amounts of data. Most importantly they enable  [code composability](https://en.wikipedia.org/wiki/Composability) well known from [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
+Streams in nature flow water from it's source to it's destinations, streams in programming are exactly the same but instead of water, they flow chunks of data. It is a sequential way of handling manageable size chunks of bytes. Instead of loading a large amount of data to the memory all at once, streams are much more memory and time efficient as they allow to process individual chunk as soon as it arrives. Streams are very useful (and sometimes the only way) to work with large amounts of data. Most importantly they enable  [code composability](https://en.wikipedia.org/wiki/Composability) well known from [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 
 ![Node.js streams](/photos/2020-07-05-1.jpg)
+
+Apart from the implementation in Node.js, concept of streams is present in many other programing languages like: C++, Java and .NET. It is used for things like reading from and writing to a file, network communications and any other information exchange.
 
 You can achieve a lot without using streams at all, but thorough understanding of them will make you a much better developer. Often times you use them without even knowing that your favorite package heavily relies on them under the hood. Bunch of built-in modules in Node.js implement the streaming interface (`http`, `zlib`, `crypto` just to name a few).
 
@@ -71,11 +73,11 @@ There is four types of streams and we are going to get into the nitty fritty and
 3. Duplex
 4. Transform
 
-### Readable
+### Readable (input stream)
 
 Readable
 
-### Writable
+### Writable (output stream)
 
 Writable
 
