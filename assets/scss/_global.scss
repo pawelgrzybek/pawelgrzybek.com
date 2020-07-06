@@ -109,6 +109,11 @@ ol {
   margin: 0 0 var(--lh) var(--lh);
 }
 
+li ul,
+li ol {
+  margin: 0 0 0 var(--lh);
+}
+
 hr {
   display: block;
   height: var(--lh);
