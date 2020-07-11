@@ -1,5 +1,5 @@
 ---
-title: "Understanding Node.js Sreams"
+title: "Understanding Node.js Streams"
 description: ""
 photo: 2020-07-14.jpg
 ---
