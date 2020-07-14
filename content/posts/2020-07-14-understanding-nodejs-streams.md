@@ -16,6 +16,7 @@ This article is for people who are familiar with JavaScript language, digging in
     2. [Writable](#writable-output-stream)
     3. [Duplex](#duplex)
     4. [Transform](#transform)
+5. [Conclusion](#conclusion)
 
 ## What is a stream?
 
