@@ -1,14 +1,14 @@
 ---
 title: "The IP address, subnet mask and CIDR notation"
 description: "The Internet is a big network of devices and each of them is identified by the unique IP address. Subnetting is a process of dividing them into smaller subnetworks. Subnet mask helps us to determine the part of the IP address that belongs to the network and the one that belong to us (host)."
-photo: 2020-07-30.jpg
+photo: 2020-07-29.jpg
 ---
 
-The Internet is a big network of devices and each of them is identified by the unique IP address. They are not connected directly though. Subnetting is a process of dividing them into smaller subnetworks. Subnet mask helps us to determine the part of the IP address that belongs to the network and the one that belong to us (host).
+The Internet is a big network of devices, each of them is identified by the unique IP address. They are not connected directly though. Subnetting is a process of dividing them into smaller subnetworks. Subnet mask helps us to determine which part of the IP address belongs to the network and which one belongs to us (host).
 
-![Subnetworks structure](/photos/2020-07-30-1.png)
+![Subnetworks structure](/photos/2020-07-29-1.png)
 
-This diagram presents a simple network of connected devices. It may be a switch on the corner of your street, yours and your neighbor's wi-fi routers and bunch of home devices connected to it.
+This diagram represents a simple network of connected devices. It may be a switch on the corner of your street, yours and your neighbours wi-fi routers and a bunch of home devices connected to it.
 
 ## Subnet mask, network and host identifier
 
@@ -24,7 +24,7 @@ IP  : 10000111.01110111.00000010.00000000
 Mask: 11111111.11111111.11111111.00000000
 ```
 
-As you can see, both of them are easily representable by 4 octets of binary digits. All the mask bits enabled (`1`), lock the IP portion for the network and the remaining one is available for the host.
+As you can see, both of them are easily represented by 4 octets of binary digits. All the mask bits enabled (`1`), lock the IP portion for the network and the remaining one is available for the host.
 
 ```
 IP  : 10000111.01110111.00000010.00000000
@@ -55,4 +55,4 @@ Look how simple! The IP address is followed by slash `/` and by the number of st
 
 ## That's it for today
 
-I was wondering what the hell this slash `/24` means next to the IP address on my home router configuration panel. I learned it so I shared it! Now you know as well. Stay curious and share knowledge! Bye 👋
+I was wondering what the hell this slash `/24` means next to the IP address on my home router configuration panel. I learned about it, so I shared it and now you know as well! Stay curious and share knowledge! Bye 👋
