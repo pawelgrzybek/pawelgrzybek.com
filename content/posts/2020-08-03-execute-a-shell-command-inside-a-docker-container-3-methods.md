@@ -4,7 +4,7 @@ description: ""
 photo: 2020-08-03.jpg
 ---
 
-Running project inside containers is a bread and butter of developers life. It is not rare to need to execute a command against a container and Docker gives us multiple options to do so.
+Running projects inside containers is a bread and butter task of a developers life. It’s not rare to need to execute a command against a container and Docker gives us multiple options to do so.
 
 1. [Execute a command inside a new container](#execute-a-command-inside-a-new-container)
 2. [Execute a command inside a stopped container](#execute-a-command-inside-a-stopped-container)
