@@ -1,7 +1,7 @@
 ---
 title: "Execute a shell command inside a Docker container (3 methods)"
 description: "Running projects inside containers is a bread and butter task of a developers life. It’s not rare to need to execute a command against a container and Docker gives us multiple options to do so."
-photo: 2020-08-03.jpg
+photo: 2020-08-02.jpg
 ---
 
 Running projects inside containers is a bread and butter task of a developers life. It’s not rare to need to execute a command against a container and Docker gives us multiple options to do so.
@@ -10,7 +10,7 @@ Running projects inside containers is a bread and butter task of a developers li
 2. [Execute a command inside a stopped container](#execute-a-command-inside-a-stopped-container)
 3. [Execute a command inside a running container](#execute-a-command-inside-a-running-container)
 
-![Output of Docker info command](/photos/2020-08-03-1.jpg)
+![Output of Docker info command](/photos/2020-08-02-1.jpg)
 
 ## Execute a command inside a new container
 
