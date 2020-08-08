@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <title>My Amazon S3 photo backup solution | pawelgrzybek.com</title>
+  <meta name="description" content="As an amateur photographer I have been looking for a cloud backup solution for years. Keeping a physical backup on an external hard drive is definitely not enough. Then I came across Amazon S3.">
+
+  <!-- Open graph data -->
+  <meta property="og:site_name" content="pawelgrzybek.com">
+  <meta property="og:title" content="My Amazon S3 photo backup solution | pawelgrzybek.com">
+  <meta property="og:url" content="https://pawelgrzybek.com/my-amazon-s3-photo-backup-solution/">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="As an amateur photographer I have been looking for a cloud backup solution for years. Keeping a physical backup on an external hard drive is definitely not enough. Then I came across Amazon S3.">
+  <meta property="og:image" content="https://pawelgrzybek.com/photos/2018-02-27.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@pawelgrzybek" />
+  <meta name="twitter:creator" content="@pawelgrzybek" />
+
+  <!-- Standard Stuff -->
+  <link rel="canonical" href="https://pawelgrzybek.com/my-amazon-s3-photo-backup-solution/">
+  <link rel="alternate" type="application/rss+xml" title="pawelgrzybek.com" href="https://pawelgrzybek.com/feed.xml" />
+  <link rel="alternate" type="application/json" title="pawelgrzybek.com" href="https://pawelgrzybek.com/feed.json  " />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/manifest.json">
+  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#888888">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Styles -->
+  
+  <style>:root{--color-text: #24292e;--color-background: #fff;--color-link: #005cc5;--color-update-background: #fbebea;--color-update-border: #edb0ab;--color-box-background: #f7f7f7;--color-box-border: #eee;--color-syntax-k: #006699;--color-syntax-s: #cc3300;--color-syntax-m: #ff6600;--color-syntax-c: #999;--color-syntax-nb: #366;--color-syntax-o: #555555;--color-syntax-na: #330099;--fz: 1rem;--lh: 1.77778rem;--type-scale: 1.25}@media(prefers-color-scheme:dark){:root{--color-text: #fafbfc;--color-background: #24292e;--color-link: #9ecbff;--color-update-background: #6d3733;--color-update-border: #522926;--color-box-background: hsl(210, 12%, 12%);--color-box-border: hsl(210, 12%, 20%);--color-syntax-k: #9ecbff;--color-syntax-s: #f97583;--color-syntax-m: #ffab70;--color-syntax-c: #6a737d;--color-syntax-nb: #28a745;--color-syntax-o: #959da5;--color-syntax-na: #fafbfc;--fz: 1rem;--lh: 1.77778rem;--type-scale: 1.25}}::selection{background:var(--color-link);color:#fff;text-shadow:none}html{font-size:112.5%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;-webkit-text-size-adjust:100%;box-sizing:border-box;scroll-behavior:smooth}*,*::before,*::after{margin:0;padding:0;box-sizing:inherit}body{background-color:var(--color-background);color:var(--color-text);font-family:-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;font-size:var(--fz);line-height:var(--lh)}img{display:block;max-width:100%;height:auto;border:0}a{background:0 0;color:var(--color-link);word-wrap:break-word}a:hover,a:focus,a:active{color:var(--color-text)}p,h1,h2,h3,h4,h5,h6{margin-bottom:var(--lh)}h1,h2,h3,h4,h5,h6{margin-top:calc(var(--lh) * 1.5);font-weight:700;text-decoration:none}h1{font-size:calc( var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale));line-height:calc(var(--lh) * 1.5)}h2{font-size:calc(var(--fz) * var(--type-scale) * var(--type-scale))}h3{font-size:calc(var(--fz) * var(--type-scale))}h4{font-size:1rem}h5{font-size:calc(var(--fz)/var(--type-scale))}h6{font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale))}ul,ol{margin:0 0 var(--lh)var(--lh)}li ul,li ol{margin:0 0 0 var(--lh)}hr{display:block;height:var(--lh);border:0;box-shadow:0 1px 0 #eee}blockquote{margin-bottom:var(--lh);padding:var(--lh);background:var(--color-box-background);box-shadow:0 0 0 1px var(--color-box-border)}blockquote p{margin:0;font-style:italic}figure{margin-bottom:var(--lh)}figcaption{font-size:var(--fz)/var(--type-scale)/var(--type-scale)}.wrapper{width:100%;max-width:calc(700px + (2 * var(--lh)));margin:0 auto;padding:0 var(--lh)}.wrapper--wide{max-width:calc(900px + (2 * var(--lh)))}.header{position:relative;padding:calc(var(--lh) * 3) 0;display:flex;flex-direction:column}@media screen and (min-width:764px){.header{flex-direction:row;justify-content:space-between}}.header__skip{position:absolute;top:0;left:0;padding:0 calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale));transform:scale(0)}.header__skip:focus{transform:scale(1)}.header__logo{display:flex;align-items:center;margin:0;font-size:calc(var(--fz));line-height:var(--lh)}.header__logo a{display:flex;align-items:center;font-weight:700}@media screen and (min-width:964px){.header__logo a::before{content:"";width:calc(var(--lh) * 2);height:calc(var(--lh) * 2);margin-right:calc(var(--lh)/2);background-image:url(/assets/logo.jpg);background-size:100% 100%;border-radius:var(--lh)}.header__logo::after{font-weight:400;white-space:pre;color:var(--color-text);content:" | Software Engineer at Mindera"}}.header__list{height:100%;display:flex;align-items:center;list-style:none;margin:0}.header__item{margin-right:calc(var(--lh)/2)}.header__item:last-of-type{margin-right:0}.post{margin-bottom:calc(var(--lh) * 3)}.post__title{margin-top:0}.post__url{color:var(--color-text);text-decoration:none}.post__url:hover{color:var(--color-link)}.post__meta{margin-top:calc(var(--lh) * -1);font-size:calc(var(--fz)/var(--type-scale))}.post__more{text-decoration:none;vertical-align:top}.post__hash{text-decoration:none;margin-left:calc(var(--lh)/4);color:var(--color-text);opacity:.25}.post__hash:hover{color:var(--color-link);opacity:1}.footer{color:var(--color-text);font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top;padding:calc(var(--lh) * 2) 0}.pager{display:flex}.pager__btn{flex-grow:1;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top}.pager__btn--prev{text-align:left}.pager__btn--next{text-align:right}.share{display:flex;align-items:center;background-color:var(--color-box-background);box-shadow:0 0 0 1px var(--color-box-border);margin:calc(var(--lh) * 2) 0;padding:calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale))}.share__icon{fill:#1da1f2;margin-right:calc(var(--lh)/2);width:var(--fz);height:var(--fz);flex-shrink:0}.share__text{margin:0}.archive{margin-left:0;list-style:none}.archive__item{padding:calc(var(--lh)/2) 0;box-shadow:0 1px 0 0 var(--color-box-border)}.archive__link{font-weight:700;text-decoration:none;color:var(--color-text)}.archive__link:hover{color:var(--color-link)}.archive__date{margin:0;font-size:calc(var(--fz)/var(--type-scale))}code,pre{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top}pre{margin-bottom:var(--lh);padding:var(--lh);box-shadow:0 0 0 1px var(--color-box-border);overflow-x:auto}p code,li code{padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}kbd{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top;padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}.chroma{background-color:var(--color-box-background)}.chroma .err{background-color:#faa;color:#a00}.chroma .lntd{margin:0;padding:0;border:0;vertical-align:top}.chroma .lntable{display:block;width:auto;margin:0;padding:0;border:0;border-spacing:0;overflow:auto}.chroma .hl{display:block;width:100%;background-color:var(--color-box-border)}.chroma .lnt{display:block;margin-right:.4em;padding:0 .4em;opacity:.5}.chroma .ln{margin-right:.4em;padding:0 .4em}.chroma .k{color:var(--color-syntax-k);font-weight:700}.chroma .kc{color:var(--color-syntax-k);font-weight:700}.chroma .kd{color:var(--color-syntax-k);font-weight:700}.chroma .kn{color:var(--color-syntax-k);font-weight:700}.chroma .kp{color:var(--color-syntax-k)}.chroma .kr{color:var(--color-syntax-k);font-weight:700}.chroma .kt{color:#078;font-weight:700}.chroma .na{color:var(--color-syntax-na)}.chroma .nb{color:var(--color-syntax-nb)}.chroma .nc{color:#0a8;font-weight:700}.chroma .no{color:#360}.chroma .nd{color:#99f}.chroma .ni{color:#999;font-weight:700}.chroma .ne{color:#c00;font-weight:700}.chroma .nf{color:#c0f}.chroma .nl{color:#99f}.chroma .nn{color:#0cf;font-weight:700}.chroma .nt{color:var(--color-syntax-na);font-weight:700}.chroma .nv{color:#033}.chroma .s{color:var(--color-syntax-s)}.chroma .sa{color:var(--color-syntax-s)}.chroma .sb{color:var(--color-syntax-s)}.chroma .sc{color:var(--color-syntax-s)}.chroma .dl{color:var(--color-syntax-s)}.chroma .sd{color:var(--color-syntax-s);font-style:italic}.chroma .s2{color:var(--color-syntax-s)}.chroma .se{color:var(--color-syntax-s);font-weight:700}.chroma .sh{color:var(--color-syntax-s)}.chroma .si{color:#a00}.chroma .sx{color:var(--color-syntax-s)}.chroma .sr{color:#3aa}.chroma .s1{color:var(--color-syntax-s)}.chroma .ss{color:#fc3}.chroma .m{color:var(--color-syntax-m)}.chroma .mb{color:var(--color-syntax-m)}.chroma .mf{color:var(--color-syntax-m)}.chroma .mh{color:var(--color-syntax-m)}.chroma .mi{color:var(--color-syntax-m)}.chroma .il{color:var(--color-syntax-m)}.chroma .mo{color:var(--color-syntax-m)}.chroma .o{color:var(--color-syntax-o)}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#999;font-style:italic}.chroma .ch{color:#999;font-style:italic}.chroma .cm{color:#999;font-style:italic}.chroma .c1{color:#999;font-style:italic}.chroma .cs{color:#999;font-style:italic;font-weight:700}.chroma .cp{color:#099}.chroma .cpf{color:#099}.chroma .gd{background-color:#fcc}.chroma .ge{font-style:italic}.chroma .gr{color:red}.chroma .gh{color:#030;font-weight:700}.chroma .gi{background-color:#cfc}.chroma .go{color:#aaa}.chroma .gp{color:#009;font-weight:700}.chroma .gs{font-weight:700}.chroma .gu{color:#030;font-weight:700}.chroma .gt{color:#9c6}.chroma .w{color:#bbb}.update{position:relative;padding:var(--lh);background-color:var(--color-update-background);box-shadow:0 0 0 1px var(--color-update-border)}.update::before{position:absolute;top:calc(var(--lh)/-2);left:calc(var(--lh)/2);height:var(--lh);padding:0 calc(var(--lh)/2);background-color:var(--color-update-border);color:#fff;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;content:"Update"}</style>
+
+</head>
+
+<body>
+
+  <div class="wrapper wrapper--wide">
+    <header class="header">
+  <a class="header__skip" href="#main">Skip to content</a>
+
+  
+  <div class="header__logo">
+    <a href="/">pawelgrzybek.com</a>
+  </div>
+  
+
+  <nav>
+    <ul class="header__list">
+      <li class="header__item">
+        <a href="/about" title="About">About</a>
+      </li>
+      <li class="header__item">
+        <a href="/archive" title="Archive">Archive</a>
+      </li>
+      <li class="header__item">
+        <a
+          href="https://twitter.com/pawelgrzybek"
+          title="Pawel Grzybek on Twitter"
+          >Twitter</a
+        >
+      </li>
+      <li class="header__item">
+        <a
+          href="https://github.com/pawelgrzybek"
+          title="Pawel Grzybek on Github"
+          >Github</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>
+
+  </div>
+
+  <div class="wrapper">
+
+    <main id="main">
+      <!-- post -->
+      <article class="post js-post">
+        <h1 class="post__title">My Amazon S3 photo backup solution</h1>
+
+        
+        <p class="post__meta">Published: <time datetime="2018-02-27">2018.02.27</time> | 9 minutes read</p>
+        
+
+        <p>Far far away, someone, somewhere said:</p>
+<blockquote>
+<p>&ldquo;There are two kinds of people, those who back up their data and those who have never lost all their data.&rdquo;</p>
+</blockquote>
+<p>Luckily for me, I have never been a victim of a situation where I lost all of my data simply because I do backups regularly. I never do a full backup of my machine though. I can download an operating system in few minutes, restore my system preferences via a <a href="https://github.com/pawelgrzybek/dotfiles">single click</a>, install all my frequently used apps using a <a href="https://caskroom.github.io/">single command</a>, pull all of my projects from <a href="https://github.com/">Github</a> and listen to music on my <a href="https://en.wikipedia.org/wiki/Technics_SL-1200">Technics SL-1200</a> or stream it from Apple Music. The only thing that I keep backed up is my photo collection.</p>
+<h2 id="my-backup-strategy-in-a-nutshell">My backup strategy in a nutshell <a href="#my-backup-strategy-in-a-nutshell" class="post__hash">#</a></h2>
+<p>Since May 2007 I have kept all of my photos in a well organized collection, ordered chronologically by year and by session / event. I keep exactly the same habit for all of my pictures taken on my iPhone in parallel. It is not an enormous amount of data (around 200GB) but the sentimental value that it holds is immense.</p>
+<p>No matter what, I always store this collection on two physical devices. It can be my computer&rsquo;s hard drive, an external flash disc, NAS server or a RAID array. Currently I use two totally average external <a href="https://www.amazon.co.uk/Seagate-Portable-External-Creative-Photography/dp/B00FP50LH2">hard drives by Segate</a>. I am the happy owner of a superb <a href="https://www.sony.co.uk/electronics/interchangeable-lens-cameras/ilce-7rm3">Sony α7R III</a> that shoots 80 megabyte ARW files. Taking that into consideration I&rsquo;ve realised that I may run out of storage on these hard drives very quickly, but for now they do the job.</p>
+<p>However, things happen! Disks fail, people rob, rivers flood, comets fall. In case any of that occurs I need one more copy in the cloud. I have tested multiple solutions and services over the past few years and finally I feel that I have found something that is going to stick around. Although making a backup to a local hard drive is fairly easy and straight forward, cloud backups are way more complicated. Luckily I am here to help you out.</p>
+<h2 id="what-i-consider-to-be-a-good-cloud-backup-and-things-that-i-dont-care-about">What I consider to be a good cloud backup and things that I don&rsquo;t care about <a href="#what-i-consider-to-be-a-good-cloud-backup-and-things-that-i-dont-care-about" class="post__hash">#</a></h2>
+<p>There are plenty of services that offer cloud storage for amateur and professional photographers. <a href="https://dropbox.com">Dropbox</a>, <a href="https://www.google.com/drive/">Google Drive</a>, <a href="https://www.box.com/">Box</a>, <a href="https://onedrive.live.com/">OneDrive</a>, <a href="https://home.zoolz.co.uk/">Zoolz</a> or <a href="https://www.backblaze.com/">Backblaze</a> just to name a few.</p>
+<p>There are a few key things that I need to get out of my cloud backup solution. Security first — I really don&rsquo;t want anyone to look at the pictures of my beautiful girlfriend. There is a reasonable chance that my collection will grow over time so auto-scaling and unlimited storage resources is another must-have. New services show up and vanish often and I am really not interested in investing my time in solutions that may not be around tomorrow. Do you remember <a href="https://copy.com/">copy</a>? Quite a cool service but it didn&rsquo;t stay around for long though. Also price is an obvious factor of course.</p>
+<p>The providers listed above usually offer tons of things that I simply don&rsquo;t care about. I don&rsquo;t need a fancy app with tons of bells and whistles. I don&rsquo;t need a constant live sync and seamless integration with my OS. It is a last resort backup — the file structure is probably never going to change. I will just add more stuff over time.</p>
+<p>I am here today not to compare the available options or convince you to use one over the other. I spent years looking for a solution that suits my needs and I would like to share it with you.</p>
+<h2 id="say-hello-to-aws-simple-storage-service-s3">Say hello to AWS Simple Storage Service (S3) <a href="#say-hello-to-aws-simple-storage-service-s3" class="post__hash">#</a></h2>
+<p><a href="https://aws.amazon.com/">AWS (Amazon Web Services)</a> is a platform that offers a number of things that your business or you, as an individual, may need. From computational power, through to database storage, content delivery networks to machine learning and IoT (Internet of things) related products. A storage solution is one of the many services that AWS has to offer. It is well established and proven by the mile-long <a href="https://aws.amazon.com/solutions/case-studies/all/">list of clients</a> like: Adobe, AirBnb, Netflix, NASA, SoundCloud, Canon, GoPro… The list goes on and on.</p>
+<p>You may have heard the opinion that AWS is complicated to use. In reality it is crazy complicated but to be in a band you don&rsquo;t have to play all the instruments — just master a single one. Storage is what we need.</p>
+<p>AWS has a number of storage solutions in its product list. From simple solutions like <a href="https://aws.amazon.com/s3/">Amazon Simple Storage Service (S3)</a> to the <a href="https://aws.amazon.com/snowmobile/">AWS Snowmobile</a> — a 45-foot long shipping container pulled by a truck to transfer extremely large amounts of data (up to 100PB). The thing that we need is a container of data stored within an S3 bucket and its seamless transition to the <a href="https://aws.amazon.com/glacier/">Glacier</a> class using lifecycle policies. Let me explain.</p>
+<h3 id="what-is-s3-and-how-it-works">What is S3 and how it works <a href="#what-is-s3-and-how-it-works" class="post__hash">#</a></h3>
+<p>Amazon S3 is a simple storage solution that offers a range of classes designed for specific use cases. For frequently used, general storage use <a href="https://aws.amazon.com/s3/storage-classes/#General_Purpose">S3 Standard</a>. <a href="https://aws.amazon.com/s3/storage-classes/#Infrequent_Access">Infrequent Access</a> works best for files that you don&rsquo;t have to access very often but still keep them accessible whenever you need them. For archiving purposes, <a href="https://aws.amazon.com/s3/storage-classes/#Archive">Glacier</a> is the best option. Each of these categories comes with pros and cons and each of them suits different needs. The main differences between them are <a href="https://aws.amazon.com/s3/pricing/">price</a> and waiting time to access objects (photos in our case). For those that are curious I would direct you to Marc Trimuschats presentation from the AWS Summit 2017. <a href="https://youtu.be/bfDpK45Faa0">Deep Dive on Object Storage</a> tells you everything that you need.</p>
+<p>
+
+<img
+  src="/photos/2018-02-27-1.jpg"
+  alt="Amazon S3 storage classes"
+  loading="lazy"
+  width="1400"
+  height="781"
+/>
+</p>
+<p>Essentially, files stored in the hot storage (S3 Standard) are accessible immediately but they will cost you a fortune ($0.023 / GB). Cold storage (Glacier) on the other hand is extremely cheap ($0.004 per GB) but a file restoration can take from 1 minute up to 12 hours. You will be charged for each GB retrieved from the cold storage cluster too. The pricing may vary a bit depending on the region of your S3 &ldquo;bucket&rdquo;.</p>
+<p>Privacy of files is something that we can easily control with S3. If you want to make a file public or private, no more than a single click is needed. Lifecycle policies help us to create a set of rules that invisibly migrate files between storage classes. I utilised the power of this feature to migrate all the files imported to the Standard bucket to Glacier the next day.</p>
+<h3 id="how-to">How to <a href="#how-to" class="post__hash">#</a></h3>
+<p>I mentioned before that AWS is complicated to use, but I hope that this step by step guide can make things easier for you. The S3 Storage may actually be one of the easiest to use services from the humongous number of products in AWS portfolio.</p>
+<p>Start with <a href="https://portal.aws.amazon.com/billing/signup">creating a free AWS account</a>. This process requires you to add a credit card to your account and authorise it by a phone call you will receive from Amazon&rsquo;s bot. It is worth mentioning that you are eligible to use a <a href="https://aws.amazon.com/free/">Free Tier</a> that gives you access to a snippet of AWS features totally for free. You can end this process here but I would strongly suggest to look at the <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html">IAM (Identity and Access Management) best practices</a>. Personally I use my &ldquo;root&rdquo; account just for billing purposes and to manage users. For using AWS services I created a IAM user with sufficient permissions for my everyday tasks — security first. Read more about the recommended way of using the AWS platform on the <a href="https://aws.amazon.com/documentation/iam/">AWS Identity and Access Management Documentation</a>. <a href="https://youtu.be/1Eh1uxLyXJ8">Getting Started with Amazon Web Services</a> webinar is another helpful resource start with.</p>
+<blockquote>
+<p>&ldquo;When you first create an AWS account, you begin with a single sign-in identity that has complete access to all AWS services and resources in the account. This identity is called the AWS account root user and is accessed by signing in with the email address and password that you used to create the account. We strongly recommend that you do not use the root user for your everyday tasks, even the administrative ones. Instead, adhere to the best practice of using the root user only to create your first IAM user. Then securely lock away the root user credentials and use them to perform only a few account and service management tasks.&rdquo;</p>
+</blockquote>
+<p>Our account is ready to use and now secure, it is time to create the first storage &ldquo;bucket&rdquo; under the S3 section. Use a unique name for your bucket and choose a location of interest. Make a wise decision at this point because you won&rsquo;t be able to change those details later on. Hit the &ldquo;Create&rdquo; button and we are almost set up.</p>
+<p>
+
+<img
+  src="/photos/2018-02-27-2.jpg"
+  alt="Create Amazon S3 bucket"
+  loading="lazy"
+  width="1400"
+  height="1250"
+/>
+</p>
+<p>In theory we are ready to use the service now but there is one thing that may help to automate our workflow a lot. We definitely don&rsquo;t want to change the storage class (Standard, IA and Glacier) for every file manually. As mentioned before lifecycle policies can automate the process for us. My aim is to migrate all the files that I put into my Standard S3 bucket as soon as possible to cheap cold storage (Glacier). To set it up that way, click on the name of the bucket created in the previous step and navigate to Lifecycle rules under the Management tab. Click the &ldquo;Add lifecycle rule&rdquo; button to define a new rule. Add a meaningful name to your rule and navigate further to the Transitions section. For the current version of your files create a rule that moves the file to Glacier after one day. We don&rsquo;t need to tweak settings for the previous versions because we didn&rsquo;t enable file versioning in the first place (you don&rsquo;t need that for backups). Click next to the Expiration tab just to keep it as it is (we really don&rsquo;t want our files to be removed) and proceed to the next tab — Review. Make sure that you are happy with all the settings in the last step and save the rule. We are done!</p>
+<p>
+
+<img
+  src="/photos/2018-02-27-3.jpg"
+  alt="Create Amazon S3 lifecycle policy"
+  loading="lazy"
+  width="1400"
+  height="2776"
+/>
+</p>
+<h3 id="gui-or-not">GUI or not <a href="#gui-or-not" class="post__hash">#</a></h3>
+<p>Although the S3 web interface is very user friendly and fast, you may be interested in using a GUI (graphical user interface) tool to send files to your bucket. Luckily there are a lot of tools out there that let you access your Simple Storage Service easily. As a macOS user my personal preference is <a href="https://binarynights.com/">ForkLift 3</a>. <a href="https://panic.com/transmit/">Transmit 5</a> is another app for the Apple system that has garnered a great reputation. Maybe <a href="https://cyberduck.io/">Cyberduck</a>? <a href="https://filezillapro.com/ftp/mac/">FileZilla Pro</a> and <a href="http://s3browser.com/">S3 Browser</a> could be good options for Windows users. Play around with the available options and let me know about your preferred way to interact with S3 objects.</p>
+<p>
+
+<img
+  src="/photos/2018-02-27-4.jpg"
+  alt="Using Forklift 3 with Amazon S3"
+  loading="lazy"
+  width="1376"
+  height="818"
+/>
+</p>
+<h2 id="happy-backing-up">Happy backing up <a href="#happy-backing-up" class="post__hash">#</a></h2>
+<p>I am very happy with this solution and it works for me really well. I managed to reduce the cost of my digital backups from £8 per month to less than £1. I have a reliable and secure copy of my files and a great system in place that hopefully is going to serve me for the long term. Let me know about your backup strategy in the comments below. If you have any questions or need some more clarification on anything in this post, I am always keen to help. Happy backing up!</p>
+<p class="update">One 27 March 2019, <a href="https://aws.amazon.com/blogs/aws/new-amazon-s3-storage-class-glacier-deep-archive/">Amazon announced a Glacier Deep Archive</a> which is even more cost effective storage class that perfectly suits my needs.</p>
+
+
+
+        
+
+        
+        <!-- share -->
+        <section class="share">
+          <svg xmlns="http://www.w3.org/2000/svg" class="share__icon" viewBox="0 0 512 512"><path d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z"/></svg>
+          <p class="share__text">If you liked this article, please <a href="https://twitter.com/intent/tweet?text=My%20Amazon%20S3%20photo%20backup%20solution&amp;url=https%3a%2f%2fpawelgrzybek.com%2fmy-amazon-s3-photo-backup-solution%2f&amp;via=pawelgrzybek" class="share__link" title="Share on Twitter">share it on Twitter</a>.</p>
+        </section>
+        <!-- / share -->
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "studiorgb" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+
+      </article>
+      <!-- / post -->
+
+    </main>
+
+    <footer class="footer">Copyright © 2020 Pawel Grzybek</footer>
+
+
+  </div>
+
+</body>
+</html>

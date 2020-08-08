@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <title>CSS Custom Properties explained | pawelgrzybek.com</title>
+  <meta name="description" content="CSS Custom Properties (colloquially known as a CSS Variables) are around the corner. Let&#39;s embrace the power of a feature that we&#39;ve been waiting years for.">
+
+  <!-- Open graph data -->
+  <meta property="og:site_name" content="pawelgrzybek.com">
+  <meta property="og:title" content="CSS Custom Properties explained | pawelgrzybek.com">
+  <meta property="og:url" content="https://pawelgrzybek.com/css-custom-properties-explained/">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="CSS Custom Properties (colloquially known as a CSS Variables) are around the corner. Let&#39;s embrace the power of a feature that we&#39;ve been waiting years for.">
+  <meta property="og:image" content="https://pawelgrzybek.com/photos/2016-02-19.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@pawelgrzybek" />
+  <meta name="twitter:creator" content="@pawelgrzybek" />
+
+  <!-- Standard Stuff -->
+  <link rel="canonical" href="https://pawelgrzybek.com/css-custom-properties-explained/">
+  <link rel="alternate" type="application/rss+xml" title="pawelgrzybek.com" href="https://pawelgrzybek.com/feed.xml" />
+  <link rel="alternate" type="application/json" title="pawelgrzybek.com" href="https://pawelgrzybek.com/feed.json  " />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/manifest.json">
+  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#888888">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Styles -->
+  
+  <style>:root{--color-text: #24292e;--color-background: #fff;--color-link: #005cc5;--color-update-background: #fbebea;--color-update-border: #edb0ab;--color-box-background: #f7f7f7;--color-box-border: #eee;--color-syntax-k: #006699;--color-syntax-s: #cc3300;--color-syntax-m: #ff6600;--color-syntax-c: #999;--color-syntax-nb: #366;--color-syntax-o: #555555;--color-syntax-na: #330099;--fz: 1rem;--lh: 1.77778rem;--type-scale: 1.25}@media(prefers-color-scheme:dark){:root{--color-text: #fafbfc;--color-background: #24292e;--color-link: #9ecbff;--color-update-background: #6d3733;--color-update-border: #522926;--color-box-background: hsl(210, 12%, 12%);--color-box-border: hsl(210, 12%, 20%);--color-syntax-k: #9ecbff;--color-syntax-s: #f97583;--color-syntax-m: #ffab70;--color-syntax-c: #6a737d;--color-syntax-nb: #28a745;--color-syntax-o: #959da5;--color-syntax-na: #fafbfc;--fz: 1rem;--lh: 1.77778rem;--type-scale: 1.25}}::selection{background:var(--color-link);color:#fff;text-shadow:none}html{font-size:112.5%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;-webkit-text-size-adjust:100%;box-sizing:border-box;scroll-behavior:smooth}*,*::before,*::after{margin:0;padding:0;box-sizing:inherit}body{background-color:var(--color-background);color:var(--color-text);font-family:-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;font-size:var(--fz);line-height:var(--lh)}img{display:block;max-width:100%;height:auto;border:0}a{background:0 0;color:var(--color-link);word-wrap:break-word}a:hover,a:focus,a:active{color:var(--color-text)}p,h1,h2,h3,h4,h5,h6{margin-bottom:var(--lh)}h1,h2,h3,h4,h5,h6{margin-top:calc(var(--lh) * 1.5);font-weight:700;text-decoration:none}h1{font-size:calc( var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale));line-height:calc(var(--lh) * 1.5)}h2{font-size:calc(var(--fz) * var(--type-scale) * var(--type-scale))}h3{font-size:calc(var(--fz) * var(--type-scale))}h4{font-size:1rem}h5{font-size:calc(var(--fz)/var(--type-scale))}h6{font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale))}ul,ol{margin:0 0 var(--lh)var(--lh)}li ul,li ol{margin:0 0 0 var(--lh)}hr{display:block;height:var(--lh);border:0;box-shadow:0 1px 0 #eee}blockquote{margin-bottom:var(--lh);padding:var(--lh);background:var(--color-box-background);box-shadow:0 0 0 1px var(--color-box-border)}blockquote p{margin:0;font-style:italic}figure{margin-bottom:var(--lh)}figcaption{font-size:var(--fz)/var(--type-scale)/var(--type-scale)}.wrapper{width:100%;max-width:calc(700px + (2 * var(--lh)));margin:0 auto;padding:0 var(--lh)}.wrapper--wide{max-width:calc(900px + (2 * var(--lh)))}.header{position:relative;padding:calc(var(--lh) * 3) 0;display:flex;flex-direction:column}@media screen and (min-width:764px){.header{flex-direction:row;justify-content:space-between}}.header__skip{position:absolute;top:0;left:0;padding:0 calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale));transform:scale(0)}.header__skip:focus{transform:scale(1)}.header__logo{display:flex;align-items:center;margin:0;font-size:calc(var(--fz));line-height:var(--lh)}.header__logo a{display:flex;align-items:center;font-weight:700}@media screen and (min-width:964px){.header__logo a::before{content:"";width:calc(var(--lh) * 2);height:calc(var(--lh) * 2);margin-right:calc(var(--lh)/2);background-image:url(/assets/logo.jpg);background-size:100% 100%;border-radius:var(--lh)}.header__logo::after{font-weight:400;white-space:pre;color:var(--color-text);content:" | Software Engineer at Mindera"}}.header__list{height:100%;display:flex;align-items:center;list-style:none;margin:0}.header__item{margin-right:calc(var(--lh)/2)}.header__item:last-of-type{margin-right:0}.post{margin-bottom:calc(var(--lh) * 3)}.post__title{margin-top:0}.post__url{color:var(--color-text);text-decoration:none}.post__url:hover{color:var(--color-link)}.post__meta{margin-top:calc(var(--lh) * -1);font-size:calc(var(--fz)/var(--type-scale))}.post__more{text-decoration:none;vertical-align:top}.post__hash{text-decoration:none;margin-left:calc(var(--lh)/4);color:var(--color-text);opacity:.25}.post__hash:hover{color:var(--color-link);opacity:1}.footer{color:var(--color-text);font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top;padding:calc(var(--lh) * 2) 0}.pager{display:flex}.pager__btn{flex-grow:1;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top}.pager__btn--prev{text-align:left}.pager__btn--next{text-align:right}.share{display:flex;align-items:center;background-color:var(--color-box-background);box-shadow:0 0 0 1px var(--color-box-border);margin:calc(var(--lh) * 2) 0;padding:calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale))}.share__icon{fill:#1da1f2;margin-right:calc(var(--lh)/2);width:var(--fz);height:var(--fz);flex-shrink:0}.share__text{margin:0}.archive{margin-left:0;list-style:none}.archive__item{padding:calc(var(--lh)/2) 0;box-shadow:0 1px 0 0 var(--color-box-border)}.archive__link{font-weight:700;text-decoration:none;color:var(--color-text)}.archive__link:hover{color:var(--color-link)}.archive__date{margin:0;font-size:calc(var(--fz)/var(--type-scale))}code,pre{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top}pre{margin-bottom:var(--lh);padding:var(--lh);box-shadow:0 0 0 1px var(--color-box-border);overflow-x:auto}p code,li code{padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}kbd{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top;padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}.chroma{background-color:var(--color-box-background)}.chroma .err{background-color:#faa;color:#a00}.chroma .lntd{margin:0;padding:0;border:0;vertical-align:top}.chroma .lntable{display:block;width:auto;margin:0;padding:0;border:0;border-spacing:0;overflow:auto}.chroma .hl{display:block;width:100%;background-color:var(--color-box-border)}.chroma .lnt{display:block;margin-right:.4em;padding:0 .4em;opacity:.5}.chroma .ln{margin-right:.4em;padding:0 .4em}.chroma .k{color:var(--color-syntax-k);font-weight:700}.chroma .kc{color:var(--color-syntax-k);font-weight:700}.chroma .kd{color:var(--color-syntax-k);font-weight:700}.chroma .kn{color:var(--color-syntax-k);font-weight:700}.chroma .kp{color:var(--color-syntax-k)}.chroma .kr{color:var(--color-syntax-k);font-weight:700}.chroma .kt{color:#078;font-weight:700}.chroma .na{color:var(--color-syntax-na)}.chroma .nb{color:var(--color-syntax-nb)}.chroma .nc{color:#0a8;font-weight:700}.chroma .no{color:#360}.chroma .nd{color:#99f}.chroma .ni{color:#999;font-weight:700}.chroma .ne{color:#c00;font-weight:700}.chroma .nf{color:#c0f}.chroma .nl{color:#99f}.chroma .nn{color:#0cf;font-weight:700}.chroma .nt{color:var(--color-syntax-na);font-weight:700}.chroma .nv{color:#033}.chroma .s{color:var(--color-syntax-s)}.chroma .sa{color:var(--color-syntax-s)}.chroma .sb{color:var(--color-syntax-s)}.chroma .sc{color:var(--color-syntax-s)}.chroma .dl{color:var(--color-syntax-s)}.chroma .sd{color:var(--color-syntax-s);font-style:italic}.chroma .s2{color:var(--color-syntax-s)}.chroma .se{color:var(--color-syntax-s);font-weight:700}.chroma .sh{color:var(--color-syntax-s)}.chroma .si{color:#a00}.chroma .sx{color:var(--color-syntax-s)}.chroma .sr{color:#3aa}.chroma .s1{color:var(--color-syntax-s)}.chroma .ss{color:#fc3}.chroma .m{color:var(--color-syntax-m)}.chroma .mb{color:var(--color-syntax-m)}.chroma .mf{color:var(--color-syntax-m)}.chroma .mh{color:var(--color-syntax-m)}.chroma .mi{color:var(--color-syntax-m)}.chroma .il{color:var(--color-syntax-m)}.chroma .mo{color:var(--color-syntax-m)}.chroma .o{color:var(--color-syntax-o)}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#999;font-style:italic}.chroma .ch{color:#999;font-style:italic}.chroma .cm{color:#999;font-style:italic}.chroma .c1{color:#999;font-style:italic}.chroma .cs{color:#999;font-style:italic;font-weight:700}.chroma .cp{color:#099}.chroma .cpf{color:#099}.chroma .gd{background-color:#fcc}.chroma .ge{font-style:italic}.chroma .gr{color:red}.chroma .gh{color:#030;font-weight:700}.chroma .gi{background-color:#cfc}.chroma .go{color:#aaa}.chroma .gp{color:#009;font-weight:700}.chroma .gs{font-weight:700}.chroma .gu{color:#030;font-weight:700}.chroma .gt{color:#9c6}.chroma .w{color:#bbb}.update{position:relative;padding:var(--lh);background-color:var(--color-update-background);box-shadow:0 0 0 1px var(--color-update-border)}.update::before{position:absolute;top:calc(var(--lh)/-2);left:calc(var(--lh)/2);height:var(--lh);padding:0 calc(var(--lh)/2);background-color:var(--color-update-border);color:#fff;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;content:"Update"}</style>
+
+</head>
+
+<body>
+
+  <div class="wrapper wrapper--wide">
+    <header class="header">
+  <a class="header__skip" href="#main">Skip to content</a>
+
+  
+  <div class="header__logo">
+    <a href="/">pawelgrzybek.com</a>
+  </div>
+  
+
+  <nav>
+    <ul class="header__list">
+      <li class="header__item">
+        <a href="/about" title="About">About</a>
+      </li>
+      <li class="header__item">
+        <a href="/archive" title="Archive">Archive</a>
+      </li>
+      <li class="header__item">
+        <a
+          href="https://twitter.com/pawelgrzybek"
+          title="Pawel Grzybek on Twitter"
+          >Twitter</a
+        >
+      </li>
+      <li class="header__item">
+        <a
+          href="https://github.com/pawelgrzybek"
+          title="Pawel Grzybek on Github"
+          >Github</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>
+
+  </div>
+
+  <div class="wrapper">
+
+    <main id="main">
+      <!-- post -->
+      <article class="post js-post">
+        <h1 class="post__title">CSS Custom Properties explained</h1>
+
+        
+        <p class="post__meta">Published: <time datetime="2016-02-19">2016.02.19</time> | 5 minutes read</p>
+        
+
+        <p>In programming languages the term &ldquo;variable&rdquo; describes a storage location normally associated with an identifier that contains some value. Despite fact that CSS is a markup language, spec creators were very generous recently and gave us a tiny, but very powerful piece of real programming capability. Excitement about native <a href="https://www.w3.org/TR/css-variables/">CSS Custom Properties</a> is generally tempered by the incorrect comparison to variables used in preprocessors like <a href="http://sass-lang.com/">Sass</a> or <a href="http://lesscss.org/">LESS</a>. Don&rsquo;t be fooled by this misconception! Bare with me for the rest of this article and let&rsquo;s embrace the power of this new native feature together.</p>
+<h2 id="syntax">Syntax <a href="#syntax" class="post__hash">#</a></h2>
+<p>When I saw the syntax for a first time I wasn&rsquo;t a big fan of it. To be honest, not much has changed since. One of the spec creators gave us a <a href="http://www.xanthir.com/blog/b4KT0">fair explanation</a> behind the naming decisions.</p>
+<blockquote>
+<p>If we use $foo for variables, we&rsquo;ll be unable to use it for future &ldquo;variable-like&rdquo; things.</p>
+</blockquote>
+<p>A declaration can be made on any selector and it requires a valid identifier that starts with two dashes. Unlike other CSS properties, variable names are case-sensitive. They follow inheritance and specificity rules like all other ordinary properties. If you need a reminder on how specificity in CSS works, I encourage you to read <a href="https://pawelgrzybek.com/css-specificity-explained/">&ldquo;CSS Specificity explained&rdquo;</a> first. The common practice is to declare it on the <code>:root</code> element to keep it accessible in all child selectors.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">:</span><span class="nd">root</span> <span class="p">{</span>
+  <span class="nv">--brand-color</span><span class="p">:</span> <span class="mh">#06c</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p>To reference a variable value use the <code>var()</code> function.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">h1</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">brand</span><span class="o">-</span><span class="kc">color</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><p>Custom properties can share values between each other.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">:</span><span class="nd">root</span> <span class="p">{</span>
+  <span class="nv">--brand-color</span><span class="p">:</span> <span class="mh">#06c</span><span class="p">;</span>
+  <span class="nv">--logo-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">brand</span><span class="o">-</span><span class="kc">color</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><p>The new var function allows a fallback value in case the property wasn&rsquo;t declared beforehand.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">p</span> <span class="p">{</span>
+  <span class="k">font-family</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">font</span><span class="o">-</span><span class="n">stack</span><span class="p">,</span> <span class="n">Roboto</span><span class="p">,</span> <span class="n">Helvetica</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="o">//</span> <span class="nt">Yes</span><span class="o">,</span> <span class="nt">quotation</span> <span class="nt">marks</span> <span class="nt">are</span> <span class="nt">not</span> <span class="nt">needed</span>
+<span class="o">//</span> <span class="nt">More</span> <span class="nt">about</span> <span class="nt">that</span> <span class="nt">here</span>
+<span class="o">//</span> <span class="nt">https</span><span class="o">://</span><span class="nt">mathiasbynens</span><span class="p">.</span><span class="nc">be</span><span class="o">/</span><span class="nt">notes</span><span class="o">/</span><span class="nt">unquoted-font-family</span>
+</code></pre></div><p>Variables cannot be a property name or part of a value. The following examples are not valid.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">foo</span> <span class="p">{</span>
+  <span class="nv">--side</span><span class="p">:</span> <span class="k">margin</span><span class="o">-</span><span class="kc">top</span><span class="p">;</span>
+  <span class="err">var(--side):</span> <span class="err">20px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">foo</span> <span class="p">{</span>
+  <span class="nv">--gap</span><span class="p">:</span> <span class="mi">20</span><span class="p">;</span>
+  <span class="k">margin-top</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">gap</span><span class="p">)</span><span class="n">px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="o">//</span> <span class="nt">Use</span> <span class="nt">calc</span><span class="o">()</span> <span class="nt">instead</span>
+<span class="p">.</span><span class="nc">foo</span> <span class="p">{</span>
+  <span class="nv">--gap</span><span class="p">:</span> <span class="mi">20</span><span class="p">;</span>
+  <span class="k">margin-top</span><span class="p">:</span> <span class="nb">calc</span><span class="p">(</span><span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">gap</span><span class="p">)</span> <span class="o">*</span> <span class="mi">1</span><span class="kt">px</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><h2 id="the-difference-between-native-css-custom-properties-and-sass-variables">The difference between native CSS Custom Properties and Sass variables <a href="#the-difference-between-native-css-custom-properties-and-sass-variables" class="post__hash">#</a></h2>
+<p>Preprocessors like <a href="http://sass-lang.com/">Sass</a> or <a href="http://lesscss.org/">LESS</a> are fantastic! The variables available in these tools are not exactly the same as CSS Custom Properties though. Further, the variables that are available in the popular <a href="http://postcss.org/">PostCSS</a> plugin called <a href="http://cssnext.io/">cssnext</a> use the same syntax as native CSS Custom Properties but still behave exactly the same as those from Sass or LESS. They apply a static value to the declaration during the compilation process. The new native CSS feature applies a value to a DOM element on runtime meaning that the browser allows us to reassign it. The dynamic nature of this feature allows us to take advantage of other language facilities like media queries or cascading. Let&rsquo;s have a look at the classic example that is impossible with preprocessors, but works fine with native CSS.</p>
+<div class="highlight"><pre class="chroma"><code class="language-scss" data-lang="scss"><span class="nv">$fz</span><span class="o">:</span> <span class="mi">1</span><span class="kt">rem</span><span class="p">;</span>
+
+<span class="k">@media</span> <span class="p">(</span><span class="no">min-width</span><span class="o">:</span> <span class="mi">60</span><span class="kt">rem</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nv">$fz</span><span class="o">:</span> <span class="mi">1</span><span class="mf">.5</span><span class="kt">rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">body</span> <span class="p">{</span>
+  <span class="nt">font-size</span><span class="nd">:</span> <span class="err">$</span><span class="nt">fz</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p>The above example applies a static <code>font-size: 1rem</code> to the <code>body</code> tag. The media query is completely ignored because a media query is not something that works in the C or Ruby compiler, it is something that works only in the browser. To make it work in Sass we have to create two separate variables and assign them depending of the breakpoint. CSS Custom Properties don&rsquo;t require the additional compilation process so the browser applies the value at runtime. When we change the width of the viewport, the value of the property is reassigned as expected.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">:</span><span class="nd">root</span> <span class="p">{</span>
+  <span class="nv">--fz</span><span class="p">:</span> <span class="mi">1</span><span class="kt">rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">@</span><span class="k">media</span> <span class="o">(</span><span class="nt">min-width</span><span class="o">:</span> <span class="nt">60rem</span><span class="o">)</span> <span class="p">{</span>
+  <span class="p">:</span><span class="nd">root</span> <span class="p">{</span>
+    <span class="nv">--fz</span><span class="p">:</span> <span class="mf">1.5</span><span class="kt">rem</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nt">body</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">fz</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><p>In my opinion it is freaking awesome and it opens an array of new options that weren&rsquo;t possible before. I have many more examples in my head, but hopefully this one clearly illustrates the subject.</p>
+<h2 id="working-with-css-custom-properties-and-javascript">Working with CSS Custom Properties and JavaScript <a href="#working-with-css-custom-properties-and-javascript" class="post__hash">#</a></h2>
+<p>The true power of CSS Custom Properties comes when we combine it together with JavaScript. It takes very few lines of code to allow us to get and change the value of CSS custom property. Let&rsquo;s go through a few simple examples.</p>
+<h3 id="get-the-value-of-css-custom-properties">Get the value of CSS Custom Properties <a href="#get-the-value-of-css-custom-properties" class="post__hash">#</a></h3>
+<p>To get a value of a property we have to use <code>getPropertyValue()</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">:</span><span class="nd">root</span> <span class="p">{</span>
+  <span class="nv">--brand-color</span><span class="p">:</span> <span class="kc">salmon</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">styles</span> <span class="o">=</span> <span class="nx">getComputedStyle</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">customProp</span> <span class="o">=</span> <span class="nb">String</span><span class="p">(</span><span class="nx">styles</span><span class="p">.</span><span class="nx">getPropertyValue</span><span class="p">(</span><span class="s1">&#39;--brand-color&#39;</span><span class="p">)).</span><span class="nx">trim</span><span class="p">();</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">customProp</span><span class="p">);</span>
+<span class="c1">// salmon
+</span></code></pre></div><h3 id="reassign-the-value-of-css-custom-properties">Reassign the value of CSS Custom Properties <a href="#reassign-the-value-of-css-custom-properties" class="post__hash">#</a></h3>
+<p>To reassign the value <code>setProperty()</code> comes handy.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">:</span><span class="nd">root</span> <span class="p">{</span>
+  <span class="nv">--brand-color</span><span class="p">:</span> <span class="kc">salmon</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">brand</span><span class="o">-</span><span class="kc">color</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">setProperty</span><span class="p">(</span><span class="s1">&#39;--brand-color&#39;</span><span class="p">,</span> <span class="s1">&#39;purple&#39;</span><span class="p">);</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>I’m a purple paragraph!<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</code></pre></div><h2 id="detect-the-browser-support-for-css-custom-properties">Detect the browser support for CSS Custom Properties <a href="#detect-the-browser-support-for-css-custom-properties" class="post__hash">#</a></h2>
+<p>Browser support for <a href="https://caniuse.com/#search=css%20var">CSS Variables</a> isn&rsquo;t great at the time of writing this article. Google Chrome 49+, Firefox 31+, Safari 9.1+ and iOS 9.3+ doesn&rsquo;t make it reliable enough to use it in production. Luckily we have a few methods to detect the hero of today&rsquo;s article. <a href="https://pawelgrzybek.com/native-feature-detection-with-csssupports-api/">Native feature detection with CSS.supports() API</a> helps us with that. Lets have a look at how to use it in CSS and JavaScript.</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
+  <span class="nv">--bg-color</span><span class="p">:</span> <span class="mh">#e46764</span><span class="p">;</span>
+  <span class="k">background-color</span><span class="p">:</span> <span class="kc">pink</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">@</span><span class="k">supports</span> <span class="o">(</span><span class="nt">background-color</span><span class="o">:</span> <span class="nt">var</span><span class="o">(</span><span class="nt">--bg-color</span><span class="o">))</span> <span class="p">{</span>
+  <span class="nt">body</span> <span class="p">{</span>
+    <span class="k">background-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">bg</span><span class="o">-</span><span class="kc">color</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">CSS</span><span class="p">.</span><span class="nx">supports</span><span class="p">(</span><span class="s1">&#39;--bg-color&#39;</span><span class="p">,</span> <span class="s1">&#39;#e46764&#39;</span><span class="p">);</span>
+<span class="c1">// returns a boolean value
+</span></code></pre></div><p>This method isn&rsquo;t bulletproof because support for <code>@support</code> isn&rsquo;t amazing at all. <a href="https://twitter.com/wesbos">Wes Bos</a> posted a much more <a href="https://gist.github.com/wesbos/8b9a22adc1f60336a699">reliable method</a> the other day. Thanks man!</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">testCSSVariables</span><span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// create a new element
+</span><span class="c1"></span>  <span class="kd">var</span> <span class="nx">el</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;span&#39;</span><span class="p">);</span>
+
+  <span class="c1">// add a new custom property and apply it as a background
+</span><span class="c1"></span>  <span class="nx">el</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">setProperty</span><span class="p">(</span><span class="s1">&#39;--color&#39;</span><span class="p">,</span> <span class="s1">&#39;rgb(255, 198, 0)&#39;</span><span class="p">);</span>
+  <span class="nx">el</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">setProperty</span><span class="p">(</span><span class="s1">&#39;background&#39;</span><span class="p">,</span> <span class="s1">&#39;var(--color)&#39;</span><span class="p">);</span>
+
+  <span class="c1">// print new element to the DOM
+</span><span class="c1"></span>  <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">el</span><span class="p">);</span>
+
+  <span class="c1">// assign computed styles of element
+</span><span class="c1"></span>  <span class="kd">var</span> <span class="nx">styles</span> <span class="o">=</span> <span class="nx">getComputedStyle</span><span class="p">(</span><span class="nx">el</span><span class="p">);</span>
+
+  <span class="c1">// return true if background color is assigned correctlly, false otherwise
+</span><span class="c1"></span>  <span class="kd">var</span> <span class="nx">doesSupport</span> <span class="o">=</span> <span class="nx">styles</span><span class="p">.</span><span class="nx">backgroundColor</span> <span class="o">===</span> <span class="s1">&#39;rgb(255, 198, 0)&#39;</span><span class="p">;</span>
+
+  <span class="c1">// remove element from the DOM
+</span><span class="c1"></span>  <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">removeChild</span><span class="p">(</span><span class="nx">el</span><span class="p">);</span>
+
+  <span class="c1">// return boolean value
+</span><span class="c1"></span>  <span class="k">return</span> <span class="nx">doesSupport</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">testCSSVariables</span><span class="p">();</span>
+<span class="c1">// returns a boolean value
+</span></code></pre></div><h2 id="day--night-mode-switch">Day / night mode switch <a href="#day--night-mode-switch" class="post__hash">#</a></h2>
+<p>Codepen is already full of beautiful projects that use CSS Custom Properties. Mine is nothing near this level of creativity but I had good fun doing it. Before checking example below, please make sure your browser <a href="https://caniuse.com/#feat=css-variables">supports CSS Custom Properties</a> first. I&rsquo;m super curious about how you use CSS Custom Properties. Don&rsquo;t be shy and post a link in the comments section :)</p>
+<!-- raw HTML omitted -->
+
+
+        
+
+        
+        <!-- share -->
+        <section class="share">
+          <svg xmlns="http://www.w3.org/2000/svg" class="share__icon" viewBox="0 0 512 512"><path d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z"/></svg>
+          <p class="share__text">If you liked this article, please <a href="https://twitter.com/intent/tweet?text=CSS%20Custom%20Properties%20explained&amp;url=https%3a%2f%2fpawelgrzybek.com%2fcss-custom-properties-explained%2f&amp;via=pawelgrzybek" class="share__link" title="Share on Twitter">share it on Twitter</a>.</p>
+        </section>
+        <!-- / share -->
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "studiorgb" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+
+      </article>
+      <!-- / post -->
+
+    </main>
+
+    <footer class="footer">Copyright © 2020 Pawel Grzybek</footer>
+
+
+  </div>
+
+</body>
+</html>
