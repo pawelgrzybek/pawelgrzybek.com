@@ -24,7 +24,7 @@ Another free episode of Front End Center by Glen Maddern — next top explainer.
 
 [https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
 
-Chris Coyier collected a great list of tips to build a slider in pure HTML and CSS. Some of these things are not great supported, some of them require nasty vendor prefixes, some are pure browser hacks but overall experience of final result is really impressive! If this kind of a slider doesn't give you what you need, don't forget about my very own [Siema](https://pawelgrzybek.com/siema/) :P
+Chris Coyier collected a great list of tips to build a slider in pure HTML and CSS. Some of these things are not great supported, some of them require nasty vendor prefixes, some are pure browser hacks but overall experience of final result is really impressive! If this kind of a slider doesn't give you what you need, don't forget about my very own [Siema](https://pawelgrzybek.github.io/siema/) :P
 
 - - -
 
