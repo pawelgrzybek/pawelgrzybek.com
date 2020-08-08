@@ -2,7 +2,6 @@ baseURL = "https://pawelgrzybek.com/"
 title = "pawelgrzybek.com"
 disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 disqusShortname = "studiorgb"
-pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
