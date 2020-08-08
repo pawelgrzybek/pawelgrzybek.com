@@ -1,7 +1,7 @@
 ---
-title: "Multiple SSH keys for multiple Bitbucket accounts"
-description: ""
-photo: 2020-08-10.jpg
+title: "Multiple SSH keys for multiple Bitbucket/GitHub accounts"
+description: "If we cannot use singular SSH key across multiple accounts (what makes a perfect sense) the solution is to have multiple of them. Let's create two new pair of SSH keys, one for personal use and another one for the clients project."
+photo: 2020-08-11.jpg
 draft: true
 ---
 
@@ -9,7 +9,9 @@ I recently joined a new project which of version control repository is hosted on
 
 > Someone has already added that SSH key.
 
-That,s right, I had this key already added under my personal account. Luckily the solution is simple and it applies the same not only to Bitbucket, but also to other popular version control hosting services like [GitHub](https://github.com) or [GitLab](https://gitlab.com).
+That's right, I had this key already added under my personal account. Luckily the solution is simple and it applies the same not only to Bitbucket, but also to other popular version control hosting services like [GitHub](https://github.com) or [GitLab](https://gitlab.com).
+
+!["Key is already in use" alert on GitHub](/photos/2020-08-11-1.jpg)
 
 1. [Generate multiple SSH keys](#generate-multiple-ssh-keys)
 2. [Add new keys to SSH agent](#add-new-keys-to-ssh-agent)
@@ -18,8 +20,6 @@ That,s right, I had this key already added under my personal account. Luckily th
 5. [Change the upstream URL of already existing repository](#change-the-upstream-url-of-already-existing-repository)
 
 ## Generate multiple SSH keys
-
-https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 If we cannot use singular SSH key across multiple accounts (what makes a perfect sense) the solution is to have multiple of them. Let's create two new pair of SSH keys, one for personal use and another one for the clients project.
 
@@ -43,7 +43,7 @@ Your public key has been saved in ~/.ssh/id_rsa-client.pub.
 
 ## Add new keys to SSH agent
 
-To make use of just created keys, we need to add them to `ssh-agent`, a program that holds private keys used for public authentication. The `ssh-agent` is probably running in the background in your operating system, but just in case lets turn it on and add new keys to it using `ssh-add`.
+To make use of just created keys, we need to add them to `ssh-agent`, a program that holds private keys used for public authentication. The `ssh-agent` is probably running in the background of your operating system, but just in case lets turn it on and add new keys to it using `ssh-add`.
 
 ```
 eval "$(ssh-agent -s)"
@@ -54,7 +54,7 @@ ssh-add -K id_rsa
 ssh-add -K id_rsa-client
 ```
 
-The `-K` flag adds a new key to the macOS keychain. If you are not using Apple's operating system, please skip this flag from your instructions. To confirm that both keys have been successfully added we can use `ssh-add -l` command.
+The `-K` flag adds a new key to the macOS keychain. If you are not using Apple's operating system, please skip this flag. To confirm that both keys have been successfully added we can use `ssh-add -l` command.
 
 ```
 4096 SHA256:XXXXXX personal@email.com (RSA)
@@ -70,11 +70,11 @@ pbcopy < ~/.ssh/id_rsa.pub
 pbcopy < ~/.ssh/id_rsa-client.pub
 ```
 
-![Add SSH key to Bitbucket account](/photos/2020-08-10-2.jpg)
+![Add SSH key to Bitbucket account](/photos/2020-08-11-2.jpg)
 
 ## Configure SSH
 
-SSH config file is where the magic lies. We need to create a configuration file and create some aliases. Let's do it!
+SSH config file is where the magic lies. We need to create a configuration file and create custom aliases that are going to enforce usage or particular key for particular host. Let's do it!
 
 ```
 touch .ssh/config
@@ -100,7 +100,7 @@ Since now on, every time when you clone a repo from client's account simply repl
 ✅ git clone git@bitbucket-client.org:client/project.git
 ```
 
-By doing so, you are skipping a default public key resolution, and explicitly pointing your ssh-agent to always resolve connection to `bitbucket-client.org` using `~/.ssh/id_rsa-client` key. Your default key is going to just work as before. Nice trick, isn't it?
+By doing so, you are skipping a default public key resolution, and explicitly pointing your ssh-agent to always resolve connection to `bitbucket-client.org` using `~/.ssh/id_rsa-client` key. Your default key is going to just work as before. Neat trick, isn't it?
 
 ## Change the upstream URL of already existing repository
 
@@ -110,4 +110,4 @@ You may be asking, what should you do with already existing repositories. Clonin
 git remote set-url origin git@bitbucket-client.org:client/project.git
 ```
 
-This solution solved my problem and I hope it is going to help you out as well. Stay curious and keep on coding 👩‍💻👨‍💻
+This solution solved my problem and server me well. I hope it is going to help you out as well. Stay curious and keep on coding 👩‍💻👨‍💻
