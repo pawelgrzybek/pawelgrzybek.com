@@ -1,8 +1,0 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {{ range .Data.Pages }}
-  <url>
-    <loc>{{ .Permalink }}</loc>{{ if not .Date.IsZero }}
-    <lastmod>{{ safeHTML .Date }}</lastmod>{{ end }}
-  </url>
-  {{ end }}
-</urlset>

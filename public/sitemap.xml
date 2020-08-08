@@ -1,893 +1,717 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-the-fast-800-how-to-combine-rapid-weight-loss-and-intermittent-fasting-for-long-term-health-by-dr-michael-mosley/</loc>
-    <lastmod>2020-08-06 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/</loc>
-    <lastmod>2020-08-06 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/execute-a-shell-command-inside-a-docker-container-3-methods/</loc>
-    <lastmod>2020-08-02 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2020-july/</loc>
-    <lastmod>2020-07-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/the-ip-address-subnet-mask-and-cidr-notation/</loc>
-    <lastmod>2020-07-29 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/understanding-nodejs-streams/</loc>
-    <lastmod>2020-07-14 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/i-was-invited-to-the-mindera-yellow-box-podcast-to-chat-the-state-of-the-web-development/</loc>
-    <lastmod>2020-07-10 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2020-june/</loc>
-    <lastmod>2020-06-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-not-a-diet-book-by-james-smith/</loc>
-    <lastmod>2020-06-27 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-brzydki-zly-i-szczery-by-adam-ostrowski/</loc>
-    <lastmod>2020-06-19 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-steve-jobs-the-exclusive-biography-by-walter-isaacson/</loc>
-    <lastmod>2020-06-15 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2020-may/</loc>
-    <lastmod>2020-05-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/native-lazy-loading-of-images-on-hugo-based-website/</loc>
-    <lastmod>2020-05-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/my-favourite-visual-studio-code-tips-for-how-did-you-do-it-kind-of-people/</loc>
-    <lastmod>2020-05-27 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-permanent-record-by-edward-snowden/</loc>
-    <lastmod>2020-05-04 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2020-april/</loc>
-    <lastmod>2020-04-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/mocking-functions-and-modules-with-jest/</loc>
-    <lastmod>2020-04-12 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-the-lean-startup-by-eric-ries/</loc>
-    <lastmod>2020-04-09 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/whats-new-in-ecmascript-2020/</loc>
-    <lastmod>2020-04-03 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2020-march/</loc>
-    <lastmod>2020-03-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/rss-feed-for-youtube-channels-and-github-project/</loc>
-    <lastmod>2020-03-18 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-endurance-by-scott-kelly/</loc>
-    <lastmod>2020-03-13 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2020-february/</loc>
-    <lastmod>2020-02-29 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-humble-pi-a-comedy-of-maths-errors-by-matt-parker/</loc>
-    <lastmod>2020-02-27 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-gravitas-by-caroline-goyder/</loc>
-    <lastmod>2020-02-03 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2020-january/</loc>
-    <lastmod>2020-01-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/til-git-switch-git-restore/</loc>
-    <lastmod>2020-01-24 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-peter-pan/</loc>
-    <lastmod>2020-01-11 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/book-review-atomic-habits-an-easy-proven-way-to-build-good-habits-break-bad-ones-by-james-clear/</loc>
-    <lastmod>2020-01-06 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-december/</loc>
-    <lastmod>2019-12-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/a-look-back-at-2019/</loc>
-    <lastmod>2019-12-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/attach-visual-studio-code-debugger-to-sam-serverless-application-model-local-endpoint/</loc>
-    <lastmod>2019-12-01 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-november/</loc>
-    <lastmod>2019-11-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/does-javascript-keep-you-too-busy-to-care-about-css-here-are-recent-features-you-want-to-know-about/</loc>
-    <lastmod>2019-11-27 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-october/</loc>
-    <lastmod>2019-10-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/thanks-to-react-advanced-london/</loc>
-    <lastmod>2019-10-26 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/til-the-power-of-json-stringify-replacer-parameter/</loc>
-    <lastmod>2019-10-11 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-september/</loc>
-    <lastmod>2019-09-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/thanks-to-mongodb-local-london-2019/</loc>
-    <lastmod>2019-09-26 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-august/</loc>
-    <lastmod>2019-08-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/promise-combinators-explained/</loc>
-    <lastmod>2019-08-08 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-july/</loc>
-    <lastmod>2019-07-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/i-built-a-thing-instagram-line-break/</loc>
-    <lastmod>2019-07-11 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/configure-a-local-wordpress-development-using-docker/</loc>
-    <lastmod>2019-07-04 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-june/</loc>
-    <lastmod>2019-06-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/apple-changed-the-default-shell-from-bash-to-zsh-so-did-i/</loc>
-    <lastmod>2019-06-06 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-may/</loc>
-    <lastmod>2019-05-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/typescript-interface-vs-type/</loc>
-    <lastmod>2019-05-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-april/</loc>
-    <lastmod>2019-04-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/i-built-a-thing-httpsc-simple-http-status-codes-reference-cli/</loc>
-    <lastmod>2019-04-06 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-march/</loc>
-    <lastmod>2019-03-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/build-your-first-aws-serverless-app/</loc>
-    <lastmod>2019-03-19 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-february/</loc>
-    <lastmod>2019-02-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/whats-new-in-ecmascript-2019/</loc>
-    <lastmod>2019-02-02 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2019-january/</loc>
-    <lastmod>2019-01-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/linting-typescript/</loc>
-    <lastmod>2019-01-22 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/install-nodejs-installer-vs-homebrew-vs-nvm/</loc>
-    <lastmod>2019-01-15 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-december/</loc>
-    <lastmod>2018-12-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/a-look-back-at-2018/</loc>
-    <lastmod>2018-12-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-november/</loc>
-    <lastmod>2018-11-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/cross-cutting-functionality-in-react-using-higher-order-components-render-props-and-hooks/</loc>
-    <lastmod>2018-11-22 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-october/</loc>
-    <lastmod>2018-10-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/i-built-a-thing-pinbuddy/</loc>
-    <lastmod>2018-10-16 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-september/</loc>
-    <lastmod>2018-09-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/what-did-you-learn-today/</loc>
-    <lastmod>2018-09-29 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-august/</loc>
-    <lastmod>2018-08-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/semantic-versioning-semver-explained/</loc>
-    <lastmod>2018-08-21 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/capture-one-pro-the-best-parts/</loc>
-    <lastmod>2018-08-06 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-july/</loc>
-    <lastmod>2018-07-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/</loc>
-    <lastmod>2018-07-05 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-june/</loc>
-    <lastmod>2018-06-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/cpp-for-javascript-developers/</loc>
-    <lastmod>2018-06-01 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-may/</loc>
-    <lastmod>2018-05-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/thanks-for-everything-engine-creative-hi-mindera/</loc>
-    <lastmod>2018-05-21 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-april/</loc>
-    <lastmod>2018-04-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/configure-a-local-wordpress-development-on-macos-from-scratch/</loc>
-    <lastmod>2018-04-29 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/from-jekyll-to-hugo-from-github-pages-to-netlify/</loc>
-    <lastmod>2018-04-03 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-march/</loc>
-    <lastmod>2018-03-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/siema-thanks-for-2000-stars-on-github/</loc>
-    <lastmod>2018-03-05 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-february/</loc>
-    <lastmod>2018-02-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/my-amazon-s3-photo-backup-solution/</loc>
-    <lastmod>2018-02-27 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/i-built-a-thing-an-alfred-workflow-to-manage-things-lists/</loc>
-    <lastmod>2018-02-23 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2018-january/</loc>
-    <lastmod>2018-01-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/the-resize-observer-explained/</loc>
-    <lastmod>2018-01-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/whats-new-in-ecmascript-2018/</loc>
-    <lastmod>2018-01-29 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-december/</loc>
-    <lastmod>2017-12-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/a-look-back-at-2017/</loc>
-    <lastmod>2017-12-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/</loc>
-    <lastmod>2017-12-18 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-november/</loc>
-    <lastmod>2017-11-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/unity-development-on-macos-with-visual-studio-code/</loc>
-    <lastmod>2017-11-27 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-october/</loc>
-    <lastmod>2017-10-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/from-a-callback-hell-through-promises-to-async-functions/</loc>
-    <lastmod>2017-10-25 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/return-multiple-elements-from-a-component-with-react-16/</loc>
-    <lastmod>2017-10-02 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-september/</loc>
-    <lastmod>2017-09-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/thanks-to-browserstack/</loc>
-    <lastmod>2017-09-23 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-august/</loc>
-    <lastmod>2017-08-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/the-observer-pattern-in-javascript-explained/</loc>
-    <lastmod>2017-08-17 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-july/</loc>
-    <lastmod>2017-07-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/i-built-a-thing-bimbo-theme-for-visual-studio-code/</loc>
-    <lastmod>2017-07-15 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-june/</loc>
-    <lastmod>2017-06-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/using-webpack-with-gulpjs/</loc>
-    <lastmod>2017-06-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/cloning-dom-nodes-and-handling-attached-events/</loc>
-    <lastmod>2017-06-27 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/basic-nodejs-debugging-in-google-chrome/</loc>
-    <lastmod>2017-06-03 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-may/</loc>
-    <lastmod>2017-05-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/i-built-a-thing-snippet-generator-for-vs-code-sublime-text-and-atom/</loc>
-    <lastmod>2017-05-01 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-april/</loc>
-    <lastmod>2017-04-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/make-some-magic-with-css-blend-modes/</loc>
-    <lastmod>2017-04-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/native-ecmascript-modules-in-the-browser/</loc>
-    <lastmod>2017-04-18 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-march/</loc>
-    <lastmod>2017-03-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/fluent-interfaces-explained/</loc>
-    <lastmod>2017-03-17 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-february/</loc>
-    <lastmod>2017-02-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/my-setup-2017-february/</loc>
-    <lastmod>2017-02-25 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2017-january/</loc>
-    <lastmod>2017-01-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/whats-new-in-ecmascript-2017/</loc>
-    <lastmod>2017-01-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/using-the-javascript-console-in-visual-studio-code/</loc>
-    <lastmod>2017-01-18 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/</loc>
-    <lastmod>2017-01-13 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/a-look-back-at-2016/</loc>
-    <lastmod>2017-01-03 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-december/</loc>
-    <lastmod>2016-12-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/i-built-a-thing-siema/</loc>
-    <lastmod>2016-12-08 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/whats-the-deal-with-the-pointer-events-in-javascript/</loc>
-    <lastmod>2016-12-06 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-november/</loc>
-    <lastmod>2016-11-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-october/</loc>
-    <lastmod>2016-10-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/loop-through-a-collection-of-dom-elements/</loc>
-    <lastmod>2016-10-19 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-september/</loc>
-    <lastmod>2016-09-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/trailing-comma-in-ecmascript2017-function-parameter-list/</loc>
-    <lastmod>2016-09-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/sync-atom-between-multiple-devices/</loc>
-    <lastmod>2016-09-15 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-august/</loc>
-    <lastmod>2016-08-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/div-simple-alfred-windows-manager/</loc>
-    <lastmod>2016-08-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-july/</loc>
-    <lastmod>2016-07-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/page-scroll-in-vanilla-javascript/</loc>
-    <lastmod>2016-07-25 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-june/</loc>
-    <lastmod>2016-06-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/the-intersection-observer-api-explained/</loc>
-    <lastmod>2016-06-13 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-may/</loc>
-    <lastmod>2016-05-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/intro-to-the-web-animations-api/</loc>
-    <lastmod>2016-05-18 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/pinterest-style-layout-with-bricky/</loc>
-    <lastmod>2016-05-10 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-april/</loc>
-    <lastmod>2016-04-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/css-mixins-with-apply-rule/</loc>
-    <lastmod>2016-04-18 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/liquid-video/</loc>
-    <lastmod>2016-04-10 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-march/</loc>
-    <lastmod>2016-03-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/manipulate-javascript-arrays-like-a-boss/</loc>
-    <lastmod>2016-03-29 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/git-tip-staging-hunk-of-code-via-command-line/</loc>
-    <lastmod>2016-03-18 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/my-first-year-of-blogging/</loc>
-    <lastmod>2016-03-11 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-february/</loc>
-    <lastmod>2016-02-29 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/css-custom-properties-explained/</loc>
-    <lastmod>2016-02-19 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/</loc>
-    <lastmod>2016-02-04 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2016-january/</loc>
-    <lastmod>2016-01-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/image-tag-vs-background-property/</loc>
-    <lastmod>2016-01-28 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/rounding-and-truncating-numbers-in-javascript/</loc>
-    <lastmod>2016-01-19 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/my-favourite-resources-to-learn-javascript/</loc>
-    <lastmod>2016-01-16 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2015-december/</loc>
-    <lastmod>2015-12-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/background-video-made-easy/</loc>
-    <lastmod>2015-12-06 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2015-november/</loc>
-    <lastmod>2015-11-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/my-favourite-front-end-related-podcasts/</loc>
-    <lastmod>2015-11-24 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2015-october/</loc>
-    <lastmod>2015-10-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/bem-with-emmet/</loc>
-    <lastmod>2015-10-17 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/lets-get-into-the-basics-of-css-grid-layout-model/</loc>
-    <lastmod>2015-10-04 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2015-september/</loc>
-    <lastmod>2015-09-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/the-secret-of-css-secrets-by-lea-verou/</loc>
-    <lastmod>2015-09-22 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/native-feature-detection-with-csssupports-api/</loc>
-    <lastmod>2015-09-17 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/use-modern-javascript-today-with-babel/</loc>
-    <lastmod>2015-09-12 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/bookmarking-with-pinboard/</loc>
-    <lastmod>2015-09-10 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2015-august/</loc>
-    <lastmod>2015-08-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/from-sass-to-postcss/</loc>
-    <lastmod>2015-08-26 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/i-wont-miss-you-adobe/</loc>
-    <lastmod>2015-08-11 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/fix-priviliges-and-never-again-use-sudo-with-npm/</loc>
-    <lastmod>2015-08-05 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2015-july/</loc>
-    <lastmod>2015-07-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/css-specificity-explained/</loc>
-    <lastmod>2015-07-08 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2015-june/</loc>
-    <lastmod>2015-06-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/javascript-console-in-sublime-text/</loc>
-    <lastmod>2015-06-12 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2015-may/</loc>
-    <lastmod>2015-05-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/do-you-really-need-another-grid-system/</loc>
-    <lastmod>2015-05-09 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2015-april/</loc>
-    <lastmod>2015-04-30 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/keep-sublime-text-snippets-organized/</loc>
-    <lastmod>2015-04-26 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/how-to-stay-informed-in-web-development-game/</loc>
-    <lastmod>2015-04-16 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/jekyll-blog-on-github-pages-supercharged-by-cloudflare/</loc>
-    <lastmod>2015-04-06 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/top-picks-2015-march/</loc>
-    <lastmod>2015-03-31 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/my-web-development-setup/</loc>
-    <lastmod>2015-03-26 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
     <loc>https://pawelgrzybek.com/hello-there/</loc>
-    <lastmod>2015-03-11 00:00:00 +0000 UTC</lastmod>
   </url>
   
   <url>
