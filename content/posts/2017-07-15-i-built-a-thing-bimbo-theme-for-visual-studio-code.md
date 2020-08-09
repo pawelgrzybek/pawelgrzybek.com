@@ -4,7 +4,9 @@ description: After switching from Sublime Text to VS Code I was looking for a th
 photo: 2017-07-15.jpg
 ---
 
-{{< update >}}I changed the name of this theme to Gatito Theme. It is still in active development and you can download it from here: [Gatito Theme on Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=pawelgrzybek.gatito-theme).{{< /update >}}
+{{< update >}}
+I changed the name of this theme to Gatito Theme. It is still in active development and you can download it from here: [Gatito Theme on Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=pawelgrzybek.gatito-theme).
+{{< /update >}}
 
 After a long romance with [Sublime Text](https://www.sublimetext.com/) and the ultra-hackable [Boxy Theme](https://packagecontrol.io/packages/Boxy%20Theme) I switched to Visual Studio Code by Microsoft. I love it! Functionality-wise there is nothing missing. Visually — yyyhhh. Fortunately some time ago VS Code got a set of features that allows us to customise almost every single aspect of the user interface. It opened tons of opportunities for theme developers to create beautiful looking colour schemes.
 

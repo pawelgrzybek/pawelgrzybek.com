@@ -4,7 +4,9 @@ description: Scrolling to an element on a page has always been easy with jQuery.
 photo: 2016-07-25.jpg
 ---
 
-{{< update >}}I published this article years ago. At the time of writing, this solution was working very well for me. Today I would be using `window.scroll` and this lightweight [smooth scroll behavior polyfill](https://github.com/iamdustan/smoothscroll) instead.{{< /update >}}
+{{< update >}}
+I published this article years ago. At the time of writing, this solution was working very well for me. Today I would be using `window.scroll` and this lightweight [smooth scroll behavior polyfill](https://github.com/iamdustan/smoothscroll) instead.
+{{< /update >}}
 
 How many times have you seen the effect of a page scrolling down after clicking a button? Probably thousands! It's always been extremely easy to do with the popular [jQuery](https://jquery.com/) library.
 
