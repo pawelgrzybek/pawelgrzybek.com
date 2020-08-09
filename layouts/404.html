@@ -1,23 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  {{ partial "head.html" . }}
-  <body>
-    <div class="wrapper wrapper--wide">
-      {{ partial "header.html" . }}
-    </div>
+{{ define "main" }}
 
-    <div class="wrapper">
-      <main id="main">
-        <!-- post -->
-        <article class="post">
-          <h1 class="post__title">Error 404</h1>
+<!-- post -->
+<article class="post">
+  <h1 class="post__title">Error 404</h1>
 
-          <p>The page you requested doesn't exist.</p>
-        </article>
-        <!-- / post -->
-      </main>
+  <p>The page you requested doesn't exist.</p>
+</article>
+<!-- / post -->
 
-      {{ partial "footer.html" . }}
-    </div>
-  </body>
-</html>
+{{ end }}
