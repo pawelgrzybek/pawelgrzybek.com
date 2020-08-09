@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-      {{ range (.Paginate ( where .Site.RegularPages "Section" "posts" ).ByDate.Reverse).Pages }}
+      {{ range (.Paginate ( where .Site.Pages "Section" "posts" ).ByDate.Reverse).Pages }}
       {{ "<!-- post -->" | safeHTML }}
       <article class="post">
         <h2 class="post__title">
