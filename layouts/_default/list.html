@@ -8,6 +8,7 @@
   </div>
 
   <div class="wrapper">
+
     <main id="main">
 
       {{ range (.Paginate ( where .Site.RegularPages "Section" "posts" ).ByDate.Reverse).Pages }}
