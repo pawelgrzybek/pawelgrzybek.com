@@ -1,15 +1,5 @@
-<!doctype html>
-<html lang="en">
-  {{ partial "head.html" . }}
-<body>
+{{ define "main" }}
 
-  <div class="wrapper wrapper--wide">
-    {{ partial "header.html" . }}
-  </div>
-
-  <div class="wrapper">
-
-    <main id="main">
       {{ "<!-- post -->" | safeHTML }}
       <article class="post js-post">
         <h1 class="post__title">{{ .Title }}</h1>
@@ -49,10 +39,4 @@
       </article>
       {{ "<!-- / post -->" | safeHTML }}
 
-    </main>
-
-    {{ partial "footer.html" . }}
-  </div>
-
-</body>
-</html>
+{{ end }}

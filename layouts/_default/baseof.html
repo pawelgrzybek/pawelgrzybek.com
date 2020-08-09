@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    <div class="wrapper wrapper--wide">
+      {{ partial "header.html" . }}
+    </div>
+
+    <div class="wrapper">
+      <main id="main">
+        {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
+        {{ end }}
+      </main>
+
+      {{ partial "footer.html" . }}
+    </div>
+  </body>
+</html>

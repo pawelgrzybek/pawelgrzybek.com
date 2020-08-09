@@ -1,15 +1,4 @@
-<!doctype html>
-<html lang="en">
-  {{ partial "head.html" . }}
-<body>
-
-  <div class="wrapper wrapper--wide">
-    {{ partial "header.html" . }}
-  </div>
-
-  <div class="wrapper">
-
-    <main id="main">
+{{ define "main" }}
 
       {{ range (.Paginate ( where .Site.RegularPages "Section" "posts" ).ByDate.Reverse).Pages }}
       {{ "<!-- post -->" | safeHTML }}
@@ -35,10 +24,5 @@
         {{ end }}
       </div>
       {{ "<!-- / pager -->" | safeHTML }}
-    </main>
 
-    {{ partial "footer.html" . }}
-  </div>
-
-</body>
-</html>
+{{ end }}
