@@ -15,7 +15,6 @@ pygmentsUseClasses = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  section = ["HTML"]
 
 [outputFormats.RSS]
   mediatype = "application/rss"
