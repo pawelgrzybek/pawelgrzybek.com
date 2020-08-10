@@ -3,7 +3,7 @@
   <channel>
     <title>pawelgrzybek.com</title>
     <link>https://pawelgrzybek.com/</link>
-    <description>Recent content on pawelgrzybek.com</description>
+    <description>Hi there, I&#39;m Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I&#39;m not coding, I&#39;m spinning funky vinyl records.</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
     
@@ -16,9 +16,7 @@
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/multiple-ssh-keys-for-multiple-bitbucket-github-accounts/</guid>
-      <description>I recently joined a new project whereby a version control repository is hosted on Bitucket. It is time to create an account, clone the repo and smash some code! Not that easy — this is what I got when I tried to add my public SSH key to newly created account.
- Someone has already added that SSH key.
- That’s right, I had this key already added under my personal account.</description>
+      <description>If we cannot use singular SSH key across multiple accounts (what makes a perfect sense) the solution is to have multiple of them. Let&#39;s create two new pair of SSH keys, one for personal use and another one for the clients project.</description>
     </item>
     
     <item>
@@ -27,7 +25,7 @@
       <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-the-fast-800-how-to-combine-rapid-weight-loss-and-intermittent-fasting-for-long-term-health-by-dr-michael-mosley/</guid>
-      <description>I like testing out things on my body and there probably won&amp;rsquo;t be a better time to do it right now during this global pandemic. I&amp;rsquo;ve tried out multiple diets which have given me various results, but intermittent fasting is something that I&amp;rsquo;ve heard around a lot but never actually tried. If I can drop a few kilos during this process, I won&amp;rsquo;t complain. I was browsing the Audible library recently and have been eager to spend my credit points on something informative.</description>
+      <description>I&#39;ve tried out multiple diets which have given me various results, but intermittent fasting is something that I&#39;ve heard around a lot but never actually tried. I was browsing the Audible library recently and have been eager to spend my credit points on something informative. I came across &#34;The Fast 800: How to Combine Rapid Weight Loss and Intermittent Fasting for Long-Term Health&#34; by Dr Michael Mosley.</description>
     </item>
     
     <item>
@@ -36,8 +34,7 @@
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/execute-a-shell-command-inside-a-docker-container-3-methods/</guid>
-      <description>Running projects inside containers is a bread and butter task of a developers life. It’s not rare to need to execute a command against a container and Docker gives us multiple options to do so.
- Execute a command inside a new container Execute a command inside a stopped container Execute a command inside a running container   Execute a command inside a new container # Often we want to run a command in an interactive mode inside a new, just instantiated container.</description>
+      <description>Running projects inside containers is a bread and butter task of a developers life. It’s not rare to need to execute a command against a container and Docker gives us multiple options to do so.</description>
     </item>
     
     <item>
@@ -46,8 +43,7 @@
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2020-july/</guid>
-      <description>Day 1: Chrome web.dev Live 2020, Day 2: Chrome web.dev Live 2020, Day 3: Chrome web.dev Live 2020 # Dedicated playlists for Chrome web.dev conference. Pick and choose what interests you the most. I am pretty excited about some news announced at this event. My favourite one is the support for Firefox in Puppeteer.
-Temporal # Temporal is an ECMAScript proposal that is trying to solve a long-standing developers frustrations with Date.</description>
+      <description>Chrome web.dev Live 2020, new approach to work with dates in JavaScript, Svelte with a support for TypeScript, AWS SAM frameworks hits stable version 1.0.0 and more…</description>
     </item>
     
     <item>
@@ -56,8 +52,7 @@ Temporal # Temporal is an ECMAScript proposal that is trying to solve a long-sta
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/the-ip-address-subnet-mask-and-cidr-notation/</guid>
-      <description>The Internet is a big network of devices, each of them is identified by the unique IP address. They are not connected directly though. Subnetting is a process of dividing them into smaller subnetworks. Subnet mask helps us to determine which part of the IP address belongs to the network and which one belongs to us (host).
- This diagram represents a simple network of connected devices. It may be a switch on the corner of your street, yours and your neighbours wi-fi routers and a bunch of home devices connected to it.</description>
+      <description>The Internet is a big network of devices, each of them is identified by the unique IP address. Subnetting is a process of dividing them into smaller subnetworks. Subnet mask helps us to determine which part of the IP address belongs to the network and which one belongs to us (host).</description>
     </item>
     
     <item>
@@ -66,7 +61,7 @@ Temporal # Temporal is an ECMAScript proposal that is trying to solve a long-sta
       <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/understanding-nodejs-streams/</guid>
-      <description>The results of Stack Overflow Developer Survey 2020 for the second year in a row proved the popularity of Node.js. It also hit the top of the list of the most wanted technologies to learn by programmers who are not using it. It’s an obvious choice for frontend developers who are keen to move their JavaScript knowledge to the server-side . Apart from all of the similarities to the language used on a browser, it comes with a few hard to understand concepts.</description>
+      <description>Streams in nature flow water from one side to the other, streams in programming are the same but instead of water, they flow chunks of data. It is a sequential way of handling chunks of bytes. You can achieve a lot without using streams at all, but a thorough understanding of them will make you a much better developer.</description>
     </item>
     
     <item>
@@ -75,8 +70,7 @@ Temporal # Temporal is an ECMAScript proposal that is trying to solve a long-sta
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/i-was-invited-to-the-mindera-yellow-box-podcast-to-chat-the-state-of-the-web-development/</guid>
-      <description>I was invited to the Mindera Yellow Box Podcast to have a chat with Jose Fonseca about &amp;ldquo;The state of the Web development&amp;rdquo;. It was my podcasting debut and I was a bit stressed, but I managed to convey the message and I&amp;rsquo;m quite proud of how it&amp;rsquo;s turned out! You might disagree with some opinions, which is fine, I&amp;rsquo;m more than happy to have a beer and discuss.
-Enjoy 🎙</description>
+      <description>It was my podcasting debut and I was a bit stressed, but I managed to convey the message and I&#39;m quite proud of how it&#39;s turned out! You might disagree with some opinions, which is fine, I&#39;m more than happy to have a beer and discuss.</description>
     </item>
     
     <item>
@@ -85,7 +79,7 @@ Enjoy 🎙</description>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2020-june/</guid>
-      <description>The Last of Us Part II isn’t just Naughty Dog’s most ambitious game — it’s the most accessible, too # It is fantastic to see that accessibility features are considered early in the process of game creation, not like an afterthought that very often happens in the tech industry. Naughty Dog did an amazing job by introducing a plethora of features like high-contrast mode or magnification feature. I am not a big gamer, but this one I pre-ordered months ago.</description>
+      <description>Accessibility features in The Last of Us Part II, consideration of picking a right monitor for development, bunch of great news in Safari 14, HTML Essential Training and more…</description>
     </item>
     
     <item>
@@ -94,8 +88,7 @@ Enjoy 🎙</description>
       <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-not-a-diet-book-by-james-smith/</guid>
-      <description>My 30th birthday was the last time I felt great in my own body. My 33rd birthday is coming soon and I promised myself that I’m going to feel great with myself again. Whilst I change my diet habits and become much more active, I try to educate myself on how to do it healthily.
-I came across &amp;ldquo;Not a Diet Book&amp;rdquo; by James Smith accidentally whilst browsing the Audible library.</description>
+      <description>My 30th birthday was the last time I felt great in my own body. My 33rd birthday is coming soon and I promised myself that I’m going to feel great with myself again. Whilst I change my diet habits and become much more active, I try to educate myself on how to do it healthily.</description>
     </item>
     
     <item>
@@ -104,7 +97,7 @@ I came across &amp;ldquo;Not a Diet Book&amp;rdquo; by James Smith accidentally 
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-brzydki-zly-i-szczery-by-adam-ostrowski/</guid>
-      <description>As a 14 years old keen dancer I was extremely excited about the &amp;ldquo;Battle Of The Year&amp;rdquo; that took place in my hometown, Szczecin (Poland). Back then, it was one of the most prestigious breakdancing competitions in the world. I still have a great memories of some of the shows that took place that day. Another thing that I remember well is an MC who hosted the event — O.S.T.R. I kept dancing for the next decade until I struggled with a serious backbone injury, but O.</description>
+      <description>MC and producer Adam Ostrowski, better known as O.S.T.R. reveals quite a lot of his art but also personal life. His autobiography is funny and easy to read but also emotional and filled with passion.</description>
     </item>
     
     <item>
@@ -113,8 +106,7 @@ I came across &amp;ldquo;Not a Diet Book&amp;rdquo; by James Smith accidentally 
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-steve-jobs-the-exclusive-biography-by-walter-isaacson/</guid>
-      <description>I am an Apple fanboy, I watch all the live software and product announcements. Mac Pro is probably the only piece of hardware made by this company that I have never owned. I glorify the design choices by this company (apart from the Magic Mouse 2nd generation) and I celebrate when opening a box with new goodies every once in a while.
-To fully earn the &amp;ldquo;Apple fanboy&amp;rdquo; label I had to find out a bit more about the history of the company and its founder.</description>
+      <description>It is a very compelling read about the genius and the biggest asshat under the moon. From his childhood and throughout education, including projects and the loosing the battle with cancer. I would highly recommend this book not only to Apple fans, but to everyone who needs an inspirational kick in their life.</description>
     </item>
     
     <item>
@@ -123,8 +115,7 @@ To fully earn the &amp;ldquo;Apple fanboy&amp;rdquo; label I had to find out a b
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2020-may/</guid>
-      <description>Introducing Insomnia Designer # Insomnia is my favourite REST API client. I am very excited about just announced Insomnia Designer — a tool to help us edit and share OpenAPI specifications. It is looking polished, well-though piece of software, just like the Insomnia Core.
-GitHub Codespaces — Your instant dev environment # Another month and another big announcement from GitHub team. The full Visual Studio Code experience without leaving GitHub website.</description>
+      <description>Insomnia Designer to help us edit and share OpenAPI specifications, new GitHub features announced on GitHub Satellite, Logical assignment in JavaScript, new CSS layout features, Deno hits version 1.0, MongoDB for Visual Studio Code and more…</description>
     </item>
     
     <item>
@@ -133,7 +124,7 @@ GitHub Codespaces — Your instant dev environment # Another month and another b
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/native-lazy-loading-of-images-on-hugo-based-website/</guid>
-      <description>Images on the web take up more bandwidth than any other type of resources. Why do we have to load them all even if we are never going to scroll far enough to see them? Turns out that we don&amp;rsquo;t have to anymore — support for native lazy loading is coming. If you are using Hugo static site generator, the implementation of it is equally simple as adding it to an HTML file and you don&amp;rsquo;t have a good reason not to do so.</description>
+      <description>The implementation of lazy-loading images using Hugo is equally simple as adding it to an HTML file and you don’t have a good reason not to do so. Let me explain.</description>
     </item>
     
     <item>
@@ -142,7 +133,7 @@ GitHub Codespaces — Your instant dev environment # Another month and another b
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/my-favourite-visual-studio-code-tips-for-how-did-you-do-it-kind-of-people/</guid>
-      <description>Apart from a web browser, Visual Studio Code is the application that I spend the most time using. &amp;ldquo;How did you do it&amp;rdquo; is something that I hear quite often from other developers whilst using it in front of them. This article is exactly for those kind of people — Visual Studio Code users keen to learn a few little tips for productivity, keyboard shortcuts and little known hidden gems.</description>
+      <description>Would you like to learn a few little tips for  productivity, keyboard shortcuts and little known Visual Studio Code hidden gems. This article is for you!</description>
     </item>
     
     <item>
@@ -151,8 +142,7 @@ GitHub Codespaces — Your instant dev environment # Another month and another b
       <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-permanent-record-by-edward-snowden/</guid>
-      <description>After reading a few non-technical books I kinda missed some geeky publications. My friend Kyran recently recommended &amp;ldquo;Permanent Record&amp;rdquo; a book about a story that I had heard before from the movie &amp;ldquo;Snowden&amp;rdquo;. It&amp;rsquo;s been a while since I watched it, so I decided to be a bit more curious about the controversial story of NSA&amp;rsquo;s employee.
- &amp;ldquo;Permanent Record&amp;rdquo; by Edward Snowden is a highly-readable story of his life, from his early fascination of computers to the big reveal of the US government&amp;rsquo;s mass surveillance system.</description>
+      <description>My friend Kyran recently recommended &#34;Permanent Record&#34; a book about a story that I had heard before from the movie &#34;Snowden&#34;. It&#39;s been a while since I watched it, so I decided to be a bit more curious about the controversial story of NSA&#39;s employee.</description>
     </item>
     
     <item>
@@ -161,8 +151,7 @@ GitHub Codespaces — Your instant dev environment # Another month and another b
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2020-april/</guid>
-      <description>Introducing 1.1.1.1 for Families # Introduced two years ago secure DNS server by Cloudflare became my default resolver. They went step further with this idea and introduced multiple variations of this service dedicated to families. Free of malware 1.1.1.2 and 1.1.1.3 stripped down from adult content. Amazing idea for households with kids!
-CSS Findings From The New Facebook Design # Curious Ahmad Shadeed found a lot of interesting CSS patterns in a new Facebook design.</description>
+      <description>DNS server for families from CloudFlare, interesting CSS elements in new Facebook design, consideration for mocking objects in your unit tests, free GitHub for teams, TypeScript’s type notation, full-height element on iOS Safari and more… </description>
     </item>
     
     <item>
@@ -171,8 +160,7 @@ CSS Findings From The New Facebook Design # Curious Ahmad Shadeed found a lot of
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/mocking-functions-and-modules-with-jest/</guid>
-      <description>A JavaScript program can have several dependencies, internal and/or external, most likely represented by the list of imports on the very top of your script. To write deterministic, repeatable unit tests, we need to control the inputs, outputs and invocations of those dependencies. These objects that simulate the real objects are mocks. Let&amp;rsquo;s have a look at Wikipedia definition of Mock object.
- Mock objects are simulated objects that mimic the behavior of real objects in controlled ways, most often as part of a software testing initiative.</description>
+      <description>To write deterministic, repeatable unit tests, we need to control the inputs, outputs and invocations of mock objects. The Jest testing framework comes with great mocking capabilities. Let&#39;s have a look at them all.</description>
     </item>
     
     <item>
@@ -181,7 +169,7 @@ CSS Findings From The New Facebook Design # Curious Ahmad Shadeed found a lot of
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-the-lean-startup-by-eric-ries/</guid>
-      <description>I was recently inspired by a JavaScript Jabber podcast episode &amp;ldquo;How to Start a Side Hustle as a Programmer with Mani Vaya&amp;rdquo; so I decided to read an entrepreneurship book. &amp;ldquo;Business&amp;rdquo; is not the number one category of books that I would usually go for but despite this, I think that it&amp;rsquo;s good to diverge and embrace a project development from a different perspective. Time after time I have heard about the book &amp;ldquo;The Lean Startup&amp;rdquo; by Eric Reis, so I decided to finally give it a go.</description>
+      <description>&#34;Business&#34; is not the number one category of books that I would usually go for but despite this, I think that it&#39;s good to diverge and embrace a project development from a different perspective.</description>
     </item>
     
     <item>
@@ -190,8 +178,7 @@ CSS Findings From The New Facebook Design # Curious Ahmad Shadeed found a lot of
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/whats-new-in-ecmascript-2020/</guid>
-      <description>The list of new ECMAScript 2020 features is set in stone. Similarly, how I did it in 2016, 2017, 2018 and 2019, let&amp;rsquo;s have a look at what&amp;rsquo;s coming this year and a few practical examples.
- String.prototype.matchAll by Jordan Harband import() by Domenic Denicola BigInt – arbitrary precision integers by Daniel Ehrenberg Promise.allSettled by Jason Williams, Robert Pamely and Mathias Bynens globalThis by Jordan Harband for-in mechanics by Kevin Gibbons Optional chaining by Gabriel Isenberg, Claude Pache, Dustin Savery Nullish coalescing Operator by Gabriel Isenberg import.</description>
+      <description>The list of new ECMAScript 2020 features is set in stone. Let’s have a look at what’s coming this year and a few practical examples.</description>
     </item>
     
     <item>
@@ -200,8 +187,7 @@ CSS Findings From The New Facebook Design # Curious Ahmad Shadeed found a lot of
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2020-march/</guid>
-      <description>Why the GOV.UK Design System team changed the input type for numbers # A few consideration behind the number type input. This article provides a solutions for well articulated problems. I love accessibility reads like this, especially from Gov UK team.
-MonoLisa - A font family designed for software developers. Font follows function # There is not a lot of great font choices for developers. Mono Lisa looks very modern, supports all ligatures that some developers love (some hate), nice wider footprint and is presented on a stunning presentational website.</description>
+      <description>GOV.UK Design System team changed the input type for numbers, MonoLisa — stunning font family designed for software developers, npm is joining GitHub, CSS :nth-of-class selector, imact of CSS on screenreaders and more…</description>
     </item>
     
     <item>
@@ -210,7 +196,7 @@ MonoLisa - A font family designed for software developers. Font follows function
       <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/rss-feed-for-youtube-channels-and-github-project/</guid>
-      <description>Today a quick tip but a massive time saver in the long run. I often check YouTube to watch a new video made by my favourite creator. Then, two more. Uuu, this review of the latest Bose headphones looks interesting. &amp;ldquo;What&amp;rsquo;s in my bag&amp;rdquo; by Peter McKinnon — I must know what is inside his bag! &amp;ldquo;Why Casey Neistat Stopped Posting Videos&amp;rdquo; — how did I live my life without watching this one before.</description>
+      <description>Today a quick tip but a massive time saver in the long run. Let&#39;s stop being hooked on suggested youtube vides and watch only what we really care about.</description>
     </item>
     
     <item>
@@ -219,7 +205,7 @@ MonoLisa - A font family designed for software developers. Font follows function
       <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-endurance-by-scott-kelly/</guid>
-      <description>You go to school, finish a mildly interesting university, find an average job that pays your bills and enjoy the rest of your life&amp;hellip;until you die. At the same time you&amp;rsquo;re doing this there are incredibly driven, determined and hard-working people conducting spacewalks around 300km above the Earth&amp;rsquo;s surface. Even thinking about something like that feels like sci-fi but it&amp;rsquo;s not! I have always been curious about the subject of space travel, living in such a distant place and the daily life and routines out there.</description>
+      <description>I have always been curious about the subject of space travel, living in such a distant place and the daily life and routines out there. I couldn&#39;t have picked a better book to satisfy my curiosity.</description>
     </item>
     
     <item>
@@ -228,8 +214,7 @@ MonoLisa - A font family designed for software developers. Font follows function
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2020-february/</guid>
-      <description>Building the Web We Want # A new initiative in collaboration with Microsoft, Google, Mozilla, Samsung Internet and Igalia committed to make the open web a better place. Since now on, this fantastic movement can be supported by the web community, called The Web We Want. This article on CSS-Tricks elaborates about the idea and explains how to get involved.
-HTTPS Is Easy! # A little guide by amazing Troy Hunt about the HTTPS configuration with CloudFlare.</description>
+      <description>The Web We Want initiative, HTTPS Is Easy, new JavaScript bundler coded entirely in a go language, revolutionary TypeScript 3.8 changes, Firefox and Edge Support in Cypress 4.0 and more…</description>
     </item>
     
     <item>
@@ -238,7 +223,7 @@ HTTPS Is Easy! # A little guide by amazing Troy Hunt about the HTTPS configurati
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-humble-pi-a-comedy-of-maths-errors-by-matt-parker/</guid>
-      <description>Despite the fact that I have never had a trophy for being the best maths student at school, I always enjoyed mathematics. An understanding of the basics has helped me a lot in a real-life and probably not harmed my career either. I can get through some simple equations but everything more challenging than trigonometry or matrices normally ends up being a spectacular fiasco. My failures are very insignificant compared to the ones described in the book that I just read.</description>
+      <description>Despite the fact that I have never had a trophy for being the best maths student at school, I always enjoyed mathematics. I can get through some simple equations but everything more challenging than trigonometry or matrices normally ends up being a spectacular fiasco. My failures are very insignificant compared to the ones described in the book that I just read.</description>
     </item>
     
     <item>
@@ -247,8 +232,7 @@ HTTPS Is Easy! # A little guide by amazing Troy Hunt about the HTTPS configurati
       <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-gravitas-by-caroline-goyder/</guid>
-      <description>I am a constant joker! Most of the time there&amp;rsquo;s nothing bad about this, but in a senior-level position in a big software company, some level of seriousness can be helpful. The power to be a great communicator lies somewhere in-between, doesn&amp;rsquo;t it?
- I decided to dedicate some time to find that sweet spot and picked up &amp;ldquo;Gravitas: Communicate with Confidence, Influence and Authority&amp;rdquo; by Caroline Goyder. It was a great choice!</description>
+      <description>I am a constant joker! Most of the time there&#39;s nothing bad about this, but in a senior-level position in big software company, some level of seriousness can be helpful. The power to be a great communicator lies somewhere in-between, doesn&#39;t it?</description>
     </item>
     
     <item>
@@ -257,8 +241,7 @@ HTTPS Is Easy! # A little guide by amazing Troy Hunt about the HTTPS configurati
       <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2020-january/</guid>
-      <description>TSConf 2019 - Watch the Whole Conference # All talks from TSConf 2019 are now online. They are all very insightful and I highly encourage you to watch them all. If you have no time and want to pick just one — &amp;ldquo;Deno is a New Way to JavaScript&amp;rdquo; by Ryan Dahl &amp;amp; Kitson Kelly would be my pick.
-Goodbye, Clean Code # Dan Abramov from React core team explains why striving for the cleanest and &amp;ldquo;DRYiest&amp;rdquo; implementation of your new feature is not always the best idea.</description>
+      <description>TSConf 2019 talks are online! Dan Abramov ans his advice abour writing a clean code, animate text along the SVG path, Microsoft Edge on Chromium, beautiful JetBrains Mono, Yarn 2 and more…</description>
     </item>
     
     <item>
@@ -267,8 +250,7 @@ Goodbye, Clean Code # Dan Abramov from React core team explains why striving for
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/til-git-switch-git-restore/</guid>
-      <description>It was such an ordinary day at work. I was pair programming with my friend (hi Pedro), we finished a feature and then he jumped to the command line to type git switch. Instant WTF moment! I have been using git for years and I have never come across this one. I jumped on the docs, learned a thing and now it is time to share it with you.
-New stuff in Git 2.</description>
+      <description>Switching branches and restoring files to its initial state are very common operations. Why the hell should we use a single command to perform such different actions?</description>
     </item>
     
     <item>
@@ -277,7 +259,7 @@ New stuff in Git 2.</description>
       <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-peter-pan/</guid>
-      <description>Yes, &amp;ldquo;Peter Pan&amp;rdquo;, a kids book. It’s not me being childish, it’s you being boring — sorry for being brutally honest. After the last decade that I’ve spent reading serious, mature, programming and science-related books, I decided to re-experience that feeling of pure adventure and make-believe which comes from reading a children’s book. I don&amp;rsquo;t regret this decision and I am sure I am going to read more toddler novels soon.</description>
+      <description>After the last decade that I’ve spent reading serious, mature, programming and science-related books, I decided to re-experience that feeling of pure adventure and make-believe which comes from reading a children’s book. I don&#39;t regret this decision and I am sure I am going to read more toddler novels soon.</description>
     </item>
     
     <item>
@@ -286,8 +268,7 @@ New stuff in Git 2.</description>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/book-review-atomic-habits-an-easy-proven-way-to-build-good-habits-break-bad-ones-by-james-clear/</guid>
-      <description>Welcome back in 2020. I have always been reading a ton but this year I am planning to make a subject shift. Less nerdy technical gibberish and more stuff that can help me to be a better version of myself. Let&amp;rsquo;s start 2020 with the &amp;ldquo;Atomic Habits: An Easy &amp;amp; Proven Way to Build Good Habits &amp;amp; Break Bad Ones&amp;rdquo; by James Clear.
-This book is a framework that helps in creating new habits that, repeated over time, can significantly improve the quality of your life.</description>
+      <description>I have always been reading a ton but this year I am planning to make a subject shift. Less nerdy technical gibberish and more stuff that can help me to be a better version of myself.</description>
     </item>
     
     <item>
@@ -296,8 +277,7 @@ This book is a framework that helps in creating new habits that, repeated over t
       <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-december/</guid>
-      <description>What is a screen reader? # Screen reader basics explained, how they work and how people with vision impairments use them. This post is full of practical pieces of advice about frontend techniques to improve the accessibility of our web projects. Very helpful resource.
-Explaining GraphQL Connections # Since I have been working with GraphQL, the concept of Relay-like connections using edges and nodes was always a bit confusing to me.</description>
+      <description>Screen readers explained, graphQL connections demystified, Quoting in HTML, the State of JavaScript in 2019, Const Assertions in TypeScript, hot tips to become a better Node.js developer, the CSS Containment Specification and more…</description>
     </item>
     
     <item>
@@ -306,7 +286,7 @@ Explaining GraphQL Connections # Since I have been working with GraphQL, the con
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/a-look-back-at-2019/</guid>
-      <description>Like I did in 2016, 2017 and 2018, I am not going to break with this tradition, so I am going to share some personal thoughts about this year as well. The end of a December is a fantastic opportunity to slow down, enjoy Christmas with family, hang out with best friends, summarize achievements and failures of the last year and think about some goals for the upcoming year. Last time I committed myself to a few goals, and even though I didn&amp;rsquo;t manage to tick the box next to every single one of them, this year was great.</description>
+      <description>Allow me to use this post-Christmas time as an excuse to share some achievements and failures from the past year. It is also a great opportunity to think about some goals for the coming year, 2020.</description>
     </item>
     
     <item>
@@ -315,8 +295,7 @@ Explaining GraphQL Connections # Since I have been working with GraphQL, the con
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/attach-visual-studio-code-debugger-to-sam-serverless-application-model-local-endpoint/</guid>
-      <description>Hi! I am not going to go through the basics of debugging or AWS SAM framework. At this point you are most likely familiar with those — otherwise, you would’ve not landed on this page. I am going to share with you how to attach Visual Studio Code debugger to local endpoint served by AWS SAM (Serverless Application Model). Let&amp;rsquo;s start with a simple server-less example app.
-. ├── src │ └── index.</description>
+      <description>A debugger is something that I cannot live without. Setting it up for my current project built using SAM framework and TypeScript took me a while but I finally got it right.</description>
     </item>
     
     <item>
@@ -325,8 +304,7 @@ Explaining GraphQL Connections # Since I have been working with GraphQL, the con
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-november/</guid>
-      <description>Variable Fonts: What web authors need to know # A great guide on using CSS Variable Fonts in 2019 by Jason Pamental. If you are building a modern type system this resource comes very handy.
-Visual Studio Online # It is happening! My favourite code editor built using web technologies is moving to the place where it belongs to — to the web. Microsoft team just announced a cloud-powered version of Visual Studio Code!</description>
+      <description>Variable Fonts, Visual Studio Online, Implicit State Machines, TypeScript 3.7, Chrome Dev Summit 2019, new methods on String prototype, Google Metrics, CSS Logical Properties, AWS FIFO SQS and more…</description>
     </item>
     
     <item>
@@ -335,8 +313,7 @@ Visual Studio Online # It is happening! My favourite code editor built using web
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/does-javascript-keep-you-too-busy-to-care-about-css-here-are-recent-features-you-want-to-know-about/</guid>
-      <description>For the last few years, I have been busy exploring the world of JavaScript to the point that I neglected my passion for CSS. I am sure there are more people like me out there. I owe CSS a debt so I curated a list of recent features that you may want to know about if you didn&amp;rsquo;t follow this space for a little while.
-  CSS custom properties (CSS variables) CSS Grid Layout Variable fonts CSS Scroll Snap CSS Logical Properties and Values Position sticky Houdini Feature query with @supports Preprocessors and the CSS-in-JS drama Extra stuff  CSS custom properties (CSS variables) # We got used to assigning reusable values to variables using pre-processors like Sass, LESS and Stylus.</description>
+      <description>For the last few years, I have been busy exploring the world of JavaScript to the point that I neglected my passion for CSS. I owe CSS a debt so I curated a list of recent features that you may want to know about if you didn&#39;t follow this space for a little while.</description>
     </item>
     
     <item>
@@ -345,7 +322,7 @@ Visual Studio Online # It is happening! My favourite code editor built using web
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-october/</guid>
-      <description>Introducing Sass Modules # Everything that is happening within a CSS in JS space excites me so much but good old plain Sass is still one of my favourite ways of authoring styling. I am very glad to see this software is still actively maintained and new features are being added. Sass Modules is a fascinating concept that should be familiar to developers proficient with any programming language that has a concept of modules.</description>
+      <description>Introducing Sass Modules, 100% CSS Mario Kart, Faces of Open Source, React Concurrent Modem, the two-value syntax of the CSS Display property and more…</description>
     </item>
     
     <item>
@@ -354,8 +331,7 @@ Visual Studio Online # It is happening! My favourite code editor built using web
       <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/thanks-to-react-advanced-london/</guid>
-      <description>I couldn&amp;rsquo;t be happier when organizers reached out to me to invite me to the React Advanced London. When it comes to frontend apps React has always been my preference for building interactive experiences. Having an opportunity to spend a day surrounded by industry leaders and creators of my favourite open-source projects is an irreplaceable experience.
- Checking some React docs on a stage during a live demo and keeping it relaxed, only hilarious Ken Wheeler could do it.</description>
+      <description>Whenever it comes to frontend apps, React is the tool that I feel the most comfortable with. Couldn&#39;t be happier when organizers reached out to me and invited me to React Advanced London.</description>
     </item>
     
     <item>
@@ -364,8 +340,7 @@ Visual Studio Online # It is happening! My favourite code editor built using web
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/til-the-power-of-json-stringify-replacer-parameter/</guid>
-      <description>I had an interesting problem that melted my brain a bit. Let me share what I have learned and maybe save you a few moments when you come across a similar challenge. Lets have some fun with JSON.stringify().
-const dude = { name: &amp;#34;Pawel&amp;#34;, friends: [&amp;#34;Dan&amp;#34;, &amp;#34;Pedro&amp;#34;, &amp;#34;Mr Gregory&amp;#34;] }; const dudeStringified = JSON.stringify(dude); console.log(dudeStringified); // {&amp;#34;name&amp;#34;:&amp;#34;Pawel&amp;#34;,&amp;#34;friends&amp;#34;:[&amp;#34;Dan&amp;#34;,&amp;#34;Pedro&amp;#34;,&amp;#34;Mr Gregory&amp;#34;]} No surprises here. Unfortunately, the architecture used on my project (AWS DynamoDB for curious beasts) forced me to deal with ECMAScript Sets and things became more interesting.</description>
+      <description>I had a challenging problem with JSON stringify that ignored my data in a place where I expected sets of values. Luckily I managed to solve it in a very elegant way.</description>
     </item>
     
     <item>
@@ -374,8 +349,7 @@ const dude = { name: &amp;#34;Pawel&amp;#34;, friends: [&amp;#34;Dan&amp;#34;, &
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-september/</guid>
-      <description>Pitching Your Writing To Publications # Recording videos, running personal blog and tweeting helpful stuff are helpful to gain a recognition but writing for reputable services is a next step in leveling up in this industry. Rachel Andrew writes down a great article full of advices how to do it right. From submitting a post, writing pitch, outlining article to creating a quick bio. Very helpful article!
-Command Line Heroes # I listen to a lot of podcast but very rarely I come across one that I am willing to recommend and share with other people on my website.</description>
+      <description>Writing for big publications, Command Line Heroes podcast, TypeScript vs ReasonML, Can I use merges with MDN, FaunaDB on Netlify, great guide to HTML5 `&lt;head&gt;` elements and more…</description>
     </item>
     
     <item>
@@ -384,8 +358,7 @@ Command Line Heroes # I listen to a lot of podcast but very rarely I come across
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/thanks-to-mongodb-local-london-2019/</guid>
-      <description>Thanks to my good friend Pedro Fidalgo I had the opportunity to attend MongoDB.local London 2019. The data layer of my current side project (stay tuned because more info is coming soon) lives on MongoDB so it would be silly not to join this one.
- Having an opportunity to learn the subject from its creators is irreplaceable and this time it wasn&amp;rsquo;t an exception. I came back home full of new knowledge that I am eager to translate to my codebase.</description>
+      <description>Being a MongoDB user I could not wait to go to MongoDB.local London 2019. Having an opportunity to learn the subject from its creators is irreplaceable and this time it wasn&#39;t an exception.</description>
     </item>
     
     <item>
@@ -394,8 +367,7 @@ Command Line Heroes # I listen to a lot of podcast but very rarely I come across
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-august/</guid>
-      <description>What webmasters should know about Google’s “core updates” # Webmaster Central Blog published a great bullet-point list of great SEO practices. Pretty much what I do on my website. Worth to skim through for every single content editor and website owner.
-How to get experience as a software engineer # Kent C. Dodds writes about gaining a new experience as a software engineer. It is not full of advices that will make you a top developer in no time — totally opposite.</description>
+      <description>Google’s “core updates”, get experience as a software engineer, WebKit Tracking Prevention Policy, optional chaining in JavaScript and more…</description>
     </item>
     
     <item>
@@ -404,8 +376,7 @@ How to get experience as a software engineer # Kent C. Dodds writes about gainin
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/promise-combinators-explained/</guid>
-      <description>Promises added to ECMAScript 2015 specification gave us a new way of dealing with deferred computations. In &amp;ldquo;From callback hell through promises to async functions&amp;rdquo; I explained the differences between the common methods of dealing with asynchronous code. Today I would like to go through Promise combinators — static methods that take compound promises as an argument.
- Prerequisite — basic promise states and methods # The then, catch, finally, resolve and reject methods should already feel comfortable by now but just in case you need a refresher, let&amp;rsquo;s have a quick glance at this simple example.</description>
+      <description>Promise.all, Promise.race, Promise.allSettled and Promise.any help us a lot with operations on compound promises. Let me clarify the difference between them.</description>
     </item>
     
     <item>
@@ -414,8 +385,7 @@ How to get experience as a software engineer # Kent C. Dodds writes about gainin
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-july/</guid>
-      <description>How do JavaScript’s global variables really work? # Dr. Axel Rauschmayer explains how global variables really work. I learned a ton from this short article despite the fact that I work with JavaScript on daily basis for few years. As always very concise top explanation.
-Netlify Analytics - Accurate insights without performance impacts # There is no chance that I will ever ask my users to download expensive client-side scripts in order to give me some very inaccurate insights about my traffic.</description>
+      <description>JavaScript global variables, Netlify Analytics, AWS Toolkit for Visual Studio Code, Algebraic Effects, CSS Lists, Markers, Counters and Margins, optional chaining and more…</description>
     </item>
     
     <item>
@@ -424,7 +394,7 @@ Netlify Analytics - Accurate insights without performance impacts # There is no 
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/i-built-a-thing-instagram-line-break/</guid>
-      <description>It was a great day cycling around Peak District with my friends. I came back home very keen to share on Instagram a few pictures that I took that day. I prepared a few really cool pictures but I really struggled to add a description in a format that I wanted it to be. Turns out that Instagram doesn&amp;rsquo;t want you to insert line breaks between caption paragraphs (apparently the same restriction applies to bio).</description>
+      <description>Instagram doesn&#39;t want you to insert line breaks in captions and bios. Thats the reason why I created this little web app. Enjoy!</description>
     </item>
     
     <item>
@@ -433,8 +403,7 @@ Netlify Analytics - Accurate insights without performance impacts # There is no 
       <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/configure-a-local-wordpress-development-using-docker/</guid>
-      <description>One of the most popular articles on my website is &amp;ldquo;Configure a local WordPress development on macOS from scratch&amp;rdquo;. I have recently used Docker a lot so I decided to tackle the same subject again but this time using containers.
- This is not a Docker tutorial although by following along you learn how helpful this tool can be. I highly encourage you to familiarize yourself with few basic concepts like: images, containers, networks and volumes.</description>
+      <description>WordPress being the absolute top of the podium of user-friendly content management systems can be cumbersome to spin up locally. Docker containers are perfect for tasks like this so let me explain.</description>
     </item>
     
     <item>
@@ -443,8 +412,7 @@ Netlify Analytics - Accurate insights without performance impacts # There is no 
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-june/</guid>
-      <description>WWDC19 - Apple Developer # Annual Apple event for developers brought lots of great things. My top highlights are: SwiftUI, Apple as an identity provider (login with Apple) and this little section of docs about changing the default shell on your Mac to zsh. I highly encourage all developers interested in this ecosystem to watch at least an opening ceremony.
-Plugins are coming to Figma # Sketch plugin ecosystem is an incredible place to find a little code snippets to boost our workflow — similar concept is coming to Figma.</description>
+      <description>The Evolution Of A Brand, plugins are coming to Figma, WWDC19 and more…</description>
     </item>
     
     <item>
@@ -453,8 +421,7 @@ Plugins are coming to Figma # Sketch plugin ecosystem is an incredible place to 
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/apple-changed-the-default-shell-from-bash-to-zsh-so-did-i/</guid>
-      <description>Announced at WWDC 2019 (Worldwide Developers Conference), macOS Catalina comes with a lot of changes but in all honesty, I didn&amp;rsquo;t expect switching the default shell to zsh (Z shell). Since OS X 10.2 Jaguar released in 2002 bash has been the primary operating system shell, so why all the sudden this change? Long story short — licensing.
- Newer versions of Bash are licensed under the GPLv3 (GNU General Public License version 3) which says you can&amp;rsquo;t use it on a system that blocks 3rd party software installation.</description>
+      <description>Love it or hate it but since macOS Catalina the default shell language is zsh. I am very excited about this decision so let me share with you my favourite parts of the new command-line interpreter.</description>
     </item>
     
     <item>
@@ -463,7 +430,7 @@ Plugins are coming to Figma # Sketch plugin ecosystem is an incredible place to 
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-may/</guid>
-      <description>Flutter: a Portable UI Framework for Mobile, Web, Embedded, and Desktop # Google I/O every year brings a lot of exciting news in the software and hardware world. One of the coolest one is Flutter that is no longer a tool to build efficient multi-platform mobile applications but also for Web and desktop platforms. I have a very little experience with this Dart-based framework but I am extremely keen to have a great purpose to get my hands dirty with it.</description>
+      <description>Flutter framework is exploding on Google I/O, Windows Subsystem for Linux 2, Windows Terminal, CodeSandbox raises $2.4M, font-display on Google Fonts, HTML Portals, GitHub Package Registry, Node 10 on AWS Lambda, collaboration between W3C and WHATWG and much more…</description>
     </item>
     
     <item>
@@ -472,8 +439,7 @@ Plugins are coming to Figma # Sketch plugin ecosystem is an incredible place to 
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/typescript-interface-vs-type/</guid>
-      <description>I&amp;rsquo;m not an expert in the field of TypeScript by any means but I have worked with it every single day for the last few months and I am really enjoying the ride. Beneath its straight-forward set of features there are some confusing concepts as well. Should it be an interface or a type alias? This is a question asked a lot by newcomers.
-interface DudeInterface { name: string; age: number; } const pawel: DudeInterface = { name: &amp;#34;Pawel&amp;#34;, age: 31 }; type DudeType = { name: string, age: number }; const pawel: DudeType = { name: &amp;#34;Pawel&amp;#34;, age: 31 }; Both methods are correct to describe a structure of an object but which one should we use?</description>
+      <description>Should it be an interface or a type alias? This is a question asked a lot by newcomers. Let me clarify the difference.</description>
     </item>
     
     <item>
@@ -482,8 +448,7 @@ interface DudeInterface { name: string; age: number; } const pawel: DudeInterfac
       <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-april/</guid>
-      <description>Inspect Network Activity - Chrome DevTools 101 # Made by Google Chrome Developers great tutorial about Google Chrome Network tab. Despite the fact that I use it on daily basis I learned few things from it and I believe that you can get one or two things out of it too.
-  Fixed Headers, On-Page Links, and Overlapping Content, Oh My! # Have you every tried to create an on-page link to anchor element but it didn&amp;rsquo;t play nice with your fixed elements?</description>
+      <description>Google Chrome Network tab explained, CSS scroll-margin and scroll-padding,native lazy-loading for images and iframes is coming, Front-end Developer Handbook 2019, performance hints guide, state management in React apps in 2019, native ECMAScript modules in Node.js and more…</description>
     </item>
     
     <item>
@@ -492,8 +457,7 @@ interface DudeInterface { name: string; age: number; } const pawel: DudeInterfac
       <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/i-built-a-thing-httpsc-simple-http-status-codes-reference-cli/</guid>
-      <description>How often do you visit a Wikipedia for a definition of a HTTP status code? I don&amp;rsquo;t know how about you but it happens to me at least once a week. To make it a bit easier I created a httpsc — simple HTTP status codes reference CLI.
- httpsc CLI # The httpsc was built using Node.js — presumably majority of my readers already have it installed but if not, give &amp;ldquo;Install Node.</description>
+      <description>How often do you visit a Wikipedia for a definition of a HTTP status code? I don&#39;t know how about you but it happens to me at least once a week. To make it a bit easier I created a httpsc.</description>
     </item>
     
     <item>
@@ -502,8 +466,7 @@ interface DudeInterface { name: string; age: number; } const pawel: DudeInterfac
       <pubDate>Sun, 31 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-march/</guid>
-      <description>CSS math functions # Are you waiting for the next big thing in CSS? There you go.
-KV Storage, the Web&amp;rsquo;s First Built-in Module # Web platform offers few ways of storing data. The most popular is slow and synchronous localStorage followed by pain-full to use IndexedDB. The first standard JavaScript library (built-in module) is coming to address this issues — KV Storage. Import maps are here to help to resolve a path to a module.</description>
+      <description>CSS Math Functions are coming, KV Storage, promissing plans for Sketch App, Aspect Ratio unit in CSS, Stadia, Amazon Glacier even more cost effective and more…</description>
     </item>
     
     <item>
@@ -512,7 +475,7 @@ KV Storage, the Web&amp;rsquo;s First Built-in Module # Web platform offers few 
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/build-your-first-aws-serverless-app/</guid>
-      <description>After years of frontend experience, through building AR / VR applications I recently landed a backend-focused role. Luckily I&amp;rsquo;ve found myself being a part of a team of super talented people working on serverless microservices on the AWS (Amazon Web Services) platform. Having no previous experience in this field, let me share with you what I&amp;rsquo;ve learnt during my initial exploration into this arena and build a little serverless app with you.</description>
+      <description>After years spent working on frontend development, through building AR / VR applications, I recently ended up in a team of talented people building serverless microservices on the AWS platform. Let me share with you some of my experiences.</description>
     </item>
     
     <item>
@@ -521,9 +484,7 @@ KV Storage, the Web&amp;rsquo;s First Built-in Module # Web platform offers few 
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-february/</guid>
-      <description>React v16.8: The One With Hooks # Presented on the React Conf 2018 few months ago hooks are part of a stable React 16.8. This is one of the most exciting news for front end developers in a while.
-CSS Position Sticky - How It Really Works! # This article by Elad Shechter is the best explanation of CSS position: sticky around. Sticked to my brain after reading it.
-This.JavaScript - State of Frameworks &amp;amp; Libraries # Hosted by Tracy Lee and Bonnie Brennan &amp;ldquo;State of Frameworks &amp;amp; Libraries&amp;rdquo; is a necessary update for everyone who wants to stay fresh on JS land.</description>
+      <description>React Hooks landed in v16.8, CSS position sticky explained, State of JavaScript Frameworks &amp; Libraries, future of TSLint and Twelve-Factor App Methodology to Serverless Applications.</description>
     </item>
     
     <item>
@@ -532,8 +493,7 @@ This.JavaScript - State of Frameworks &amp;amp; Libraries # Hosted by Tracy Lee 
       <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/whats-new-in-ecmascript-2019/</guid>
-      <description>The Ecma TC39 committee responsible for the ECMAScript specification confirmed a list of features that have reached stage 4, meaning that they will become part of the ECMAScript 2019 specification. Three years ago I published &amp;ldquo;What&amp;rsquo;s new in ECMAScript 2016&amp;rdquo;, two years ago &amp;ldquo;What&amp;rsquo;s new in ECMAScript 2017&amp;rdquo; and year later &amp;ldquo;What&amp;rsquo;s new in ECMAScript 2018&amp;rdquo;. It&amp;rsquo;s time to add a few more goodies.
-Optional catch binding by Michael Ficarra # You must have used a try.</description>
+      <description>The final list of features that are joining the ECMAScript specification this year is ready. Here&#39;s a quick summary and look at some practical examples.</description>
     </item>
     
     <item>
@@ -542,8 +502,7 @@ Optional catch binding by Michael Ficarra # You must have used a try.</descripti
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2019-january/</guid>
-      <description>Making Future Interfaces: Algorithmic Layouts # Heydon Pickering, a big accessible web advocate and author of my favorite book about the subject — &amp;ldquo;Inclusive Design Patterns&amp;rdquo;. He produced a lot of good video content recently but the one about modern layout techniques is outstanding. Very good breakpoint-less methods and funny sense of humor. Highly recommended to follow his YouTube channel.
-  New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering # GitHub with free private repositories — finally!</description>
+      <description>Algorithmic layouts by Heydon Pickering, free private repos on GitHub, the future of TypeScript linting and AWS services explained.</description>
     </item>
     
     <item>
@@ -552,7 +511,7 @@ Optional catch binding by Michael Ficarra # You must have used a try.</descripti
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/linting-typescript/</guid>
-      <description>When I started using TypeScript some time ago I identified one thing that I am missing from the vanilla JavaScript territory — linting. Having Prettier take care of stylistic aspects of my codebase and ESLint catching potential errors — that&amp;rsquo;s the way how I tend to live my life. Despite the fact that ESLint can help me with formatting flaws I much prefer using Prettier for it. I consider its restricted configuration options and opinionated rules to be its best features.</description>
+      <description>Lint or not to lint? TSLint or ESLint? It is hard to decide what to use to identify potential errors. Let me elaborate why I chose ESLint to help me doing that.</description>
     </item>
     
     <item>
@@ -561,8 +520,7 @@ Optional catch binding by Michael Ficarra # You must have used a try.</descripti
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/install-nodejs-installer-vs-homebrew-vs-nvm/</guid>
-      <description>No matter if you are working on backend or are in the frontend camp, Node.js is getting more popular day by day and you may need to install it at some point. There is plenty of ways to install it on your operating system and I am about to show you the most popular methods and highlight pros and cons of each of them.
-Pre-built installer for your platform # The easiest and most obvious way is to download a pre-built installer for your platform from the Node.</description>
+      <description>There is plenty of ways to install Node.js and I am about to show you the most popular methods and highlight pros and cons of each of them</description>
     </item>
     
     <item>
@@ -571,7 +529,7 @@ Pre-built installer for your platform # The easiest and most obvious way is to d
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-december/</guid>
-      <description>Microsoft is building a Chromium-powered web browser that will replace Edge on Windows 10 # Chromium based Anaheim is going to replace Microsoft Edge that will land on a Windows 10 at some point in 2019. This is a big change as the default HTML rendering engine will be replaced with the one that powers the most popular browser on the world Google Chrome. There is no info about the future of Chakra — JavaScript layer used by Microsoft developers.</description>
+      <description>Chromium-based Anaheim browser on Windows, Dan Abramov started his blog, WordPress 5 Bebo landed and more!</description>
     </item>
     
     <item>
@@ -580,7 +538,7 @@ Pre-built installer for your platform # The easiest and most obvious way is to d
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/a-look-back-at-2018/</guid>
-      <description>This isn&amp;rsquo;t a post about a JavaScript — not about programming at all, in fact. Nor about photography, or graphic design either. Today is the day for a special post to recap my achievements and fails from the past year and reveal some plans for the next one. I&amp;rsquo;ve been cultivating this ritual for a few years now (&amp;ldquo;A look back at 2016&amp;rdquo; and &amp;ldquo;A look back at 2017&amp;rdquo;) and couldn&amp;rsquo;t let this tradition pass so here I am with this year&amp;rsquo;s update.</description>
+      <description>Another New Year&#39;s Eve is on the horizon — the perfect time to summarise the things that went well, not so well and make some plans for the next twelve months.</description>
     </item>
     
     <item>
@@ -589,8 +547,7 @@ Pre-built installer for your platform # The easiest and most obvious way is to d
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-november/</guid>
-      <description>Faster async functions and promises # Developers from V8 team (JavaScript engine behind the Google Chrome, Node and Electron) shared fascinating news and made developers life a bit easier. There is no room for discussion about &amp;ldquo;Promise vs async / await&amp;rdquo; anymore. The engine is much better optimize to work with a second one. If you prefer to watch a video over reading lengthy articles…
-  Chrome Dev Summit 2018 # The 6th Chrome Dev Summit took place on November 12th and 13th!</description>
+      <description>How V8 handles promises and async / await functions, Chrome Dev Summit 2018, The State of JavaScript, Custom Elements for React developers and the future of programming by uncle Bob.</description>
     </item>
     
     <item>
@@ -599,8 +556,7 @@ Pre-built installer for your platform # The easiest and most obvious way is to d
       <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/cross-cutting-functionality-in-react-using-higher-order-components-render-props-and-hooks/</guid>
-      <description>Working with modern JavaScript frameworks is all about reusable components that contain the markup, styling and business logic — React is fantastic at it and is gaining more popularity every year. Very often though, we have a situation where a few components contain the same functionality and we need a way to abstract it out according to our DRY (don&amp;rsquo;t repeat yourself) principle that we&amp;rsquo;ve been developing for years.
- Practice is the best teacher so let&amp;rsquo;s say that we have two components: &amp;lt;Content /&amp;gt; and &amp;lt;Sidebar /&amp;gt;.</description>
+      <description>When working with modern JavaScript frameworks we often have to share the same piece of functionality across multiple components. Let me explain a few patterns that make this a breeze.</description>
     </item>
     
     <item>
@@ -609,8 +565,7 @@ Pre-built installer for your platform # The easiest and most obvious way is to d
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-october/</guid>
-      <description>Welcome to Solid # Sir Tim Berners-Lee — the creator of World Wide Web — announced the Solid ecosystem. The motivation and the way it works seems to be well-thought. I still don&amp;rsquo;t understand it thoroughly but it is definitely a thing that is worth to follow.
-Create React App 2.0: Babel 7, Sass, and More # Years worth of improvements in a single dependency update just announced by React team.</description>
+      <description>Welcome to Solid, Create React App 2.0, the state of Houdini API, Adobe Fonts, GitHub Actions, relative time format is coming to JavaScript, React 16.6 released and Hooks announced on React Conf 2018. Very crazy month!</description>
     </item>
     
     <item>
@@ -619,7 +574,7 @@ Create React App 2.0: Babel 7, Sass, and More # Years worth of improvements in a
       <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/i-built-a-thing-pinbuddy/</guid>
-      <description>The internet is full of useful things that are worth revisiting in the future. Bookmarking them all in a browser built-in feature is an option but it quickly becomes unmanageable after a while. A myriad of bookmarking services have been born to solve this issue and my favourite amongst them is Pinboard built by Maciej Cegłowski. Maybe it isn&amp;rsquo;t the prettiest website around neither is the API the cleanest and most intuitive but it definitely comes with one big advantage — it works.</description>
+      <description>PinBuddy is a Google Chrome toolbar extension for the Pinboard bookmarking service that lets you browse and add new bookmarks with ease. It is fully keyboard accessible and highlights previously bookmarked websites. It uses API tokens for server communications and never asks for your authentication credentials hence secure.</description>
     </item>
     
     <item>
@@ -628,7 +583,7 @@ Create React App 2.0: Babel 7, Sass, and More # Years worth of improvements in a
       <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-september/</guid>
-      <description>React Fire: Modernizing React DOM # Dan Abramov shared future plans for modernizing React DOM called &amp;ldquo;React Fire&amp;rdquo;. Some of the major changes are: mirror the browser behavior of input&amp;rsquo;s value attribute, attaching events on a React root component instead of document, migration from onChange to onInput, events system simplification, class instead of className and more. Unfortunately these innovations will introduce some breaking changes therefore we should expect them in next major release.</description>
+      <description>React Fire and changes to React DOM, CSS Scroll Snapping, GitHub PRs in Visual Studio Code, animations in UX and more…</description>
     </item>
     
     <item>
@@ -637,9 +592,7 @@ Create React App 2.0: Babel 7, Sass, and More # Years worth of improvements in a
       <pubDate>Sat, 29 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/what-did-you-learn-today/</guid>
-      <description>Since I joined Mindera a few months ago I&amp;rsquo;ve cultivated a daily habit that I randomly initiated on one of my first days within my new workplace. At some point in the day I&amp;rsquo;ll ask my team members…
- What did you learn today?
- Whenever you&amp;rsquo;re put on the spot with a question like this your first initial answer is probably &amp;ldquo;er, nothing&amp;rdquo;. Then you do a quick scan of all the challenges that came up during the day and you realise that…</description>
+      <description>Since I joined Mindera a few months ago I&#39;ve cultivated a daily habit — at some point in the day I&#39;ll ask my team members…</description>
     </item>
     
     <item>
@@ -648,8 +601,7 @@ Create React App 2.0: Babel 7, Sass, and More # Years worth of improvements in a
       <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-august/</guid>
-      <description>Your skip links are broken # Hampus Sethfors published a really great post about &amp;ldquo;Skip links&amp;rdquo; that we all tend to implement on out web projects as an accessibility feature. Turns out that they don&amp;rsquo;t work well on mobile devices. There is a temporary solution suggested by Paul J. Adam but it should be fixed by browser developers eventually.
-CSS Grid Layout Visual Cheatsheet # This is my new favorite CSS Grid cheat sheet.</description>
+      <description>Why your skip links are broken, CSS Grid visualized, native lazy load, the state of mobile platforms, whats new in Babel 7, color formats and InDesign killer. This and much more on this month top picks!</description>
     </item>
     
     <item>
@@ -658,8 +610,7 @@ CSS Grid Layout Visual Cheatsheet # This is my new favorite CSS Grid cheat sheet
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/semantic-versioning-semver-explained/</guid>
-      <description>Software nowadays is rarely built independently without the help of external packages, plugins or frameworks. It normally comes with a bunch of dependencies developed by other developers and we need a way to track the versions of them. Following a meaningful convention helps to track software progress and avoid API collisions. Adopted by multiple ecosystems and software architectures Semantic Versioning (commonly called SemVer) helps with this.
-The major.minor.patch notation comes with a ton of information about the software.</description>
+      <description>The versioning of software seems to be a confusing concept for developers. The meaning behind the versioning format isn&#39;t coming out of the blue so let me help you to understand it.</description>
     </item>
     
     <item>
@@ -668,7 +619,7 @@ The major.minor.patch notation comes with a ton of information about the softwar
       <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/capture-one-pro-the-best-parts/</guid>
-      <description>From Monday to Friday I am a Senior Front-end Developer at Mindera but come the weekend, I turn into a hobbyist photographer. After shooting analog using a Hasselblad 500C/M for years I recently became the happy owner of a Sony α7R III. As far as shooting goes on an advanced camera like this it is pure pleasure. To take a good picture you need to have a good eye — this applies to both analog and digital worlds.</description>
+      <description>Amongst the multiple RAW image converters available on the market, I settled with the one by Phase One. Let me share with you a few reasons why I made this choice.</description>
     </item>
     
     <item>
@@ -677,8 +628,7 @@ The major.minor.patch notation comes with a ton of information about the softwar
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-july/</guid>
-      <description>npm Joins ECMA International and TC39 # This is kind of a big thing, although the post doesn&amp;rsquo;t explain what kind of benefits we should expect as a community of developers. Subject worth to follow though.
-Affinity Designer for iPad # Have you ever used Affinity Photo or Affinity Designer? I love both of these apps and I use them on a daily basis. They are my main reason why I don&amp;rsquo;t miss Adobe products.</description>
+      <description>Npm joins TC39! Affinity Designer for iPad! Moment for iOS! Accessibility for Teams! CSS Container Queries! State of Browsers! CSS Shapes! TypeScript 3.0 and more…</description>
     </item>
     
     <item>
@@ -687,7 +637,7 @@ Affinity Designer for iPad # Have you ever used Affinity Photo or Affinity Desig
       <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/</guid>
-      <description>So you are planning on learning something new — Node.js for example — and you need to download it first. You visit the project&amp;rsquo;s website, download an installer, go through the installation process. Next, next, next, done. You may need some kind of database at some point — MongoDB works really well with it. Again — visit the project&amp;rsquo;s website, download an installer… You know what?! Visual Studio Code is hot.</description>
+      <description>As a curious human being you are probably doing a lot of monotonous tasks: installing and removing software, switching versions of dependencies and searching for new tools. Make your life easier with Homebrew.</description>
     </item>
     
     <item>
@@ -696,8 +646,7 @@ Affinity Designer for iPad # Have you ever used Affinity Photo or Affinity Desig
       <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-june/</guid>
-      <description>A Bitter Guide To Open Source # One of my favorite open source creators Ken Wheeler writing about his experience — the bitter reality of maintaining free projects for the community. A great list of tips for all OSS creators.
-A bright future for GitHub # Chris Wanstrath from GitHub team announced the biggest acquisition in a long time. This one is importnt especificaly for developers because today (2018.06.04) GitHub joins Microsoft.</description>
+      <description>Guide to open source, GitHub joins Microsoft, WWDC 2018, CORS, accessible cards, CSS Blocks, DNS over HTTPS, Vue passed React, ECMAScript 2018 and more…</description>
     </item>
     
     <item>
@@ -706,8 +655,7 @@ A bright future for GitHub # Chris Wanstrath from GitHub team announced the bigg
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/cpp-for-javascript-developers/</guid>
-      <description>At the end of 2017 I committed myself to learning a new programming language as one of my resolutions for 2018. I&amp;rsquo;ve spent the last few months jumping between client projects written mainly in JavaScript and learning C++ in my own time. I am still nowhere near proficient at it, but it is a great time to share with you a few of my conclusions.
- New perspective # JavaScript, being a very forgiving language appears to be an attractive choice for new programmers.</description>
+      <description>One of my resolutions for 2018 is to learn a new programming language. I decided to go with C++ and after a few months, I am ready to share with you some of my thoughts.</description>
     </item>
     
     <item>
@@ -716,8 +664,7 @@ A bright future for GitHub # Chris Wanstrath from GitHub team announced the bigg
       <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-may/</guid>
-      <description>BigInt: arbitrary-precision integers in JavaScript # Mathias Bynens from V8 team explained a new primitive in JavaScript — BigInt. Like a Number but with a arbitrary precision — it means that it can hold a number as big as our architecture can deal with. Really great article that explains the difference between regular Number type, shows differences in API and goes through some possible gotchas.
-Custom domains on GitHub Pages gain support for HTTPS # GitHub Pages now makes generating SSL certificate via Let’s Encrypt a breeze.</description>
+      <description>Arbitrary-precision integers in JavaScript, GitHub Pages gain support for HTTPS, LinkedIn’s new open source projects take on stylesheet performance, Multi-User access on Cloudflare, the best of Google I/O ’18, Prisma revolution, hard parts of JavaScript explained in simple words and more!</description>
     </item>
     
     <item>
@@ -726,7 +673,7 @@ Custom domains on GitHub Pages gain support for HTTPS # GitHub Pages now makes g
       <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/thanks-for-everything-engine-creative-hi-mindera/</guid>
-      <description>Two years ago I was really lucky that I joined the team at Engine Creative. They are a bunch of creative, smart and inspiring people motivated to deliver top quality work to an endless list of clients. During my time at Engine Creative I had the pleasure of working on multiple projects that nearly melted my brain, whilst exploring a hell of a lot of bleeding edge technologies. I would like to thank everyone there for my time working with you and wish you all the best in the future!</description>
+      <description>Time moves on, my perception about life has taken shape and my list of priorities have changed order. I am super happy to announce that I am leaving the Engine Creative family to join Mindera!</description>
     </item>
     
     <item>
@@ -735,7 +682,7 @@ Custom domains on GitHub Pages gain support for HTTPS # GitHub Pages now makes g
       <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-april/</guid>
-      <description>1.1.1.1 # Cloudflare and APNIC joined their powers and as a result of this partnership 1.1.1.1 came out. Secure, privacy focused and the fastest ever DNS directory. It takes no time to set it up on your device and you don&amp;rsquo;t have an excuse not to do so. You can find out more details about it on official blogs of both companies: &amp;ldquo;Announcing 1.1.1.1: the fastest, privacy-first consumer DNS service&amp;rdquo; and &amp;ldquo;APNIC Labs enters into a Research Agreement with Cloudflare&amp;rdquo;</description>
+      <description>New DNS server by Cloudflare and APNIC, responsive images explained, machine learning in JavaScript, CSS floats demystified, big node / npm update, new version of git Tower is coming and more.</description>
     </item>
     
     <item>
@@ -744,7 +691,7 @@ Custom domains on GitHub Pages gain support for HTTPS # GitHub Pages now makes g
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/configure-a-local-wordpress-development-on-macos-from-scratch/</guid>
-      <description>So you are a macOS user and you want to configure a local environment to build a WordPress project. Great choice, it is a fantastic piece of software! There are plenty of tools that let you set it up in no time at no cost — MAMP / XAMPP and Local by FlyWheel are probably the best choices for beginners. Smashing Magazine published an article called &amp;ldquo;WordPress Local Development For Beginners: From Setup To Deployment&amp;rdquo; by Nick Schäferhoff which is a great guide that takes you through the journey when using these kinds of tools.</description>
+      <description>So you&#39;re about to build a WordPress website. An Apache HTTP Server, PHP and MySQL database is all that you need. Let me guide you step by step.</description>
     </item>
     
     <item>
@@ -753,9 +700,7 @@ Custom domains on GitHub Pages gain support for HTTPS # GitHub Pages now makes g
       <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/from-jekyll-to-hugo-from-github-pages-to-netlify/</guid>
-      <description>After a few years of blogging using Jekyll, my website became slow and I stopped enjoying working on fresh content. The effortless integration of this static site generator with GitHub Pages was the only reason why I kept this setup for so long. A smart quote always looks good on a geeky article, so let me smash one by Benjamin Franklin.
- &amp;ldquo;When you are finished changing, you&amp;rsquo;re finished.&amp;rdquo;
- From Jekyll to Hugo # Jekyll is a great tool and its integration with free GitHub hosting makes it a great pairing to host a tiny website like this one.</description>
+      <description>After a few years of blogging using Jekyll, my website became slow and I stopped enjoying working on fresh content. Hugo and Netlify have solved my problem.</description>
     </item>
     
     <item>
@@ -764,7 +709,7 @@ Custom domains on GitHub Pages gain support for HTTPS # GitHub Pages now makes g
       <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-march/</guid>
-      <description>Prototyping, Libraries on Sketch Cloud and an official iOS UI kit in Sketch 49 # There are plenty of tools that try to compete with Sketch but we all know that the winner is only one and the latest update just proves my point. Prototyping — an essential feature to help UX designer to sell their ideas to restive clients just landed in Sketch. It is fantastic in its simplicity! No useless bells and whistles.</description>
+      <description>Prototyping and cloud libraries in Sketch 49, tons of cool stuff on React&#39;s world, C++ must have, shocking results of Stackoverflow Developer Survey and CSS Typed Object Model.</description>
     </item>
     
     <item>
@@ -773,7 +718,7 @@ Custom domains on GitHub Pages gain support for HTTPS # GitHub Pages now makes g
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/siema-thanks-for-2000-stars-on-github/</guid>
-      <description>In November 2016 I was looking for a carousel for one of my projects. I found about a hundred of them but none of them fulfilled my requirements: a simple API, extendable, lightweight and optimised for performance. I spent so much time researching I just decided to build my own solution at the end. It worked surprisingly well for me so I decided to smash it on to a Github repository, build a simple docs page and ask my talented friend Jarkko Sibenberg to create a logo for the project.</description>
+      <description>In November 2016 I was looking for a carousel for one of my projects. I couldn&#39;t find one that fulfills my requirements so I built one. Months have passed, hours have been spent on the project and 280 commits later…</description>
     </item>
     
     <item>
@@ -782,8 +727,7 @@ Custom domains on GitHub Pages gain support for HTTPS # GitHub Pages now makes g
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-february/</guid>
-      <description>BetterExplained # A number of articles that explain complex (more or less) mathematical patterns in a simple words digestible by normal people. When I stumbled upon this website I spent few solid hours on learning new stuff and refreshing my high school skills.
-Phase # I still love you Sketch but… Tons of competitive tools are coming out and some of them are looking very promising. Figma succeeded by giving designers a great cross-platform alternative that works in a browser.</description>
+      <description>Math concepts explained better, Phase — another Sketch compeitor is coming, event loop in JavaScript, debugging Node.js in VSCode and danger that comes with using third party scripts and stylesheets.</description>
     </item>
     
     <item>
@@ -792,9 +736,7 @@ Phase # I still love you Sketch but… Tons of competitive tools are coming out 
       <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/my-amazon-s3-photo-backup-solution/</guid>
-      <description>Far far away, someone, somewhere said:
- &amp;ldquo;There are two kinds of people, those who back up their data and those who have never lost all their data.&amp;rdquo;
- Luckily for me, I have never been a victim of a situation where I lost all of my data simply because I do backups regularly. I never do a full backup of my machine though. I can download an operating system in few minutes, restore my system preferences via a single click, install all my frequently used apps using a single command, pull all of my projects from Github and listen to music on my Technics SL-1200 or stream it from Apple Music.</description>
+      <description>As an amateur photographer I have been looking for a cloud backup solution for years. Keeping a physical backup on an external hard drive is definitely not enough. Then I came across Amazon S3.</description>
     </item>
     
     <item>
@@ -803,7 +745,7 @@ Phase # I still love you Sketch but… Tons of competitive tools are coming out 
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/i-built-a-thing-an-alfred-workflow-to-manage-things-lists/</guid>
-      <description>Alfred is my favourite macOS productivity booster. It allows me to configure custom keywords, manage and store multiple things in a clipboard, create custom search tools and text expansions. The most powerful part of this tool are the Workflows — only your imagination and programming skills restrict the variety of automations you can create. I&amp;rsquo;ve built a few already: Div — a simple window manager, SShot to change a screenshot file extension instantly or hex to convert decimal system numbers into hexadecimal values.</description>
+      <description>Alfred is my favourite productivity booster for macOS. Things is my GTD tool of choice that perfectly suits my workflow. I&#39;ve connected the power of the two apps together.</description>
     </item>
     
     <item>
@@ -812,8 +754,7 @@ Phase # I still love you Sketch but… Tons of competitive tools are coming out 
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2018-january/</guid>
-      <description>Introducing Web Payments: Easier Online Purchases With The Payment Request API # Peter O&amp;rsquo;Shaughnessy — developer advocate in Samsung’s web browser team — published a great explanation post for the Payment Request API. Few companies use it by now and observe a significantly improved user experience. API is promise-based and easy to understand.
-Additive Animation with the Web Animations API # The new property added to the Web Animation API configuration object — composite — allows us to do something that previously was almost impossible (technically it was possible but the amount of multidimensional matrix math needed is crazy).</description>
+      <description>Easier purchase process with the Payment Request API, improvements to the Web Animations API, Array &amp; Object explorer, changes in Apple Developer Program, HDR Photography in Microsoft Excel, rise of the state machines, HTML 5.2, AMP drama, JavaScript frameworks, CSS Print API, brand new Bootstrap 4, CSS Grid by Wes Bos, laws of good UX, mobile search ranking changes, HTTPS everywhere, Safari meets Service Workers and more!</description>
     </item>
     
     <item>
@@ -822,7 +763,7 @@ Additive Animation with the Web Animations API # The new property added to the W
       <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/the-resize-observer-explained/</guid>
-      <description>How many times have you attached a resize listener to the window object just to track a single DOM element? I have done it many times simply because I&amp;rsquo;ve had no other choice. There is an issue though — scroll and resize events are performance bottlenecks. Nowadays, the scroll event can be replaced with the Intersection Observer that I explained before. There&amp;rsquo;s now hope for the resize event — Resize Observer.</description>
+      <description>How many occasions have you attached a resize listener to a whole document just to track changes on a single DOM element? Those times are over — the Resize Observer is here.</description>
     </item>
     
     <item>
@@ -831,8 +772,7 @@ Additive Animation with the Web Animations API # The new property added to the W
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/whats-new-in-ecmascript-2018/</guid>
-      <description>It is that time of a year again after the TC39 meeting, which finalises a list of new features that we will get in the latest ECMAScript 2018 update. I published a list of new goodies for 2017 version, just as I did in 2016. It is a good time to familiarise ourseves with the new features soon to be at to our disposal this year.
-Rest/Spread Properties by Sebastian Markbåge # ECMASCript 2015 introuduced rest / spread operators for Arrays.</description>
+      <description>The last TC39 meeting resulted in finalised features set for ECMAScript 2018. This article presents all the new goodies — let&#39;s get on it.</description>
     </item>
     
     <item>
@@ -841,10 +781,7 @@ Rest/Spread Properties by Sebastian Markbåge # ECMASCript 2015 introuduced rest
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-december/</guid>
-      <description>Learn React Fundamentals and Advanced Patterns # https://blog.kentcdodds.com/learn-react-fundamentals-and-advanced-patterns-eac90341c9db
-Kent C. Dodds just revealed a brand new series of courses about React. It is up to date and cover all that you need to know about Facebook&amp;rsquo;s framework. From component creation to advanced workflow using Redux. Well recommended resources.
- Parcel # https://parceljs.org/
-Webpack is amazing but the only downside of it is overwhelming configuration. Parcel comes handy then. This is a new kid on the block — no configuration is required and somehow it resolves all dependencies for you in no time.</description>
+      <description>React explained one more time, non-config bundler called Parcel, Turbo as a new npm alternative, mobile first indexing enable by default, better adds, JavaScript compiled to binaries and more on the last top picks of a 2017.</description>
     </item>
     
     <item>
@@ -853,7 +790,7 @@ Webpack is amazing but the only downside of it is overwhelming configuration. Pa
       <pubDate>Sat, 30 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/a-look-back-at-2017/</guid>
-      <description>Once in a while I make an exception and use this blog to write some personal thoughts instead of trying to be a web geek. A year ago I published &amp;ldquo;A look back at 2016&amp;rdquo; and now it is time to do the annual update. There are plenty of achievements that I would love to brag about and even more goals that I want to commit myself to next year.</description>
+      <description>Another New Year&#39;s Eve is coming — the perfect time to summarise the things that went well, list the fails and make some plans for the next twelve months.</description>
     </item>
     
     <item>
@@ -862,8 +799,7 @@ Webpack is amazing but the only downside of it is overwhelming configuration. Pa
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/</guid>
-      <description>The System Preferences window is not the only way to adjust user settings. Macs come with a defaults command line interface that lets you read, write, and delete macOS user defaults. You may have even used it before — revealing hidden files in Finder is a popular snippet (hot tip: ⌘ + ⇧ + . is quicker).
-defaults write com.apple.finder AppleShowAllFiles -string YES Let&amp;rsquo;s take it apart to get familiar with the terminology used throughout this article:</description>
+      <description>The system preferences window is not the only way to change user preferences in macOS. The &#34;defaults&#34; command gives you more power to configure your machine than you would have thought.</description>
     </item>
     
     <item>
@@ -872,9 +808,7 @@ defaults write com.apple.finder AppleShowAllFiles -string YES Let&amp;rsquo;s ta
       <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-november/</guid>
-      <description>The Book of Shaders # https://thebookofshaders.com/
-Are you into a computer graphics? Are you into a math as well? If yes — this is a resource for you. I learned a lot from this book and I can&amp;rsquo;t believe that this amazing resource is available totally for free. Thanks to talented and super clever Patricio Gonzalez Vivo and Jen Lowe.
- This book is about the revolutionary computational technique, fragment shaders, that is taking digitally generated images to the next level.</description>
+      <description>Fragment shaders, real time session sharing in Visual Studio Code, tons of smooth CSS animations, dynamic import in JavaScript, current state of publishing, CSS element function and brand new overscroll-behavior, garbage collector of JS engines and more!</description>
     </item>
     
     <item>
@@ -883,8 +817,7 @@ Are you into a computer graphics? Are you into a math as well? If yes — this i
       <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/unity-development-on-macos-with-visual-studio-code/</guid>
-      <description>I published this article some time ago and Unity environment changed a lot. I wouldn&amp;rsquo;t recommend this path nowadays. Just download Visual Studio Community, switch default Unity IDE and enjoy very smooth integration.
-First things first — I&amp;rsquo;m not an experienced game developer. I just started my journey with Unity not long time ago and this article is a result of my early explorations that can be useful for newcomers.</description>
+      <description>As a fresh Unity developer I really struggled to jump from my favourite code editor to MonoDevelop. It took me a while to realize that this actually isn&#39;t a necessity.</description>
     </item>
     
     <item>
@@ -893,9 +826,7 @@ First things first — I&amp;rsquo;m not an experienced game developer. I just s
       <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-october/</guid>
-      <description>Microsoft Edge for iOS and Android: What developers need to know # https://blogs.windows.com/msedgedev/2017/10/05/microsoft-edge-ios-android-developer/#3ZUtLS8GXDAl1RbT.97
-And it is confirmed — Microsofts browser is coming to Android and iOS devices. WebKit engine provided by iOS in the WKWebView is going to be used on Apple devices — that was the obvious (and probably the only possible) choice. Androids engine is going to be Blink from the Chromium project. Not too late Edge?
- Front End Center — Caching &amp;amp; CDNs # https://youtu.</description>
+      <description>EDGE on Android and iOS, sliders in pure CSS and HTML, all about CDNs, Quantum by Firefox, InVision Studio, XD out of beta, MDN become the only source of truth and more!</description>
     </item>
     
     <item>
@@ -904,7 +835,7 @@ And it is confirmed — Microsofts browser is coming to Android and iOS devices.
       <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/from-a-callback-hell-through-promises-to-async-functions/</guid>
-      <description>Working with asynchronous JavaScript has changed a lot in the last few years. When Promises were introduced to ECMAScript a few years ago life became a dream. Two years later, the async function was added to the specification — I still can&amp;rsquo;t believe how nice and easy to read it is! What&amp;rsquo;s next? Time will tell, but now let&amp;rsquo;s review what we went through to get where we are. You have to agree — a random Chuck Norris joke generator is the perfect demo program!</description>
+      <description>The last few years have brought us lots of revolutionary features for working with asynchronous JavaScript operations. Let&#39;s review the most popular ones together.</description>
     </item>
     
     <item>
@@ -913,8 +844,7 @@ And it is confirmed — Microsofts browser is coming to Android and iOS devices.
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/return-multiple-elements-from-a-component-with-react-16/</guid>
-      <description>React 16 is here and it brings lots of exciting changes. One of the most requesting features around React community has been returning multiple elements from a component&amp;rsquo;s render method. Skipping wrapper tag is definitely something that developers are happy about — popularity of my tweet proves this point.
-The basic way is to return an array of elements. To avoid warnings you have to add a key to each element, although it may not be needed in the future.</description>
+      <description>One of the most requested features in React framework has always been returning multiple elements from a components render method. There you have it!</description>
     </item>
     
     <item>
@@ -923,8 +853,7 @@ The basic way is to return an array of elements. To avoid warnings you have to a
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-september/</guid>
-      <description>So you need a CSS utility library? # https://css-tricks.com/need-css-utility-library/
-Chris Coyier throws a bunch of insights about utility libraries and strategies of using them. Personally I like writing CSS and I always prefer to do it by myself although I can see a need for having one of them at some point. The second part of this article is a long list of the most popular tools of this type. I can&amp;rsquo;t get the point of mixing one of them with currently existing CSS base.</description>
+      <description>This month was crazy! Brand new React, big licensing changes, Sketch Libraries, new Sublime Text release, CSS constants, EDGE 16, Promise API updates and more.</description>
     </item>
     
     <item>
@@ -933,7 +862,7 @@ Chris Coyier throws a bunch of insights about utility libraries and strategies o
       <pubDate>Sat, 23 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/thanks-to-browserstack/</guid>
-      <description>Have you ever built a JavaScript library that works great across multiple browsers, platforms and devices? If yes — you know exactly how hard it can be. If no — trust me, this shit can be hard. As a creator and the only maintainer of a popular carousel library Siema I have spent a crazy amount of time jumping from one device to another, juggling operating systems and browser versions. Having a tool that automates and simplifies this process would be irreplaceable.</description>
+      <description>Testing across multiple platforms, devices and browsers is hard and having a tool that makes this process seamless is irreplaceable.</description>
     </item>
     
     <item>
@@ -942,9 +871,7 @@ Chris Coyier throws a bunch of insights about utility libraries and strategies o
       <pubDate>Thu, 31 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-august/</guid>
-      <description>Hate Comic Sans? You don’t know anything about typography # https://blog.prototypr.io/you-hate-comic-sans-you-dont-know-anything-about-typography-5133fbd4c8c4
-Do you hate Comic Sans? Of course you do. Do you have a strong opinion about it or just follow the crowd? Thomas Payne shares his perspective and gives tons of interesting insights and facts about the most disliked typeface ever. I found extremely interesting the words of Comic Sans author…
- Vincent Connare, designer of Comic Sans, said, “if you love Comic Sans, you don’t know anything about typography.</description>
+      <description>Do you like Comic Sans? How about webfonts fallbacks? Image compression? A bit about Unity updates and some async JS tips. Check this month top picks out!</description>
     </item>
     
     <item>
@@ -953,8 +880,7 @@ Do you hate Comic Sans? Of course you do. Do you have a strong opinion about it 
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/the-observer-pattern-in-javascript-explained/</guid>
-      <description>The Observer Pattern is a popular pattern used across all sorts of JavaScript applications. The instance (subject) maintains a collection of objects (observers) and notifies them all when changes to the state occurs. Does that sound difficult to you? Yes, it was upsetting me as well when I came across this pattern for a first time. A tiny practical example may help you to grasp the concept.
-Imagine that you have to update multiple elements simultaneously when some event occurs (typing inside the input field perhaps).</description>
+      <description>This popular pattern used by tons of JavaScript applications may save you from injecting costly dependencies in your project. Easy, clean and very useful.</description>
     </item>
     
     <item>
@@ -963,10 +889,7 @@ Imagine that you have to update multiple elements simultaneously when some event
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-july/</guid>
-      <description>Everything You Ever Wanted To Know About Authentication in Node.js # https://youtu.be/yvviEA1pOXw
-Not any new, but very helpful to understand authentication process between the client and node server. Randall Degges explains everything really clearly step by step.
- If you have a disability, what&amp;rsquo;s the hardest thing about browsing the web? # https://twitter.com/captainsafia/status/871056480799162368
-Very insightful discussion on the twitter under Safia Abdallas tweet. Eye opening comments present that accessibility is a big concern of an internet nowadays.</description>
+      <description>Node.js authentication, the hardest accessibility issue about browsing the web, GraphQL tutorial, the future of Adobe Flash, brand new Figma with build it prototyping mode and more.</description>
     </item>
     
     <item>
@@ -975,8 +898,7 @@ Very insightful discussion on the twitter under Safia Abdallas tweet. Eye openin
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/i-built-a-thing-bimbo-theme-for-visual-studio-code/</guid>
-      <description>I changed the name of this theme to Gatito Theme. It is still in active development and you can download it from here: Gatito Theme on Visual Studio Code Marketplace.
-After a long romance with Sublime Text and the ultra-hackable Boxy Theme I switched to Visual Studio Code by Microsoft. I love it! Functionality-wise there is nothing missing. Visually — yyyhhh. Fortunately some time ago VS Code got a set of features that allows us to customise almost every single aspect of the user interface.</description>
+      <description>After switching from Sublime Text to VS Code I was looking for a theme that didn&#39;t exist — so I built one. Totally for free! From a developer for developers. Enjoy!</description>
     </item>
     
     <item>
@@ -985,8 +907,7 @@ After a long romance with Sublime Text and the ultra-hackable Boxy Theme I switc
       <pubDate>Fri, 30 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-june/</guid>
-      <description>A Unified Styling Language # https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660
-I need to admit that for a first time when I saw JSX in React I thought it is a joke. I really did my best to master famous separation of concerns. Then people started porting CSS into JavaScript — crazy idea I thought. Nowadays my mindset changed and I really love tha idea of real separation od concerns (not separation of technologies that I was practicing for years).</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -995,8 +916,7 @@ I need to admit that for a first time when I saw JSX in React I thought it is a 
       <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/using-webpack-with-gulpjs/</guid>
-      <description>Webpack is a popular module bundler for modern JavaScript applications. Its biggest advantage is its flexibility — it can be as simple or as complicated as you need it to be. It doesn&amp;rsquo;t matter if you live on the edge and your app is full of modern ES2015 modules or still depends on some legacy code written in AMD style — this tool has you covered.
-If I&amp;rsquo;m not working on a jsFuckingEverythingInMyWholeLife.</description>
+      <description>Webpack is a module bundler for modern JavaScript apps. Gulp describes itself as a platform-agnostic task runner. Can they work together? Easily! Take a look.</description>
     </item>
     
     <item>
@@ -1005,7 +925,7 @@ If I&amp;rsquo;m not working on a jsFuckingEverythingInMyWholeLife.</description
       <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/cloning-dom-nodes-and-handling-attached-events/</guid>
-      <description>I&amp;rsquo;m the creator and sole maintainer of Siema — a simple carousel library that gained quite unexpected popularity on Github (thanks by the way). I constantly look to improve it and work hard to drop some new features in every once in a while. I recently came across a very minor challenge — I had to clone some DOM elements. Let me share with you some short and easy tips through what I learnt.</description>
+      <description>As a creator and maintainer of a popular DOM library, I found myself in a situation where I had to clone an element. Sounds trivial? This is what I learnt.</description>
     </item>
     
     <item>
@@ -1014,8 +934,7 @@ If I&amp;rsquo;m not working on a jsFuckingEverythingInMyWholeLife.</description
       <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/basic-nodejs-debugging-in-google-chrome/</guid>
-      <description>Hi! To debug Node.js in Chrome you need:
- Node (v6.3.0+ required) Chrome (v55+ required)  Surprised? We need some playground script as well. Let&amp;rsquo;s build something extremely useful. How many times have you had a great idea for what to cook for dinner, but struggled to decide what to drink with it? This simple script will give you suggestions for the best beer to drink with your meal based on your food input.</description>
+      <description>We have been testing front-end code in Google Chrome Dev Tools for quite a while. How about testing Node.js code in exactly the same way?</description>
     </item>
     
     <item>
@@ -1024,10 +943,7 @@ If I&amp;rsquo;m not working on a jsFuckingEverythingInMyWholeLife.</description
       <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-may/</guid>
-      <description>Four Killer Features of Nunjucks # https://css-tricks.com/killer-features-of-nunjucks/
-Chris Coyier gives us a nice introduction to his favorite features in a new templating language — Nunjucks. It takes Mustache and Handlebars to the next level. The easiest way to play around with it are recently announced CodePen projects.
- Prepack # https://prepack.io/
-&amp;ldquo;A tool for making JavaScript code run faster&amp;rdquo; is the official pitch of a new tool — Prepack. The idea is brilliant — eliminate compilation at run-time and delegate as much optimization logic to compilation.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1036,7 +952,7 @@ Chris Coyier gives us a nice introduction to his favorite features in a new temp
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/i-built-a-thing-snippet-generator-for-vs-code-sublime-text-and-atom/</guid>
-      <description>Snippets — one of the most powerful features of my code editor. I use these reusable chunks of code constantly. Over the years I&amp;rsquo;ve built a huge collection of snippets for Sublime Text. Then I used Atom for a little while and eventually ended up using Visual Studio Code. All of these tools allow us to boost productivity by using custom snippets — if you&amp;rsquo;re not using them yet I highly recommend embracing the power.</description>
+      <description>Snippets — probably the most powerful feature of code editors. I love using them but I don&#39;t like creating them manually. Let me simplify things a little bit.</description>
     </item>
     
     <item>
@@ -1045,8 +961,7 @@ Chris Coyier gives us a nice introduction to his favorite features in a new temp
       <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-april/</guid>
-      <description>Build Complex Layouts with CSS Grid Layout # https://egghead.io/courses/build-complex-layouts-with-css-grid-layout
-We ware waiting for a real layout system since the born of the web. Recent version of Google Chrome, Firefox and Safari (yep, we are waiting for you Edge) finally brought it to us! CSS Grid Layout is here and it is more powerful that we expected. It can be as simple or as complex as you want. In this 40 minutes egghead course Rory Smith goes through numbers of techniques of using it.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1055,7 +970,7 @@ We ware waiting for a real layout system since the born of the web. Recent versi
       <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/make-some-magic-with-css-blend-modes/</guid>
-      <description>It was an ordinary Wednesday morning, I was enjoying my morning espresso shot at Engine Creative, when suddenly my lovely colleague Chloe put on my desk the latest issue of net magazine freshly delivered by the postman. I had a quick glance at the cover art that boldly stated &amp;ldquo;Make magic with CSS&amp;rdquo;. Pfff — I totally ignored it — I know everything about CSS, don&amp;rsquo;t I? It was a really nice espresso.</description>
+      <description>Remember the bloody wars between web designers and front-end developers about blend modes? Those times are over — thanks to the power of CSS!</description>
     </item>
     
     <item>
@@ -1064,8 +979,7 @@ We ware waiting for a real layout system since the born of the web. Recent versi
       <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/native-ecmascript-modules-in-the-browser/</guid>
-      <description>Three things that I wish I could ditch from my everyday front-end workflow: CSS preprocessors, JavaScript transpilers and module bundlers. Let me elaborate…
-I love Sass but wouldn&amp;rsquo;t it be cool to have its power built into CSS? The good news is native custom properties are much more powerful than statically declared ones from Sass. Mixins are amazing — unfortunately the @apply rule has been abandoned by the spec creator but I&amp;rsquo;m sure we will get some decent replacement at some point.</description>
+      <description>Javascript modules have been a part of the spec for a little while now but it&#39;s taken some time to see the first implementation in a web browser. Finally, we have it!</description>
     </item>
     
     <item>
@@ -1074,10 +988,7 @@ I love Sass but wouldn&amp;rsquo;t it be cool to have its power built into CSS? 
       <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-march/</guid>
-      <description>Convert String to DOM Nodes # https://davidwalsh.name/convert-html-stings-dom-nodes
-David Walsh explains how to convert strings to DOM nodes by using parseFromString() method from DOMParser instance. Nice, clean and library free solution.
-const myString = &amp;#39;&amp;lt;p&amp;gt;Hello, I am paragraph&amp;lt;/p&amp;gt;&amp;#39;; const doc = new DOMParser().parseFromString(myString, &amp;#39;text/html&amp;#39;); const div = doc.body.firstChild; console.log(div); // prints &amp;lt;p&amp;gt;Hello, I am paragraph&amp;lt;/p&amp;gt; as a HTML  JavaScript Deep Merge # https://davidwalsh.name/javascript-deep-merge
-David Walsh comaes with another great tip this month.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1086,7 +997,7 @@ David Walsh comaes with another great tip this month.</description>
       <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/fluent-interfaces-explained/</guid>
-      <description>It doesn&amp;rsquo;t matter whether it is a professional developer writing a complicated Java application, a bored secretary playing Candy Crush Saga on Facebook or my father drinking a beer and reading football news on the Eurosport website — every single activity that is carried out on a computer ends up as a series of ones and zeros that tells the processor what to actually do. All programming languages are just a layer of abstraction on top of this principle.</description>
+      <description>Imagine a program that is written like a sentence instead of a series of separated command blocks — the technique of method chaining is the answer.</description>
     </item>
     
     <item>
@@ -1095,8 +1006,7 @@ David Walsh comaes with another great tip this month.</description>
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-february/</guid>
-      <description>New Roadmap for Future of Publishing is Underway as W3C and IDPF Officially Combine # https://www.w3.org/2017/01/pressrelease-idpf-w3c-combination.html.en
-This is biggie! W3C responsible for technologies like HTML, CSS, SVG, XML and WCAG combines powers with IDPF that developed the EPUB standard. Future of publishing is much brighter after this announcement. Another great reason to care more about semantic and accessible markup. The difference between books and web pages gets even thinner now.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1105,7 +1015,7 @@ This is biggie! W3C responsible for technologies like HTML, CSS, SVG, XML and WC
       <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/my-setup-2017-february/</guid>
-      <description>Programming isn&amp;rsquo;t the only thing that I read about although that&amp;rsquo;s what I mainly write about and very rarely broach other subjects. You definitely won&amp;rsquo;t find any gluten-free vegan cake recipes here, but there is a good chance that I can share with you a few words about some software or hardware. I did it before about two years ago so I think it&amp;rsquo;s just about the right time to wrtie an update.</description>
+      <description>Which hardware, software and web apps other professionals are using is something that I enjoy reading about. Today&#39;s post is about my own setup from February 2017.</description>
     </item>
     
     <item>
@@ -1114,8 +1024,7 @@ This is biggie! W3C responsible for technologies like HTML, CSS, SVG, XML and WC
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2017-january/</guid>
-      <description>TypeScript: the missing introduction # https://toddmotto.com/typescript-the-missing-introduction#background
-One of my colleagues recommended me TypeScript the other day as a thing that I necessarily need to have a look at — future of JS. I was stubborn for quite a while until I came across this great primer to TypeScript by James Henry. It just makes sense! JavaScript is first (and the only one) programming language that I know and I didn&amp;rsquo;t really understand concept of types from other languages.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1124,7 +1033,7 @@ One of my colleagues recommended me TypeScript the other day as a thing that I n
       <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/whats-new-in-ecmascript-2017/</guid>
-      <description>Two years ago when ECMAScript 2015 (colloquially known as a ES6) was standarised there was a massive update to the language. Announced at the same time was a yearly release plan that aims to deliver a new version of the language annually and ship it with the proposals that are ready at the time of the TC39 meeting. The list of language improvements is open and you can track it on the TC39 Github account.</description>
+      <description>Introduced in 2015, the ECMAScript annual release plan aims to add to the language any proposals that are ready at the time of the TC39 meeting. Here&#39;s what&#39;s new in ES2017.</description>
     </item>
     
     <item>
@@ -1133,8 +1042,7 @@ One of my colleagues recommended me TypeScript the other day as a thing that I n
       <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/using-the-javascript-console-in-visual-studio-code/</guid>
-      <description>Some time ago I published an article about the JavaScript console in Sublime Text. It&amp;rsquo;s turned out to be one of the most popular articles on this website. As I recently changed my code editor from Sublime Text to VSCode I found a solution to replicate this functionality.
-Similar to Build Systems in Sublime Text, Visual Studio Code comes with Tasks that allows us to pass a file to an external program without manually switching between the code editor and the Terminal.</description>
+      <description>The JavaScript console in the browser is one of the most popular debugging methods. It would be cool to see its output straight in the code editor, wouldn&#39;t it?</description>
     </item>
     
     <item>
@@ -1143,7 +1051,7 @@ Similar to Build Systems in Sublime Text, Visual Studio Code comes with Tasks th
       <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/</guid>
-      <description>My text editor and the browser are probably the most frequently used applications in my daily work routine. As long as you are logged in to Google Chrome (or any other browser) the synchronization of settings and plugins happens in the background. Unfortunately syncing settings between applications like VSCode is not as straight forward. However, just because it doesn&amp;rsquo;t come baked into the software it doesn&amp;rsquo;t mean it is impossible.</description>
+      <description>Having access to the same settings and snippets across multiple devices is a handy feature of some text editors. This is how to do it in VSCode.</description>
     </item>
     
     <item>
@@ -1152,7 +1060,7 @@ Similar to Build Systems in Sublime Text, Visual Studio Code comes with Tasks th
       <pubDate>Tue, 03 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/a-look-back-at-2016/</guid>
-      <description>I have never used this website to reveal anything about myself as an individual. It&amp;rsquo;s always been a technical blog without delving into personal feelings and photos of my cat (ok maybe once). I&amp;rsquo;m going to keep it this way but the article that you are reading now will be the only exception. The end of a year and beginning of a new one is a fantastic opportunity to summarise my achievements, failures and set up some goals for the upcoming year.</description>
+      <description>The new year is a great opportunity for an annual summary and a great time to set new goals for the upcoming year. Time to reveal a bit of the professional and personal sides of myself.</description>
     </item>
     
     <item>
@@ -1161,10 +1069,7 @@ Similar to Build Systems in Sublime Text, Visual Studio Code comes with Tasks th
       <pubDate>Sat, 31 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-december/</guid>
-      <description>Control web typography with CSS font display # http://www.creativebloq.com/advice/control-web-typography-with-css-font-display
-A great exhalation of font-display property by Umar Hansa. As writing this article browser support isn&amp;rsquo;t amazing but it works great as a progressive enhancement. This is going to part of every font-face declaration it the short future.
- Lockfiles should be committed on all projects # https://yarnpkg.com/blog/2016/11/24/lockfiles-for-all
-James Kyle explains why we should commit yarn.lock files to our repositories. Makes sense.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1173,8 +1078,7 @@ James Kyle explains why we should commit yarn.lock files to our repositories. Ma
       <pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/i-built-a-thing-siema/</guid>
-      <description>There are two things that you shouldn&amp;rsquo;t do in 2016 — build a carousel plugin or making another grid system. Practically every other website at the moment belongs in one of those two categories. Crazy people!
-I&amp;rsquo;ve already built a grid system and today I would like to present you a new tool that I created. Yes, you guessed it - a carousel plugin! Siema is a very lightweight (just 1kb gzipped) tool written in pure JavaScript with no dependencies.</description>
+      <description>Siema - a very lightweight (just 1kb gzipped) carousel plugin with no dependencies. It&#39;s well supported and ready to use on personal and commercial projects.</description>
     </item>
     
     <item>
@@ -1183,7 +1087,7 @@ I&amp;rsquo;ve already built a grid system and today I would like to present you
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/whats-the-deal-with-the-pointer-events-in-javascript/</guid>
-      <description>Have you ever worked on a UI component that depends on events triggered by a pointer device? It can be a mouse, touch pad or more precise tools like the pencil often used with an iPad Pro or other devices like the Samsung Galaxy Note. Touch devices are also reading events triggered by your fingers. But wait a sec — it is 2016 — pressure and tilt-aware devices exist and presumably you&amp;rsquo;ve got one in your pocket.</description>
+      <description>How do you handle mouse events but maintain a good experience for users using their finger as the input device? How about pens / styluses? Pointer events to the rescue!</description>
     </item>
     
     <item>
@@ -1192,10 +1096,7 @@ I&amp;rsquo;ve already built a grid system and today I would like to present you
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-november/</guid>
-      <description>Responsive Images Are Here. Now What? # https://vimeo.com/177732167
-Jason Grigsby goes through use cases, methods and possible techniques of responsive images. A bit of background, spec design considerations and a bit about the future of working with images in responsive web design. Great talk from An Event Apart Austin.
- Getting Started with Webpack 2 # https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783
-Drew Powers wrote a great tutorial about basic usage of upcoming Webpack 2. He does a great job in explaining concept of module bundling with Webpack in general.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1204,8 +1105,7 @@ Drew Powers wrote a great tutorial about basic usage of upcoming Webpack 2. He d
       <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-october/</guid>
-      <description>Vue 2.0 is Here! # https://medium.com/the-vue-point/vue-2-0-is-here-ef1f26acf4b8
-After few months of working, 8 alphas, 8 betas and 8 rcs the new version of one of the most popular frameworks is here. Rewritten rendering layer makes it one of the fastest frameworks out there. JSX support, server side rendering and works across Web, iOS and Android! I had a pleasure to built one project with it already and it was probably the easiest journey &amp;ldquo;from zero to hero&amp;rdquo;.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1214,8 +1114,7 @@ After few months of working, 8 alphas, 8 betas and 8 rcs the new version of one 
       <pubDate>Wed, 19 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/loop-through-a-collection-of-dom-elements/</guid>
-      <description>It is easy to think of a collection of DOM elements as a regular JavaScript array. This is a gotcha that many beginners fall into (including myself). NodeLists don&amp;rsquo;t share all of the Array’s prototype methods, but there are a heap of ways to achieve the desired result. Let&amp;rsquo;s go through the list of possible methods and hacks. No frameworks or libraries today - it&amp;rsquo;s pure js day fellaz!
-NodeList.forEach() # Aha!</description>
+      <description>Looping through a NodeList isn&#39;t as easy as iterating over a JavaScript array. In this article I am going to cover the possible methods (and hacks) to do it.</description>
     </item>
     
     <item>
@@ -1224,10 +1123,7 @@ NodeList.forEach() # Aha!</description>
       <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-september/</guid>
-      <description>The Case for Custom Elements # https://medium.com/dev-channel/the-case-for-custom-elements-part-1-65d807b4b439
-Great intro followed by another part about native Custom Elements. Rob Dodson did a great job explaining the concept and practical use case of new API that is coming to out browsers soon.
- The inaccessible web: how we got into this mess # https://uxdesign.cc/the-inaccessible-web-how-we-got-into-this-mess-7cd3460b8e32
-A mandatory read for teachers, content writers, designers, developers, digital product managers and also clients. Don&amp;rsquo;t be lazy. Read it and make the web a better place.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1236,7 +1132,7 @@ A mandatory read for teachers, content writers, designers, developers, digital p
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/trailing-comma-in-ecmascript2017-function-parameter-list/</guid>
-      <description>Object and array literals allow us to leave a comma dangling off the final item since the third version of ECMAScript (although the implementation in IE8 and below is a clear exception). Other programming languages (Python, D, Hack and probably many more) allow it in functions as well. JavaScript will be joining this list very soon people! Jeff Morrison is the author of the Trailing Commas in Function Param Lists proposal that is going to be merged with the upcoming ECMAScript 2017 spec.</description>
+      <description>Object and array literals already allow us to leave a trailing comma. ECMAScript 2017 adds the same functionality to the function parameter list.</description>
     </item>
     
     <item>
@@ -1245,7 +1141,7 @@ A mandatory read for teachers, content writers, designers, developers, digital p
       <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/sync-atom-between-multiple-devices/</guid>
-      <description>Keeping the preferences and installed extensions for my text editor in sync across all of my devices is an important part of my productive workflow. I can&amp;rsquo;t think of a more annoying situation than being disturbed because of a missing snippet or plugin. I&amp;rsquo;m not sure why the creators of these tools don&amp;rsquo;t explicitly provide a solution to import / export things in an easier way. iTerm and Alfred are a great example of how to do it right — simply pick a location where your settings should be exported to and keep this file in sync with other devices (Dropbox, iCloud, git, whatever).</description>
+      <description>Syncing the preferences and extensions of my code editor between all of my devices is part of my productive workflow. Here are a few methods to do it with Atom.</description>
     </item>
     
     <item>
@@ -1254,8 +1150,7 @@ A mandatory read for teachers, content writers, designers, developers, digital p
       <pubDate>Wed, 31 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-august/</guid>
-      <description>David Wells - CSS in React # A great talk by David Wells on ReactJS San Francisco Bay Area meet-up. All that you need to know about styling React components. Pros and cons of each popular method with strong recommendation of CSS modules powered by PostCSS. I don&amp;rsquo;t entirely agree with some parts of David&amp;rsquo;s approach but it is really interesting overview of available strategies.
- CSS Function Syntaxes (color and otherwise) # http://www.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1264,7 +1159,7 @@ A mandatory read for teachers, content writers, designers, developers, digital p
       <pubDate>Sun, 28 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/div-simple-alfred-windows-manager/</guid>
-      <description>There are tons of window managers for Mac OS X around. Chris Coyier published a nice comparison of the most popular ones some time ago. These apps are great utilities that can boost your productivity by eliminating the time that you normally spend adjusting the window positions on your sceen. I was using Divvy by Mizage for a long time and it worked like a charm for me. Another app that I use non-stop is Alfred.</description>
+      <description>I&#39;m happy to present you Div — a simple Alfred window manager. Let me explain the full potential of this easy and powerful tool in this blog post.</description>
     </item>
     
     <item>
@@ -1273,10 +1168,7 @@ A mandatory read for teachers, content writers, designers, developers, digital p
       <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-july/</guid>
-      <description>The :target Trick # https://bitsofco.de/the-target-trick/
-A really clever trick with CSS :target pseudo_element by Ire Aderinokun. You may not need JavaScript if you know CSS well. Probably it is not very accessibility friendly and not the best supported solution ever, but it is still very cool! I encourage you to follow Ire&amp;rsquo;s great blog. Loots of cool stuff like this one to come!
- ES6 for Humans # https://github.com/metagrover/ES6-for-humans
-ECMAScript2015 (or ES6) gave a JavaScript second life.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1285,9 +1177,7 @@ ECMAScript2015 (or ES6) gave a JavaScript second life.</description>
       <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/page-scroll-in-vanilla-javascript/</guid>
-      <description>I published this article years ago. At the time of writing, this solution was working very well for me. Today I would be using window.scroll and this lightweight smooth scroll behavior polyfill instead.
-How many times have you seen the effect of a page scrolling down after clicking a button? Probably thousands! It&amp;rsquo;s always been extremely easy to do with the popular jQuery library.
-$(&amp;#39;.js-btn&amp;#39;).click(() =&amp;gt; { $(&amp;#39;html, body&amp;#39;).animate({ scrollTop: $(&amp;#39;.</description>
+      <description>Scrolling to an element on a page has always been easy with jQuery. It&#39;s a bit tricky in vanilla JavaScript — but definitely doable.</description>
     </item>
     
     <item>
@@ -1296,9 +1186,7 @@ $(&amp;#39;.js-btn&amp;#39;).click(() =&amp;gt; { $(&amp;#39;html, body&amp;#39;
       <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-june/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-CSS Will Change Module Level 1 # https://drafts.csswg.org/css-will-change/#using
-I took me a while to understand will-change property. It clicked when I asked Paul Lewis from Google when I bumped into him at some London conference. Finally there is a piece of spec dedicated to this tricky one-liner. If you are into crazy CSS transitions and animations and you have never heard of this property, give it a quick glance to boost performance of your effects.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1307,7 +1195,7 @@ I took me a while to understand will-change property. It clicked when I asked Pa
       <pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/the-intersection-observer-api-explained/</guid>
-      <description>Detecting which elements are visible within the current viewport&amp;rsquo;s boundaries has always been a tricky and expensive task in terms of performance. Lazy loaded images on Medium.com, infinite scrolling pictures of vegan food on Pinterest or animated images on every f*****g Tumblr theme are just a few examples where this functionality can be found in abundance. The reporting of ad &amp;ldquo;visibility&amp;rdquo; for monetizing purpose is another important use case. There&amp;rsquo;s good news on the horizon though!</description>
+      <description>Detecting when elements become visible on the viewport has always been an expensive task. Not anymore — the Intersection Observer API just landed in Chromium.</description>
     </item>
     
     <item>
@@ -1316,10 +1204,7 @@ I took me a while to understand will-change property. It clicked when I asked Pa
       <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-may/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-Implement DOM methods: prepend, append, after, before and replaceWith # https://chromium.googlesource.com/chromium/src/+/c5fb1b6a7e7fc6eccd8355211c43cb6396f86d9a
-Looks like a jQuery highly influenced a spec creators to implement easier to memorize methods in Document Object Model. I like it so much! Available in Chromium soon.
- An Ultimate Guide To CSS Pseudo-Classes And Pseudo-Elements # https://www.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1328,7 +1213,7 @@ Looks like a jQuery highly influenced a spec creators to implement easier to mem
       <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/intro-to-the-web-animations-api/</guid>
-      <description>We have plenty of ways to animate things on the web. The answer of which one to use isn’t always easy. Each method comes with pros and cons. Should we use CSS, canvas, Web GL, JavaScript requestAnimationFrame or setInterval? Maybe SMIL? Oh no — this one is dead now. Maybe some external libraries like jQuery, GreenSock or VelocityJS? These are just a few possible ways to go. If you are keen to know a little bit more about these methods, I encourage you to read a fantastic article “A Comparison of Animation Technologies” by Sarah Drasner on CSS-Tricks.</description>
+      <description>We have many methods available to move things around on the web. Let’s embrace the power of future animations with the Web Animations API.</description>
     </item>
     
     <item>
@@ -1337,7 +1222,7 @@ Looks like a jQuery highly influenced a spec creators to implement easier to mem
       <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/pinterest-style-layout-with-bricky/</guid>
-      <description>One of my recent clients wanted to use this trendy kind of layout well known by Tumblr or Pinterest users. I did a quick search but I haven’t found any plugin that fits my needs (something that was responsive, lightweight and free of dependencies). All the resources that I found were huge, required a jQuery dependency or provide tons of options that I don&amp;rsquo;t need. Instead of going deeper with my research I decided to code it by myself.</description>
+      <description>The Pinterest / Masonry style layout has always been tricky to create so I&#39;ve created a very lightweight and dependency-free plugin called Bricky.</description>
     </item>
     
     <item>
@@ -1346,11 +1231,7 @@ Looks like a jQuery highly influenced a spec creators to implement easier to mem
       <pubDate>Sat, 30 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-april/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-Building the UI for the new The Times website # https://medium.com/@peduarte/building-the-ui-for-the-new-the-times-website-26dc4e6569e
-A great write up by Pedro Duarte about the procedure of implementing new design for The Times and The Sunday Times. It is really interesting recap.
- Pure CSS Games with Counter-Increment # http://una.im/css-games/#=%81
-Una Kravets wrote down great article that in simple words explains everything that you need to know about CSS counters.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1359,7 +1240,7 @@ Una Kravets wrote down great article that in simple words explains everything th
       <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/css-mixins-with-apply-rule/</guid>
-      <description>I am very excited about recent evolution of CSS. Flexbox was a buzzword some time ago, today it is a part of a spec that is well supported and widely adopted. Few months back I published an intro to CSS grid layout module that is another approaching feature that will dramatically change the way we build our projects. The enormous popularity of preprocessors like Sass or LESS undoubtedly influenced spec authors to bring variables to the language as a CSS Custom Properties.</description>
+      <description>I&#39;m excited about a recently added CSS features. Previously we discussed custom properties, now it&#39;s a time to talk about mixins using the @apply rule.</description>
     </item>
     
     <item>
@@ -1368,7 +1249,7 @@ Una Kravets wrote down great article that in simple words explains everything th
       <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/liquid-video/</guid>
-      <description>I would like to share with you an easy script that I published the other day. Liquid video does exactly what the name suggests. It converts fixed sized iframe videos (from YouTube, Vimeo and other services like that) to responsive ones that adapt to the width of the parent container. It does exactly the same job as popular FitVids but doesn&amp;rsquo;t rely on additional jQuery dependency. It is extremely lightweight - only 417 Bytes minified and 998 Bytes unminified.</description>
+      <description>Make your iframe videos from YouTube or Vimeo responsive with ease with simple script that I published recently - Liquid video.</description>
     </item>
     
     <item>
@@ -1377,11 +1258,7 @@ Una Kravets wrote down great article that in simple words explains everything th
       <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-march/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-CSS Snap Size # https://drafts.csswg.org/css-snap-size/
-Vertical rhythm like a breeze without complex math - yes please! CSS Snap Size looks very promising and helpful for pixel perfectionists.
- Mastering Markdown # http://masteringmarkdown.com/
-Wes Bos with next amazing mini series, this time about Markdown. Like a bread and butter for every Github users, essential skill of every web developer nowadays.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1390,7 +1267,7 @@ Wes Bos with next amazing mini series, this time about Markdown. Like a bread an
       <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/manipulate-javascript-arrays-like-a-boss/</guid>
-      <description>One of the most amazing things in programming is the fact that one task can be achieved via a number of different methods. My recent journey through the world of React.js became extremely fascinating and not just because of the amazingness of this library. Spending so much time in the JavaScript environment taught me a lot of the language&amp;rsquo;s core features. I would like to spend a few minutes showing you three easy methods that will make you a hero using arrays and give you a great start with functional programming.</description>
+      <description>JavaScript arrays come with many useful methods. Mastering them can make you a much more efficient programmer. Let&#39;s have a look at a few of them.</description>
     </item>
     
     <item>
@@ -1399,7 +1276,7 @@ Wes Bos with next amazing mini series, this time about Markdown. Like a bread an
       <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/git-tip-staging-hunk-of-code-via-command-line/</guid>
-      <description>The command line is my preferred way of using git. My code editor (Sublime Text) and command line app (iTerm 2) is everything that I need. Although I have some minor experience with GUI tools, I just don&amp;rsquo;t need them. A third opened app next to the two previously mentioned isn&amp;rsquo;t needed. The only feature that I missed from tools like Tower 2 or SourceTree was the ability to stage small hunks of code from the same file independently and create separate commits from them.</description>
+      <description>GUI Git clients allow you to stage selected lines of code very easily. You may not know that but doing this in the command line isn&#39;t much more difficult.</description>
     </item>
     
     <item>
@@ -1408,7 +1285,7 @@ Wes Bos with next amazing mini series, this time about Markdown. Like a bread an
       <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/my-first-year-of-blogging/</guid>
-      <description>A web developer&amp;rsquo;s learning curve is endless and the main source of information are blogs created by other developers. The vast majority of good developers highlight the benefits of written content whenever they share some thoughts about their career path. I never understood this before I tried doing it myself. Exactly one year ago I published my first article and I couldn&amp;rsquo;t be happier that I started. I won&amp;rsquo;t be stopping here that&amp;rsquo;s for sure!</description>
+      <description>Exactly one year ago I published my first article. I&#39;m not going to stop here that&#39;s for sure. Nothing went wrong, so let me share with you what went well.</description>
     </item>
     
     <item>
@@ -1417,10 +1294,7 @@ Wes Bos with next amazing mini series, this time about Markdown. Like a bread an
       <pubDate>Mon, 29 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-february/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-Responsive Image Breakpoints Generator, A New Open Source Tool # https://www.smashingmagazine.com/2016/01/responsive-image-breakpoints-generation/
-Nadav Soferman on Smashing Magazine presented a game changer in world of responsive images. Article is worth to read and tool work to use. Try it yourself!
- Everything you wanted to know about JavaScript scope # https://toddmotto.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1429,7 +1303,7 @@ Nadav Soferman on Smashing Magazine presented a game changer in world of respons
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/css-custom-properties-explained/</guid>
-      <description>In programming languages the term &amp;ldquo;variable&amp;rdquo; describes a storage location normally associated with an identifier that contains some value. Despite fact that CSS is a markup language, spec creators were very generous recently and gave us a tiny, but very powerful piece of real programming capability. Excitement about native CSS Custom Properties is generally tempered by the incorrect comparison to variables used in preprocessors like Sass or LESS. Don&amp;rsquo;t be fooled by this misconception!</description>
+      <description>CSS Custom Properties (colloquially known as a CSS Variables) are around the corner. Let&#39;s embrace the power of a feature that we&#39;ve been waiting years for.</description>
     </item>
     
     <item>
@@ -1438,7 +1312,7 @@ Nadav Soferman on Smashing Magazine presented a game changer in world of respons
       <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/</guid>
-      <description>In June 2015 the TC39 (Technical Committee 39) officially released a spec of ECMAScript 2015 (colloquially known as a ES6). In parallel to the new spec, a new naming system within the language was introduced which is related with the new yearly release process. The plan is to release a new version of the language every year, and ship it with features that are ready at the time. ES2015 added a lot of amazing features.</description>
+      <description>ES2015 brought a lot of large-scale features to the language. The new release process is going to introduce a few small bits every year. Here&#39;s what&#39;s new in ES2016.</description>
     </item>
     
     <item>
@@ -1447,9 +1321,7 @@ Nadav Soferman on Smashing Magazine presented a game changer in world of respons
       <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2016-january/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-Setting up ES6 # https://leanpub.com/setting-up-es6/read
-Axel Rauschmayer as a strong contributor to ES2015 (or more popular as a ES6) just released a book called “Setting up ES6”. It covers all that you need to know to get you running in world of modern js applications. Content is ready to read for free online, but you can spend six bucks for tablet or kindle version.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1458,7 +1330,7 @@ Axel Rauschmayer as a strong contributor to ES2015 (or more popular as a ES6) ju
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/image-tag-vs-background-property/</guid>
-      <description>As Anselm Hannemann recently mentioned: front end developers have a problem with HTML and CSS. I avoided diving into the world of JavaScript for years and looking through prism of time I can see many benefits of focusing on HTML and CSS for so long. I learned it thoroughly and I know the power and restrictions that these languages come with. The HTML5 spec was finalized, and published some time ago but many people still don&amp;rsquo;t know how to correctly use the img tag or background-size property.</description>
+      <description>Images need to be treated differently dependent on whether they are part of the design or part of the content. Let&#39;s discuss backgrounds and images.</description>
     </item>
     
     <item>
@@ -1467,9 +1339,7 @@ Axel Rauschmayer as a strong contributor to ES2015 (or more popular as a ES6) ju
       <pubDate>Tue, 19 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/rounding-and-truncating-numbers-in-javascript/</guid>
-      <description>Rounding and truncating is a bread and butter action for every single developer. It was covered during your first few math lessons in primary school. Hopefully you still remember how it works in the world of numbers.
- 5 or more? Raise the Score. 4 or less? Let it Rest.
- Let&amp;rsquo;s use this knowledge and translate it to JavaScript using the built-in object called Math. As the name can suggests, it has a collection of properties and methods for mathematical operations on numbers.</description>
+      <description>Convert primary school math skills into code. Let&#39;s put together all that we know about rounding and truncating numbers in JavaScript.</description>
     </item>
     
     <item>
@@ -1478,8 +1348,7 @@ Axel Rauschmayer as a strong contributor to ES2015 (or more popular as a ES6) ju
       <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/my-favourite-resources-to-learn-javascript/</guid>
-      <description>A few weeks ago at the annual keynote “The State of World” Matt Mullenweg (creator of Wordpress) gave us a homework. The task sounds simple “Learn JavaScript, Deeply”. The choice of helpful articles online is almost endless but which should you pick to start your journey? In this post, I’ll be sharing a list of resources that helped me get my head around JS.
-You Don&amp;rsquo;t Know JS (book series) # If I could only pick one, I’d definitely recommend the series of books by Kyle Simpson titled “YDKJS: You Don&amp;rsquo;t Know JS”.</description>
+      <description>Matt Mullenweg gave us a homework “Learn JavaScript, Deeply”. I wouldn’t want to disappoint the creator of WordPress so these are resources that I found helpful.</description>
     </item>
     
     <item>
@@ -1488,11 +1357,7 @@ You Don&amp;rsquo;t Know JS (book series) # If I could only pick one, I’d defi
       <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2015-december/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-Fat Arrow Functions JavaScript Programming Tutorial # https://youtu.be/J85lRtO_yjY
-Best explanation of arrow function in ES2015 as I found so far. Hopefully we are going to see more snappy tutorials about ES6 by Adam soon.
- Leaving the Mac App Store # http://blog.sketchapp.com/post/134322691555/leaving-the-mac-app-store
-Sketch App just left Apple App Store.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1501,7 +1366,7 @@ Sketch App just left Apple App Store.</description>
       <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/background-video-made-easy/</guid>
-      <description>We love videos! It’s a pleasure for our eyes to see a little bit of modern looking movement on a website. Unfortunately our browser doesn’t love videos like we do. Good performance isn’t a friend with videos neither. I have come across many websites with autoplayed videos hosted on vimeo or youtube that use crazy amount of bandwidth. Some minimal looking websites with full HD video in the background even triggered the fans on my laptop.</description>
+      <description>HTML5 comes with video tag that we can use to create video as a background with a little bit help from CSS. Let’s add some movement to our projects.</description>
     </item>
     
     <item>
@@ -1510,9 +1375,7 @@ Sketch App just left Apple App Store.</description>
       <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2015-november/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-Project Comet: Designing with Real Data # https://medium.com/@anirudhs/project-comet-designing-with-real-data-959beccb5c1a#.w64g992vb
-This is really stunning showcase of Comet’s amazing feature that helps to work with real data. No more “Lorem Ipsum…”! As a Sketch user, repeated grid isn’t anything amazing for me, but the feature to use real data from real website is amazing!</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1521,7 +1384,7 @@ This is really stunning showcase of Comet’s amazing feature that helps to work
       <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/my-favourite-front-end-related-podcasts/</guid>
-      <description>I found it very difficult to keep a balance between coding and following up all the new technologies, trends, libraries, frameworks and tools that keep appearing. The day just isn’t long enough! It is all too easy to fall into a “State of Constant Alert” by trying to follow all of this stuff. Tim Kadlec summed it up in one of his recently published articles “The Fallacy of Keeping Up”. Fortunately our community is full of amazing people who are recording a great podcasts.</description>
+      <description>We all know how difficult it is staying up to date in front-end development. The day is not long enough. The solution? Podcasts to the rescue!</description>
     </item>
     
     <item>
@@ -1530,10 +1393,7 @@ This is really stunning showcase of Comet’s amazing feature that helps to work
       <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2015-october/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-The Fallacy of Keeping Up # http://timkadlec.com/2015/09/the-fallacy-of-keeping-up/
-How to keep up all the new stuff in web industry? Actually this article is how to don’t keep up, and be a good and happy developer. Tim Kadlec, as always, well written advice.
- Introducing RAIL: A User-Centric Model For Performance # http://www.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1542,8 +1402,7 @@ How to keep up all the new stuff in web industry? Actually this article is how t
       <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/bem-with-emmet/</guid>
-      <description>You’ll notice a Russian theme to today’s post. Emmet, created by Sergey Chikuyonok from Moscow, is a fantastic extension available for the majority of today’s popular code editors. BEM (Block, Element, Modifier) is a very widely used methodology that helps me to keep my projects sane and well organised. It is created by some very clever guys from Russia’s largest search engine — Yandex.
-BEM requires a lot of typing, but Emmet helps you to create a markup with less typing.</description>
+      <description>Emmet is one of my favourite plugins for a lightning fast HTML &amp; CSS workflow. BEM methodology helps me to keep my projects sane. Let’s try them together!</description>
     </item>
     
     <item>
@@ -1552,7 +1411,7 @@ BEM requires a lot of typing, but Emmet helps you to create a markup with less t
       <pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/lets-get-into-the-basics-of-css-grid-layout-model/</guid>
-      <description>CSS is getting stronger and gives us much more power than a few years ago. It is difficult to miss the huge buzz about Flexbox recently. This powerful part of CSS is well supported in all modern browsers and you don&amp;rsquo;t have an excuse for not using it yet. I found it very helpful in some circumstances, but it&amp;rsquo;s definitely not the ideal candidate for building entire layouts. We tend to build them using floating or inline blocking elements, but it’s definitely not reason why these features were created.</description>
+      <description>The majority of websites are built based on some sort of grid and we use many techniques to achieve that. CSS Grid Layout Model is just around the corner!</description>
     </item>
     
     <item>
@@ -1561,11 +1420,7 @@ BEM requires a lot of typing, but Emmet helps you to create a markup with less t
       <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2015-september/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-Hack Font # http://sourcefoundry.org/hack/
-It’s new, free, mono-spaced font that works very well with code editors like Sublime Text or Atom. It’s looking so nice, but I’m going to be stick to my favourite ‘Source Code Pro’.
- Responsive Images 101 # http://blog.cloudfour.com/responsive-images-101-definitions/
-It’s 10 part introduction to responsive images.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1574,7 +1429,7 @@ It’s 10 part introduction to responsive images.</description>
       <pubDate>Tue, 22 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/the-secret-of-css-secrets-by-lea-verou/</guid>
-      <description>It was a day like any other. Morning coffee and a little bit or reading, got ready, work, home, playing with my lovely kitty, a bit of cycling and then quick Twitter check. That was the moment when this day stopped being ordinary. My Twitter’s feed changed colour to pink and white. No, they haven’t done any rebranding. That was a hue of a book — “CSS Secrets” by Lea Verou.</description>
+      <description>Fall in love in stylesheets all over again with “CSS Secrets” by Lea Verou. Quick review of Lea’s amazing collection of CSS tricks, tips and advices.</description>
     </item>
     
     <item>
@@ -1583,8 +1438,7 @@ It’s 10 part introduction to responsive images.</description>
       <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/native-feature-detection-with-csssupports-api/</guid>
-      <description>Feature detection is something that every front end developer faced at some point. There are a number of solutions to handle features incompatibility. It can be some CSS hack that overrides the previous rule, or JavaScript snippet that returns boolean value that dictates further steps. Possibly you came across more advanced solutions like Modernizr, which has been updated recently and brought us so many new checks.
-There is one more method, not that widely used yet.</description>
+      <description>Feature detection is something that every front end developer faced at some point. CSS.supports() API allows us to use very elegant form to doing it.</description>
     </item>
     
     <item>
@@ -1593,7 +1447,7 @@ There is one more method, not that widely used yet.</description>
       <pubDate>Sat, 12 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/use-modern-javascript-today-with-babel/</guid>
-      <description>In June 2015 new version of ECMAScript has been ratified and brought us many cool features. Last big update like that happened in 2009 when ES5 has been officially revealed. As always the biggest problem with new standards is browsers compatibility (incompatibility suits better here). This is the only reason that restrains developers from using latest standards. Fortunately we have a Babel (formerly known as 6to5). It allows you to use new syntax by transpiling your ECMAScript 2015 into ES5 code, that works fine in current JavaScript environments.</description>
+      <description>ECMAScript 2015 has been recently ratified and brought us many cool features. As you may expect, browsers support is the only issue, but not with Babel.</description>
     </item>
     
     <item>
@@ -1602,7 +1456,7 @@ There is one more method, not that widely used yet.</description>
       <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/bookmarking-with-pinboard/</guid>
-      <description>The internet is full of things that you don’t want to forget, you would like to watch in the future, read later or buy after pay day. That’s what bookmarks are made for, yeah? Standard bookmarks in your browser are fine as long as you don’t have many of them. Things are getting more complicated when you have hundreds or sometimes thousands of URLs worth revisiting. Services like Pocket or do the job pretty well, but Pinboard gives you a real power.</description>
+      <description>The internet is full of things that you don&#39;t want to forget. Bookmarking services like Pocket or Delicious are helpful but Pinboard is much more than that.</description>
     </item>
     
     <item>
@@ -1611,11 +1465,7 @@ There is one more method, not that widely used yet.</description>
       <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2015-august/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
-The Hitchhiker&amp;rsquo;s Guide to Modern JavaScript Tooling # http://reactkungfu.com/2015/07/the-hitchhikers-guide-to-modern-javascript-tooling/
-Collection of tools for modern JavaScript developers. I use few of them on daily basis and I&amp;rsquo;m looking forward to get my head around babel.js.
- FontCDN # http://fontcdn.org/
-Google fonts are cool but browsing them is a pain. Thats why FontCDN is super cool!</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1624,7 +1474,7 @@ Google fonts are cool but browsing them is a pain. Thats why FontCDN is super co
       <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/from-sass-to-postcss/</guid>
-      <description>I have a feeling that my CSS authoring went way too far from vanilla CSS. Abstraction of my super functions heavy Sass files doesn’t even remind stylesheets as we remember them from the past. I noticed on Twitter a huge buzz about PostCSS but initially I refused to try it. I just couldn’t imagine a better process for working with styles than my sassy method. Excitement of community eventually triggered my curiosity and I gave it a try.</description>
+      <description>Do you remember that amazing feeling when you discovered the power of Sass? Variables, mixins, nesting — WOW! Time to do it again, this time with PostCSS.</description>
     </item>
     
     <item>
@@ -1633,7 +1483,7 @@ Google fonts are cool but browsing them is a pain. Thats why FontCDN is super co
       <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/i-wont-miss-you-adobe/</guid>
-      <description>Adobe Photoshop, Adobe Illustrator and Adobe Fireworks were web design industry standard for many years. Everybody is familiar with these tools not because they are incredibly amazing but because they were the only choice. Some time ago Adobe changed their sales model to a monthly subscription. So many web developers and designers (including myself) were not very happy with that politics. Fortunately few new applications came out recently and finally we have the opportunity to use something else.</description>
+      <description>For years Adobe products were the obvious choice for web designers. Not because of it&#39;s incredibly good but there was no choice. Finally things changed.</description>
     </item>
     
     <item>
@@ -1642,8 +1492,7 @@ Google fonts are cool but browsing them is a pain. Thats why FontCDN is super co
       <pubDate>Wed, 05 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/fix-priviliges-and-never-again-use-sudo-with-npm/</guid>
-      <description>Nah! Don&amp;rsquo;t do it! I published this article years ago. It was a solution provided by npm team by the time of writing this article. Use nvm or brew instead please.
-We have a few options to install Node and npm. Using Homebrew is the safest and recommended way to do it. Another safety option is using Node Version Manager. Next method is using installer available on official node website. This way is the most obvious and the easiest one, but not necessarily the safest one.</description>
+      <description>Running npm with sudo allows hackers to have full control over your computer. Fortunately it works perfectly fine without root powers. Let&#39;s fix it!</description>
     </item>
     
     <item>
@@ -1652,11 +1501,7 @@ We have a few options to install Node and npm. Using Homebrew is the safest and 
       <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2015-july/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
- What is code? # http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
-Essay about programming by Paul Ford. Very interesting read.
- Lea Verou on The Missing Slice of Pie # https://vimeo.com/132511382
-I recently worked on a project that required a basic pie chart. I managed to implement a basic non-js, SVG based solution. That video would be so helpful back then!</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1665,8 +1510,7 @@ I recently worked on a project that required a basic pie chart. I managed to imp
       <pubDate>Wed, 08 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/css-specificity-explained/</guid>
-      <description>CSS Specificity is the most misunderstood part of Cascading Style Sheets. No doubt! Yes, it is even trickier than floats, trust me! I hang out with many web developers on a daily basis and I assume that lack of understanding of this concept is most frequently the reason of confusion. Let me quote Harry Roberts:
- As we’ve seen, CSS isn’t the most friendly of languages: globally operating, very leaky, dependent on location, hard to encapsulate, based on inheritance… But!</description>
+      <description>CSS Specificity is the most misunderstood part of Cascading Style Sheets. Let me explain how the browser understands and interprets the jungle of selectors.</description>
     </item>
     
     <item>
@@ -1675,11 +1519,7 @@ I recently worked on a project that required a basic pie chart. I managed to imp
       <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2015-june/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
- Making Material Design # http://www.google.com/design/
-I&amp;rsquo;m not sure if it&amp;rsquo;s any new, but I came across that website just sec ago. Well explained idea behind Google Material Design.
- jQuery Quick API Reference # http://oscarotero.com/jquery/
-Quick jQuery API reference. Look at the thing, click, read and use. Done!</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1688,7 +1528,7 @@ Quick jQuery API reference. Look at the thing, click, read and use. Done!</descr
       <pubDate>Fri, 12 Jun 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/javascript-console-in-sublime-text/</guid>
-      <description>Learning JavaScript can be a long and difficult journey. You can read tons of books and articles, attend reputable conferences and watch many videos but you are wasting your time if you won&amp;rsquo;t practice it. Google Chrome Javascript Console isn&amp;rsquo;t the most comfortable tool for sure. Tools like jsbin.com or jsfiddle.net are super cool but lets confirm that, nothing is more convenient to write a piece of code than your favourite editor.</description>
+      <description>Reading books, attending conferences and watching videos is pointless without practice. Let me show you what helped me a lot on my JavaScript learning curve.</description>
     </item>
     
     <item>
@@ -1697,9 +1537,7 @@ Quick jQuery API reference. Look at the thing, click, read and use. Done!</descr
       <pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2015-may/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
- Microsoft Edge is the browser for Windows 10 # http://blogs.msdn.com/b/ie/archive/2015/04/29/microsoft-edge-is-the-browser-for-windows-10.aspx
-Browser developed as a “Project Spartan” just revealed the true name of final result - Microsoft Edge. It is the new default browser on new Windows 10. At first glance looks like a well designed browser. Hopefully it’s going to be developed equally good.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1708,8 +1546,7 @@ Browser developed as a “Project Spartan” just revealed the true name of fina
       <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/do-you-really-need-another-grid-system/</guid>
-      <description>Every single day I come across new grid systems. They all do the same job. Some of them are terribly ugly and difficult to use, some of them are fantastic and so powerful. Let me point what needs to be possible in good grid system:
- easy to use using own markup nest grids reorder columns  One of the most important things for me is to use my own markup.</description>
+      <description>CSS grid system is so easy to create. We can use one of thousands frameworks, but do we really have to? Let me show you how I do it with few SASS mixing.</description>
     </item>
     
     <item>
@@ -1718,11 +1555,7 @@ Browser developed as a “Project Spartan” just revealed the true name of fina
       <pubDate>Thu, 30 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2015-april/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
- What is the WebP Image Format (And Why Does It Matter)? # http://www.sitepoint.com/webp-image-format/
-Nice introduction into WebP image format. Everything is looking amazing but it is going to be another thing to care about to provide cross browser user experience.
- BEM 101 # https://css-tricks.com/bem-101/
-I’m big fan of BEM methodology.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1731,7 +1564,7 @@ I’m big fan of BEM methodology.</description>
       <pubDate>Sun, 26 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/keep-sublime-text-snippets-organized/</guid>
-      <description>As a developer in big digital agency I spend most of my day with my code editor. I tried to use many different applications but I ended up with Sublime Text and I love it. I always look for some useful tricks and tips that saves myself from tedious tasks. One of this things is definitely core feature of Sublime Text - snippets. Let me show you how I use it and how does it speed my workflow up.</description>
+      <description>Web development nowadays is a complex thing. Gazillion languages, techniques and functions are not easy to remmember. Let me remind you how cool snippets are.</description>
     </item>
     
     <item>
@@ -1740,7 +1573,7 @@ I’m big fan of BEM methodology.</description>
       <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/how-to-stay-informed-in-web-development-game/</guid>
-      <description>To stay on top of the web development and web design game you need to follow. It is so changeable industry. There is many sources of information, hundreds developers to follow, youtube videos and twitter accounts. Thats the problem. If you start to follow entire market, probably you will end up in endless loop of checking what’s funky and fresh but without any time left for yourself, your partner, cycling, beer, whatever.</description>
+      <description>Web design industry is very changeable. You need to flow new trends, frameworks, methodologies, concepts and standards to stay in the game. That’s how I do it.</description>
     </item>
     
     <item>
@@ -1749,7 +1582,7 @@ I’m big fan of BEM methodology.</description>
       <pubDate>Mon, 06 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/jekyll-blog-on-github-pages-supercharged-by-cloudflare/</guid>
-      <description>On daily basis I work a lot with Wordpress. In the company that I work for we build cool looking websites for clients that are not necessarily very familiar with technology behind it. It is fantastic tool, with easy to grasp backend and almost endless possibilities. Wordpress was a first thing that came to my mind when I decided to build my own blog. After a quick research I found out that it is many tools that better suits my simple text based blog than Wordpress.</description>
+      <description>Building first Jekyll website can be tricky, but it’s worth to give it a try. Let me share why I chose Jekyll, what did I struggle with and why I love it now.</description>
     </item>
     
     <item>
@@ -1758,11 +1591,7 @@ I’m big fan of BEM methodology.</description>
       <pubDate>Tue, 31 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/top-picks-2015-march/</guid>
-      <description>Internet is full of interesting, useful or funny things. I would like to share with you my top picks from this month.
- Frontend Guidelines # https://github.com/bendc/frontend-guidelines
-Fantastic collection of useful HTML/CSS/JavaScript snippets. Every example is well described. It is a good lesson for beginners and advanced web designers and developers.
- Harnessing Flexbox For Today’s Web Apps # Harnessing Flexbox For Today’s Web Apps
-This article that provides us examples when and how can we use Flexbox layout model in daily routine.</description>
+      <description>Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.</description>
     </item>
     
     <item>
@@ -1771,7 +1600,7 @@ This article that provides us examples when and how can we use Flexbox layout mo
       <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/my-web-development-setup/</guid>
-      <description>Improving my workflow is an endless story. I always look for some new tools and new tricks that can speed my workflow up. I confirm that now I’m pretty happy with my current set of stuff that I use in my daily routine. I just bought a new Macbook so I’m in the process of installing necessary tools and adjusting all settings. I thought that is a nice opportunity to write a blog post about it.</description>
+      <description>I like to read about tools, software, frameworks and frequently used tricks and tips of web developers. Today I would like to show you my set.</description>
     </item>
     
     <item>
@@ -1780,8 +1609,7 @@ This article that provides us examples when and how can we use Flexbox layout mo
       <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/hello-there/</guid>
-      <description>I’m so happy to introduce you my new website. It’s not about the fancy cool effects, it is not about shiny design. It’s purely about the content that I would like to share with you.
-After a few months of creating a weekly newsletters for web developers in company where I currently work I found out that I enjoy sharing knowledge and be more involved info community of web developers. That was my biggest kick to choose a blogging platform, start writing a content and publish my thoughts.</description>
+      <description>Welcome to my website. After a while of being a web developer I found out that It gives my a massive pleasure to share knowledge, so I decided to run this blog.</description>
     </item>
     
     <item>
@@ -1790,7 +1618,7 @@ After a few months of creating a weekly newsletters for web developers in compan
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/about/</guid>
-      <description>I am a self-taught front-end developer looking for an opportunity to work with the latest web technologies. Coming from a background in photography, I have progressed through UI/UX design into front-end development with a growing interest in other bleeding edge technologies. Over time I have become strongly involved in the open-source community where I regularly contribute and create projects, frequently attend conferences and follow other liked-minded geeks. This enables me to always stay fresh in finding the best solutions for technical problems.</description>
+      <description></description>
     </item>
     
     <item>
@@ -1808,8 +1636,7 @@ After a few months of creating a weekly newsletters for web developers in compan
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pawelgrzybek.com/uses/</guid>
-      <description>I have an Awesome Uses page too. For more geeky setup I highly encourage you to check my .dotfiles repository on GitHub.
-Software # For my day-to-day job I use mainly Visual Studio Code by Microsoft that I jump on after long years with Sublime Text. Hyper is my favorite Terminal alternative. Insomnia is my tool of choice to help me with REST APIs and GraphQL servers that normally run on separated containers with a little help of Docker.</description>
+      <description></description>
     </item>
     
   </channel>
