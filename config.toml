@@ -3,6 +3,7 @@ title = "pawelgrzybek.com"
 disableKinds = ["section", "taxonomy", "term"]
 disqusShortname = "studiorgb"
 pygmentsUseClasses = true
+enableRobotsTXT = true
 
 [params]
   description = "Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records."
