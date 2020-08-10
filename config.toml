@@ -14,12 +14,8 @@ pygmentsUseClasses = true
   posts = "/:slug/"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [outputFormats.RSS]
   mediatype = "application/rss"
-  baseName = "feed"
-
-[outputFormats.JSON]
-  mediatype = "application/json"
   baseName = "feed"
