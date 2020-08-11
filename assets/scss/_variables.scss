@@ -15,8 +15,16 @@
   --color-syntax-na: #330099;
 
   --fz: 1rem;
-  --lh: 1.77778rem;
+  --fzb: 106.25%; // 17px
+  --lh: 1.764705882rem; //30px
   --type-scale: 1.25;
+}
+
+@media screen and (min-width: 764px) {
+  :root {
+    --fzb: 112.5%; // 18px
+    --lh: 1.77778rem; //32px
+  }
 }
 
 @media (prefers-color-scheme: dark) {

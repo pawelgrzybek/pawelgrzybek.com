@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 112.5%;
+  font-size: var(--fzb);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -35,6 +35,7 @@ body {
   //   transparent 1px
   // );
   // background-size: 100% 32px;
+  // background-size: 100% 30px;
 }
 
 img {
@@ -125,7 +126,7 @@ blockquote {
   margin-bottom: var(--lh);
   padding: var(--lh);
   background: var(--color-box-background);
-  box-shadow: 0 0 0 1px var(--color-box-border);
+  box-shadow: inset 0 0 0 1px var(--color-box-border);
 }
 
 blockquote p {

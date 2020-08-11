@@ -1,15 +1,8 @@
 .header {
   position: relative;
-  padding: calc(var(--lh) * 3) 0;
+  padding: calc(var(--lh) * 2) 0;
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (min-width: 764px) {
-  .header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
 }
 
 .header__skip {
@@ -28,6 +21,7 @@
 .header__logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 0;
   font-size: calc(var(--fz));
   line-height: var(--lh);
@@ -35,33 +29,27 @@
 
 .header__logo a {
   display: flex;
+  flex-direction: column;
   align-items: center;
   font-weight: 700;
+  margin: 0 0 calc(var(--lh) / 2);
 }
 
-@media screen and (min-width: 964px) {
-  .header__logo a::before {
-    content: "";
-    width: calc(var(--lh) * 2);
-    height: calc(var(--lh) * 2);
-    margin-right: calc(var(--lh) / 2);
-    background-image: url("/assets/logo.jpg");
-    background-size: 100% 100%;
-    border-radius: var(--lh);
-  }
-
-  .header__logo::after {
-    font-weight: 400;
-    white-space: pre;
-    color: var(--color-text);
-    content: " | Software Engineer at Mindera";
-  }
+.header__logo a::before {
+  content: "";
+  width: calc(var(--lh) * 2);
+  height: calc(var(--lh) * 2);
+  margin: 0 0 calc(var(--lh) / 2);
+  background-image: url("/assets/logo.jpg");
+  background-size: 100% 100%;
+  border-radius: var(--lh);
 }
 
 .header__list {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   list-style: none;
   margin: 0;
 }
@@ -72,4 +60,36 @@
 
 .header__item:last-of-type {
   margin-right: 0;
+}
+
+@media screen and (min-width: 764px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: calc(var(--lh) * 3) 0;
+  }
+
+  .header__logo a {
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .header__logo a::before {
+    content: "";
+    width: calc(var(--lh) * 2);
+    height: calc(var(--lh) * 2);
+    margin: 0 calc(var(--lh) / 2) 0 0;
+    background-image: url("/assets/logo.jpg");
+    background-size: 100% 100%;
+    border-radius: var(--lh);
+  }
+}
+
+@media screen and (min-width: 964px) {
+  .header__logo::after {
+    font-weight: 400;
+    white-space: pre;
+    color: var(--color-text);
+    content: " | Software Engineer at Mindera";
+  }
 }
