@@ -12,3 +12,7 @@ New website looks great but for me most important part of this announcement is a
 ## [Learn GraphQL by Stefan Judis](https://www.contentful.com/developers/videos/learn-graphql/)
 
 If you want to learn the basics of GrapgQL and on top of it explore amazing content provider for your next project, you should take this course by Stefan Judis from Contentful team. Concise explanations and practical example. Top resource!
+
+## [Introducing Rome](https://romefrontend.dev/blog/2020/08/08/introducing-rome.html)
+
+This is exciting news. Rome — the toolchain for frontend projects made by Facebook team that is going to combine tools like Babel, ESLint, Prettier, Jest and others into a single dependency. This sounds like a dream. No more hours spent on setting up Prettier that speaks well to ESLint, no more hours spent on Webpack documentation and no more wasted time on Jest configuration to make it work smoothly with Jest. Currently Rome supports only linting part but we should expect the list of features growing very soon.
