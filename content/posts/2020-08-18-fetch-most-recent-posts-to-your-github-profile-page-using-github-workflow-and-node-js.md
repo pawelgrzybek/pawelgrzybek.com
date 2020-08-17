@@ -1,23 +1,23 @@
 ---
 title: "Fetch most recent posts to your GitHub profile page using GitHub workflow and Node.js"
 description: "I combined GitHub workflows and simple Node.js script to display the most recent articles from my RSS feed on my GitHub public profile page. Let's have a look how it's done."
-photo: 2020-08-10.jpg
+photo: "2020-08-10.jpg"
 ---
 
-Github workflow is a feature that lets us run actions on particular software development life cycle (SDLC) or a scheduled interval. Another cool feature of GitHub is a way to customize your public profile page using `README.md` file inside repository names by your username. I combined these two features to display the most recent articles from my RSS feed on my GitHub public profile page.
+GitHub workflow is a feature that lets us run actions on particular software development life cycle (SDLC) or a scheduled interval. Another cool feature of GitHub is a way to customise your public profile page using `README.md` file inside repository named by your username. I combined these two features to display the most recent articles from my RSS feed on my GitHub public profile page.
 
 ![Most recent articles on GitHub profile public page](/photos/2020-08-18-1.jpg)
 
 ## Workflow setup
 
-Github workflows are sets of actions defined in `.yml` file that run on a particular life cycle or at the scheduled interval. The workflow needs to be defined in `.github/workflows/` directory. [The documentation for HitHub workflows and actions](https://docs.github.com/en/actions) is easy to understand and full of helpful tips. Let's recap what we want to achieve and express it using Github workflow.
+GitHub workflows are sets of actions defined in `.yml` file that run on a particular life cycle or at the scheduled interval. The workflow needs to be defined in `.github/workflows/` directory. [The documentation for GitHub workflows and actions](https://docs.github.com/en/actions) is easy to understand and full of helpful tips. Let's recap what we want to achieve and express it using GitHub workflow.
 
 1. Create a workflow that runs every 6 hours (`"* */6 * * *"`).
 2. Spin up an Ubuntu instance (`runs-on: ubuntu-latest`).
 3. Check out the GitHub repository (`actions/checkout@v2`).
-4. Set up node.js (`actions/setup-node@v2-beta`).
+4. Set up Node.js (`actions/setup-node@v2-beta`).
 5. Install node dependencies (`yarn`).
-6. Run custom node.js script (`yarn build`).
+6. Run custom Node.js script (`yarn build`).
 7. Commit changes.
 
 ```yml
@@ -47,11 +47,9 @@ jobs:
         run: git diff --quiet && git diff --staged --quiet || git commit -am '[BOT] Update readme' && git push
 ```
 
+## Fetch RSS feed using Node.js and override READMe.md
 
-
-## Fetch RSS feed using and save READMe.md file using Node.js
-
-Assuming that you already pre-created `README.md` file in your repository, we need to decide how to put dynamic content into it. I achieved it by placing custom comments inside the file, and the dynamically generated content will be placed between them. Have a look at the example.
+Assuming that you already created `README.md` file in your repository, we need to decide how to put dynamic content into it. I achieved it by placing custom comments inside the file and the dynamically generated content will be placed between them. Have a look at the example.
 
 ```md
 # Hi y'all 👋
@@ -64,7 +62,7 @@ Some cool text about me.
 <!-- FEED-END -->
 ```
 
-Now time for the node.js part. Let's review the list of operations that needs to be performed and let's express that using node.js script.
+Let's review the list of operations that need to be performed and let's express that using Node.js script.
 
 1. Fetch RSS feed from my blog.
 2. Convert it to JSON.
@@ -118,4 +116,4 @@ Look, ECMAScript modules! YOLO 😜
 
 ## Do it and share it!
 
-Hopefully, you like this quick idea for a quick GitHub workflow. Feel free to check the [source code](https://github.com/pawelgrzybek/pawelgrzybek/) for live example implemented on this post. Code above isn't perfect so please don't leave comments like "Ej dude, you should use XYZ for this one". It works and it is all that's needed. Have a great day and keep on coding 👩‍💻👨‍💻
+Hopefully you like this simple idea for a quick GitHub workflow. Feel free to check the [source code](https://github.com/pawelgrzybek/pawelgrzybek/) for the live example implemented on this post. The code above isn't perfect so please don't leave comments like "Eh dude, you should use XYZ for this one". It works and it is all that's needed. Have a great day and keep on coding 👩‍💻👨‍💻
