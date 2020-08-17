@@ -1,7 +1,7 @@
 ---
 title: "Fetch most recent posts to your GitHub profile page using GitHub workflow and Node.js"
 description: "I combined GitHub workflows and simple Node.js script to display the most recent articles from my RSS feed on my GitHub public profile page. Let's have a look how it's done."
-photo: "2020-08-10.jpg"
+photo: "2020-08-18.jpg"
 ---
 
 GitHub workflow is a feature that lets us run actions on particular software development life cycle (SDLC) or a scheduled interval. Another cool feature of GitHub is a way to customise your public profile page using `README.md` file inside repository named by your username. I combined these two features to display the most recent articles from my RSS feed on my GitHub public profile page.
