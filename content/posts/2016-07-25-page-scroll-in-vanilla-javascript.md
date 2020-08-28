@@ -99,7 +99,7 @@ if (window.pageYOffset === destinationOffsetToScroll) {
 }
 ```
 
-### Puting it all together
+### Putting it all together
 
 The whole function looks like this.
 
