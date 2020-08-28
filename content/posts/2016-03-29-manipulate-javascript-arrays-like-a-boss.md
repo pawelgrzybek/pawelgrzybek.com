@@ -144,7 +144,7 @@ Passing the optional initial value as a second argument slightly changes the pre
 
 ## Chain it together
 
-The beautiful thing about `map()` and `filter()` is the fact that an array goes in and an array comes out as a result of the method. This behaviour means we can chain these methods together with ease.
+The beautiful thing about `map()` and `filter()` is the fact that an array goes in and an array comes out as a result of the method. This behavior means we can chain these methods together with ease.
 
 ```js
 var numbers = [2, 5, 8];

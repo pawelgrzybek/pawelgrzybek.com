@@ -4,7 +4,7 @@ description: I'm happy to present you Div — a simple Alfred window manager. Le
 photo: 2016-08-28.jpg
 ---
 
-There are tons of window managers for Mac OS X around. Chris Coyier published a [nice comparison](https://css-tricks.com/os-x-window-manager-apps/) of the most popular ones some time ago. These apps are great utilities that can boost your productivity by eliminating the time that you normally spend adjusting the window positions on your sceen. I was using [Divvy by Mizage](http://mizage.com/divvy/) for a long time and it worked like a charm for me. Another app that I use non-stop is [Alfred](https://www.alfredapp.com/). It looks like the default Spotlight search feature but it is much more powerful than that. It allows you to create advanced search functionality, custom hotkeys, explore files, control apps, store snippets, use clipboard history and so on. The app in itself is a subject that deserves a separate article (expect one soon).
+There are tons of window managers for Mac OS X around. Chris Coyier published a [nice comparison](https://css-tricks.com/os-x-window-manager-apps/) of the most popular ones some time ago. These apps are great utilities that can boost your productivity by eliminating the time that you normally spend adjusting the window positions on your screen. I was using [Divvy by Mizage](http://mizage.com/divvy/) for a long time and it worked like a charm for me. Another app that I use non-stop is [Alfred](https://www.alfredapp.com/). It looks like the default Spotlight search feature but it is much more powerful than that. It allows you to create advanced search functionality, custom hotkeys, explore files, control apps, store snippets, use clipboard history and so on. The app in itself is a subject that deserves a separate article (expect one soon).
 
 Being uber minimalistic in terms of my workflow I decided to create a windows manager for Alfred. Say hello to [Div](http://www.packal.org/workflow/div)! It is a simple [Applescript](https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) (which incidentally was great fun to learn) with many triggers attached to it. I even created a logo for it :)
 
@@ -12,7 +12,7 @@ Being uber minimalistic in terms of my workflow I decided to create a windows ma
 
 ## How to use Div
 
-As I mentioned previously — [Div](http://www.packal.org/workflow/div) is a simple script with many options to control it. You can [download it from Packal](http://www.packal.org/workflow/div) — a community driven repository of the best Alfred workflows. It comes with some predefined layout settings, but it's dead easy to add custom ones. It is written in Applescript — a very basic scripting language to do practical but also cool stuff on Apple computers.
+As I mentioned previously — [Div](http://www.packal.org/workflow/div) is a simple script with many options to control it. You can [download it from Packal](http://www.packal.org/workflow/div) — a community driven repository of the best Alfred workflows. It comes with some predefined layout settings, but it's dead easy to add custom ones. It is written in AppleScript — a very basic scripting language to do practical but also cool stuff on Apple computers.
 
 ### Enable access for assistive devices (required)
 

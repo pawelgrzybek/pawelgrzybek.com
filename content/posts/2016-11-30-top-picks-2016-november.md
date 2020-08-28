@@ -24,7 +24,7 @@ Drew Powers wrote a great tutorial about basic usage of upcoming Webpack 2. He d
 
 [https://youtu.be/HF1luRD4Qmk](https://youtu.be/HF1luRD4Qmk)
 
-Paul Irish presented new bunch of dev tools features on this years Chrome Dev Summit. From improvements to multi line scripts in the console to amazing experience about debugging frontend and backend node aplications in the same window. I'm pretty excited about intelligent workspaces mapping instead of manually linking assets from the hard drive. Great talk!
+Paul Irish presented new bunch of dev tools features on this years Chrome Dev Summit. From improvements to multi line scripts in the console to amazing experience about debugging frontend and backend node applications in the same window. I'm pretty excited about intelligent workspaces mapping instead of manually linking assets from the hard drive. Great talk!
 
 - - -
 

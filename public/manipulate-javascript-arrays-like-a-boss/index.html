@@ -192,7 +192,7 @@
 <span class="c1">// 1015
 </span></code></pre></div><p>Passing the optional initial value as a second argument slightly changes the previously described behavior. The difference is minor though. Initially it assigns 1000 to the <code>total</code> argument and the first value in the array (2) as the <code>num</code> argument. The pattern then continues identically.</p>
 <h2 id="chain-it-together">Chain it together <a href="#chain-it-together" class="post__hash">#</a></h2>
-<p>The beautiful thing about <code>map()</code> and <code>filter()</code> is the fact that an array goes in and an array comes out as a result of the method. This behaviour means we can chain these methods together with ease.</p>
+<p>The beautiful thing about <code>map()</code> and <code>filter()</code> is the fact that an array goes in and an array comes out as a result of the method. This behavior means we can chain these methods together with ease.</p>
 <div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">];</span>
 <span class="kd">var</span> <span class="nx">numbersNew</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">num</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">return</span> <span class="nx">num</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
