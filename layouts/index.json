@@ -12,14 +12,15 @@
   "author": { "name": "{{ .Site.Params.author }}" },
   {{- end -}}
   "items": [
-    {{- range ( where .Site.Pages "Section" "posts" ).ByDate.Reverse }}
+    {{- $posts := ( where .Site.Pages "Section" "posts" ).ByDate.Reverse}}
+    {{- $postCount := len $posts }}
+    {{- range $index, $element := $posts }}
   { {{ $page := .}}
-    "id": "{{ .Permalink }}",
-    "title": "{{ .Title | plainify}}",
+    "id": {{ .Permalink | jsonify }},
+    "title": {{ .Title | plainify | jsonify}},
     "content_text": {{ .Content  | jsonify }},
-    "url": "{{ .Permalink }}",
-    "date_published": "{{ .Date  }}"
-  },{{- end }}
-  { }
+    "url": {{ .Permalink | jsonify }},
+    "date_published": {{ .Date | jsonify  }}
+  }{{ if lt (add $index 1) $postCount }},{{ end }}{{- end }}
   ]
 }
