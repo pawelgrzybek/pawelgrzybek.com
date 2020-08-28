@@ -15,8 +15,10 @@ enableRobotsTXT = true
   posts = "/:slug/"
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
 
 [outputFormats.RSS]
-  mediatype = "application/rss"
+  baseName = "feed"
+
+[outputFormats.JSON]
   baseName = "feed"
