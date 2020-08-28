@@ -50,7 +50,7 @@ I know nothing about security, and probably even less about math but this articl
 
 [http://flexboxfroggy.com/](http://flexboxfroggy.com/)
 
-Learning by playing. Cool idea to familiarise people with flexbox properties. Beer for [Thomas Park](https://twitter.com/thomashpark) for this idea!
+Learning by playing. Cool idea to familiarize people with flexbox properties. Beer for [Thomas Park](https://twitter.com/thomashpark) for this idea!
 
 - - -
 

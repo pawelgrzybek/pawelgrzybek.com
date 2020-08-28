@@ -109,7 +109,7 @@ $gutter: 1rem;
 }
 ```
 
-BOOM! Just two variables and two SASS mixins gives us a powerful tool to build grid based layouts. Instead of explaining how to use it, have a look at straight forward examples below. Have a look at the styles of each example to find helpfull descriptions.
+BOOM! Just two variables and two SASS mixins gives us a powerful tool to build grid based layouts. Instead of explaining how to use it, have a look at straight forward examples below. Have a look at the styles of each example to find helpful descriptions.
 
 ### Easy blog layout
 

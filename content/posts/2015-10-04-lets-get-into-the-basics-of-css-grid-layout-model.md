@@ -150,7 +150,7 @@ How about even shorter? `grid-area` follows this order: `grid-row-start`, `grid-
 }
 ```
 
-And finally the result looks like this. Feel free to fork the [codpen](https://codepen.io/pawelgrzybek/pen/EVWKBd) example and play around with it.
+And finally the result looks like this. Feel free to fork the [CodePen](https://codepen.io/pawelgrzybek/pen/EVWKBd) example and play around with it.
 
 ```css
 .wrapper {

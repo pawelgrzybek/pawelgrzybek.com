@@ -26,7 +26,7 @@ Don’t get me wrong, these services are amazing and I still like them, I just d
 
 ## Tab sets
 
-Next to standard bookmarks, ‘tab sets’ is definitely my favourite feature. Essentially you can save a collection or currently opened tabs in your browser, and recover the same tabs via one click later on. I know there is many extensions to do that, but why should I use them if this awesome feature comes with something that I already use? I found it really useful when I work on my Mac Mini and then I want carry on with my Macbook on the train.
+Next to standard bookmarks, ‘tab sets’ is definitely my favourite feature. Essentially you can save a collection or currently opened tabs in your browser, and recover the same tabs via one click later on. I know there is many extensions to do that, but why should I use them if this awesome feature comes with something that I already use? I found it really useful when I work on my Mac Mini and then I want carry on with my MacBook on the train.
 
 ## Support
 

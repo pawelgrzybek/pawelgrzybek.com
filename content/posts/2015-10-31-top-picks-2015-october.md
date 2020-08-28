@@ -26,7 +26,7 @@ Must read for everyone who cares about performance. Very good article by [Paul I
 
 [http://blog.codepen.io/2015/10/01/redesigned/](http://blog.codepen.io/2015/10/01/redesigned/)
 
-Well described every change on the biggest redesign of Codepen ever. I love that website and I use it everyday. New redesign works brilliant for me. I experienced some small issues with adding pens to collections, but I saw the issue mentioned on Github and I’m sure that it's going to be fixed very soon.
+Well described every change on the biggest redesign of CodePen ever. I love that website and I use it everyday. New redesign works brilliant for me. I experienced some small issues with adding pens to collections, but I saw the issue mentioned on Github and I’m sure that it's going to be fixed very soon.
 
 - - -
 

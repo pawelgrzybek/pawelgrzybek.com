@@ -1,6 +1,6 @@
 ---
 title: Keep Sublime Text Snippets organized
-description: Web development nowadays is a complex thing. Gazillion languages, techniques and functions are not easy to remmember. Let me remind you how cool snippets are.
+description: Web development nowadays is a complex thing. Gazillion languages, techniques and functions are not easy to remember. Let me remind you how cool snippets are.
 photo: 2015-04-26.jpg
 ---
 
@@ -31,13 +31,13 @@ The idea is to create reusable element of a code between `<![CDATA[` and `]]>`. 
 
 ## How I keep it organized?
 
-After a while of saving all useful lines of codes you can easily end up with hundreds of snippets. Thats why it’s important to have any strategy to categorise these files. I do it via description tag. Let’s have a look at this bit of code.
+After a while of saving all useful lines of codes you can easily end up with hundreds of snippets. Thats why it’s important to have any strategy to categories these files. I do it via description tag. Let’s have a look at this bit of code.
 
 ```xml
 <description>php - wp - acf - flexible content</description>
 ```
 
-This line of code tells me that this is a php code, wordpress specific. ACF stands for [Advanced Custom Fields](http://www.advancedcustomfields.com/) - one of my favourite Wordpress plugins. Keeping that simple naming convention helps me to filter my snippets so much! For example that's how looks like snippets structure for all my javaScript files.
+This line of code tells me that this is a php code, WordPress specific. ACF stands for [Advanced Custom Fields](http://www.advancedcustomfields.com/) - one of my favourite Wordpress plugins. Keeping that simple naming convention helps me to filter my snippets so much! For example that's how looks like snippets structure for all my javaScript files.
 
 ```xml
 js

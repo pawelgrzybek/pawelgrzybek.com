@@ -90,7 +90,7 @@ Facebook’s way to handle huge cover images. Very neat idea and impressive resu
 
 [http://v4-alpha.getbootstrap.com/](http://v4-alpha.getbootstrap.com/)
 
-Big thing! Bootstrap, definitely the most popular framework ever, now is available in fourth version. So many awesome changes. To list few of them: Switch from LESS to Sass, Semantic grid system optionally based on flexbox, droping IE8 support. Bootstrap is super cool, I like it and I use it to quickly prototype things. Looking forward to dive into the code deeper.
+Big thing! Bootstrap, definitely the most popular framework ever, now is available in fourth version. So many awesome changes. To list few of them: Switch from LESS to Sass, Semantic grid system optionally based on flexbox, dropping IE8 support. Bootstrap is super cool, I like it and I use it to quickly prototype things. Looking forward to dive into the code deeper.
 
 - - -
 
@@ -138,7 +138,7 @@ CSS changed a lot recently. We have a things like flexbox which is awesome to bu
 
 [https://kinsta.com/learn/page-speed/](https://kinsta.com/learn/page-speed/)
 
-Super cool introduction how to work with performance. It says it is for beginners but this guide is very complex. Must read for people who do not realise how important performance is.
+Super cool introduction how to work with performance. It says it is for beginners but this guide is very complex. Must read for people who do not realize how important performance is.
 
 - - -
 

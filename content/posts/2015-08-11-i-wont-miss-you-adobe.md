@@ -18,7 +18,7 @@ Of course the main reason that pushed me to look for new tools was the super hig
 - Sketch 3: **£79.99**
 - Affinity Photo: **£39.99**
 
-You don't have to be a math genius to notice that two months of subscription of Adobe Creative Cloud costs you about the same price like lifetime licence for Sketch and Affinity Photo. I like it!
+You don't have to be a math genius to notice that two months of subscription of Adobe Creative Cloud costs you about the same price like lifetime license for Sketch and Affinity Photo. I like it!
 
 ## Let's talk about performance
 

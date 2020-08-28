@@ -209,6 +209,6 @@ h1:before {
 
 ## Will I move from Sass to PostCSS
 
-Yes. Maybe not today, maybe not tomorrow, but eventually I’ll find a perfect workflow that will let me smoothly transfer entirely to PostCSS. This tool is getting popular day by day and I’m sure that it is not a temporary hype. Companies like Google, Twitter, Alibaba, and Shopify use it already. Recently Chris Coyier on [Codepen’s blog](https://blog.codepen.io/2015/07/14/postcss-now-supported-on-codepen/) announced support for PostCSS. New plugins are coming out. All these things just make me curious what will Sass 4.0 bring to us?
+Yes. Maybe not today, maybe not tomorrow, but eventually I’ll find a perfect workflow that will let me smoothly transfer entirely to PostCSS. This tool is getting popular day by day and I’m sure that it is not a temporary hype. Companies like Google, Twitter, Alibaba, and Shopify use it already. Recently Chris Coyier on [CodePen’s blog](https://blog.codepen.io/2015/07/14/postcss-now-supported-on-codepen/) announced support for PostCSS. New plugins are coming out. All these things just make me curious what will Sass 4.0 bring to us?
 
 Let me know what do you think about PostCSS. If you have any plugins or hints that I could implement into my workflow, please let me know. I'm sure I will write more posts about PostCSS in near future, so please stay tuned!

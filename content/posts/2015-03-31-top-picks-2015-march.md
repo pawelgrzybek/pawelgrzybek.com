@@ -116,7 +116,7 @@ A ha ha ha. This is a real user experience test of your website.
 
 [https://youtu.be/kRmbVOI6oIM](https://youtu.be/kRmbVOI6oIM)
 
-Whenever you try to google something about CSS I bet you can find it on one of Chris Coyier websites. Author of CSS Tricks and Codepen, massive inspiration and so kind personality.
+Whenever you try to google something about CSS I bet you can find it on one of Chris Coyier websites. Author of CSS Tricks and CodePen, massive inspiration and so kind personality.
 
 - - -
 

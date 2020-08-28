@@ -4,7 +4,7 @@ description: I like to read about tools, software, frameworks and frequently use
 photo: 2015-03-26.jpg
 ---
 
-Improving my workflow is an endless story. I always look for some new tools and new tricks that can speed my workflow up. I confirm that now I’m pretty happy with my current set of stuff that I use in my daily routine. I just bought a new Macbook so I’m in the process of installing necessary tools and adjusting all settings. I thought that is a nice opportunity to write a blog post about it.
+Improving my workflow is an endless story. I always look for some new tools and new tricks that can speed my workflow up. I confirm that now I’m pretty happy with my current set of stuff that I use in my daily routine. I just bought a new MacBook so I’m in the process of installing necessary tools and adjusting all settings. I thought that is a nice opportunity to write a blog post about it.
 
 I split this blog post into three sections: Hardware, Software and Web Services. Hopefully you are going to enjoy it. If you use something that could be beneficial for me or other readers, feel free to post about it in the comments.
 
@@ -16,9 +16,9 @@ I split this blog post into three sections: Hardware, Software and Web Services.
 
 This is my main computer. The full spec is: 2.6 GHz Intel Core i7, 16 GB 1600 MHz DDR3, Intel HD Graphics 4000 1024 MB and 1TB Fusion Drive. I use it with external monitor Dell U2711. I can’t imagine my life without Apple Wireless Keyboard and Magic Mouse connected to it.
 
-### Macbook Pro with Retina display (Early 2015)
+### MacBook Pro with Retina display (Early 2015)
 
-I travel a lot recently, and every single time when I’m not able to use decent computer, I need one. Thats why I bought recently upgraded Macbook Pro with Force Touch. Full spec is: 3.1GHz Dual-core Intel Core i7, 16GB 1866MHz LPDDR3 SDRAM, Intel Iris Graphics 6100 and 128GB PCIe-based Flash Storage. New force touch is very nice!
+I travel a lot recently, and every single time when I’m not able to use decent computer, I need one. Thats why I bought recently upgraded MacBook Pro with Force Touch. Full spec is: 3.1GHz Dual-core Intel Core i7, 16GB 1866MHz LPDDR3 SDRAM, Intel Iris Graphics 6100 and 128GB PCIe-based Flash Storage. New force touch is very nice!
 
 ### iPhone 6
 
@@ -30,7 +30,7 @@ I can’t imagine myself without my iPhone. I really tried to use different  dev
 
 ### 1 Password
 
-This is my ‘must have’ app. I install this app as a first one on my fresh OS. Without it my internet life doesn’t exist. I care about security. I don’t use passwords like “qwerty123” or “pawel456”. Every single password that I use across the internet is different, it’s minimum 15 characters long and means absolutely nothing. It is just a combination of random glyphs that normal human being is not able to remmember. Of course I don’t remember it neither, I do not write it down or keep in text file on my dropbox. [1Password](https://agilebits.com/onepassword) is my security manager. The only thing that I need to remember is one master password to have an access to all my encrypted and synced via iCloud passwords - easy like that. Combined with iOS version and browsers extensions this app is my number one all the time!
+This is my ‘must have’ app. I install this app as a first one on my fresh OS. Without it my internet life doesn’t exist. I care about security. I don’t use passwords like “qwerty123” or “pawel456”. Every single password that I use across the internet is different, it’s minimum 15 characters long and means absolutely nothing. It is just a combination of random glyphs that normal human being is not able to remember. Of course I don’t remember it neither, I do not write it down or keep in text file on my dropbox. [1Password](https://agilebits.com/onepassword) is my security manager. The only thing that I need to remember is one master password to have an access to all my encrypted and synced via iCloud passwords - easy like that. Combined with iOS version and browsers extensions this app is my number one all the time!
 
 ### iTerm 2
 
@@ -103,7 +103,7 @@ Whenever you use a colour value in your CSS stylesheet this plugin underlines it
 
 #### Emmet
 
-This is probably one of my favourite plugins of all the time. Creating a HTML markup with this tool takes a seconds. It comes very handy in CSS as well (tons of intuitive shortcuts). Have a look on [official documentation](http://emmet.io/). It is available for majority of popular code editors. You can use power of Emmet in some web tools like Codepen.io or Sassmeister.
+This is probably one of my favourite plugins of all the time. Creating a HTML markup with this tool takes a seconds. It comes very handy in CSS as well (tons of intuitive shortcuts). Have a look on [official documentation](http://emmet.io/). It is available for majority of popular code editors. You can use power of Emmet in some web tools like CodePen.io or Sassmeister.
 
 #### GitGutter
 

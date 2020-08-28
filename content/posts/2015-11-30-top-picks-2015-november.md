@@ -74,7 +74,7 @@ And finally we have a Microsoft Edge with support of <picture> element and exter
 
 [http://sarasoueidan.com/blog/svg-tips-for-designers/](http://sarasoueidan.com/blog/svg-tips-for-designers/)
 
-I can't think of better author of article about SVG than Sara. Collection of tips about well  optimised SVG output. So many times I saw SVG with millions paths inside simple logo or even bitmap inside SVG (and only bitmap). Must read for everyone who works with scalable vector graphics.
+I can't think of better author of article about SVG than Sara. Collection of tips about well optimised SVG output. So many times I saw SVG with millions paths inside simple logo or even bitmap inside SVG (and only bitmap). Must read for everyone who works with scalable vector graphics.
 
 - - -
 

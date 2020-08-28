@@ -206,12 +206,12 @@ I was very curious about posibility to override ID by classes. 256 classes are e
 - Safari iOS < 7
 - Android < 4.4
 
-Check this Codepen on one of the matching browsers above and you should see a green paragraph. Totally useless though :)
+Check this CodePen on one of the matching browsers above and you should see a green paragraph. Totally useless though :)
 
 <p data-height="151" data-theme-id="14885" data-slug-hash="BNrYjO" data-default-tab="result" data-user="pawelgrzybek" class='codepen'>See the Pen <a href='https://codepen.io/pawelgrzybek/pen/BNrYjO/'>256 classes over ID</a> by Pawel Grzybek (<a href='https://codepen.io/pawelgrzybek'>@pawelgrzybek</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-I found out that on modern webkit browser 65536 classes are stronger than a single ID. Unfortunatelly I didn't manage to create an example. Codepen just simply couldn't handle that kind of calculation. If you have any confirmed information about it, please let me know.
+I found out that on modern webkit browser 65536 classes are stronger than a single ID. Unfortunately I didn't manage to create an example. CodePen just simply couldn't handle that kind of calculation. If you have any confirmed information about it, please let me know.
 
 ## Helpful tools and resources
 

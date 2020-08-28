@@ -4,7 +4,7 @@ description: HTML5 comes with video tag that we can use to create video as a bac
 photo: 2015-12-06.jpg
 ---
 
-We love videos! It’s a pleasure for our eyes to see a little bit of modern looking movement on a website. Unfortunately our browser doesn’t love videos like we do. Good performance isn’t a friend with videos neither. I have come across many websites with autoplayed videos hosted on vimeo or youtube that use crazy amount of bandwidth. Some minimal looking websites with full HD video in the background even triggered the fans on my laptop. I believe that there is nothing wrong with using a looped video as a background, as long as it is done correctly. Have a look at [Squarespace](http://www.squarespace.com/), [This Also](http://thisalso.com/) or [Big Cartel](https://www.bigcartel.com/) to name few — it looks nice.
+We love videos! It’s a pleasure for our eyes to see a little bit of modern looking movement on a website. Unfortunately our browser doesn’t love videos like we do. Good performance isn’t a friend with videos neither. I have come across many websites with autoplayed videos hosted on Vimeo or youtube that use crazy amount of bandwidth. Some minimal looking websites with full HD video in the background even triggered the fans on my laptop. I believe that there is nothing wrong with using a looped video as a background, as long as it is done correctly. Have a look at [Squarespace](http://www.squarespace.com/), [This Also](http://thisalso.com/) or [Big Cartel](https://www.bigcartel.com/) to name few — it looks nice.
 
 HTML5 introduced the [video](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) tag and list of settings which we can control via [attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#Attributes) or via [JavaScript media events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events). Browser support is really great — luckily I don't have to target IE8 anymore. If you need to, I'm really sorry but this tutorial won't cover any fallback. We are going to create a section and with small positioning trick apply a background video that will always cover the entire space of this section. Essentially it behaves exactly the same as `background-size: cover;` in CSS. If you still don't get it, have a look at the picture below. Kate, I love you!
 
@@ -29,7 +29,7 @@ Less talk more action.
 
 That’s all we need. As you can see I have added some attributes to `video` tag. Hopefully `autoplay`, `loop` and `muted` don’t need any explanation. `poster` includes a path to the image that will be displayed on the mobile devices. When the video isn’t ready or it’s paused, you browser will show this poster instead. It is a good practice to create a poster from the first frame of your video.
 
-Multiply `source` element is needed to provide a cross browser experience. If you need to support old Firefox browsers you need to add ogg format as well. You can generate all those formats with tools like [Miro Converter](http://www.mirovideoconverter.com/) or my favourite online [HTML5 Video Converter](https://html5backgroundvideos.com/converter/). Please control the size of your files. It is a difficult task to find a compromise between length, quality and file size. I always try to compress my videos to something between 500kb - 1000kb, and avoid videos longer than 10 - 15 seconds. [HandBrake](https://handbrake.fr/) is open source video transcoder that can halp you with compression.
+Multiply `source` element is needed to provide a cross browser experience. If you need to support old Firefox browsers you need to add ogg format as well. You can generate all those formats with tools like [Miro Converter](http://www.mirovideoconverter.com/) or my favourite online [HTML5 Video Converter](https://html5backgroundvideos.com/converter/). Please control the size of your files. It is a difficult task to find a compromise between length, quality and file size. I always try to compress my videos to something between 500kb - 1000kb, and avoid videos longer than 10 - 15 seconds. [HandBrake](https://handbrake.fr/) is open source video transcoder that can help you with compression.
 
 ```css
 .banner {
@@ -76,7 +76,7 @@ if (/iPad|iPhone|iPod/.test(navigator.platform)) {
 
 ## A little bit of make up
 
-If we cannot provide high quality video, we need to find a way to mask artefacts. We need to create a small pattern and then overlay it over the video by adding a `background-image` on the parent element. These files are normally very small so we can easily convert them to base64 data to save server requests (it doesn't really matter in age of HTTP2). If you use Emmet in Sublime Text or Atom, you can use a shortcut `Shift + Ctrl + D`.
+If we cannot provide high quality video, we need to find a way to mask artifacts. We need to create a small pattern and then overlay it over the video by adding a `background-image` on the parent element. These files are normally very small so we can easily convert them to base64 data to save server requests (it doesn't really matter in age of HTTP2). If you use Emmet in Sublime Text or Atom, you can use a shortcut `Shift + Ctrl + D`.
 
 ![ENcode Decode base 64 Emmet in Sublime Text 3](/photos/2015-12-06-3.gif)
 
