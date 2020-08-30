@@ -34,7 +34,7 @@ function printMyBeersBro(beers) {
 
   beers.forEach(beer => {
     console.log(`Beer: ${beer.name} - ${beer.tagline}`);
-    console.log(`summary: ${beer.description}`);
+    console.log(`Description: ${beer.description}`);
     console.log(`Alcohol by volume: ${beer.abv}`);
     console.log('—'.repeat(50))
   });

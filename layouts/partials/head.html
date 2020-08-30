@@ -7,14 +7,14 @@
   {{ hugo.Generator }}
 
   <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="description" content="{{ if eq .Section "posts" }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
   {{ "<!-- Open graph data -->" | safeHTML }}
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
   <meta property="og:url" content="{{ .Permalink | absURL }}">
   <meta property="og:type" content="{{ if eq .Type "page" }}website{{ else }}article{{ end }}">
-  <meta property="og:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:description" content="{{ if eq .Section "posts" }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:image" content="{{ if eq .Type "page" }}{{ .Site.BaseURL }}assets/logo.png{{ else }}{{ .Site.BaseURL }}photos/{{ .Params.photo }}{{ end }}">
 
   {{ "<!-- Twitter Card -->" | safeHTML }}
