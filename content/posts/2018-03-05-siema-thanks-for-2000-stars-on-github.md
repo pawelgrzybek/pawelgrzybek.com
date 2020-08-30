@@ -23,7 +23,7 @@ A few weeks back I dropped [Siema 1.5](https://github.com/pawelgrzybek/siema/rel
 - modifying multiple items via `remove`, `insert`, `prepend` and `append` method
 - accessibility improvements
 - performance optimisation
-- addons (pagination, navigation as optional packages)
+- add-ons (pagination, navigation as optional packages)
 
 ## Thank y'all
 

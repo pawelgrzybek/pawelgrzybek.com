@@ -16,7 +16,7 @@ If you have ever used any image editing software like Adobe Photoshop, Affinity 
 
 ![Blend modes in Adobe Photoshop, Sketch App and Affinity Photo](/photos/2017-04-28-1.jpg)
 
-For lots of designers and developers working with blend modes is a very experimental process. Memorising all the mathematical calculations isn't required to use them effectively. It doesn't take much time to juggle with some options in Photoshop but it can be very time consuming when the same needs to be done in CSS or JavaScript. A little bit of understanding helps and I will do my best to help you with that.
+For lots of designers and developers working with blend modes is a very experimental process. Memorizing all the mathematical calculations isn't required to use them effectively. It doesn't take much time to juggle with some options in Photoshop but it can be very time consuming when the same needs to be done in CSS or JavaScript. A little bit of understanding helps and I will do my best to help you with that.
 
 ### Blend modes by group
 

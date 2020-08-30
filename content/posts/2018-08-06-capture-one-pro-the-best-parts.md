@@ -34,7 +34,7 @@ Having disorganised files all over the place is not the best way to keep your co
 
 ### Customisation
 
-Despite the user interface looking a little bit outdated at first glance, this is probably the most customisable piece of software on my hard drive. You can truly make it yours. The default layout puts everything in a well-thought-out order that works well for me. Following the tabs from left to right, from import to export you have access to hundreds of little adjustments. A little bit of practice and a few keyboard shortcuts built into your muscle memory lets you forget about the tool and stay focused on what matters — the photography.
+Despite the user interface looking a little bit outdated at first glance, this is probably the most customizable piece of software on my hard drive. You can truly make it yours. The default layout puts everything in a well-thought-out order that works well for me. Following the tabs from left to right, from import to export you have access to hundreds of little adjustments. A little bit of practice and a few keyboard shortcuts built into your muscle memory lets you forget about the tool and stay focused on what matters — the photography.
 
 ### Performance
 

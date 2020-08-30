@@ -1,6 +1,6 @@
 ---
 title: Top picks — 2018 February
-description: Math concepts explained better, Phase — another Sketch compeitor is coming, event loop in JavaScript, debugging Node.js in VSCode and danger that comes with using third party scripts and stylesheets.
+description: Math concepts explained better, Phase — another Sketch competitor is coming, event loop in JavaScript, debugging Node.js in VSCode and danger that comes with using third party scripts and stylesheets.
 photo: top-picks.jpg
 ---
 
@@ -18,7 +18,7 @@ This is a must-watch! Jake Archibald from Google and absolutely the best explana
 
 ## [Getting started with Node.js debugging in VS Code](https://youtu.be/2oFKNL7vYV8)
 
-This eight minutes video explaines everything that you have to know to get stared with debugging JavaScript & Node programs in Visual Studio Code. I spent lots of time to understand it by reading docs and watching some unofficial YouTube tutorials — this one would be a relief for me back then.
+This eight minutes video explains everything that you have to know to get stared with debugging JavaScript & Node programs in Visual Studio Code. I spent lots of time to understand it by reading docs and watching some unofficial YouTube tutorials — this one would be a relief for me back then.
 
 ## [Diya](http://diyahq.com/)
 
@@ -26,4 +26,4 @@ This is what I was waiting for. Extremely useful plugin for Sketch app that brin
 
 ## [Third party CSS is not safe](https://jakearchibald.com/2018/third-party-css-is-not-safe/)
 
-Jake Archibald from google team reminds about the denger that comes with using third party scripts and stylesheets. [CSS-Keylogging](https://github.com/maxchehab/CSS-Keylogging) that went crazy on Hackernews the other day inspired Jake to publish this one. I can't agree with this dude enough! I rarely use any third party resources on my projects and I am keen to get rid of them completely. I am looking at you Disqus section below.
+Jake Archibald from google team reminds about the danger that comes with using third party scripts and stylesheets. [CSS-Keylogging](https://github.com/maxchehab/CSS-Keylogging) that went crazy on Hackernews the other day inspired Jake to publish this one. I can't agree with this dude enough! I rarely use any third party resources on my projects and I am keen to get rid of them completely. I am looking at you Disqus section below.

@@ -4,7 +4,7 @@ description: Introduced in 2015, the ECMAScript annual release plan aims to add 
 photo: 2017-01-30.jpg
 ---
 
-Two years ago when ECMAScript 2015 (colloquially known as a ES6) was standarised there was a massive update to the language. Announced at the same time was a yearly release plan that aims to deliver a new version of the language annually and ship it with the [proposals](https://github.com/tc39/ecma262/blob/master/README.md) that are ready at the time of the TC39 meeting. The list of language improvements is open and you can track it on the [TC39 Github account](https://github.com/tc39/proposals). You can find more info about the process itself [here](https://tc39.github.io/process-document/).
+Two years ago when ECMAScript 2015 (colloquially known as a ES6) was standardized there was a massive update to the language. Announced at the same time was a yearly release plan that aims to deliver a new version of the language annually and ship it with the [proposals](https://github.com/tc39/ecma262/blob/master/README.md) that are ready at the time of the TC39 meeting. The list of language improvements is open and you can track it on the [TC39 Github account](https://github.com/tc39/proposals). You can find more info about the process itself [here](https://tc39.github.io/process-document/).
 
 A year ago I published a [summary of new features from the 2016 spec](https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/), and the list below presents the recently agreed proposals that will become part of ECMAScript this year.
 

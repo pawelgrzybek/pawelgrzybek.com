@@ -38,7 +38,7 @@ class Observable {
 }
 ```
 
-The usecase example goes like this…
+The use-case example goes like this…
 
 ```js
 // some DOM references
