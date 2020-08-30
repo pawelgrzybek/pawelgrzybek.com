@@ -1,6 +1,6 @@
 ---
 title: Basic Node.js debugging in Google Chrome
-description: We have been testing front-end code in Google Chrome Dev Tools for quite a while. How about testing Node.js code in exactly the same way?
+summary: We have been testing front-end code in Google Chrome Dev Tools for quite a while. How about testing Node.js code in exactly the same way?
 photo: 2017-06-03.jpg
 ---
 
@@ -34,7 +34,7 @@ function printMyBeersBro(beers) {
 
   beers.forEach(beer => {
     console.log(`Beer: ${beer.name} - ${beer.tagline}`);
-    console.log(`Description: ${beer.description}`);
+    console.log(`summary: ${beer.description}`);
     console.log(`Alcohol by volume: ${beer.abv}`);
     console.log('—'.repeat(50))
   });

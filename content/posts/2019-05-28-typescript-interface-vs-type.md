@@ -1,6 +1,6 @@
 ---
 title: "TypeScript interface vs. type"
-description: "Should it be an interface or a type alias? This is a question asked a lot by newcomers. Let me clarify the difference."
+summary: "Should it be an interface or a type alias? This is a question asked a lot by newcomers. Let me clarify the difference."
 photo: 2019-05-28.jpg
 ---
 

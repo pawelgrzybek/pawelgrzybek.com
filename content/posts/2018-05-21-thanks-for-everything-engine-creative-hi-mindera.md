@@ -1,6 +1,6 @@
 ---
 title: Thanks for everything Engine Creative! Hi Mindera!
-description: "Time moves on, my perception about life has taken shape and my list of priorities have changed order. I am super happy to announce that I am leaving the Engine Creative family to join Mindera!"
+summary: "Time moves on, my perception about life has taken shape and my list of priorities have changed order. I am super happy to announce that I am leaving the Engine Creative family to join Mindera!"
 photo: 2018-05-21.jpg
 ---
 

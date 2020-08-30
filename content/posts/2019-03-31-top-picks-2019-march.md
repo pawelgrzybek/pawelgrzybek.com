@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2019 March"
-description: "CSS Math Functions are coming, KV Storage, promissing plans for Sketch App, Aspect Ratio unit in CSS, Stadia, Amazon Glacier even more cost effective and more…"
+summary: "CSS Math Functions are coming, KV Storage, promissing plans for Sketch App, Aspect Ratio unit in CSS, Stadia, Amazon Glacier even more cost effective and more…"
 photo: top-picks.jpg
 ---
 

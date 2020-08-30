@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2018 September"
-description: "React Fire and changes to React DOM, CSS Scroll Snapping, GitHub PRs in Visual Studio Code, animations in UX and more…"
+summary: "React Fire and changes to React DOM, CSS Scroll Snapping, GitHub PRs in Visual Studio Code, animations in UX and more…"
 photo: top-picks.jpg
 ---
 

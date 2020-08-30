@@ -1,6 +1,6 @@
 ---
 title: Keep Sublime Text Snippets organized
-description: Web development nowadays is a complex thing. Gazillion languages, techniques and functions are not easy to remember. Let me remind you how cool snippets are.
+summary: Web development nowadays is a complex thing. Gazillion languages, techniques and functions are not easy to remember. Let me remind you how cool snippets are.
 photo: 2015-04-26.jpg
 ---
 

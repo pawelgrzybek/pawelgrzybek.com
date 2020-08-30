@@ -1,6 +1,6 @@
 ---
 title: "Configure a local WordPress development on macOS from scratch"
-description: "So you're about to build a WordPress website. An Apache HTTP Server, PHP and MySQL database is all that you need. Let me guide you step by step."
+summary: "So you're about to build a WordPress website. An Apache HTTP Server, PHP and MySQL database is all that you need. Let me guide you step by step."
 photo: 2018-04-29.jpg
 ---
 

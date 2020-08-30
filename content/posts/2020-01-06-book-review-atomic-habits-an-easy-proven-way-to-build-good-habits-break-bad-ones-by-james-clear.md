@@ -1,6 +1,6 @@
 ---
 title: "Book review: Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones by James Clear"
-description: "I have always been reading a ton but this year I am planning to make a subject shift. Less nerdy technical gibberish and more stuff that can help me to be a better version of myself."
+summary: "I have always been reading a ton but this year I am planning to make a subject shift. Less nerdy technical gibberish and more stuff that can help me to be a better version of myself."
 photo: 2020-01-06.jpg
 ---
 

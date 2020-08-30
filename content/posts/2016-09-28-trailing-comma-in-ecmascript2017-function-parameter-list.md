@@ -1,6 +1,6 @@
 ---
 title: Trailing comma in ECMAScript 2017 function parameter list
-description: Object and array literals already allow us to leave a trailing comma. ECMAScript 2017 adds the same functionality to the function parameter list.
+summary: Object and array literals already allow us to leave a trailing comma. ECMAScript 2017 adds the same functionality to the function parameter list.
 photo: 2016-09-28.jpg
 ---
 

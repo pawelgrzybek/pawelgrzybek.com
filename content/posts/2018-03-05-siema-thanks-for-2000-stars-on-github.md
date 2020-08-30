@@ -1,6 +1,6 @@
 ---
 title: Siema! Thanks for 2000 stars on Github!
-description: In November 2016 I was looking for a carousel for one of my projects. I couldn't find one that fulfills my requirements so I built one. Months have passed, hours have been spent on the project and 280 commits later…
+summary: In November 2016 I was looking for a carousel for one of my projects. I couldn't find one that fulfills my requirements so I built one. Months have passed, hours have been spent on the project and 280 commits later…
 photo: 2018-03-05.jpg
 ---
 

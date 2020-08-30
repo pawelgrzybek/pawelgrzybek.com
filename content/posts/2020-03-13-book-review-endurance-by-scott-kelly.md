@@ -1,6 +1,6 @@
 ---
 title: "Book review: Endurance by Scott Kelly"
-description: "I have always been curious about the subject of space travel, living in such a distant place and the daily life and routines out there. I couldn't have picked a better book to satisfy my curiosity."
+summary: "I have always been curious about the subject of space travel, living in such a distant place and the daily life and routines out there. I couldn't have picked a better book to satisfy my curiosity."
 photo: 2020-03-13.jpg
 ---
 

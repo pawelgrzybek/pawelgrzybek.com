@@ -1,6 +1,6 @@
 ---
 title: "Book review: The Fast 800: How to Combine Rapid Weight Loss and Intermittent Fasting for Long-Term Health by Dr Michael Mosley"
-description: "I've tried out multiple diets which have given me various results, but intermittent fasting is something that I've heard around a lot but never actually tried. I was browsing the Audible library recently and have been eager to spend my credit points on something informative. I came across \"The Fast 800: How to Combine Rapid Weight Loss and Intermittent Fasting for Long-Term Health\" by Dr Michael Mosley."
+summary: "I've tried out multiple diets which have given me various results, but intermittent fasting is something that I've heard around a lot but never actually tried. I was browsing the Audible library recently and have been eager to spend my credit points on something informative. I came across \"The Fast 800: How to Combine Rapid Weight Loss and Intermittent Fasting for Long-Term Health\" by Dr Michael Mosley."
 photo: 2020-08-06.jpg
 ---
 

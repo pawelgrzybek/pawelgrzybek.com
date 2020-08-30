@@ -1,6 +1,6 @@
 ---
 title: Top picks — 2017 November
-description: Fragment shaders, real time session sharing in Visual Studio Code, tons of smooth CSS animations, dynamic import in JavaScript, current state of publishing, CSS element function and brand new overscroll-behavior, garbage collector of JS engines and more!
+summary: Fragment shaders, real time session sharing in Visual Studio Code, tons of smooth CSS animations, dynamic import in JavaScript, current state of publishing, CSS element function and brand new overscroll-behavior, garbage collector of JS engines and more!
 photo: top-picks.jpg
 ---
 

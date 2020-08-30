@@ -1,6 +1,6 @@
 ---
 title: "Bitwise operators in JavaScript and beyond"
-description: ""
+summary: ""
 photo: 2019-10-10.jpg
 draft: true
 ---

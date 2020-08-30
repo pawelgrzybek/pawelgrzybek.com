@@ -1,6 +1,6 @@
 ---
 title: "Attach Visual Studio Code debugger to SAM (Serverless Application Model) local endpoint"
-description: "A debugger is something that I cannot live without. Setting it up for my current project built using SAM framework and TypeScript took me a while but I finally got it right."
+summary: "A debugger is something that I cannot live without. Setting it up for my current project built using SAM framework and TypeScript took me a while but I finally got it right."
 photo: 2019-12-01.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Git tip - How to stage a hunk of code via the command line
-description: GUI Git clients allow you to stage selected lines of code very easily. You may not know that but doing this in the command line isn't much more difficult.
+summary: GUI Git clients allow you to stage selected lines of code very easily. You may not know that but doing this in the command line isn't much more difficult.
 photo: 2016-03-18.jpg
 ---
 

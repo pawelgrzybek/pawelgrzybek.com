@@ -1,6 +1,6 @@
 ---
 title: "Apple changed the default shell from bash to zsh, so did I"
-description: "Love it or hate it but since macOS Catalina the default shell language is zsh. I am very excited about this decision so let me share with you my favourite parts of the new command-line interpreter."
+summary: "Love it or hate it but since macOS Catalina the default shell language is zsh. I am very excited about this decision so let me share with you my favourite parts of the new command-line interpreter."
 photo: 2019-06-06.jpg
 ---
 

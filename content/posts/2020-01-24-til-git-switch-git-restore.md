@@ -1,6 +1,6 @@
 ---
 title: TIL — git switch & git restore
-description: Switching branches and restoring files to its initial state are very common operations. Why the hell should we use a single command to perform such different actions?
+summary: Switching branches and restoring files to its initial state are very common operations. Why the hell should we use a single command to perform such different actions?
 photo: 2020-01-24.jpg
 ---
 

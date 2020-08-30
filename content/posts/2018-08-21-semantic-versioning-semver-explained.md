@@ -1,6 +1,6 @@
 ---
 title: "Semantic Versioning (SemVer) explained"
-description: "The versioning of software seems to be a confusing concept for developers. The meaning behind the versioning format isn't coming out of the blue so let me help you to understand it."
+summary: "The versioning of software seems to be a confusing concept for developers. The meaning behind the versioning format isn't coming out of the blue so let me help you to understand it."
 photo: 2018-08-21.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Use modern JavaScript today with Babel
-description: ECMAScript 2015 has been recently ratified and brought us many cool features. As you may expect, browsers support is the only issue, but not with Babel.
+summary: ECMAScript 2015 has been recently ratified and brought us many cool features. As you may expect, browsers support is the only issue, but not with Babel.
 photo: 2015-09-12.jpg
 ---
 

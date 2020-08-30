@@ -1,6 +1,6 @@
 ---
 title: "Multiple SSH keys for multiple Bitbucket/GitHub accounts"
-description: "If we cannot use singular SSH key across multiple accounts (what makes a perfect sense) the solution is to have multiple of them. Let's create two new pair of SSH keys, one for personal use and another one for the clients project."
+summary: "If we cannot use singular SSH key across multiple accounts (what makes a perfect sense) the solution is to have multiple of them. Let's create two new pair of SSH keys, one for personal use and another one for the clients project."
 photo: 2020-08-10.jpg
 ---
 

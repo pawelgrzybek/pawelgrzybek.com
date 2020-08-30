@@ -1,6 +1,6 @@
 ---
 title: Return multiple elements from a component with React 16
-description: One of the most requested features in React framework has always been returning multiple elements from a components render method. There you have it!
+summary: One of the most requested features in React framework has always been returning multiple elements from a components render method. There you have it!
 photo: 2017-10-02.jpg
 ---
 

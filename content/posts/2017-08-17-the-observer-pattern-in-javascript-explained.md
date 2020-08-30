@@ -1,6 +1,6 @@
 ---
 title: The Observer Pattern in JavaScript explained
-description: This popular pattern used by tons of JavaScript applications may save you from injecting costly dependencies in your project. Easy, clean and very useful.
+summary: This popular pattern used by tons of JavaScript applications may save you from injecting costly dependencies in your project. Easy, clean and very useful.
 photo: 2017-08-17.jpg
 ---
 

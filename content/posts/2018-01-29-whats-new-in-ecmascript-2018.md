@@ -1,6 +1,6 @@
 ---
 title: What's new in ECMAScript 2018
-description: The last TC39 meeting resulted in finalised features set for ECMAScript 2018. This article presents all the new goodies — let's get on it.
+summary: The last TC39 meeting resulted in finalised features set for ECMAScript 2018. This article presents all the new goodies — let's get on it.
 photo: 2018-01-29.jpg
 ---
 

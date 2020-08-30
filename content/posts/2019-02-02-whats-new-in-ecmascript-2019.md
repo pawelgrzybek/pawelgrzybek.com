@@ -1,6 +1,6 @@
 ---
 title: What's new in ECMAScript 2019
-description: The final list of features that are joining the ECMAScript specification this year is ready. Here's a quick summary and look at some practical examples.
+summary: The final list of features that are joining the ECMAScript specification this year is ready. Here's a quick summary and look at some practical examples.
 photo: 2019-02-02.jpg
 ---
 

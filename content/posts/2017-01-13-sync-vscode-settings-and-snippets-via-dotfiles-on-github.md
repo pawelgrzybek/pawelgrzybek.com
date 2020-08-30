@@ -1,6 +1,6 @@
 ---
 title: Sync VSCode settings and snippets via dotfiles on Github
-description: Having access to the same settings and snippets across multiple devices is a handy feature of some text editors. This is how to do it in VSCode.
+summary: Having access to the same settings and snippets across multiple devices is a handy feature of some text editors. This is how to do it in VSCode.
 photo: 2017-01-13.jpg
 ---
 

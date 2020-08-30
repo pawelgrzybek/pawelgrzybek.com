@@ -1,6 +1,6 @@
 ---
 title: Bookmarking with Pinboard
-description: The internet is full of things that you don't want to forget. Bookmarking services like Pocket or Delicious are helpful but Pinboard is much more than that.
+summary: The internet is full of things that you don't want to forget. Bookmarking services like Pocket or Delicious are helpful but Pinboard is much more than that.
 photo: 2015-09-10.jpg
 ---
 

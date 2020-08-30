@@ -1,6 +1,6 @@
 ---
 title: My first year of blogging
-description: Exactly one year ago I published my first article. I'm not going to stop here that's for sure. Nothing went wrong, so let me share with you what went well.
+summary: Exactly one year ago I published my first article. I'm not going to stop here that's for sure. Nothing went wrong, so let me share with you what went well.
 photo: 2016-03-11.jpg
 ---
 

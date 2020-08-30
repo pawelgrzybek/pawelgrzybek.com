@@ -1,6 +1,6 @@
 ---
 title: "Understanding Node.js Streams"
-description: "Streams in nature flow water from one side to the other, streams in programming are the same but instead of water, they flow chunks of data. It is a sequential way of handling chunks of bytes. You can achieve a lot without using streams at all, but a thorough understanding of them will make you a much better developer."
+summary: "Streams in nature flow water from one side to the other, streams in programming are the same but instead of water, they flow chunks of data. It is a sequential way of handling chunks of bytes. You can achieve a lot without using streams at all, but a thorough understanding of them will make you a much better developer."
 photo: 2020-07-14.jpg
 ---
 

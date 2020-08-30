@@ -1,6 +1,6 @@
 ---
 title: What's new in ECMAScript 2016 (ES7)
-description: ES2015 brought a lot of large-scale features to the language. The new release process is going to introduce a few small bits every year. Here's what's new in ES2016.
+summary: ES2015 brought a lot of large-scale features to the language. The new release process is going to introduce a few small bits every year. Here's what's new in ES2016.
 photo: 2016-02-04.jpg
 ---
 

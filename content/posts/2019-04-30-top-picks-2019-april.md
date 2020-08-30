@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2019 April"
-description: "Google Chrome Network tab explained, CSS scroll-margin and scroll-padding,native lazy-loading for images and iframes is coming, Front-end Developer Handbook 2019, performance hints guide, state management in React apps in 2019, native ECMAScript modules in Node.js and more…"
+summary: "Google Chrome Network tab explained, CSS scroll-margin and scroll-padding,native lazy-loading for images and iframes is coming, Front-end Developer Handbook 2019, performance hints guide, state management in React apps in 2019, native ECMAScript modules in Node.js and more…"
 photo: top-picks.jpg
 ---
 

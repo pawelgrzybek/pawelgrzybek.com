@@ -1,6 +1,6 @@
 ---
 title: BEM with Emmet
-description: Emmet is one of my favourite plugins for a lightning fast HTML & CSS workflow. BEM methodology helps me to keep my projects sane. Let’s try them together!
+summary: Emmet is one of my favourite plugins for a lightning fast HTML & CSS workflow. BEM methodology helps me to keep my projects sane. Let’s try them together!
 photo: 2015-10-17.jpg
 ---
 

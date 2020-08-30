@@ -1,6 +1,6 @@
 ---
 title: Sync Atom between multiple devices
-description: Syncing the preferences and extensions of my code editor between all of my devices is part of my productive workflow. Here are a few methods to do it with Atom.
+summary: Syncing the preferences and extensions of my code editor between all of my devices is part of my productive workflow. Here are a few methods to do it with Atom.
 photo: 2016-09-15.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: CSS Custom Properties explained
-description: CSS Custom Properties (colloquially known as a CSS Variables) are around the corner. Let's embrace the power of a feature that we've been waiting years for.
+summary: CSS Custom Properties (colloquially known as a CSS Variables) are around the corner. Let's embrace the power of a feature that we've been waiting years for.
 photo: 2016-02-19.jpg
 ---
 

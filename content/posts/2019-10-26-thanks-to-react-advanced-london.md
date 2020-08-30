@@ -1,6 +1,6 @@
 ---
 title: "Thanks to React Advanced London"
-description: "Whenever it comes to frontend apps, React is the tool that I feel the most comfortable with. Couldn't be happier when organizers reached out to me and invited me to React Advanced London."
+summary: "Whenever it comes to frontend apps, React is the tool that I feel the most comfortable with. Couldn't be happier when organizers reached out to me and invited me to React Advanced London."
 photo: 2019-10-26.jpg
 ---
 

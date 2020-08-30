@@ -1,6 +1,6 @@
 ---
 title: "Book review: Gravitas by Caroline Goyder"
-description: "I am a constant joker! Most of the time there's nothing bad about this, but in a senior-level position in big software company, some level of seriousness can be helpful. The power to be a great communicator lies somewhere in-between, doesn't it?"
+summary: "I am a constant joker! Most of the time there's nothing bad about this, but in a senior-level position in big software company, some level of seriousness can be helpful. The power to be a great communicator lies somewhere in-between, doesn't it?"
 photo: 2020-02-03.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Book review: Peter Pan"
-description: "After the last decade that I’ve spent reading serious, mature, programming and science-related books, I decided to re-experience that feeling of pure adventure and make-believe which comes from reading a children’s book. I don't regret this decision and I am sure I am going to read more toddler novels soon."
+summary: "After the last decade that I’ve spent reading serious, mature, programming and science-related books, I decided to re-experience that feeling of pure adventure and make-believe which comes from reading a children’s book. I don't regret this decision and I am sure I am going to read more toddler novels soon."
 photo: 2020-01-11.jpg
 ---
 

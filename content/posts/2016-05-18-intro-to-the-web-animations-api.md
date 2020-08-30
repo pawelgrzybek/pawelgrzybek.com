@@ -1,6 +1,6 @@
 ---
 title: Intro to the Web Animations API
-description: We have many methods available to move things around on the web. Let’s embrace the power of future animations with the Web Animations API.
+summary: We have many methods available to move things around on the web. Let’s embrace the power of future animations with the Web Animations API.
 photo: 2016-05-18.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Pinterest style layout with Bricky
-description: The Pinterest / Masonry style layout has always been tricky to create so I've created a very lightweight and dependency-free plugin called Bricky.
+summary: The Pinterest / Masonry style layout has always been tricky to create so I've created a very lightweight and dependency-free plugin called Bricky.
 photo: 2016-05-10.jpg
 ---
 

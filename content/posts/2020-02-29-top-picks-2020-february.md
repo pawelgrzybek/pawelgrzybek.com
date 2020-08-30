@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2020 February"
-description: "The Web We Want initiative, HTTPS Is Easy, new JavaScript bundler coded entirely in a go language, revolutionary TypeScript 3.8 changes, Firefox and Edge Support in Cypress 4.0 and more…"
+summary: "The Web We Want initiative, HTTPS Is Easy, new JavaScript bundler coded entirely in a go language, revolutionary TypeScript 3.8 changes, Firefox and Edge Support in Cypress 4.0 and more…"
 photo: top-picks.jpg
 ---
 

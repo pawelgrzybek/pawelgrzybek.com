@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2019 September"
-description: "Writing for big publications, Command Line Heroes podcast, TypeScript vs ReasonML, Can I use merges with MDN, FaunaDB on Netlify, great guide to HTML5 `<head>` elements and more…"
+summary: "Writing for big publications, Command Line Heroes podcast, TypeScript vs ReasonML, Can I use merges with MDN, FaunaDB on Netlify, great guide to HTML5 `<head>` elements and more…"
 photo: top-picks.jpg
 ---
 

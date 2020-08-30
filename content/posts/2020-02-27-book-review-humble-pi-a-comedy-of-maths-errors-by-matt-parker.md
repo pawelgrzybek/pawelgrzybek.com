@@ -1,6 +1,6 @@
 ---
 title: "Book review: Humble Pi: A Comedy of Maths Errors by Matt Parker"
-description: "Despite the fact that I have never had a trophy for being the best maths student at school, I always enjoyed mathematics. I can get through some simple equations but everything more challenging than trigonometry or matrices normally ends up being a spectacular fiasco. My failures are very insignificant compared to the ones described in the book that I just read."
+summary: "Despite the fact that I have never had a trophy for being the best maths student at school, I always enjoyed mathematics. I can get through some simple equations but everything more challenging than trigonometry or matrices normally ends up being a spectacular fiasco. My failures are very insignificant compared to the ones described in the book that I just read."
 photo: 2020-02-27.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Fluent interfaces explained
-description: Imagine a program that is written like a sentence instead of a series of separated command blocks — the technique of method chaining is the answer.
+summary: Imagine a program that is written like a sentence instead of a series of separated command blocks — the technique of method chaining is the answer.
 photo: 2017-03-17.jpg
 ---
 

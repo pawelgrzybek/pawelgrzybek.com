@@ -1,6 +1,6 @@
 ---
 title: Image tag vs background property
-description: Images need to be treated differently dependent on whether they are part of the design or part of the content. Let's discuss backgrounds and images.
+summary: Images need to be treated differently dependent on whether they are part of the design or part of the content. Let's discuss backgrounds and images.
 photo: 2016-01-28.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "I built a thing! Instagram line break!"
-description: "Instagram doesn't want you to insert line breaks in captions and bios. Thats the reason why I created this little web app. Enjoy!"
+summary: "Instagram doesn't want you to insert line breaks in captions and bios. Thats the reason why I created this little web app. Enjoy!"
 photo: 2019-07-11.jpg
 ---
 

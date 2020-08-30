@@ -1,6 +1,6 @@
 ---
 title: "From Jekyll to Hugo! From GitHub Pages to Netlify!"
-description: "After a few years of blogging using Jekyll, my website became slow and I stopped enjoying working on fresh content. Hugo and Netlify have solved my problem."
+summary: "After a few years of blogging using Jekyll, my website became slow and I stopped enjoying working on fresh content. Hugo and Netlify have solved my problem."
 photo: 2018-04-03.jpg
 ---
 

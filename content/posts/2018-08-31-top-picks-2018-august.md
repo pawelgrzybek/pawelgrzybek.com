@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2018 August"
-description: "Why your skip links are broken, CSS Grid visualized, native lazy load, the state of mobile platforms, whats new in Babel 7, color formats and InDesign killer. This and much more on this month top picks!"
+summary: "Why your skip links are broken, CSS Grid visualized, native lazy load, the state of mobile platforms, whats new in Babel 7, color formats and InDesign killer. This and much more on this month top picks!"
 photo: top-picks.jpg
 ---
 

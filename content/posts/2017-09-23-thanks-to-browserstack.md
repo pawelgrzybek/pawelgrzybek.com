@@ -1,6 +1,6 @@
 ---
 title: Thanks to BrowserStack
-description: Testing across multiple platforms, devices and browsers is hard and having a tool that makes this process seamless is irreplaceable.
+summary: Testing across multiple platforms, devices and browsers is hard and having a tool that makes this process seamless is irreplaceable.
 photo: 2017-09-23.jpg
 ---
 

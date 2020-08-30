@@ -1,6 +1,6 @@
 ---
 title: "Cross-cutting functionality in React using Higher-Order Components, Render Props and Hooks"
-description: "When working with modern JavaScript frameworks we often have to share the same piece of functionality across multiple components. Let me explain a few patterns that make this a breeze."
+summary: "When working with modern JavaScript frameworks we often have to share the same piece of functionality across multiple components. Let me explain a few patterns that make this a breeze."
 photo: 2018-11-22.jpg
 ---
 

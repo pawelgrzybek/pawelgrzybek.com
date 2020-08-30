@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2020 August"
-description: ""
+summary: ""
 photo: top-picks.jpg
 draft: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "My favourite Visual Studio Code tips for \"how did you do it\" kind of people"
-description: "Would you like to learn a few little tips for  productivity, keyboard shortcuts and little known Visual Studio Code hidden gems. This article is for you!"
+summary: "Would you like to learn a few little tips for  productivity, keyboard shortcuts and little known Visual Studio Code hidden gems. This article is for you!"
 photo: 2020-05-27.jpg
 ---
 

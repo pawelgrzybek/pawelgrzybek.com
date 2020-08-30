@@ -1,6 +1,6 @@
 ---
 title: "Promise combinators explained"
-description: "Promise.all, Promise.race, Promise.allSettled and Promise.any help us a lot with operations on compound promises. Let me clarify the difference between them."
+summary: "Promise.all, Promise.race, Promise.allSettled and Promise.any help us a lot with operations on compound promises. Let me clarify the difference between them."
 photo: 2019-08-08.jpg
 ---
 

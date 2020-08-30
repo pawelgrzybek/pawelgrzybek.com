@@ -1,6 +1,6 @@
 ---
 title: My favourite resources to learn JavaScript
-description: Matt Mullenweg gave us a homework “Learn JavaScript, Deeply”. I wouldn’t want to disappoint the creator of WordPress so these are resources that I found helpful.
+summary: Matt Mullenweg gave us a homework “Learn JavaScript, Deeply”. I wouldn’t want to disappoint the creator of WordPress so these are resources that I found helpful.
 photo: 2016-01-16.jpg
 ---
 

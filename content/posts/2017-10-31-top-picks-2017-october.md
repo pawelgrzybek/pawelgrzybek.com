@@ -1,6 +1,6 @@
 ---
 title: Top picks — 2017 October
-description: EDGE on Android and iOS, sliders in pure CSS and HTML, all about CDNs, Quantum by Firefox, InVision Studio, XD out of beta, MDN become the only source of truth and more!
+summary: EDGE on Android and iOS, sliders in pure CSS and HTML, all about CDNs, Quantum by Firefox, InVision Studio, XD out of beta, MDN become the only source of truth and more!
 photo: top-picks.jpg
 ---
 

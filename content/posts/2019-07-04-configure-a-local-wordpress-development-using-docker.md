@@ -1,6 +1,6 @@
 ---
 title: "Configure a local WordPress development using Docker"
-description: "WordPress being the absolute top of the podium of user-friendly content management systems can be cumbersome to spin up locally. Docker containers are perfect for tasks like this so let me explain."
+summary: "WordPress being the absolute top of the podium of user-friendly content management systems can be cumbersome to spin up locally. Docker containers are perfect for tasks like this so let me explain."
 photo: 2019-07-04.jpg
 ---
 

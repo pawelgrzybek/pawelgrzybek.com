@@ -1,6 +1,6 @@
 ---
 title: "TIL — The power of JSON.stringify replacer parameter"
-description: "I had a challenging problem with JSON stringify that ignored my data in a place where I expected sets of values. Luckily I managed to solve it in a very elegant way."
+summary: "I had a challenging problem with JSON stringify that ignored my data in a place where I expected sets of values. Luckily I managed to solve it in a very elegant way."
 photo: 2019-10-11.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "What's new in ECMAScript 2020"
-description: "The list of new ECMAScript 2020 features is set in stone. Let’s have a look at what’s coming this year and a few practical examples."
+summary: "The list of new ECMAScript 2020 features is set in stone. Let’s have a look at what’s coming this year and a few practical examples."
 photo: 2020-04-03.jpg
 ---
 

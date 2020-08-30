@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2018 November"
-description: "How V8 handles promises and async / await functions, Chrome Dev Summit 2018, The State of JavaScript, Custom Elements for React developers and the future of programming by uncle Bob."
+summary: "How V8 handles promises and async / await functions, Chrome Dev Summit 2018, The State of JavaScript, Custom Elements for React developers and the future of programming by uncle Bob."
 photo: top-picks.jpg
 ---
 

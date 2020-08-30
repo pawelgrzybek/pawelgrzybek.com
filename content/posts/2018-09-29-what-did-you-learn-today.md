@@ -1,6 +1,6 @@
 ---
 title: "What did you learn today?"
-description: "Since I joined Mindera a few months ago I've cultivated a daily habit — at some point in the day I'll ask my team members…"
+summary: "Since I joined Mindera a few months ago I've cultivated a daily habit — at some point in the day I'll ask my team members…"
 photo: 2018-09-29.jpg
 ---
 

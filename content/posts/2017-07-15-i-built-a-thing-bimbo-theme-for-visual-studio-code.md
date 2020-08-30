@@ -1,6 +1,6 @@
 ---
 title: I built a thing - Bimbo Theme for Visual Studio Code
-description: After switching from Sublime Text to VS Code I was looking for a theme that didn't exist — so I built one. Totally for free! From a developer for developers. Enjoy!
+summary: After switching from Sublime Text to VS Code I was looking for a theme that didn't exist — so I built one. Totally for free! From a developer for developers. Enjoy!
 photo: 2017-07-15.jpg
 ---
 

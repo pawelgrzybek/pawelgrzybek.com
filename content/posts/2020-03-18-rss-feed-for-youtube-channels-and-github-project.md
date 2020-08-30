@@ -1,6 +1,6 @@
 ---
 title: "RSS feed for youtube channels and GitHub project"
-description: "Today a quick tip but a massive time saver in the long run. Let's stop being hooked on suggested youtube vides and watch only what we really care about."
+summary: "Today a quick tip but a massive time saver in the long run. Let's stop being hooked on suggested youtube vides and watch only what we really care about."
 photo: 2020-03-18.jpg
 ---
 

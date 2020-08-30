@@ -1,6 +1,6 @@
 ---
 title: From Sass to PostCSS
-description: Do you remember that amazing feeling when you discovered the power of Sass? Variables, mixins, nesting — WOW! Time to do it again, this time with PostCSS.
+summary: Do you remember that amazing feeling when you discovered the power of Sass? Variables, mixins, nesting — WOW! Time to do it again, this time with PostCSS.
 photo: 2015-08-27.jpg
 ---
 

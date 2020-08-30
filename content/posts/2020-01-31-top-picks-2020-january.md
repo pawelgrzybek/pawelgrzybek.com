@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2020 January"
-description: "TSConf 2019 talks are online! Dan Abramov ans his advice abour writing a clean code, animate text along the SVG path, Microsoft Edge on Chromium, beautiful JetBrains Mono, Yarn 2 and more…"
+summary: "TSConf 2019 talks are online! Dan Abramov ans his advice abour writing a clean code, animate text along the SVG path, Microsoft Edge on Chromium, beautiful JetBrains Mono, Yarn 2 and more…"
 photo: top-picks.jpg
 ---
 

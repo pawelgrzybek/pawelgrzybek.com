@@ -1,6 +1,6 @@
 ---
 title: I built a thing! PinBuddy!
-description: PinBuddy is a Google Chrome toolbar extension for the Pinboard bookmarking service that lets you browse and add new bookmarks with ease. It is fully keyboard accessible and highlights previously bookmarked websites. It uses API tokens for server communications and never asks for your authentication credentials hence secure.
+summary: PinBuddy is a Google Chrome toolbar extension for the Pinboard bookmarking service that lets you browse and add new bookmarks with ease. It is fully keyboard accessible and highlights previously bookmarked websites. It uses API tokens for server communications and never asks for your authentication credentials hence secure.
 photo: 2018-10-16.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Capture One Pro — the best parts"
-description: "Amongst the multiple RAW image converters available on the market, I settled with the one by Phase One. Let me share with you a few reasons why I made this choice."
+summary: "Amongst the multiple RAW image converters available on the market, I settled with the one by Phase One. Let me share with you a few reasons why I made this choice."
 photo: 2018-08-06.jpg
 ---
 

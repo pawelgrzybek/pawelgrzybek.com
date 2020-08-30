@@ -1,6 +1,6 @@
 ---
 title: "Book review: Beastie Boys Book by Michael Diamond and Adam Horovitz"
-description: ""
+summary: ""
 photo: 2020-08-28.jpg
 draft: true
 ---

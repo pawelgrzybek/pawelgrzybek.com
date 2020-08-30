@@ -1,6 +1,6 @@
 ---
 title: "Install Node.js — installer vs. Homebrew vs. NVM"
-description: "There is plenty of ways to install Node.js and I am about to show you the most popular methods and highlight pros and cons of each of them"
+summary: "There is plenty of ways to install Node.js and I am about to show you the most popular methods and highlight pros and cons of each of them"
 photo: 2019-01-15.jpg
 ---
 

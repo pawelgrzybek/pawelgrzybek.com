@@ -1,6 +1,6 @@
 ---
 title: My favourite front-end related podcasts
-description: We all know how difficult it is staying up to date in front-end development. The day is not long enough. The solution? Podcasts to the rescue!
+summary: We all know how difficult it is staying up to date in front-end development. The day is not long enough. The solution? Podcasts to the rescue!
 photo: 2015-11-24.jpg
 ---
 

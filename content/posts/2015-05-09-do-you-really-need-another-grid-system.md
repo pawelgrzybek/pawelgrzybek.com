@@ -1,6 +1,6 @@
 ---
 title: Do you really need another grid system?
-description: CSS grid system is so easy to create. We can use one of thousands frameworks, but do we really have to? Let me show you how I do it with few SASS mixing.
+summary: CSS grid system is so easy to create. We can use one of thousands frameworks, but do we really have to? Let me show you how I do it with few SASS mixing.
 photo: 2015-05-09.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Book review: Not a Diet Book by James Smith"
-description: "My 30th birthday was the last time I felt great in my own body. My 33rd birthday is coming soon and I promised myself that I’m going to feel great with myself again. Whilst I change my diet habits and become much more active, I try to educate myself on how to do it healthily."
+summary: "My 30th birthday was the last time I felt great in my own body. My 33rd birthday is coming soon and I promised myself that I’m going to feel great with myself again. Whilst I change my diet habits and become much more active, I try to educate myself on how to do it healthily."
 photo: 2020-06-27.jpg
 ---
 

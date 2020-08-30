@@ -1,6 +1,6 @@
 ---
 title: JavaScript console in Sublime Text
-description: Reading books, attending conferences and watching videos is pointless without practice. Let me show you what helped me a lot on my JavaScript learning curve.
+summary: Reading books, attending conferences and watching videos is pointless without practice. Let me show you what helped me a lot on my JavaScript learning curve.
 photo: 2015-06-12.jpg
 ---
 

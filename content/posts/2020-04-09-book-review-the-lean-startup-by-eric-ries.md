@@ -1,6 +1,6 @@
 ---
 title: "Book review: The Lean Startup by Eric Ries"
-description: "\"Business\" is not the number one category of books that I would usually go for but despite this, I think that it's good to diverge and embrace a project development from a different perspective."
+summary: "\"Business\" is not the number one category of books that I would usually go for but despite this, I think that it's good to diverge and embrace a project development from a different perspective."
 photo: 2020-04-09.jpg
 ---
 

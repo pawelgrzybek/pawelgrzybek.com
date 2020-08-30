@@ -1,6 +1,6 @@
 ---
 title: The secret of “CSS Secrets” by Lea Verou
-description: Fall in love in stylesheets all over again with “CSS Secrets” by Lea Verou. Quick review of Lea’s amazing collection of CSS tricks, tips and advices.
+summary: Fall in love in stylesheets all over again with “CSS Secrets” by Lea Verou. Quick review of Lea’s amazing collection of CSS tricks, tips and advices.
 photo: 2015-09-22.jpg
 ---
 

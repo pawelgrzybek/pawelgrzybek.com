@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2020 March"
-description: "GOV.UK Design System team changed the input type for numbers, MonoLisa — stunning font family designed for software developers, npm is joining GitHub, CSS :nth-of-class selector, imact of CSS on screenreaders and more…"
+summary: "GOV.UK Design System team changed the input type for numbers, MonoLisa — stunning font family designed for software developers, npm is joining GitHub, CSS :nth-of-class selector, imact of CSS on screenreaders and more…"
 photo: top-picks.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Liquid video
-description: Make your iframe videos from YouTube or Vimeo responsive with ease with simple script that I published recently - Liquid video.
+summary: Make your iframe videos from YouTube or Vimeo responsive with ease with simple script that I published recently - Liquid video.
 photo: 2016-04-10.jpg
 ---
 

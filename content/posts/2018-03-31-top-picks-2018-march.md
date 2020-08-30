@@ -1,6 +1,6 @@
 ---
 title: Top picks — 2018 March
-description: Prototyping and cloud libraries in Sketch 49, tons of cool stuff on React's world, C++ must have, shocking results of Stackoverflow Developer Survey and CSS Typed Object Model.
+summary: Prototyping and cloud libraries in Sketch 49, tons of cool stuff on React's world, C++ must have, shocking results of Stackoverflow Developer Survey and CSS Typed Object Model.
 photo: top-picks.jpg
 ---
 

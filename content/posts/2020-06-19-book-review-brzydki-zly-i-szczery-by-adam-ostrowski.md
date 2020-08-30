@@ -1,6 +1,6 @@
 ---
 title: "Book review: Brzydki, Zły i Szczery by Adam Ostrowski"
-description: "MC and producer Adam Ostrowski, better known as O.S.T.R. reveals quite a lot of his art but also personal life. His autobiography is funny and easy to read but also emotional and filled with passion."
+summary: "MC and producer Adam Ostrowski, better known as O.S.T.R. reveals quite a lot of his art but also personal life. His autobiography is funny and easy to read but also emotional and filled with passion."
 photo: 2020-06-19.jpg
 ---
 

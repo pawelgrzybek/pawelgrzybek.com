@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2018 April"
-description: "New DNS server by Cloudflare and APNIC, responsive images explained, machine learning in JavaScript, CSS floats demystified, big node / npm update, new version of git Tower is coming and more."
+summary: "New DNS server by Cloudflare and APNIC, responsive images explained, machine learning in JavaScript, CSS floats demystified, big node / npm update, new version of git Tower is coming and more."
 photo: top-picks.jpg
 ---
 

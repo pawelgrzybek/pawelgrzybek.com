@@ -1,6 +1,6 @@
 ---
 title: "Homebrew — the best friend of the macOS user"
-description: "As a curious human being you are probably doing a lot of monotonous tasks: installing and removing software, switching versions of dependencies and searching for new tools. Make your life easier with Homebrew."
+summary: "As a curious human being you are probably doing a lot of monotonous tasks: installing and removing software, switching versions of dependencies and searching for new tools. Make your life easier with Homebrew."
 photo: 2018-07-05.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: I built a thing! Siema!
-description: Siema - a very lightweight (just 1kb gzipped) carousel plugin with no dependencies. It's well supported and ready to use on personal and commercial projects.
+summary: Siema - a very lightweight (just 1kb gzipped) carousel plugin with no dependencies. It's well supported and ready to use on personal and commercial projects.
 photo: 2016-12-08.jpg
 ---
 

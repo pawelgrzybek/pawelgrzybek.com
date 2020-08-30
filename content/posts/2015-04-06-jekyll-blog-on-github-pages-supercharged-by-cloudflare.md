@@ -1,6 +1,6 @@
 ---
 title: Jekyll blog on Github Pages supercharged by CloudFlare
-description: Building first Jekyll website can be tricky, but it’s worth to give it a try. Let me share why I chose Jekyll, what did I struggle with and why I love it now.
+summary: Building first Jekyll website can be tricky, but it’s worth to give it a try. Let me share why I chose Jekyll, what did I struggle with and why I love it now.
 photo: 2015-04-06.jpg
 ---
 

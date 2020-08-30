@@ -1,6 +1,6 @@
 ---
 title: Rounding and truncating numbers in JavaScript
-description: Convert primary school math skills into code. Let's put together all that we know about rounding and truncating numbers in JavaScript.
+summary: Convert primary school math skills into code. Let's put together all that we know about rounding and truncating numbers in JavaScript.
 photo: 2016-01-19.jpg
 ---
 

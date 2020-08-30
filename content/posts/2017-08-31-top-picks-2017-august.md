@@ -1,6 +1,6 @@
 ---
 title: Top picks — 2017 August
-description: Do you like Comic Sans? How about webfonts fallbacks? Image compression? A bit about Unity updates and some async JS tips. Check this month top picks out!
+summary: Do you like Comic Sans? How about webfonts fallbacks? Image compression? A bit about Unity updates and some async JS tips. Check this month top picks out!
 photo: top-picks.jpg
 ---
 

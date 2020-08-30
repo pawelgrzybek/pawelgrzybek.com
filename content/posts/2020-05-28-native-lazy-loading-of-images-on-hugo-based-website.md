@@ -1,6 +1,6 @@
 ---
 title: "Native lazy-loading of images on Hugo based website"
-description: "The implementation of lazy-loading images using Hugo is equally simple as adding it to an HTML file and you don’t have a good reason not to do so. Let me explain."
+summary: "The implementation of lazy-loading images using Hugo is equally simple as adding it to an HTML file and you don’t have a good reason not to do so. Let me explain."
 photo: 2020-05-28.jpg
 ---
 

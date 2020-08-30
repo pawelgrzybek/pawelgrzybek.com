@@ -1,6 +1,6 @@
 ---
 title: "Book review: Steve Jobs: The Exclusive Biography by Walter Isaacson"
-description: "It is a very compelling read about the genius and the biggest asshat under the moon. From his childhood and throughout education, including projects and the loosing the battle with cancer. I would highly recommend this book not only to Apple fans, but to everyone who needs an inspirational kick in their life."
+summary: "It is a very compelling read about the genius and the biggest asshat under the moon. From his childhood and throughout education, including projects and the loosing the battle with cancer. I would highly recommend this book not only to Apple fans, but to everyone who needs an inspirational kick in their life."
 photo: 2020-06-15.jpg
 ---
 

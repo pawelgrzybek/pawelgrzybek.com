@@ -1,6 +1,6 @@
 ---
 title: "Mocking functions and modules with Jest"
-description: "To write deterministic, repeatable unit tests, we need to control the inputs, outputs and invocations of mock objects. The Jest testing framework comes with great mocking capabilities. Let's have a look at them all."
+summary: "To write deterministic, repeatable unit tests, we need to control the inputs, outputs and invocations of mock objects. The Jest testing framework comes with great mocking capabilities. Let's have a look at them all."
 photo: 2020-04-12.jpg
 ---
 
