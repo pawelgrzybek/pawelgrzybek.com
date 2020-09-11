@@ -1,8 +1,7 @@
 ---
-title: "Multi-paragraph git commit message (CLI and Visual Studio Code)"
+title: "Multi-paragraph git commit messages (CLI and Visual Studio Code)"
 summary: "I recently joined a new team that follows Conventional Commits methodology for git commit messages. Multi-paragraph format of commit messages was new to me and I didn’t have a clue how to do it. Turns out there are multiple ways of doing it using CLI and also my favourite code editor Visual Studio Code."
-photo: "2020-08-18.jpg"
-draft: true
+photo: "2020-09-11.jpg"
 ---
 
 I recently joined a new team that follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) methodology for `git` commit messages. Multi-paragraph format of commit messages was new to me and I didn't have a clue how to do it. Turns out there are multiple ways of doing it using CLI and also my favourite code editor Visual Studio Code.
@@ -45,11 +44,11 @@ Let's be honest, it is a lot of typing and I am a crap touch typer. Luckily we c
 git config --global core.editor "code --wait"
 ```
 
-Since now on you can simply use `git commit` command to enter Visual Studio Code to edit a message. It is going to wait until the VSCode tab is closed to send a signal to `git` CLI that we finished editing. That's so much nicer for multi-paragraph git commit messages in my opinion!
+Now on you can simply use `git commit` command to enter Visual Studio Code to edit a message. It is going to wait until the VSCode tab is closed to send a signal to `git` CLI that we finished editing. That's so much nicer for multi-paragraph git commit messages in my opinion!
 
 There is more to it. If you follow some particular pattern for your commit messages you can create a [VSCode snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) for it. I made [one for conventional commits](https://snippet-generator.app/?description=Conventional+Commits&tabtrigger=commit2&snippet=%24%7B1%7Cbuild%2Cci%2Cdocs%2Cfeat%2Cfix%2Cperf%2Crefactor%2Crevert%2Cstyle%2Ctest%7C%7D%24%7B2%3Ascope+%28optional%29%7D%3A+%24%7B3%3Adescription%7D%0A%0A%24%7B4%3Abody+%28optional%29%7D%0A%0ARefs+%23%24%7B5%3Aticket+number%7D&mode=vscode), look!
 
-![Conventional Commits snippet for Visual Studio Code](/photos/2020-08-18-1.gif)
+![Conventional Commits snippet for Visual Studio Code](/photos/2020-09-11-1.gif)
 
 ```json
 {
