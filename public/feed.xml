@@ -5,10 +5,64 @@
     <link>https://pawelgrzybek.com/</link>
     <description>Hi there, I&#39;m Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I&#39;m not coding, I&#39;m spinning funky vinyl records.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Multi-paragraph git commit messages (CLI and Visual Studio Code)</title>
+      <link>https://pawelgrzybek.com/multi-paragraph-git-commit-messages-cli-and-visual-studio-code/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pawelgrzybek.com/multi-paragraph-git-commit-messages-cli-and-visual-studio-code/</guid>
+      <description>&lt;p&gt;I recently joined a new team that follows &lt;a href=&#34;https://www.conventionalcommits.org/en/v1.0.0/&#34;&gt;Conventional Commits&lt;/a&gt; methodology for &lt;code&gt;git&lt;/code&gt; commit messages. Multi-paragraph format of commit messages was new to me and I didn&amp;rsquo;t have a clue how to do it. Turns out there are multiple ways of doing it using CLI and also my favourite code editor Visual Studio Code.&lt;/p&gt;
+&lt;h2 id=&#34;multi-paragraph-git-commit-message-using-cli&#34;&gt;Multi-paragraph git commit message using CLI &lt;a href=&#34;#multi-paragraph-git-commit-message-using-cli&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Presumably, git CLI is the most common way to interact with this version control system. I found three different methods to achieve multi-paragraph commit message using this method.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git commit -m &#39;Line  one&#39; -m &#39;Line two&#39; -m &#39;Line three&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;git commit -m &#39;Line one
+
+Line two
+
+Line three&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;git commit -m $&#39;Line one\n\nLine two\n\nLine three&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;All three methods above will produce exactly the same commit message:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Line one
+
+Line two
+
+Line three
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;multi-paragraph-git-commit-message-using-visual-studio-code&#34;&gt;Multi-paragraph git commit message using Visual Studio Code &lt;a href=&#34;#multi-paragraph-git-commit-message-using-visual-studio-code&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s be honest, it is a lot of typing and I am a crap touch typer. Luckily we can always use the code editor to edit commit messages. By default most UNIX operating systems come with &lt;code&gt;vim&lt;/code&gt; preconfigured as a default editor. This is not the option that I love. I barely can exit this editor and &lt;a href=&#34;https://stackoverflow.com/a/11828573/2290040&#34;&gt;&amp;ldquo;How do I exit the Vim editor?&amp;rdquo; post on Stack Overflow&lt;/a&gt; makes me think that I am not the only one. Luckily we can change &lt;a href=&#34;https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_editor&#34;&gt;&lt;code&gt;core.editor&lt;/code&gt; for git&lt;/a&gt;. My preferred one is Visual Studio Code.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git config --global core.editor &amp;quot;code --wait&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now on you can simply use &lt;code&gt;git commit&lt;/code&gt; command to enter Visual Studio Code to edit a message. It is going to wait until the VSCode tab is closed to send a signal to &lt;code&gt;git&lt;/code&gt; CLI that we finished editing. That&amp;rsquo;s so much nicer for multi-paragraph git commit messages in my opinion!&lt;/p&gt;
+&lt;p&gt;There is more to it. If you follow some particular pattern for your commit messages you can create a &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets&#34;&gt;VSCode snippet&lt;/a&gt; for it. I made &lt;a href=&#34;https://snippet-generator.app/?description=Conventional+Commits&amp;amp;tabtrigger=commit2&amp;amp;snippet=%24%7B1%7Cbuild%2Cci%2Cdocs%2Cfeat%2Cfix%2Cperf%2Crefactor%2Crevert%2Cstyle%2Ctest%7C%7D%24%7B2%3Ascope+%28optional%29%7D%3A+%24%7B3%3Adescription%7D%0A%0A%24%7B4%3Abody+%28optional%29%7D%0A%0ARefs+%23%24%7B5%3Aticket+number%7D&amp;amp;mode=vscode&#34;&gt;one for conventional commits&lt;/a&gt;, look!&lt;/p&gt;
+&lt;p&gt;
+
+&lt;img
+  src=&#34;https://pawelgrzybek.com/photos/2020-09-11-1.gif&#34;
+  alt=&#34;Conventional Commits snippet for Visual Studio Code&#34;
+  loading=&#34;lazy&#34;
+  width=&#34;1050&#34;
+  height=&#34;750&#34;
+/&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;#34;Conventional Commits&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;#34;prefix&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;commit&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;#34;body&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+      &lt;span class=&#34;s2&#34;&gt;&amp;#34;${1|build,ci,docs,feat,fix,perf,refactor,revert,style,test|}${2:scope (optional)}: ${3:description}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+      &lt;span class=&#34;s2&#34;&gt;&amp;#34;${4:body (optional)}&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+      &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+      &lt;span class=&#34;s2&#34;&gt;&amp;#34;Refs #${5:ticket number}&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;#34;description&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Conventional Commits&amp;#34;&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Keep on coding and I will catch you next time 👋&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Book review: Beastie Boys Book by Michael Diamond and Adam Horovitz</title>
