@@ -20,3 +20,11 @@ I am a [Visual Studio Code](https://code.visualstudio.com) die-hard lover not be
 ## [AVIF has landed](https://jakearchibald.com/2020/avif-has-landed/)
 
 [Jake Archibald](https://twitter.com/jaffathecake) compares new image format to the older alternatives. Deep dive into pros and cons and a tons of interesting facts about the graphics compression in general. Great read!
+
+## [GitHub CLI 1.0 is now available](https://github.blog/2020-09-17-github-cli-1-0-is-now-available/)
+
+GitHub CLI finally hit stable version 1.0. This command line tool allows us to run the whole GitHub workflow without leaving the Terminal. From creating issues, browsing merge requests to checking pipeline checks. Sweet!
+
+## [v3.0.0 One Piece](https://github.com/vuejs/vue-next/releases/tag/v3.0.0)
+
+It has finally arrived, Vue 3.0 is here. Filled with bunch of new concepts and ideas and to top it off, amazing brand new documentation. Despite the fact that I am more a React dude, I really like what is happening in Vue community. 
