@@ -28,3 +28,8 @@ GitHub CLI finally hit stable version 1.0. This command line tool allows us to r
 ## [v3.0.0 One Piece](https://github.com/vuejs/vue-next/releases/tag/v3.0.0)
 
 It has finally arrived, Vue 3.0 is here. Filled with bunch of new concepts and ideas and to top it off, amazing brand new documentation. Despite the fact that I am more a React dude, I really like what is happening in Vue community. 
+
+## [Please Stop Writing Your Own User Authentication Code](https://medium.com/better-programming/stop-writing-your-own-user-authentication-code-e8bb50388ec4)
+
+About the potential risks of running your own authentication service for you app. [ItalyPaleAle](https://twitter.com/ItalyPaleAle) lists his favourite IAAS (Identity-as-a-Service) providers and describes the flow of implementing authentication.
+
