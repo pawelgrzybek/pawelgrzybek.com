@@ -33,3 +33,6 @@ It has finally arrived, Vue 3.0 is here. Filled with bunch of new concepts and i
 
 About the potential risks of running your own authentication service for you app. [ItalyPaleAle](https://twitter.com/ItalyPaleAle) lists his favourite IAAS (Identity-as-a-Service) providers and describes the flow of implementing authentication.
 
+## [Introducing the New JSX Transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+
+JSX is just an abstraction on top of the `React.createElement` method. This announcement presents some nice improvements to the currently existing transforms. No need to import `React` just to use a piece JSX anymore people.
