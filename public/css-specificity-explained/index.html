@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   <title>CSS Specificity explained | pawelgrzybek.com</title>
   <meta name="description" content="CSS Specificity is the most misunderstood part of Cascading Style Sheets. Let me explain how the browser understands and interprets the jungle of selectors.">
@@ -222,7 +222,7 @@
 <h3 id="do-not-use-ids">Do not use IDs <a href="#do-not-use-ids" class="post__hash">#</a></h3>
 <p>Despite that it’s absolutely valid it’s very poor practice to use IDs to style elements. Accordingly to the previous rule, we are suppose to keep the specificity score as low as we can. Another reason avoid it is the fact that they can’t be reused. But it’s all about reusing components! Right?! If you need more reasons, check <a href="http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/">this article</a>.</p>
 <h3 id="nesting-isnt-cool-at-all">Nesting isn’t cool at all <a href="#nesting-isnt-cool-at-all" class="post__hash">#</a></h3>
-<p>Nesting is probably one of the most overused thing in CSS. Preprocessors sell nesting as a feature that combines selectors in more readable and easier to apply way. In fact, nesting should be avoided wherever possible. It’s another case where decent naming convention comes to the rescue! The rule of thumb is to not nest more than 4 levels. Funny guys from <a href="http://thesassway.com/beginner/the-inception-rule">The Sass Way</a> called this the “Inception Rule&rdquo; — if you have watched the &ldquo;Inception&rdquo; movie you know what I’m talking about. Another reason was described in fantastic article <a href="http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/">“Cyclomatic Complexity: Logic in CSS” by Harry Roberts</a>. Let me quote a sentence:</p>
+<p>Nesting is probably one of the most overused thing in CSS. Preprocessors sell nesting as a feature that combines selectors in more readable and easier to apply way. In fact, nesting should be avoided wherever possible. It’s another case where decent naming convention comes to the rescue! The rule of thumb is to not nest more than 4 levels. Funny guys from <a href="http://thesassway.com/beginner/the-inception-rule">The Sass Way</a> called this the “Inception Rule&quot; — if you have watched the &ldquo;Inception&rdquo; movie you know what I’m talking about. Another reason was described in fantastic article <a href="http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css/">“Cyclomatic Complexity: Logic in CSS” by Harry Roberts</a>. Let me quote a sentence:</p>
 <blockquote>
 <p>Think of your selectors as mini programs: Every time you nest or qualify, you are adding an if statement; read these ifs out loud to yourself to try and keep your selectors sane.</p>
 </blockquote>

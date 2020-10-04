@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   <title>Intro to the Web Animations API | pawelgrzybek.com</title>
   <meta name="description" content="We have many methods available to move things around on the web. Let’s embrace the power of future animations with the Web Animations API.">
@@ -206,7 +206,7 @@
   height="1254"
 />
 </p>
-<p>Cool, but does it really generate the same effect? Not really — the behavior of JavaScript&rsquo;s <code>easing</code> and CSS&rsquo; <code>animation-timing-function</code> is different. The WAAPI <a href="https://w3c.github.io/web-animations/#time-transformations">timing function</a> is applied to the whole iteration of an animation — as expected. As per <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function">MDN</a>, the CSS <code>animation-timing-function</code> is applied on each step between keyframes.</p>
+<p>Cool, but does it really generate the same effect? Not really — the behavior of JavaScript&rsquo;s <code>easing</code> and CSS' <code>animation-timing-function</code> is different. The WAAPI <a href="https://w3c.github.io/web-animations/#time-transformations">timing function</a> is applied to the whole iteration of an animation — as expected. As per <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function">MDN</a>, the CSS <code>animation-timing-function</code> is applied on each step between keyframes.</p>
 <blockquote>
 <p>For keyframed animations, the timing function applies between keyframes rather than over the entire animation. In other words, the timing function is applied at the start of the keyframe and at the end of the keyframe.</p>
 </blockquote>

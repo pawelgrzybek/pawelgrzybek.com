@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   <title>Build your first AWS Serverless app | pawelgrzybek.com</title>
   <meta name="description" content="After years spent working on frontend development, through building AR / VR applications, I recently ended up in a team of talented people building serverless microservices on the AWS platform. Let me share with you some of my experiences.">
@@ -192,19 +192,19 @@
 <p>Despite the fact it looked like black magic for me at first, today one of my favourite parts of AWS are the CloudFormation templates. A simple file that describes the whole architecture that&rsquo;s easy to deploy, update and delete. The <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-anatomy.html">anatomy of a CloudFormation template</a> is simple and becomes as complex as your projects needs to be.</p>
 <div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="c"># template.yaml</span><span class="w">
 </span><span class="w">
-</span><span class="w"></span><span class="k">Transform</span><span class="p">:</span><span class="w"> </span>AWS<span class="p">::</span>Serverless<span class="m">-2016-10-31</span><span class="w">
-</span><span class="w"></span><span class="k">Resources</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="k">Greetings</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span><span class="k">Type</span><span class="p">:</span><span class="w"> </span>AWS<span class="p">::</span>Serverless<span class="p">::</span>Function<span class="w">
-</span><span class="w">    </span><span class="k">Properties</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span><span class="k">Handler</span><span class="p">:</span><span class="w"> </span>index.handler<span class="w">
-</span><span class="w">      </span><span class="k">Runtime</span><span class="p">:</span><span class="w"> </span>nodejs8<span class="m">.10</span><span class="w">
-</span><span class="w">      </span><span class="k">Events</span><span class="p">:</span><span class="w">
-</span><span class="w">        </span><span class="k">HelloWorldApi</span><span class="p">:</span><span class="w">
-</span><span class="w">          </span><span class="k">Type</span><span class="p">:</span><span class="w"> </span>Api<span class="w">
-</span><span class="w">          </span><span class="k">Properties</span><span class="p">:</span><span class="w">
-</span><span class="w">            </span><span class="k">Path</span><span class="p">:</span><span class="w"> </span>/<span class="w">
-</span><span class="w">            </span><span class="k">Method</span><span class="p">:</span><span class="w"> </span>POST<span class="w">
+</span><span class="w"></span><span class="nt">Transform</span><span class="p">:</span><span class="w"> </span><span class="l">AWS::Serverless-2016-10-31</span><span class="w">
+</span><span class="w"></span><span class="nt">Resources</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">Greetings</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">Type</span><span class="p">:</span><span class="w"> </span><span class="l">AWS::Serverless::Function</span><span class="w">
+</span><span class="w">    </span><span class="nt">Properties</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span><span class="nt">Handler</span><span class="p">:</span><span class="w"> </span><span class="l">index.handler</span><span class="w">
+</span><span class="w">      </span><span class="nt">Runtime</span><span class="p">:</span><span class="w"> </span><span class="l">nodejs8.10</span><span class="w">
+</span><span class="w">      </span><span class="nt">Events</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">HelloWorldApi</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">Type</span><span class="p">:</span><span class="w"> </span><span class="l">Api</span><span class="w">
+</span><span class="w">          </span><span class="nt">Properties</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">Path</span><span class="p">:</span><span class="w"> </span><span class="l">/</span><span class="w">
+</span><span class="w">            </span><span class="nt">Method</span><span class="p">:</span><span class="w"> </span><span class="l">POST</span><span class="w">
 </span></code></pre></div><p>The <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/transform-section-structure.html"><code>Transform</code> section</a> defines the macros that AWS CloudFormation uses to process your template. <code>AWS::Serverless-2016-10-31</code> means that the template is written in the <a href="https://docs.aws.amazon.com/serverless-application-model/index.html#lang/en_us">AWS Serverless Application Model (AWS SAM)</a> syntax. It simplifies the declaration of a Lambda function and its execution role. Without this transformation, CloudFormation templates are much more verbose.</p>
 <p>The <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html"><code>Resources</code> section</a> is the only required section and defines stack resources and their properties. In our case the only resource is a <code>AWS::Serverless::Function</code> described by a <code>Greetings</code> logical ID. Properties define the path to a <code>handler</code>, runtime and event that triggers an invocation.</p>
 <h3 id="package-the-serverless-app">Package the serverless app <a href="#package-the-serverless-app" class="post__hash">#</a></h3>

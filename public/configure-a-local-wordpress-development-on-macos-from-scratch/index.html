@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   <title>Configure a local WordPress development on macOS from scratch | pawelgrzybek.com</title>
   <meta name="description" content="So you&rsquo;re about to build a WordPress website. An Apache HTTP Server, PHP and MySQL database is all that you need. Let me guide you step by step.">
@@ -199,7 +199,7 @@ sudo apachectl configtest
 />
 </p>
 <h2 id="mysql-to-store-data-sequel-pro-to-manage-it">MySQL to store data, Sequel Pro to manage it <a href="#mysql-to-store-data-sequel-pro-to-manage-it" class="post__hash">#</a></h2>
-<p>WordPress&rsquo; mission is to edit and serve content stored in a database which is the last missing piece of our setup. In order to download the database software and a great GUI (graphical user interface) for it, we are going to use <a href="https://brew.sh/">Homebrew — the missing package manager for macOS</a>. If you are not a Homebrew user, please follow the installation steps from the website and take my word that it is going to make your life much easier in the future. I published <a href="https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/">&ldquo;Homebrew — the best friend of the macOS user&rdquo;</a> where I elaborate more about benefits of using it.</p>
+<p>WordPress' mission is to edit and serve content stored in a database which is the last missing piece of our setup. In order to download the database software and a great GUI (graphical user interface) for it, we are going to use <a href="https://brew.sh/">Homebrew — the missing package manager for macOS</a>. If you are not a Homebrew user, please follow the installation steps from the website and take my word that it is going to make your life much easier in the future. I published <a href="https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/">&ldquo;Homebrew — the best friend of the macOS user&rdquo;</a> where I elaborate more about benefits of using it.</p>
 <pre><code>brew install mysql
 </code></pre><pre><code>brew cask install sequel-pro
 </code></pre><p>MySQL has been installed and <code>root</code> user with blank password has been added. Since version 8 it uses a different method of password encoding. To make our life easier we should change this encoding for our pre-created user. Log into MySQL shell using <code>mysql -u root</code>, change a password encoding using <code>ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';</code> and exit shell using <code>exit;</code>.</p>

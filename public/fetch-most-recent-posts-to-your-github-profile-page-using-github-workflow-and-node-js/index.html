@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   <title>Fetch most recent posts to your GitHub profile page using GitHub workflow and Node.js | pawelgrzybek.com</title>
   <meta name="description" content="I combined GitHub workflow and simple Node.js script to display the most recent articles from my RSS feed on my GitHub public profile page. Let&rsquo;s have a look at how it&rsquo;s done.">
@@ -122,30 +122,30 @@
 <li>Run custom Node.js script (<code>yarn build</code>).</li>
 <li>Commit changes.</li>
 </ol>
-<div class="highlight"><pre class="chroma"><code class="language-yml" data-lang="yml"><span class="k">name</span><span class="p">:</span><span class="w"> </span>Fetch<span class="w"> </span>recent<span class="w"> </span>blog<span class="w"> </span>posts<span class="w">
-</span><span class="w"></span><span class="k">on</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="k">schedule</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span>- <span class="k">cron</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;* */6 * * *&#34;</span><span class="w">
+<div class="highlight"><pre class="chroma"><code class="language-yml" data-lang="yml"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Fetch recent blog posts</span><span class="w">
+</span><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span>- <span class="nt">cron</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;* */6 * * *&#34;</span><span class="w">
 </span><span class="w">
-</span><span class="w"></span><span class="k">jobs</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="k">fetch-recent-blog-posts</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span><span class="k">name</span><span class="p">:</span><span class="w"> </span>Fetch<span class="w"> </span>recent<span class="w"> </span>blog<span class="w"> </span>posts<span class="w">
-</span><span class="w">    </span><span class="k">runs-on</span><span class="p">:</span><span class="w"> </span>ubuntu-latest<span class="w">
-</span><span class="w">    </span><span class="k">steps</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span>- <span class="k">name</span><span class="p">:</span><span class="w"> </span>Check<span class="w"> </span>out<span class="w"> </span>repository<span class="w">
-</span><span class="w">        </span><span class="k">uses</span><span class="p">:</span><span class="w"> </span>actions/checkout@v2<span class="w">
-</span><span class="w">      </span>- <span class="k">name</span><span class="p">:</span><span class="w"> </span>Setup<span class="w"> </span>node<span class="w">
-</span><span class="w">        </span><span class="k">uses</span><span class="p">:</span><span class="w"> </span>actions/setup-node@v2-beta<span class="w">
-</span><span class="w">        </span><span class="k">with</span><span class="p">:</span><span class="w">
-</span><span class="w">          </span><span class="k">node-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;12&#34;</span><span class="w">
-</span><span class="w">      </span>- <span class="k">name</span><span class="p">:</span><span class="w"> </span>Install<span class="w"> </span>node<span class="w"> </span>dependencies<span class="w">
-</span><span class="w">        </span><span class="k">run</span><span class="p">:</span><span class="w"> </span>yarn<span class="w">
-</span><span class="w">      </span>- <span class="k">name</span><span class="p">:</span><span class="w"> </span>Run<span class="w"> </span>node<span class="w"> </span>script<span class="w">
-</span><span class="w">        </span><span class="k">run</span><span class="p">:</span><span class="w"> </span>yarn<span class="w"> </span>build<span class="w">
-</span><span class="w">      </span>- <span class="k">name</span><span class="p">:</span><span class="w"> </span>Git<span class="w"> </span>setup<span class="w">
-</span><span class="w">        </span><span class="k">run</span><span class="p">:</span><span class="w"> </span>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span>readme-bot@example.com<span class="w"> </span><span class="cp">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span>readme-bot<span class="w">
-</span><span class="w">      </span>- <span class="k">name</span><span class="p">:</span><span class="w"> </span>Git<span class="w"> </span>commit<span class="w"> </span>README.md<span class="w"> </span>file<span class="w">
-</span><span class="w">        </span><span class="k">run</span><span class="p">:</span><span class="w"> </span>git<span class="w"> </span>diff<span class="w"> </span>--quiet<span class="w"> </span><span class="cp">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>diff<span class="w"> </span>--staged<span class="w"> </span>--quiet<span class="w"> </span>||<span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-am<span class="w"> </span><span class="s1">&#39;[BOT] Update readme&#39;</span><span class="w"> </span><span class="cp">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>push<span class="w">
+</span><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">fetch-recent-blog-posts</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Fetch recent blog posts</span><span class="w">
+</span><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Check out repository</span><span class="w">
+</span><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup node</span><span class="w">
+</span><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/setup-node@v2-beta</span><span class="w">
+</span><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">node-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;12&#34;</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install node dependencies</span><span class="w">
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">yarn</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Run node script</span><span class="w">
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">yarn build</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Git setup</span><span class="w">
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">git config --global user.email readme-bot@example.com &amp;&amp; git config --global user.name readme-bot</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Git commit README.md file</span><span class="w">
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">git diff --quiet &amp;&amp; git diff --staged --quiet || git commit -am &#39;[BOT] Update readme&#39; &amp;&amp; git push</span><span class="w">
 </span></code></pre></div><h2 id="fetch-rss-feed-using-nodejs-and-override-readmemd">Fetch RSS feed using Node.js and override READMe.md <a href="#fetch-rss-feed-using-nodejs-and-override-readmemd" class="post__hash">#</a></h2>
 <p>Assuming that you already created <code>README.md</code> file in your repository, we need to decide how to put dynamic content into it. I achieved it by placing custom comments inside the file and the dynamically generated content will be placed between them. Have a look at the example.</p>
 <div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md"><span class="gh"># Hi y&#39;all 👋

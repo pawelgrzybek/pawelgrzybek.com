@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   <title>Configure a local WordPress development using Docker | pawelgrzybek.com</title>
   <meta name="description" content="WordPress being the absolute top of the podium of user-friendly content management systems can be cumbersome to spin up locally. Docker containers are perfect for tasks like this so let me explain.">
@@ -134,106 +134,106 @@
 <pre><code>mkdir wp &amp;&amp; cd $_ &amp;&amp; touch docker-compose.yml
 </code></pre><div class="highlight"><pre class="chroma"><code class="language-yml" data-lang="yml"><span class="c"># Version of the Compose file format</span><span class="w">
 </span><span class="w"></span><span class="c"># Version 3 is the most current and recommended one</span><span class="w">
-</span><span class="w"></span><span class="k">version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;3&#34;</span><span class="w">
+</span><span class="w"></span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;3&#34;</span><span class="w">
 </span><span class="w">
 </span><span class="w"></span><span class="c"># Top building block that defines</span><span class="w">
 </span><span class="w"></span><span class="c"># All containers used for this service</span><span class="w">
-</span><span class="w"></span><span class="k">services</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="nt">services</span><span class="p">:</span><span class="w">
 </span><span class="w">
 </span><span class="w">  </span><span class="c"># Container 1</span><span class="w">
 </span><span class="w">  </span><span class="c"># https://hub.docker.com/_/mysql</span><span class="w">
-</span><span class="w">  </span><span class="k">db</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">db</span><span class="p">:</span><span class="w">
 </span><span class="w">    </span><span class="c"># Image name (optinally version)</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://docs.docker.com/compose/compose-file/#image</span><span class="w">
-</span><span class="w">    </span><span class="k">image</span><span class="p">:</span><span class="w"> </span>mysql<span class="p">:</span><span class="m">5.7</span><span class="w">
+</span><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">mysql:5.7</span><span class="w">
 </span><span class="w">    </span><span class="c"># Define restart policy</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://docs.docker.com/compose/compose-file/#restart</span><span class="w">
-</span><span class="w">    </span><span class="k">restart</span><span class="p">:</span><span class="w"> </span>always<span class="w">
+</span><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">always</span><span class="w">
 </span><span class="w">    </span><span class="c"># Volumes definition</span><span class="w">
 </span><span class="w">    </span><span class="c"># Named volume, allows persisted data but without caring where locally it is stored</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://nickjanetakis.com/blog/docker-tip-28-named-volumes-vs-path-based-volumes</span><span class="w">
-</span><span class="w">    </span><span class="k">volumes</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span>- db_data<span class="p">:</span>/var/lib/mysql<span class="w">
+</span><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="l">db_data:/var/lib/mysql</span><span class="w">
 </span><span class="w">    </span><span class="c"># Add environment variables</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://docs.docker.com/compose/compose-file/#environment</span><span class="w">
-</span><span class="w">    </span><span class="k">environment</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span><span class="k">MYSQL_ROOT_PASSWORD</span><span class="p">:</span><span class="w"> </span>password<span class="w">
-</span><span class="w">      </span><span class="k">MYSQL_DATABASE</span><span class="p">:</span><span class="w"> </span>wordpress<span class="w">
-</span><span class="w">      </span><span class="k">MYSQL_USER</span><span class="p">:</span><span class="w"> </span>wordpress<span class="w">
-</span><span class="w">      </span><span class="k">MYSQL_PASSWORD</span><span class="p">:</span><span class="w"> </span>wordpress<span class="w">
+</span><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span><span class="nt">MYSQL_ROOT_PASSWORD</span><span class="p">:</span><span class="w"> </span><span class="l">password</span><span class="w">
+</span><span class="w">      </span><span class="nt">MYSQL_DATABASE</span><span class="p">:</span><span class="w"> </span><span class="l">wordpress</span><span class="w">
+</span><span class="w">      </span><span class="nt">MYSQL_USER</span><span class="p">:</span><span class="w"> </span><span class="l">wordpress</span><span class="w">
+</span><span class="w">      </span><span class="nt">MYSQL_PASSWORD</span><span class="p">:</span><span class="w"> </span><span class="l">wordpress</span><span class="w">
 </span><span class="w">    </span><span class="c"># List of networks to join</span><span class="w">
-</span><span class="w">    </span><span class="k">networks</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span>- wp<span class="w">
+</span><span class="w">    </span><span class="nt">networks</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="l">wp</span><span class="w">
 </span><span class="w">
 </span><span class="w">  </span><span class="c"># Container 2</span><span class="w">
 </span><span class="w">  </span><span class="c"># https://hub.docker.com/_/wordpress</span><span class="w">
-</span><span class="w">  </span><span class="k">wordpress</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">wordpress</span><span class="p">:</span><span class="w">
 </span><span class="w">    </span><span class="c"># List of dependencies</span><span class="w">
-</span><span class="w">    </span><span class="k">depends_on</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span>- db<span class="w">
+</span><span class="w">    </span><span class="nt">depends_on</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="l">db</span><span class="w">
 </span><span class="w">    </span><span class="c"># Image name (optinally version)</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://docs.docker.com/compose/compose-file/#image</span><span class="w">
 </span><span class="w">    </span><span class="c"># Feel free to add a version of WordPress</span><span class="w">
 </span><span class="w">    </span><span class="c"># I.e. wordpress:5.2.0</span><span class="w">
-</span><span class="w">    </span><span class="k">image</span><span class="p">:</span><span class="w"> </span>wordpress<span class="w">
+</span><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">wordpress</span><span class="w">
 </span><span class="w">    </span><span class="c"># Define restart policy</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://docs.docker.com/compose/compose-file/#restart</span><span class="w">
-</span><span class="w">    </span><span class="k">restart</span><span class="p">:</span><span class="w"> </span>always<span class="w">
+</span><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">always</span><span class="w">
 </span><span class="w">    </span><span class="c"># Volumes definition</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://docs.docker.com/compose/compose-file/#volumes</span><span class="w">
 </span><span class="w">    </span><span class="c"># Maps your local folder, to path in a container</span><span class="w">
 </span><span class="w">    </span><span class="c"># Useful for file edits</span><span class="w">
 </span><span class="w">    </span><span class="c"># I like to map only wp-content</span><span class="w">
 </span><span class="w">    </span><span class="c"># We should not care about WP core files</span><span class="w">
-</span><span class="w">    </span><span class="k">volumes</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;./:/var/www/html/wp-content&#34;</span><span class="p">]</span><span class="w">
+</span><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;./:/var/www/html/wp-content&#34;</span><span class="p">]</span><span class="w">
 </span><span class="w">    </span><span class="c"># Add environment variables</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://docs.docker.com/compose/compose-file/#environment</span><span class="w">
-</span><span class="w">    </span><span class="k">environment</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span><span class="k">WORDPRESS_DB_HOST</span><span class="p">:</span><span class="w"> </span>db<span class="p">:</span><span class="m">3306</span><span class="w">
-</span><span class="w">      </span><span class="k">WORDPRESS_DB_USER</span><span class="p">:</span><span class="w"> </span>wordpress<span class="w">
-</span><span class="w">      </span><span class="k">WORDPRESS_DB_PASSWORD</span><span class="p">:</span><span class="w"> </span>wordpress<span class="w">
+</span><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span><span class="nt">WORDPRESS_DB_HOST</span><span class="p">:</span><span class="w"> </span><span class="l">db:3306</span><span class="w">
+</span><span class="w">      </span><span class="nt">WORDPRESS_DB_USER</span><span class="p">:</span><span class="w"> </span><span class="l">wordpress</span><span class="w">
+</span><span class="w">      </span><span class="nt">WORDPRESS_DB_PASSWORD</span><span class="p">:</span><span class="w"> </span><span class="l">wordpress</span><span class="w">
 </span><span class="w">    </span><span class="c"># Ports mapping</span><span class="w">
-</span><span class="w">    </span><span class="k">ports</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
 </span><span class="w">      </span>- <span class="m">80</span><span class="p">:</span><span class="m">80</span><span class="w">
 </span><span class="w">      </span>- <span class="m">443</span><span class="p">:</span><span class="m">443</span><span class="w">
 </span><span class="w">    </span><span class="c"># List of networks to join</span><span class="w">
-</span><span class="w">    </span><span class="k">networks</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span>- wp<span class="w">
+</span><span class="w">    </span><span class="nt">networks</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="l">wp</span><span class="w">
 </span><span class="w">
 </span><span class="w">  </span><span class="c"># Container 3</span><span class="w">
 </span><span class="w">  </span><span class="c"># https://hub.docker.com/r/phpmyadmin/phpmyadmin</span><span class="w">
 </span><span class="w">  </span><span class="c"># This one is optional</span><span class="w">
-</span><span class="w">  </span><span class="k">phpmyadmin</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">phpmyadmin</span><span class="p">:</span><span class="w">
 </span><span class="w">    </span><span class="c"># List of dependencies</span><span class="w">
-</span><span class="w">    </span><span class="k">depends_on</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span>- db<span class="w">
+</span><span class="w">    </span><span class="nt">depends_on</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="l">db</span><span class="w">
 </span><span class="w">    </span><span class="c"># Image name (optinally version)</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://docs.docker.com/compose/compose-file/#image</span><span class="w">
-</span><span class="w">    </span><span class="k">image</span><span class="p">:</span><span class="w"> </span>phpmyadmin/phpmyadmin<span class="w">
+</span><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">phpmyadmin/phpmyadmin</span><span class="w">
 </span><span class="w">    </span><span class="c"># Define restart policy</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://docs.docker.com/compose/compose-file/#restart</span><span class="w">
-</span><span class="w">    </span><span class="k">restart</span><span class="p">:</span><span class="w"> </span>always<span class="w">
+</span><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">always</span><span class="w">
 </span><span class="w">    </span><span class="c"># Ports mapping</span><span class="w">
-</span><span class="w">    </span><span class="k">ports</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
 </span><span class="w">      </span>- <span class="m">8080</span><span class="p">:</span><span class="m">80</span><span class="w">
 </span><span class="w">    </span><span class="c"># Add environment variables</span><span class="w">
 </span><span class="w">    </span><span class="c"># https://docs.docker.com/compose/compose-file/#environment</span><span class="w">
-</span><span class="w">    </span><span class="k">environment</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span><span class="k">PMA_HOST</span><span class="p">:</span><span class="w"> </span>db<span class="w">
-</span><span class="w">      </span><span class="k">MYSQL_ROOT_PASSWORD</span><span class="p">:</span><span class="w"> </span>password<span class="w">
+</span><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span><span class="nt">PMA_HOST</span><span class="p">:</span><span class="w"> </span><span class="l">db</span><span class="w">
+</span><span class="w">      </span><span class="nt">MYSQL_ROOT_PASSWORD</span><span class="p">:</span><span class="w"> </span><span class="l">password</span><span class="w">
 </span><span class="w">    </span><span class="c"># List of networks to join</span><span class="w">
-</span><span class="w">    </span><span class="k">networks</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span>- wp<span class="w">
+</span><span class="w">    </span><span class="nt">networks</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="l">wp</span><span class="w">
 </span><span class="w">
 </span><span class="w"></span><span class="c"># Top building block that defines</span><span class="w">
 </span><span class="w"></span><span class="c"># All networks used for this service</span><span class="w">
-</span><span class="w"></span><span class="k">networks</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="k">wp</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="nt">networks</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">wp</span><span class="p">:</span><span class="w">
 </span><span class="w">
 </span><span class="w"></span><span class="c"># Top building block that defines</span><span class="w">
 </span><span class="w"></span><span class="c"># All volumes used for this service</span><span class="w">
-</span><span class="w"></span><span class="k">volumes</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="k">db_data</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">db_data</span><span class="p">:</span><span class="w">
 </span></code></pre></div><p>That&rsquo;s it — time to build our stack! Bear in mind that when you run it for a first time it is going to download all necessary stack images. Every subsequent invocation is going to be almost instant.</p>
 <pre><code>docker-compose up -d 
 </code></pre><p>

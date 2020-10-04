@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   <title>TypeScript interface vs. type | pawelgrzybek.com</title>
   <meta name="description" content="Should it be an interface or a type alias? This is a question asked a lot by newcomers. Let me clarify the difference.">
@@ -110,7 +110,7 @@
   <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;Pawel&#34;</span><span class="p">,</span>
   <span class="nx">age</span>: <span class="kt">31</span>
 <span class="p">};</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-ts" data-lang="ts"><span class="nx">type</span> <span class="nx">DudeType</span> <span class="o">=</span> <span class="p">{</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-ts" data-lang="ts"><span class="kr">type</span> <span class="nx">DudeType</span> <span class="o">=</span> <span class="p">{</span>
   <span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span>
   <span class="nx">age</span>: <span class="kt">number</span>
 <span class="p">};</span>
@@ -131,7 +131,7 @@
 
 <h2 id="interfaces-are-restricted-to-an-object-type">Interfaces are restricted to an object type <a href="#interfaces-are-restricted-to-an-object-type" class="post__hash">#</a></h2>
 <p>Interface declarations can exclusively represent the shape of an object-like data structures. Type alias declarations can create a name for all kind of types including primitives (<code>undefined</code>, <code>null</code>, <code>boolean</code>, <code>string</code> and <code>number</code>), union, and intersection types. In a way, this difference makes the <code>type</code> more flexible. In theory every type declaration that you can express with an <code>interface</code>, you can recreate using a <code>type</code> alias. Lets have a look at an example that can be represented using a <code>type</code> alias but is beyond the power of an <code>interface</code>.</p>
-<div class="highlight"><pre class="chroma"><code class="language-ts" data-lang="ts"><span class="nx">type</span> <span class="nx">info</span> <span class="o">=</span> <span class="kt">string</span> <span class="o">|</span> <span class="p">{</span> <span class="nx">name</span>: <span class="kt">string</span> <span class="p">};</span>
+<div class="highlight"><pre class="chroma"><code class="language-ts" data-lang="ts"><span class="kr">type</span> <span class="nx">info</span> <span class="o">=</span> <span class="kt">string</span> <span class="o">|</span> <span class="p">{</span> <span class="nx">name</span>: <span class="kt">string</span> <span class="p">};</span>
 </code></pre></div><h2 id="you-can-merge-interfaces-but-not-types">You can merge interfaces but not types <a href="#you-can-merge-interfaces-but-not-types" class="post__hash">#</a></h2>
 <p>Multiple declarations with the same name are valid only when used with <code>interface</code>. Doing so doesn&rsquo;t override previous one but produces a merged result containing members from all declarations.</p>
 <div class="highlight"><pre class="chroma"><code class="language-ts" data-lang="ts"><span class="kr">interface</span> <span class="nx">DudeInterface</span> <span class="p">{</span>
@@ -159,9 +159,9 @@
 </p>
 <h2 id="type-aliases-can-use-computed-properties">Type aliases can use computed properties <a href="#type-aliases-can-use-computed-properties" class="post__hash">#</a></h2>
 <p>The <code>in</code> keyword can be used to iterate over all of the items in an union of keys. We can use this feature to programmatically generate <a href="https://www.typescriptlang.org/docs/handbook/advanced-types.html#mapped-types">mapped types</a>. Have a look at this example using <code>type</code> aliases.</p>
-<div class="highlight"><pre class="chroma"><code class="language-ts" data-lang="ts"><span class="nx">type</span> <span class="nx">Keys</span> <span class="o">=</span> <span class="s2">&#34;firstname&#34;</span> <span class="o">|</span> <span class="s2">&#34;surname&#34;</span>
+<div class="highlight"><pre class="chroma"><code class="language-ts" data-lang="ts"><span class="kr">type</span> <span class="nx">Keys</span> <span class="o">=</span> <span class="s2">&#34;firstname&#34;</span> <span class="o">|</span> <span class="s2">&#34;surname&#34;</span>
 
-<span class="nx">type</span> <span class="nx">DudeType</span> <span class="o">=</span> <span class="p">{</span>
+<span class="kr">type</span> <span class="nx">DudeType</span> <span class="o">=</span> <span class="p">{</span>
   <span class="p">[</span><span class="nx">key</span> <span class="k">in</span> <span class="nx">Keys</span><span class="p">]</span><span class="o">:</span> <span class="kt">string</span>
 <span class="p">}</span>
 
@@ -184,7 +184,7 @@
 <p class="update">This is no longer truth. Since I wrote this article, TypeScript behavior changed slightly and now the resolution of both (types and interfaces) happens in the same phase. Looks like both of them are deferred so the example from the image below is now perfectly valid TypeScript code.</p>
 
 <p><del>Another difference is when a type is resolved by the compiler. Resolution of an <code>interface</code> is deferred, means that you can use them to recursively chain types. Resolution of <code>type</code> aliases is eager and compiler goes crazy when you try to resolve recursively nested types. Look!</del></p>
-<div class="highlight"><pre class="chroma"><code class="language-ts" data-lang="ts"><span class="nx">type</span> <span class="nx">Dude</span> <span class="o">=</span> <span class="kt">string</span> <span class="o">|</span> <span class="nx">Pals</span><span class="p">;</span>
+<div class="highlight"><pre class="chroma"><code class="language-ts" data-lang="ts"><span class="kr">type</span> <span class="nx">Dude</span> <span class="o">=</span> <span class="kt">string</span> <span class="o">|</span> <span class="nx">Pals</span><span class="p">;</span>
 <span class="kr">interface</span> <span class="nx">Pals</span> <span class="kr">extends</span> <span class="nb">Array</span><span class="p">&lt;</span><span class="nt">Dude</span><span class="p">&gt;</span> <span class="p">{}</span>
 </code></pre></div><p><del>We are allowed to do it, because type of <code>interface</code>s is deferred. Equivalent with <code>type</code> alias results with <code>Type alias circularly references itself</code> compiler error.</del></p>
 <p>

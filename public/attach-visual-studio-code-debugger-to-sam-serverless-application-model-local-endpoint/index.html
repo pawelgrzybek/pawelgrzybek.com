@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   <title>Attach Visual Studio Code debugger to SAM (Serverless Application Model) local endpoint | pawelgrzybek.com</title>
   <meta name="description" content="A debugger is something that I cannot live without. Setting it up for my current project built using SAM framework and TypeScript took me a while but I finally got it right.">
@@ -107,22 +107,22 @@
 └── template.yaml
 </code></pre><div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="c"># template.yaml</span><span class="w">
 </span><span class="w">
-</span><span class="w"></span><span class="k">AWSTemplateFormatVersion</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;2010-09-09&#34;</span><span class="w">
-</span><span class="w"></span><span class="k">Transform</span><span class="p">:</span><span class="w"> </span>AWS<span class="p">::</span>Serverless<span class="m">-2016-10-31</span><span class="w">
+</span><span class="w"></span><span class="nt">AWSTemplateFormatVersion</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;2010-09-09&#34;</span><span class="w">
+</span><span class="w"></span><span class="nt">Transform</span><span class="p">:</span><span class="w"> </span><span class="l">AWS::Serverless-2016-10-31</span><span class="w">
 </span><span class="w">
-</span><span class="w"></span><span class="k">Resources</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="k">RandomNumber</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span><span class="k">Type</span><span class="p">:</span><span class="w"> </span>AWS<span class="p">::</span>Serverless<span class="p">::</span>Function<span class="w">
-</span><span class="w">    </span><span class="k">Properties</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span><span class="k">CodeUri</span><span class="p">:</span><span class="w"> </span>src/<span class="w">
-</span><span class="w">      </span><span class="k">Handler</span><span class="p">:</span><span class="w"> </span>index.handler<span class="w">
-</span><span class="w">      </span><span class="k">Runtime</span><span class="p">:</span><span class="w"> </span>nodejs10.x<span class="w">
-</span><span class="w">      </span><span class="k">Events</span><span class="p">:</span><span class="w">
-</span><span class="w">        </span><span class="k">HelloWorld</span><span class="p">:</span><span class="w">
-</span><span class="w">          </span><span class="k">Type</span><span class="p">:</span><span class="w"> </span>Api<span class="w">
-</span><span class="w">          </span><span class="k">Properties</span><span class="p">:</span><span class="w">
-</span><span class="w">            </span><span class="k">Path</span><span class="p">:</span><span class="w"> </span>/api<span class="w">
-</span><span class="w">            </span><span class="k">Method</span><span class="p">:</span><span class="w"> </span>get<span class="w">
+</span><span class="w"></span><span class="nt">Resources</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">RandomNumber</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">Type</span><span class="p">:</span><span class="w"> </span><span class="l">AWS::Serverless::Function</span><span class="w">
+</span><span class="w">    </span><span class="nt">Properties</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span><span class="nt">CodeUri</span><span class="p">:</span><span class="w"> </span><span class="l">src/</span><span class="w">
+</span><span class="w">      </span><span class="nt">Handler</span><span class="p">:</span><span class="w"> </span><span class="l">index.handler</span><span class="w">
+</span><span class="w">      </span><span class="nt">Runtime</span><span class="p">:</span><span class="w"> </span><span class="l">nodejs10.x</span><span class="w">
+</span><span class="w">      </span><span class="nt">Events</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">HelloWorld</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">Type</span><span class="p">:</span><span class="w"> </span><span class="l">Api</span><span class="w">
+</span><span class="w">          </span><span class="nt">Properties</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">Path</span><span class="p">:</span><span class="w"> </span><span class="l">/api</span><span class="w">
+</span><span class="w">            </span><span class="nt">Method</span><span class="p">:</span><span class="w"> </span><span class="l">get</span><span class="w">
 </span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kr">const</span> <span class="nx">getRandomNumber</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">ceil</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="mi">10</span><span class="p">);</span>
 
 <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span><span class="p">.</span><span class="nx">handler</span> <span class="o">=</span> <span class="nx">async</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">({</span>
@@ -185,22 +185,22 @@
 │   └── index.ts
 ├── template.yaml
 └── yarn.lock
-</code></pre><div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="k">AWSTemplateFormatVersion</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;2010-09-09&#34;</span><span class="w">
-</span><span class="w"></span><span class="k">Transform</span><span class="p">:</span><span class="w"> </span>AWS<span class="p">::</span>Serverless<span class="m">-2016-10-31</span><span class="w">
+</code></pre><div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">AWSTemplateFormatVersion</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;2010-09-09&#34;</span><span class="w">
+</span><span class="w"></span><span class="nt">Transform</span><span class="p">:</span><span class="w"> </span><span class="l">AWS::Serverless-2016-10-31</span><span class="w">
 </span><span class="w">
-</span><span class="w"></span><span class="k">Resources</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="k">RandomNumber</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span><span class="k">Type</span><span class="p">:</span><span class="w"> </span>AWS<span class="p">::</span>Serverless<span class="p">::</span>Function<span class="w">
-</span><span class="w">    </span><span class="k">Properties</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span><span class="k">CodeUri</span><span class="p">:</span><span class="w"> </span>dist/<span class="w">
-</span><span class="w">      </span><span class="k">Handler</span><span class="p">:</span><span class="w"> </span>index.handler<span class="w">
-</span><span class="w">      </span><span class="k">Runtime</span><span class="p">:</span><span class="w"> </span>nodejs10.x<span class="w">
-</span><span class="w">      </span><span class="k">Events</span><span class="p">:</span><span class="w">
-</span><span class="w">        </span><span class="k">HelloWorld</span><span class="p">:</span><span class="w">
-</span><span class="w">          </span><span class="k">Type</span><span class="p">:</span><span class="w"> </span>Api<span class="w">
-</span><span class="w">          </span><span class="k">Properties</span><span class="p">:</span><span class="w">
-</span><span class="w">            </span><span class="k">Path</span><span class="p">:</span><span class="w"> </span>/api<span class="w">
-</span><span class="w">            </span><span class="k">Method</span><span class="p">:</span><span class="w"> </span>get<span class="w">
+</span><span class="w"></span><span class="nt">Resources</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">RandomNumber</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">Type</span><span class="p">:</span><span class="w"> </span><span class="l">AWS::Serverless::Function</span><span class="w">
+</span><span class="w">    </span><span class="nt">Properties</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span><span class="nt">CodeUri</span><span class="p">:</span><span class="w"> </span><span class="l">dist/</span><span class="w">
+</span><span class="w">      </span><span class="nt">Handler</span><span class="p">:</span><span class="w"> </span><span class="l">index.handler</span><span class="w">
+</span><span class="w">      </span><span class="nt">Runtime</span><span class="p">:</span><span class="w"> </span><span class="l">nodejs10.x</span><span class="w">
+</span><span class="w">      </span><span class="nt">Events</span><span class="p">:</span><span class="w">
+</span><span class="w">        </span><span class="nt">HelloWorld</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">Type</span><span class="p">:</span><span class="w"> </span><span class="l">Api</span><span class="w">
+</span><span class="w">          </span><span class="nt">Properties</span><span class="p">:</span><span class="w">
+</span><span class="w">            </span><span class="nt">Path</span><span class="p">:</span><span class="w"> </span><span class="l">/api</span><span class="w">
+</span><span class="w">            </span><span class="nt">Method</span><span class="p">:</span><span class="w"> </span><span class="l">get</span><span class="w">
 </span><span class="w">
 </span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-ts" data-lang="ts"><span class="kr">const</span> <span class="nx">getBody</span> <span class="o">=</span> <span class="p">(</span><span class="nx">message</span>: <span class="kt">string</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span> <span class="nx">message</span> <span class="p">});</span>
 
@@ -208,7 +208,7 @@
   <span class="nx">body</span>: <span class="kt">string</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="kr">module</span><span class="nx">.exports.handler</span> <span class="o">=</span> <span class="nx">async</span> <span class="p">(</span><span class="nx">event</span>: <span class="kt">IEvent</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+<span class="kr">module</span><span class="nx">.exports.handler</span> <span class="o">=</span> <span class="kr">async</span> <span class="p">(</span><span class="nx">event</span>: <span class="kt">IEvent</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
   <span class="kr">const</span> <span class="p">{</span> <span class="nx">message</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">body</span><span class="p">);</span>
 
   <span class="k">return</span> <span class="p">{</span>

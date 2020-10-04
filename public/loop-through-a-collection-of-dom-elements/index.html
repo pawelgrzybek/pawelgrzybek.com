@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.75.1" />
 
   <title>Loop through a collection of DOM elements | pawelgrzybek.com</title>
   <meta name="description" content="Looping through a NodeList isn&rsquo;t as easy as iterating over a JavaScript array. In this article I am going to cover the possible methods (and hacks) to do it.">
@@ -125,7 +125,7 @@
 <span class="c1">// Chrome - &#39;Comic Sans MS&#39; everywhere dudes! Sweet!
 </span><span class="c1">// Firefox - TypeError: articles.forEach is not a function
 </span></code></pre></div><h2 id="arrayprototypeforeach">Array.prototype.forEach() <a href="#arrayprototypeforeach" class="post__hash">#</a></h2>
-<p>If <code>forEach()</code> doesn&rsquo;t exist in <code>NodeList</code>'s prototype, you can always ask your good friend <code>Array</code> to lend it to you — your browser definitely has this (if it&rsquo;s not Internet Explorer 8 or below).</p>
+<p>If <code>forEach()</code> doesn&rsquo;t exist in <code>NodeList</code>&rsquo;s prototype, you can always ask your good friend <code>Array</code> to lend it to you — your browser definitely has this (if it&rsquo;s not Internet Explorer 8 or below).</p>
 <div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kr">const</span> <span class="nx">articles</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s1">&#39;article&#39;</span><span class="p">);</span>
 
 <span class="p">[].</span><span class="nx">forEach</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">articles</span><span class="p">,</span> <span class="nx">a</span> <span class="p">=&gt;</span> <span class="p">{</span>
@@ -167,7 +167,7 @@
 <span class="p">});</span>
 </code></pre></div><p>All three of the snippets above will work just fine. They do feel a bit hacky though and I&rsquo;m <a href="https://toddmotto.com/ditch-the-array-foreach-call-nodelist-hack/">not the only one</a> who thinks like this. Bear in mind that the spread operator presented above <code>[...]</code> and <code>Array.from()</code> are parts of the modern spec. To use them without worry equip yourself with <a href="https://pawelgrzybek.com/use-modern-javascript-today-with-babel/">Babel</a>.</p>
 <h2 id="for-loop">for loop <a href="#for-loop" class="post__hash">#</a></h2>
-<p>The good ol&rsquo; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for"><code>for</code> loop</a> is a good candidate to do this job. It&rsquo;s a very well supported and reliable method. No hacks, no babels!</p>
+<p>The good ol' <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for"><code>for</code> loop</a> is a good candidate to do this job. It&rsquo;s a very well supported and reliable method. No hacks, no babels!</p>
 <div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kr">const</span> <span class="nx">articles</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s1">&#39;article&#39;</span><span class="p">);</span>
 
 <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">articles</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
