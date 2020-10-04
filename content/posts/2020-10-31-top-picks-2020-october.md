@@ -2,6 +2,7 @@
 title: "Top picks — 2020 October"
 summary: ""
 photo: top-picks.jpg
+draft: true
 ---
 
 ## [Workers Durable Objects Beta: A New Approach to Stateful Serverless](https://blog.cloudflare.com/introducing-workers-durable-objects/)
