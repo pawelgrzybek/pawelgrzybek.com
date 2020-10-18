@@ -25,3 +25,6 @@ There is a new mono spaced font on the market for all us geeks. It is free, easy
 
 This is the best explanation of cross-site resource caching, its current state and changes that are coming to the browsers in the near future that are going to make things a bit more complicated.
 
+## [Presenting v7.0.0 of the npm CLI](https://github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli/)
+
+A next big release of the most popular node package manager is coming. Version 7 will get a support for frequently requested workspaces and full compatibility with yarn. On top of that it comes with bunch of other improvements.
