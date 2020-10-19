@@ -28,3 +28,7 @@ This is the best explanation of cross-site resource caching, its current state a
 ## [Presenting v7.0.0 of the npm CLI](https://github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli/)
 
 A next big release of the most popular node package manager is coming. Version 7 will get a support for frequently requested workspaces and full compatibility with yarn. On top of that it comes with bunch of other improvements.
+
+## [Slashing layout cost with content-visibility - HTTP 203](https://youtu.be/FFA-v-CIxJQ)
+
+CSS language evolves pretty rapidly and one of the most confusing things recently added to the specification is `content-visibility` property. There is no other resource that helped me to understand its power better than this video by Surma and Jake. 
