@@ -32,3 +32,7 @@ A next big release of the most popular node package manager is coming. Version 7
 ## [Slashing layout cost with content-visibility - HTTP 203](https://youtu.be/FFA-v-CIxJQ)
 
 CSS language evolves pretty rapidly and one of the most confusing things recently added to the specification is `content-visibility` property. There is no other resource that helped me to understand its power better than this video by Surma and Jake. 
+
+## [Node.js v15.0.0 is here!](https://medium.com/@nodejs/node-js-v15-0-0-is-here-deb00750f278)
+
+Node.js version 15 just landed full of new capabilities: `AbortController`, N-API Version 7, npm 7, throwing on unhandled rejections, QUIC, V8 8.6 and more. I am the most excited about the npm in version 7 that comes with this version of runtime.
