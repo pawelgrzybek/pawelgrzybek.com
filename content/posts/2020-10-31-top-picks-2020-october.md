@@ -36,3 +36,9 @@ CSS language evolves pretty rapidly and one of the most confusing things recentl
 ## [Node.js v15.0.0 is here!](https://medium.com/@nodejs/node-js-v15-0-0-is-here-deb00750f278)
 
 Node.js version 15 just landed full of new capabilities: `AbortController`, N-API Version 7, npm 7, throwing on unhandled rejections, QUIC, V8 8.6 and more. I am the most excited about the npm in version 7 that comes with this version of runtime.
+
+## [Next.js 10](https://nextjs.org/blog/next-10)
+
+Announced during the [Next.js Conf](https://nextjs.org/conf/) version 10 of my favourite framework for building scalable web projects comes with a bunch of exciting features. Automatic image optimization using dedicated `<Image />` component, built-in primitives for internationalization, anonymous analytics, rich set of tools for commerce projects and more. There is not a lot of things that excites me more than Next.js nowadays and I am super excited about this announcement.
+
+## []()
