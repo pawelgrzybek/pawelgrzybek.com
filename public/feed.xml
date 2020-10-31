@@ -5,10 +5,42 @@
     <link>https://pawelgrzybek.com/</link>
     <description>Hi there, I&#39;m Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I&#39;m not coding, I&#39;m spinning funky vinyl records.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Top picks — 2020 October</title>
+      <link>https://pawelgrzybek.com/top-picks-2020-october/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pawelgrzybek.com/top-picks-2020-october/</guid>
+      <description>&lt;h2 id=&#34;workers-durable-objects-beta-a-new-approach-to-stateful-serverlesshttpsblogcloudflarecomintroducing-workers-durable-objects&#34;&gt;&lt;a href=&#34;https://blog.cloudflare.com/introducing-workers-durable-objects/&#34;&gt;Workers Durable Objects Beta: A New Approach to Stateful Serverless&lt;/a&gt; &lt;a href=&#34;#workers-durable-objects-beta-a-new-approach-to-stateful-serverlesshttpsblogcloudflarecomintroducing-workers-durable-objects&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Revolutionary announcement from CloudFlare for everyone interested in building efficient real-time applications. The key is the persistent state on the edge worker. A fantastic way of building live chats, game servers or some IoT controllers.&lt;/p&gt;
+&lt;h2 id=&#34;how-css-perspective-workshttpscss-trickscomhow-css-perspective-worksthe-perspective-value&#34;&gt;&lt;a href=&#34;https://css-tricks.com/how-css-perspective-works/#the-perspective-value&#34;&gt;How CSS Perspective Works&lt;/a&gt; &lt;a href=&#34;#how-css-perspective-workshttpscss-trickscomhow-css-perspective-worksthe-perspective-value&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This article about CSS &lt;code&gt;perspective&lt;/code&gt; property written by &lt;a href=&#34;https://twitter.com/amit_sheen&#34;&gt;Amit Sheen&lt;/a&gt; is golden. Perspective has always been one of the most confusing parts of CSS for me. Nice examples that help to embrace the concepts described in a post and clear explanations made this resource a spot in my monthly top picks.&lt;/p&gt;
+&lt;h2 id=&#34;open-source-self-hosted-comments-for-a-static-websitehttpslisakovcomprojectsopen-source-comments&#34;&gt;&lt;a href=&#34;https://lisakov.com/projects/open-source-comments/&#34;&gt;Open-source self-hosted comments for a static website&lt;/a&gt; &lt;a href=&#34;#open-source-self-hosted-comments-for-a-static-websitehttpslisakovcomprojectsopen-source-comments&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the big changes on this website that I am planning shorly is to ditch &lt;a href=&#34;https://disqus.com&#34;&gt;Disqus&lt;/a&gt; commenting system. It is not too performance-optimized neither privacy oriented. I don&amp;rsquo;t need my readers to be tracked — I want them to have a good place to discuss the subject. There is plenty of open-source alternatives to it, but which one should I choose? This resource was very helpful for me to shape my decision.&lt;/p&gt;
+&lt;h2 id=&#34;julia-monohttpsjuliamononetlifyapp&#34;&gt;&lt;a href=&#34;https://juliamono.netlify.app&#34;&gt;Julia Mono&lt;/a&gt; &lt;a href=&#34;#julia-monohttpsjuliamononetlifyapp&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There is a new monospaced font on the market geeks! It is free, easy to use and available for all major platforms.&lt;/p&gt;
+&lt;h2 id=&#34;say-goodbye-to-resource-caching-across-sites-and-domainshttpswwwstefanjudiscomnotessay-goodbye-to-resource-caching-across-sites-and-domains&#34;&gt;&lt;a href=&#34;https://www.stefanjudis.com/notes/say-goodbye-to-resource-caching-across-sites-and-domains/&#34;&gt;Say goodbye to resource-caching across sites and domains&lt;/a&gt; &lt;a href=&#34;#say-goodbye-to-resource-caching-across-sites-and-domainshttpswwwstefanjudiscomnotessay-goodbye-to-resource-caching-across-sites-and-domains&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the best explanation of cross-site resource caching, its current state and changes that are coming to the browsers soon that are going to make things a bit more complicated.&lt;/p&gt;
+&lt;h2 id=&#34;presenting-v700-of-the-npm-clihttpsgithubblog2020-10-13-presenting-v7-0-0-of-the-npm-cli&#34;&gt;&lt;a href=&#34;https://github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli/&#34;&gt;Presenting v7.0.0 of the npm CLI&lt;/a&gt; &lt;a href=&#34;#presenting-v700-of-the-npm-clihttpsgithubblog2020-10-13-presenting-v7-0-0-of-the-npm-cli&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A next big release of the most popular node package manager is coming. Version 7 will get support for frequently requested workspaces and full compatibility with yarn CLI. On top of that, it comes with a bunch of other improvements.&lt;/p&gt;
+&lt;h2 id=&#34;slashing-layout-cost-with-content-visibility---http-203httpsyoutubeffa-v-cixjq&#34;&gt;&lt;a href=&#34;https://youtu.be/FFA-v-CIxJQ&#34;&gt;Slashing layout cost with content-visibility - HTTP 203&lt;/a&gt; &lt;a href=&#34;#slashing-layout-cost-with-content-visibility---http-203httpsyoutubeffa-v-cixjq&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;CSS language evolves pretty rapidly and one of the most confusing things recently added to the CSS specification is &lt;code&gt;content-visibility&lt;/code&gt; property. There is no other resource that helped me to understand its power better than this video by &lt;a href=&#34;https://twitter.com/DasSurma&#34;&gt;Surma&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/jaffathecake&#34;&gt;Jake&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/FFA-v-CIxJQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;nodejs-v1500-is-herehttpsmediumcomnodejsnode-js-v15-0-0-is-here-deb00750f278&#34;&gt;&lt;a href=&#34;https://medium.com/@nodejs/node-js-v15-0-0-is-here-deb00750f278&#34;&gt;Node.js v15.0.0 is here!&lt;/a&gt; &lt;a href=&#34;#nodejs-v1500-is-herehttpsmediumcomnodejsnode-js-v15-0-0-is-here-deb00750f278&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Node.js version 15 just landed full of new capabilities: &lt;code&gt;AbortController&lt;/code&gt;, N-API Version 7, npm 7, throwing on unhandled rejections, QUIC, V8 8.6 and more. I am the most excited about the npm in version 7 that comes with this version of the runtime.&lt;/p&gt;
+&lt;h2 id=&#34;nextjs-10httpsnextjsorgblognext-10&#34;&gt;&lt;a href=&#34;https://nextjs.org/blog/next-10&#34;&gt;Next.js 10&lt;/a&gt; &lt;a href=&#34;#nextjs-10httpsnextjsorgblognext-10&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Announced during the &lt;a href=&#34;https://nextjs.org/conf/&#34;&gt;Next.js Conf&lt;/a&gt; version 10 of my favourite framework for building scalable web projects comes with a bunch of exciting features. Automatic image optimization using dedicated &lt;code&gt;&amp;lt;Image /&amp;gt;&lt;/code&gt; component, built-in primitives for internationalization, anonymous analytics, rich set of tools for commerce projects and more. There is not a lot of things that excite me more than Next.js nowadays and I am super pumped about this announcement.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Book review: Rich Dad Poor Dad by Robert T. Kiyosaki</title>
