@@ -14,12 +14,12 @@
         {{ "<!-- archive -->" | safeHTML }}
           <ul>
             {{- range (where .Site.Pages.ByDate.Reverse "Section" "posts").GroupByDate "2006" -}}
-            <li><a href="#{{ .Key }}">Published on {{ .Key }} ({{ len .Pages }} posts)</a></li>
+            <li><a href="#{{ .Key }}">Published in {{ .Key }} ({{ len .Pages }} posts)</a></li>
             {{end}}
           </ul>
 
           {{ range (where .Site.Pages.ByDate.Reverse "Section" "posts").GroupByDate "2006" }}
-            <h2 id="{{ .Key }}">Published on {{ .Key }} ({{ len .Pages }} posts) <a href="#{{ .Key }}" class="post__hash">#</a></h2>
+            <h2 id="{{ .Key }}">Published in {{ .Key }} ({{ len .Pages }} posts) <a href="#{{ .Key }}" class="post__hash">#</a></h2>
             <ul class="archive">
               {{ range .Pages }}
                 <li class="archive__item">
