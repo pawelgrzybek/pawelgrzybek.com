@@ -16,3 +16,9 @@ Level 3 of the CSS Grid specification introduces something that web devs were wa
 ## [Help users change passwords easily by adding a well-known URL for changing passwords](https://web.dev/change-password-url/)
 
 Security is one of the most important things on the web so why should we prevent us from doing the integration with password managers harder? Simply redirect a request to `/.well-known/change-password` to the change-passwords URL today. This article is a great explainer of everything that is described in ["A Well-Known URL for Changing Passwords"](https://w3c.github.io/webappsec-change-password-url/) by [Web Application Security Working Group](https://github.com/w3c/webappsec).
+
+## [Tailwind CSS v2.0](https://blog.tailwindcss.com/tailwindcss-v2)
+
+Even tho this is not my preferred way of styling, Tailwind is a popular choice amongst front end developers. Todays release brings a lot of new features to the table: new color palette, dark mode support, extended breakpoints and a lot more. Promo video presents it all very nicely.
+
+{{< youtube 3u_vIdnJYLc >}}
