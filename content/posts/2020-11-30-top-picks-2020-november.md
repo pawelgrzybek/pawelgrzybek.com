@@ -22,3 +22,26 @@ Security is one of the most important things on the web so why should we prevent
 Even tho this is not my preferred way of styling, Tailwind is a popular choice amongst front end developers. Todays release brings a lot of new features to the table: new color palette, dark mode support, extended breakpoints and a lot more. Promo video presents it all very nicely.
 
 {{< youtube 3u_vIdnJYLc >}}
+
+## [Announcing TypeScript 4.1](https://devblogs.microsoft.com/typescript/announcing-typescript-4-1/)
+
+This version of TypeScript comes with two really great features that I have been waiting for a long time: template literal types and key remapping in mapped types. Look, how handy is that!
+
+```ts
+type Options = {
+    [K in "Color" | "Width" | "Height" as `new${K}`]: string
+};
+
+const objOptions: Options = {
+    newColor: "blue",
+    newWidth: "2m",
+    newHeight: "3m"
+}
+```
+
+## [TSConf 2020 Workshop: TypeScript Plus React = Love](https://youtu.be/xfcPUP2_J9E)
+
+TypeScript is my preferred way of writing JavaScript code nowadays. React is my framework of choice when it comes to write web apps. Turns out that this couple works really great together. This great workshop by [Ben Ilegbodu](https://twitter.com/benmvp). More than enough to get you running with type safety on your next front end project. 
+
+{{< youtube xfcPUP2_J9E >}}
+
