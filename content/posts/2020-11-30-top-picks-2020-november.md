@@ -45,3 +45,6 @@ TypeScript is my preferred way of writing JavaScript code nowadays. React is my 
 
 {{< youtube xfcPUP2_J9E >}}
 
+## [Back/forward cache](https://web.dev/bfcache/)
+
+[Philip Walton](https://twitter.com/philwalton) published the best explainer of bfcache (back/forward cache) optimization around. In this article Phill clearly explains ins and outs of the concept, browser compatibility and dos and don'ts to optimise for the advantages that this technique comes with. One of the most important sections of this post goes through its impact on [Core Web Vitals](https://web.dev/vitals/).
