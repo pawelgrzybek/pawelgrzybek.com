@@ -5,10 +5,78 @@
     <link>https://pawelgrzybek.com/</link>
     <description>Hi there, I&#39;m Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I&#39;m not coding, I&#39;m spinning funky vinyl records.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Top picks — 2020 November</title>
+      <link>https://pawelgrzybek.com/top-picks-2020-november/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pawelgrzybek.com/top-picks-2020-november/</guid>
+      <description>&lt;h2 id=&#34;native-css-masonry-layout-in-css-gridhttpswwwsmashingmagazinecomnative-css-masonry-layout-css-grid&#34;&gt;&lt;a href=&#34;https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/&#34;&gt;Native CSS Masonry Layout In CSS Grid&lt;/a&gt; &lt;a href=&#34;#native-css-masonry-layout-in-css-gridhttpswwwsmashingmagazinecomnative-css-masonry-layout-css-grid&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://drafts.csswg.org/css-grid-3/&#34;&gt;Level 3 of the CSS Grid specification&lt;/a&gt; introduces something that web devs were waiting for ages — a native way of achieving masonry-like layout using just CSS. &lt;a href=&#34;https://twitter.com/rachelandrew&#34;&gt;Rachel Andrew&lt;/a&gt; published this fantastic explainer to this new feature. It is crazy how simple this implementation is.&lt;/p&gt;
+&lt;h2 id=&#34;super-simple-start-to-netlify-functionshttpskentcdoddscomblogsuper-simple-start-to-netlify-functions&#34;&gt;&lt;a href=&#34;https://kentcdodds.com/blog/super-simple-start-to-netlify-functions&#34;&gt;Super simple start to Netlify functions&lt;/a&gt; &lt;a href=&#34;#super-simple-start-to-netlify-functionshttpskentcdoddscomblogsuper-simple-start-to-netlify-functions&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/kentcdodds/&#34;&gt;Kent C. Dodds&lt;/a&gt; published the super simple to follow tutorial to get your hands dirty with Netlify Functions which are just an abstraction on top of the AWS Lambda. It is just a perfect solution to send emails, add a record to a database or perform pretty much anything that server-less function can do for you without worrying about setting up the whole infrastructure. Great write-up.&lt;/p&gt;
+&lt;h2 id=&#34;help-users-change-passwords-easily-by-adding-a-well-known-url-for-changing-passwordshttpswebdevchange-password-url&#34;&gt;&lt;a href=&#34;https://web.dev/change-password-url/&#34;&gt;Help users change passwords easily by adding a well-known URL for changing passwords&lt;/a&gt; &lt;a href=&#34;#help-users-change-passwords-easily-by-adding-a-well-known-url-for-changing-passwordshttpswebdevchange-password-url&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Security is one of the most important things on the web so why should we prevent us from doing the integration with password managers harder? Simply redirect a request to &lt;code&gt;/.well-known/change-password&lt;/code&gt; to the change-passwords URL today. This article is a great explainer of everything that is described in &lt;a href=&#34;https://w3c.github.io/webappsec-change-password-url/&#34;&gt;&amp;ldquo;A Well-Known URL for Changing Passwords&amp;rdquo;&lt;/a&gt; by &lt;a href=&#34;https://github.com/w3c/webappsec&#34;&gt;Web Application Security Working Group&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;tailwind-css-v20httpsblogtailwindcsscomtailwindcss-v2&#34;&gt;&lt;a href=&#34;https://blog.tailwindcss.com/tailwindcss-v2&#34;&gt;Tailwind CSS v2.0&lt;/a&gt; &lt;a href=&#34;#tailwind-css-v20httpsblogtailwindcsscomtailwindcss-v2&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Even tho this is not my preferred way of styling, Tailwind is a popular choice amongst front end developers. Today&amp;rsquo;s release brings a lot of new features to the table: new colour palette, dark mode support, extended breakpoints and a lot more. Promo video presents it all very nicely.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/3u_vIdnJYLc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;announcing-typescript-41httpsdevblogsmicrosoftcomtypescriptannouncing-typescript-4-1&#34;&gt;&lt;a href=&#34;https://devblogs.microsoft.com/typescript/announcing-typescript-4-1/&#34;&gt;Announcing TypeScript 4.1&lt;/a&gt; &lt;a href=&#34;#announcing-typescript-41httpsdevblogsmicrosoftcomtypescriptannouncing-typescript-4-1&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This version of TypeScript comes with two great features that I have been waiting for a long time: template literal types and key remapping in mapped types. Look, how handy that is!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span class=&#34;kr&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Options&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;K&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Color&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Width&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Height&amp;#34;&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;sb&#34;&gt;`new&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;K&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+
+&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;objOptions&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;Options&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;newColor&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blue&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;newWidth&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2m&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;newHeight&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;3m&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;tsconf-2020-workshop-typescript-plus-react--lovehttpsyoutubexfcpup2_j9e&#34;&gt;&lt;a href=&#34;https://youtu.be/xfcPUP2_J9E&#34;&gt;TSConf 2020 Workshop: TypeScript Plus React = Love&lt;/a&gt; &lt;a href=&#34;#tsconf-2020-workshop-typescript-plus-react--lovehttpsyoutubexfcpup2_j9e&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;TypeScript is my preferred way of writing JavaScript code nowadays. React is my framework of choice when it comes to making web apps. Turns out that this couple works great together. This great workshop by &lt;a href=&#34;https://twitter.com/benmvp&#34;&gt;Ben Ilegbodu&lt;/a&gt; is more than enough to get you running with type safety on your next front end project.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/xfcPUP2_J9E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;backforward-cachehttpswebdevbfcache&#34;&gt;&lt;a href=&#34;https://web.dev/bfcache/&#34;&gt;Back/forward cache&lt;/a&gt; &lt;a href=&#34;#backforward-cachehttpswebdevbfcache&#34; class=&#34;post__hash&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/philwalton&#34;&gt;Philip Walton&lt;/a&gt; published the best explainer of bfcache (back/forward cache) optimization around. In this article Phill clearly explains ins and outs of the concept, browser compatibility and dos and don&amp;rsquo;ts to optimise for the advantages that this technique comes with. One of the most important sections of this post goes through its impact on &lt;a href=&#34;https://web.dev/vitals/&#34;&gt;Core Web Vitals&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>React to localStorage changes in the context of another document</title>
+      <link>https://pawelgrzybek.com/react-to-localstorage-changes-in-the-context-of-another-document/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pawelgrzybek.com/react-to-localstorage-changes-in-the-context-of-another-document/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://web.dev/bfcache/&#34;&gt;&amp;ldquo;Back/forward cache&amp;rdquo; by Philip Walton&lt;/a&gt; triggered my curiosity to explore more obscure events of the &lt;code&gt;window&lt;/code&gt; object. One of them that caught my attention is &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/API/Window/storage_event&#34;&gt;&lt;code&gt;storage&lt;/code&gt;&lt;/a&gt; that gets fired on every &lt;code&gt;localStorage&lt;/code&gt; update that happens in the context of a different document. Have a look at this example.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addEventListener&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;storage&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;newValue&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sb&#34;&gt;`Updated value:`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;newValue&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+
+&lt;img
+  src=&#34;https://pawelgrzybek.com/photos/2020-11-25-1.gif&#34;
+  alt=&#34;React to localStorage changes in the context of another document&#34;
+  loading=&#34;lazy&#34;
+  width=&#34;1198&#34;
+  height=&#34;878&#34;
+/&gt;
+&lt;/p&gt;
+&lt;p&gt;Looking at the &lt;a href=&#34;https://html.spec.whatwg.org/multipage/indices.html#event-storage&#34;&gt;HTML specification&lt;/a&gt; that this event fires &amp;ldquo;when the corresponding &lt;code&gt;localStorage&lt;/code&gt; or &lt;code&gt;sessionStorage&lt;/code&gt; storage areas change&amp;rdquo;. This confused me a little, as I managed to successfully implement it only for &lt;code&gt;localStorage&lt;/code&gt; modification. If you know what&amp;rsquo;s going on, let me know in the comments section below or ping me on &lt;a href=&#34;https://twitter.com/pawelgrzybek&#34;&gt;Twitter&lt;/a&gt;, please.&lt;/p&gt;
+&lt;p&gt;Stay curious and share knowledge. Until next time 👋&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Top picks — 2020 October</title>
