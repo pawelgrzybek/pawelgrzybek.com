@@ -15,7 +15,7 @@
     {
       "label": "Build",
       "type": "shell",
-      "command": "hugo --gc",
+      "command": "rm -rf public && hugo --gc",
       "problemMatcher": [],
       "presentation": {
         "reveal": "never"
