@@ -1,10 +1,10 @@
 ---
 title: "Client-Side Rendering, Server-Side Rendering and Static-Site Generation of Next.js applications explained"
-summary: "One of the Next.js killer features is pre-rendering and multiple methods of fetching data. Great understanding of it gives you a power to mix and match these techniques on page level basis."
+summary: "One of the Next.js killer features is pre-rendering and multiple methods of fetching data. Understanding all three of them gives you the power of mixing them on page-basis — that's the beauty of Next.js."
 photo: 2020-12-15.jpg
 ---
 
-[Next.js](https://nextjs.org) by Vercel is a [React](https://reactjs.org) framework that is getting a lot of traction in a web development community. The perfect balance of flexibility, opinionated set of tools and abstractions help to build production-ready websites. One of its killer features is pre-rendering and multiple methods of fetching data — no more typical for SPAs (single page apps) flashes of blank pages rendered entirely on the client. That helps a lot with performance and SEO (search engine optimization). [Client-Side Rendering](https://nextjs.org/docs/basic-features/data-fetching#fetching-data-on-the-client-side) is a technique well known to every React developer. [Static Generation](https://nextjs.org/docs/basic-features/pages#static-generation-recommended) and [Server-side Rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering) are two methods of pre-rendering Next.js apps. We are going to analyze each of them.
+[Next.js](https://nextjs.org) by Vercel is a [React](https://reactjs.org) framework that is getting a lot of traction in the web development community. The perfect balance of flexibility, opinionated set of tools and abstractions help to build production-ready websites. One of its killer features is pre-rendering and multiple methods of fetching data — no more typical for SPAs (single page apps) flashes of blank pages rendered entirely on the client. That helps a lot with performance and SEO (search engine optimization). [Client-Side Rendering](https://nextjs.org/docs/basic-features/data-fetching#fetching-data-on-the-client-side) is a technique well known to every React developer. [Static Generation](https://nextjs.org/docs/basic-features/pages#static-generation-recommended) and [Server-side Rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering) are two methods of pre-rendering Next.js apps. We are going to analyze each of them.
 
 - [Client-Side Rendering](#client-side-rendering)
 - [Server-Side Rendering](#server-side-rendering)
@@ -14,7 +14,7 @@ photo: 2020-12-15.jpg
 
 ## Client-Side Rendering
 
-Client-Side Rendering (CSR) is an excellent complementary method for pre-rendering mechanisms described in the following part of this article. It is the way of fetching data in React and has nothing to do with Next.js. It can be useful to render dynamic pages when performance and SEO isn't the key focus. Personalized user dashboard is a perfect candidate for CSR.
+Client-Side Rendering (CSR) is an excellent complementary method for pre-rendering mechanisms, described in the following part of this article. It’s a way of fetching data in React and has nothing to do with Next.js. It can be useful to render dynamic pages when performance and SEO aren’t the key focus. Personalized user dashboard is a perfect candidate for CSR.
 
 ![Client-Side Rendering](/photos/2020-12-15-2.jpg)
 
@@ -71,7 +71,7 @@ export default CSR;
 
 ## Server-Side Rendering
 
-Server-Side Rendering (SSR) is a technique to render pages with dynamic content. The page is generated on demand on runtime phase. Because the process is happening on every single request, Time-To-First-Byte (TTFB) is slower than statically generated sites (SSG) explained in the following section.
+Server-Side Rendering (SSR) is a technique used to render pages with dynamic content. The page is generated on demand on runtime phase. Because the process is happening on every single request, Time-To-First-Byte (TTFB) is slower than statically generated sites (SSG) explained in the following section.
 
 ![Server-Side Rendering](/photos/2020-12-15-3.jpg)
 
@@ -158,7 +158,7 @@ export async function getStaticPaths() {
 
 ### Incremental Static Regeneration
 
-Introduced in Next.js 9.5 [Incremental Static Regeneration](https://nextjs.org/docs/basic-features/data-fetching#incremental-static-regeneration) allows you to update existing pages by re-rendering them in the background as traffic comes in. It merely means that static content can also be dynamic. Users traffic is always served from static storage, but the content of a page can be revalidated on the specific interval (in seconds). The `revalidate` config flag controls the regeneration frequency.
+Introduced in Next.js 9.5 [Incremental Static Regeneration](https://nextjs.org/docs/basic-features/data-fetching#incremental-static-regeneration) allows you to update existing pages by re-rendering them in the background as traffic comes in. It simply means that static content can also be dynamic. Users traffic is always served from static storage, but the content of a page can be revalidated on the specific interval (in seconds). The revalidate config flag controls the regeneration frequency.
 
 ```
 export async function getStaticProps({ query }) {
@@ -177,4 +177,4 @@ export async function getStaticProps({ query }) {
 
 ## Conclusions
 
-A lot of acronyms for one day, I know! I hope that this article helped you out to decide which of these three techniques is the best one to pick in a particular scenario. Understanding all three of them gives you the power of mixing them on page-basis — that's the beauty of Next.js. I will catch you Next.js time (terrible joke, isn't it) 👋
+A lot of acronyms for one day, I know! I hope this article helped you to decide which of these three techniques is the best one to pick in a particular scenario. Understanding all three of them gives you the power of mixing them on page-basis — that's the beauty of Next.js. I will catch you Next.js time (terrible joke, isn't it) 👋
