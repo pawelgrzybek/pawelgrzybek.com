@@ -1,7 +1,7 @@
 ---
 title: "Client-Side Rendering, Server-Side Rendering and Static-Site Generation of Next.js applications explained"
 summary: "One of the Next.js killer features is pre-rendering and multiple methods of fetching data. Understanding all three of them gives you the power of mixing them on page-basis — that's the beauty of Next.js."
-photo: 2020-12-15.jpg
+photo: 2020-12-19.jpg
 ---
 
 [Next.js](https://nextjs.org) by Vercel is a [React](https://reactjs.org) framework that is getting a lot of traction in the web development community. The perfect balance of flexibility, opinionated set of tools and abstractions help to build production-ready websites. One of its killer features is pre-rendering and multiple methods of fetching data — no more typical for SPAs (single page apps) flashes of blank pages rendered entirely on the client. That helps a lot with performance and SEO (search engine optimization). [Client-Side Rendering](https://nextjs.org/docs/basic-features/data-fetching#fetching-data-on-the-client-side) is a technique well known to every React developer. [Static Generation](https://nextjs.org/docs/basic-features/pages#static-generation-recommended) and [Server-side Rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering) are two methods of pre-rendering Next.js apps. We are going to analyze each of them.
@@ -10,13 +10,13 @@ photo: 2020-12-15.jpg
 - [Server-Side Rendering](#server-side-rendering)
 - [Static Site Generation](#static-site-generation)
 
-![Client-Side Rendering, Server-Side Rendering and Static-Site Generation of Next.js applications](/photos/2020-12-15-1.jpg)
+![Client-Side Rendering, Server-Side Rendering and Static-Site Generation of Next.js applications](/photos/2020-12-19-1.jpg)
 
 ## Client-Side Rendering
 
 Client-Side Rendering (CSR) is an excellent complementary method for pre-rendering mechanisms, described in the following part of this article. It’s a way of fetching data in React and has nothing to do with Next.js. It can be useful to render dynamic pages when performance and SEO aren’t the key focus. Personalized user dashboard is a perfect candidate for CSR.
 
-![Client-Side Rendering](/photos/2020-12-15-2.jpg)
+![Client-Side Rendering](/photos/2020-12-19-2.jpg)
 
 Let's build a page that displays GitHub user info. For data fetching, I would highly recommend using a package like [SWR made by Vercel team](https://swr.vercel.app), but for the simplicity, I am going to use `axios`.
 
@@ -73,7 +73,7 @@ export default CSR;
 
 Server-Side Rendering (SSR) is a technique used to render pages with dynamic content. The page is generated on demand on runtime phase. Because the process is happening on every single request, Time-To-First-Byte (TTFB) is slower than statically generated sites (SSG) explained in the following section.
 
-![Server-Side Rendering](/photos/2020-12-15-3.jpg)
+![Server-Side Rendering](/photos/2020-12-19-3.jpg)
 
 Next.js uses `getServerSideProps()` to fetch a dynamic data and to pass it to a page as a `props`. Let's have a look at the same GitHub user info example, but let's give it a little spin and take the username dynamically from the URL query.
 
@@ -111,7 +111,7 @@ export async function getServerSideProps({ query }) {
 
 Static Site Generation (SSG) is a preferred way of rendering content. Use it when there is no need to run any computation at the runtime. It also reduces the area for potential security attacks. It is just serving HTML built at deploy time. A perfect use case is the "About us" or "FAQ (Frequently Asked Questions)" section of a website.
 
-![Static Site Generation](/photos/2020-12-15-4.jpg)
+![Static Site Generation](/photos/2020-12-19-4.jpg)
 
 Next.js uses `getStaticProps()` to fetch dynamic data and to pass it to a page as a `props`. Because the page is generated on deploy time, when we use dynamic routes, Next.js needs to be aware of all possible permutation of this page. That's where the `getStaticPaths()` method comes in handy. Let's have a look at the same GitHub user info example, but this time let's pre-build pages just for three users: `pawelgrzybek`, `danjordan` and `gaearon`.
 
