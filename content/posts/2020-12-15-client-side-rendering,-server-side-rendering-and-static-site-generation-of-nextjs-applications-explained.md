@@ -2,7 +2,6 @@
 title: "Client-Side Rendering, Server-Side Rendering and Static-Site Generation of Next.js applications explained"
 summary: ""
 photo: 2020-12-07.jpg
-draft: true
 ---
 
 [Next.js](https://nextjs.org) by Vercel is a [React](https://reactjs.org) framework that is getting a lot of traction in a web development community. The perfect balance of flexibility, opinionated set of tools and abstractions help to build production-ready websites. One of its killer features is pre-rendering and multiple methods of fetching data — no more typical for SPAs (single page apps) flashes of blank pages rendered entirely on the client. That helps a lot with performance and SEO (search engine optimization). [Client-Side Rendering](https://nextjs.org/docs/basic-features/data-fetching#fetching-data-on-the-client-side) is a technique well known to every React developer. [Static Generation](https://nextjs.org/docs/basic-features/pages#static-generation-recommended) and [Server-side Rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering) are two methods of pre-rendering Next.js apps. We are going to analyze each of them.
