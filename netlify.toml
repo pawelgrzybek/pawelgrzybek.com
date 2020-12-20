@@ -1,5 +1,12 @@
+[build]
+  publish = "public/"
+  command = "rm -rf public && hugo --gc --minify"
+
 [context.production.environment]
-  HUGO_VERSION = "0.74.3"
+  HUGO_VERSION = "0.78.2"
+
+[context.deploy-preview]
+  command = "rm -rf public && hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.74.3"
+  HUGO_VERSION = "0.78.2"

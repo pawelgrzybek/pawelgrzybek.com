@@ -1,110 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.78.2" />
-
-  <title>What&#39;s new in ECMAScript 2017 | pawelgrzybek.com</title>
-  <meta name="description" content="Introduced in 2015, the ECMAScript annual release plan aims to add to the language any proposals that are ready at the time of the TC39 meeting. Here&rsquo;s what&rsquo;s new in ES2017.">
-
-  <!-- Open graph data -->
-  <meta property="og:site_name" content="pawelgrzybek.com">
-  <meta property="og:title" content="What&#39;s new in ECMAScript 2017 | pawelgrzybek.com">
-  <meta property="og:url" content="https://pawelgrzybek.com/whats-new-in-ecmascript-2017/">
-  <meta property="og:type" content="article">
-  <meta property="og:description" content="Introduced in 2015, the ECMAScript annual release plan aims to add to the language any proposals that are ready at the time of the TC39 meeting. Here&rsquo;s what&rsquo;s new in ES2017.">
-  <meta property="og:image" content="https://pawelgrzybek.com/photos/2017-01-30.jpg">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@pawelgrzybek" />
-  <meta name="twitter:creator" content="@pawelgrzybek" />
-
-  <!-- Standard Stuff -->
-  <link rel="canonical" href="https://pawelgrzybek.com/whats-new-in-ecmascript-2017/">
-  <link rel="alternate" type="application/rss+xml" title="pawelgrzybek.com" href="https://pawelgrzybek.com/feed.xml" />
-  <link rel="alternate" type="application/feed+json" title="pawelgrzybek.com" href="https://pawelgrzybek.com/feed.json" />
-
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/assets/manifest.json">
-  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#888888">
-  <link rel="shortcut icon" href="/assets/favicon.ico">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/assets/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <!-- Styles -->
-  
-  <style>:root{--color-text: #24292e;--color-background: #fff;--color-link: #005cc5;--color-update-background: #fbebea;--color-update-border: #edb0ab;--color-box-background: #f7f7f7;--color-box-border: #eee;--color-syntax-k: #006699;--color-syntax-s: #cc3300;--color-syntax-m: #ff6600;--color-syntax-c: #999;--color-syntax-nb: #366;--color-syntax-o: #555555;--color-syntax-na: #330099;--fz: 1rem;--fzb: 106.25%;--lh: 1.764705882rem;--type-scale: 1.25}@media screen and (min-width:764px){:root{--fzb: 112.5%;--lh: 1.77778rem}}@media(prefers-color-scheme:dark){:root{--color-text: #fafbfc;--color-background: #24292e;--color-link: #9ecbff;--color-update-background: #6d3733;--color-update-border: #522926;--color-box-background: hsl(210, 12%, 12%);--color-box-border: hsl(210, 12%, 20%);--color-syntax-k: #9ecbff;--color-syntax-s: #f97583;--color-syntax-m: #ffab70;--color-syntax-c: #6a737d;--color-syntax-nb: #28a745;--color-syntax-o: #959da5;--color-syntax-na: #fafbfc;--fz: 1rem;--lh: 1.77778rem;--type-scale: 1.25}}::selection{background:var(--color-link);color:#fff;text-shadow:none}html{font-size:var(--fzb);-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;-webkit-text-size-adjust:100%;box-sizing:border-box;scroll-behavior:smooth}*,*::before,*::after{margin:0;padding:0;box-sizing:inherit}body{background-color:var(--color-background);color:var(--color-text);font-family:-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;font-size:var(--fz);line-height:var(--lh)}img{display:block;max-width:100%;height:auto;border:0}a{background:0 0;color:var(--color-link);word-wrap:break-word}a:hover,a:focus,a:active{color:var(--color-text)}p,h1,h2,h3,h4,h5,h6{margin-bottom:var(--lh)}h1,h2,h3,h4,h5,h6{margin-top:calc(var(--lh) * 1.5);font-weight:700;text-decoration:none}h1{font-size:calc( var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale));line-height:calc(var(--lh) * 1.5)}h2{font-size:calc(var(--fz) * var(--type-scale) * var(--type-scale))}h3{font-size:calc(var(--fz) * var(--type-scale))}h4{font-size:1rem}h5{font-size:calc(var(--fz)/var(--type-scale))}h6{font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale))}ul,ol{margin:0 0 var(--lh)var(--lh)}li ul,li ol{margin:0 0 0 var(--lh)}hr{display:block;height:var(--lh);border:0;box-shadow:0 1px 0 #eee}blockquote{margin-bottom:var(--lh);padding:var(--lh);background:var(--color-box-background);box-shadow:inset 0 0 0 1px var(--color-box-border)}blockquote p{margin:0;font-style:italic}figure{margin-bottom:var(--lh)}figcaption{font-size:var(--fz)/var(--type-scale)/var(--type-scale)}.wrapper{width:100%;max-width:calc(700px + (2 * var(--lh)));margin:0 auto;padding:0 var(--lh)}.wrapper--wide{max-width:calc(900px + (2 * var(--lh)))}.header{position:relative;padding:calc(var(--lh) * 2) 0;display:flex;flex-direction:column}.header__skip{position:absolute;top:0;left:0;padding:0 calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale));transform:scale(0)}.header__skip:focus{transform:scale(1)}.header__logo{display:flex;align-items:center;justify-content:center;margin:0;font-size:calc(var(--fz));line-height:var(--lh)}.header__logo a{display:flex;flex-direction:column;align-items:center;font-weight:700;margin:0 0 calc(var(--lh)/2)}.header__logo a::before{content:"";width:calc(var(--lh) * 2);height:calc(var(--lh) * 2);margin:0 0 calc(var(--lh)/2);background-image:url(/assets/logo.jpg);background-size:100% 100%;border-radius:var(--lh)}.header__list{height:100%;display:flex;align-items:center;justify-content:center;list-style:none;margin:0}.header__item{margin-right:calc(var(--lh)/2)}.header__item:last-of-type{margin-right:0}@media screen and (min-width:764px){.header{flex-direction:row;justify-content:space-between;padding:calc(var(--lh) * 3) 0}.header__logo a{flex-direction:row;margin:0}.header__logo a::before{content:"";width:calc(var(--lh) * 2);height:calc(var(--lh) * 2);margin:0 calc(var(--lh)/2) 0 0;background-image:url(/assets/logo.jpg);background-size:100% 100%;border-radius:var(--lh)}}@media screen and (min-width:964px){.header__logo::after{font-weight:400;white-space:pre;color:var(--color-text);content:" | Software Engineer at Mindera"}}.post{margin-bottom:calc(var(--lh) * 3)}.post__title{margin-top:0}.post__url{color:var(--color-text);text-decoration:none}.post__url:hover{color:var(--color-link)}.post__meta{margin-top:calc(var(--lh) * -1);font-size:calc(var(--fz)/var(--type-scale))}.post__more{text-decoration:none;vertical-align:top}.post__hash{text-decoration:none;margin-left:calc(var(--lh)/4);color:var(--color-text);opacity:.25}.post__hash:hover{color:var(--color-link);opacity:1}.footer{color:var(--color-text);font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top;padding:calc(var(--lh) * 2) 0}.pager{display:flex}.pager__btn{flex-grow:1;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top}.pager__btn--prev{text-align:left}.pager__btn--next{text-align:right}.share{display:flex;align-items:center;background-color:var(--color-box-background);box-shadow:0 0 0 1px var(--color-box-border);margin:calc(var(--lh) * 2) 0;padding:calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale))}.share__icon{fill:#1da1f2;margin-right:calc(var(--lh)/2);width:var(--fz);height:var(--fz);flex-shrink:0}.share__text{margin:0}.archive{margin-left:0;list-style:none}.archive__item{padding:calc(var(--lh)/2) 0;box-shadow:0 1px 0 0 var(--color-box-border)}.archive__link{font-weight:700;text-decoration:none;color:var(--color-text)}.archive__link:hover{color:var(--color-link)}.archive__date{margin:0;font-size:calc(var(--fz)/var(--type-scale))}code,pre{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top}pre{margin-bottom:var(--lh);padding:var(--lh);box-shadow:0 0 0 1px var(--color-box-border);overflow-x:auto}p code,li code{padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}kbd{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top;padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}.chroma{background-color:var(--color-box-background)}.chroma .err{background-color:#faa;color:#a00}.chroma .lntd{margin:0;padding:0;border:0;vertical-align:top}.chroma .lntable{display:block;width:auto;margin:0;padding:0;border:0;border-spacing:0;overflow:auto}.chroma .hl{display:block;width:100%;background-color:var(--color-box-border)}.chroma .lnt{display:block;margin-right:.4em;padding:0 .4em;opacity:.5}.chroma .ln{margin-right:.4em;padding:0 .4em}.chroma .k{color:var(--color-syntax-k);font-weight:700}.chroma .kc{color:var(--color-syntax-k);font-weight:700}.chroma .kd{color:var(--color-syntax-k);font-weight:700}.chroma .kn{color:var(--color-syntax-k);font-weight:700}.chroma .kp{color:var(--color-syntax-k)}.chroma .kr{color:var(--color-syntax-k);font-weight:700}.chroma .kt{color:#078;font-weight:700}.chroma .na{color:var(--color-syntax-na)}.chroma .nb{color:var(--color-syntax-nb)}.chroma .nc{color:#0a8;font-weight:700}.chroma .no{color:#360}.chroma .nd{color:#99f}.chroma .ni{color:#999;font-weight:700}.chroma .ne{color:#c00;font-weight:700}.chroma .nf{color:#c0f}.chroma .nl{color:#99f}.chroma .nn{color:#0cf;font-weight:700}.chroma .nt{color:var(--color-syntax-na);font-weight:700}.chroma .nv{color:#033}.chroma .s{color:var(--color-syntax-s)}.chroma .sa{color:var(--color-syntax-s)}.chroma .sb{color:var(--color-syntax-s)}.chroma .sc{color:var(--color-syntax-s)}.chroma .dl{color:var(--color-syntax-s)}.chroma .sd{color:var(--color-syntax-s);font-style:italic}.chroma .s2{color:var(--color-syntax-s)}.chroma .se{color:var(--color-syntax-s);font-weight:700}.chroma .sh{color:var(--color-syntax-s)}.chroma .si{color:#a00}.chroma .sx{color:var(--color-syntax-s)}.chroma .sr{color:#3aa}.chroma .s1{color:var(--color-syntax-s)}.chroma .ss{color:#fc3}.chroma .m{color:var(--color-syntax-m)}.chroma .mb{color:var(--color-syntax-m)}.chroma .mf{color:var(--color-syntax-m)}.chroma .mh{color:var(--color-syntax-m)}.chroma .mi{color:var(--color-syntax-m)}.chroma .il{color:var(--color-syntax-m)}.chroma .mo{color:var(--color-syntax-m)}.chroma .o{color:var(--color-syntax-o)}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#999;font-style:italic}.chroma .ch{color:#999;font-style:italic}.chroma .cm{color:#999;font-style:italic}.chroma .c1{color:#999;font-style:italic}.chroma .cs{color:#999;font-style:italic;font-weight:700}.chroma .cp{color:#099}.chroma .cpf{color:#099}.chroma .gd{background-color:#fcc}.chroma .ge{font-style:italic}.chroma .gr{color:red}.chroma .gh{color:#030;font-weight:700}.chroma .gi{background-color:#cfc}.chroma .go{color:#aaa}.chroma .gp{color:#009;font-weight:700}.chroma .gs{font-weight:700}.chroma .gu{color:#030;font-weight:700}.chroma .gt{color:#9c6}.chroma .w{color:#bbb}.update{position:relative;padding:var(--lh);background-color:var(--color-update-background);box-shadow:0 0 0 1px var(--color-update-border)}.update::before{position:absolute;top:calc(var(--lh)/-2);left:calc(var(--lh)/2);height:var(--lh);padding:0 calc(var(--lh)/2);background-color:var(--color-update-border);color:#fff;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;content:"Update"}</style>
-
-</head>
-
-  <body>
-    <div class="wrapper wrapper--wide">
-      <header class="header">
-  <a class="header__skip" href="#main">Skip to content</a>
-
-  
-  <div class="header__logo">
-    <a href="/">pawelgrzybek.com</a>
-  </div>
-  
-
-  <nav>
-    <ul class="header__list">
-      <li class="header__item">
-        <a href="/about" title="About">About</a>
-      </li>
-      <li class="header__item">
-        <a href="/archive" title="Archive">Archive</a>
-      </li>
-      <li class="header__item">
-        <a href="/feed.xml" title="RSS Feed">RSS</a>
-      </li>
-      <li class="header__item">
-        <a
-          href="https://twitter.com/pawelgrzybek"
-          title="Pawel Grzybek on Twitter"
-          >Twitter</a
-        >
-      </li>
-      <li class="header__item">
-        <a
-          href="https://github.com/pawelgrzybek"
-          title="Pawel Grzybek on Github"
-          >Github</a
-        >
-      </li>
-    </ul>
-  </nav>
-</header>
-
-    </div>
-
-    <div class="wrapper">
-      <main id="main">
-        
-
-      <!-- post -->
-      <article class="post js-post">
-        <h1 class="post__title">What&#39;s new in ECMAScript 2017</h1>
-
-        
-        <p class="post__meta">Published: <time datetime="2017-01-30">2017.01.30</time> | 4 minutes read</p>
-        
-
-        <p>Two years ago when ECMAScript 2015 (colloquially known as a ES6) was standardized there was a massive update to the language. Announced at the same time was a yearly release plan that aims to deliver a new version of the language annually and ship it with the <a href="https://github.com/tc39/ecma262/blob/master/README.md">proposals</a> that are ready at the time of the TC39 meeting. The list of language improvements is open and you can track it on the <a href="https://github.com/tc39/proposals">TC39 Github account</a>. You can find more info about the process itself <a href="https://tc39.github.io/process-document/">here</a>.</p>
-<p>A year ago I published a <a href="https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/">summary of new features from the 2016 spec</a>, and the list below presents the recently agreed proposals that will become part of ECMAScript this year.</p>
-<h2 id="async-functions">Async functions <a href="#async-functions" class="post__hash">#</a></h2>
-<p>Chained callbacks should have been ditched a long time ago. The combination of promises and generators provides a much better opportunity to work with asynchronous code in ECMAScript. <a href="https://tc39.github.io/ecmascript-asyncawait/">Async functions</a> proposed by <a href="https://twitter.com/bterlson">Brian Terlson</a> introduces a syntactic sugar for this powerful combination. <a href="https://twitter.com/jaffathecake">Jake Archibald</a> published a <a href="https://developers.google.com/web/fundamentals/primers/async-functions">good introduction</a> to the subject but if you are looking for a deeper explanation with tons of examples and use cases I highly recommend you have a look at <a href="https://ponyfoo.com/articles/understanding-javascript-async-await">&ldquo;Understanding JavaScript’s async await&rdquo;</a> by <a href="https://twitter.com/nzgb">Nicolás Bevacqua</a>.</p>
-<pre><code>async function doSomething(id) {
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Pawel Grzybek - https://pawelgrzybek.com/"><meta name=generator content="Hugo 0.78.2"><title>What's new in ECMAScript 2017 | pawelgrzybek.com</title><meta name=description content="Introduced in 2015, the ECMAScript annual release plan aims to add to the language any proposals that are ready at the time of the TC39 meeting. Here&rsquo;s what&rsquo;s new in ES2017."><meta property="og:site_name" content="pawelgrzybek.com"><meta property="og:title" content="What's new in ECMAScript 2017 | pawelgrzybek.com"><meta property="og:url" content="https://pawelgrzybek.com/whats-new-in-ecmascript-2017/"><meta property="og:type" content="article"><meta property="og:description" content="Introduced in 2015, the ECMAScript annual release plan aims to add to the language any proposals that are ready at the time of the TC39 meeting. Here&rsquo;s what&rsquo;s new in ES2017."><meta property="og:image" content="https://pawelgrzybek.com/photos/2017-01-30.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:site content="@pawelgrzybek"><meta name=twitter:creator content="@pawelgrzybek"><link rel=canonical href=https://pawelgrzybek.com/whats-new-in-ecmascript-2017/><link rel=alternate type=application/rss+xml title=pawelgrzybek.com href=https://pawelgrzybek.com/feed.xml><link rel=alternate type=application/feed+json title=pawelgrzybek.com href=https://pawelgrzybek.com/feed.json><link rel=apple-touch-icon sizes=180x180 href=/assets/apple-touch-icon-180x180.png><link rel=icon type=image/png href=/assets/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/assets/favicon-16x16.png sizes=16x16><link rel=manifest href=/assets/manifest.json><link rel=mask-icon href=/assets/safari-pinned-tab.svg color=#888888><link rel="shortcut icon" href=/assets/favicon.ico><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/assets/mstile-144x144.png"><meta name=theme-color content="#ffffff"><style>:root{--color-text: #24292e;--color-background: #fff;--color-link: #005cc5;--color-update-background: #fbebea;--color-update-border: #edb0ab;--color-box-background: #f7f7f7;--color-box-border: #eee;--color-syntax-k: #006699;--color-syntax-s: #cc3300;--color-syntax-m: #ff6600;--color-syntax-c: #999;--color-syntax-nb: #366;--color-syntax-o: #555555;--color-syntax-na: #330099;--fz: 1rem;--fzb: 106.25%;--lh: 1.764705882rem;--type-scale: 1.25}@media screen and (min-width:764px){:root{--fzb: 112.5%;--lh: 1.77778rem}}@media(prefers-color-scheme:dark){:root{--color-text: #fafbfc;--color-background: #24292e;--color-link: #9ecbff;--color-update-background: #6d3733;--color-update-border: #522926;--color-box-background: hsl(210, 12%, 12%);--color-box-border: hsl(210, 12%, 20%);--color-syntax-k: #9ecbff;--color-syntax-s: #f97583;--color-syntax-m: #ffab70;--color-syntax-c: #6a737d;--color-syntax-nb: #28a745;--color-syntax-o: #959da5;--color-syntax-na: #fafbfc;--fz: 1rem;--lh: 1.77778rem;--type-scale: 1.25}}::selection{background:var(--color-link);color:#fff;text-shadow:none}html{font-size:var(--fzb);-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;-webkit-text-size-adjust:100%;box-sizing:border-box;scroll-behavior:smooth}*,*::before,*::after{margin:0;padding:0;box-sizing:inherit}body{background-color:var(--color-background);color:var(--color-text);font-family:-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;font-size:var(--fz);line-height:var(--lh)}img{display:block;max-width:100%;height:auto;border:0}a{background:0 0;color:var(--color-link);word-wrap:break-word}a:hover,a:focus,a:active{color:var(--color-text)}p,h1,h2,h3,h4,h5,h6{margin-bottom:var(--lh)}h1,h2,h3,h4,h5,h6{margin-top:calc(var(--lh) * 1.5);font-weight:700;text-decoration:none}h1{font-size:calc( var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale));line-height:calc(var(--lh) * 1.5)}h2{font-size:calc(var(--fz) * var(--type-scale) * var(--type-scale))}h3{font-size:calc(var(--fz) * var(--type-scale))}h4{font-size:1rem}h5{font-size:calc(var(--fz)/var(--type-scale))}h6{font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale))}ul,ol{margin:0 0 var(--lh)var(--lh)}li ul,li ol{margin:0 0 0 var(--lh)}hr{display:block;height:var(--lh);border:0;box-shadow:0 1px 0 #eee}blockquote{margin-bottom:var(--lh);padding:var(--lh);background:var(--color-box-background);box-shadow:inset 0 0 0 1px var(--color-box-border)}blockquote p{margin:0;font-style:italic}figure{margin-bottom:var(--lh)}figcaption{font-size:var(--fz)/var(--type-scale)/var(--type-scale)}.wrapper{width:100%;max-width:calc(700px + (2 * var(--lh)));margin:0 auto;padding:0 var(--lh)}.wrapper--wide{max-width:calc(900px + (2 * var(--lh)))}.header{position:relative;padding:calc(var(--lh) * 2) 0;display:flex;flex-direction:column}.header__skip{position:absolute;top:0;left:0;padding:0 calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale));transform:scale(0)}.header__skip:focus{transform:scale(1)}.header__logo{display:flex;align-items:center;justify-content:center;margin:0;font-size:calc(var(--fz));line-height:var(--lh)}.header__logo a{display:flex;flex-direction:column;align-items:center;font-weight:700;margin:0 0 calc(var(--lh)/2)}.header__logo a::before{content:"";width:calc(var(--lh) * 2);height:calc(var(--lh) * 2);margin:0 0 calc(var(--lh)/2);background-image:url(/assets/logo.jpg);background-size:100% 100%;border-radius:var(--lh)}.header__list{height:100%;display:flex;align-items:center;justify-content:center;list-style:none;margin:0}.header__item{margin-right:calc(var(--lh)/2)}.header__item:last-of-type{margin-right:0}@media screen and (min-width:764px){.header{flex-direction:row;justify-content:space-between;padding:calc(var(--lh) * 3) 0}.header__logo a{flex-direction:row;margin:0}.header__logo a::before{content:"";width:calc(var(--lh) * 2);height:calc(var(--lh) * 2);margin:0 calc(var(--lh)/2) 0 0;background-image:url(/assets/logo.jpg);background-size:100% 100%;border-radius:var(--lh)}}@media screen and (min-width:964px){.header__logo::after{font-weight:400;white-space:pre;color:var(--color-text);content:" | Software Engineer at Mindera"}}.post{margin-bottom:calc(var(--lh) * 3)}.post__title{margin-top:0}.post__url{color:var(--color-text);text-decoration:none}.post__url:hover{color:var(--color-link)}.post__meta{margin-top:calc(var(--lh) * -1);font-size:calc(var(--fz)/var(--type-scale))}.post__more{text-decoration:none;vertical-align:top}.post__hash{text-decoration:none;margin-left:calc(var(--lh)/4);color:var(--color-text);opacity:.25}.post__hash:hover{color:var(--color-link);opacity:1}.footer{color:var(--color-text);font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top;padding:calc(var(--lh) * 2) 0}.pager{display:flex}.pager__btn{flex-grow:1;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top}.pager__btn--prev{text-align:left}.pager__btn--next{text-align:right}.share{display:flex;align-items:center;background-color:var(--color-box-background);box-shadow:0 0 0 1px var(--color-box-border);margin:calc(var(--lh) * 2) 0;padding:calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale))}.share__icon{fill:#1da1f2;margin-right:calc(var(--lh)/2);width:var(--fz);height:var(--fz);flex-shrink:0}.share__text{margin:0}.archive{margin-left:0;list-style:none}.archive__item{padding:calc(var(--lh)/2) 0;box-shadow:0 1px 0 0 var(--color-box-border)}.archive__link{font-weight:700;text-decoration:none;color:var(--color-text)}.archive__link:hover{color:var(--color-link)}.archive__date{margin:0;font-size:calc(var(--fz)/var(--type-scale))}code,pre{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top}pre{margin-bottom:var(--lh);padding:var(--lh);box-shadow:0 0 0 1px var(--color-box-border);overflow-x:auto}p code,li code{padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}kbd{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top;padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}.chroma{background-color:var(--color-box-background)}.chroma .err{background-color:#faa;color:#a00}.chroma .lntd{margin:0;padding:0;border:0;vertical-align:top}.chroma .lntable{display:block;width:auto;margin:0;padding:0;border:0;border-spacing:0;overflow:auto}.chroma .hl{display:block;width:100%;background-color:var(--color-box-border)}.chroma .lnt{display:block;margin-right:.4em;padding:0 .4em;opacity:.5}.chroma .ln{margin-right:.4em;padding:0 .4em}.chroma .k{color:var(--color-syntax-k);font-weight:700}.chroma .kc{color:var(--color-syntax-k);font-weight:700}.chroma .kd{color:var(--color-syntax-k);font-weight:700}.chroma .kn{color:var(--color-syntax-k);font-weight:700}.chroma .kp{color:var(--color-syntax-k)}.chroma .kr{color:var(--color-syntax-k);font-weight:700}.chroma .kt{color:#078;font-weight:700}.chroma .na{color:var(--color-syntax-na)}.chroma .nb{color:var(--color-syntax-nb)}.chroma .nc{color:#0a8;font-weight:700}.chroma .no{color:#360}.chroma .nd{color:#99f}.chroma .ni{color:#999;font-weight:700}.chroma .ne{color:#c00;font-weight:700}.chroma .nf{color:#c0f}.chroma .nl{color:#99f}.chroma .nn{color:#0cf;font-weight:700}.chroma .nt{color:var(--color-syntax-na);font-weight:700}.chroma .nv{color:#033}.chroma .s{color:var(--color-syntax-s)}.chroma .sa{color:var(--color-syntax-s)}.chroma .sb{color:var(--color-syntax-s)}.chroma .sc{color:var(--color-syntax-s)}.chroma .dl{color:var(--color-syntax-s)}.chroma .sd{color:var(--color-syntax-s);font-style:italic}.chroma .s2{color:var(--color-syntax-s)}.chroma .se{color:var(--color-syntax-s);font-weight:700}.chroma .sh{color:var(--color-syntax-s)}.chroma .si{color:#a00}.chroma .sx{color:var(--color-syntax-s)}.chroma .sr{color:#3aa}.chroma .s1{color:var(--color-syntax-s)}.chroma .ss{color:#fc3}.chroma .m{color:var(--color-syntax-m)}.chroma .mb{color:var(--color-syntax-m)}.chroma .mf{color:var(--color-syntax-m)}.chroma .mh{color:var(--color-syntax-m)}.chroma .mi{color:var(--color-syntax-m)}.chroma .il{color:var(--color-syntax-m)}.chroma .mo{color:var(--color-syntax-m)}.chroma .o{color:var(--color-syntax-o)}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#999;font-style:italic}.chroma .ch{color:#999;font-style:italic}.chroma .cm{color:#999;font-style:italic}.chroma .c1{color:#999;font-style:italic}.chroma .cs{color:#999;font-style:italic;font-weight:700}.chroma .cp{color:#099}.chroma .cpf{color:#099}.chroma .gd{background-color:#fcc}.chroma .ge{font-style:italic}.chroma .gr{color:red}.chroma .gh{color:#030;font-weight:700}.chroma .gi{background-color:#cfc}.chroma .go{color:#aaa}.chroma .gp{color:#009;font-weight:700}.chroma .gs{font-weight:700}.chroma .gu{color:#030;font-weight:700}.chroma .gt{color:#9c6}.chroma .w{color:#bbb}.update{position:relative;padding:var(--lh);background-color:var(--color-update-background);box-shadow:0 0 0 1px var(--color-update-border)}.update::before{position:absolute;top:calc(var(--lh)/-2);left:calc(var(--lh)/2);height:var(--lh);padding:0 calc(var(--lh)/2);background-color:var(--color-update-border);color:#fff;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;content:"Update"}</style></head><body><div class="wrapper wrapper--wide"><header class=header><a class=header__skip href=#main>Skip to content</a><div class=header__logo><a href=/>pawelgrzybek.com</a></div><nav><ul class=header__list><li class=header__item><a href=/about title=About>About</a></li><li class=header__item><a href=/archive title=Archive>Archive</a></li><li class=header__item><a href=/feed.xml title="RSS Feed">RSS</a></li><li class=header__item><a href=https://twitter.com/pawelgrzybek title="Pawel Grzybek on Twitter">Twitter</a></li><li class=header__item><a href=https://github.com/pawelgrzybek title="Pawel Grzybek on Github">Github</a></li></ul></nav></header></div><div class=wrapper><main id=main><article class="post js-post"><h1 class=post__title>What's new in ECMAScript 2017</h1><p class=post__meta>Published: <time datetime=2017-01-30>2017.01.30</time> | 4 minutes read</p><p>Two years ago when ECMAScript 2015 (colloquially known as a ES6) was standardized there was a massive update to the language. Announced at the same time was a yearly release plan that aims to deliver a new version of the language annually and ship it with the <a href=https://github.com/tc39/ecma262/blob/master/README.md>proposals</a> that are ready at the time of the TC39 meeting. The list of language improvements is open and you can track it on the <a href=https://github.com/tc39/proposals>TC39 Github account</a>. You can find more info about the process itself <a href=https://tc39.github.io/process-document/>here</a>.</p><p>A year ago I published a <a href=https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/>summary of new features from the 2016 spec</a>, and the list below presents the recently agreed proposals that will become part of ECMAScript this year.</p><h2 id=async-functions>Async functions <a href=#async-functions class=post__hash>#</a></h2><p>Chained callbacks should have been ditched a long time ago. The combination of promises and generators provides a much better opportunity to work with asynchronous code in ECMAScript. <a href=https://tc39.github.io/ecmascript-asyncawait/>Async functions</a> proposed by <a href=https://twitter.com/bterlson>Brian Terlson</a> introduces a syntactic sugar for this powerful combination. <a href=https://twitter.com/jaffathecake>Jake Archibald</a> published a <a href=https://developers.google.com/web/fundamentals/primers/async-functions>good introduction</a> to the subject but if you are looking for a deeper explanation with tons of examples and use cases I highly recommend you have a look at <a href=https://ponyfoo.com/articles/understanding-javascript-async-await>&ldquo;Understanding JavaScript’s async await&rdquo;</a> by <a href=https://twitter.com/nzgb>Nicolás Bevacqua</a>.</p><pre><code>async function doSomething(id) {
   try {
     const valueOne = await someAsyncFunction(id);
     const valueTwo = await anotherAsyncFunction(valueOne);
@@ -114,115 +8,54 @@
     console.log('Uuuups!', err);
   }
 }
-</code></pre><h2 id="shared-memory-and-atomics">Shared Memory and Atomics <a href="#shared-memory-and-atomics" class="post__hash">#</a></h2>
-<p><a href="https://github.com/tc39/ecmascript_sharedmem">This proposal</a> by Lars T Hansen adds a form of shared memory to JavaScript. The new <code>SharedArrayBuffer</code> and  pre-existing <code>TypedArray</code> and <code>DataView</code> types can be used to allocate shared memory. The new <code>Atomics</code> object allows you to carry out some operations using shared memory. Quoting the author of this proposal it should help developers to handle the following use cases&hellip;</p>
-<blockquote>
-<p>Support for threaded code in programs written in other languages that are translated to asm.js or plain JS or a combination of the two, notably C and C++ but also other, safe, languages.</p>
-</blockquote>
-<blockquote>
-<p>Support for hand-written JS or JS+asm.js that makes use of multiprocessing facilities for select tasks, such as image processing, asset management, or game AI.</p>
-</blockquote>
-<p><a href="https://github.com/tc39/ecmascript_sharedmem/blob/master/TUTORIAL.md">A brief tutorial</a> created by Lars T Hansen is a great explainer. <a href="http://2ality.com/2017/01/shared-array-buffer.html">This article</a> by Dr. Axel Rauschmayer is a lengthy article that I highly encourage you to read if you would like to understand the background and dive deeper.</p>
-<h2 id="objectvalues-and-objectentries">Object.values and Object.entries <a href="#objectvalues-and-objectentries" class="post__hash">#</a></h2>
-<p>We don&rsquo;t need lodash or jQuery anymore to return enumerable pairs of entries or values from an object. The popularity of this use case have made <code>values()</code> and <code>entries()</code> new methods on the Object prototype in ES2017. Thanks to <a href="https://twitter.com/ljharb">Jordan Harband</a> for <a href="https://github.com/tc39/proposal-object-values-entries">this proposal</a>. Lets have a look at an example&hellip;</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kr">const</span> <span class="nx">pawelgrzybek</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Paweł&#39;</span><span class="p">,</span>
-  <span class="nx">age</span><span class="o">:</span> <span class="mi">29</span>
-<span class="p">};</span>
+</code></pre><h2 id=shared-memory-and-atomics>Shared Memory and Atomics <a href=#shared-memory-and-atomics class=post__hash>#</a></h2><p><a href=https://github.com/tc39/ecmascript_sharedmem>This proposal</a> by Lars T Hansen adds a form of shared memory to JavaScript. The new <code>SharedArrayBuffer</code> and pre-existing <code>TypedArray</code> and <code>DataView</code> types can be used to allocate shared memory. The new <code>Atomics</code> object allows you to carry out some operations using shared memory. Quoting the author of this proposal it should help developers to handle the following use cases&mldr;</p><blockquote><p>Support for threaded code in programs written in other languages that are translated to asm.js or plain JS or a combination of the two, notably C and C++ but also other, safe, languages.</p></blockquote><blockquote><p>Support for hand-written JS or JS+asm.js that makes use of multiprocessing facilities for select tasks, such as image processing, asset management, or game AI.</p></blockquote><p><a href=https://github.com/tc39/ecmascript_sharedmem/blob/master/TUTORIAL.md>A brief tutorial</a> created by Lars T Hansen is a great explainer. <a href=http://2ality.com/2017/01/shared-array-buffer.html>This article</a> by Dr. Axel Rauschmayer is a lengthy article that I highly encourage you to read if you would like to understand the background and dive deeper.</p><h2 id=objectvalues-and-objectentries>Object.values and Object.entries <a href=#objectvalues-and-objectentries class=post__hash>#</a></h2><p>We don&rsquo;t need lodash or jQuery anymore to return enumerable pairs of entries or values from an object. The popularity of this use case have made <code>values()</code> and <code>entries()</code> new methods on the Object prototype in ES2017. Thanks to <a href=https://twitter.com/ljharb>Jordan Harband</a> for <a href=https://github.com/tc39/proposal-object-values-entries>this proposal</a>. Lets have a look at an example&mldr;</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=kr>const</span> <span class=nx>pawelgrzybek</span> <span class=o>=</span> <span class=p>{</span>
+  <span class=nx>name</span><span class=o>:</span> <span class=s1>&#39;Paweł&#39;</span><span class=p>,</span>
+  <span class=nx>age</span><span class=o>:</span> <span class=mi>29</span>
+<span class=p>};</span>
 
-<span class="nb">Object</span><span class="p">.</span><span class="nx">entries</span><span class="p">(</span><span class="nx">pawelgrzybek</span><span class="p">);</span>
+<span class=nb>Object</span><span class=p>.</span><span class=nx>entries</span><span class=p>(</span><span class=nx>pawelgrzybek</span><span class=p>);</span>
 
-<span class="c1">// Returns
-</span><span class="c1">// [ [ &#39;name&#39;, &#39;Paweł&#39; ], [ &#39;age&#39;, 29 ] ]
-</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kr">const</span> <span class="nx">pawelgrzybek</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Paweł&#39;</span><span class="p">,</span>
-  <span class="nx">age</span><span class="o">:</span> <span class="mi">29</span>
-<span class="p">};</span>
+<span class=c1>// Returns
+</span><span class=c1>// [ [ &#39;name&#39;, &#39;Paweł&#39; ], [ &#39;age&#39;, 29 ] ]
+</span></code></pre></div><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=kr>const</span> <span class=nx>pawelgrzybek</span> <span class=o>=</span> <span class=p>{</span>
+  <span class=nx>name</span><span class=o>:</span> <span class=s1>&#39;Paweł&#39;</span><span class=p>,</span>
+  <span class=nx>age</span><span class=o>:</span> <span class=mi>29</span>
+<span class=p>};</span>
 
-<span class="nb">Object</span><span class="p">.</span><span class="nx">values</span><span class="p">(</span><span class="nx">pawelgrzybek</span><span class="p">);</span>
+<span class=nb>Object</span><span class=p>.</span><span class=nx>values</span><span class=p>(</span><span class=nx>pawelgrzybek</span><span class=p>);</span>
 
-<span class="c1">// Returns
-</span><span class="c1">// [ &#39;Paweł&#39;, 29 ]
-</span></code></pre></div><h2 id="string-padding">String padding <a href="#string-padding" class="post__hash">#</a></h2>
-<p>Finally! <a href="https://github.com/tc39/proposal-string-pad-start-end">Jordan Harband &amp; Rick Waldron</a> just saved npm before the next catastrophe (read <a href="http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/">here</a> if you don&rsquo;t remember the leftpad crsis). Formatting of script output will become easier with the <code>padStart()</code> and <code>padEnd()</code> methods. Examples&hellip;</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="s1">&#39;pawelgrzybek&#39;</span><span class="p">.</span><span class="nx">padStart</span><span class="p">(</span><span class="mi">20</span><span class="p">);</span>
-<span class="c1">// &#34;        pawelgrzybek&#34;
-</span><span class="c1"></span>
-<span class="s1">&#39;pawelgrzybek&#39;</span><span class="p">.</span><span class="nx">padStart</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="s1">&#39;*&#39;</span><span class="p">);</span>
-<span class="c1">// &#34;********pawelgrzybek&#34;
-</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="s1">&#39;pawelgrzybek&#39;</span><span class="p">.</span><span class="nx">padEnd</span><span class="p">(</span><span class="mi">20</span><span class="p">);</span>
-<span class="c1">// &#34;pawelgrzybek        &#34;
-</span><span class="c1"></span>
-<span class="s1">&#39;pawelgrzybek&#39;</span><span class="p">.</span><span class="nx">padEnd</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="s1">&#39;*&#39;</span><span class="p">);</span>
-<span class="c1">// &#34;pawelgrzybek********&#34;
-</span></code></pre></div><h2 id="objectgetownpropertydescriptors">Object.getOwnPropertyDescriptors <a href="#objectgetownpropertydescriptors" class="post__hash">#</a></h2>
-<p>Copying between two objects has never been simple and never more required than now. In the age of functional programming where an object&rsquo;s immutability is crucial, having a native method to help us with that would be perfect. Introduced in ES2015 <code>Object.assign()</code> seems to be a good candidate to do this, but unfortunately <a href="http://2ality.com/2016/02/object-getownpropertydescriptors.html">it has its limitations</a>. Jordan Harband &amp; Andrea Giammarchi proposed <a href="https://github.com/tc39/proposal-object-getownpropertydescriptors">this feature</a> to solve the issue.</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kr">const</span> <span class="nx">source</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Some name&#39;</span><span class="p">,</span>
-  <span class="nx">id</span><span class="o">:</span> <span class="mi">123</span>
-<span class="p">}</span>
-<span class="kr">const</span> <span class="nx">sourceClone</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nb">Object</span><span class="p">.</span><span class="nx">getPrototypeOf</span><span class="p">(</span><span class="nx">source</span><span class="p">),</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">getOwnPropertyDescriptors</span><span class="p">(</span><span class="nx">source</span><span class="p">));</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kr">const</span> <span class="nx">stateClone</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span>
-  <span class="nb">Object</span><span class="p">.</span><span class="nx">getPrototypeOf</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">),</span>
-  <span class="nb">Object</span><span class="p">.</span><span class="nx">getOwnPropertyDescriptors</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">)</span>
-<span class="p">);</span>
+<span class=c1>// Returns
+</span><span class=c1>// [ &#39;Paweł&#39;, 29 ]
+</span></code></pre></div><h2 id=string-padding>String padding <a href=#string-padding class=post__hash>#</a></h2><p>Finally! <a href=https://github.com/tc39/proposal-string-pad-start-end>Jordan Harband & Rick Waldron</a> just saved npm before the next catastrophe (read <a href=http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/>here</a> if you don&rsquo;t remember the leftpad crsis). Formatting of script output will become easier with the <code>padStart()</code> and <code>padEnd()</code> methods. Examples&mldr;</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=s1>&#39;pawelgrzybek&#39;</span><span class=p>.</span><span class=nx>padStart</span><span class=p>(</span><span class=mi>20</span><span class=p>);</span>
+<span class=c1>// &#34;        pawelgrzybek&#34;
+</span><span class=c1></span>
+<span class=s1>&#39;pawelgrzybek&#39;</span><span class=p>.</span><span class=nx>padStart</span><span class=p>(</span><span class=mi>20</span><span class=p>,</span> <span class=s1>&#39;*&#39;</span><span class=p>);</span>
+<span class=c1>// &#34;********pawelgrzybek&#34;
+</span></code></pre></div><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=s1>&#39;pawelgrzybek&#39;</span><span class=p>.</span><span class=nx>padEnd</span><span class=p>(</span><span class=mi>20</span><span class=p>);</span>
+<span class=c1>// &#34;pawelgrzybek        &#34;
+</span><span class=c1></span>
+<span class=s1>&#39;pawelgrzybek&#39;</span><span class=p>.</span><span class=nx>padEnd</span><span class=p>(</span><span class=mi>20</span><span class=p>,</span> <span class=s1>&#39;*&#39;</span><span class=p>);</span>
+<span class=c1>// &#34;pawelgrzybek********&#34;
+</span></code></pre></div><h2 id=objectgetownpropertydescriptors>Object.getOwnPropertyDescriptors <a href=#objectgetownpropertydescriptors class=post__hash>#</a></h2><p>Copying between two objects has never been simple and never more required than now. In the age of functional programming where an object&rsquo;s immutability is crucial, having a native method to help us with that would be perfect. Introduced in ES2015 <code>Object.assign()</code> seems to be a good candidate to do this, but unfortunately <a href=http://2ality.com/2016/02/object-getownpropertydescriptors.html>it has its limitations</a>. Jordan Harband & Andrea Giammarchi proposed <a href=https://github.com/tc39/proposal-object-getownpropertydescriptors>this feature</a> to solve the issue.</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=kr>const</span> <span class=nx>source</span> <span class=o>=</span> <span class=p>{</span>
+  <span class=nx>name</span><span class=o>:</span> <span class=s1>&#39;Some name&#39;</span><span class=p>,</span>
+  <span class=nx>id</span><span class=o>:</span> <span class=mi>123</span>
+<span class=p>}</span>
+<span class=kr>const</span> <span class=nx>sourceClone</span> <span class=o>=</span> <span class=nb>Object</span><span class=p>.</span><span class=nx>create</span><span class=p>(</span><span class=nb>Object</span><span class=p>.</span><span class=nx>getPrototypeOf</span><span class=p>(</span><span class=nx>source</span><span class=p>),</span> <span class=nb>Object</span><span class=p>.</span><span class=nx>getOwnPropertyDescriptors</span><span class=p>(</span><span class=nx>source</span><span class=p>));</span>
+</code></pre></div><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=kr>const</span> <span class=nx>stateClone</span> <span class=o>=</span> <span class=nb>Object</span><span class=p>.</span><span class=nx>create</span><span class=p>(</span>
+  <span class=nb>Object</span><span class=p>.</span><span class=nx>getPrototypeOf</span><span class=p>(</span><span class=k>this</span><span class=p>.</span><span class=nx>state</span><span class=p>),</span>
+  <span class=nb>Object</span><span class=p>.</span><span class=nx>getOwnPropertyDescriptors</span><span class=p>(</span><span class=k>this</span><span class=p>.</span><span class=nx>state</span><span class=p>)</span>
+<span class=p>);</span>
 
-<span class="c1">// some changes on stateClone
-</span><span class="c1">// some changes on stateClone
-</span><span class="c1"></span>
-<span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">(</span><span class="nx">stateClone</span><span class="p">);</span>
-</code></pre></div><h2 id="trailing-commas-in-function-parameter-lists">Trailing commas in function parameter lists <a href="#trailing-commas-in-function-parameter-lists" class="post__hash">#</a></h2>
-<p>Jeff Morrison proposed this <a href="https://github.com/tc39/proposal-trailing-function-commas">pretty aesthetic update</a>. <a href="https://pawelgrzybek.com/trailing-comma-in-ecmascript2017-function-parameter-list/">I published a whole article</a> about it the other day. Essentially you can place a trailing comma after the last function parameter now and your compiler won&rsquo;t complain at you. It will improve the readability of the output in version control systems.</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">someFunction</span><span class="p">(</span>
-  <span class="nx">paramsOne</span><span class="p">,</span>
-  <span class="nx">paramsTwo</span><span class="p">,</span>
-  <span class="nx">paramsThree</span><span class="p">,</span>
-<span class="p">)</span> <span class="p">{</span>
-  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Look ma! Trailing comma!&#39;</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div><p>That is it for this year. Some of these features are already implemented in your browser and the majority of them can be transpiled with a little help from Babel and some appropriate plugins. Personally, I&rsquo;m extremely happy about async functions and this is definitely my favourite feature that will become a part of ECMAScript 2017. What are your thoughts? Is there anything in particular that you would like to see in the language&rsquo;s core next year?</p>
-
-
-        
-
-        
-        <!-- share -->
-        <section class="share">
-          <svg xmlns="http://www.w3.org/2000/svg" class="share__icon" viewBox="0 0 512 512"><path d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z"/></svg>
-          <p class="share__text">If you liked this article, please <a href="https://twitter.com/intent/tweet?text=What%27s%20new%20in%20ECMAScript%202017&amp;url=https%3a%2f%2fpawelgrzybek.com%2fwhats-new-in-ecmascript-2017%2f&amp;via=pawelgrzybek" class="share__link" title="Share on Twitter">share it on Twitter</a>.</p>
-        </section>
-        <!-- / share -->
-
-        <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "studiorgb" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        
-
-      </article>
-      <!-- / post -->
-
-
-      </main>
-
-      <footer class="footer">Copyright © 2020 Pawel Grzybek</footer>
-
-    </div>
-  </body>
-</html>
+<span class=c1>// some changes on stateClone
+</span><span class=c1>// some changes on stateClone
+</span><span class=c1></span>
+<span class=k>this</span><span class=p>.</span><span class=nx>setState</span><span class=p>(</span><span class=nx>stateClone</span><span class=p>);</span>
+</code></pre></div><h2 id=trailing-commas-in-function-parameter-lists>Trailing commas in function parameter lists <a href=#trailing-commas-in-function-parameter-lists class=post__hash>#</a></h2><p>Jeff Morrison proposed this <a href=https://github.com/tc39/proposal-trailing-function-commas>pretty aesthetic update</a>. <a href=https://pawelgrzybek.com/trailing-comma-in-ecmascript2017-function-parameter-list/>I published a whole article</a> about it the other day. Essentially you can place a trailing comma after the last function parameter now and your compiler won&rsquo;t complain at you. It will improve the readability of the output in version control systems.</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=kd>function</span> <span class=nx>someFunction</span><span class=p>(</span>
+  <span class=nx>paramsOne</span><span class=p>,</span>
+  <span class=nx>paramsTwo</span><span class=p>,</span>
+  <span class=nx>paramsThree</span><span class=p>,</span>
+<span class=p>)</span> <span class=p>{</span>
+  <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s1>&#39;Look ma! Trailing comma!&#39;</span><span class=p>);</span>
+<span class=p>}</span>
+</code></pre></div><p>That is it for this year. Some of these features are already implemented in your browser and the majority of them can be transpiled with a little help from Babel and some appropriate plugins. Personally, I&rsquo;m extremely happy about async functions and this is definitely my favourite feature that will become a part of ECMAScript 2017. What are your thoughts? Is there anything in particular that you would like to see in the language&rsquo;s core next year?</p><section class=share><svg xmlns="http://www.w3.org/2000/svg" class="share__icon" viewBox="0 0 512 512"><path d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8.0 36.4 18.5 68.6 46.7 87.4-17.2-.5-33.4-5.3-47.6-13.1.0.4.0.9.0 1.3.0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8.0-13.3-.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5.0-16.8-.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2.0 298.9-160.1 298.9-298.9.0-4.6-.1-9.1-.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z"/></svg><p class=share__text>If you liked this article, please <a href="https://twitter.com/intent/tweet?text=What%27s%20new%20in%20ECMAScript%202017&url=https%3a%2f%2fpawelgrzybek.com%2fwhats-new-in-ecmascript-2017%2f&via=pawelgrzybek" class=share__link title="Share on Twitter">share it on Twitter</a>.</p></section><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return;}
+var d=document,s=d.createElement('script');s.async=true;s.src='//'+"studiorgb"+'.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></article></main><footer class=footer>Copyright © 2020 Pawel Grzybek</footer></div></body></html>

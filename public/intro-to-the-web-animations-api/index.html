@@ -1,365 +1,136 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Pawel Grzybek - https://pawelgrzybek.com/"><meta name=generator content="Hugo 0.78.2"><title>Intro to the Web Animations API | pawelgrzybek.com</title><meta name=description content="We have many methods available to move things around on the web. Let’s embrace the power of future animations with the Web Animations API."><meta property="og:site_name" content="pawelgrzybek.com"><meta property="og:title" content="Intro to the Web Animations API | pawelgrzybek.com"><meta property="og:url" content="https://pawelgrzybek.com/intro-to-the-web-animations-api/"><meta property="og:type" content="article"><meta property="og:description" content="We have many methods available to move things around on the web. Let’s embrace the power of future animations with the Web Animations API."><meta property="og:image" content="https://pawelgrzybek.com/photos/2016-05-18.jpg"><meta name=twitter:card content="summary_large_image"><meta name=twitter:site content="@pawelgrzybek"><meta name=twitter:creator content="@pawelgrzybek"><link rel=canonical href=https://pawelgrzybek.com/intro-to-the-web-animations-api/><link rel=alternate type=application/rss+xml title=pawelgrzybek.com href=https://pawelgrzybek.com/feed.xml><link rel=alternate type=application/feed+json title=pawelgrzybek.com href=https://pawelgrzybek.com/feed.json><link rel=apple-touch-icon sizes=180x180 href=/assets/apple-touch-icon-180x180.png><link rel=icon type=image/png href=/assets/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/assets/favicon-16x16.png sizes=16x16><link rel=manifest href=/assets/manifest.json><link rel=mask-icon href=/assets/safari-pinned-tab.svg color=#888888><link rel="shortcut icon" href=/assets/favicon.ico><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/assets/mstile-144x144.png"><meta name=theme-color content="#ffffff"><style>:root{--color-text: #24292e;--color-background: #fff;--color-link: #005cc5;--color-update-background: #fbebea;--color-update-border: #edb0ab;--color-box-background: #f7f7f7;--color-box-border: #eee;--color-syntax-k: #006699;--color-syntax-s: #cc3300;--color-syntax-m: #ff6600;--color-syntax-c: #999;--color-syntax-nb: #366;--color-syntax-o: #555555;--color-syntax-na: #330099;--fz: 1rem;--fzb: 106.25%;--lh: 1.764705882rem;--type-scale: 1.25}@media screen and (min-width:764px){:root{--fzb: 112.5%;--lh: 1.77778rem}}@media(prefers-color-scheme:dark){:root{--color-text: #fafbfc;--color-background: #24292e;--color-link: #9ecbff;--color-update-background: #6d3733;--color-update-border: #522926;--color-box-background: hsl(210, 12%, 12%);--color-box-border: hsl(210, 12%, 20%);--color-syntax-k: #9ecbff;--color-syntax-s: #f97583;--color-syntax-m: #ffab70;--color-syntax-c: #6a737d;--color-syntax-nb: #28a745;--color-syntax-o: #959da5;--color-syntax-na: #fafbfc;--fz: 1rem;--lh: 1.77778rem;--type-scale: 1.25}}::selection{background:var(--color-link);color:#fff;text-shadow:none}html{font-size:var(--fzb);-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;-webkit-text-size-adjust:100%;box-sizing:border-box;scroll-behavior:smooth}*,*::before,*::after{margin:0;padding:0;box-sizing:inherit}body{background-color:var(--color-background);color:var(--color-text);font-family:-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;font-size:var(--fz);line-height:var(--lh)}img{display:block;max-width:100%;height:auto;border:0}a{background:0 0;color:var(--color-link);word-wrap:break-word}a:hover,a:focus,a:active{color:var(--color-text)}p,h1,h2,h3,h4,h5,h6{margin-bottom:var(--lh)}h1,h2,h3,h4,h5,h6{margin-top:calc(var(--lh) * 1.5);font-weight:700;text-decoration:none}h1{font-size:calc( var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale));line-height:calc(var(--lh) * 1.5)}h2{font-size:calc(var(--fz) * var(--type-scale) * var(--type-scale))}h3{font-size:calc(var(--fz) * var(--type-scale))}h4{font-size:1rem}h5{font-size:calc(var(--fz)/var(--type-scale))}h6{font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale))}ul,ol{margin:0 0 var(--lh)var(--lh)}li ul,li ol{margin:0 0 0 var(--lh)}hr{display:block;height:var(--lh);border:0;box-shadow:0 1px 0 #eee}blockquote{margin-bottom:var(--lh);padding:var(--lh);background:var(--color-box-background);box-shadow:inset 0 0 0 1px var(--color-box-border)}blockquote p{margin:0;font-style:italic}figure{margin-bottom:var(--lh)}figcaption{font-size:var(--fz)/var(--type-scale)/var(--type-scale)}.wrapper{width:100%;max-width:calc(700px + (2 * var(--lh)));margin:0 auto;padding:0 var(--lh)}.wrapper--wide{max-width:calc(900px + (2 * var(--lh)))}.header{position:relative;padding:calc(var(--lh) * 2) 0;display:flex;flex-direction:column}.header__skip{position:absolute;top:0;left:0;padding:0 calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale));transform:scale(0)}.header__skip:focus{transform:scale(1)}.header__logo{display:flex;align-items:center;justify-content:center;margin:0;font-size:calc(var(--fz));line-height:var(--lh)}.header__logo a{display:flex;flex-direction:column;align-items:center;font-weight:700;margin:0 0 calc(var(--lh)/2)}.header__logo a::before{content:"";width:calc(var(--lh) * 2);height:calc(var(--lh) * 2);margin:0 0 calc(var(--lh)/2);background-image:url(/assets/logo.jpg);background-size:100% 100%;border-radius:var(--lh)}.header__list{height:100%;display:flex;align-items:center;justify-content:center;list-style:none;margin:0}.header__item{margin-right:calc(var(--lh)/2)}.header__item:last-of-type{margin-right:0}@media screen and (min-width:764px){.header{flex-direction:row;justify-content:space-between;padding:calc(var(--lh) * 3) 0}.header__logo a{flex-direction:row;margin:0}.header__logo a::before{content:"";width:calc(var(--lh) * 2);height:calc(var(--lh) * 2);margin:0 calc(var(--lh)/2) 0 0;background-image:url(/assets/logo.jpg);background-size:100% 100%;border-radius:var(--lh)}}@media screen and (min-width:964px){.header__logo::after{font-weight:400;white-space:pre;color:var(--color-text);content:" | Software Engineer at Mindera"}}.post{margin-bottom:calc(var(--lh) * 3)}.post__title{margin-top:0}.post__url{color:var(--color-text);text-decoration:none}.post__url:hover{color:var(--color-link)}.post__meta{margin-top:calc(var(--lh) * -1);font-size:calc(var(--fz)/var(--type-scale))}.post__more{text-decoration:none;vertical-align:top}.post__hash{text-decoration:none;margin-left:calc(var(--lh)/4);color:var(--color-text);opacity:.25}.post__hash:hover{color:var(--color-link);opacity:1}.footer{color:var(--color-text);font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top;padding:calc(var(--lh) * 2) 0}.pager{display:flex}.pager__btn{flex-grow:1;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top}.pager__btn--prev{text-align:left}.pager__btn--next{text-align:right}.share{display:flex;align-items:center;background-color:var(--color-box-background);box-shadow:0 0 0 1px var(--color-box-border);margin:calc(var(--lh) * 2) 0;padding:calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale))}.share__icon{fill:#1da1f2;margin-right:calc(var(--lh)/2);width:var(--fz);height:var(--fz);flex-shrink:0}.share__text{margin:0}.archive{margin-left:0;list-style:none}.archive__item{padding:calc(var(--lh)/2) 0;box-shadow:0 1px 0 0 var(--color-box-border)}.archive__link{font-weight:700;text-decoration:none;color:var(--color-text)}.archive__link:hover{color:var(--color-link)}.archive__date{margin:0;font-size:calc(var(--fz)/var(--type-scale))}code,pre{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top}pre{margin-bottom:var(--lh);padding:var(--lh);box-shadow:0 0 0 1px var(--color-box-border);overflow-x:auto}p code,li code{padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}kbd{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top;padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}.chroma{background-color:var(--color-box-background)}.chroma .err{background-color:#faa;color:#a00}.chroma .lntd{margin:0;padding:0;border:0;vertical-align:top}.chroma .lntable{display:block;width:auto;margin:0;padding:0;border:0;border-spacing:0;overflow:auto}.chroma .hl{display:block;width:100%;background-color:var(--color-box-border)}.chroma .lnt{display:block;margin-right:.4em;padding:0 .4em;opacity:.5}.chroma .ln{margin-right:.4em;padding:0 .4em}.chroma .k{color:var(--color-syntax-k);font-weight:700}.chroma .kc{color:var(--color-syntax-k);font-weight:700}.chroma .kd{color:var(--color-syntax-k);font-weight:700}.chroma .kn{color:var(--color-syntax-k);font-weight:700}.chroma .kp{color:var(--color-syntax-k)}.chroma .kr{color:var(--color-syntax-k);font-weight:700}.chroma .kt{color:#078;font-weight:700}.chroma .na{color:var(--color-syntax-na)}.chroma .nb{color:var(--color-syntax-nb)}.chroma .nc{color:#0a8;font-weight:700}.chroma .no{color:#360}.chroma .nd{color:#99f}.chroma .ni{color:#999;font-weight:700}.chroma .ne{color:#c00;font-weight:700}.chroma .nf{color:#c0f}.chroma .nl{color:#99f}.chroma .nn{color:#0cf;font-weight:700}.chroma .nt{color:var(--color-syntax-na);font-weight:700}.chroma .nv{color:#033}.chroma .s{color:var(--color-syntax-s)}.chroma .sa{color:var(--color-syntax-s)}.chroma .sb{color:var(--color-syntax-s)}.chroma .sc{color:var(--color-syntax-s)}.chroma .dl{color:var(--color-syntax-s)}.chroma .sd{color:var(--color-syntax-s);font-style:italic}.chroma .s2{color:var(--color-syntax-s)}.chroma .se{color:var(--color-syntax-s);font-weight:700}.chroma .sh{color:var(--color-syntax-s)}.chroma .si{color:#a00}.chroma .sx{color:var(--color-syntax-s)}.chroma .sr{color:#3aa}.chroma .s1{color:var(--color-syntax-s)}.chroma .ss{color:#fc3}.chroma .m{color:var(--color-syntax-m)}.chroma .mb{color:var(--color-syntax-m)}.chroma .mf{color:var(--color-syntax-m)}.chroma .mh{color:var(--color-syntax-m)}.chroma .mi{color:var(--color-syntax-m)}.chroma .il{color:var(--color-syntax-m)}.chroma .mo{color:var(--color-syntax-m)}.chroma .o{color:var(--color-syntax-o)}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#999;font-style:italic}.chroma .ch{color:#999;font-style:italic}.chroma .cm{color:#999;font-style:italic}.chroma .c1{color:#999;font-style:italic}.chroma .cs{color:#999;font-style:italic;font-weight:700}.chroma .cp{color:#099}.chroma .cpf{color:#099}.chroma .gd{background-color:#fcc}.chroma .ge{font-style:italic}.chroma .gr{color:red}.chroma .gh{color:#030;font-weight:700}.chroma .gi{background-color:#cfc}.chroma .go{color:#aaa}.chroma .gp{color:#009;font-weight:700}.chroma .gs{font-weight:700}.chroma .gu{color:#030;font-weight:700}.chroma .gt{color:#9c6}.chroma .w{color:#bbb}.update{position:relative;padding:var(--lh);background-color:var(--color-update-background);box-shadow:0 0 0 1px var(--color-update-border)}.update::before{position:absolute;top:calc(var(--lh)/-2);left:calc(var(--lh)/2);height:var(--lh);padding:0 calc(var(--lh)/2);background-color:var(--color-update-border);color:#fff;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;content:"Update"}</style></head><body><div class="wrapper wrapper--wide"><header class=header><a class=header__skip href=#main>Skip to content</a><div class=header__logo><a href=/>pawelgrzybek.com</a></div><nav><ul class=header__list><li class=header__item><a href=/about title=About>About</a></li><li class=header__item><a href=/archive title=Archive>Archive</a></li><li class=header__item><a href=/feed.xml title="RSS Feed">RSS</a></li><li class=header__item><a href=https://twitter.com/pawelgrzybek title="Pawel Grzybek on Twitter">Twitter</a></li><li class=header__item><a href=https://github.com/pawelgrzybek title="Pawel Grzybek on Github">Github</a></li></ul></nav></header></div><div class=wrapper><main id=main><article class="post js-post"><h1 class=post__title>Intro to the Web Animations API</h1><p class=post__meta>Published: <time datetime=2016-05-18>2016.05.18</time> | 10 minutes read</p><p>We have plenty of ways to animate things on the web. The answer of which one to use isn’t always easy. Each method comes with pros and cons. Should we use CSS, <code>canvas</code>, Web GL, JavaScript <code>requestAnimationFrame</code> or <code>setInterval</code>? Maybe SMIL? Oh no — this one is dead now. Maybe some external libraries like jQuery, GreenSock or VelocityJS? These are just a few possible ways to go. If you are keen to know a little bit more about these methods, I encourage you to read a fantastic article <a href=https://css-tricks.com/comparison-animation-technologies/>“A Comparison of Animation Technologies”</a> by <a href=https://twitter.com/sarah_edo>Sarah Drasner</a> on CSS-Tricks.</p><p>“Lord of the twins” is the unusual description that <a href=https://twitter.com/davatron5000>Dave Rupert</a> named the <a href=https://w3c.github.io/web-animations/>Web Animations API</a> in ShopTalk Show <a href=http://shoptalkshow.com/episodes/203-with-rachel-nabors-and-dan-wilson/>episode</a> with <a href=https://twitter.com/rachelnabors>Rachel Nabors</a> and <a href=https://twitter.com/dancwilson>Dan Wilson</a> exclusively dedicated to this piece of the W3C spec. It is a combination of hardware accelerated CSS animations and the power of JavaScript. This high-performance API exposes powerful methods that allow us to control the animation of HTML and SVG elements.</p><h2 id=are-we-ready-to-use-waapi>Are we ready to use WAAPI? <a href=#are-we-ready-to-use-waapi class=post__hash>#</a></h2><p>The Web Animations API is relatively new — the initial version of the spec was published in June 2012. At the moment of writing this article the <a href="https://caniuse.com/#feat=web-animation">browser support</a> isn’t great. Even the browsers that support it offer a very inconsistent level of implementation. If you would like to play around with the bleeding edge parts of this spec then <a href=https://nightly.mozilla.org/>Firefox Nightly build</a> is the best playground. Chrome and Opera are fine. <a href=https://groups.google.com/d/msg/mozilla.dev.platform/2INRr96R3IU/do-AigNwAwAJ>Firefox 48 is coming</a> with WAAPI implementation on board. The status of <a href=https://webkit.org/status/#specification-web-animations>Safari</a> is under consideration and the road map priority for the <a href=https://developer.microsoft.com/en-us/microsoft-edge/platform/status/webanimationsjavascriptapi>IE platform</a> is medium. The first mobile implementation very recently reached Android devices. Safari for iOS — no pressure — but we all are waiting for you.</p><p><a href="https://caniuse.com/#feat=web-animation"><img src=/photos/2016-05-18-1.jpg alt="Browser support for Web Animations API" loading=lazy width=1400 height=890></a></p><p>The good news is that there is a reliable <a href=https://github.com/web-animations/web-animations-js>polyfill</a> that provides support for Chrome, Firefox 27+, IE10+ (including Edge), Safari (iOS) 7.1+ and Safari (Mac) 9+. Actually it exists in three versions — <a href=https://github.com/web-animations/web-animations-js/blob/master/web-animations.min.js>web-animations</a> that covers support of basic stable features, <a href=https://github.com/web-animations/web-animations-js/blob/master/web-animations-next.min.js>web-animations-next</a> that allows us to use newly proposed features and <a href=https://github.com/web-animations/web-animations-js/blob/master/web-animations-next-lite.min.js>web-animations-next-lite</a> that is a stripped down version of &ldquo;next&rdquo; without some of the lesser-used properties.</p><h2 id=basic-syntax>Basic syntax <a href=#basic-syntax class=post__hash>#</a></h2><p>The heading above is the most misleading part of this article because when it comes to the Web Animations API “basic syntax” doesn’t exist. The spec is a behemoth and there are so many constructors associated with the WAAPI (with more coming soon). Let’s just cover the bare minimum that allows us to create something simple.</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=nx>element</span><span class=p>.</span><span class=nx>animate</span><span class=p>(</span><span class=nx>effect</span><span class=p>,</span> <span class=nx>options</span><span class=p>);</span>
+</code></pre></div><p>Please don&rsquo;t confuse this native <a href=https://w3c.github.io/web-animations/#dom-animatable-animate><code>animate()</code></a> function with the jQuery <a href=http://api.jquery.com/animate/><code>animate()</code></a> function - they are not related whatsoever. The first parameter <code>effect</code> describes the movement of an animation. At the moment the only natively implemented option that can be used is an array full of keyframes. In the future browsers will allow us to use an object with an array of values (the length of array represents the number of keyframes). You can think about this parameter as an equivalent to <code>@keyframes</code> in CSS.</p><p>The absolute minimum that needs to be passed in the <code>options</code> parameter is the duration in milliseconds. Luckily we can pass many more parameters to the <a href=https://w3c.github.io/web-animations/#animationeffecttiming><code>AnimationEffectTiming</code></a> object. Essentially think of this parameter as your CSS animation properties (animation-duration, animation-timing-function, animation-delay etc.).</p><h2 id=dont-believe-it-until-you-see-it>Don&rsquo;t believe it until you see it? <a href=#dont-believe-it-until-you-see-it class=post__hash>#</a></h2><p>Enough of the theoretical gibberish — time for a practical example. If you have some previous experience with CSS animations, the piece of code below should look very familiar.</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=nb>document</span><span class=p>.</span><span class=nx>querySelector</span><span class=p>(</span><span class=s1>&#39;.box&#39;</span><span class=p>).</span><span class=nx>animate</span><span class=p>(</span>
+  <span class=p>[</span>
+    <span class=p>{</span>
+      <span class=nx>offset</span><span class=o>:</span> <span class=mi>0</span><span class=p>,</span>
+      <span class=nx>transform</span><span class=o>:</span> <span class=s1>&#39;none&#39;</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nx>offset</span><span class=o>:</span> <span class=mf>0.25</span><span class=p>,</span>
+      <span class=nx>transform</span><span class=o>:</span> <span class=s1>&#39;translate(200px, 0)&#39;</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nx>offset</span><span class=o>:</span> <span class=mf>0.5</span><span class=p>,</span>
+      <span class=nx>transform</span><span class=o>:</span> <span class=s1>&#39;translate(200px, 200px)&#39;</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nx>offset</span><span class=o>:</span> <span class=mf>0.75</span><span class=p>,</span>
+      <span class=nx>transform</span><span class=o>:</span> <span class=s1>&#39;translate(0, 200px)&#39;</span>
+    <span class=p>},</span>
+    <span class=p>{</span>
+      <span class=nx>offset</span><span class=o>:</span> <span class=mi>1</span><span class=p>,</span>
+      <span class=nx>transform</span><span class=o>:</span> <span class=s1>&#39;none&#39;</span>
+    <span class=p>}</span>
+  <span class=p>],</span>
+  <span class=p>{</span>
+    <span class=nx>delay</span><span class=o>:</span> <span class=mi>500</span><span class=p>,</span>
+    <span class=nx>endDelay</span><span class=o>:</span> <span class=mi>0</span><span class=p>,</span>
+    <span class=nx>fill</span><span class=o>:</span> <span class=s1>&#39;both&#39;</span><span class=p>,</span>
+    <span class=nx>iterationStart</span><span class=o>:</span> <span class=mi>0</span><span class=p>,</span>
+    <span class=nx>iterations</span><span class=o>:</span> <span class=mi>50</span><span class=p>,</span>
+    <span class=nx>duration</span><span class=o>:</span> <span class=mi>1000</span><span class=p>,</span>
+    <span class=nx>direction</span><span class=o>:</span> <span class=s1>&#39;normal&#39;</span><span class=p>,</span>
+    <span class=nx>easing</span><span class=o>:</span> <span class=s1>&#39;cubic-bezier(.6, 0, 1, .6)&#39;</span>
+  <span class=p>}</span>
+<span class=p>);</span>
+</code></pre></div><p>As mentioned before, think about the first parameter as the CSS <code>@keyframes</code> and the second one as CSS <code>animation-*</code> properties inside of a declaration block. On every single keyframe I passed <code>offset</code> although it <a href=http://w3c.github.io/web-animations/#spacing-keyframes>could be skipped</a> in this case. I did this intentionally to show you how to control the offset of an animation — it does the same job as a percentage value in front of every CSS keyframe. It can be represented as a fraction (ie. <code>1/4</code>) or a decimal number (ie. <code>.25</code>). I used <code>endDelay</code> and <code>iterationStart</code> with a value of <code>0</code> (this is the default value when the property is not explicitly defined) to give you an overview of <a href=https://w3c.github.io/web-animations/#dom-animationeffecttimingreadonly-delay>all the possible options</a>. To make a clear comparison, have a look at the CSS animation with the properties mirrored.</p><div class=highlight><pre class=chroma><code class=language-css data-lang=css><span class=p>@</span><span class=k>keyframes</span> <span class=nt>move</span> <span class=p>{</span>
+  <span class=nt>0</span><span class=o>%</span> <span class=p>{</span>
+    <span class=k>transform</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>
+  <span class=p>}</span>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Pawel Grzybek - https://pawelgrzybek.com/">
-  <meta name="generator" content="Hugo 0.78.2" />
+  <span class=nt>25</span><span class=o>%</span> <span class=p>{</span>
+    <span class=k>transform</span><span class=p>:</span> <span class=nb>translate</span><span class=p>(</span><span class=mi>200</span><span class=kt>px</span><span class=p>,</span> <span class=mi>0</span><span class=p>);</span>
+  <span class=p>}</span>
 
-  <title>Intro to the Web Animations API | pawelgrzybek.com</title>
-  <meta name="description" content="We have many methods available to move things around on the web. Let’s embrace the power of future animations with the Web Animations API.">
+  <span class=nt>50</span><span class=o>%</span> <span class=p>{</span>
+    <span class=k>transform</span><span class=p>:</span> <span class=nb>translate</span><span class=p>(</span><span class=mi>200</span><span class=kt>px</span><span class=p>,</span> <span class=mi>200</span><span class=kt>px</span><span class=p>);</span>
+  <span class=p>}</span>
 
-  <!-- Open graph data -->
-  <meta property="og:site_name" content="pawelgrzybek.com">
-  <meta property="og:title" content="Intro to the Web Animations API | pawelgrzybek.com">
-  <meta property="og:url" content="https://pawelgrzybek.com/intro-to-the-web-animations-api/">
-  <meta property="og:type" content="article">
-  <meta property="og:description" content="We have many methods available to move things around on the web. Let’s embrace the power of future animations with the Web Animations API.">
-  <meta property="og:image" content="https://pawelgrzybek.com/photos/2016-05-18.jpg">
+  <span class=nt>75</span><span class=o>%</span> <span class=p>{</span>
+    <span class=k>transform</span><span class=p>:</span> <span class=nb>translate</span><span class=p>(</span><span class=mi>0</span><span class=p>,</span> <span class=mi>200</span><span class=kt>px</span><span class=p>);</span>
+  <span class=p>}</span>
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@pawelgrzybek" />
-  <meta name="twitter:creator" content="@pawelgrzybek" />
+  <span class=nt>100</span><span class=o>%</span> <span class=p>{</span>
+    <span class=k>transform</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>
+  <span class=p>}</span>
+<span class=p>}</span>
 
-  <!-- Standard Stuff -->
-  <link rel="canonical" href="https://pawelgrzybek.com/intro-to-the-web-animations-api/">
-  <link rel="alternate" type="application/rss+xml" title="pawelgrzybek.com" href="https://pawelgrzybek.com/feed.xml" />
-  <link rel="alternate" type="application/feed+json" title="pawelgrzybek.com" href="https://pawelgrzybek.com/feed.json" />
+<span class=p>.</span><span class=nc>box</span> <span class=p>{</span>
+  <span class=k>animation-name</span><span class=p>:</span> <span class=kc>move</span><span class=p>;</span>
+  <span class=k>animation-duration</span><span class=p>:</span> <span class=mi>1000</span><span class=kt>ms</span><span class=p>;</span>
+  <span class=k>animation-timing-function</span><span class=p>:</span> <span class=nb>cubic-bezier</span><span class=p>(</span><span class=mf>.6</span><span class=p>,</span> <span class=mi>0</span><span class=p>,</span> <span class=mi>1</span><span class=p>,</span> <span class=mf>.6</span><span class=p>);</span>
+  <span class=k>animation-delay</span><span class=p>:</span> <span class=mi>500</span><span class=kt>ms</span><span class=p>;</span>
+  <span class=k>animation-iteration-count</span><span class=p>:</span> <span class=mi>50</span><span class=p>;</span>
+  <span class=k>animation-direction</span><span class=p>:</span> <span class=kc>normal</span><span class=p>;</span>
+  <span class=k>animation-fill-mode</span><span class=p>:</span> <span class=kc>both</span><span class=p>;</span>
+  <span class=k>animation-play-state</span><span class=p>:</span> <span class=kc>running</span><span class=p>;</span>
+<span class=p>}</span>
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/assets/manifest.json">
-  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#888888">
-  <link rel="shortcut icon" href="/assets/favicon.ico">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/assets/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+<span class=c>/* or as a shorthand */</span>
 
-  <!-- Styles -->
-  
-  <style>:root{--color-text: #24292e;--color-background: #fff;--color-link: #005cc5;--color-update-background: #fbebea;--color-update-border: #edb0ab;--color-box-background: #f7f7f7;--color-box-border: #eee;--color-syntax-k: #006699;--color-syntax-s: #cc3300;--color-syntax-m: #ff6600;--color-syntax-c: #999;--color-syntax-nb: #366;--color-syntax-o: #555555;--color-syntax-na: #330099;--fz: 1rem;--fzb: 106.25%;--lh: 1.764705882rem;--type-scale: 1.25}@media screen and (min-width:764px){:root{--fzb: 112.5%;--lh: 1.77778rem}}@media(prefers-color-scheme:dark){:root{--color-text: #fafbfc;--color-background: #24292e;--color-link: #9ecbff;--color-update-background: #6d3733;--color-update-border: #522926;--color-box-background: hsl(210, 12%, 12%);--color-box-border: hsl(210, 12%, 20%);--color-syntax-k: #9ecbff;--color-syntax-s: #f97583;--color-syntax-m: #ffab70;--color-syntax-c: #6a737d;--color-syntax-nb: #28a745;--color-syntax-o: #959da5;--color-syntax-na: #fafbfc;--fz: 1rem;--lh: 1.77778rem;--type-scale: 1.25}}::selection{background:var(--color-link);color:#fff;text-shadow:none}html{font-size:var(--fzb);-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;-webkit-text-size-adjust:100%;box-sizing:border-box;scroll-behavior:smooth}*,*::before,*::after{margin:0;padding:0;box-sizing:inherit}body{background-color:var(--color-background);color:var(--color-text);font-family:-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;font-size:var(--fz);line-height:var(--lh)}img{display:block;max-width:100%;height:auto;border:0}a{background:0 0;color:var(--color-link);word-wrap:break-word}a:hover,a:focus,a:active{color:var(--color-text)}p,h1,h2,h3,h4,h5,h6{margin-bottom:var(--lh)}h1,h2,h3,h4,h5,h6{margin-top:calc(var(--lh) * 1.5);font-weight:700;text-decoration:none}h1{font-size:calc( var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale));line-height:calc(var(--lh) * 1.5)}h2{font-size:calc(var(--fz) * var(--type-scale) * var(--type-scale))}h3{font-size:calc(var(--fz) * var(--type-scale))}h4{font-size:1rem}h5{font-size:calc(var(--fz)/var(--type-scale))}h6{font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale))}ul,ol{margin:0 0 var(--lh)var(--lh)}li ul,li ol{margin:0 0 0 var(--lh)}hr{display:block;height:var(--lh);border:0;box-shadow:0 1px 0 #eee}blockquote{margin-bottom:var(--lh);padding:var(--lh);background:var(--color-box-background);box-shadow:inset 0 0 0 1px var(--color-box-border)}blockquote p{margin:0;font-style:italic}figure{margin-bottom:var(--lh)}figcaption{font-size:var(--fz)/var(--type-scale)/var(--type-scale)}.wrapper{width:100%;max-width:calc(700px + (2 * var(--lh)));margin:0 auto;padding:0 var(--lh)}.wrapper--wide{max-width:calc(900px + (2 * var(--lh)))}.header{position:relative;padding:calc(var(--lh) * 2) 0;display:flex;flex-direction:column}.header__skip{position:absolute;top:0;left:0;padding:0 calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale));transform:scale(0)}.header__skip:focus{transform:scale(1)}.header__logo{display:flex;align-items:center;justify-content:center;margin:0;font-size:calc(var(--fz));line-height:var(--lh)}.header__logo a{display:flex;flex-direction:column;align-items:center;font-weight:700;margin:0 0 calc(var(--lh)/2)}.header__logo a::before{content:"";width:calc(var(--lh) * 2);height:calc(var(--lh) * 2);margin:0 0 calc(var(--lh)/2);background-image:url(/assets/logo.jpg);background-size:100% 100%;border-radius:var(--lh)}.header__list{height:100%;display:flex;align-items:center;justify-content:center;list-style:none;margin:0}.header__item{margin-right:calc(var(--lh)/2)}.header__item:last-of-type{margin-right:0}@media screen and (min-width:764px){.header{flex-direction:row;justify-content:space-between;padding:calc(var(--lh) * 3) 0}.header__logo a{flex-direction:row;margin:0}.header__logo a::before{content:"";width:calc(var(--lh) * 2);height:calc(var(--lh) * 2);margin:0 calc(var(--lh)/2) 0 0;background-image:url(/assets/logo.jpg);background-size:100% 100%;border-radius:var(--lh)}}@media screen and (min-width:964px){.header__logo::after{font-weight:400;white-space:pre;color:var(--color-text);content:" | Software Engineer at Mindera"}}.post{margin-bottom:calc(var(--lh) * 3)}.post__title{margin-top:0}.post__url{color:var(--color-text);text-decoration:none}.post__url:hover{color:var(--color-link)}.post__meta{margin-top:calc(var(--lh) * -1);font-size:calc(var(--fz)/var(--type-scale))}.post__more{text-decoration:none;vertical-align:top}.post__hash{text-decoration:none;margin-left:calc(var(--lh)/4);color:var(--color-text);opacity:.25}.post__hash:hover{color:var(--color-link);opacity:1}.footer{color:var(--color-text);font-size:calc(var(--fz)/var(--type-scale)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top;padding:calc(var(--lh) * 2) 0}.pager{display:flex}.pager__btn{flex-grow:1;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;text-decoration:none;vertical-align:top}.pager__btn--prev{text-align:left}.pager__btn--next{text-align:right}.share{display:flex;align-items:center;background-color:var(--color-box-background);box-shadow:0 0 0 1px var(--color-box-border);margin:calc(var(--lh) * 2) 0;padding:calc(var(--lh)/2);font-size:calc(var(--fz)/var(--type-scale))}.share__icon{fill:#1da1f2;margin-right:calc(var(--lh)/2);width:var(--fz);height:var(--fz);flex-shrink:0}.share__text{margin:0}.archive{margin-left:0;list-style:none}.archive__item{padding:calc(var(--lh)/2) 0;box-shadow:0 1px 0 0 var(--color-box-border)}.archive__link{font-weight:700;text-decoration:none;color:var(--color-text)}.archive__link:hover{color:var(--color-link)}.archive__date{margin:0;font-size:calc(var(--fz)/var(--type-scale))}code,pre{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top}pre{margin-bottom:var(--lh);padding:var(--lh);box-shadow:0 0 0 1px var(--color-box-border);overflow-x:auto}p code,li code{padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}kbd{border-radius:3px;background-color:var(--color-box-background);font-family:SFMono-Regular,Consolas,liberation mono,Menlo,Courier,monospace;font-size:.888889rem;vertical-align:top;padding:4px 6px;box-shadow:0 0 0 1px var(--color-box-border)}.chroma{background-color:var(--color-box-background)}.chroma .err{background-color:#faa;color:#a00}.chroma .lntd{margin:0;padding:0;border:0;vertical-align:top}.chroma .lntable{display:block;width:auto;margin:0;padding:0;border:0;border-spacing:0;overflow:auto}.chroma .hl{display:block;width:100%;background-color:var(--color-box-border)}.chroma .lnt{display:block;margin-right:.4em;padding:0 .4em;opacity:.5}.chroma .ln{margin-right:.4em;padding:0 .4em}.chroma .k{color:var(--color-syntax-k);font-weight:700}.chroma .kc{color:var(--color-syntax-k);font-weight:700}.chroma .kd{color:var(--color-syntax-k);font-weight:700}.chroma .kn{color:var(--color-syntax-k);font-weight:700}.chroma .kp{color:var(--color-syntax-k)}.chroma .kr{color:var(--color-syntax-k);font-weight:700}.chroma .kt{color:#078;font-weight:700}.chroma .na{color:var(--color-syntax-na)}.chroma .nb{color:var(--color-syntax-nb)}.chroma .nc{color:#0a8;font-weight:700}.chroma .no{color:#360}.chroma .nd{color:#99f}.chroma .ni{color:#999;font-weight:700}.chroma .ne{color:#c00;font-weight:700}.chroma .nf{color:#c0f}.chroma .nl{color:#99f}.chroma .nn{color:#0cf;font-weight:700}.chroma .nt{color:var(--color-syntax-na);font-weight:700}.chroma .nv{color:#033}.chroma .s{color:var(--color-syntax-s)}.chroma .sa{color:var(--color-syntax-s)}.chroma .sb{color:var(--color-syntax-s)}.chroma .sc{color:var(--color-syntax-s)}.chroma .dl{color:var(--color-syntax-s)}.chroma .sd{color:var(--color-syntax-s);font-style:italic}.chroma .s2{color:var(--color-syntax-s)}.chroma .se{color:var(--color-syntax-s);font-weight:700}.chroma .sh{color:var(--color-syntax-s)}.chroma .si{color:#a00}.chroma .sx{color:var(--color-syntax-s)}.chroma .sr{color:#3aa}.chroma .s1{color:var(--color-syntax-s)}.chroma .ss{color:#fc3}.chroma .m{color:var(--color-syntax-m)}.chroma .mb{color:var(--color-syntax-m)}.chroma .mf{color:var(--color-syntax-m)}.chroma .mh{color:var(--color-syntax-m)}.chroma .mi{color:var(--color-syntax-m)}.chroma .il{color:var(--color-syntax-m)}.chroma .mo{color:var(--color-syntax-m)}.chroma .o{color:var(--color-syntax-o)}.chroma .ow{color:#000;font-weight:700}.chroma .c{color:#999;font-style:italic}.chroma .ch{color:#999;font-style:italic}.chroma .cm{color:#999;font-style:italic}.chroma .c1{color:#999;font-style:italic}.chroma .cs{color:#999;font-style:italic;font-weight:700}.chroma .cp{color:#099}.chroma .cpf{color:#099}.chroma .gd{background-color:#fcc}.chroma .ge{font-style:italic}.chroma .gr{color:red}.chroma .gh{color:#030;font-weight:700}.chroma .gi{background-color:#cfc}.chroma .go{color:#aaa}.chroma .gp{color:#009;font-weight:700}.chroma .gs{font-weight:700}.chroma .gu{color:#030;font-weight:700}.chroma .gt{color:#9c6}.chroma .w{color:#bbb}.update{position:relative;padding:var(--lh);background-color:var(--color-update-background);box-shadow:0 0 0 1px var(--color-update-border)}.update::before{position:absolute;top:calc(var(--lh)/-2);left:calc(var(--lh)/2);height:var(--lh);padding:0 calc(var(--lh)/2);background-color:var(--color-update-border);color:#fff;font-size:calc(var(--fz)/var(--type-scale));font-weight:700;content:"Update"}</style>
+<span class=p>.</span><span class=nc>box</span> <span class=p>{</span>
+  <span class=k>animation</span><span class=p>:</span> <span class=kc>move</span> <span class=mi>500</span><span class=kt>ms</span> <span class=kc>linear</span> <span class=mi>500</span><span class=kt>ms</span> <span class=mi>10</span> <span class=kc>normal</span> <span class=kc>both</span> <span class=kc>running</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></div><p>Hopefully this comparison to CSS helps make the syntax clearer. Remember — you are dealing with JS so use camel-case values from the <code>style</code> object, not the property names from CSS. For instance — <code>margin-bottom</code> is <code>marginBottom</code>. It&rsquo;s just an example, but the animation of <code>margin</code> probably isn&rsquo;t the best idea from a performance perspective. <a href=https://twitter.com/aerotwist>Paul Lewis</a> and <a href=https://twitter.com/DasSurma>Surma</a> created <a href=https://csstriggers.com/>CSS Triggers</a> - a handy reference of triggered events associated with the animation of particular CSS properties. There is no restriction - whatever you can animate with CSS you can animate via WAAPI (including fancy <a href=https://www.w3.org/TR/motion-1/>motion-path</a> animations).</p><p><img src=/photos/2016-05-18-3.jpg alt="DOM style object" loading=lazy width=1400 height=1254></p><p>Cool, but does it really generate the same effect? Not really — the behavior of JavaScript&rsquo;s <code>easing</code> and CSS' <code>animation-timing-function</code> is different. The WAAPI <a href=https://w3c.github.io/web-animations/#time-transformations>timing function</a> is applied to the whole iteration of an animation — as expected. As per <a href=https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function>MDN</a>, the CSS <code>animation-timing-function</code> is applied on each step between keyframes.</p><blockquote><p>For keyframed animations, the timing function applies between keyframes rather than over the entire animation. In other words, the timing function is applied at the start of the keyframe and at the end of the keyframe.</p></blockquote><p>Have a look&mldr;</p><h2 id=animation-methods-and-properties>Animation methods and properties <a href=#animation-methods-and-properties class=post__hash>#</a></h2><p>So far we haven&rsquo;t seen any clear advantage of using WAAPI over CSS animations. Let&rsquo;s reveal the difference between reactive JavaScript over declarative CSS. When the <code>animate()</code> function is invoked a new instance of the <a href=https://w3c.github.io/web-animations/#the-animation-interface><code>Animation</code></a> interface is returned — formerly known as <code>AnimationPlayer</code>. Assigning the animation to a variable allows us to use returned properties, methods and promises. Let&rsquo;s do it and print to the console these brand new toys.</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=kd>var</span> <span class=nx>move</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>querySelector</span><span class=p>(</span><span class=s1>&#39;.box&#39;</span><span class=p>).</span><span class=nx>animate</span><span class=p>([...],</span> <span class=p>{...});</span>
+<span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>move</span><span class=p>);</span>
+</code></pre></div><p><img src=/photos/2016-05-18-2.jpg alt="Web Animations API Animation object returned" loading=lazy width=1400 height=1228></p><p>Having access to all this goodness allows us to create more complex effects. If you haven&rsquo;t dived into the world of ES2015 Promises yet, it&rsquo;s worth taking a look at <a href=http://exploringjs.com/es6/ch_async.html>&ldquo;Asynchronous programming (background)"</a> by Dr. Axel Rauschmayer or <a href=https://ponyfoo.com/articles/es6-promises-in-depth>&ldquo;ES6 Promises in Depth&rdquo;</a> by Nicolás Bevacqua. <a href=https://twitter.com/dancwilson>Dan Wilson</a> wrote a helpful article about working with <a href=http://danielcwilson.com/blog/2016/03/animations-and-promises/>Promises in Web Animations</a>. Time for a simple example&mldr;</p><h2 id=lets-talk-about-some-constructors>Let&rsquo;s talk about some constructors <a href=#lets-talk-about-some-constructors class=post__hash>#</a></h2><p>Let&rsquo;s dive deeper. In the previous example we assigned the result of the <code>animate()</code> function to a variable. When <code>animate()</code> is invoked <a href=https://w3c.github.io/web-animations/#dom-animatable-animate>a few things happen</a> — a new <code>KeyframeEffect</code> and <code>Animation</code> object is constructed, the animation starts playing and then is returned. <a href=https://w3c.github.io/web-animations/#dom-animatable-animate>Following the documentation</a> we can manually use the <code>KeyframeEffect</code> and <code>Animation</code> global objects to instantiate a new animation. The only browser that gives us an access to both of them is Firefox Nightly. Thanks again to all amazing <a href=https://github.com/web-animations/web-animations-js>polyfill</a> creators! Have a quick look at the syntax.</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=k>new</span> <span class=nx>Animation</span><span class=p>(</span><span class=nx>effect</span><span class=p>,</span> <span class=nx>timeline</span><span class=p>)</span>
+</code></pre></div><p>In the current implementation the only valid value passed as the <code>effect</code> parameter is an instance of the <code>KeyframeEffect</code> object. I will show you some more fancy things that we can pass here in a moment.</p><p>Another parameter <code>timeline</code>, connects the newly created animation with a source of time for synchronization purposes. As far as I know the only valid value here is the default document timeline accessed by <code>document.timeline</code>. <a href=https://twitter.com/rachelnabors>Rachel Nabors</a> (a main contributor to the Web Animations API <a href=https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API>documentation on MDN</a>) suggests that in the future we may get other new cool options to use.</p><blockquote><p>&mldr;in the future there may be timelines associated with gestures or scrolling for example.</p></blockquote><p>Let&rsquo;s quickly remind ourselves how we did it previously and recreate the same animation in a manually constructed object.</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=c1>// via function
+</span><span class=c1></span><span class=kd>var</span> <span class=nx>element</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>querySelector</span><span class=p>(</span><span class=s1>&#39;.anime-js&#39;</span><span class=p>);</span>
+<span class=kd>var</span> <span class=nx>effect</span> <span class=o>=</span> <span class=p>[...];</span>
+<span class=kd>var</span> <span class=nx>options</span> <span class=o>=</span> <span class=p>{...};</span>
 
-</head>
+<span class=kd>var</span> <span class=nx>move</span> <span class=o>=</span> <span class=nx>element</span><span class=p>.</span><span class=nx>animate</span><span class=p>(</span><span class=nx>effect</span><span class=p>,</span> <span class=nx>options</span><span class=p>);</span>
+</code></pre></div><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=c1>// via constructors
+</span><span class=c1></span><span class=kd>var</span> <span class=nx>element</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>querySelector</span><span class=p>(</span><span class=s1>&#39;.anime-js&#39;</span><span class=p>);</span>
+<span class=kd>var</span> <span class=nx>effect</span> <span class=o>=</span> <span class=p>[...];</span>
+<span class=kd>var</span> <span class=nx>options</span> <span class=o>=</span> <span class=p>{...};</span>
 
-  <body>
-    <div class="wrapper wrapper--wide">
-      <header class="header">
-  <a class="header__skip" href="#main">Skip to content</a>
+<span class=kd>var</span> <span class=nx>keyframes</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>KeyframeEffect</span><span class=p>(</span><span class=nx>element</span><span class=p>,</span> <span class=nx>effect</span><span class=p>,</span> <span class=nx>options</span><span class=p>);</span>
+<span class=kd>var</span> <span class=nx>move</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>Animation</span><span class=p>(</span><span class=nx>keyframes</span><span class=p>,</span> <span class=nx>element</span><span class=p>.</span><span class=nx>ownerDocument</span><span class=p>.</span><span class=nx>timeline</span><span class=p>);</span>
+<span class=nx>move</span><span class=p>.</span><span class=nx>play</span><span class=p>();</span>
+</code></pre></div><p>At this point you are probably thinking &ldquo;Yeah, cool, but why should I bother about constructors if I can use the <code>animate()</code> function&rdquo;. Wait for it!</p><h2 id=groupeffects-and-sequenceeffects>GroupEffects and SequenceEffects <a href=#groupeffects-and-sequenceeffects class=post__hash>#</a></h2><p>As I mentioned before, for the time being the only natively implemented property that can be used to determine the effect of an animation is <code>KeyframeEffect</code>. In the future level 2 spec <a href=https://twitter.com/rachelnabors/status/631545063965720576>we will</a> have the opportunity to use more sophisticated constructors like <code>GroupEffect</code> and <code>SequenceEffect</code>. It&rsquo;s possible to apply a group of animations via CSS but chaining animations together has always been a pain in the arse. More good news — a polyfill allows us to do this today. Examples!</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=kd>var</span> <span class=nx>elem1</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>querySelector</span><span class=p>(</span><span class=s1>&#39;.box1&#39;</span><span class=p>);</span>
+<span class=kd>var</span> <span class=nx>elem2</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>querySelector</span><span class=p>(</span><span class=s1>&#39;.box2&#39;</span><span class=p>);</span>
 
-  
-  <div class="header__logo">
-    <a href="/">pawelgrzybek.com</a>
-  </div>
-  
+<span class=kd>var</span> <span class=nx>keyframes</span> <span class=o>=</span> <span class=p>{</span>
+  <span class=nx>transform</span><span class=o>:</span> <span class=p>[</span><span class=s1>&#39;none&#39;</span><span class=p>,</span> <span class=s1>&#39;translate(200px, 0)&#39;</span><span class=p>,</span> <span class=s1>&#39;translate(200px, 200px)&#39;</span><span class=p>,</span> <span class=s1>&#39;translate(0, 200px)&#39;</span><span class=p>,</span> <span class=s1>&#39;none&#39;</span><span class=p>]</span>
+<span class=p>};</span>
 
-  <nav>
-    <ul class="header__list">
-      <li class="header__item">
-        <a href="/about" title="About">About</a>
-      </li>
-      <li class="header__item">
-        <a href="/archive" title="Archive">Archive</a>
-      </li>
-      <li class="header__item">
-        <a href="/feed.xml" title="RSS Feed">RSS</a>
-      </li>
-      <li class="header__item">
-        <a
-          href="https://twitter.com/pawelgrzybek"
-          title="Pawel Grzybek on Twitter"
-          >Twitter</a
-        >
-      </li>
-      <li class="header__item">
-        <a
-          href="https://github.com/pawelgrzybek"
-          title="Pawel Grzybek on Github"
-          >Github</a
-        >
-      </li>
-    </ul>
-  </nav>
-</header>
+<span class=kd>var</span> <span class=nx>props</span> <span class=o>=</span> <span class=p>{</span>
+  <span class=nx>duration</span><span class=o>:</span> <span class=mi>1000</span><span class=p>,</span>
+  <span class=nx>easing</span><span class=o>:</span> <span class=s1>&#39;cubic-bezier(.6, 0, 1, .6)&#39;</span><span class=p>,</span>
+  <span class=nx>iterations</span><span class=o>:</span> <span class=mi>50</span><span class=p>,</span>
+  <span class=nx>direction</span><span class=o>:</span> <span class=s1>&#39;normal&#39;</span><span class=p>,</span>
+  <span class=nx>delay</span><span class=o>:</span> <span class=mi>500</span><span class=p>,</span>
+  <span class=nx>fill</span><span class=o>:</span> <span class=s1>&#39;both&#39;</span>
+<span class=p>};</span>
 
-    </div>
+<span class=kd>var</span> <span class=nx>group</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>GroupEffect</span><span class=p>(</span>
+  <span class=p>[</span>
+    <span class=k>new</span> <span class=nx>KeyframeEffect</span><span class=p>(</span><span class=nx>elem1</span><span class=p>,</span> <span class=nx>keyframes</span><span class=p>,</span> <span class=nx>props</span><span class=p>),</span>
+    <span class=k>new</span> <span class=nx>KeyframeEffect</span><span class=p>(</span><span class=nx>elem2</span><span class=p>,</span> <span class=nx>keyframes</span><span class=p>,</span> <span class=nx>props</span><span class=p>)</span>
+  <span class=p>]</span>
+<span class=p>);</span>
 
-    <div class="wrapper">
-      <main id="main">
-        
+<span class=kd>var</span> <span class=nx>move</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>Animation</span><span class=p>(</span><span class=nx>group</span><span class=p>,</span> <span class=nb>document</span><span class=p>.</span><span class=nx>timeline</span><span class=p>);</span>
+</code></pre></div><p>And one more for <code>SequenceEffects</code>.</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=kd>var</span> <span class=nx>elem1</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>querySelector</span><span class=p>(</span><span class=s1>&#39;.box1&#39;</span><span class=p>);</span>
+<span class=kd>var</span> <span class=nx>elem2</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>querySelector</span><span class=p>(</span><span class=s1>&#39;.box2&#39;</span><span class=p>);</span>
+<span class=kd>var</span> <span class=nx>elem3</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>querySelector</span><span class=p>(</span><span class=s1>&#39;.box3&#39;</span><span class=p>);</span>
 
-      <!-- post -->
-      <article class="post js-post">
-        <h1 class="post__title">Intro to the Web Animations API</h1>
+<span class=kd>var</span> <span class=nx>keyframes</span> <span class=o>=</span> <span class=p>{</span>
+  <span class=nx>transform</span><span class=o>:</span> <span class=p>[</span><span class=s1>&#39;none&#39;</span><span class=p>,</span> <span class=s1>&#39;translate(100px, 0)&#39;</span><span class=p>,</span> <span class=s1>&#39;translate(100px, 200px)&#39;</span><span class=p>,</span> <span class=s1>&#39;translate(0, 200px)&#39;</span><span class=p>,</span> <span class=s1>&#39;none&#39;</span><span class=p>]</span>
+<span class=p>};</span>
 
-        
-        <p class="post__meta">Published: <time datetime="2016-05-18">2016.05.18</time> | 10 minutes read</p>
-        
+<span class=kd>var</span> <span class=nx>group</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>SequenceEffect</span><span class=p>(</span>
+  <span class=p>[</span>
+    <span class=k>new</span> <span class=nx>KeyframeEffect</span><span class=p>(</span><span class=nx>elem1</span><span class=p>,</span> <span class=nx>keyframes</span><span class=p>,</span> <span class=mi>3000</span><span class=p>),</span>
+    <span class=k>new</span> <span class=nx>KeyframeEffect</span><span class=p>(</span><span class=nx>elem2</span><span class=p>,</span> <span class=nx>keyframes</span><span class=p>,</span> <span class=mi>2000</span><span class=p>),</span>
+    <span class=k>new</span> <span class=nx>KeyframeEffect</span><span class=p>(</span><span class=nx>elem3</span><span class=p>,</span> <span class=nx>keyframes</span><span class=p>,</span> <span class=mi>1000</span><span class=p>),</span>
+    <span class=k>new</span> <span class=nx>KeyframeEffect</span><span class=p>(</span><span class=nx>elem1</span><span class=p>,</span> <span class=nx>keyframes</span><span class=p>,</span> <span class=mi>3000</span><span class=p>),</span>
+    <span class=k>new</span> <span class=nx>KeyframeEffect</span><span class=p>(</span><span class=nx>elem2</span><span class=p>,</span> <span class=nx>keyframes</span><span class=p>,</span> <span class=mi>2000</span><span class=p>),</span>
+    <span class=k>new</span> <span class=nx>KeyframeEffect</span><span class=p>(</span><span class=nx>elem3</span><span class=p>,</span> <span class=nx>keyframes</span><span class=p>,</span> <span class=mi>1000</span><span class=p>)</span>
+  <span class=p>]</span>
+<span class=p>);</span>
 
-        <p>We have plenty of ways to animate things on the web. The answer of which one to use isn’t always easy. Each method comes with pros and cons. Should we use CSS, <code>canvas</code>, Web GL, JavaScript <code>requestAnimationFrame</code> or <code>setInterval</code>? Maybe SMIL? Oh no — this one is dead now. Maybe some external libraries like jQuery, GreenSock or VelocityJS? These are just a few possible ways to go. If you are keen to know a little bit more about these methods, I encourage you to read a fantastic article <a href="https://css-tricks.com/comparison-animation-technologies/">“A Comparison of Animation Technologies”</a> by <a href="https://twitter.com/sarah_edo">Sarah Drasner</a> on CSS-Tricks.</p>
-<p>“Lord of the twins” is the unusual description that <a href="https://twitter.com/davatron5000">Dave Rupert</a> named the <a href="https://w3c.github.io/web-animations/">Web Animations API</a> in ShopTalk Show <a href="http://shoptalkshow.com/episodes/203-with-rachel-nabors-and-dan-wilson/">episode</a> with <a href="https://twitter.com/rachelnabors">Rachel Nabors</a> and <a href="https://twitter.com/dancwilson">Dan Wilson</a> exclusively dedicated to this piece of the W3C spec. It is a combination of hardware accelerated CSS animations and the power of JavaScript. This high-performance API exposes powerful methods that allow us to control the animation of HTML and SVG elements.</p>
-<h2 id="are-we-ready-to-use-waapi">Are we ready to use WAAPI? <a href="#are-we-ready-to-use-waapi" class="post__hash">#</a></h2>
-<p>The Web Animations API is relatively new — the initial version of the spec was published in June 2012. At the moment of writing this article the <a href="https://caniuse.com/#feat=web-animation">browser support</a> isn’t great. Even the browsers that support it offer a very inconsistent level of implementation. If you would like to play around with the bleeding edge parts of this spec then <a href="https://nightly.mozilla.org/">Firefox Nightly build</a> is the best playground. Chrome and Opera are fine. <a href="https://groups.google.com/d/msg/mozilla.dev.platform/2INRr96R3IU/do-AigNwAwAJ">Firefox 48 is coming</a> with WAAPI implementation on board. The status of <a href="https://webkit.org/status/#specification-web-animations">Safari</a> is under consideration and the road map priority for the <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/status/webanimationsjavascriptapi">IE platform</a> is medium. The first mobile implementation very recently reached Android devices. Safari for iOS — no pressure — but we all are waiting for you.</p>
-<p><a href="https://caniuse.com/#feat=web-animation">
-
-<img
-  src="/photos/2016-05-18-1.jpg"
-  alt="Browser support for Web Animations API"
-  loading="lazy"
-  width="1400"
-  height="890"
-/>
-</a></p>
-<p>The good news is that there is a reliable <a href="https://github.com/web-animations/web-animations-js">polyfill</a> that provides support for Chrome, Firefox 27+, IE10+ (including Edge), Safari (iOS) 7.1+ and Safari (Mac) 9+. Actually it exists in three versions — <a href="https://github.com/web-animations/web-animations-js/blob/master/web-animations.min.js">web-animations</a> that covers support of basic stable features, <a href="https://github.com/web-animations/web-animations-js/blob/master/web-animations-next.min.js">web-animations-next</a> that allows us to use newly proposed features and <a href="https://github.com/web-animations/web-animations-js/blob/master/web-animations-next-lite.min.js">web-animations-next-lite</a> that is a stripped down version of &ldquo;next&rdquo; without some of the lesser-used properties.</p>
-<h2 id="basic-syntax">Basic syntax <a href="#basic-syntax" class="post__hash">#</a></h2>
-<p>The heading above is the most misleading part of this article because when it comes to the Web Animations API “basic syntax” doesn’t exist. The spec is a behemoth and there are so many constructors associated with the WAAPI (with more coming soon). Let’s just cover the bare minimum that allows us to create something simple.</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">element</span><span class="p">.</span><span class="nx">animate</span><span class="p">(</span><span class="nx">effect</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
-</code></pre></div><p>Please don&rsquo;t confuse this native <a href="https://w3c.github.io/web-animations/#dom-animatable-animate"><code>animate()</code></a> function with the jQuery <a href="http://api.jquery.com/animate/"><code>animate()</code></a> function - they are not related whatsoever. The first parameter <code>effect</code> describes the movement of an animation. At the moment the only natively implemented option that can be used is an array full of keyframes. In the future browsers will allow us to use an object with an array of values (the length of array represents the number of keyframes). You can think about this parameter as an equivalent to <code>@keyframes</code> in CSS.</p>
-<p>The absolute minimum that needs to be passed in the <code>options</code> parameter is the duration in milliseconds. Luckily we can pass many more parameters to the <a href="https://w3c.github.io/web-animations/#animationeffecttiming"><code>AnimationEffectTiming</code></a> object. Essentially think of this parameter as your CSS animation properties (animation-duration, animation-timing-function, animation-delay etc.).</p>
-<h2 id="dont-believe-it-until-you-see-it">Don&rsquo;t believe it until you see it? <a href="#dont-believe-it-until-you-see-it" class="post__hash">#</a></h2>
-<p>Enough of the theoretical gibberish — time for a practical example. If you have some previous experience with CSS animations, the piece of code below should look very familiar.</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.box&#39;</span><span class="p">).</span><span class="nx">animate</span><span class="p">(</span>
-  <span class="p">[</span>
-    <span class="p">{</span>
-      <span class="nx">offset</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
-      <span class="nx">transform</span><span class="o">:</span> <span class="s1">&#39;none&#39;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="nx">offset</span><span class="o">:</span> <span class="mf">0.25</span><span class="p">,</span>
-      <span class="nx">transform</span><span class="o">:</span> <span class="s1">&#39;translate(200px, 0)&#39;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="nx">offset</span><span class="o">:</span> <span class="mf">0.5</span><span class="p">,</span>
-      <span class="nx">transform</span><span class="o">:</span> <span class="s1">&#39;translate(200px, 200px)&#39;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="nx">offset</span><span class="o">:</span> <span class="mf">0.75</span><span class="p">,</span>
-      <span class="nx">transform</span><span class="o">:</span> <span class="s1">&#39;translate(0, 200px)&#39;</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="nx">offset</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
-      <span class="nx">transform</span><span class="o">:</span> <span class="s1">&#39;none&#39;</span>
-    <span class="p">}</span>
-  <span class="p">],</span>
-  <span class="p">{</span>
-    <span class="nx">delay</span><span class="o">:</span> <span class="mi">500</span><span class="p">,</span>
-    <span class="nx">endDelay</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
-    <span class="nx">fill</span><span class="o">:</span> <span class="s1">&#39;both&#39;</span><span class="p">,</span>
-    <span class="nx">iterationStart</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
-    <span class="nx">iterations</span><span class="o">:</span> <span class="mi">50</span><span class="p">,</span>
-    <span class="nx">duration</span><span class="o">:</span> <span class="mi">1000</span><span class="p">,</span>
-    <span class="nx">direction</span><span class="o">:</span> <span class="s1">&#39;normal&#39;</span><span class="p">,</span>
-    <span class="nx">easing</span><span class="o">:</span> <span class="s1">&#39;cubic-bezier(.6, 0, 1, .6)&#39;</span>
-  <span class="p">}</span>
-<span class="p">);</span>
-</code></pre></div><p>As mentioned before, think about the first parameter as the CSS <code>@keyframes</code> and the second one as CSS <code>animation-*</code> properties inside of a declaration block. On every single keyframe I passed <code>offset</code> although it <a href="http://w3c.github.io/web-animations/#spacing-keyframes">could be skipped</a> in this case. I did this intentionally to show you how to control the offset of an animation — it does the same job as a percentage value in front of every CSS keyframe. It can be represented as a fraction (ie. <code>1/4</code>) or a decimal number (ie. <code>.25</code>). I used <code>endDelay</code> and <code>iterationStart</code> with a value of <code>0</code> (this is the default value when the property is not explicitly defined) to give you an overview of <a href="https://w3c.github.io/web-animations/#dom-animationeffecttimingreadonly-delay">all the possible options</a>. To make a clear comparison, have a look at the CSS animation with the properties mirrored.</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">@</span><span class="k">keyframes</span> <span class="nt">move</span> <span class="p">{</span>
-  <span class="nt">0</span><span class="o">%</span> <span class="p">{</span>
-    <span class="k">transform</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-  <span class="p">}</span>
-
-  <span class="nt">25</span><span class="o">%</span> <span class="p">{</span>
-    <span class="k">transform</span><span class="p">:</span> <span class="nb">translate</span><span class="p">(</span><span class="mi">200</span><span class="kt">px</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
-  <span class="p">}</span>
-
-  <span class="nt">50</span><span class="o">%</span> <span class="p">{</span>
-    <span class="k">transform</span><span class="p">:</span> <span class="nb">translate</span><span class="p">(</span><span class="mi">200</span><span class="kt">px</span><span class="p">,</span> <span class="mi">200</span><span class="kt">px</span><span class="p">);</span>
-  <span class="p">}</span>
-
-  <span class="nt">75</span><span class="o">%</span> <span class="p">{</span>
-    <span class="k">transform</span><span class="p">:</span> <span class="nb">translate</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">200</span><span class="kt">px</span><span class="p">);</span>
-  <span class="p">}</span>
-
-  <span class="nt">100</span><span class="o">%</span> <span class="p">{</span>
-    <span class="k">transform</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">box</span> <span class="p">{</span>
-  <span class="k">animation-name</span><span class="p">:</span> <span class="kc">move</span><span class="p">;</span>
-  <span class="k">animation-duration</span><span class="p">:</span> <span class="mi">1000</span><span class="kt">ms</span><span class="p">;</span>
-  <span class="k">animation-timing-function</span><span class="p">:</span> <span class="nb">cubic-bezier</span><span class="p">(</span><span class="mf">.6</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">.6</span><span class="p">);</span>
-  <span class="k">animation-delay</span><span class="p">:</span> <span class="mi">500</span><span class="kt">ms</span><span class="p">;</span>
-  <span class="k">animation-iteration-count</span><span class="p">:</span> <span class="mi">50</span><span class="p">;</span>
-  <span class="k">animation-direction</span><span class="p">:</span> <span class="kc">normal</span><span class="p">;</span>
-  <span class="k">animation-fill-mode</span><span class="p">:</span> <span class="kc">both</span><span class="p">;</span>
-  <span class="k">animation-play-state</span><span class="p">:</span> <span class="kc">running</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="c">/* or as a shorthand */</span>
-
-<span class="p">.</span><span class="nc">box</span> <span class="p">{</span>
-  <span class="k">animation</span><span class="p">:</span> <span class="kc">move</span> <span class="mi">500</span><span class="kt">ms</span> <span class="kc">linear</span> <span class="mi">500</span><span class="kt">ms</span> <span class="mi">10</span> <span class="kc">normal</span> <span class="kc">both</span> <span class="kc">running</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div><p>Hopefully this comparison to CSS helps make the syntax clearer. Remember — you are dealing with JS so use camel-case values from the <code>style</code> object, not the property names from CSS. For instance — <code>margin-bottom</code> is <code>marginBottom</code>. It&rsquo;s just an example, but the animation of <code>margin</code> probably isn&rsquo;t the best idea from a performance perspective. <a href="https://twitter.com/aerotwist">Paul Lewis</a> and <a href="https://twitter.com/DasSurma">Surma</a> created  <a href="https://csstriggers.com/">CSS Triggers</a> - a handy reference of triggered events associated with the animation of particular CSS properties. There is no restriction - whatever you can animate with CSS you can animate via WAAPI (including fancy <a href="https://www.w3.org/TR/motion-1/">motion-path</a> animations).</p>
-<p>
-
-<img
-  src="/photos/2016-05-18-3.jpg"
-  alt="DOM style object"
-  loading="lazy"
-  width="1400"
-  height="1254"
-/>
-</p>
-<p>Cool, but does it really generate the same effect? Not really — the behavior of JavaScript&rsquo;s <code>easing</code> and CSS' <code>animation-timing-function</code> is different. The WAAPI <a href="https://w3c.github.io/web-animations/#time-transformations">timing function</a> is applied to the whole iteration of an animation — as expected. As per <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function">MDN</a>, the CSS <code>animation-timing-function</code> is applied on each step between keyframes.</p>
-<blockquote>
-<p>For keyframed animations, the timing function applies between keyframes rather than over the entire animation. In other words, the timing function is applied at the start of the keyframe and at the end of the keyframe.</p>
-</blockquote>
-<p>Have a look&hellip;</p>
-<!-- raw HTML omitted -->
-<h2 id="animation-methods-and-properties">Animation methods and properties <a href="#animation-methods-and-properties" class="post__hash">#</a></h2>
-<p>So far we haven&rsquo;t seen any clear advantage of using WAAPI over CSS animations. Let&rsquo;s reveal the difference between reactive JavaScript over declarative CSS. When the <code>animate()</code> function is invoked a new instance of the <a href="https://w3c.github.io/web-animations/#the-animation-interface"><code>Animation</code></a> interface is returned — formerly known as <code>AnimationPlayer</code>. Assigning the animation to a variable allows us to use returned properties, methods and promises. Let&rsquo;s do it and print to the console these brand new toys.</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">move</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.box&#39;</span><span class="p">).</span><span class="nx">animate</span><span class="p">([...],</span> <span class="p">{...});</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">move</span><span class="p">);</span>
-</code></pre></div><p>
-
-<img
-  src="/photos/2016-05-18-2.jpg"
-  alt="Web Animations API Animation object returned"
-  loading="lazy"
-  width="1400"
-  height="1228"
-/>
-</p>
-<p>Having access to all this goodness allows us to create more complex effects. If you haven&rsquo;t dived into the world of ES2015 Promises yet, it&rsquo;s worth taking a look at <a href="http://exploringjs.com/es6/ch_async.html">&ldquo;Asynchronous programming (background)&quot;</a> by Dr. Axel Rauschmayer or <a href="https://ponyfoo.com/articles/es6-promises-in-depth">&ldquo;ES6 Promises in Depth&rdquo;</a> by Nicolás Bevacqua. <a href="https://twitter.com/dancwilson">Dan Wilson</a> wrote a helpful article about working with <a href="http://danielcwilson.com/blog/2016/03/animations-and-promises/">Promises in Web Animations</a>. Time for a simple example&hellip;</p>
-<!-- raw HTML omitted -->
-<h2 id="lets-talk-about-some-constructors">Let&rsquo;s talk about some constructors <a href="#lets-talk-about-some-constructors" class="post__hash">#</a></h2>
-<p>Let&rsquo;s dive deeper. In the previous example we assigned the result of the <code>animate()</code> function to a variable. When <code>animate()</code> is invoked <a href="https://w3c.github.io/web-animations/#dom-animatable-animate">a few things happen</a> — a new <code>KeyframeEffect</code> and <code>Animation</code> object is constructed, the animation starts playing and then is returned. <a href="https://w3c.github.io/web-animations/#dom-animatable-animate">Following the documentation</a> we can manually use the <code>KeyframeEffect</code> and <code>Animation</code> global objects to instantiate a new animation. The only browser that gives us an access to both of them is Firefox Nightly. Thanks again to all amazing <a href="https://github.com/web-animations/web-animations-js">polyfill</a> creators! Have a quick look at the syntax.</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="k">new</span> <span class="nx">Animation</span><span class="p">(</span><span class="nx">effect</span><span class="p">,</span> <span class="nx">timeline</span><span class="p">)</span>
-</code></pre></div><p>In the current implementation the only valid value passed as the <code>effect</code> parameter is an instance of the <code>KeyframeEffect</code> object. I will show you some more fancy things that we can pass here in a moment.</p>
-<p>Another parameter <code>timeline</code>, connects the newly created animation with a source of time for synchronization purposes. As far as I know the only valid value here is the default document timeline accessed by <code>document.timeline</code>. <a href="https://twitter.com/rachelnabors">Rachel Nabors</a> (a main contributor to the Web Animations API <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">documentation on MDN</a>) suggests that in the future we may get other new cool options to use.</p>
-<blockquote>
-<p>&hellip;in the future there may be timelines associated with gestures or scrolling for example.</p>
-</blockquote>
-<p>Let&rsquo;s quickly remind ourselves how we did it previously and recreate the same animation in a manually constructed object.</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// via function
-</span><span class="c1"></span><span class="kd">var</span> <span class="nx">element</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.anime-js&#39;</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">effect</span> <span class="o">=</span> <span class="p">[...];</span>
-<span class="kd">var</span> <span class="nx">options</span> <span class="o">=</span> <span class="p">{...};</span>
-
-<span class="kd">var</span> <span class="nx">move</span> <span class="o">=</span> <span class="nx">element</span><span class="p">.</span><span class="nx">animate</span><span class="p">(</span><span class="nx">effect</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// via constructors
-</span><span class="c1"></span><span class="kd">var</span> <span class="nx">element</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.anime-js&#39;</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">effect</span> <span class="o">=</span> <span class="p">[...];</span>
-<span class="kd">var</span> <span class="nx">options</span> <span class="o">=</span> <span class="p">{...};</span>
-
-<span class="kd">var</span> <span class="nx">keyframes</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">KeyframeEffect</span><span class="p">(</span><span class="nx">element</span><span class="p">,</span> <span class="nx">effect</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">move</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Animation</span><span class="p">(</span><span class="nx">keyframes</span><span class="p">,</span> <span class="nx">element</span><span class="p">.</span><span class="nx">ownerDocument</span><span class="p">.</span><span class="nx">timeline</span><span class="p">);</span>
-<span class="nx">move</span><span class="p">.</span><span class="nx">play</span><span class="p">();</span>
-</code></pre></div><!-- raw HTML omitted -->
-<p>At this point you are probably thinking &ldquo;Yeah, cool, but why should I bother about constructors if I can use the <code>animate()</code> function&rdquo;. Wait for it!</p>
-<h2 id="groupeffects-and-sequenceeffects">GroupEffects and SequenceEffects <a href="#groupeffects-and-sequenceeffects" class="post__hash">#</a></h2>
-<p>As I mentioned before, for the time being the only natively implemented property that can be used to determine the effect of an animation is <code>KeyframeEffect</code>. In the future level 2 spec <a href="https://twitter.com/rachelnabors/status/631545063965720576">we will</a> have the opportunity to use more sophisticated constructors like <code>GroupEffect</code> and <code>SequenceEffect</code>. It&rsquo;s possible to apply a group of animations via CSS but chaining animations together has always been a pain in the arse. More good news — a polyfill allows us to do this today. Examples!</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">elem1</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.box1&#39;</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">elem2</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.box2&#39;</span><span class="p">);</span>
-
-<span class="kd">var</span> <span class="nx">keyframes</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="nx">transform</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;none&#39;</span><span class="p">,</span> <span class="s1">&#39;translate(200px, 0)&#39;</span><span class="p">,</span> <span class="s1">&#39;translate(200px, 200px)&#39;</span><span class="p">,</span> <span class="s1">&#39;translate(0, 200px)&#39;</span><span class="p">,</span> <span class="s1">&#39;none&#39;</span><span class="p">]</span>
-<span class="p">};</span>
-
-<span class="kd">var</span> <span class="nx">props</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="nx">duration</span><span class="o">:</span> <span class="mi">1000</span><span class="p">,</span>
-  <span class="nx">easing</span><span class="o">:</span> <span class="s1">&#39;cubic-bezier(.6, 0, 1, .6)&#39;</span><span class="p">,</span>
-  <span class="nx">iterations</span><span class="o">:</span> <span class="mi">50</span><span class="p">,</span>
-  <span class="nx">direction</span><span class="o">:</span> <span class="s1">&#39;normal&#39;</span><span class="p">,</span>
-  <span class="nx">delay</span><span class="o">:</span> <span class="mi">500</span><span class="p">,</span>
-  <span class="nx">fill</span><span class="o">:</span> <span class="s1">&#39;both&#39;</span>
-<span class="p">};</span>
-
-<span class="kd">var</span> <span class="nx">group</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">GroupEffect</span><span class="p">(</span>
-  <span class="p">[</span>
-    <span class="k">new</span> <span class="nx">KeyframeEffect</span><span class="p">(</span><span class="nx">elem1</span><span class="p">,</span> <span class="nx">keyframes</span><span class="p">,</span> <span class="nx">props</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">KeyframeEffect</span><span class="p">(</span><span class="nx">elem2</span><span class="p">,</span> <span class="nx">keyframes</span><span class="p">,</span> <span class="nx">props</span><span class="p">)</span>
-  <span class="p">]</span>
-<span class="p">);</span>
-
-<span class="kd">var</span> <span class="nx">move</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Animation</span><span class="p">(</span><span class="nx">group</span><span class="p">,</span> <span class="nb">document</span><span class="p">.</span><span class="nx">timeline</span><span class="p">);</span>
-</code></pre></div><!-- raw HTML omitted -->
-<p>And one more for <code>SequenceEffects</code>.</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">elem1</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.box1&#39;</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">elem2</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.box2&#39;</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">elem3</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.box3&#39;</span><span class="p">);</span>
-
-<span class="kd">var</span> <span class="nx">keyframes</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="nx">transform</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;none&#39;</span><span class="p">,</span> <span class="s1">&#39;translate(100px, 0)&#39;</span><span class="p">,</span> <span class="s1">&#39;translate(100px, 200px)&#39;</span><span class="p">,</span> <span class="s1">&#39;translate(0, 200px)&#39;</span><span class="p">,</span> <span class="s1">&#39;none&#39;</span><span class="p">]</span>
-<span class="p">};</span>
-
-<span class="kd">var</span> <span class="nx">group</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">SequenceEffect</span><span class="p">(</span>
-  <span class="p">[</span>
-    <span class="k">new</span> <span class="nx">KeyframeEffect</span><span class="p">(</span><span class="nx">elem1</span><span class="p">,</span> <span class="nx">keyframes</span><span class="p">,</span> <span class="mi">3000</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">KeyframeEffect</span><span class="p">(</span><span class="nx">elem2</span><span class="p">,</span> <span class="nx">keyframes</span><span class="p">,</span> <span class="mi">2000</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">KeyframeEffect</span><span class="p">(</span><span class="nx">elem3</span><span class="p">,</span> <span class="nx">keyframes</span><span class="p">,</span> <span class="mi">1000</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">KeyframeEffect</span><span class="p">(</span><span class="nx">elem1</span><span class="p">,</span> <span class="nx">keyframes</span><span class="p">,</span> <span class="mi">3000</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">KeyframeEffect</span><span class="p">(</span><span class="nx">elem2</span><span class="p">,</span> <span class="nx">keyframes</span><span class="p">,</span> <span class="mi">2000</span><span class="p">),</span>
-    <span class="k">new</span> <span class="nx">KeyframeEffect</span><span class="p">(</span><span class="nx">elem3</span><span class="p">,</span> <span class="nx">keyframes</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
-  <span class="p">]</span>
-<span class="p">);</span>
-
-<span class="kd">var</span> <span class="nx">move</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Animation</span><span class="p">(</span><span class="nx">group</span><span class="p">,</span> <span class="nb">document</span><span class="p">.</span><span class="nx">timeline</span><span class="p">);</span>
-</code></pre></div><!-- raw HTML omitted -->
-<p>The only thing that confuses me with these two examples is that the animation is playing without invoking a <code>play()</code> method. If anyone can help me to understand this, I owe you a coffee / beer. I promise!</p>
-<h2 id="people-worth-following-and-useful-resources">People worth following and useful resources <a href="#people-worth-following-and-useful-resources" class="post__hash">#</a></h2>
-<ul>
-<li><a href="https://twitter.com/brianskold">Brian Birtles</a> - a main contributor to the <a href="https://w3c.github.io/web-animations/">Web Animations API</a> spec. Works for Mozilla in Japan.</li>
-<li><a href="https://twitter.com/rachelnabors">Rachel Nabors</a> - a main contributor to the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">documentation on MDN</a>. Part-time <a href="https://twitter.com/rachelnabors/status/731922035190824960">unicorn</a>.</li>
-<li><a href="https://twitter.com/dancwilson">Dan Wilson</a> - author of a great <a href="http://danielcwilson.com/blog/2015/07/animations-intro/">series about WAAPI</a> that ranks higher on Google than the MDN and W3C spec. I learned a lot from his blog!</li>
-<li><a href="https://twitter.com/vlh">Val Head</a> - Val has dedicated her life to animations. Author of a cool newsletter <a href="http://uianimationnewsletter.com">&ldquo;The UI Animation Newsletter&rdquo;</a>.</li>
-<li><a href="https://twitter.com/sarah_edo">Sarah Drasner</a> - she is amazing in general! React, SVG, CSS and of course animations. Author of the fantastic course — <a href="https://frontendmasters.com/courses/svg-animation/">&ldquo;Advanced SVG Animation&rdquo;</a> available for all <a href="https://frontendmasters.com">Frontend Masters</a> users.</li>
-<li><a href="https://youtu.be/ep0_0W0qWsc">&ldquo;Silky smooth Web Animations&rdquo;</a> - some time ago when the Chrome browser reached version 36, Google published this great explanation of the Web Animations API on their YouTube channel.</li>
-<li><a href="https://platform-status.mozilla.org/#web-animations">Web Animations API on Platform status</a> - track the progress of the implementation yourself.</li>
-<li><a href="https://birtles.github.io/areweanimatedyet/">“Are we animated yet?”</a> - a dedicated website that shows the implementation progress of all the future parts of the spec in Firefox Nightly.</li>
-<li><a href="http://codepen.io/danwilson/pen/XmWraY">WAAPI Browser Support Test</a> - check your browser compatibility on Codepen. Created by Dan Wilson mentioned above.</li>
-<li><a href="https://youtu.be/GxOq1bnlZXk">State of the Animation with Rachel Nabors</a> - a great talk by Rachel from the San Francisco HTML5 Developer Group meetup.</li>
-</ul>
-<h2 id="conclusions">Conclusions <a href="#conclusions" class="post__hash">#</a></h2>
-<p>To begin with I appreciate that I haven&rsquo;t demonstrated any particularly crazy or creative examples. The main purpose of this article was to introduce the concept, not to spend time on crafting beautiful demos. Hopefully this overview has helped you out and I&rsquo;m sure that I&rsquo;m going to write more about this subject. If you have any questions don&rsquo;t be afraid to use the comments section below. Thanks for reading!</p>
-
-
-        
-
-        
-        <!-- share -->
-        <section class="share">
-          <svg xmlns="http://www.w3.org/2000/svg" class="share__icon" viewBox="0 0 512 512"><path d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2 0.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8 0 36.4 18.5 68.6 46.7 87.4-17.2-0.5-33.4-5.3-47.6-13.1 0 0.4 0 0.9 0 1.3 0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8 0-13.3-0.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5 0-16.8-0.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2 0 298.9-160.1 298.9-298.9 0-4.6-0.1-9.1-0.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z"/></svg>
-          <p class="share__text">If you liked this article, please <a href="https://twitter.com/intent/tweet?text=Intro%20to%20the%20Web%20Animations%20API&amp;url=https%3a%2f%2fpawelgrzybek.com%2fintro-to-the-web-animations-api%2f&amp;via=pawelgrzybek" class="share__link" title="Share on Twitter">share it on Twitter</a>.</p>
-        </section>
-        <!-- / share -->
-
-        <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "studiorgb" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        
-
-      </article>
-      <!-- / post -->
-
-
-      </main>
-
-      <footer class="footer">Copyright © 2020 Pawel Grzybek</footer>
-
-    </div>
-  </body>
-</html>
+<span class=kd>var</span> <span class=nx>move</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>Animation</span><span class=p>(</span><span class=nx>group</span><span class=p>,</span> <span class=nb>document</span><span class=p>.</span><span class=nx>timeline</span><span class=p>);</span>
+</code></pre></div><p>The only thing that confuses me with these two examples is that the animation is playing without invoking a <code>play()</code> method. If anyone can help me to understand this, I owe you a coffee / beer. I promise!</p><h2 id=people-worth-following-and-useful-resources>People worth following and useful resources <a href=#people-worth-following-and-useful-resources class=post__hash>#</a></h2><ul><li><a href=https://twitter.com/brianskold>Brian Birtles</a> - a main contributor to the <a href=https://w3c.github.io/web-animations/>Web Animations API</a> spec. Works for Mozilla in Japan.</li><li><a href=https://twitter.com/rachelnabors>Rachel Nabors</a> - a main contributor to the <a href=https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API>documentation on MDN</a>. Part-time <a href=https://twitter.com/rachelnabors/status/731922035190824960>unicorn</a>.</li><li><a href=https://twitter.com/dancwilson>Dan Wilson</a> - author of a great <a href=http://danielcwilson.com/blog/2015/07/animations-intro/>series about WAAPI</a> that ranks higher on Google than the MDN and W3C spec. I learned a lot from his blog!</li><li><a href=https://twitter.com/vlh>Val Head</a> - Val has dedicated her life to animations. Author of a cool newsletter <a href=http://uianimationnewsletter.com>&ldquo;The UI Animation Newsletter&rdquo;</a>.</li><li><a href=https://twitter.com/sarah_edo>Sarah Drasner</a> - she is amazing in general! React, SVG, CSS and of course animations. Author of the fantastic course — <a href=https://frontendmasters.com/courses/svg-animation/>&ldquo;Advanced SVG Animation&rdquo;</a> available for all <a href=https://frontendmasters.com>Frontend Masters</a> users.</li><li><a href=https://youtu.be/ep0_0W0qWsc>&ldquo;Silky smooth Web Animations&rdquo;</a> - some time ago when the Chrome browser reached version 36, Google published this great explanation of the Web Animations API on their YouTube channel.</li><li><a href=https://platform-status.mozilla.org/#web-animations>Web Animations API on Platform status</a> - track the progress of the implementation yourself.</li><li><a href=https://birtles.github.io/areweanimatedyet/>“Are we animated yet?”</a> - a dedicated website that shows the implementation progress of all the future parts of the spec in Firefox Nightly.</li><li><a href=http://codepen.io/danwilson/pen/XmWraY>WAAPI Browser Support Test</a> - check your browser compatibility on Codepen. Created by Dan Wilson mentioned above.</li><li><a href=https://youtu.be/GxOq1bnlZXk>State of the Animation with Rachel Nabors</a> - a great talk by Rachel from the San Francisco HTML5 Developer Group meetup.</li></ul><h2 id=conclusions>Conclusions <a href=#conclusions class=post__hash>#</a></h2><p>To begin with I appreciate that I haven&rsquo;t demonstrated any particularly crazy or creative examples. The main purpose of this article was to introduce the concept, not to spend time on crafting beautiful demos. Hopefully this overview has helped you out and I&rsquo;m sure that I&rsquo;m going to write more about this subject. If you have any questions don&rsquo;t be afraid to use the comments section below. Thanks for reading!</p><section class=share><svg xmlns="http://www.w3.org/2000/svg" class="share__icon" viewBox="0 0 512 512"><path d="M512 113.2c-18.8 8.4-39.1 14-60.3 16.5 21.7-13 38.3-33.6 46.2-58.1-20.3 12-42.8 20.8-66.7 25.5-19.2-20.4-46.5-33.1-76.7-33.1-58 0-105 47-105 105 0 8.2.9 16.2 2.7 23.9-87.3-4.4-164.7-46.2-216.5-109.8-9 15.5-14.2 33.6-14.2 52.8.0 36.4 18.5 68.6 46.7 87.4-17.2-.5-33.4-5.3-47.6-13.1.0.4.0.9.0 1.3.0 50.9 36.2 93.4 84.3 103-8.8 2.4-18.1 3.7-27.7 3.7-6.8.0-13.3-.7-19.8-1.9 13.4 41.7 52.2 72.1 98.1 73-36 28.2-81.2 45-130.5 45-8.5.0-16.8-.5-25.1-1.5 46.6 29.9 101.8 47.2 161.1 47.2 193.2.0 298.9-160.1 298.9-298.9.0-4.6-.1-9.1-.3-13.6 20.5-14.7 38.3-33.2 52.4-54.3z"/></svg><p class=share__text>If you liked this article, please <a href="https://twitter.com/intent/tweet?text=Intro%20to%20the%20Web%20Animations%20API&url=https%3a%2f%2fpawelgrzybek.com%2fintro-to-the-web-animations-api%2f&via=pawelgrzybek" class=share__link title="Share on Twitter">share it on Twitter</a>.</p></section><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return;}
+var d=document,s=d.createElement('script');s.async=true;s.src='//'+"studiorgb"+'.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></article></main><footer class=footer>Copyright © 2020 Pawel Grzybek</footer></div></body></html>

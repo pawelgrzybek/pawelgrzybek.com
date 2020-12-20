@@ -15,7 +15,7 @@
     {
       "label": "Build",
       "type": "shell",
-      "command": "rm -rf public && hugo --gc",
+      "command": "rm -rf public && hugo --gc --minify",
       "problemMatcher": [],
       "presentation": {
         "reveal": "never"
