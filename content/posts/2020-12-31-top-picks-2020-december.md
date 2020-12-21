@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2020 December"
-summary: "State of CSS 2020 survey, Extending CSS with Houdini, Cloudflare Pages"
+summary: "State of CSS 2020 survey, Extending CSS with Houdini, Cloudflare Pages, React Server Components"
 photo: top-picks.jpg
 draft: true
 ---
@@ -27,3 +27,9 @@ Next.js apps onto Netlify are just a click away from you. Netlify team just anno
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 ```
+
+## [Introducing Zero-Bundle-Size React Server Components](https://youtu.be/TQQPAU21ZUw)
+
+[Dan Abramov](https://twitter.com/dan_abramov) and [Lauren Tan](https://twitter.com/sugarpirate_) just shared initial demo of React Server Components. This is a first time the core engineers of this library presented an in-house built solution for server-side rendering (SSR). We have been waiting for it for years. After watching a demo, be nosy and have a look at the [demo app](https://github.com/reactjs/server-components-demo) built during the presentation. For people who would like to get involved, [RFC: React Server Components on GitHub](https://github.com/reactjs/rfcs/pull/188) is open for discussion.
+
+{{< youtube TQQPAU21ZUw >}}
