@@ -164,7 +164,7 @@ kbd {
 }
 /* NameVariable */
 .chroma .nv {
-  color: #003333;
+  color: var(--color-syntax-nv);
 }
 /* LiteralString */
 .chroma .s {
