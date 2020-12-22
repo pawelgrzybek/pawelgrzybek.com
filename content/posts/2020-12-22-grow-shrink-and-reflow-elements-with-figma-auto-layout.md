@@ -16,7 +16,7 @@ What's the point of having a prototype with the same buttons? Let's change the t
 
 ![Multiple buttons with incorrect padding around them in Figma](/photos/2020-12-22-3.png)
 
-What just happened here?! After changing text the rectangle didn't adjust its size to reflect the text length. There is no chance that I am going to do it manually! That seems like a tedious task for a few buttons, so imagine doing this with hundreds of them.
+What just happened here?! After changing text, the rectangle didn't adjust its size to reflect the text length. There's no chance that I'm going to do it manually! That seems like a tedious task for a few buttons, so imagine doing this with hundreds of them.
 
 Now my UI designer career is over, and I am going back to coding!
 
@@ -28,7 +28,7 @@ Wait a sec bro! There is hope.
 
 ![Button design using Auto Layout in Figma](/photos/2020-12-22-4.png)
 
-Text is all we need for now. Let's wrap it with auto layout frame by clicking "Add auto layout" from the contextual menu or using keyboard shortcut <kbd>⇧ + A</kbd>. The element now is wrapped in a fully customizable auto-layout frame. We can add background color and padding to it. Adding padding follows the same rules as the CSS `padding` property. In my case, it is `10 20` that corresponds to 10px on the vertical axis and 20px on the horizontal one. Nice!
+Text is all we need for now. Let's wrap it with an auto layout frame by clicking "Add auto layout" from the contextual menu or using keyboard shortcut <kbd>⇧ + A</kbd>. The element is now wrapped in a fully customizable auto-layout frame. We can add a background colour and padding to it. Adding padding follows the same rules as the CSS `paddin` property. In my case, it is `10 20` that corresponds to 10px on the vertical axis and 20px on the horizontal one. Nice!
 
 ![Button design using Auto Layout in Figma](/photos/2020-12-22-5.png)
 
@@ -36,11 +36,11 @@ Time to duplicate the button instance and adjust the inner text. Look!
 
 ![Button design using Auto Layout in Figma](/photos/2020-12-22-6.gif)
 
-This is pretty magical, and now I can carry on my UI designer journey. There is a lot more to it. Let me show you a little bit more about what you can achieve with Auto Layout in Figma.
+This is pretty magical, and now I can carry on my UI designer journey. There's a lot more to it, let me show you a little bit about what you can achieve with Auto Layout in Figma.
 
 ### Auto-placement and reflow
 
-If you wrap multiple elements into an auto-layout frame, you can delegate auto-placement of elements to Figma. You can control the spacing between elements in "Spacing between elements" in "Auto Layout" section on the sidebar. You can also control the direction of auto-placement. The most mind-blowing feature is an ability to reorder elements using drag & drop or using arrows on the keyboard.
+If you wrap multiple elements into an auto-layout frame, you can delegate auto-placement of elements to Figma. You can control the spacing between elements in "Spacing between elements" in "Auto Layout" section on the sidebar. You can also control the direction of auto-placement. The most mind-blowing feature is the ability to reorder elements using drag & drop or using arrows on the keyboard.
 
 ![Auto-placement and reflow of auto layout frames in Figma](/photos/2020-12-22-7.gif)
 
