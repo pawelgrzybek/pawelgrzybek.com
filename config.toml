@@ -1,4 +1,4 @@
-baseURL = "https://pawelgrzybek.com/"
+baseURL = "https://pawelgrzybek.com"
 title = "pawelgrzybek.com"
 disableKinds = ["section", "taxonomy", "term"]
 disqusShortname = "studiorgb"
