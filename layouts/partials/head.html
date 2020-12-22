@@ -15,7 +15,7 @@
   <meta property="og:url" content="{{ .Permalink | absURL }}">
   <meta property="og:type" content="{{ if eq .Type "page" }}website{{ else }}article{{ end }}">
   <meta property="og:description" content="{{ if eq .Section "posts" }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:image" content="{{ if eq .Type "page" }}{{ .Site.BaseURL }}assets/logo.png{{ else }}{{ .Site.BaseURL }}photos/{{ .Params.photo }}{{ end }}">
+  <meta property="og:image" content="{{ if eq .Type "page" }}{{ .Site.BaseURL }}/assets/logo.png{{ else }}{{ .Site.BaseURL }}/photos/{{ .Params.photo }}{{ end }}">
 
   {{ "<!-- Twitter Card -->" | safeHTML }}
   <meta name="twitter:card" content="summary_large_image" />
@@ -24,8 +24,8 @@
 
   {{ "<!-- Standard Stuff -->" | safeHTML }}
   <link rel="canonical" href="{{ .Permalink | absURL }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.xml" />
-  <link rel="alternate" type="application/feed+json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.json" />
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}/feed.xml" />
+  <link rel="alternate" type="application/feed+json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}/feed.json" />
 
   {{ "<!-- Favicons -->" | safeHTML }}
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180x180.png">
