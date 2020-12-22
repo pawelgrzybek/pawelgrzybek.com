@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pawelgrzybek.com</title><link>https://pawelgrzybek.com/</link><description>Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records.</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml"/><item><title>Remove all git branches except master</title><link>https://pawelgrzybek.com/remove-all-git-branches-except-master/</link><pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/remove-all-git-branches-except-master/</guid><description>&lt;p>After working on a project for a while, it&amp;rsquo;s easy to end up with a lot of legacy branches that are not needed anymore. Removing them one by one would be a cumbersome task. Luckily you don’t have to!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pawelgrzybek.com</title><link>https://pawelgrzybek.com/</link><description>Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records.</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml"/><item><title>Grow, shrink and reflow elements with Figma Auto Layout</title><link>https://pawelgrzybek.com/grow-shrink-and-reflow-elements-with-figma-auto-layout/</link><pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/grow-shrink-and-reflow-elements-with-figma-auto-layout/</guid><description>&lt;p>Let&amp;rsquo;s build a quick prototype, literally just a few buttons. One rectangle, a bit of text and the button is ready. Easy-peasy!&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-22-1.png"
+alt="Button design in Figma"
+loading="lazy"
+width="1800"
+height="1200"
+/>
+&lt;/p>
+&lt;p>Let&amp;rsquo;s group it using &lt;kbd>⌘ + G&lt;/kbd> keyboard shortcut and duplicate multiple times using &lt;kbd>⌘ + D&lt;/kbd> combination. Let&amp;rsquo;s go!&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-22-2.png"
+alt="Multiple buttons in Figma"
+loading="lazy"
+width="1800"
+height="1200"
+/>
+&lt;/p>
+&lt;p>What&amp;rsquo;s the point of having a prototype with the same buttons? Let&amp;rsquo;s change the text inside them to reflect prototype requirements.&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-22-3.png"
+alt="Multiple buttons with incorrect padding around them in Figma"
+loading="lazy"
+width="1800"
+height="1200"
+/>
+&lt;/p>
+&lt;p>What just happened here?! After changing text the rectangle didn&amp;rsquo;t adjust its size to reflect the text length. There is no chance that I am going to do it manually! That seems like a tedious task for a few buttons, so imagine doing this with hundreds of them.&lt;/p>
+&lt;p>Now my UI designer career is over, and I am going back to coding!&lt;/p>
+&lt;p>Wait a sec bro! There is hope.&lt;/p>
+&lt;h2 id="grow-shrink-and-reflow-elements-with-figma-auto-layout">Grow, shrink and reflow elements with Figma Auto Layout &lt;a href="#grow-shrink-and-reflow-elements-with-figma-auto-layout" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="https://help.figma.com/hc/en-us/articles/360040451373">Figma Auto Layout&lt;/a> is a game-changer. It lets you dynamically grow, shrink and reflow frames. Adjust the size of a button based on a text length — no problem! Reflow elements when new items are added to the list — easy! Let&amp;rsquo;s recreate my prototype using this feature.&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-22-4.png"
+alt="Button design using Auto Layout in Figma"
+loading="lazy"
+width="1800"
+height="1200"
+/>
+&lt;/p>
+&lt;p>Text is all we need for now. Let&amp;rsquo;s wrap it with auto layout frame by clicking &amp;ldquo;Add auto layout&amp;rdquo; from the contextual menu or using keyboard shortcut &lt;kbd>⇧ + A&lt;/kbd>. The element now is wrapped in a fully customizable auto-layout frame. We can add background color and padding to it. Adding padding follows the same rules as the CSS &lt;code>padding&lt;/code> property. In my case, it is &lt;code>10 20&lt;/code> that corresponds to 10px on the vertical axis and 20px on the horizontal one. Nice!&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-22-5.png"
+alt="Button design using Auto Layout in Figma"
+loading="lazy"
+width="1800"
+height="1200"
+/>
+&lt;/p>
+&lt;p>Time to duplicate the button instance and adjust the inner text. Look!&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-22-6.gif"
+alt="Button design using Auto Layout in Figma"
+loading="lazy"
+width="1350"
+height="900"
+/>
+&lt;/p>
+&lt;p>This is pretty magical, and now I can carry on my UI designer journey. There is a lot more to it. Let me show you a little bit more about what you can achieve with Auto Layout in Figma.&lt;/p>
+&lt;h3 id="auto-placement-and-reflow">Auto-placement and reflow &lt;a href="#auto-placement-and-reflow" class="post__hash">#&lt;/a>&lt;/h3>
+&lt;p>If you wrap multiple elements into an auto-layout frame, you can delegate auto-placement of elements to Figma. You can control the spacing between elements in &amp;ldquo;Spacing between elements&amp;rdquo; in &amp;ldquo;Auto Layout&amp;rdquo; section on the sidebar. You can also control the direction of auto-placement. The most mind-blowing feature is an ability to reorder elements using drag &amp;amp; drop or using arrows on the keyboard.&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-22-7.gif"
+alt="Auto-placement and reflow of auto layout frames in Figma"
+loading="lazy"
+width="1350"
+height="900"
+/>
+&lt;/p>
+&lt;p>That&amp;rsquo;s it for today. If you think this isn&amp;rsquo;t cool, I don&amp;rsquo;t know what is. Hopefully, you found it helpful and exciting. Until next time, stay creative 👋&lt;/p></description></item><item><title>Remove all git branches except master</title><link>https://pawelgrzybek.com/remove-all-git-branches-except-master/</link><pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/remove-all-git-branches-except-master/</guid><description>&lt;p>After working on a project for a while, it&amp;rsquo;s easy to end up with a lot of legacy branches that are not needed anymore. Removing them one by one would be a cumbersome task. Luckily you don’t have to!&lt;/p>
 &lt;pre>&lt;code>git branch | grep -v &amp;quot;master&amp;quot; | xargs git branch -D
 &lt;/code>&lt;/pre>&lt;p>Let me explain each part:&lt;/p>
 &lt;ol>
