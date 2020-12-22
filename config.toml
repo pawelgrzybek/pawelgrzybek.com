@@ -22,3 +22,8 @@ enableRobotsTXT = true
 
 [outputFormats.JSON]
   baseName = "feed"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
