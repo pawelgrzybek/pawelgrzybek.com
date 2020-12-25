@@ -19,7 +19,7 @@ exampleUnknown = {}
 exampleUnknown = 123;
 ```
 
-So whats is the difference between them you may be asking? The difference is in accessing those values. Look!
+So you may be asking… what’s the difference between them? The difference is in accessing those values. Look!
 
 ```ts
 let exampleAny: any;
@@ -47,4 +47,4 @@ if (typeof exampleUnknown === "number") {
 
 ## Rule of thumb for any and unknown type
 
-Use `any` type only during the migration from JavaScript to TypeScript codebase, `unknown` otherwise. Karma will catch you if you assign an `any` type just because you cannot be bothered to define meaningful type!
+Use `any` type only during the migration from JavaScript to TypeScript codebase, `unknown` otherwise. Karma will catch you if you assign an `any` type just because you can’t bothered to define meaningful type!
