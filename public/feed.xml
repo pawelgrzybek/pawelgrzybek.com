@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pawelgrzybek.com</title><link>https://pawelgrzybek.com/</link><description>Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records.</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 25 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml"/><item><title>The difference between any and unknown type in TypeScript</title><link>https://pawelgrzybek.com/the-difference-between-any-and-unknown-type-in-typescript/</link><pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/the-difference-between-any-and-unknown-type-in-typescript/</guid><description>&lt;p>Both &lt;code>any&lt;/code> and &lt;code>unknown&lt;/code> are universal types in TypeScript that allow you to assign whatever the heck you want to it.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pawelgrzybek.com</title><link>https://pawelgrzybek.com/</link><description>Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records.</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml"/><item><title>A look back at 2020</title><link>https://pawelgrzybek.com/a-look-back-at-2020/</link><pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/a-look-back-at-2020/</guid><description>&lt;p>This year was a little bit &amp;ldquo;different&amp;rdquo; for all of us. I&amp;rsquo;ll try to stay focused on the positives because I managed to accomplish a few things worth bragging about. Exactly a year ago, at the beginning of 2020, I was confident that it was going to be the best year of my life. Even though we had a lot of madness going on, I somehow managed to make it reality and turn 2020 into the best year of my life.&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-29-1.jpg"
+alt="My favourite photos of 2020"
+loading="lazy"
+width="1400"
+height="2638"
+/>
+&lt;/p>
+&lt;p>After &lt;a href="https://pawelgrzybek.com/a-look-back-at-2016/">&amp;ldquo;A look back at 2016&amp;rdquo;&lt;/a>, &lt;a href="https://pawelgrzybek.com/a-look-back-at-2017/">&amp;ldquo;A look back at 2017&amp;rdquo;&lt;/a>, &lt;a href="https://pawelgrzybek.com/a-look-back-at-2018/">&amp;ldquo;A look back at 2018&amp;rdquo;&lt;/a> and &lt;a href="https://pawelgrzybek.com/a-look-back-at-2019/">&amp;ldquo;A look back at 2019&amp;rdquo;&lt;/a>, it&amp;rsquo;s time to compile a list of my personal and professional accomplishments from the past year. I&amp;rsquo;ve also got some rough plans for 2021. This article is a very personal one that I commit to once a year, so if you are after technical read about another programming concept, this one isn&amp;rsquo;t for you.&lt;/p>
+&lt;h2 id="professional">Professional &lt;a href="#professional" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>I feel incredibly privileged to be in an industry that wasn&amp;rsquo;t affected by the pandemic. I had more work to do than I had in previous years. I would love to thank my employer &lt;a href="https://mindera.com">Mindera&lt;/a>, for such generous mental support during the last year.&lt;/p>
+&lt;p>Professionally I dedicated this year to work on my soft skills more than embracing new technical knowledge. I worked hard on communication, improving relationships between team members and overall strived to build and be part of a well-balanced team.&lt;/p>
+&lt;p>At the beginning of a year, I had my debut as a tutor at Leicester University. With my super talented friend &lt;a href="https://twitter.com/heymynameisrob">Rob&lt;/a>, we delivered a quick introduction to building modern, scalable client-side applications. We received excellent feedback from students, and just because of the unfortunate circumstances of 2020, we had to postpone further lectures for the next year. This is something I&amp;rsquo;m super excited to pick up in the future.&lt;/p>
+&lt;p>I had one more debut on a new field in 2020 — I was invited to the &lt;a href="https://podcasts.apple.com/gb/podcast/mindera-yellow-box/id1515227462">Yellow Box Podcast&lt;/a> to discuss &lt;a href="https://podcasts.apple.com/gb/podcast/10-the-state-of-web-development-with-pawel-grzybek/id1515227462?i=1000483984483">the state of web development&lt;/a>. I found this experience extremely stressful initially, but sharing my knowledge with a new audience was very satisfying. I&amp;rsquo;d love to be involved in things like this more often.&lt;/p>
+&lt;iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/gb/podcast/10-the-state-of-web-development-with-pawel-grzybek/id1515227462?i=1000483984483">&lt;/iframe>
+&lt;h2 id="personal">Personal &lt;a href="#personal" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Pandemic sucks! Depression, anxiety, motivational and financial struggles were present all over the place. Somehow I managed to look at the whole situation as an opportunity for personal development and dedicated this time to fitness, books and growth of my soft skills.&lt;/p>
+&lt;p>I started this year at 98kg (15.4 stones) on the scales and ended up 14kg (2.2 stones) lighter. I consider this to be one of the most extraordinary things that I have done for myself. Because of that change, I feel more confident, my favourite Levis jeans look better on me, and I&amp;rsquo;m not afraid of shopping anymore. My cycling and running abilities have improved a lot too.&lt;/p>
+&lt;p>This very website that you are reading now has always been a great focus of mine. It went through a slight redesign. I added dark theme support and improved the tech behind it. Most importantly, I managed to publish 46 posts from quick one-paragraph tutorials, through some book reviews to lengthy technical publications. I&amp;rsquo;m proud of how it went!&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-29-2.jpg"
+alt="Light and dark theme on my website"
+loading="lazy"
+width="1400"
+height="954"
+/>
+&lt;/p>
+&lt;p>As I mentioned before, I spent a lot of time reading books and listening to audiobooks. The main subject was the self-development. It helped me to identify my personal goals and to redefine happiness. It&amp;rsquo;s because of the books that I made a significant transformation of my body. I went through a relationship rollercoaster and started enjoying being myself again like when I was a kid. After a few years of a night to night struggle, my insomnia went away, and I &amp;ldquo;nothing&amp;rdquo; for a moment. If you asked me what was the most influential book for me in 2020, &lt;a href="https://pawelgrzybek.com/book-review-atomic-habits-an-easy-proven-way-to-build-good-habits-break-bad-ones-by-james-clear/">&amp;ldquo;Atomic Habits&amp;rdquo; by James Clear&lt;/a> is a clear winner.&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-29-3.jpg"
+alt="My collection of books that I read in 2020"
+loading="lazy"
+width="1400"
+height="933"
+/>
+&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-atomic-habits-an-easy-proven-way-to-build-good-habits-break-bad-ones-by-james-clear/">&amp;ldquo;Atomic Habits: An Easy &amp;amp; Proven Way to Build Good Habits &amp;amp; Break Bad Ones&amp;rdquo; by James Clear&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-peter-pan/">&amp;ldquo;Peter Pan&amp;rdquo; by J.M. Barrie&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-gravitas-by-caroline-goyder/">&amp;ldquo;Gravitas&amp;rdquo; by Caroline Goyder&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-humble-pi-a-comedy-of-maths-errors-by-matt-parker/">&amp;ldquo;Humble Pi: A Comedy of Maths Errors&amp;rdquo; by Matt Parker&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-endurance-by-scott-kelly/">&amp;ldquo;Endurance&amp;rdquo; by Scott Kelly&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-the-lean-startup-by-eric-ries/">&amp;ldquo;The Lean Startup&amp;rdquo; by Eric Ries&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-permanent-record-by-edward-snowden/">&amp;ldquo;Permanent Record&amp;rdquo; by Edward Snowden&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-steve-jobs-the-exclusive-biography-by-walter-isaacson/">&amp;ldquo;Steve Jobs: The Exclusive Biography&amp;rdquo; by Walter Isaacson&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-brzydki-zly-i-szczery-by-adam-ostrowski/">&amp;ldquo;Brzydki, Zły i Szczery&amp;rdquo; by Adam Ostrowski&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-not-a-diet-book-by-james-smith/">&amp;ldquo;Not a Diet Book&amp;rdquo; by James Smith&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-the-fast-800-how-to-combine-rapid-weight-loss-and-intermittent-fasting-for-long-term-health-by-dr-michael-mosley/">&amp;ldquo;The Fast 800: How to Combine Rapid Weight Loss and Intermittent Fasting for Long-Term Health&amp;rdquo; by Dr Michael Mosley&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-beastie-boys-book-by-michael-diamond-and-adam-horovitz/">&amp;ldquo;Beastie Boys Book&amp;rdquo; by Michael Diamond and Adam Horovitz&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-how-to-be-a-productivity-ninja-by-graham-allcott/">&amp;ldquo;How to be a Productivity Ninja&amp;rdquo; by Graham Allcott&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-rich-dad-poor-dad-by-robert-t-kiyosaki/">&amp;ldquo;Rich Dad Poor Dad&amp;rdquo; by Robert T. Kiyosaki&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pawelgrzybek.com/book-review-we-need-to-talk-about-love-by-laura-mucha/">&amp;ldquo;We Need To Talk About Love&amp;rdquo; by Laura Mucha&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>I watched some movies, enjoyed a few TV shows and had great fun playing console games. &lt;a href="https://www.imdb.com/title/tt11464826/">&amp;ldquo;The Social Dilemma&amp;rdquo;&lt;/a>, &lt;a href="https://www.imdb.com/title/tt0487831/">&amp;ldquo;The IT Crowd&amp;rdquo;&lt;/a>, &lt;a href="https://www.imdb.com/title/tt4574334/">&amp;ldquo;Stranger Things&amp;rdquo;&lt;/a>, &lt;a href="https://www.imdb.com/title/tt6257970/">&amp;ldquo;The End of the F***ing World&amp;rdquo;&lt;/a>, &lt;a href="https://www.imdb.com/title/tt2442560">&amp;ldquo;Peaky Blinders&amp;rdquo;&lt;/a>, &lt;a href="https://www.imdb.com/title/tt8398600/">&amp;ldquo;After Life&amp;rdquo;&lt;/a> and &lt;a href="https://www.metacritic.com/game/playstation-4/the-last-of-us-part-ii">&amp;ldquo;The Last of Us Part II&amp;rdquo;&lt;/a> are probably the ones that I enjoyed the most.&lt;/p>
+&lt;p>
+&lt;img
+src="https://pawelgrzybek.com/photos/2020-12-29-4.jpg"
+alt="Movies, TV Shows and games that I enjoyed in 2020"
+loading="lazy"
+width="1400"
+height="2640"
+/>
+&lt;/p>
+&lt;h2 id="in-2021-i-will">In 2021 I will… &lt;a href="#in-2021-i-will" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>I&amp;rsquo;m ready for the new year like never before. I have some rough ideas, and I&amp;rsquo;d like to share a few with you.&lt;/p>
+&lt;p>Professionally there&amp;rsquo;s a new challenge waiting for me. I recently got promoted at Mindera and at the beginning of the new year I am starting a new leading position for a brand new team. We are going to work for one of the worlds leading fashion brands. Unfortunately I can&amp;rsquo;t tell you more than that at the minute, but stay tuned! This level of responsibility is something new for me. Even though I&amp;rsquo;m a tad stressed about it, I&amp;rsquo;m really looking forward to this challenge and I want to put 100% of my heart into this new role.&lt;/p>
+&lt;p>I hope I will be able to pick up the subject of lectures at local Universities — sharing my knowledge with students hungry to learn more is one of the most satisfying things that I have ever experienced. Fingers crossed!&lt;/p>
+&lt;p>In my personal life, I would like to dedicate even more time to fitness. I&amp;rsquo;m not necessarily focused on losing weight this time, but I would like to build some muscle and push my body to its limits. I would love to do at least one challenging bike ride, run a half-marathon distance and maybe get involved in a new sporty hobby. I have a lot of friends who enjoy inline-skating in my area, which sounds like good fun to me. Would be cool to do a long time postponed snowboard trip soon too!&lt;/p>
+&lt;p>That&amp;rsquo;s it from me. I wish you all the best in 2021 👋&lt;/p></description></item><item><title>The difference between any and unknown type in TypeScript</title><link>https://pawelgrzybek.com/the-difference-between-any-and-unknown-type-in-typescript/</link><pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/the-difference-between-any-and-unknown-type-in-typescript/</guid><description>&lt;p>Both &lt;code>any&lt;/code> and &lt;code>unknown&lt;/code> are universal types in TypeScript that allow you to assign whatever the heck you want to it.&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-ts" data-lang="ts">&lt;span class="kd">let&lt;/span> &lt;span class="nx">exampleAny&lt;/span>: &lt;span class="kt">any&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;span class="kd">let&lt;/span> &lt;span class="nx">exampleUnknown&lt;/span>: &lt;span class="kt">unknown&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;span class="c1">// I can assign anything to `any` type
