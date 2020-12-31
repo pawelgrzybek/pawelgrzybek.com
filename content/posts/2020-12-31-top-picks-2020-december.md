@@ -2,7 +2,6 @@
 title: "Top picks — 2020 December"
 summary: "State of CSS 2020 survey, Extending CSS with Houdini, Cloudflare Pages, React Server Components, AWS Workshops, CSS content-visibility and accessible semantics and more…"
 photo: top-picks.jpg
-draft: true
 ---
 
 ## [State of CSS 2020 survey](https://2020.stateofcss.com/)
