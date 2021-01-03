@@ -1,9 +1,16 @@
 {{ $img := imageConfig (add "/static" (.Destination | safeURL)) }}
 
-<img
-  src="{{ .Destination | safeURL }}"
-  alt="{{ .Text }}"
-  loading="lazy"
-  width="{{ $img.Width }}"
-  height="{{ $img.Height }}"
-/>
+<picture>
+  <source srcset="img/image.avif" type="image/avif">
+  <source srcset="img/image.webp" type="image/webp">
+  <source srcset="img/image.jpg" type="image/jpeg"> 
+
+  <img
+    src="{{ .Destination | safeURL }}"
+    alt="{{ .Text }}"
+    loading="lazy"
+    decoding="async"
+    width="{{ $img.Width }}"
+    height="{{ $img.Height }}"
+  />
+</picture>
