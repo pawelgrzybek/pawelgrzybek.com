@@ -1,9 +1,40 @@
-{{ $img := imageConfig (add "/static" (.Destination | safeURL)) }}
-
 <picture>
-  <source srcset="img/image.avif" type="image/avif">
-  <source srcset="img/image.webp" type="image/webp">
-  <source srcset="img/image.jpg" type="image/jpeg"> 
+  {{ $isJPG := eq (path.Ext .Destination) ".jpg" }}
+  {{ $isPNG := eq (path.Ext .Destination) ".png" }}
+
+  {{ if ($isJPG) -}}
+    {{ $avifPath:= replace .Destination ".jpg" ".avif" }}
+    {{ $avifPathStatic:= printf "static/%s" $avifPath }}
+
+    {{ if (fileExists $avifPathStatic) -}}
+      <source srcset="{{ $avifPath | safeURL }}" type="image/avif" >
+    {{- end }}
+
+    {{ $webpPath:= replace .Destination ".jpg" ".webp" }}
+    {{ $webpPathStatic:= printf "static/%s" $webpPath }}
+
+    {{ if (fileExists $webpPathStatic) -}}
+      <source srcset="{{ $webpPath | safeURL }}" type="image/webp" >
+    {{- end }}
+  {{- end }}
+
+  {{ if ($isPNG) -}}
+    {{ $avifPath:= replace .Destination ".png" ".avif" }}
+    {{ $avifPathStatic:= printf "static/%s" $avifPath }}
+
+    {{ if (fileExists $avifPathStatic) -}}
+      <source srcset="{{ $avifPath | safeURL }}" type="image/avif" >
+    {{- end }}
+
+    {{ $webpPath:= replace .Destination ".png" ".webp" }}
+    {{ $webpPathStatic:= printf "static/%s" $webpPath }}
+
+    {{ if (fileExists $webpPathStatic) -}}
+      <source srcset="{{ $webpPath | safeURL }}" type="image/webp" >
+    {{- end }}
+  {{- end }}
+
+  {{ $img := imageConfig (add "/static" (.Destination | safeURL)) }}
 
   <img
     src="{{ .Destination | safeURL }}"
