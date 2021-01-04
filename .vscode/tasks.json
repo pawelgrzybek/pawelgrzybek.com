@@ -20,6 +20,15 @@
       "presentation": {
         "reveal": "never"
       }
+    },
+    {
+      "label": "New post",
+      "type": "shell",
+      "command": "hugo new posts/`date +%Y-%m-%d`-new-draft.md",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "never"
+      }
     }
   ]
 }
