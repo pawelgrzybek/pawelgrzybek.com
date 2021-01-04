@@ -1,6 +1,6 @@
 ---
 title: "WebP and AVIF images on the Hugo website"
-description: "After adding support for WebP and AVIF formats, I managed to serve to my visitors around 40% slimmer images. This pretty significant performance gain is simple to achieve using Hugo."
+summary: "After adding support for WebP and AVIF formats, I managed to serve to my visitors around 40% slimmer images. This pretty significant performance gain is simple to achieve using Hugo."
 photo: "2021-01-04.jpg"
 ---
 
