@@ -108,18 +108,18 @@ And this is an example how to use these CLIs.
 
 ```
 cwebp cat.jpg -o cat.webp
-avifenc cat.jpg cat.avif
+avifenc --min 10 --max 30 cat.jpg cat.avif
 ```
 
 If you are planing to convert all images in a folder to a desired format, a snippet like this may come in handy.
 
 ```
-find ./ -type f -name '*.png' -exec sh -c 'avifenc $1 "${1%.png}.avif"' _ {} \;
+find ./ -type f -name '*.png' -exec sh -c 'avifenc --min 10 --max 30 $1 "${1%.png}.avif"' _ {} \;
 find ./ -type f -name '*.jpg' -exec sh -c 'cwebp $1 -o "${1%.jpg}.webp"' _ {} \;
 ```
 
 ## The result of it
 
-The whole process of adding a hook and regenerating all images on my website took me about two hours. After all, I managed to serve to my visitors around 40% slimmer images — pretty significant performance gain. [Source code to my blog on GitHub](https://github.com/pawelgrzybek/pawelgrzybek.com) is waiting for curious ones to be explored.
+The whole process of adding a hook and regenerating all images on my website took me about two hours. After all, I managed to serve to my visitors around 50% slimmer images — pretty significant performance gain. [Source code to my blog on GitHub](https://github.com/pawelgrzybek/pawelgrzybek.com) is waiting for curious ones to be explored.
 
 Hopefully, you found this article helpful, and you learned a thing or two. If you have any questions, please use the comments section below or [ping me on Twitter](https://twitter.com/pawelgrzybek). For now, stay safe 👋
