@@ -1,6 +1,6 @@
 ---
-title: I won't miss you Google
-summary: 
+title: "I won't miss you Google"
+summary: "Isn’t that all a little bit concerning that one company knows about your passions, salary, what you eat, where you go and what the fuck is your shoe size? It’s scary for me, so I decided to move away from the Mountain View Google bandwagon."
 photo: 2021-01-08.jpg
 ---
 
@@ -44,6 +44,12 @@ To host this and multiple more websites, I use [Netlify](https://www.netlify.com
 
 When the [Netlify team announced Analytics](https://www.netlify.com/blog/2019/07/10/netlify-analytics-accurate-insights-without-performance-impacts/)  back in 2019, I decided to put my money on it and not look back. Accuracy, without paying the cost of heavy client-side libraries, sufficient levels of data and beautiful presentation. Bye, bye, Google Analytics!
 
+### From Google Maps to Maps by Apple
+
+I am not a maps power-user. Every app where I can put the desired destination's address and follow the direction fulfils my expectations. Google Maps became this massive overwhelming application with too many options to my taste. Maps by Apple are simple, better looking, with just the right number of features to make me happy. Again — I don't need to download a thing. It is just there.
+
 ## Bye Google
 
-I know that removing a few Google tools from my daily workflow won’t make a big impact, but hey — it feels good. I feel happy, and I don’t care how much you love 8726874GB of RAM in your brand new Android phone. Bye 💋
+I know that removing a few Google tools from my daily workflow won’t make a big impact, but hey — it feels good. I feel happy, and I don’t care how much you love 8726874GB of RAM in your brand new Android phone.
+
+Facebook, you are next. Bye 💋
