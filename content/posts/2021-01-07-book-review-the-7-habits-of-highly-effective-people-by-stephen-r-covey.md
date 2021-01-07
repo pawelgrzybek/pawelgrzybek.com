@@ -11,6 +11,6 @@ There's no better time than during a global pandemic, to slow down and do a litt
 
 Even though Stephen R. Covey wrote this book 30 years ago, it's still a great combination of seven recipes for achieving a fulfilled life. It is all about the crap that life throws at us and how to respond to it. A big part of it emphasizes the importance of judging our actions and life principles from a perspective of someone we want to eventually become. The legacy we want to leave must be a long-term, hard-working process, focused on the right things. It's about seeking "win-win" situations to generate positive outcomes for many around us. The shared understanding and collaboration discussed in the ending chapters are my favourite aspects touched on within this book — this should be a piece of general knowledge in the world and age that depends on remote collaboration. All those things are concluded by the reminder to never stop working on our lives' physical, spiritual, mental and social aspects.
 
-> Anytime we thing the problem is out there (with others or with circumstances), that very thought is the problem”
+> Anytime we think the problem is out there (with others or with circumstances), that very thought is the problem.”
 
 This common-sense wrapped in a book is a guide from being dependent through independence that drives to interdependence. I would highly recommend this book to everyone. It isn't a one-time quick read on the bus — it's a manual worth revisiting.
