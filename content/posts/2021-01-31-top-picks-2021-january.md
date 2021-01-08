@@ -12,3 +12,7 @@ It is crazy how difficult it is to serve well-optimised image to the end-user, c
 ## [Webbed Briefs](https://briefs.video)
 
 I love [Heydon Pickering](https://twitter.com/heydonworks) for his expertise in web development and his sense of humour. His new idea is another masterpiece — a vlog that is not on YouTube. It is all about web and accessible only on the canonical website (nope, you cannot embed his videos — brilliant idea). I instantly subscribed this website using my RSS reader.
+
+## [Figma Crash](https://www.figmacrashcourse.com)
+
+[Pablo Stanley](https://twitter.com/pablostanley) created another amazing resource to help you to master Figma. For the time being the part about the Auto Layout is ready. More to come in 2021: Illustration Systems, Animation & Prototyping and also Components & Systems. This is probably the best resource to pick up more advanced parts of this tool. 
