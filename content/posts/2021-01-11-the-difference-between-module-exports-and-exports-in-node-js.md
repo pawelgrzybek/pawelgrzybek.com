@@ -73,4 +73,4 @@ When we want to export a function or a primitive value (string, number, etc.), w
 module.exports= (name) => `Hi ${name} 👋`;
 ```
 
-Hopefully, this explanation helped you out. Until next time, stay curious 👊 👊
+Hopefully, this explanation helped you out. Until next time, stay curious 👊
