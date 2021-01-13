@@ -22,3 +22,7 @@ I love [Heydon Pickering](https://twitter.com/heydonworks) for his expertise in 
 Recently retired Joel Goldberg shares few insights and advices to people new to software development after being part of this crowd for over 45 years. I love the most "Focus on the Fundamentals" but this post is full of undervalued knowledge for fresh software engineers.
 
 > One of Stephen Covey’s seven habits is, “Seek First To Understand, Then To Be Understood.” This maxim has helped me more than any other advice to become a good listener and teammate. If you want to influence and work effectively with others, you first need to understand them. Actively listen to understand their feelings, ideas, and point of view before you begin trying to make your own thoughts known.
+
+## [State of JS 2020](https://2020.stateofjs.com/)
+
+The results are here. I love this annual roundup of results from this amazing survey. The growing popularity of TypeScript, GraphQL and `async/await` is not a big surprise for me. The quite popular score for decorators shocked me though. Have a look, I am sure you find a lot of interesting things there.
