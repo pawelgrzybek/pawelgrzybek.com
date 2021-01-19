@@ -30,3 +30,7 @@ The results are here. I love this annual roundup of results from this amazing su
 ## [Running GitHub Actions for Certain Commit Messages](https://ryangjchandler.co.uk/articles/running-github-actions-for-certain-commit-messages)
 
 A quick tip by [Ryan Chandler](https://twitter.com/ryangjchandler) about running (or not) GitHub Action based on a commit message. Typical "TIL" write-up, short and informative.
+
+## [Alt vs Figcaption](https://thoughtbot.com/blog/alt-vs-figcaption)
+
+Images on the web can be described using `alt` attribute an on `img` tag an using `figcaption` element inside `figure` tag. [Elaina Natario](https://twitter.com/elainanatario) explains the difference between these two methods. Very useful front-end read.
