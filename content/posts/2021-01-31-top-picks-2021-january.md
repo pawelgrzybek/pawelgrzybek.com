@@ -26,3 +26,7 @@ Recently retired Joel Goldberg shares few insights and advices to people new to 
 ## [State of JS 2020](https://2020.stateofjs.com/)
 
 The results are here. I love this annual roundup of results from this amazing survey. The growing popularity of TypeScript, GraphQL and `async/await` is not a big surprise for me. The quite popular score for decorators shocked me though. Have a look, I am sure you find a lot of interesting things there.
+
+## [Running GitHub Actions for Certain Commit Messages](https://ryangjchandler.co.uk/articles/running-github-actions-for-certain-commit-messages)
+
+A quick tip by [Ryan Chandler](https://twitter.com/ryangjchandler) about running (or not) GitHub Action based on a commit message. Typical "TIL" write-up, short and informative.
