@@ -34,3 +34,9 @@ A quick tip by [Ryan Chandler](https://twitter.com/ryangjchandler) about running
 ## [Alt vs Figcaption](https://thoughtbot.com/blog/alt-vs-figcaption)
 
 Images on the web can be described using `alt` attribute an on `img` tag an using `figcaption` element inside `figure` tag. [Elaina Natario](https://twitter.com/elainanatario) explains the difference between these two methods. Very useful front-end read.
+
+## [10 best practices to containerize Node.js web applications with Docker](https://snyk.io/blog/10-best-practices-to-containerize-nodejs-web-applications-with-docker/)
+
+[Liran Tal](https://twitter.com/liran_tal) and [Yoni Goldberg](https://twitter.com/goldbergyoni) put together this resource for all Node.js developers who contenerize their applications. There is a lot to learn from this post. From picking the right image base, through correct handling of kernel signals to advanced secrets management.
+
+
