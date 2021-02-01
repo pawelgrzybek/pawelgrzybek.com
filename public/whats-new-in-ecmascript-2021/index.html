@@ -30,7 +30,7 @@
 <span class=p>});</span>
 <span class=nx>registry</span><span class=p>.</span><span class=nx>register</span><span class=p>(</span><span class=nx>obj</span><span class=p>,</span> <span class=s2>&#34;ECMAScript 2021&#34;</span><span class=p>);</span>
 
-<span class=c1>// perform some action that triggers garbae collector on obj
+<span class=c1>// perform some action that triggers garbage collector on obj
 </span><span class=c1>// The ECMAScript 2021 object has been garbage collected.
 </span></code></pre></div><p>Be careful though — we should avoid using them as per <a href=https://github.com/tc39/proposal-weakrefs#a-note-of-caution>proposal&rsquo;s author recommendation</a>. Both of these features rely on garbage collector implementation that varies based on engine and engine&rsquo;s version.</p><h2 id=logical-assignment-operators-by-justin-ridgewell>Logical Assignment Operators by Justin Ridgewell <a href=#logical-assignment-operators-by-justin-ridgewell class=post__hash>#</a></h2><p>As the name suggests, <a href=https://github.com/tc39/proposal-logical-assignment>Logical assignments proposal</a> is the combination of logical operators (&&, || and ??) and assignment operator (=). Convenient add-on to the language! Have a look.</p><div class=highlight><pre class=chroma><code class=language-js data-lang=js><span class=c1>// set a to b only when a is truthy
 </span><span class=c1></span><span class=nx>a</span> <span class=o>&amp;&amp;=</span> <span class=nx>b</span><span class=p>;</span>

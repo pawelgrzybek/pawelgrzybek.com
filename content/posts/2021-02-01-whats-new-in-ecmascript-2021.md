@@ -74,7 +74,7 @@ const registry = new FinalizationRegistry(value => {
 });
 registry.register(obj, "ECMAScript 2021");
 
-// perform some action that triggers garbae collector on obj
+// perform some action that triggers garbage collector on obj
 // The ECMAScript 2021 object has been garbage collected.
 ```
 

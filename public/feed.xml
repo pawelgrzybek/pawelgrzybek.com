@@ -44,7 +44,7 @@
 &lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sb">`The &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">value&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb"> object has been garbage collected.`&lt;/span>&lt;span class="p">)&lt;/span>
 &lt;span class="p">});&lt;/span>
 &lt;span class="nx">registry&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">register&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">obj&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;ECMAScript 2021&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;span class="c1">// perform some action that triggers garbae collector on obj
+&lt;span class="c1">// perform some action that triggers garbage collector on obj
 &lt;/span>&lt;span class="c1">// The ECMAScript 2021 object has been garbage collected.
 &lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Be careful though — we should avoid using them as per &lt;a href="https://github.com/tc39/proposal-weakrefs#a-note-of-caution">proposal&amp;rsquo;s author recommendation&lt;/a>. Both of these features rely on garbage collector implementation that varies based on engine and engine&amp;rsquo;s version.&lt;/p>
 &lt;h2 id="logical-assignment-operators-by-justin-ridgewell">Logical Assignment Operators by Justin Ridgewell &lt;a href="#logical-assignment-operators-by-justin-ridgewell" class="post__hash">#&lt;/a>&lt;/h2>
