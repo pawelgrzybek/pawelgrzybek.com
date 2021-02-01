@@ -96,7 +96,7 @@ a ||= b;
 
 ```js
 // set a to b only when a is nullish
-a ||= b;
+a ??= b;
 ```
 
 ## Numeric separators by Sam Goto and Rick Waldron
