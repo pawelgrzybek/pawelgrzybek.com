@@ -3,10 +3,10 @@
   command = "rm -rf public && hugo --gc --minify"
 
 [context.production.environment]
-  HUGO_VERSION = "0.78.2"
+  HUGO_VERSION = "0.80.0"
 
 [context.deploy-preview]
   command = "rm -rf public && hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.78.2"
+  HUGO_VERSION = "0.80.0"
