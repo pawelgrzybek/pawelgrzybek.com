@@ -1,4 +1,9 @@
 :root {
+  --fz: 1rem;
+  --fzb: 106.25%; // 17px
+  --lh: 1.764705882rem; //30px
+  --type-scale: 1.25;
+
   --color-text: #24292e;
   --color-background: #fff;
   --color-link: #005cc5;
@@ -14,11 +19,6 @@
   --color-syntax-o: #555555;
   --color-syntax-na: #330099;
   --color-syntax-nv: #003333;
-
-  --fz: 1rem;
-  --fzb: 106.25%; // 17px
-  --lh: 1.764705882rem; //30px
-  --type-scale: 1.25;
 }
 
 @media screen and (min-width: 764px) {
@@ -45,9 +45,5 @@
     --color-syntax-o: #959da5;
     --color-syntax-na: #fafbfc;
     --color-syntax-nv: #00b1b1;
-
-    --fz: 1rem;
-    --lh: 1.77778rem;
-    --type-scale: 1.25;
   }
 }
