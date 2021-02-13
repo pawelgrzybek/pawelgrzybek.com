@@ -43,7 +43,7 @@
         {{ "<!-- comments -->" | safeHTML }}
         <section class="comments">
 
-          <p class="comments__title">Comments:</p>
+          <!-- <p class="comments__title">Comments:</p>
 
           <ul class="comments__list">
             <li class="comments__item">
@@ -185,14 +185,20 @@
                 <button class="comments__reply">Reply to Pawel Grzybek</button>
               </article>
             </li>
-          </ul>
+          </ul> -->
 
           <p class="comments__title">What'ya think?</p>
-          <form class="comments__form" action="">
+          <form class="comments__form" name="contact" netlify>
             <div class="comments__row">
               <div class="comments__input__col">
                 <label class="comments__input__label" for="name">Name:</label>
-                <input class="comments__input" id="name" type="text" placeholder="Barack Obama">
+                <input class="comments__input" id="name" type="text" placeholder="Barack Obama" required>
+              </div>
+            </div>
+            <div class="comments__row">
+              <div class="comments__input__col">
+                <label class="comments__input__label" for="email">Email:</label>
+                <input class="comments__input" id="email" type="text" placeholder="barackobama@gmail.com" required>
               </div>
             </div>
             <div class="comments__row">
@@ -212,25 +218,20 @@
             <div class="comments__row">
               <div class="comments__input__col">
                 <label class="comments__input__label" for="comment">Comment:</label>
-                <textarea name="" id="comment"></textarea>
+                <textarea class="comments__input comments__input--textarea" id="comment" placeholder="I think…" required></textarea>
               </div>
             </div>
             <div class="comments__row">
-              <div class="comments__input__col">
-                <input type="submit">
+              <div class="comments__input__col comments__input__col--shrink">
+                <button class="comments__button" type="submit">Submit comment</button>
               </div>
             </div>
           </form>
         </section>
         {{ "<!-- / comments -->" | safeHTML }}
 
-        {{ template "_internal/disqus.html" . }}
         {{ end }}
 
-        <div class="comments__content">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.
-        </div>
-        <button class="comments__reply">Reply to Pawel Grzybek</button>
       </article>
       {{ "<!-- / post -->" | safeHTML }}
 
