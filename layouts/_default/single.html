@@ -59,7 +59,7 @@
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.</p>
                 </div>
                 <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
-                <form class="form form--hidden js-form" name="Comments" action="/about" netlify>
+                <form class="form form--hidden js-form">
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -104,7 +104,7 @@
                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.</p>
                     </div>
                     <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
-                    <form class="form form--hidden js-form" name="Comments" action="/about" netlify>
+                    <form class="form form--hidden js-form">
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -149,7 +149,7 @@
                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.</p>
                     </div>
                     <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
-                    <form class="form form--hidden js-form" name="Comments" action="/about" netlify>
+                    <form class="form form--hidden js-form">
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -194,7 +194,7 @@
                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.</p>
                         </div>
                         <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
-                        <form class="form form--hidden js-form" name="Comments" action="/about" netlify>
+                        <form class="form form--hidden js-form">
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -239,7 +239,7 @@
                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.</p>
                         </div>
                         <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
-                        <form class="form form--hidden js-form" name="Comments" action="/about" netlify>
+                        <form class="form form--hidden js-form">
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -284,7 +284,7 @@
                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.</p>
                         </div>
                         <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
-                        <form class="form form--hidden js-form" name="Comments" action="/about" netlify>
+                        <form class="form form--hidden js-form">
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -331,7 +331,7 @@
                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.</p>
                     </div>
                     <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
-                    <form class="form form--hidden js-form" name="Comments" action="/about" netlify>
+                    <form class="form form--hidden js-form">
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -378,7 +378,7 @@
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.</p>
                 </div>
                 <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
-                <form class="form form--hidden js-form" name="Comments" action="/about" netlify>
+                <form class="form form--hidden js-form">
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -423,7 +423,7 @@
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.</p>
                 </div>
                 <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
-                <form class="form form--hidden js-form" name="Comments" action="/about" netlify>
+                <form class="form form--hidden js-form">
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -459,7 +459,7 @@
 
           <p class="comments__title">What'ya think?</p>
 
-          <form class="form js-form" name="Comments" netlify>
+          <form class="form js-form">
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -521,7 +521,7 @@
             body: encode({
               "form-name": "Comments",
               parent: this.querySelector('input[name="parent"]').value,
-              author: this.querySelector('input[name="name"]').value,
+              name: this.querySelector('input[name="name"]').value,
               website: this.querySelector('input[name="website"]').value,
               twitter: this.querySelector('input[name="twitter"]').value,
               github: this.querySelector('input[name="github"]').value,
