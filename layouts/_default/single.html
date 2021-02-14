@@ -43,7 +43,7 @@
         {{ "<!-- comments -->" | safeHTML }}
         <section class="comments">
 
-          <!-- <p class="comments__title">Comments:</p>
+          <p class="comments__title">Comments:</p>
 
           <ul class="comments__list">
             <li class="comments__item">
@@ -58,7 +58,37 @@
                 <div class="comments__content">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.
                 </div>
-                <button class="comments__reply">Reply to Pawel Grzybek</button>
+                <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
+                <form class="form form--hidden js-form" name="Comments" netlify>
+            <input type="hidden" name="parent" value="">
+              <div class="form__col">
+                <label class="form__label" for="name">Name:</label>
+                <input class="form__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="website">Website (optional):</label>
+                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="twitter">Twitter (optional):</label>
+                <input class="form__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="github">GitHub (optional):</label>
+                <input class="form__input" id="github" name="github" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="comment">Comment:</label>
+                <textarea class="form__input form__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
+              </div>
+              <label class="form__row">
+                <input class="form__checkbox js-form-save-data" name="save" type="checkbox">
+                <span class="form__label form__label--thin">Save my data for the next time I comment</span>
+              </label>
+              <div class="form__row">
+                <button class="form__button" type="submit">Submit comment</button>
+              </div>
+          </form>
               </article>
               <ul class="comments__list">
                 <li class="comments__item">
@@ -73,7 +103,37 @@
                     <div class="comments__content">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.
                     </div>
-                    <button class="comments__reply">Reply to Pawel Grzybek</button>
+                    <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
+                    <form class="form form--hidden js-form" name="Comments" netlify>
+            <input type="hidden" name="parent" value="">
+              <div class="form__col">
+                <label class="form__label" for="name">Name:</label>
+                <input class="form__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="website">Website (optional):</label>
+                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="twitter">Twitter (optional):</label>
+                <input class="form__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="github">GitHub (optional):</label>
+                <input class="form__input" id="github" name="github" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="comment">Comment:</label>
+                <textarea class="form__input form__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
+              </div>
+              <label class="form__row">
+                <input class="form__checkbox js-form-save-data" name="save" type="checkbox">
+                <span class="form__label form__label--thin">Save my data for the next time I comment</span>
+              </label>
+              <div class="form__row">
+                <button class="form__button" type="submit">Submit comment</button>
+              </div>
+          </form>
                   </article>
                 </li>
                 <li class="comments__item">
@@ -88,7 +148,37 @@
                     <div class="comments__content">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.
                     </div>
-                    <button class="comments__reply">Reply to Pawel Grzybek</button>
+                    <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
+                    <form class="form form--hidden js-form" name="Comments" netlify>
+            <input type="hidden" name="parent" value="">
+              <div class="form__col">
+                <label class="form__label" for="name">Name:</label>
+                <input class="form__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="website">Website (optional):</label>
+                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="twitter">Twitter (optional):</label>
+                <input class="form__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="github">GitHub (optional):</label>
+                <input class="form__input" id="github" name="github" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="comment">Comment:</label>
+                <textarea class="form__input form__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
+              </div>
+              <label class="form__row">
+                <input class="form__checkbox js-form-save-data" name="save" type="checkbox">
+                <span class="form__label form__label--thin">Save my data for the next time I comment</span>
+              </label>
+              <div class="form__row">
+                <button class="form__button" type="submit">Submit comment</button>
+              </div>
+          </form>
                   </article>
                   <ul class="comments__list">
                     <li class="comments__item">
@@ -103,7 +193,37 @@
                         <div class="comments__content">
                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.
                         </div>
-                        <button class="comments__reply">Reply to Pawel Grzybek</button>
+                        <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
+                        <form class="form form--hidden js-form" name="Comments" netlify>
+            <input type="hidden" name="parent" value="">
+              <div class="form__col">
+                <label class="form__label" for="name">Name:</label>
+                <input class="form__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="website">Website (optional):</label>
+                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="twitter">Twitter (optional):</label>
+                <input class="form__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="github">GitHub (optional):</label>
+                <input class="form__input" id="github" name="github" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="comment">Comment:</label>
+                <textarea class="form__input form__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
+              </div>
+              <label class="form__row">
+                <input class="form__checkbox js-form-save-data" name="save" type="checkbox">
+                <span class="form__label form__label--thin">Save my data for the next time I comment</span>
+              </label>
+              <div class="form__row">
+                <button class="form__button" type="submit">Submit comment</button>
+              </div>
+          </form>
                       </article>
                     </li>
                     <li class="comments__item">
@@ -118,7 +238,37 @@
                         <div class="comments__content">
                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.
                         </div>
-                        <button class="comments__reply">Reply to Pawel Grzybek</button>
+                        <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
+                        <form class="form form--hidden js-form" name="Comments" netlify>
+            <input type="hidden" name="parent" value="">
+              <div class="form__col">
+                <label class="form__label" for="name">Name:</label>
+                <input class="form__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="website">Website (optional):</label>
+                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="twitter">Twitter (optional):</label>
+                <input class="form__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="github">GitHub (optional):</label>
+                <input class="form__input" id="github" name="github" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="comment">Comment:</label>
+                <textarea class="form__input form__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
+              </div>
+              <label class="form__row">
+                <input class="form__checkbox js-form-save-data" name="save" type="checkbox">
+                <span class="form__label form__label--thin">Save my data for the next time I comment</span>
+              </label>
+              <div class="form__row">
+                <button class="form__button" type="submit">Submit comment</button>
+              </div>
+          </form>
                       </article>
                     </li>
                     <li class="comments__item">
@@ -133,7 +283,37 @@
                         <div class="comments__content">
                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.
                         </div>
-                        <button class="comments__reply">Reply to Pawel Grzybek</button>
+                        <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
+                        <form class="form form--hidden js-form" name="Comments" netlify>
+            <input type="hidden" name="parent" value="">
+              <div class="form__col">
+                <label class="form__label" for="name">Name:</label>
+                <input class="form__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="website">Website (optional):</label>
+                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="twitter">Twitter (optional):</label>
+                <input class="form__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="github">GitHub (optional):</label>
+                <input class="form__input" id="github" name="github" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="comment">Comment:</label>
+                <textarea class="form__input form__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
+              </div>
+              <label class="form__row">
+                <input class="form__checkbox js-form-save-data" name="save" type="checkbox">
+                <span class="form__label form__label--thin">Save my data for the next time I comment</span>
+              </label>
+              <div class="form__row">
+                <button class="form__button" type="submit">Submit comment</button>
+              </div>
+          </form>
                       </article>
                     </li>
                   </ul>
@@ -150,7 +330,37 @@
                     <div class="comments__content">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.
                     </div>
-                    <button class="comments__reply">Reply to Pawel Grzybek</button>
+                    <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
+                    <form class="form form--hidden js-form" name="Comments" netlify>
+            <input type="hidden" name="parent" value="">
+              <div class="form__col">
+                <label class="form__label" for="name">Name:</label>
+                <input class="form__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="website">Website (optional):</label>
+                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="twitter">Twitter (optional):</label>
+                <input class="form__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="github">GitHub (optional):</label>
+                <input class="form__input" id="github" name="github" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="comment">Comment:</label>
+                <textarea class="form__input form__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
+              </div>
+              <label class="form__row">
+                <input class="form__checkbox js-form-save-data" name="save" type="checkbox">
+                <span class="form__label form__label--thin">Save my data for the next time I comment</span>
+              </label>
+              <div class="form__row">
+                <button class="form__button" type="submit">Submit comment</button>
+              </div>
+          </form>
                   </article>
                 </li>
               </ul>
@@ -167,7 +377,37 @@
                 <div class="comments__content">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.
                 </div>
-                <button class="comments__reply">Reply to Pawel Grzybek</button>
+                <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
+                <form class="form form--hidden js-form" name="Comments" netlify>
+            <input type="hidden" name="parent" value="">
+              <div class="form__col">
+                <label class="form__label" for="name">Name:</label>
+                <input class="form__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="website">Website (optional):</label>
+                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="twitter">Twitter (optional):</label>
+                <input class="form__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="github">GitHub (optional):</label>
+                <input class="form__input" id="github" name="github" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="comment">Comment:</label>
+                <textarea class="form__input form__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
+              </div>
+              <label class="form__row">
+                <input class="form__checkbox js-form-save-data" name="save" type="checkbox">
+                <span class="form__label form__label--thin">Save my data for the next time I comment</span>
+              </label>
+              <div class="form__row">
+                <button class="form__button" type="submit">Submit comment</button>
+              </div>
+          </form>
               </article>
             </li>
             <li class="comments__item">
@@ -182,96 +422,74 @@
                 <div class="comments__content">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.
                 </div>
-                <button class="comments__reply">Reply to Pawel Grzybek</button>
+                <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
+                <form class="form form--hidden js-form" name="Comments" netlify>
+            <input type="hidden" name="parent" value="">
+              <div class="form__col">
+                <label class="form__label" for="name">Name:</label>
+                <input class="form__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="website">Website (optional):</label>
+                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="twitter">Twitter (optional):</label>
+                <input class="form__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="github">GitHub (optional):</label>
+                <input class="form__input" id="github" name="github" type="text" placeholder="barackobama">
+              </div>
+              <div class="form__col">
+                <label class="form__label" for="comment">Comment:</label>
+                <textarea class="form__input form__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
+              </div>
+              <label class="form__row">
+                <input class="form__checkbox js-form-save-data" name="save" type="checkbox">
+                <span class="form__label form__label--thin">Save my data for the next time I comment</span>
+              </label>
+              <div class="form__row">
+                <button class="form__button" type="submit">Submit comment</button>
+              </div>
+          </form>
               </article>
             </li>
-          </ul> -->
+          </ul>
 
           <p class="comments__title">What'ya think 1?</p>
 
-          <form class="comments__form" name="Comments" netlify>
+          <form class="form" name="Comments" netlify>
             <input type="hidden" name="parent" value="">
-            <div class="comments__row">
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="name">Name:</label>
-                <input class="comments__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
+              <div class="form__col">
+                <label class="form__label" for="name">Name:</label>
+                <input class="form__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
               </div>
-            </div>
-            <div class="comments__row">
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="email">Email:</label>
-                <input class="comments__input" id="email" name="email" type="text" placeholder="barackobama@gmail.com" required>
+              <div class="form__col">
+                <label class="form__label" for="website">Website (optional):</label>
+                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
               </div>
-            </div>
-            <div class="comments__row">
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="website">Website (optional):</label>
-                <input class="comments__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+              <div class="form__col">
+                <label class="form__label" for="twitter">Twitter (optional):</label>
+                <input class="form__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
               </div>
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="twitter">Twitter (optional):</label>
-                <input class="comments__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
+              <div class="form__col">
+                <label class="form__label" for="github">GitHub (optional):</label>
+                <input class="form__input" id="github" name="github" type="text" placeholder="barackobama">
               </div>
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="github">GitHub (optional):</label>
-                <input class="comments__input" id="github" name="github" type="text" placeholder="barackobama">
+              <div class="form__col">
+                <label class="form__label" for="comment">Comment:</label>
+                <textarea class="form__input form__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
               </div>
-            </div>
-            <div class="comments__row">
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="comment">Comment:</label>
-                <textarea class="comments__input comments__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
+              <label class="form__row">
+                <input class="form__checkbox js-form-save-data" name="save" type="checkbox">
+                <span class="form__label form__label--thin">Save my data for the next time I comment</span>
+              </label>
+              <div class="form__row">
+                <button class="form__button" type="submit">Submit comment</button>
               </div>
-            </div>
-            <div class="comments__row">
-              <div class="comments__input__col comments__input__col--shrink">
-                <button class="comments__button" type="submit">Submit comment</button>
-              </div>
-            </div>
           </form>
 
-          <p class="comments__title">What'ya think 2?</p>
-
-          <form class="comments__form" name="Comments" netlify>
-            <input type="hidden" name="parent" value="some-value">
-            <div class="comments__row">
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="name">Name:</label>
-                <input class="comments__input" id="name" name="name" type="text" placeholder="Barack Obama" required>
-              </div>
-            </div>
-            <div class="comments__row">
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="email">Email:</label>
-                <input class="comments__input" id="email" name="email" type="text" placeholder="barackobama@gmail.com" required>
-              </div>
-            </div>
-            <div class="comments__row">
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="website">Website (optional):</label>
-                <input class="comments__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
-              </div>
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="twitter">Twitter (optional):</label>
-                <input class="comments__input" id="twitter" name="twitter" type="text" placeholder="barackobama">
-              </div>
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="github">GitHub (optional):</label>
-                <input class="comments__input" id="github" name="github" type="text" placeholder="barackobama">
-              </div>
-            </div>
-            <div class="comments__row">
-              <div class="comments__input__col">
-                <label class="comments__input__label" for="comment">Comment:</label>
-                <textarea class="comments__input comments__input--textarea" id="comment" name="comment" placeholder="I think…" required></textarea>
-              </div>
-            </div>
-            <div class="comments__row">
-              <div class="comments__input__col comments__input__col--shrink">
-                <button class="comments__button" type="submit">Submit comment</button>
-              </div>
-            </div>
-          </form>
         </section>
         {{ "<!-- / comments -->" | safeHTML }}
 
@@ -279,5 +497,21 @@
 
       </article>
       {{ "<!-- / post -->" | safeHTML }}
+
+      <script>
+        const SELECTOR_FORM = '.js-form'
+        const SELECTOR_FORM_SAVE_DATA = '.js-form-save-data'
+        const SELECTOR_REPLY_BUTTON = ".js-comments__reply"
+        const CLASS_FORM_HIDDEN = 'form--hidden'
+
+        const toggleForm = (e) => e.target.parentElement.querySelector(SELECTOR_FORM).classList.toggle(CLASS_FORM_HIDDEN)
+        const toggleSaveChackbox = (e) => savaDataCheckboxes.forEach(i => i.checked = e.target.checked)
+
+        const replyButtons = document.querySelectorAll(SELECTOR_REPLY_BUTTON)
+        const savaDataCheckboxes = document.querySelectorAll(SELECTOR_FORM_SAVE_DATA)
+
+        replyButtons.forEach(i => i.addEventListener('click', toggleForm))
+        savaDataCheckboxes.forEach(i => i.addEventListener('change', toggleSaveChackbox))
+      </script>
 
 {{ end }}
