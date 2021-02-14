@@ -67,7 +67,7 @@
               </div>
               <div class="form__col">
                 <label class="form__label" for="website">Website (optional):</label>
-                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+                <input class="form__input" id="website" name="website" type="url" placeholder="https://barackobama.com">
               </div>
               <div class="form__col">
                 <label class="form__label" for="twitter">Twitter (optional):</label>
@@ -112,7 +112,7 @@
               </div>
               <div class="form__col">
                 <label class="form__label" for="website">Website (optional):</label>
-                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+                <input class="form__input" id="website" name="website" type="url" placeholder="https://barackobama.com">
               </div>
               <div class="form__col">
                 <label class="form__label" for="twitter">Twitter (optional):</label>
@@ -157,7 +157,7 @@
               </div>
               <div class="form__col">
                 <label class="form__label" for="website">Website (optional):</label>
-                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+                <input class="form__input" id="website" name="website" type="url" placeholder="https://barackobama.com">
               </div>
               <div class="form__col">
                 <label class="form__label" for="twitter">Twitter (optional):</label>
@@ -202,7 +202,7 @@
               </div>
               <div class="form__col">
                 <label class="form__label" for="website">Website (optional):</label>
-                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+                <input class="form__input" id="website" name="website" type="url" placeholder="https://barackobama.com">
               </div>
               <div class="form__col">
                 <label class="form__label" for="twitter">Twitter (optional):</label>
@@ -247,7 +247,7 @@
               </div>
               <div class="form__col">
                 <label class="form__label" for="website">Website (optional):</label>
-                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+                <input class="form__input" id="website" name="website" type="url" placeholder="https://barackobama.com">
               </div>
               <div class="form__col">
                 <label class="form__label" for="twitter">Twitter (optional):</label>
@@ -292,7 +292,7 @@
               </div>
               <div class="form__col">
                 <label class="form__label" for="website">Website (optional):</label>
-                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+                <input class="form__input" id="website" name="website" type="url" placeholder="https://barackobama.com">
               </div>
               <div class="form__col">
                 <label class="form__label" for="twitter">Twitter (optional):</label>
@@ -339,7 +339,7 @@
               </div>
               <div class="form__col">
                 <label class="form__label" for="website">Website (optional):</label>
-                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+                <input class="form__input" id="website" name="website" type="url" placeholder="https://barackobama.com">
               </div>
               <div class="form__col">
                 <label class="form__label" for="twitter">Twitter (optional):</label>
@@ -386,7 +386,7 @@
               </div>
               <div class="form__col">
                 <label class="form__label" for="website">Website (optional):</label>
-                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+                <input class="form__input" id="website" name="website" type="url" placeholder="https://barackobama.com">
               </div>
               <div class="form__col">
                 <label class="form__label" for="twitter">Twitter (optional):</label>
@@ -431,7 +431,7 @@
               </div>
               <div class="form__col">
                 <label class="form__label" for="website">Website (optional):</label>
-                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+                <input class="form__input" id="website" name="website" type="url" placeholder="https://barackobama.com">
               </div>
               <div class="form__col">
                 <label class="form__label" for="twitter">Twitter (optional):</label>
@@ -459,7 +459,7 @@
 
           <p class="comments__title">What'ya think?</p>
 
-          <form class="form" name="Comments" action="/about" netlify>
+          <form class="form js-form" name="Comments" netlify>
             <input type="hidden" name="parent" value="">
               <div class="form__col">
                 <label class="form__label" for="name">Name:</label>
@@ -467,7 +467,7 @@
               </div>
               <div class="form__col">
                 <label class="form__label" for="website">Website (optional):</label>
-                <input class="form__input" id="website" name="website" type="text" placeholder="https://barackobama.com">
+                <input class="form__input" id="website" name="website" type="url" placeholder="https://barackobama.com">
               </div>
               <div class="form__col">
                 <label class="form__label" for="twitter">Twitter (optional):</label>
@@ -499,6 +499,12 @@
       {{ "<!-- / post -->" | safeHTML }}
 
       <script>
+          const encode = (data) => {
+            return Object.keys(data)
+                .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+                .join("&");
+          }
+
         const SELECTOR_FORM = '.js-form'
         const SELECTOR_FORM_SAVE_DATA = '.js-form-save-data'
         const SELECTOR_REPLY_BUTTON = ".js-comments__reply"
@@ -506,12 +512,42 @@
 
         const toggleForm = (e) => e.target.parentElement.querySelector(SELECTOR_FORM).classList.toggle(CLASS_FORM_HIDDEN)
         const toggleSaveChackbox = (e) => savaDataCheckboxes.forEach(i => i.checked = e.target.checked)
+        function submitForm(e) {
+          e.preventDefault();
 
-        const replyButtons = document.querySelectorAll(SELECTOR_REPLY_BUTTON)
+          fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({
+              "form-name": "Comments",
+              parent: this.querySelector('input[name="parent"]').value,
+              author: this.querySelector('input[name="name"]').value,
+              website: this.querySelector('input[name="website"]').value,
+              twitter: this.querySelector('input[name="twitter"]').value,
+              github: this.querySelector('input[name="github"]').value,
+              comment: this.querySelector('textarea[name="comment"]').value,
+             })
+          })
+            .then(() => console.log("Success!"))
+            .catch(error => alert(error));
+
+          e.preventDefault()
+          console.log(this.querySelector('input[name="parent"]').value)
+          console.log(this.querySelector('input[name="name"]').value)
+          console.log(this.querySelector('input[name="website"]').value)
+          console.log(this.querySelector('input[name="twitter"]').value)
+          console.log(this.querySelector('input[name="github"]').value)
+          console.log(this.querySelector('textarea[name="comment"]').value)
+          console.log(this.querySelector('input[name="save"]').checked)
+        }
+
         const savaDataCheckboxes = document.querySelectorAll(SELECTOR_FORM_SAVE_DATA)
+        const forms = document.querySelectorAll(SELECTOR_FORM)
+        const replyButtons = document.querySelectorAll(SELECTOR_REPLY_BUTTON)
 
-        replyButtons.forEach(i => i.addEventListener('click', toggleForm))
         savaDataCheckboxes.forEach(i => i.addEventListener('change', toggleSaveChackbox))
+        forms.forEach(i => i.addEventListener('submit', submitForm))
+        replyButtons.forEach(i => i.addEventListener('click', toggleForm))
       </script>
 
 {{ end }}
