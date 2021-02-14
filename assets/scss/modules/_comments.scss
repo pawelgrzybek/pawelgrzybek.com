@@ -70,7 +70,7 @@
 
 .comments__author {
   display: flex;
-  margin-bottom: calc(var(--lh) / 2);
+  margin-bottom: var(--lh);
 }
 
 .comments__author__photo {
@@ -101,7 +101,6 @@
 }
 
 .comments__content {
-  margin-bottom: calc(var(--lh) / 2);
 }
 
 .comments__reply {
