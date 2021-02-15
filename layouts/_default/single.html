@@ -509,6 +509,12 @@
         const CLASS_FORM_HIDDEN = 'form--hidden'
         const LOCAL_STORAGE_KEY = 'comments-details'
 
+        const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
+
         const savedData = localStorage.getItem(LOCAL_STORAGE_KEY)
         if(savedData) {
           const {
@@ -542,10 +548,8 @@
 
           fetch("https://jq9hj2ryle.execute-api.eu-west-2.amazonaws.com/Prod/comments", {
             method: "POST",
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({
               parent: this.querySelector('input[name="parent"]').value,
               name: this.querySelector('input[name="name"]').value,
               website: this.querySelector('input[name="website"]').value,
