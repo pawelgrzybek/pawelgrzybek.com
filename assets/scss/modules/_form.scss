@@ -19,7 +19,7 @@
   .form__col:nth-of-type(2),
   .form__col:nth-of-type(3),
   .form__col:nth-of-type(4) {
-    width: auto;
+    width: 100px;
     margin-right: calc(var(--lh) / 2);
   }
 
@@ -54,15 +54,14 @@
   background-color: var(--color-background);
   box-shadow: inset 0 0 0 1px var(--color-box-border-dark);
   height: calc(var(--lh) * 1.5);
-  padding: 0 calc(var(--lh) / 4);
+  padding: 0 calc(var(--lh) / 2);
   color: var(--color-text);
   font: inherit;
-  font-size: calc(var(--fz) / var(--type-scale));
-  line-height: calc(var(--lh) * 0.75);
+  font-size: 16px;
 }
 
 .form__input--textarea {
-  padding: calc(var(--lh) / 4);
+  padding: calc(var(--lh) / 4) calc(var(--lh) / 2);
   min-height: calc(var(--lh) * 4);
 }
 
