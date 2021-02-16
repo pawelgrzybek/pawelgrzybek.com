@@ -1,18 +1,12 @@
 .comments {
-  margin-bottom: var(--lh);
-}
-
-.comments__title {
-  font-weight: 700;
-}
-
-.comments__list {
   list-style: none;
   margin-left: 0;
 }
 
 .comments__item {
-  .comments__list {
+  scroll-margin-top: var(--lh);
+
+  .comments {
     box-shadow: inset 1px 0 0 var(--color-box-border-dark);
     padding-left: var(--lh);
 
@@ -92,7 +86,7 @@
   text-overflow: ellipsis;
 }
 
-.comments__author__deta {
+.comments__author__metadata {
   font-size: calc(var(--fz) / var(--type-scale) / var(--type-scale));
   line-height: calc(var(--lh) * 0.75);
   white-space: nowrap;
@@ -100,7 +94,9 @@
   text-overflow: ellipsis;
 }
 
-.comments__content {
+.comments__hash {
+  color: inherit;
+  text-decoration: none;
 }
 
 .comments__reply {
