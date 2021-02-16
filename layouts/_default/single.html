@@ -420,6 +420,7 @@
                   </div>
                 </div>
                 <div class="comments__content">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam <strong>laudantium</strong> tempora dolor enim sit.</p>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio fuga omnis blanditiis perferendis porro, voluptates praesentium ad magni dicta possimus iste, soluta rem optio nam laudantium tempora dolor enim sit.</p>
                 </div>
                 <button class="comments__reply js-comments__reply">Reply to Pawel Grzybek</button>
@@ -545,21 +546,24 @@
             save: this.querySelector('input[name="save"]').checked
           }))
 
-
-          fetch("https://jq9hj2ryle.execute-api.eu-west-2.amazonaws.com/Prod/comments", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({
-              parent: this.querySelector('input[name="parent"]').value,
-              name: this.querySelector('input[name="name"]').value,
-              website: this.querySelector('input[name="website"]').value,
-              twitter: this.querySelector('input[name="twitter"]').value,
-              github: this.querySelector('input[name="github"]').value,
-              comment: this.querySelector('textarea[name="comment"]').value,
+          fetch("https://rbjvwgq51g.execute-api.eu-west-2.amazonaws.com/Prod/", {
+        method: "POST",
+        // headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: this.querySelector('input[name="name"]').value,
+          website: this.querySelector('input[name="website"]').value,
+          twitter: this.querySelector('input[name="twitter"]').value,
+          github: this.querySelector('input[name="github"]').value,
+          comment: this.querySelector('textarea[name="comment"]').value,
+          parent: this.querySelector('input[name="parent"]').value,
+          url: location.pathname
              })
-          })
-            .then(() => console.log("Success!"))
+      }).then((response) => response.json()).then((data) => console.log(data))
             .catch(error => alert(error));
+
+
+
         }
 
         const savaDataCheckboxes = document.querySelectorAll(SELECTOR_FORM_SAVE_DATA)
