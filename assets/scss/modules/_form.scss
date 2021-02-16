@@ -50,6 +50,7 @@
 }
 
 .form__input {
+  -webkit-appearance: none;
   border: 1px solid var(--color-box-border-dark);
   background-color: var(--color-background);
   height: calc(var(--lh) * 1.5);
