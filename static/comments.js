@@ -54,8 +54,8 @@ async function handlerSubmitForm(event) {
           github: this.querySelector('input[name="github"]').value,
           comment: this.querySelector('textarea[name="comment"]').value,
           parent: this.querySelector('input[name="parent"]').value,
-          postUrl: location.pathname,
-          postTitle: document.querySelector("h1").textContent,
+          slug: location.pathname.replace(/\//g, ""),
+          title: document.querySelector("h1").textContent,
         }),
       }
     );

@@ -40,10 +40,10 @@
         </section>
         {{ "<!-- / share -->" | safeHTML }}
 
-        <h2>Comments</h2>
+        <h2 id="comments">Comments</h2>
         {{ partial "comments.html" . }}
 
-        <h2>What'ya think?</h2>
+        <h2  id="what-ya-think">What'ya think?</h2>
         {{ partial "form.html" (dict "context" . "hidden" false) }}
 
         {{ end }}
