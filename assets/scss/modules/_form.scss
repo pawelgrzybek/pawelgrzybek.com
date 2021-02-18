@@ -1,6 +1,20 @@
 .form {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+}
+
+.form--sending {
+  opacity: 0.25;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .form--hidden {
@@ -63,6 +77,13 @@
 .form__input--textarea {
   padding: calc(var(--lh) / 4) calc(var(--lh) / 2);
   min-height: calc(var(--lh) * 4);
+  resize: vertical;
+}
+
+.form__tip {
+  font-size: calc(var(--fz) / var(--type-scale) / var(--type-scale));
+  margin-bottom: 0;
+  text-align: right;
 }
 
 .form__checkboxlabel {

@@ -1,0 +1,10 @@
+.moderation {
+  background-color: var(--color-box-background);
+  box-shadow: 0 0 0 1px var(--color-box-border);
+  padding: calc(var(--lh) / 2);
+  font-size: calc(var(--fz) / var(--type-scale));
+}
+
+.moderation--hidden {
+  display: none;
+}

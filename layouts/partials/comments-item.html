@@ -1,0 +1,30 @@
+<li class="comments__item" id="comment-{{ .id }}">
+  <div class="comments__wrapper">
+    <div class="comments__author">
+      <img
+        src="{{ if eq .name "Pawel Grzybek" }}/assets/logo.jpg{{ else }}/assets/comment.svg{{ end }}"
+        alt="{{ .name }}"
+        class="comments__author__photo"
+      />
+      <div class="comments__author__data">
+        <div class="comments__author__name">{{ .name }}</div>
+        <div class="comments__author__metadata">
+          <time datetime="{{ substr .createdAt 0 10 | int | dateFormat "2006-01-02" }}">{{ substr .createdAt 0 10 | int | dateFormat "2006.01.02, 15:04" }}</time>,
+          <a class="comments__hash" href="#comment-{{ .id }}">ID: {{ .id }}</a>
+        </div>
+      </div>
+    </div>
+
+      {{ safeHTML .comment }}
+
+    <button class="comments__reply js-comments__reply">
+      Reply to {{ .name }}
+    </button>
+    {{ partial "form.html" (dict "context" . "hidden" true "parent" .id ) }}
+  </div>
+  {{ $commentsExist := isset . "comments" }}
+  {{ if $commentsExist }}
+    {{ partial "comments.html" (dict "context" . "comments" .comments) }}
+  {{ end }}
+
+</li>

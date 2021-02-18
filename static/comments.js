@@ -7,6 +7,8 @@ const SELECTOR_FORM_GITHUB = ".js-form-github";
 const SELECTOR_FORM_SAVE_DATA = ".js-form-save-data";
 const SELECTOR_REPLY_BUTTON = ".js-comments__reply";
 const CLASS_FORM_HIDDEN = "form--hidden";
+const CLASS_FORM_SENDING = "form--sending";
+const CLASS_MODERATION_HIDDEN = "moderation--hidden";
 
 const savedData = localStorage.getItem(LOCAL_STORAGE_KEY);
 if (savedData) {
@@ -42,6 +44,7 @@ async function handlerSubmitForm(event) {
   event.preventDefault();
 
   try {
+    this.classList.add(CLASS_FORM_SENDING);
     await fetch(
       "https://rbjvwgq51g.execute-api.eu-west-2.amazonaws.com/Prod/",
       {
@@ -74,9 +77,12 @@ async function handlerSubmitForm(event) {
       })
     );
 
-    console.log("Success");
+    this.querySelector('textarea[name="comment"]').value = "";
+    this.nextElementSibling.classList.remove(CLASS_MODERATION_HIDDEN);
   } catch (error) {
     console.log(error);
+  } finally {
+    this.classList.remove(CLASS_FORM_SENDING);
   }
 }
 
