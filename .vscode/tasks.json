@@ -15,16 +15,7 @@
     {
       "label": "Build",
       "type": "shell",
-      "command": "rm -rf data && rm -rf public && mkdir data  && curl -o data/comments.json https://rbjvwgq51g.execute-api.eu-west-2.amazonaws.com/Prod/ && hugo --gc --minify",
-      "problemMatcher": [],
-      "presentation": {
-        "reveal": "never"
-      }
-    },
-    {
-      "label": "Fetch new comments",
-      "type": "shell",
-      "command": "rm -rf data && mkdir data  && curl -o data/comments.json https://rbjvwgq51g.execute-api.eu-west-2.amazonaws.com/Prod/",
+      "command": "rm -rf public && hugo --gc --minify",
       "problemMatcher": [],
       "presentation": {
         "reveal": "never"

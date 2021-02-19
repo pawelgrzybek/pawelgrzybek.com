@@ -49,6 +49,10 @@
   align-items: center;
   min-width: 1px;
   margin-bottom: calc(var(--lh) / 2);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .form__label {

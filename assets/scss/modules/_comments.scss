@@ -30,13 +30,45 @@
 
 .comments__wrapper {
   margin-bottom: var(--lh);
-  // background: pink;
   word-wrap: break-word;
 }
 
 .comments__author {
   display: flex;
   margin-bottom: var(--lh);
+  position: relative;
+}
+
+.comments__socials {
+  display: none;
+}
+
+@media screen and (min-width: 764px) {
+  .comments__socials {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+  }
+
+  .comments__link {
+    display: block;
+    width: var(--lh);
+    height: var(--lh);
+    background: var(--color-box-background);
+    margin-left: calc(var(--lh) / 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--color-text);
+  }
+
+  .comments__link__icon {
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+  }
 }
 
 .comments__author__photo {
@@ -69,7 +101,7 @@
 .comments__hash {
   color: inherit;
   text-decoration: none;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 .comments__reply {
@@ -80,6 +112,9 @@
   border: 0;
   color: var(--color-link);
   font: inherit;
-  font-size: calc(var(--fz) / var(--type-scale));
+  font-size: calc(var(--fz) / var(--type-scale) / var(--type-scale));
   cursor: pointer;
+  background: var(--color-box-background);
+  color: var(--color-text);
+  padding: 0 calc(var(--lh) / 2);
 }
