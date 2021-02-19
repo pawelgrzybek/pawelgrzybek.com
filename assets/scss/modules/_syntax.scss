@@ -18,7 +18,7 @@ pre {
 
 p,
 li {
-  code {
+  & > code {
     padding: 4px 6px;
     box-shadow: 0 0 0 1px var(--color-box-border);
   }
