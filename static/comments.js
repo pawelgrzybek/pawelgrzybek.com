@@ -1,4 +1,5 @@
 const LOCAL_STORAGE_KEY = "comments-details";
+
 const SELECTOR_FORM = ".js-form";
 const SELECTOR_FORM_NAME = ".js-form-name";
 const SELECTOR_FORM_WEBSITE = ".js-form-website";
@@ -6,9 +7,12 @@ const SELECTOR_FORM_TWITTER = ".js-form-twitter";
 const SELECTOR_FORM_GITHUB = ".js-form-github";
 const SELECTOR_FORM_SAVE_DATA = ".js-form-save-data";
 const SELECTOR_REPLY_BUTTON = ".js-comments__reply";
+const SELECTOR_FORM_LOADING = ".form__loader__wrapper";
+const SELECTOR_FORM_CONFIRMATION = ".js-form__confirmation ";
+
 const CLASS_FORM_HIDDEN = "form--hidden";
-const CLASS_FORM_SENDING = "form--sending";
-const CLASS_MODERATION_HIDDEN = "moderation--hidden";
+const CLASS_FORM_LOADING_HIDDEN = "form__loader__wrapper--hidden";
+const CLASS_FORM_CONFIRMATION_HIDDEN = "form__confirmation--hidden";
 
 const savedData = localStorage.getItem(LOCAL_STORAGE_KEY);
 if (savedData) {
@@ -30,7 +34,7 @@ if (savedData) {
     .forEach((i) => (i.checked = save));
 }
 
-function handlerClickReplybutton(event) {
+function handlerClickReplyButton(event) {
   event.target.parentElement
     .querySelector(SELECTOR_FORM)
     .classList.toggle(CLASS_FORM_HIDDEN);
@@ -44,7 +48,9 @@ async function handlerSubmitForm(event) {
   event.preventDefault();
 
   try {
-    this.classList.add(CLASS_FORM_SENDING);
+    this.querySelector(SELECTOR_FORM_LOADING).classList.remove(
+      CLASS_FORM_LOADING_HIDDEN
+    );
     await fetch(
       "https://rbjvwgq51g.execute-api.eu-west-2.amazonaws.com/Prod/",
       {
@@ -78,11 +84,18 @@ async function handlerSubmitForm(event) {
     );
 
     this.querySelector('textarea[name="comment"]').value = "";
-    this.nextElementSibling.classList.remove(CLASS_MODERATION_HIDDEN);
+    this.querySelector(SELECTOR_FORM_LOADING).classList.add(
+      CLASS_FORM_LOADING_HIDDEN
+    );
+    this.querySelector(SELECTOR_FORM_CONFIRMATION).classList.remove(
+      CLASS_FORM_CONFIRMATION_HIDDEN
+    );
   } catch (error) {
     console.log(error);
   } finally {
-    this.classList.remove(CLASS_FORM_SENDING);
+    this.querySelector(SELECTOR_FORM_LOADING).classList.add(
+      CLASS_FORM_LOADING_HIDDEN
+    );
   }
 }
 
@@ -99,5 +112,5 @@ elmsForms.forEach((element) =>
   element.addEventListener("submit", handlerSubmitForm)
 );
 elmsButtons.forEach((i) =>
-  i.addEventListener("click", handlerClickReplybutton)
+  i.addEventListener("click", handlerClickReplyButton)
 );
