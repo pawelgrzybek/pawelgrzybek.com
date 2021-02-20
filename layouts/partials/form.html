@@ -1,9 +1,4 @@
 <form class="form {{ if eq .hidden true }}form--hidden{{ end }} js-form">
-  <div
-    class="form__loader__wrapper js-form__loader__wrapper form__loader__wrapper--hidden"
-  >
-    <div class="form__loader"></div>
-  </div>
   <input type="hidden" name="parent" value="{{ .parent }}" />
   <div class="form__col">
     <label class="form__label" for="name-{{ .parent }}">Name:</label>
@@ -98,5 +93,10 @@
   </div>
   <div class="form__row">
     <button class="form__button" type="submit">Submit comment</button>
+  </div>
+  <div
+    class="form__loader__wrapper js-form__loader__wrapper form__loader__wrapper--hidden"
+  >
+    <div class="form__loader"></div>
   </div>
 </form>
