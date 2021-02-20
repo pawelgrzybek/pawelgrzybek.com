@@ -1,0 +1,102 @@
+<form class="form {{ if eq .hidden true }}form--hidden{{ end }} js-form">
+  <div
+    class="form__loader__wrapper js-form__loader__wrapper form__loader__wrapper--hidden"
+  >
+    <div class="form__loader"></div>
+  </div>
+  <input type="hidden" name="parent" value="{{ .parent }}" />
+  <div class="form__col">
+    <label class="form__label" for="name-{{ .parent }}">Name:</label>
+    <input
+      class="form__input js-form-name"
+      id="name-{{ .parent }}"
+      name="name"
+      type="text"
+      placeholder="Barack Obama"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="off"
+      spellcheck="false"
+      required
+    />
+  </div>
+  <div class="form__col">
+    <label class="form__label" for="website-{{ .parent }}"
+      >Website (optional):</label
+    >
+    <input
+      class="form__input js-form-website"
+      id="website-{{ .parent }}"
+      name="website"
+      type="url"
+      placeholder="https://barackobama.com"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="off"
+      spellcheck="false"
+    />
+  </div>
+  <div class="form__col">
+    <label class="form__label" for="twitter-{{ .parent }}"
+      >Twitter (optional):</label
+    >
+    <input
+      class="form__input js-form-twitter"
+      id="twitter-{{ .parent }}"
+      name="twitter"
+      type="text"
+      placeholder="barackobama"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="off"
+      spellcheck="false"
+    />
+  </div>
+  <div class="form__col">
+    <label class="form__label" for="github-{{ .parent }}"
+      >GitHub (optional):</label
+    >
+    <input
+      class="form__input js-form-github"
+      id="github-{{ .parent }}"
+      name="github"
+      type="text"
+      placeholder="barackobama"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="off"
+      spellcheck="false"
+    />
+  </div>
+  <div class="form__col">
+    <label class="form__label" for="comment-textarea-{{ .parent }}"
+      >Comment:</label
+    >
+    <textarea
+      class="form__input form__input--textarea"
+      id="comment-textarea-{{ .parent }}"
+      name="comment"
+      placeholder="I think…"
+      required
+    ></textarea>
+    <p class="form__tip">👆 you can use Markdown here</p>
+  </div>
+  <label class="form__row">
+    <input
+      class="form__checkbox js-form-save-data"
+      name="save"
+      type="checkbox"
+    />
+    <span class="form__label form__label--thin"
+      >Save my data for the next time I comment</span
+    >
+  </label>
+  <div
+    class="form__confirmation js-form__confirmation form__confirmation--hidden"
+  >
+    Your comment is awaiting moderation. Thanks!
+  </div>
+  <div class="form__row">
+    <button class="form__button" type="submit">Submit comment</button>
+  </div>
+</form>
