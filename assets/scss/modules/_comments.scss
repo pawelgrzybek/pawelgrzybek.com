@@ -10,20 +10,16 @@
     box-shadow: inset 1px 0 0 var(--color-box-border-dark);
     padding-left: var(--lh);
 
-    .comments__author {
-      position: relative;
-
-      &::before {
-        position: absolute;
-        top: 50%;
-        left: calc(var(--lh) * -1);
-        width: calc(var(--lh) / 4);
-        height: calc(var(--lh) / 4);
-        background: var(--color-box-border-dark);
-        transform: translate(-50%, -50%);
-        border-radius: 50%;
-        content: "";
-      }
+    .comments__author::before {
+      position: absolute;
+      top: 50%;
+      left: calc(var(--lh) * -1);
+      width: calc(var(--lh) / 4);
+      height: calc(var(--lh) / 4);
+      background: var(--color-box-border-dark);
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      content: "";
     }
   }
 }
@@ -75,6 +71,12 @@
   width: calc(var(--lh) * 1.5);
   height: calc(var(--lh) * 1.5);
   margin-right: calc(var(--lh) / 2);
+  line-height: calc(var(--lh) * 1.5);
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .comments__author__data {

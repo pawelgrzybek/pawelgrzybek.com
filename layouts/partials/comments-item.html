@@ -1,11 +1,19 @@
+{{ $isFuckingVip := eq .website "https://pawelgrzybek.com"  }}
+
 <li class="comments__item" id="comment-{{ .id }}">
   <div class="comments__wrapper">
     <div class="comments__author">
+      {{ if $isFuckingVip }}
       <img
-        src="{{ if eq .name "Pawel Grzybek" }}/assets/logo.jpg{{ else }}/assets/comment.svg{{ end }}"
+        src="/assets/logo.jpg"
         alt="{{ .name }}"
         class="comments__author__photo"
       />
+      {{ else }}
+      <div class="comments__author__photo" style="background-color: hsl({{ index (seq 360 | shuffle) 0 }}, 30%, 40%);">
+        {{ substr .name 0 1 }}
+      </div>
+      {{ end }}
       <div class="comments__author__data">
         <div class="comments__author__name">{{ .name }}</div>
         <div class="comments__author__metadata">
