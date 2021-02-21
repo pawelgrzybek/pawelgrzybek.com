@@ -15,3 +15,9 @@ Upgrade to node version 14 is a significant change that will make our life a lot
 ##  [Modular AWS SDK for JavaScript is now generally available](https://aws.amazon.com/blogs/developer/modular-aws-sdk-for-javascript-is-now-generally-available/)
 
 Another big news for JavaScript developers using AWS cloud. The official SDK got a big update on December. The package is modular and allows to import only whats needed instead of the whole SDK, comes with a native support for TypeScript and introduces revamped middleware system. 
+
+## [The "ping" attribute on <a> tags, which will send a POST request to the given URLs when the anchor is clicked](https://twitter.com/svenluijten/status/1363245229533507585)
+
+This little tip saved me one Lambda. On on of my recent personal projects I used to have one GET endpoint that triggers POST hook. This one allowed me to remove good chunk of code . Removing code is my best for of adding functionality.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🤓 TIL about the &quot;ping&quot; attribute on &lt;a&gt; tags, which will send a POST request to the given URLs when the anchor is clicked.<br><br>🔗 <a href="https://t.co/1BP30xMR1l">https://t.co/1BP30xMR1l</a> <a href="https://t.co/gXPFPDIz8u">pic.twitter.com/gXPFPDIz8u</a></p>&mdash; Sven (@svenluijten) <a href="https://twitter.com/svenluijten/status/1363245229533507585?ref_src=twsrc%5Etfw">February 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
