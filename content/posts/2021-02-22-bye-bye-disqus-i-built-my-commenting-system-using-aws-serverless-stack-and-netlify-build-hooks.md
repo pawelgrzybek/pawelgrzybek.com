@@ -24,20 +24,20 @@ For comparison, my website is ready after 300ms under the same network condition
 
 ## Freedom
 
-Because I built it, I can do whatever the heck I want with it. I have full control of the functionality and visual aspect of it. I can even do shit like this!
+Because I built it, I can do whatever the heck I want with it. I have full control over the functionality and the visual aspect of it. I can even do shit like this!
 
-!!! Some funny code snippet here !!!
+![A funny snippet of code](/photos/2021-02-22-2.jpg)
 
 ## My new commenting system tech stack
 
-There are literally a few HTML lines on the front end, around 100 lines of custom-written CSS and about 1kb of vanilla JavaScript. On the backend side of things, I use [AWS Lambda](https://aws.amazon.com/lambda/) to put something on and read from [DynamoDB](https://aws.amazon.com/dynamodb/). I also build a little moderation tool that allows me to discard or approve new comment by clicking a link in an email. To send notification emails, I use [Amazon Simple Email Service](https://aws.amazon.com/ses/).
+There are a few HTML lines on the front end, around 100 lines of custom-written CSS and about 1kb of vanilla JavaScript. On the backend side of things, I use [AWS Lambda](https://aws.amazon.com/lambda/) to put something on and read from [DynamoDB](https://aws.amazon.com/dynamodb/). I also build a little moderation tool that allows me to discard or approve new comment by clicking a link in an email. To send notification emails, I use [Amazon Simple Email Service](https://aws.amazon.com/ses/).
 
 ![My custom commenting system built with AWS - diagram](/photos/2021-02-22-3.png)
 
-![My custom commenting system built with AWS - notification email](/photos/2021-02-22-4.jpg)
+![My custom commenting system built with AWS - the notification email](/photos/2021-02-22-4.jpg)
 
 ![My custom commenting system built with AWS - diagram](/photos/2021-02-22-5.png)
 
 ## Feedback 
 
-I plan to open-source it and provide a very detailed tutorial on how you can build a stack like this by yourself. Before I am going to do so, I want this thing to be properly tested. I highly encourage you to try it out and live ma comment below. As always, I am open to your feedback. For now, stay curious and build cool stuff 👋
+I plan to open-source it and provide a detailed tutorial on how you can build a stack like this by yourself. Before I am going to do so, I want this thing to be properly tested. I highly encourage you to try it out and live ma comment below. As always, I am open to your feedback. For now, stay curious and build cool stuff 👋
