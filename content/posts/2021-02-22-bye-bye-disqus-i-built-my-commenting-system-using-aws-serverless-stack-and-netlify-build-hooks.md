@@ -4,21 +4,21 @@ summary: "I have been using Disqus on this website since its inception. It worke
 photo: "2021-02-22.jpg"
 ---
 
-I have been using Disqus on this website since its inception. It worked, and it didn’t cost me a single penny, but it cost me, and most importantly, my visitors compromised privacy. Since [Zeta Global acquired the Disqus ](https://techcrunch.com/2017/12/05/zeta-global-acquires-commenting-service-disqus) in 2017, things became even worst. To top it off, it is also a performance killer.
+I've been using Disqus on this website since its inception. It worked and it didn't cost me a single penny, but it cost me and most importantly my visitors compromised privacy. Since [Zeta Global acquired the Disqus ](https://techcrunch.com/2017/12/05/zeta-global-acquires-commenting-service-disqus) in 2017, things became even worse. To top it off, it is also a performance killer.
 
-I started looking into alternatives, and surprisingly there is not a lot of things worth recommending. [Commento](https://commento.io) and [Hyvor Talk](https://talk.hyvor.com) look great, but it costs more than Apple Music or Netflix subscription. I am sure they are worth it, but I couldn’t justify paying this price to let someone leave a sentence or two under my posts.
+I started looking into alternatives, and surprisingly there's not a lot of things worth recommending. [Commento](https://commento.io) and [Hyvor Talk](https://talk.hyvor.com) look great, but it costs more than Apple Music or Netflix subscription. I'm sure they are worth it but I couldn't justify paying this price to let someone leave a sentence or two under my posts.
 
-I am not that bad with HTML. I quite enjoy writing CSS, JavaScript pays my bills, and I can find my way through a few AWS services. Yes, you guessed it — I built my own one.
+I'm not that bad with HTML. I quite enjoy writing CSS, JavaScript pays my bills and I can find my way through a few AWS services. Yes, you guessed it — I built my own one.
 
 ## Privacy first
 
-I don’t want to show you ads, I don’t care about your location, and I don’t care about your email address. The only thing I care about is a meaningful conversation under my articles. Kindly introduce yourself by filling the “Name” field (it doesn’t have to be real) and participate in a conversation with others. If you fancy some nasty comments, please save yourself and me a time and go to Reddit instead.
+I don't want to show you ads, I don't care about your location and I don't care about your email address. The only thing I care about is a meaningful conversation under my articles. Kindly introduce yourself by filling the "Name" field (it doesn't have to be real) and participate in a conversation with others. If you fancy some nasty comments, please save you and me some time and go to Reddit instead.
 
 ## Performance
 
 Disqus makes exactly 76 HTTP requests on load, and 11 of these resources are third-party trackers. It loads almost 2MB of data! To top it off, you have to wait around 10 seconds on average speed connection to get it all to display a commenting system with no comments whatsoever! Zero! Null! Nada!
 
-For comparison, my website is ready after 300ms under the same network conditions using my current solution. The full functionality requires to download only 1kb of JavaScript. It is worth to mention that this data is coming from an article that contains over a hundred comments. The Lighthouse score isn’t that bad neither.
+For comparison, my website is ready after 300ms under the same network conditions using my current solution. The full functionality requires to download only 1kb of JavaScript. It's worth mentioning that this data is coming from an article that contains over 100 comments. The Lighthouse score isn't that bad neither.
 
 ![Lighthouse score of my individual page with more than 100 comments](/photos/2021-02-22-1.png)
 
