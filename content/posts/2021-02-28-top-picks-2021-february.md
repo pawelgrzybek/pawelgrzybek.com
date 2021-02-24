@@ -25,3 +25,8 @@ This little tip saved me one Lambda. On on of my recent personal projects I used
 ## [Ray.so — Create beautiful images of your code](https://ray.so)
 
 It is like [Carbon](https://carbon.now.sh) but applies slightly different look. I really like both of these tools to use when I want to share a snippet of code on Twitter.
+
+## [Start something .new](https://whats.new)
+
+There is a lot .new domains registered that can improve your workflow. Did you know you can visit [playlist.new](http://playlist.new/) to create a new Spotify playlist? Did you know you can visit [repo.new](http://repo.new/) to create a new GitHub repository? Nice, isn;t it? There is a lot of domains like that and you can check them all on [whats.new/shortcuts](https://whats.new/shortcuts/).
+
