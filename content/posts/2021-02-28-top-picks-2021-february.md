@@ -30,3 +30,10 @@ It is like [Carbon](https://carbon.now.sh) but applies slightly different look. 
 
 There is a lot .new domains registered that can improve your workflow. Did you know you can visit [playlist.new](http://playlist.new/) to create a new Spotify playlist? Did you know you can visit [repo.new](http://repo.new/) to create a new GitHub repository? Nice, isn;t it? There is a lot of domains like that and you can check them all on [whats.new/shortcuts](https://whats.new/shortcuts/).
 
+## [Enabling Popups](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/Popup/explainer.md)
+
+The native HTML `<popup>` element is under active development. How often we build a solution for transient UI element displayed on top of the other UI elements? From my experience it is very hard to do it right by keeping the right accessibility functionality in place and make this thing performant. I am well-excited about this proposal and even more excited about the fact that [the implementation of <popup> element it is under active development in Blink engine](https://bugs.chromium.org/p/chromium/issues/detail?id=1168738).
+
+## [Annual Awards 2020 - Discover the best of the Web on Awwwards](https://www.awwwards.com/annual-awards-2020/)
+
+Awwwards just presented the winners of the Annual Awards 2020. I enjoy looking at these results every year. Even tho I consider myself as OK frontend developer, some of the stuff presented here is way above my level of understanding of web technologies. Awwwesome!
