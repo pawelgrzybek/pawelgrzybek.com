@@ -47,6 +47,13 @@ function handlerChangeSaveButton(event) {
 async function handlerSubmitForm(event) {
   event.preventDefault();
 
+  const formFieldName = this.querySelector('input[name="name"]');
+  const formFieldWebsite = this.querySelector('input[name="website"]');
+  const formFieldTwitter = this.querySelector('input[name="twitter"]');
+  const formFieldGitHub = this.querySelector('input[name="github"]');
+  const formFieldComment = this.querySelector('textarea[name="comment"]');
+  const formFieldParent = this.querySelector('input[name="parent"]');
+
   try {
     this.querySelector(SELECTOR_FORM_LOADING).classList.remove(
       CLASS_FORM_LOADING_HIDDEN
@@ -57,12 +64,12 @@ async function handlerSubmitForm(event) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          name: this.querySelector('input[name="name"]').value,
-          website: this.querySelector('input[name="website"]').value,
-          twitter: this.querySelector('input[name="twitter"]').value,
-          github: this.querySelector('input[name="github"]').value,
-          comment: this.querySelector('textarea[name="comment"]').value,
-          parent: this.querySelector('input[name="parent"]').value,
+          name: formFieldName.value,
+          website: formFieldWebsite.value,
+          twitter: formFieldTwitter.value,
+          github: formFieldGitHub.value,
+          comment: formFieldComment.value,
+          parent: formFieldParent.value,
           slug: location.pathname.replace(/\//g, ""),
           title: document.querySelector("h1").textContent,
         }),
@@ -75,15 +82,22 @@ async function handlerSubmitForm(event) {
     localStorage[method](
       LOCAL_STORAGE_KEY,
       JSON.stringify({
-        name: this.querySelector('input[name="name"]').value,
-        website: this.querySelector('input[name="website"]').value,
-        twitter: this.querySelector('input[name="twitter"]').value,
-        github: this.querySelector('input[name="github"]').value,
+        name: formFieldName.value,
+        website: formFieldWebsite.value,
+        twitter: formFieldTwitter.value,
+        github: formFieldGitHub.value,
         save: this.querySelector('input[name="save"]').checked,
       })
     );
 
-    this.querySelector('textarea[name="comment"]').value = "";
+    [
+      formFieldName,
+      formFieldWebsite,
+      formFieldTwitter,
+      formFieldGitHub,
+      formFieldComment,
+    ].forEach((i) => (i.value = ""));
+
     this.querySelector(SELECTOR_FORM_LOADING).classList.add(
       CLASS_FORM_LOADING_HIDDEN
     );

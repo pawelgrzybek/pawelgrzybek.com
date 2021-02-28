@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pawelgrzybek.com</title><link>https://pawelgrzybek.com/</link><description>Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records.</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml"/><item><title>I abandoned Facebook and Instagram for a month</title><link>https://pawelgrzybek.com/i-abandoned-facebook-and-instagram-for-a-month/</link><pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/i-abandoned-facebook-and-instagram-for-a-month/</guid><description>&lt;p>When is the best time to try something new in your life? It’s now! But for me it happened to be precisely a month ago, at the beginning of a new year. I accomplished a dry January challenge without a single sip of my favourite Montepulciano d’Abruzzo wine. After many years of a pescatarian lifestyle, I decided to go full vegetarian. Arrivederci, seafood! Apart from these little changes, I did one more, much more meaningful thing.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pawelgrzybek.com</title><link>https://pawelgrzybek.com/</link><description>Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records.</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml"/><item><title>Top picks — 2021 February</title><link>https://pawelgrzybek.com/top-picks-2021-february/</link><pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/top-picks-2021-february/</guid><description>&lt;h2 id="npm-7-is-now-generally-availablehttpsgithubblog2021-02-02-npm-7-is-now-generally-available">&lt;a href="https://github.blog/2021-02-02-npm-7-is-now-generally-available/">npm 7 is now generally available!&lt;/a> &lt;a href="#npm-7-is-now-generally-availablehttpsgithubblog2021-02-02-npm-7-is-now-generally-available" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Version 7 of the official node package manager arrived with many improvements and one change that I am excited to see — reducing dependencies, increased code coverage, significant performance improvements and compatibility with yarn. Sweet!&lt;/p>
+&lt;h2 id="aws-lambda-now-supports-nodejs-14httpsawsamazoncomabout-awswhats-new202102aws-lambda-now-supports-node-js-14">&lt;a href="https://aws.amazon.com/about-aws/whats-new/2021/02/aws-lambda-now-supports-node-js-14/">AWS Lambda now supports Node.js 14&lt;/a> &lt;a href="#aws-lambda-now-supports-nodejs-14httpsawsamazoncomabout-awswhats-new202102aws-lambda-now-supports-node-js-14" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Upgrade to node version 14 is a significant change that will make our life a lot easier. Some of the new features that we just got to our disposal are nullish coalescing, optional chaining, and many new options on &lt;code>Intl&lt;/code> constructor. Indeed the upgrade to the V8.1 engine comes with a lot of performance improvements too.&lt;/p>
+&lt;h2 id="modular-aws-sdk-for-javascript-is-now-generally-availablehttpsawsamazoncomblogsdevelopermodular-aws-sdk-for-javascript-is-now-generally-available">&lt;a href="https://aws.amazon.com/blogs/developer/modular-aws-sdk-for-javascript-is-now-generally-available/">Modular AWS SDK for JavaScript is now generally available&lt;/a> &lt;a href="#modular-aws-sdk-for-javascript-is-now-generally-availablehttpsawsamazoncomblogsdevelopermodular-aws-sdk-for-javascript-is-now-generally-available" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Another big news for JavaScript developers using AWS cloud. The official SDK got a big update in December. The package is modular and allows to import what&amp;rsquo;s needed instead of the whole SDK, comes with native support for TypeScript and introduces revamped middleware system.&lt;/p>
+&lt;h2 id="the-ping-attribute-on-a-tags-which-will-send-a-post-request-to-the-given-urls-when-the-anchor-is-clickedhttpstwittercomsvenluijtenstatus1363245229533507585">&lt;a href="https://twitter.com/svenluijten/status/1363245229533507585">The &amp;ldquo;ping&amp;rdquo; attribute on &lt;a> tags, which will send a POST request to the given URLs when the anchor is clicked&lt;/a> &lt;a href="#the-ping-attribute-on-a-tags-which-will-send-a-post-request-to-the-given-urls-when-the-anchor-is-clickedhttpstwittercomsvenluijtenstatus1363245229533507585" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>This little tip saved me one Lambda. On one of my recent personal projects, I used to have one GET endpoint that triggers a POST hook. This one allowed me to remove a good chunk of code. Removing code is my best form of adding functionality.&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">🤓 TIL about the &amp;quot;ping&amp;quot; attribute on &amp;lt;a&amp;gt; tags, which will send a POST request to the given URLs when the anchor is clicked.&lt;br>&lt;br>🔗 &lt;a href="https://t.co/1BP30xMR1l">https://t.co/1BP30xMR1l&lt;/a> &lt;a href="https://t.co/gXPFPDIz8u">pic.twitter.com/gXPFPDIz8u&lt;/a>&lt;/p>&amp;mdash; Sven (@svenluijten) &lt;a href="https://twitter.com/svenluijten/status/1363245229533507585?ref_src=twsrc%5Etfw">February 20, 2021&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;h2 id="rayso--create-beautiful-images-of-your-codehttpsrayso">&lt;a href="https://ray.so">Ray.so — Create beautiful images of your code&lt;/a> &lt;a href="#rayso--create-beautiful-images-of-your-codehttpsrayso" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>It is like &lt;a href="https://carbon.now.sh">Carbon&lt;/a> but applies a slightly different look. I like both of these tools to use when I want to share a snippet of code on Twitter.&lt;/p>
+&lt;h2 id="start-something-newhttpswhatsnew">&lt;a href="https://whats.new">Start something .new&lt;/a> &lt;a href="#start-something-newhttpswhatsnew" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>There are a lot of .new domains registered that can improve your workflow. Did you know you can visit &lt;a href="http://playlist.new/">playlist.new&lt;/a> to create a new Spotify playlist? Did you know you can visit &lt;a href="http://repo.new/">repo.new&lt;/a> to create a new GitHub repository? Nice, isn&amp;rsquo;t it? There are many domains like that, and you can check them all on &lt;a href="https://whats.new/shortcuts/">whats.new/shortcuts&lt;/a>.&lt;/p>
+&lt;h2 id="enabling-popupshttpsgithubcommicrosoftedgemsedgeexplainersblobmainpopupexplainermd">&lt;a href="https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/Popup/explainer.md">Enabling Popups&lt;/a> &lt;a href="#enabling-popupshttpsgithubcommicrosoftedgemsedgeexplainersblobmainpopupexplainermd" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>The native HTML &lt;code>&amp;lt;popup&amp;gt;&lt;/code> element is under active development. How often we build a solution for the transient UI element displayed on top of the other UI elements? From my experience, it is tough to do it right by keeping the right accessibility functionality in place and make this thing performant. I am well-excited about this proposal and even more excited about the fact that &lt;a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1168738">the implementation of &lt;popup> element it is under active development in Blink engine&lt;/a>.&lt;/p>
+&lt;h2 id="annual-awards-2020---discover-the-best-of-the-web-on-awwwardshttpswwwawwwardscomannual-awards-2020">&lt;a href="https://www.awwwards.com/annual-awards-2020/">Annual Awards 2020 - Discover the best of the Web on Awwwards&lt;/a> &lt;a href="#annual-awards-2020---discover-the-best-of-the-web-on-awwwardshttpswwwawwwardscomannual-awards-2020" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Awwwards just presented the winners of the Annual Awards 2020. I enjoy looking at these results every year. Even tho I consider myself an OK frontend developer, some of the stuff presented here is way above my level of understanding of web technologies. Awwwesome!&lt;/p></description></item><item><title>Bye-bye, Disqus! I built my commenting system using AWS serverless stack and Netlify build hooks!</title><link>https://pawelgrzybek.com/bye-bye-disqus-i-built-my-commenting-system-using-aws-serverless-stack-and-netlify-build-hooks/</link><pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/bye-bye-disqus-i-built-my-commenting-system-using-aws-serverless-stack-and-netlify-build-hooks/</guid><description>&lt;p>I&amp;rsquo;ve been using Disqus on this website since its inception. It worked and it didn&amp;rsquo;t cost me a single penny, but it cost me and most importantly my visitors compromised privacy. Since &lt;a href="https://techcrunch.com/2017/12/05/zeta-global-acquires-commenting-service-disqus">Zeta Global acquired the Disqus &lt;/a> in 2017, things became even worse. To top it off, it is also a performance killer.&lt;/p>
+&lt;p>I started looking into alternatives, and surprisingly there&amp;rsquo;s not a lot of things worth recommending. &lt;a href="https://commento.io">Commento&lt;/a> and &lt;a href="https://talk.hyvor.com">Hyvor Talk&lt;/a> look great, but it costs more than Apple Music or Netflix subscription. I&amp;rsquo;m sure they are worth it but I couldn&amp;rsquo;t justify paying this price to let someone leave a sentence or two under my posts.&lt;/p>
+&lt;p>I&amp;rsquo;m not that bad with HTML. I quite enjoy writing CSS, JavaScript pays my bills and I can find my way through a few AWS services. Yes, you guessed it — I built my own one.&lt;/p>
+&lt;h2 id="privacy-first">Privacy first &lt;a href="#privacy-first" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>I don&amp;rsquo;t want to show you ads, I don&amp;rsquo;t care about your location and I don&amp;rsquo;t care about your email address. The only thing I care about is a meaningful conversation under my articles. Kindly introduce yourself by filling the &amp;ldquo;Name&amp;rdquo; field (it doesn&amp;rsquo;t have to be real) and participate in a conversation with others. If you fancy some nasty comments, please save you and me some time and go to Reddit instead.&lt;/p>
+&lt;h2 id="performance">Performance &lt;a href="#performance" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Disqus makes exactly 76 HTTP requests on load, and 11 of these resources are third-party trackers. It loads almost 2MB of data! To top it off, you have to wait around 10 seconds on average speed connection to get it all to display a commenting system with no comments whatsoever! Zero! Null! Nada!&lt;/p>
+&lt;p>For comparison, my website is ready after 300ms under the same network conditions using my current solution. The full functionality requires to download only 1kb of JavaScript. It&amp;rsquo;s worth mentioning that this data is coming from an article that contains over 100 comments. The Lighthouse score isn&amp;rsquo;t that bad neither.&lt;/p>
+&lt;p>&lt;picture>
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-02-22-1.avif" type="image/avif" >
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-02-22-1.webp" type="image/webp" >
+&lt;img
+src="https://pawelgrzybek.com/photos/2021-02-22-1.png"
+alt="Lighthouse score of my individual page with more than 100 comments"
+loading="lazy"
+decoding="async"
+width="1400"
+height="933"
+/>
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="freedom">Freedom &lt;a href="#freedom" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Because I built it, I can do whatever the heck I want with it. I have full control over the functionality and the visual aspect of it. I can even do shit like this!&lt;/p>
+&lt;p>&lt;picture>
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-02-22-2.avif" type="image/avif" >
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-02-22-2.webp" type="image/webp" >
+&lt;img
+src="https://pawelgrzybek.com/photos/2021-02-22-2.jpg"
+alt="A funny snippet of code"
+loading="lazy"
+decoding="async"
+width="1400"
+height="934"
+/>
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="my-new-commenting-system-tech-stack">My new commenting system tech stack &lt;a href="#my-new-commenting-system-tech-stack" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>There are a few HTML lines on the front end, around 100 lines of custom-written CSS and about 1kb of vanilla JavaScript. On the backend side of things, I use &lt;a href="https://aws.amazon.com/lambda/">AWS Lambda&lt;/a> to put something on and read from &lt;a href="https://aws.amazon.com/dynamodb/">DynamoDB&lt;/a>. I also build a little moderation tool that allows me to discard or approve new comment by clicking a link in an email. To send notification emails, I use &lt;a href="https://aws.amazon.com/ses/">Amazon Simple Email Service&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-02-22-3.avif" type="image/avif" >
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-02-22-3.webp" type="image/webp" >
+&lt;img
+src="https://pawelgrzybek.com/photos/2021-02-22-3.png"
+alt="My custom commenting system built with AWS - diagram"
+loading="lazy"
+decoding="async"
+width="1400"
+height="890"
+/>
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-02-22-4.avif" type="image/avif" >
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-02-22-4.webp" type="image/webp" >
+&lt;img
+src="https://pawelgrzybek.com/photos/2021-02-22-4.jpg"
+alt="My custom commenting system built with AWS - the notification email"
+loading="lazy"
+decoding="async"
+width="1400"
+height="934"
+/>
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-02-22-5.avif" type="image/avif" >
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-02-22-5.webp" type="image/webp" >
+&lt;img
+src="https://pawelgrzybek.com/photos/2021-02-22-5.png"
+alt="My custom commenting system built with AWS - diagram"
+loading="lazy"
+decoding="async"
+width="1400"
+height="1124"
+/>
+&lt;/picture>
+&lt;/p>
+&lt;p>Pro tip! You can send a &lt;code>POST&lt;/code> request on link click by adding a &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping">&lt;code>ping&lt;/code> attribute&lt;/a> to it. I learned that from &lt;a href="https://twitter.com/svenluijten/status/1363245229533507585">Sven, who tweeted about it&lt;/a> a few days ago. Excellent, isn’t it?&lt;/p>
+&lt;blockquote>
+&lt;p>A space-separated list of URLs. When the link is followed, the browser will send POST requests with the body PING to the URLs. Typically for tracking.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="feedback-please">Feedback please &lt;a href="#feedback-please" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>I&amp;rsquo;m planning to open-source it and provide a detailed tutorial on how you can implement a commenting system like this on your own website. Before I am going to do so, I want this thing to be properly tested. I highly encourage you to try it out and leave me a comment below. As always, I am open to your feedback. For now, stay curious, build cool things and share with others 👋&lt;/p></description></item><item><title>I abandoned Facebook and Instagram for a month</title><link>https://pawelgrzybek.com/i-abandoned-facebook-and-instagram-for-a-month/</link><pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/i-abandoned-facebook-and-instagram-for-a-month/</guid><description>&lt;p>When is the best time to try something new in your life? It’s now! But for me it happened to be precisely a month ago, at the beginning of a new year. I accomplished a dry January challenge without a single sip of my favourite Montepulciano d’Abruzzo wine. After many years of a pescatarian lifestyle, I decided to go full vegetarian. Arrivederci, seafood! Apart from these little changes, I did one more, much more meaningful thing.&lt;/p>
 &lt;p>Inspired by my girlfriend and motivated by the &lt;a href="https://pawelgrzybek.com/book-review-digital-minimalism-by-cal-newport/">&amp;ldquo;Digital Minimalism&amp;rdquo; by Cal Newport&lt;/a>, I decided to quit Facebook and Instagram for an entire month. Literally moment ago I re-visited these two social media platforms for the first time since the end of 2020 to see that I missed absolutely nothing! Fuck all!&lt;/p>
 &lt;p>I managed to gain a lot, though. The downtime that I use to spend for mindless scrolling social media portals, I replaced with time intensely focused on things that really matter. I had many long conversations with my family, read a few books and learned many new things. I reclaimed the patience to do the time-consuming things that require deep focus.&lt;/p>
 &lt;p>This month, no one struggled to get in touch with me, and I didn’t need social media to call my best friend. I didn’t need social media to send birthday wishes to Sally. I didn’t need social media to exchange some cool music recommendation with Michal. “I use it to contact my friends” was just a stupid excuse that I used for years to keep access to this brainwashing machines.&lt;/p>
