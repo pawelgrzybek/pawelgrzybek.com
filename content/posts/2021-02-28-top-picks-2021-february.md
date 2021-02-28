@@ -16,7 +16,7 @@ Upgrade to node version 14 is a significant change that will make our life a lot
 
 Another big news for JavaScript developers using AWS cloud. The official SDK got a big update in December. The package is modular and allows to import what's needed instead of the whole SDK, comes with native support for TypeScript and introduces revamped middleware system.
 
-## [The "ping" attribute on <a> tags, which will send a POST request to the given URLs when the anchor is clicked](https://twitter.com/svenluijten/status/1363245229533507585)
+## [The "ping" attribute on \<a\> tags, which will send a POST request to the given URLs when the anchor is clicked](https://twitter.com/svenluijten/status/1363245229533507585)
 
 This little tip saved me one Lambda. On one of my recent personal projects, I used to have one GET endpoint that triggers a POST hook. This one allowed me to remove a good chunk of code. Removing code is my best form of adding functionality.
 
