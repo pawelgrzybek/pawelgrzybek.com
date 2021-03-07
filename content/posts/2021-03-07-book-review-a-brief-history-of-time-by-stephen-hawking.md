@@ -4,7 +4,7 @@ summary: "Many times in my life, I was wondering about abstract things like spac
 photo: "2021-03-07.jpg"
 ---
 
-Many times in my life, I was wondering about abstract things like space travel, the size of a universe, the importance of time, gravitational force, and other stuff like that. Do you sometimes contemplate anti earthly subjects like that, or is it just me? I had no idea where to seek answers for my questions, but luckily, I came across ["A Brief History of Time" by Stephen Hawking"](https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time).
+Many times in my life, I have thought about abstract things like space travel, the size of a universe, the importance of time, gravitational force, and other stuff like that. Do you sometimes contemplate anti earthly subjects like that, or is it just me? I had no idea where to seek answers for my questions, but luckily, I came across ["A Brief History of Time" by Stephen Hawking"](https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time).
 
 !["A Brief History of Time" by Stephen Hawking book](/photos/2021-03-07-1.jpg)
 
@@ -14,4 +14,4 @@ In this three-decades-old publication, Stephen Hawking demystified modern theore
 
 ![Example of a helpful diagram in "A Brief History of Time" by Stephen Hawking book](/photos/2021-03-07-3.jpg)
 
-Even tho it is only around 250 pages book, it takes a while to digest all these abstract-sounding concepts, so do not expect to smash it in one evening. The copy that I got is full of beautiful illustrations that I found helpful in grasping some of the concepts. I would recommend this publication to every curious one out there. I will catch you next time but until then, stay curious 👩‍🏫 👨‍🏫
+Even tho it's only around 250 pages, it takes a while to digest all the abstract-sounding concepts in this book, so don't expect to smash it in one evening. The copy that I have is full of beautiful illustrations that I found helpful in grasping some of the concepts. I would recommend this publication to every curious one out there. I will catch you next time but until then, stay curious 👩‍🏫 👨‍🏫
