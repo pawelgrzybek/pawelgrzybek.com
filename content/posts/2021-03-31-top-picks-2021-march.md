@@ -24,6 +24,12 @@ Global Privacy Control (GPC) is a proposed specification designed to allow Inter
 
 ## [Introducing Amazon S3 Object Lambda – Use Your Code to Process Data as It Is Being Retrieved from S3](https://aws.amazon.com/blogs/aws/introducing-amazon-s3-object-lambda-use-your-code-to-process-data-as-it-is-being-retrieved-from-s3/)
 
-Really useful announcement from AWS team — Amazon S Object Lambdas. It allows to to return a customized S3 object. No need to store multiple copies of the same master data in a bucket just to serve multiple consumers — this is not cost effective and error prone. There is no need to create a custom proxies anymore neither as S3 Object Lambdas give a native, easy to implement and cost effective solution.
+Beneficial announcement from AWS team — Amazon S Object Lambdas. It allows returning a customized S3 object. No need to store multiple copies of the same master data in a bucket to serve multiple consumers — this is not cost-effective and error-prone. There is no need to create a custom proxy anymore as S3 Object Lambdas give a native, easy to implement, and cost-effective solution.
 
 {{< youtube uTBgpK07E38 >}}
+
+## [https://blogs.windows.com/msedgedev/2021/03/22/better-compatibility-compat2021/](https://blogs.windows.com/msedgedev/2021/03/22/better-compatibility-compat2021/)
+
+Google, Microsoft, Igalia, and other web giants join forces to work through the main incompatibility pain-points: CSS Flexbox, CSS Grid, CSS `position: sticky`, the CSS `aspect-ratio` property, and CSS transforms. ["Compat2021: Eliminating five top compatibility pain points on the web"](https://web.dev/compat2021/) provides more detailed stats why they decided to focus on these features.
+
+> We’re excited to join with Google, Igalia, and the broader web community in committing resources to a cross-browser effort called #Compat2021, with the goal of substantial improvements in each area.
