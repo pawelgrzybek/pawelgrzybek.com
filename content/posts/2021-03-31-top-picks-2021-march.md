@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2021 March"
-summary: ""
+summary: "A bunch of free resources for developers, Material Design Icons on Google Fonts, Global Privacy Control, color vision deficiencies in the Blink renderer, Amazon S3 Object Lambda, better browser compatibility in 2021, Deno Company, Practical Go Lessons and CSS Container Queries. Enjoy!"
 photo: top-picks.jpg
 ---
 
