@@ -79,4 +79,4 @@ The last stable version of Express was released almost two years ago (May 2019).
 
 ## A lot more
 
-These are the main reasons I decided to invest my time in Fastify, but there is more to it! TypeScript support out of the box, a great community behind it, ease of use, excellent documentation full of examples, and more! Hopefully, I managed to convince you to at least give it a try on your next Node.js project! For now, stay safe 👋
+These are the main reasons why I decided to invest my time in Fastify, but there is more to it! TypeScript support out of the box, a great community behind it, ease of use, excellent documentation full of examples, and more! Hopefully, I managed to convince you to at least give it a try on your next Node.js project! For now, stay safe 👋
