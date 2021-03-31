@@ -4,13 +4,13 @@ summary: "It has been almost two years since Express has been updated, and a lot
 photo: "2021-04-01.jpg"
 ---
 
-I have been building Node.js applications for years, and until now, [Express](https://expressjs.com) was my preference for creating a server. It has been almost two years since this framework has been updated, and a lot of new great tools came around since then. I recently tried [Fastify](https://www.fastify.io) for the first time, and it took me no longer than a few minutes to decide to make a switch. Let me share with you a few main reasons.
+I've been building Node.js applications for years, and until now, [Express](https://expressjs.com) was my preference for building a server. It has been almost two years since this framework has been updated, and a lot of new great tools have come around since then. I recently tried [Fastify](https://www.fastify.io) for the first time, and it took me no longer than a few minutes to decide to make the switch. Let me share with you a few of the main reasons.
 
 ## Absurd performance
 
-Fastify with speed almost as good as native `http.Server` outperforms other frameworks by a significant margin. Due to call stack reduced to a necessary minimum, advanced [radix tree](https://en.wikipedia.org/wiki/Radix_tree) based routing algorithm called "find-my-way" and JSON serialization achieved by the [fast-json-stringify](https://github.com/fastify/fast-json-stringify), it can handle twice more load than Express.
+Fastify, with performance almost as good as native `http.Server` outperforms other frameworks by a significant margin. Due to the call stack reduced to a necessary minimum, advanced [radix tree](https://en.wikipedia.org/wiki/Radix_tree) based routing algorithm called "find-my-way" and JSON serialization achieved by the [fast-json-stringify](https://github.com/fastify/fast-json-stringify), it can handle twice more load than Express.
 
-At this point, you may expect some numbers to prove it, so I run two equivalent servers that output the same piece of JSON through load test using [Vegeta](https://github.com/tsenart/vegeta). As mentioned before, Fastify outperforms Express in every single factor.
+At this point you may expect some numbers to prove it, so I run two equivalent servers that output the same piece of JSON through load test using [Vegeta](https://github.com/tsenart/vegeta). As mentioned before, Fastify outperforms Express in every single factor.
 
 ```
 vegeta attack -duration=10s -rate=0 -max-workers=1 | vegeta report
@@ -32,19 +32,19 @@ Success       [ratio]                           100.00%
 Status Codes  [code:count]                      200:118489
 ```
 
-If you would like to get more in-depth about the performance of Fastify and how it compares to other popular frameworks, ["Reaching Ludicrous Speed with Fastify"](https://www.nearform.com/blog/reaching-ludicrous-speed-with-fastify/) is a read for you. If you prefer a video version, have a look at the ["Take your http server to ludicrous speed" by Matteo Collina on YouTube](https://youtu.be/5z46jJZNe8k).
+If you would like to get more in-depth about the performance of Fastify and how it compares to other popular frameworks, ["Reaching Ludicrous Speed with Fastify"](https://www.nearform.com/blog/reaching-ludicrous-speed-with-fastify/) is a good read for this. If you prefer a video version, have a look at the ["Take your http server to ludicrous speed" by Matteo Collina on YouTube](https://youtu.be/5z46jJZNe8k).
 
 ## Native support for async code
 
-The `UnhandledPromiseRejectionWarning` caused by an error of the asynchronous part of your application can crash your application (since Node.js v15.0.0) or cause memory leaks in older runtime versions. ["Broken Promises" by James Snell on YouTube](https://youtu.be/XV-u_Ow47s0) proves the point that working with Promises is a frequent reason for performance degradations.
+The `unhandledPromiseRejectionWarning` caused by an error of the asynchronous part of your application can crash your application (since Node.js v15.0.0) or cause memory leaks in older runtime versions. ["Broken Promises" by James Snell on YouTube](https://youtu.be/XV-u_Ow47s0) proves the point that working with Promises is a frequent reason for performance degradations.
 
 > When a customer comes to us with a complaint that their code is running slowly, our first question has become, "Are you using Promises?". When they predictably tell us yes, our response has become, "You're likely using them wrong".
 
-Even though nothing stops you from using `asyc`/`await` in Express applications, it is easy to fail on handling every single edge case. Fastify gives you this safety net that prevents your server from crashing and your request from ending up in a limbo state that eventually times out. It will gracefully handle unhandled promise rejection and sends an error response back to the user.
+Even though nothing stops you from using `asyc`/`await` in Express applications, it's easy to fail on handling every single edge case. Fastify gives you this safety net that prevents your server from crashing and your request from ending up in a limbo state that eventually times out. It will gracefully handle unhandled promise rejection and sends an error response back to the user.
 
 ## Logging, routes validation, and output serialization
 
-Validation and logging are almost unavoidable parts of every HTTP server. They are popular to the point that Fastify maintainers decided to pull it to the framework. [Pino](https://github.com/pinojs/pino) is a low overhead Node.js logger that comes bundled with it. Based on the [Ajv](https://www.npmjs.com/package/ajv) schema validator and output serializer using [fast-json-stringify](https://www.npmjs.com/package/fast-json-stringify), even though they are not mandatory, they can increase throughput and improve security. Have a look at this simple example of request validation and response serialization.
+Validation and logging are almost unavoidable parts of every HTTP server. They are popular to the point that Fastify maintainers decided to pull it to the framework. [Pino](https://github.com/pinojs/pino) is a low overhead Node.js logger that comes bundled with it. Based on the [Ajv](https://www.npmjs.com/package/ajv) schema validator and output serializer using [fast-json-stringify](https://www.npmjs.com/package/fast-json-stringify), even though they're not mandatory, they can increase throughput and improve security. Have a look at this simple example of request validation and response serialization.
 
 ```js
 const schemaBody = {
