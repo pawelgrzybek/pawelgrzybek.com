@@ -1,4 +1,151 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pawelgrzybek.com</title><link>https://pawelgrzybek.com/</link><description>Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records.</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml"/><item><title>Top picks — 2021 February</title><link>https://pawelgrzybek.com/top-picks-2021-february/</link><pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/top-picks-2021-february/</guid><description>&lt;h2 id="npm-7-is-now-generally-availablehttpsgithubblog2021-02-02-npm-7-is-now-generally-available">&lt;a href="https://github.blog/2021-02-02-npm-7-is-now-generally-available/">npm 7 is now generally available!&lt;/a> &lt;a href="#npm-7-is-now-generally-availablehttpsgithubblog2021-02-02-npm-7-is-now-generally-available" class="post__hash">#&lt;/a>&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pawelgrzybek.com</title><link>https://pawelgrzybek.com/</link><description>Hi there, I'm Pawel Grzybek, Front-end Developer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records.</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pawelgrzybek.com/feed.xml" rel="self" type="application/rss+xml"/><item><title>From Express to Fastify in Node.js</title><link>https://pawelgrzybek.com/from-express-to-fastify-in-node-js/</link><pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/from-express-to-fastify-in-node-js/</guid><description>&lt;p>I&amp;rsquo;ve been building Node.js applications for years, and until now, &lt;a href="https://expressjs.com">Express&lt;/a> was my preference for building a server. It has been almost two years since this framework has been updated, and a lot of new great tools have come around since then. I recently tried &lt;a href="https://www.fastify.io">Fastify&lt;/a> for the first time, and it took me no longer than a few minutes to decide to make the switch. Let me share with you a few of the main reasons.&lt;/p>
+&lt;h2 id="absurd-performance">Absurd performance &lt;a href="#absurd-performance" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Fastify, with performance almost as good as native &lt;code>http.Server&lt;/code> outperforms other frameworks by a significant margin. Due to the call stack reduced to a necessary minimum, advanced &lt;a href="https://en.wikipedia.org/wiki/Radix_tree">radix tree&lt;/a> based routing algorithm called &amp;ldquo;find-my-way&amp;rdquo; and JSON serialization achieved by the &lt;a href="https://github.com/fastify/fast-json-stringify">fast-json-stringify&lt;/a>, it can handle twice more load than Express.&lt;/p>
+&lt;p>At this point, you may expect some numbers to prove it, so I run two equivalent servers that output the same piece of JSON through load test using &lt;a href="https://github.com/tsenart/vegeta">Vegeta&lt;/a>. As mentioned before, Fastify outperforms Express in every single factor.&lt;/p>
+&lt;pre>&lt;code>vegeta attack -duration=10s -rate=0 -max-workers=1 | vegeta report
+&lt;/code>&lt;/pre>&lt;pre>&lt;code># Express
+Requests [total, rate, throughput] 65584, 6558.34, 6558.26
+Duration [total, attack, wait] 10s, 10s, 130.149µs
+Latencies [min, mean, 50, 90, 95, 99, max] 122.225µs, 151.803µs, 147.911µs, 160.265µs, 164.189µs, 194.74µs, 3.094ms
+Success [ratio] 100.00%
+Status Codes [code:count] 200:65584
+# Fastify
+Requests [total, rate, throughput] 118489, 11848.94, 11848.84
+Duration [total, attack, wait] 10s, 10s, 80.298µs
+Latencies [min, mean, 50, 90, 95, 99, max] 63.858µs, 83.763µs, 81.544µs, 88.909µs, 92.922µs, 136.839µs, 8.852ms
+Success [ratio] 100.00%
+Status Codes [code:count] 200:118489
+&lt;/code>&lt;/pre>&lt;p>If you would like to get more in-depth about the performance of Fastify and how it compares to other popular frameworks, &lt;a href="https://www.nearform.com/blog/reaching-ludicrous-speed-with-fastify/">&amp;ldquo;Reaching Ludicrous Speed with Fastify&amp;rdquo;&lt;/a> is a good read for this. If you prefer a video version, have a look at the &lt;a href="https://youtu.be/5z46jJZNe8k">&amp;ldquo;Take your http server to ludicrous speed&amp;rdquo; by Matteo Collina on YouTube&lt;/a>.&lt;/p>
+&lt;h2 id="native-support-for-async-code">Native support for async code &lt;a href="#native-support-for-async-code" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>The &lt;code>UnhandledPromiseRejectionWarning&lt;/code> caused by an error of the asynchronous part of your application can crash your application (since Node.js v15.0.0) or cause memory leaks in older runtime versions. &lt;a href="https://youtu.be/XV-u_Ow47s0">&amp;ldquo;Broken Promises&amp;rdquo; by James Snell on YouTube&lt;/a> proves the point that working with Promises is a frequent reason for performance degradations.&lt;/p>
+&lt;blockquote>
+&lt;p>When a customer comes to us with a complaint that their code is running slowly, our first question has become, &amp;ldquo;Are you using Promises?&amp;rdquo;. When they predictably tell us yes, our response has become, &amp;ldquo;You&amp;rsquo;re likely using them wrong&amp;rdquo;.&lt;/p>
+&lt;/blockquote>
+&lt;p>Even though nothing stops you from using &lt;code>asyc&lt;/code>/&lt;code>await&lt;/code> in Express applications, it&amp;rsquo;s easy to fail on handling every single edge case. Fastify gives you this safety net that prevents your server from crashing and your request from ending up in a limbo state that eventually times out. It will gracefully handle unhandled promise rejection and sends an error response back to the user.&lt;/p>
+&lt;h2 id="logging-routes-validation-and-output-serialization">Logging, routes validation, and output serialization &lt;a href="#logging-routes-validation-and-output-serialization" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Validation and logging are almost unavoidable parts of every HTTP server. They are popular to the point that Fastify maintainers decided to pull it to the framework. &lt;a href="https://github.com/pinojs/pino">Pino&lt;/a> is a low overhead Node.js logger that comes bundled with it. Based on the &lt;a href="https://www.npmjs.com/package/ajv">Ajv&lt;/a> schema validator and output serializer using &lt;a href="https://www.npmjs.com/package/fast-json-stringify">fast-json-stringify&lt;/a>, they can increase throughput and improve security even though they&amp;rsquo;re not mandatory. Have a look at this simple example of request validation and response serialization.&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="kr">const&lt;/span> &lt;span class="nx">schemaBody&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">type&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;object&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">required&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">],&lt;/span>
+&lt;span class="nx">properties&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">id&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">type&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;number&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
+&lt;span class="nx">username&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">type&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;string&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
+&lt;span class="p">},&lt;/span>
+&lt;span class="p">};&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">schemaResponse&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="mi">200&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">type&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;object&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">properties&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">name&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">type&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;string&amp;#34;&lt;/span> &lt;span class="p">},&lt;/span>
+&lt;span class="p">},&lt;/span>
+&lt;span class="p">},&lt;/span>
+&lt;span class="p">};&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">schema&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">body&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">schemaBody&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">response&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">schemaResponse&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="p">};&lt;/span>
+&lt;span class="nx">app&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">post&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;/user&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">schema&lt;/span> &lt;span class="p">},&lt;/span> &lt;span class="nx">handler&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="actively-maintained">Actively maintained &lt;a href="#actively-maintained" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>The last stable version of Express was released almost two years ago (May 2019). Fastify, on the other hand, is under active development led by &lt;a href="https://twitter.com/matteocollina">Matteo Collina&lt;/a> and &lt;a href="https://twitter.com/delvedor">Tomas Della Vedova&lt;/a>. &lt;a href="https://www.fastify.io/ecosystem/">Its ecosystem&lt;/a> is becoming stronger day by day with a growing number of core plugins and community add-ons. Being a regular attendee on Node.js-related conferences and meetups (unfortunately recently only online), I see that this framework rapidly gains considerable traction in the community.&lt;/p>
+&lt;h2 id="a-lot-more">A lot more &lt;a href="#a-lot-more" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>These are the main reasons I decided to invest my time in Fastify, but there is more to it! TypeScript support out of the box, a great community behind it, ease of use, excellent documentation full of examples, and more! Hopefully, I managed to convince you to at least give it a try on your next Node.js project! For now, stay safe 👋&lt;/p></description></item><item><title>Top picks — 2021 March</title><link>https://pawelgrzybek.com/top-picks-2021-march/</link><pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/top-picks-2021-march/</guid><description>&lt;h2 id="free-fordevhttpsfree-fordev">&lt;a href="https://free-for.dev/">free-for.dev&lt;/a> &lt;a href="#free-fordevhttpsfree-fordev" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>This resource is an extensive list of services for developers that offer a free tier. &lt;a href="https://twitter.com/ripienaar">R.I.Pienaar&lt;/a> puts it together. I love little helper pages like this one.&lt;/p>
+&lt;h2 id="icons---google-fontshttpsfontsgooglecomicons">&lt;a href="https://fonts.google.com/icons">Icons - Google Fonts&lt;/a> &lt;a href="#icons---google-fontshttpsfontsgooglecomicons" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>You can download Material Design Icons straight from the Google Fonts website. It is one of the best-designed icons set ever created and since now more accessible than ever before. Thanks, Google!&lt;/p>
+&lt;h2 id="global-privacy-control-gpchttpsglobalprivacycontrolorg">&lt;a href="https://globalprivacycontrol.org">Global Privacy Control (GPC)&lt;/a> &lt;a href="#global-privacy-control-gpchttpsglobalprivacycontrolorg" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Global Privacy Control (GPC) is a proposed specification designed to allow Internet users to notify businesses of their privacy preferences, such as whether they want their personal information to be sold or shared. It helps users signal their desired privacy to websites and services just by using their web browser. Several products come with GPC implementation, and I would expect more to come soon. From an implementation point of view, &lt;code>Sec-GPC&lt;/code> header is all you need to signal that the user&amp;rsquo;s Global Privacy Control preference is set. Check more details in &lt;a href="https://globalprivacycontrol.github.io/gpc-spec/">GCP specification&lt;/a>.&lt;/p>
+&lt;h2 id="simulating-color-vision-deficiencies-in-the-blink-rendererhttpsyoutube34idtecntz4">&lt;a href="https://youtu.be/34iDTeCNTz4">Simulating color vision deficiencies in the Blink Renderer&lt;/a> &lt;a href="#simulating-color-vision-deficiencies-in-the-blink-rendererhttpsyoutube34idtecntz4" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="https://twitter.com/mathias">Mathias Bynens&lt;/a> explains all the technical nitty-gritty of the vision deficiencies colour simulations. A great explainer of SVG filters and all possible ways how you can take advantage of this feature in your web projects. It is nice that Matthias shows the exact low-level C++ implementation, which I found super interesting.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/34iDTeCNTz4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="introducing-amazon-s3-object-lambda--use-your-code-to-process-data-as-it-is-being-retrieved-from-s3httpsawsamazoncomblogsawsintroducing-amazon-s3-object-lambda-use-your-code-to-process-data-as-it-is-being-retrieved-from-s3">&lt;a href="https://aws.amazon.com/blogs/aws/introducing-amazon-s3-object-lambda-use-your-code-to-process-data-as-it-is-being-retrieved-from-s3/">Introducing Amazon S3 Object Lambda – Use Your Code to Process Data as It Is Being Retrieved from S3&lt;/a> &lt;a href="#introducing-amazon-s3-object-lambda--use-your-code-to-process-data-as-it-is-being-retrieved-from-s3httpsawsamazoncomblogsawsintroducing-amazon-s3-object-lambda-use-your-code-to-process-data-as-it-is-being-retrieved-from-s3" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Beneficial announcement from AWS team — Amazon S Object Lambdas. It allows returning a customized S3 object. There is no need to store multiple copies of the same master data in a bucket to serve numerous consumers — this is not cost-effective and error-prone. There is no need to create a custom proxy anymore as S3 Object Lambdas give a native, easy to implement, and cost-effective solution.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/uTBgpK07E38" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h2 id="joining-forces-on-better-browser-compatibility-in-2021httpsblogswindowscommsedgedev20210322better-compatibility-compat2021">&lt;a href="https://blogs.windows.com/msedgedev/2021/03/22/better-compatibility-compat2021/">Joining forces on better browser compatibility in 2021&lt;/a> &lt;a href="#joining-forces-on-better-browser-compatibility-in-2021httpsblogswindowscommsedgedev20210322better-compatibility-compat2021" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>Google, Microsoft, Igalia, and other web giants join forces to work through the main CSS incompatibility pain-points: CSS Flexbox, CSS Grid, CSS &lt;code>position: sticky&lt;/code>, the CSS &lt;code>aspect-ratio&lt;/code> property, and CSS transforms. &lt;a href="https://web.dev/compat2021/">&amp;ldquo;Compat2021: Eliminating five top compatibility pain points on the web&amp;rdquo;&lt;/a> provides more detailed stats on why they decided to focus on these features.&lt;/p>
+&lt;blockquote>
+&lt;p>We&amp;rsquo;re excited to join with Google, Igalia, and the broader web community in committing resources to a cross-browser effort called #Compat2021, with the goal of substantial improvements in each area.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="announcing-the-deno-companyhttpsdenocomblogthe-deno-company">&lt;a href="https://deno.com/blog/the-deno-company">Announcing the Deno Company&lt;/a> &lt;a href="#announcing-the-deno-companyhttpsdenocomblogthe-deno-company" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>With 4.9 million dollars of seed capital from multiple investors, Deno becomes a real company. I am looking forward to the future of this platform. It can&amp;rsquo;t go wrong after the success of Node.js being build by the same people.&lt;/p>
+&lt;blockquote>
+&lt;p>This investment means we will have a staff of full-time expert engineers working to improving Deno. We will ensure that issues are addressed, bugs are fixed, timely releases are made; we will ensure Deno is a platform others can build on with trust.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="practical-go-lessonshttpswwwpractical-go-lessonscom">&lt;a href="https://www.practical-go-lessons.com">Practical Go Lessons&lt;/a> &lt;a href="#practical-go-lessonshttpswwwpractical-go-lessonscom" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>This free book by &lt;a href="https://twitter.com/MaximilienAld">Maximilien Andile&lt;/a> is a golden gem for everyone keen to learn Go language. You can read it online for free, order a digital copy or purchase paper copy. This resource goes in depth into computer science core constructs first and then explains how to work with them using Go language. Really great resource!&lt;/p>
+&lt;h2 id="css-container-queries-a-first-look--demohttpswwwbramus20210328css-container-queries-a-first-look-and-demo">&lt;a href="https://www.bram.us/2021/03/28/css-container-queries-a-first-look-and-demo/">CSS Container Queries: A First Look + Demo&lt;/a> &lt;a href="#css-container-queries-a-first-look--demohttpswwwbramus20210328css-container-queries-a-first-look-and-demo" class="post__hash">#&lt;/a>&lt;/h2>
+&lt;p>This is going to be a revolution for CSS responsive components. We have been waiting for container queries for long years now and we finally can play around with its experimental implementation in Google Chrome. &lt;a href="https://twitter.com/bramus/">Bramus Van Damme&lt;/a> put together a quick explainer and simple demo. Finally!&lt;/p></description></item><item><title>Visual Studio Code project manager using Alfred workflow</title><link>https://pawelgrzybek.com/visual-studio-code-project-manager-using-alfred-workflow/</link><pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/visual-studio-code-project-manager-using-alfred-workflow/</guid><description>&lt;p>I spend a lot of time using Visual Studio Code, jumping from one project to another. To make it more efficient, I would love to have a simple project manager baked into the editor. I know there are many great plugins for it, but they are all too complex for my taste. I want to hit a shortcut, type the project&amp;rsquo;s name, hit enter and start working.&lt;/p>
+&lt;p>I don&amp;rsquo;t have enough time to build a plugin for it right now, maybe one day, but I found a moment to put together a simple Alfred workflow that does just that. Because I found it so helpful that I decided to share this idea with you. Look!&lt;/p>
+&lt;p>&lt;picture>
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-03-26-1.avif" type="image/avif" >
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-03-26-1.webp" type="image/webp" >
+&lt;img
+src="https://pawelgrzybek.com/photos/2021-03-26-1.jpg"
+alt="Alfred workflow to manage Visual Studio Code projects"
+loading="lazy"
+decoding="async"
+width="1400"
+height="2348"
+/>
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>
+&lt;img
+src="https://pawelgrzybek.com/photos/2021-03-26-2.gif"
+alt="Alfred workflow to manage Visual Studio Code projects in use"
+loading="lazy"
+decoding="async"
+width="1270"
+height="806"
+/>
+&lt;/picture>
+&lt;/p>
+&lt;p>Because some degree of customization is required to make it work for you, I decided not to share a download link to the complete workflow file. It&amp;rsquo;s equally as easy to craft one as importing a file that requires some projects configuration.&lt;/p>
+&lt;p>Hopefully, that helps. I will catch you later 👊&lt;/p></description></item><item><title>Book review: A Brief History of Time by Stephen Hawking</title><link>https://pawelgrzybek.com/book-review-a-brief-history-of-time-by-stephen-hawking/</link><pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/book-review-a-brief-history-of-time-by-stephen-hawking/</guid><description>&lt;p>Many times in my life, I have thought about abstract things like space travel, the size of a universe, the importance of time, gravitational force, and other stuff like that. Do you sometimes contemplate anti earthly subjects like that, or is it just me? I had no idea where to seek answers for my questions, but luckily, I came across &lt;a href="https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time">&amp;ldquo;A Brief History of Time&amp;rdquo; by Stephen Hawking&amp;quot;&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-03-07-1.avif" type="image/avif" >
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-03-07-1.webp" type="image/webp" >
+&lt;img
+src="https://pawelgrzybek.com/photos/2021-03-07-1.jpg"
+alt="&amp;amp;ldquo;A Brief History of Time&amp;amp;rdquo; by Stephen Hawking book"
+loading="lazy"
+decoding="async"
+width="1400"
+height="934"
+/>
+&lt;/picture>
+&lt;/p>
+&lt;p>In this three-decades-old publication, Stephen Hawking demystified modern theoretical physics in an understandable way for ordinary people. From the basic definitions of space and time through big bang theory, expansion of the universe, black holes, time travel, and everything else that connects general relativity and quantum mechanics. I love that Hawking doesn&amp;rsquo;t battle between religion and science like many books on that subject tend to do.&lt;/p>
+&lt;p>&lt;picture>
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-03-07-2.avif" type="image/avif" >
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-03-07-2.webp" type="image/webp" >
+&lt;img
+src="https://pawelgrzybek.com/photos/2021-03-07-2.jpg"
+alt="Example of a helpful diagram in &amp;amp;ldquo;A Brief History of Time&amp;amp;rdquo; by Stephen Hawking book"
+loading="lazy"
+decoding="async"
+width="1400"
+height="934"
+/>
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-03-07-3.avif" type="image/avif" >
+&lt;source srcset="https://pawelgrzybek.com/photos/2021-03-07-3.webp" type="image/webp" >
+&lt;img
+src="https://pawelgrzybek.com/photos/2021-03-07-3.jpg"
+alt="Example of a helpful diagram in &amp;amp;ldquo;A Brief History of Time&amp;amp;rdquo; by Stephen Hawking book"
+loading="lazy"
+decoding="async"
+width="1400"
+height="934"
+/>
+&lt;/picture>
+&lt;/p>
+&lt;p>Even tho it&amp;rsquo;s only around 250 pages, it takes a while to digest all the abstract-sounding concepts in this book, so don&amp;rsquo;t expect to smash it in one evening. The copy that I have is full of beautiful illustrations that I found helpful in grasping some of the concepts. I would recommend this publication to every curious one out there. I will catch you next time but until then, stay curious 👩‍🏫 👨‍🏫&lt;/p></description></item><item><title>Top picks — 2021 February</title><link>https://pawelgrzybek.com/top-picks-2021-february/</link><pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate><guid>https://pawelgrzybek.com/top-picks-2021-february/</guid><description>&lt;h2 id="npm-7-is-now-generally-availablehttpsgithubblog2021-02-02-npm-7-is-now-generally-available">&lt;a href="https://github.blog/2021-02-02-npm-7-is-now-generally-available/">npm 7 is now generally available!&lt;/a> &lt;a href="#npm-7-is-now-generally-availablehttpsgithubblog2021-02-02-npm-7-is-now-generally-available" class="post__hash">#&lt;/a>&lt;/h2>
 &lt;p>Version 7 of the official node package manager arrived with many improvements and one change that I am excited to see — reducing dependencies, increased code coverage, significant performance improvements and compatibility with yarn. Sweet!&lt;/p>
 &lt;h2 id="aws-lambda-now-supports-nodejs-14httpsawsamazoncomabout-awswhats-new202102aws-lambda-now-supports-node-js-14">&lt;a href="https://aws.amazon.com/about-aws/whats-new/2021/02/aws-lambda-now-supports-node-js-14/">AWS Lambda now supports Node.js 14&lt;/a> &lt;a href="#aws-lambda-now-supports-nodejs-14httpsawsamazoncomabout-awswhats-new202102aws-lambda-now-supports-node-js-14" class="post__hash">#&lt;/a>&lt;/h2>
 &lt;p>Upgrade to node version 14 is a significant change that will make our life a lot easier. Some of the new features that we just got to our disposal are nullish coalescing, optional chaining, and many new options on &lt;code>Intl&lt;/code> constructor. Indeed the upgrade to the V8.1 engine comes with a lot of performance improvements too.&lt;/p>
