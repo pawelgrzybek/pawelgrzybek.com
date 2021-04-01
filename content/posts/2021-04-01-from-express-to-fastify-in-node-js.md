@@ -36,7 +36,7 @@ If you would like to get more in-depth about the performance of Fastify and how 
 
 ## Native support for async code
 
-The `unhandledPromiseRejectionWarning` caused by an error of the asynchronous part of your application can crash your application (since Node.js v15.0.0) or cause memory leaks in older runtime versions. ["Broken Promises" by James Snell on YouTube](https://youtu.be/XV-u_Ow47s0) proves the point that working with Promises is a frequent reason for performance degradations.
+The `UnhandledPromiseRejectionWarning` caused by an error of the asynchronous part of your application can crash your application (since Node.js v15.0.0) or cause memory leaks in older runtime versions. ["Broken Promises" by James Snell on YouTube](https://youtu.be/XV-u_Ow47s0) proves the point that working with Promises is a frequent reason for performance degradations.
 
 > When a customer comes to us with a complaint that their code is running slowly, our first question has become, "Are you using Promises?". When they predictably tell us yes, our response has become, "You're likely using them wrong".
 
