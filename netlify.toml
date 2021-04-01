@@ -1,12 +1,12 @@
 [build]
   publish = "public/"
-  command = "rm -rf data && rm -rf public && mkdir data  && curl -s -o data/comments.json https://rbjvwgq51g.execute-api.eu-west-2.amazonaws.com/Prod/?access_token=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo --gc --minify"
+  command = "rm -rf data && mkdir data  && curl -s -o data/comments.json https://rbjvwgq51g.execute-api.eu-west-2.amazonaws.com/Prod/?access_token=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo --gc --minify"
 
 [context.production.environment]
-  HUGO_VERSION = "0.80.0"
+  HUGO_VERSION = "0.82.0"
 
 [context.deploy-preview]
-  command = "rm -rf data && rm -rf public && mkdir data  && curl -s -o data/comments.json https://rbjvwgq51g.execute-api.eu-west-2.amazonaws.com/Prod/?access_token=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
+  command = "rm -rf data && mkdir data  && curl -s -o data/comments.json https://rbjvwgq51g.execute-api.eu-west-2.amazonaws.com/Prod/?access_token=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.80.0"
+  HUGO_VERSION = "0.82.0"
