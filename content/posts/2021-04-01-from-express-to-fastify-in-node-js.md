@@ -10,7 +10,7 @@ I've been building Node.js applications for years, and until now, [Express](http
 
 Fastify, with performance almost as good as native `http.Server` outperforms other frameworks by a significant margin. Due to the call stack reduced to a necessary minimum, advanced [radix tree](https://en.wikipedia.org/wiki/Radix_tree) based routing algorithm called "find-my-way" and JSON serialization achieved by the [fast-json-stringify](https://github.com/fastify/fast-json-stringify), it can handle twice more load than Express.
 
-At this point you may expect some numbers to prove it, so I run two equivalent servers that output the same piece of JSON through load test using [Vegeta](https://github.com/tsenart/vegeta). As mentioned before, Fastify outperforms Express in every single factor.
+At this point, you may expect some numbers to prove it, so I run two equivalent servers that output the same piece of JSON through load test using [Vegeta](https://github.com/tsenart/vegeta). As mentioned before, Fastify outperforms Express in every single factor.
 
 ```
 vegeta attack -duration=10s -rate=0 -max-workers=1 | vegeta report
@@ -44,7 +44,7 @@ Even though nothing stops you from using `asyc`/`await` in Express applications,
 
 ## Logging, routes validation, and output serialization
 
-Validation and logging are almost unavoidable parts of every HTTP server. They are popular to the point that Fastify maintainers decided to pull it to the framework. [Pino](https://github.com/pinojs/pino) is a low overhead Node.js logger that comes bundled with it. Based on the [Ajv](https://www.npmjs.com/package/ajv) schema validator and output serializer using [fast-json-stringify](https://www.npmjs.com/package/fast-json-stringify), even though they're not mandatory, they can increase throughput and improve security. Have a look at this simple example of request validation and response serialization.
+Validation and logging are almost unavoidable parts of every HTTP server. They are popular to the point that Fastify maintainers decided to pull it to the framework. [Pino](https://github.com/pinojs/pino) is a low overhead Node.js logger that comes bundled with it. Based on the [Ajv](https://www.npmjs.com/package/ajv) schema validator and output serializer using [fast-json-stringify](https://www.npmjs.com/package/fast-json-stringify), they can increase throughput and improve security even though they're not mandatory. Have a look at this simple example of request validation and response serialization.
 
 ```js
 const schemaBody = {
@@ -79,4 +79,4 @@ The last stable version of Express was released almost two years ago (May 2019).
 
 ## A lot more
 
-These are the main reasons why I decided to invest my time in Fastify, but there is more to it! TypeScript support out of the box, a great community behind it, ease of use, excellent documentation full of examples, and more! Hopefully, I managed to convince you to at least give it a try on your next Node.js project! For now, stay safe 👋
+These are the main reasons I decided to invest my time in Fastify, but there is more to it! TypeScript support out of the box, a great community behind it, ease of use, excellent documentation full of examples, and more! Hopefully, I managed to convince you to at least give it a try on your next Node.js project! For now, stay safe 👋
