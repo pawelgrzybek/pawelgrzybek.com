@@ -15,3 +15,7 @@ I am sure that you have a very well optimized and SEO friendly website by now, b
 ## [JavaScript Temporal API- A Fix for the Date API](https://blog.bitsrc.io/javascript-temporal-api-a-fix-for-the-date-api-aa8381a4234c)
 
 An excellent comparison of the new Temporal API and Date API in JavaScript by [Nathan Sebhastian](https://twitter.com/nsebhastian). This article presents the Date API's problematic parts and how to solve them using the new Temporal API. In my opinion, this is one of the most revolutionary APIs in JavaScript introduced since ECMAScript 2015.
+
+## [Announcing Native TypeScript Support for Netlify Functions](https://www.netlify.com/blog/2021/04/19/announcing-native-typescript-support-for-netlify-functions/)
+
+TypeScript adoption by popular services and runtimes is going crazy. Netlify functions just got native support for this superset of JavaScript. What's next? Maybe the browser?! Exciting times!
