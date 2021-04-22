@@ -1,6 +1,6 @@
 ---
 title: "Book review: Feel Great, Lose Weight by Dr Rangan Chatterjee"
-summary: ""
+summary: "Ever since I started controlling my weight, be more conscious about what and how I eat, the quality of my life improved a lot. I am just a human, and snacking is hard to resist like anything else that produces dopamine in our bodies. A hard-working and demanding job doesn't help, so recently, I am slacking with my nutritional regime. I was looking for a bit of motivation to get back on the right track."
 photo: "2021-04-22.jpg"
 ---
 
