@@ -80,7 +80,7 @@ ECMAScript modules enabled runtime is missing some commonly used in CommonJS ref
 - `exports`
 - `module`
 - `__filename`
-- `__dirbane`
+- `__dirname`
 - `require`
 
 ```js
@@ -93,8 +93,8 @@ console.log(module);
 console.log(__filename);
 // ReferenceError: __filename is not defined
 
-console.log(__dirbane);
-// ReferenceError: __dirbane is not defined
+console.log(__dirname);
+// ReferenceError: __dirname is not defined
 
 console.log(require);
 // ReferenceError: require is not defined
