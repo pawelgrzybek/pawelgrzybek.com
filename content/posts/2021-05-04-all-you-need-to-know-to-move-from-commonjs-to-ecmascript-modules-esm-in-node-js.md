@@ -1,12 +1,14 @@
 ---
 title: "All you need to know to move from CommonJS to ECMAScript Modules (ESM) in Node.js"
 summary: "One of the most revolutionary features introduced as part of ECMAScript 2015 specification is modules (ESM). In April 2020, Node v14.0.0 landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients' work. Eventually, Node v15.3.0 arrived and marked modules implementation as stable."
-photo: "2021-05-05.jpg"
+photo: "2021-05-04.jpg"
 ---
 
 One of the most revolutionary features introduced as part of ECMAScript 2015 specification is modules (ESM). The first browser implementation landed in April 2017 in Safari 10.1. I published a ["Native ECMAScript modules in the browser"](https://pawelgrzybek.com/native-ecmascript-modules-in-the-browser/) about this historical moment. A few months later, in September 2017, [Node v8.5.0](https://nodejs.org/en/blog/release/v8.5.0/) landed with experimental support for ESM.
 
 This feature went through lots of iterations during its experimental phase, and no one adopted it on day one. A few years later, in April 2020, [Node v14.0.0](https://nodejs.org/en/blog/release/v14.0.0/) landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients' work. Eventually, [Node v15.3.0](https://nodejs.org/en/blog/release/v15.3.0/) arrived and marked modules implementation as stable.
+
+![ECMAScript modules marked as stable in version 15.3](/photos/2021-05-04-1.jpg)
 
 That's enough of history, so let's get our hands dirty and dive into the ECMAScript modules in Node.js. We have a lot to cover, so let's jump into it!
 
