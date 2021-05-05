@@ -1,6 +1,6 @@
 ---
 title: "All you need to know to move from CommonJS to ECMAScript Modules (ESM) in Node.js"
-summary: "One of the most revolutionary features introduced as part of ECMAScript 2015 specification is modules (ESM). In April 2020, Node v14.0.0 landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients' work. Eventually, Node v15.3.0 arrived and marked modules implementation as stable."
+summary: "One of the most revolutionary features introduced as part of ECMAScript 2015 specification are modules (ESM). In April 2020, Node v14.0.0 landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients' work. Eventually, Node v15.3.0 arrived and marked modules implementation as stable."
 photo: "2021-05-05.jpg"
 ---
 
