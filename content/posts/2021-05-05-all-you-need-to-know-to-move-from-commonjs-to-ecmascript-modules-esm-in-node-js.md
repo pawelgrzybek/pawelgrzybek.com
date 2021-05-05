@@ -1,14 +1,14 @@
 ---
 title: "All you need to know to move from CommonJS to ECMAScript Modules (ESM) in Node.js"
 summary: "One of the most revolutionary features introduced as part of ECMAScript 2015 specification is modules (ESM). In April 2020, Node v14.0.0 landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients' work. Eventually, Node v15.3.0 arrived and marked modules implementation as stable."
-photo: "2021-05-04.jpg"
+photo: "2021-05-05.jpg"
 ---
 
-One of the most revolutionary features introduced as part of ECMAScript 2015 specification is modules (ESM). The first browser implementation landed in April 2017 in Safari 10.1. I published a ["Native ECMAScript modules in the browser"](https://pawelgrzybek.com/native-ecmascript-modules-in-the-browser/) about this historical moment. A few months later, in September 2017, [Node v8.5.0](https://nodejs.org/en/blog/release/v8.5.0/) landed with experimental support for ESM.
+One of the most revolutionary features introduced as part of ECMAScript 2015 specification are modules (ESM). The first browser implementation landed in April 2017 in Safari 10.1. I published a ["Native ECMAScript modules in the browser"](https://pawelgrzybek.com/native-ecmascript-modules-in-the-browser/) about this historical moment. A few months later, in September 2017, [Node v8.5.0](https://nodejs.org/en/blog/release/v8.5.0/) landed with experimental support for ESM.
 
-This feature went through lots of iterations during its experimental phase, and no one adopted it on day one. A few years later, in April 2020, [Node v14.0.0](https://nodejs.org/en/blog/release/v14.0.0/) landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients' work. Eventually, [Node v15.3.0](https://nodejs.org/en/blog/release/v15.3.0/) arrived and marked modules implementation as stable.
+This feature went through lots of iterations during its experimental phase. A few years later, in April 2020, [Node v14.0.0](https://nodejs.org/en/blog/release/v14.0.0/) landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients' work. Eventually, [Node v15.3.0](https://nodejs.org/en/blog/release/v15.3.0/) arrived and marked modules implementation as stable.
 
-![ECMAScript modules marked as stable in version 15.3](/photos/2021-05-04-1.jpg)
+![ECMAScript modules marked as stable in version 15.3](/photos/2021-05-05-1.jpg)
 
 That's enough of history, so let's get our hands dirty and dive into the ECMAScript modules in Node.js. We have a lot to cover, so let's jump into it!
 
@@ -20,12 +20,13 @@ That's enough of history, so let's get our hands dirty and dive into the ECMAScr
 - [Behavior of this keyword](#behavior-of-this-keyword)
 - [From dynamically parsed CommonJS to statically parsed ESM](#from-dynamically-parsed-commonjs-to-statically-parsed-esm)
 - [ESM with top-level await support](#esm-with-top-level-await-support)
+- [Importing JSON](#importing-json)
 
 ## Enabling ECMAScript modules (ESM) in Node.js
 
-To preserve backward compatibility, Node.js treats JavaScript code as CommonJS modules by default. To enable ESM, we have three options.
+To preserve backward compatibility, Node.js treats JavaScript code as CommonJS by default. To enable ESM, we have three options.
 
-- use `.mjs` extension
+- use `.mjs` extension (colloquially known as Michel's Jackson's modules)
 - add `"type": "module"` to `package.json` file
 - use `--input-type=module` flag for STDIN or strings passed to `--eval` argument
 
@@ -57,7 +58,7 @@ logger("ECMAScript modules");
 // 👌 ECMAScript modules
 ```
 
-There is a lot more to explore in terms of syntax, but I will leave that to you as the Node.js closely conforms to official [ESCMAScript modules](https://tc39.es/ecma262/#sec-modules) syntax. Please pay attention to the file extension (`.js` or `.mjs`) needed to correctly resolve relative or absolute specifiers. This rule also applies to directory indexes compared to CommonJS (e.g. ./routes/index.js).
+There is a lot more to explore in terms of syntax, but I will leave that to you as the Node.js closely conforms to official [ESCMAScript modules](https://tc39.es/ecma262/#sec-modules) syntax. Please pay attention to the file extension (`.js` or `.mjs`) needed to correctly resolve relative or absolute specifiers. This rule also applies to directory indexes compared to CommonJS (e.g. `./routes/index.js`).
 
 ## Strict by default
 
@@ -65,7 +66,7 @@ There is no need for `use strict` on the top of your program to prevent the runt
 
 ## Browser compatibility
 
-Because ESM implementation in Node.js and the browser conforms to the exact specification, we can share code between server and client runtime. In my opinion, the unified syntax is one of the most important reasons to embrace ESM today.
+Because ESM implementation in Node.js and the browser conforms to the exact specification, we can share code between server and client runtime. In my opinion, the unified syntax is one of the most appealing benefits of using ESM.
 
 ```html
 <srcipt type="module" src="./index.js"> </srcipt>
@@ -75,7 +76,7 @@ Because ESM implementation in Node.js and the browser conforms to the exact spec
 
 ## ESM is missing some references
 
-ECMAScript modules enabled runtime is missing some commonly used in CommonJS references, like so:
+ECMAScript modules enabled runtime is missing some commonly used in CommonJS references:
 
 - `exports`
 - `module`
@@ -100,7 +101,7 @@ console.log(require);
 // ReferenceError: require is not defined
 ```
 
-As we discussed above, using ESM, we don't need access to `exports` and `module` anymore. We can recreate the remaining references that are missing.
+As we discussed above, when using ESM, we don't need access to `exports` and `module` anymore. We can recreate the remaining references that are missing.
 
 ```js
 // Recreate missing reference to __filename and __dirname
@@ -141,7 +142,7 @@ console.log(this === module.exports);
 
 CommonJS modules are parsed dynamically during the execution phase. This functionality allows calling the `require` function inside the block (i.e. inside `if` statement) as the dependency graph is explored during the program execution.
 
-ECMAScript modules are much more sophisticated — before running, the interpreter will build a dependency graph and then execute the program. Predefined dependencies graph before the execution allows the engine to perform optimizations such a tree shaking (dead code elimination) and more.
+ECMAScript modules are much more sophisticated — before running, the interpreter will build a dependency graph and then execute the program. Predefined dependencies graph allows the engine to perform optimizations such a tree shaking (dead code elimination) and more.
 
 ## ESM with top-level await support
 
@@ -157,7 +158,7 @@ console.log(JSON.parse(await fs.readFile("./package.json")).type);
 
 ## Importing JSON
 
-Importing JSON is a frequently used feature in CommonJS. Unfortunately, doing that using ESM will throw an error. As per the recommendation in ["ESM is missing some references" section of this article](#esm-is-missing-some-references), we can overcome this limitation by recreating `require` function.
+Importing JSON is a frequently used feature in CommonJS. Unfortunately, doing that while using ESM will throw an error. As recommended [above](#esm-is-missing-some-references), we can overcome this limitation by recreating `require` function.
 
 ```js
 import data from "./data.json";
@@ -170,11 +171,11 @@ const require = createRequire(import.meta.url);
 const data = require("./data.json");
 
 console.log(data);
-// Works
+// {"that": "works"}
 ```
 
 ## The best time to embrace ESM is now
 
-I hope this article helped you out to understand the differences between CommonJS and ECMAScript modules in Node.js. I am looking forward to the age where we won't have to care about these differences anymore. The whole ecosystem will work according to the ECMAScript specification regardless of the runtime (either client or server). If you haven't already, I would highly recommend you jump on the ESM camp now and contribute to the consistent and unified JavaScript ecosystem.
+I hope this article helped you out to understand the differences between CommonJS and ECMAScript modules in Node.js. I'm looking forward to the times where we won't have to care about these differences anymore. The whole ecosystem will work accordingly to the ECMAScript specification regardless of the runtime (either client or server). If you haven't already, I would highly recommend you jumping on the ESM camp now and contribute to the consistent and unified JavaScript ecosystem.
 
-I enjoyed writing it down for you! If you found it helpful, "hit that like button and don't forget to subscribe…". Nah, I'm just joking. Sharing with your friend means the world to me. Thanks, and until next time, stay curious 👋
+I enjoyed writing it down for you! If you found it helpful, "hit that like button and don't forget to subscribe…". Nah, I'm just joking. Share it with your friend — this will mean the world to me! Thanks, and until next time, stay curious 👋
