@@ -1,12 +1,12 @@
 ---
 title: "All you need to know to move from CommonJS to ECMAScript Modules (ESM) in Node.js"
-summary: "One of the most revolutionary features introduced as part of ECMAScript 2015 specification are modules (ESM). In April 2020, Node v14.0.0 landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients' work. Eventually, Node v15.3.0 arrived and marked modules implementation as stable."
+summary: "One of the most revolutionary features introduced as part of ECMAScript 2015 specification is modules (ESM). In April 2020, Node v14.0.0 landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients' work. Eventually, Node v15.3.0 arrived and marked modules implementation as stable."
 photo: "2021-05-05.jpg"
 ---
 
-One of the most revolutionary features introduced as part of ECMAScript 2015 specification are modules (ESM). The first browser implementation landed in April 2017 in Safari 10.1. I published a ["Native ECMAScript modules in the browser"](https://pawelgrzybek.com/native-ecmascript-modules-in-the-browser/) about this historical moment. A few months later, in September 2017, [Node v8.5.0](https://nodejs.org/en/blog/release/v8.5.0/) landed with experimental support for ESM.
+One of the most revolutionary features introduced as part of ECMAScript 2015 specification is modules (ESM). The first browser implementation landed in April 2017 in Safari 10.1. I published a ["Native ECMAScript modules in the browser"](https://pawelgrzybek.com/native-ecmascript-modules-in-the-browser/) about this historical moment. A few months later, in September 2017, [Node v8.5.0](https://nodejs.org/en/blog/release/v8.5.0/) landed with experimental support for ESM.
 
-This feature went through lots of iterations during its experimental phase. A few years later, in April 2020, [Node v14.0.0](https://nodejs.org/en/blog/release/v14.0.0/) landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients' work. Eventually, [Node v15.3.0](https://nodejs.org/en/blog/release/v15.3.0/) arrived and marked modules implementation as stable.
+This feature went through lots of iterations during its experimental phase. A few years later, in April 2020, [Node v14.0.0](https://nodejs.org/en/blog/release/v14.0.0/) landed without experimental modules warning. Even though it was still experimental, it felt like the right timing to adopt ESM for some toy projects and insignificant clients work. Eventually, [Node v15.3.0](https://nodejs.org/en/blog/release/v15.3.0/) arrived and marked modules implementation as stable.
 
 ![ECMAScript modules marked as stable in version 15.3](/photos/2021-05-05-1.jpg)
 
@@ -58,7 +58,7 @@ logger("ECMAScript modules");
 // 👌 ECMAScript modules
 ```
 
-There is a lot more to explore in terms of syntax, but I will leave that to you as the Node.js closely conforms to official [ESCMAScript modules](https://tc39.es/ecma262/#sec-modules) syntax. Please pay attention to the file extension (`.js` or `.mjs`) needed to correctly resolve relative or absolute specifiers. This rule also applies to directory indexes compared to CommonJS (e.g. `./routes/index.js`).
+There's a lot more to explore in terms of syntax but I will leave that with you as the Node.js closely conforms to official [ESCMAScript modules](https://tc39.es/ecma262/#sec-modules) syntax. Pay attention to the file extension (`.js` or `.mjs`) needed to correctly resolve relative or absolute specifiers. This rule also applies to directory indexes compared to CommonJS (e.g. `./routes/index.js`).
 
 ## Strict by default
 
@@ -124,7 +124,7 @@ const require = createRequire(import.meta.url);
 
 ## Behavior of this keyword
 
-It is worth mentioning that the behaviour of `this` keyword differs in the global scope. In ESM, `this` is undefined, however in CommonJS, `this` keyword points to `exports`. Worth remembering about this subtle difference.
+It's worth mentioning that the behaviour of `this` keyword differs in the global scope. In ESM, `this` is `undefined`, however in CommonJS, `this` keyword points to `exports`. Worth remembering this subtle difference.
 
 ```js
 // this keyword in ESM
@@ -176,6 +176,6 @@ console.log(data);
 
 ## The best time to embrace ESM is now
 
-I hope this article helped you out to understand the differences between CommonJS and ECMAScript modules in Node.js. I'm looking forward to the times where we won't have to care about these differences anymore. The whole ecosystem will work accordingly to the ECMAScript specification regardless of the runtime (either client or server). If you haven't already, I would highly recommend you jumping on the ESM camp now and contribute to the consistent and unified JavaScript ecosystem.
+I hope this article helped you to understand the differences between CommonJS and ECMAScript modules in Node.js. I'm looking forward to the times where we won't have to care about these differences anymore. The whole ecosystem will work accordingly to the ECMAScript specification regardless of the runtime (either client or server). If you haven't already, I would highly recommend you jump on the ESM camp now and contribute to the consistent and unified JavaScript ecosystem.
 
-I enjoyed writing it down for you! If you found it helpful, "hit that like button and don't forget to subscribe…". Nah, I'm just joking. Share it with your friend — this will mean the world to me! Thanks, and until next time, stay curious 👋
+I enjoyed writing this down for you! If you found it helpful, "hit that like button and don't forget to subscribe…". Nah, I'm just joking. Share it with your friend — this will mean the world to me! Thanks, and until next time, stay curious 👋
