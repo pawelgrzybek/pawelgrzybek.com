@@ -19,4 +19,4 @@ At the setup stage, you will be asked to fill variables with your CoinMarketCap 
 - Hit <kbd>↵</kbd> to copy the result to clipboard
 - Holding <kbd>⌘</kbd> key, hit <kbd>↵</kbd> to open CoinMarketCap website on selected coin
 
-This little thing helped me a ton, and I found myself using it all the time. Because it helps me, it may also help you, so I decided to share it. [The workflow file and the source code is available on GitHub](). Enjoy 🤑
+This little thing helped me a ton, and I found myself using it all the time. Because it helps me, it may also help you, so I decided to share it. [The workflow file and the source code is available on GitHub](https://github.com/pawelgrzybek/alfred-cointmarketcap). Enjoy 🤑
