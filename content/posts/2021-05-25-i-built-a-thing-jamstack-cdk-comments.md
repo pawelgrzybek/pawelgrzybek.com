@@ -10,4 +10,4 @@ A few months ago, I made a change in the way how I handle comments on this websi
 
 [JAMstack CDK comments](https://github.com/pawelgrzybek/jamstack-cdk-comments) is built on top of the [AWS CDK](https://aws.amazon.com/cdk/) framework, and you can deploy it to your AWS account in minutes! The stack consists of [API Gateway](https://aws.amazon.com/api-gateway/), [AWS Lambda](https://aws.amazon.com/lambda/) and [Amazon DynamoDB](https://aws.amazon.com/dynamodb/).
 
-As always, your feedback will be very appreciated. I will appreciate even more every single pull request. Let's make the web a better, faster and more privacy-oriented place together. Hopefully that helps. Enjoy 💬
+As always, your feedback will be very appreciated. Let's make the web a better, faster and more privacy-oriented place together. Hopefully that helps. Enjoy 💬
