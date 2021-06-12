@@ -8,6 +8,10 @@
   <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ if eq .Section "posts" }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
+  {{ "<!-- Safari tab bar -->" | safeHTML }}
+  <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#24292e" media="(prefers-color-scheme: dark)" />
+
   {{ "<!-- Open graph data -->" | safeHTML }}
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
