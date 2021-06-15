@@ -1,84 +1,45 @@
-/* Syntax */
 code,
-pre {
+kbd {
+  box-shadow: 0 0 0 1px var(--color-box-border);
+  padding: 2px 4px;
   border-radius: 3px;
   background-color: var(--color-box-background);
   font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier,
     monospace;
-  font-size: 0.888889rem; // resolves to 16px
+  font-size: 0.888889rem;
+  font-size: 16px;
   vertical-align: top;
 }
 
 pre {
+  padding: calc(var(--lh) * 0.5) calc(var(--lh) * 0.75);
   margin-bottom: var(--lh);
-  padding: var(--lh);
+  background-color: var(--color-box-background);
+  overflow-x: scroll;
+  border-radius: 3px;
   box-shadow: 0 0 0 1px var(--color-box-border);
-  overflow-x: auto;
-}
 
-p,
-li {
-  & > code {
-    padding: 4px 6px;
-    box-shadow: 0 0 0 1px var(--color-box-border);
+  code {
+    display: inline-block;
+    box-shadow: unset;
+    padding: unset;
   }
 }
 
-kbd {
-  border-radius: 3px;
-  background-color: var(--color-box-background);
-  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier,
-    monospace;
-  font-size: 0.888889rem; // resolves to 16px
-  vertical-align: top;
-  padding: 4px 6px;
-  box-shadow: 0 0 0 1px var(--color-box-border);
-}
-
-/* Background */
-.chroma {
-  background-color: var(--color-box-background);
-}
-/* Error */
 .chroma .err {
   background-color: #ffaaaa;
   color: #aa0000;
 }
-/* LineTableTD */
-.chroma .lntd {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: top;
-}
-/* LineTable */
-.chroma .lntable {
-  display: block;
-  width: auto;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  border-spacing: 0;
-  overflow: auto;
-}
+
 /* LineHighlight */
 .chroma .hl {
   display: block;
   width: 100%;
   background-color: var(--color-box-border);
+  box-shadow: calc(var(--lh) * -1) 0 0 0 var(--color-box-border),
+    var(--lh) 0 0 0 var(--color-box-border);
 }
-/* LineNumbersTable */
-.chroma .lnt {
-  display: block;
-  margin-right: 0.4em;
-  padding: 0 0.4em 0 0.4em;
-  opacity: 0.5;
-}
-/* LineNumbers */
-.chroma .ln {
-  margin-right: 0.4em;
-  padding: 0 0.4em 0 0.4em;
-}
+
 /* Keyword */
 .chroma .k {
   color: var(--color-syntax-k);
