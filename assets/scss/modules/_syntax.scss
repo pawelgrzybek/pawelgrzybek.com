@@ -20,6 +20,7 @@ pre {
   box-shadow: 0 0 0 1px var(--color-box-border);
 
   code {
+    min-width: 100%;
     display: inline-block;
     box-shadow: unset;
     padding: unset;
