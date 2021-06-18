@@ -1,18 +1,18 @@
 ---
-title: "CSS Container Queries — a revolution to responsive web design"
-summary: ""
-photo: "2021-06-18.jpg"
+title: "CSS Container Queries — a revolution for responsive web design"
+summary: "There’s no other feature that web designers have asked for more than being able to style elements based on the size of their parent. Luckily, thanks to smart people like Miriam Suzanne, there’s great progress on the native implementation of CSS Container Queries."
+photo: "2021-06-21.jpg"
 ---
 
-First things first! It is a super early stage for CSS Container Queries, so everything here may change at any moment. For now, [Google Chrome Canary](https://www.google.com/chrome/canary/) with `#experimental-container-queries` flag enabled is the only option to play around with it. I am so excited about the subject, so I couldn't resist scribbling down a quick post about it.
+First things first! It's a super early stage for CSS Container Queries, so everything here may change at any moment. For now, [Google Chrome Canary](https://www.google.com/chrome/canary/) with `#experimental-container-queries` flag enabled is the only option you have to play around with it. I'm so excited about this subject, I couldn’t resist scribbling down a quick post about it.
 
-There is no other feature that web designers asked for more than being able to style elements based on the size of their parent. There were many attempts to solve this problem by attaching `resize` event on the element or using `ResizeObvserver` (["The Resize Observer explained"](https://pawelgrzybek.com/the-resize-observer-explained/) is for you if you are not aware of it). Luckily, thanks to smart people like [Miriam Suzanne](https://twitter.com/TerribleMia), there is great progress on the native implementation of CSS Container Queries defined as part of the [CSS Containment Module Specification](https://drafts.csswg.org/css-contain-3/).
+There's no other feature that web designers have asked for more than being able to style elements based on the size of their parent. There were many attempts to solve this problem by attaching resize event on the element or using `ResizeObvserver` (["The Resize Observer explained"](https://pawelgrzybek.com/the-resize-observer-explained/) is for you if you're not aware of it). Luckily, thanks to smart people like Miriam Suzanne, there's great progress on the native implementation of CSS Container Queries defined as part of the [CSS Containment Module Specification](https://drafts.csswg.org/css-contain-3/).
 
 ## CSS Container Queries in practice
 
 For this article, I created a super simple card component that changes the layout based on the container's inline size (width). Look ma, no media queries!
 
-![Post component with container queries](/photos/2021-06-18-1.gif)
+![Post component with container queries](/photos/2021-06-21-1.gif)
 
 ```html
 <div class="post">
@@ -20,7 +20,7 @@ For this article, I created a super simple card component that changes the layou
     <div class="post__thumb">pic</div>
     <div class="post__content">
       <h1 class="post_title">Super cool title</h1>
-      <time class="post_time" datetime="2021-06-18">2021.06.18</time>
+      <time class="post_time" datetime="2021-06-21">2021.06.21</time>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet
         nemo quas quam delectus natus quae, maiores animi ut ducimus tenetur
