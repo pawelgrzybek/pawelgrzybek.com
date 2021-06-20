@@ -59,7 +59,7 @@ async function handlerSubmitForm(event) {
       CLASS_FORM_LOADING_HIDDEN
     );
     await fetch(
-      "https://rbjvwgq51g.execute-api.eu-west-2.amazonaws.com/Prod/",
+      "https://ek7pz40fr9.execute-api.eu-west-2.amazonaws.com/prod/",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
