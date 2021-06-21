@@ -4,7 +4,7 @@ summary: "A few of my friends asked me for podcasts recommendations in the last 
 photo: "2021-06-22.jpg"
 ---
 
-A few of my friends asked me for podcasts recommendations in the last few weeks, so I decided to list my current favourite shows, a little bit like I did in ["My favourite front-end related podcasts"](https://pawelgrzybek.com/my-favourite-front-end-related-podcasts/) back in 2015. I listen to stuff related to the Web platform or Apple ecosystem, literally nothing else. That's how boring geek I am.
+Over the last few weeks a few of my friends have asked me for podcast recommendations, so I decided to list my current favourite shows, a little bit like I did in ["My favourite front-end related podcasts"](https://pawelgrzybek.com/my-favourite-front-end-related-podcasts/) back in 2015. I listen to stuff related to the Web platform or Apple ecosystem, literally nothing else. That’s how much of a boring geek I am.
 
 ## Web & Design podcasts
 
@@ -44,4 +44,4 @@ A few of my friends asked me for podcasts recommendations in the last few weeks,
 - [Bo czemu nie? (Polish 🇵🇱)](https://podcasts.apple.com/gb/podcast/bo-czemu-nie/id1329043441)
 - [AppStories](https://podcasts.apple.com/gb/podcast/appstories/id1227872143)
 
-Next time somebody asks me if I can recommend some podcasts, I will be prepared 😎 I will catch you later, geeks!
+Next time someone asks me if I can recommend some podcasts, I'll be prepared 😎 Catch you later, geeks!
