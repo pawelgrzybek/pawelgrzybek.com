@@ -4,7 +4,7 @@ summary: "There’s no other feature that web designers have asked for more than
 photo: "2021-06-21.jpg"
 ---
 
-First things first! It's a super early stage for CSS Container Queries, so everything here may change at any moment. For now, [Google Chrome Canary](https://www.google.com/chrome/canary/) with `#experimental-container-queries` flag enabled is the only option you have to play around with it. I'm so excited about this subject, I couldn’t resist scribbling down a quick post about it.
+First things first! It's a super early stage for CSS Container Queries, so everything here may change at any moment. For now, [Google Chrome Canary](https://www.google.com/chrome/canary/) with `#experimental-container-queries` flag enabled is the only option to play around with it. I'm so excited about this subject, I couldn’t resist scribbling down a quick post about it.
 
 There's no other feature that web designers have asked for more than being able to style elements based on the size of their parent. There were many attempts to solve this problem by attaching resize event on the element or using `ResizeObvserver` (["The Resize Observer explained"](https://pawelgrzybek.com/the-resize-observer-explained/) is for you if you're not aware of it). Luckily, thanks to smart people like [Miriam Suzanne](https://twitter.com/TerribleMia), there's great progress on the native implementation of CSS Container Queries defined as part of the [CSS Containment Module Specification](https://drafts.csswg.org/css-contain-3/).
 
