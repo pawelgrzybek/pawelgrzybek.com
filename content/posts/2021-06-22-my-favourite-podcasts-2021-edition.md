@@ -1,6 +1,6 @@
 ---
 title: "My favourite podcasts 2021 edition"
-summary: "A few of my friends asked me for podcasts recommendations in the last few weeks, so I decided to list my current favourite shows, a little bit like I did in back in 2015."
+summary: "A few of my friends asked me for podcasts recommendations in the last few weeks, so I decided to list my current favourite shows, a little bit like I did back in 2015."
 photo: "2021-06-22.jpg"
 ---
 
