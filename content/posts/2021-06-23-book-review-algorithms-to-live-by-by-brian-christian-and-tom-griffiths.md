@@ -1,5 +1,5 @@
 ---
-title: "Algorithms to Live By by Brian Christian and Tom Griffiths"
+title: "Book review: Algorithms to Live By by Brian Christian and Tom Griffiths"
 summary: "What's the best way to sort books on your bookshelf? Is it even worth spending time sorting them? These types of questions are things that I think about a lot! Being a Software Engineer doesn't help because I always strive for logical proof of taken decisions."
 photo: "2021-06-23.jpg"
 ---
