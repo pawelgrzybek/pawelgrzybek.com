@@ -1,5 +1,5 @@
 ---
-title: "Do you know what to use the @ sign for other than email addresses and Twitter handles? I do!"
+title: "Do you know what to use the @ sign for something other than email addresses and Twitter handles? I do!"
 summary: "I asked three of my friends if they knew any use case of the @ sign other than obvious modern usage. Unfortunately, none of them could tell me anything more than I already knew, so I wrote this post down."
 photo: "2021-08-02.jpg"
 ---
