@@ -42,7 +42,7 @@ Math.floor(3.8)      // 3
 Math.ceil(3.2)       // 4
 ```
 
-Rounding numbers with decimal precision requires a little bit of calculation and `Math.round()`. Optionally we can use the `toFixed()` method that belongs to the `Number` prototype. The output type of `toFixed()` is a `string` which needs to be passed to a top-level function called `parseFloat()` to return a `number`. Unfortunately this seems to be [really slow](http://jsperf.com/rounding-methods-in-javascript).
+Rounding numbers with decimal precision requires a little bit of calculation and `Math.round()`. Optionally we can use the `toFixed()` method that belongs to the `Number` prototype. The output type of `toFixed()` is a `string` which needs to be passed to a top-level function called `parseFloat()` to return a `number`. Unfortunately this seems to be really slow.
 
 ```js
 Math.round(3.14159 * 100) / 100  // 3.14
