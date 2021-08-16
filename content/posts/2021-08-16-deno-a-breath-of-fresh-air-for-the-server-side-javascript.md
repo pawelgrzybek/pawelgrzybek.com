@@ -4,15 +4,15 @@ summary: "Deno is made by the original creator of Node.js, Ryan Dahl. It is his 
 photo: "2021-08-16.jpg"
 ---
 
-There is a great reason why [JavaScript is the most used programming language](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-programming-scripting-and-markup-languages) in the world — easy-to-learn, powerful front-end and back-end technology. I used JavaScript for years on the browser, but since I moved to the server-side, [Node.js](https://nodejs.org/en/) is the technology I use most often. Even though I use other programming languages (recently mainly Go), JavaScript is the one that keeps me excited the most.
+There's a great reason why [JavaScript is the most used programming language](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-programming-scripting-and-markup-languages) in the world — easy-to-learn, powerful front-end and back-end technology. I have used JavaScript for years on the browser, but since I moved to the server-side, [Node.js](https://nodejs.org/en/) is the technology I use most often. Even though I use other programming languages (recently mainly Go), JavaScript is the one that keeps me the most excited.
 
 ![Deno artwork](/photos/2021-08-16-1.jpg)
 
-Speaking of exciting things, I recently tried something new — [Deno](https://deno.land), made by the original creator of Node.js, Ryan Dahl. It is his successor project that aims to fix all [regrettable things from the Node.js](https://youtu.be/M3BM9TB-8yA) design. Let me share with you why I like it so much!
+Speaking of exciting things, I recently tried something new — [Deno](https://deno.land), made by the original creator of Node.js, Ryan Dahl. It's his successor project that aims to fix all [regrettable things from the Node.js](https://youtu.be/M3BM9TB-8yA) design. Let me share with you why I like it so much!
 
 ## Just like on the Web
 
-If you are coming from the browser land, Deno will feel familiar to you. ECMAScript modules are fully supported, and it works as it does on the front-end. Most of the methods from the browser are also available in Deno. No need for `npm install node-fetch` because [`fetch`](https://doc.deno.land/builtin/stable#fetch) is already there.
+If you're coming from the browser land, Deno will feel familiar to you. ECMAScript modules are fully supported, and it works as it does on the front-end. Most of the methods from the browser are also available in Deno. No need for `npm install node-fetch` because [`fetch`](https://doc.deno.land/builtin/stable#fetch) is already there.
 
 ```js
 import { format } from "https://cdn.skypack.dev/date-fns";
@@ -33,11 +33,11 @@ deno run --allow-net=api.github.com index.js
 
 ## Look ma, no package.json file
 
-The `package.json` file was originally designed to store a mapping of dependencies that we can `require()` in the program. Over the years, it became a lot more than that. We use it to store external libraries configuration, licence information, repository links, references to types, and it is not rare to see hundreds of custom scripts there. Deno doesn’t need it — thanks Ryan!
+The `package.json` file was originally designed to store a mapping of dependencies that we can `require()` in the program. Over the years, it became a lot more than that. We use it to store external libraries configuration, licence information, repository links, references to types, and it's not rare to see hundreds of custom scripts there. Deno doesn’t need it — thanks Ryan!
 
 ## TypeScript support baked-in
 
-Even though [Ryan Dahl is slightly concerned](https://changelog.com/podcast/443) about adding support to TypeScript out of the box, it is not going to be revoked. It feels like magic to write TS code, execute it without the compilation burden, and keep the performance intact.
+Even though [Ryan Dahl is slightly concerned](https://changelog.com/podcast/443) about adding support to TypeScript out of the box, it's not going to be revoked. It feels like magic to write TS code, execute it without the compilation burden, and keep the performance intact.
 
 ```
 deno run index.ts
