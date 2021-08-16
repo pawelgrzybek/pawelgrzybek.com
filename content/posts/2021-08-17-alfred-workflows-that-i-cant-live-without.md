@@ -45,7 +45,7 @@ Same idea but for [npm](https://github.com/pawelgrzybek/alfred-npm-search). Unde
 
 ## SShot — change the screenshot format in no time
 
-Changing the screenshot format on macOS requires some Terminal commands that I used to google all the time. So, I created [SShot workflow](https://github.com/pawelgrzybek/alfred-sshot) to perform this action using a single ssAlfred command.
+Changing the screenshot format on macOS requires some Terminal commands that I used to google all the time. So, I created [SShot workflow](https://github.com/pawelgrzybek/alfred-sshot) to perform this action using a single `ss` Alfred command.
 
 ![SShot Alfred workflow screenshot](/photos/2021-08-17-5.gif)
 
