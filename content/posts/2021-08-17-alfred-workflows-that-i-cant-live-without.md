@@ -1,6 +1,6 @@
 ---
 title: "Alfred workflows that I can't live without"
-summary: "Alfred is my favourite productivity app for macOS. You can use the basic features for free, but it shines the most with the Powerpack. I use it literally hundreds of times a day. The basic app launcher, file browser, web search, clipboard history, and more advanced workflows. There are my favourite ones!"
+summary: "Alfred is my favourite productivity app for macOS. You can use the basic features for free, but it shines the most with the Powerpack. I use it literally hundreds of times a day. The basic app launcher, file browser, web search, clipboard history, and more advanced workflows. These are my favourite ones!"
 photo: "2021-08-17.jpg"
 ---
 
@@ -51,13 +51,15 @@ Changing the screenshot format on macOS requires some Terminal commands that I u
 
 ## JSON parse/stringify
 
-Browsing tons of logs every day, it is common to come across some stringified piece of JSON data. Sure, I can go to the browser's console and do a bit of `copy(JSON.parse())` magic, but I created [Alfred JSON workflow](https://github.com/pawelgrzybek/alfred-json) workflow to speed this process up.
+Browsing tons of logs every day, it's common to come across some stringified piece of JSON data. Sure, I can go to the browser's console and do a bit of `copy(JSON.parse())` magic, but I created [Alfred JSON workflow](https://github.com/pawelgrzybek/alfred-json) workflow to speed the process up.
+
 
 ![JSON Alfred workflow screenshot](/photos/2021-08-17-6.gif)
 
 ## Text manipulations
 
-This one is super simple, but I use it all the time. If you fancy adding some other text manipulations to the [Text manipulation workflow](https://github.com/pawelgrzybek/alfred-text-manipulation), I am open to suggestions. Pull requests are always welcome.
+This one is super simple and I use it all the time. If you fancy adding some other text manipulations to the [Text manipulation workflow](https://github.com/pawelgrzybek/alfred-text-manipulation), I am open to suggestions. Pull requests are always welcome.
+
 
 ![Text manipulations workflow screenshot](/photos/2021-08-17-7.gif)
 
@@ -74,6 +76,6 @@ From time to time, I need to convert some cryptocurrencies to regular fiat, and 
 ![CoinMarketCap Alfred workflow screenshot](/photos/2021-08-17-9.gif)
 ## Docs
 
-This one is a dead simple one, but I use it all the time! [Docs workflow](https://github.com/pawelgrzybek/alfred-docs) redirects you to docs of your favourite projects with few keystrokes.
+This one is a dead simple and I use it all the time! [Docs workflow](https://github.com/pawelgrzybek/alfred-docs)  redirects you to docs of your favourite projects with only a few keystrokes.
 
 ![Docs Alfred workflow screenshot](/photos/2021-08-17-10.gif)
