@@ -1,6 +1,6 @@
 ---
 title: "Deno, a breath of fresh air for the server-side JavaScript"
-summary: "Deno is made by the original creator of Node.js, Ryan Dahl. It is his successor project that aims to fix all regrettable things from the Node.js design. Let me share why I like it so much!"
+summary: "Deno is made by the original creator of Node.js, Ryan Dahl. It is his successor project that aims to fix all regrettable things from the Node.js design. Let me share with you why I like it so much!"
 photo: "2021-08-16.jpg"
 ---
 
@@ -8,7 +8,7 @@ There is a great reason why [JavaScript is the most used programming language](h
 
 ![Deno artwork](/photos/2021-08-16-1.jpg)
 
-Speaking of exciting things, I recently tried something new — [Deno](https://deno.land) made by the original creator of Node.js, Ryan Dahl. It is his successor project that aims to fix all [regrettable things from the Node.js](https://youtu.be/M3BM9TB-8yA) design. Let me share with you why I like it so much!
+Speaking of exciting things, I recently tried something new — [Deno](https://deno.land), made by the original creator of Node.js, Ryan Dahl. It is his successor project that aims to fix all [regrettable things from the Node.js](https://youtu.be/M3BM9TB-8yA) design. Let me share with you why I like it so much!
 
 ## Just like on the Web
 
