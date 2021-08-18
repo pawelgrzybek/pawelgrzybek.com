@@ -32,3 +32,8 @@ I like what Miriam Suzanne does for the web ecosystem. I am delighted to see her
 
 Deno Deploy is a globally distributed Deno runtime. Deno is a successor project of Ryan Dahl, the same guy who created Node.js. Deno Deploy is what I have been waiting for because the more I use Deno, the more I love it. Web APIs, TypeScript support, ECMAScript modules support, great security model, and more cool stuff. The blog post ["Deno Deploy Beta 1"](https://deno.com/blog/deploy-beta1) reveals more details about the VM. I am playing around with it already, and you can probably expect a little write up about it very soon.
 
+## [Deno - HTTP 203](https://youtu.be/SYkzk_j3yb0)
+
+The hype about Deno on this blog doesn't stop. A few days after I published ["Deno, a breath of fresh air for the server-side JavaScript"](/deno-a-breath-of-fresh-air-for-the-server-side-javascript/), Jake Archibald and Surma from the Google Web Dev team published this great video where they share similar excitement about Deno's compatibility with the Web platform.
+
+{{< youtube SYkzk_j3yb0 >}}
