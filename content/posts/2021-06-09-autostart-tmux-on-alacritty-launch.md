@@ -9,7 +9,7 @@ After using [Hyper](https://hyper.is) for a long time, I recently tried [Alacrit
 At the time of writing this post it doesn't support multiple windows, although I know that the [support for multiple windows in Alacritty is coming soon](https://github.com/alacritty/alacritty/issues/607#issuecomment-844863126). No biggie for me because [tmux](https://github.com/tmux/tmux) can solve this limitation quickly. Ideally, I wanted to use this terminal multiplexer whenever I launch Alacritty. If you are after a similar solution, I have a solution that works like a charm.
 
 ```yaml
-# ~/.alacritty.yaml
+# ~/.alacritty.yml
 
 shell:
   program: /bin/zsh
