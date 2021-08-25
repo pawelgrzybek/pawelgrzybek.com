@@ -37,3 +37,7 @@ Deno Deploy is a globally distributed Deno runtime. Deno is a successor project 
 The hype about Deno on this blog doesn't stop. A few days after I published ["Deno, a breath of fresh air for the server-side JavaScript"](/deno-a-breath-of-fresh-air-for-the-server-side-javascript/), Jake Archibald and Surma from the Google Web Dev team published this great video where they share similar excitement about Deno's compatibility with the Web platform.
 
 {{< youtube SYkzk_j3yb0 >}}
+
+## [Deno on MDN](https://deno.com/blog/deno-on-mdn)
+
+Clearly someone got very escited about Deno here. For a good reason, and looks like I am not the only one. This runtime is getting more tractino than ever before, and now we can check feature compatibility on MDN — arguaebly the most popular resource for JavaScript on the Web.
