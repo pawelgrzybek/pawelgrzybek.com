@@ -65,7 +65,7 @@ This one is super simple and I use it all the time. If you fancy adding some oth
 
 ## Theme - toggle between light/dark mode
 
-Switch between system appearance mode using `theme` keyword or alternatively using <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>D</kbd> hotkey.
+Switch between system appearance mode using `theme` keyword or alternatively using <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>D</kbd> hotkey. You can download [Alfred Theme from on my GitHub account](https://github.com/pawelgrzybek/alfred-theme).
 
 ![Theme workflow screenshot](/photos/2021-08-17-8.gif)
 
