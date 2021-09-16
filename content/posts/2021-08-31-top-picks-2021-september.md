@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2021 September"
-summary: "An Introduction to JQ, Google changes the algorithm to parse web page title (again), "
+summary: "An Introduction to JQ, Google changes the algorithm to parse web page title (again), very helpful HTML parse htmlq, CSS Cascade Layers, "
 photo: top-picks.jpg
 ---
 
@@ -15,3 +15,11 @@ Does Google "break the Web" again by changing the way how page titles are genera
 ## [htmlq](https://github.com/mgdm/htmlq)
 
 Like jq, but for HTML. Really nice super project. I see more and more Rust based projects that blow my mind recently.
+
+## [The Future of CSS: Cascade Layers (CSS @layer)](https://www.bram.us/2021/09/15/the-future-of-css-cascade-layers-css-at-layer/)
+
+Braum published a great primer to the CSS Cascade Layers. New CSS feature lead by Miriam Suzane that is going to improve the way how we deal with CSS order, specificity, context etc. I love to see this kind of additions being worked on. 
+
+## [Designing Beautiful Shadows in CSS](https://www.joshwcomeau.com/css/designing-shadows/)
+
+If you think you know everything about CSS `box-shadow`, give this one a go. It is amazing, interactive post that goes into depth of life-like looking shadows by [Joshw Comeau](https://twitter.com/joshwcomeau).
