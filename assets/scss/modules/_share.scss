@@ -1,21 +1,18 @@
 .share {
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
   background-color: var(--color-box-background);
   box-shadow: 0 0 0 1px var(--color-box-border);
-  margin: calc(var(--lh) * 2) 0;
-  padding: calc(var(--lh) / 2);
-  font-size: calc(var(--fz) / var(--type-scale));
+  margin: calc(var(--lh) * 2) 0 calc(var(--lh) * 2) calc(var(--lh) * -1);
+  padding: calc(var(--lh));
+  width: calc(100% + var(--lh) * 2);
 }
 
-.share__icon {
-  fill: rgb(29, 161, 242);
-  margin-right: calc(var(--lh) / 2);
-  width: var(--fz);
-  height: var(--fz);
-  flex-shrink: 0;
+.share__title {
+  font-weight: 700;
 }
 
 .share__text {
   margin: 0;
+  // font-size: calc(var(--fz) / var(--type-scale));
 }
