@@ -27,3 +27,25 @@ If you think you know everything about CSS `box-shadow`, give this one a go. It 
 ## [Mastering Serverless Application Observability](https://youtube.com/playlist?list=PLJo-rJlep0EDiN3pPjBDUfq34BqMAI_o-)
 
 This course on Serverless Observability by [Julian Wood](https://twitter.com/julian_wood) is a top resource for everyone new to the world of micro-services. From basinc introduction of core observability pilars (metrics, logs and tracing) up to the advanced concepts of monitoring. Well spent one hour of your time.
+
+## [Proposal for CSS @when](https://css-tricks.com/proposal-for-css-when/)
+
+Another crazy cool announcement from Miriam about the CSS when proposal. How cool!
+
+```css
+/* instead of doing */
+@media (min-width: 600px) {
+  font-size: 2rem;
+}
+@media (max-width: 599px) {
+  font-size: 1rem;
+}
+
+/* we will be able to do */
+@when media(min-width: 600px) {
+  font-size: 2rem;
+}
+@else {
+  font-size: 1rem;
+}
+```
