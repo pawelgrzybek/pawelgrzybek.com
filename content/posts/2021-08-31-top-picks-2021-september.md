@@ -23,3 +23,7 @@ Braum published a great primer to the CSS Cascade Layers. New CSS feature lead b
 ## [Designing Beautiful Shadows in CSS](https://www.joshwcomeau.com/css/designing-shadows/)
 
 If you think you know everything about CSS `box-shadow`, give this one a go. It is amazing, interactive post that goes into depth of life-like looking shadows by [Joshw Comeau](https://twitter.com/joshwcomeau).
+
+## [Mastering Serverless Application Observability](https://youtube.com/playlist?list=PLJo-rJlep0EDiN3pPjBDUfq34BqMAI_o-)
+
+This course on Serverless Observability by [Julian Wood](https://twitter.com/julian_wood) is a top resource for everyone new to the world of micro-services. From basinc introduction of core observability pilars (metrics, logs and tracing) up to the advanced concepts of monitoring. Well spent one hour of your time.
