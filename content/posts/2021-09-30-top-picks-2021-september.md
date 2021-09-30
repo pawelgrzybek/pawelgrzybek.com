@@ -18,7 +18,7 @@ Like jq, but for HTML, I see more Rust-based projects that have recently blown m
 
 ## [The Future of CSS: Cascade Layers (CSS @layer)](https://www.bram.us/2021/09/15/the-future-of-css-cascade-layers-css-at-layer/)
 
-Braum published a great primer to the CSS Cascade Layers. The New CSS feature lead by [Miriam Suzane](https://twitter.com/TerribleMia) will improve how we deal with CSS order, specificity, context, etc. I love to see this kind of addition being worked on.
+[Bramus](https://twitter.com/bramusblog/) published a great primer to the CSS Cascade Layers. The New CSS feature lead by [Miriam Suzane](https://twitter.com/TerribleMia) will improve how we deal with CSS order, specificity, context, etc. I love to see this kind of addition being worked on.
 
 ## [Designing Beautiful Shadows in CSS](https://www.joshwcomeau.com/css/designing-shadows/)
 
