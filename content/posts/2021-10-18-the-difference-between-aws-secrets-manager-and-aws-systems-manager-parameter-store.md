@@ -1,10 +1,10 @@
 ---
 title: "The difference between AWS Secrets Manager and AWS Systems Manager Parameter Store"
-summary: "The AWS platform offers two services for storing sensitive configuration data. Besides many similarities, there are few subtle differences and understanding them will help you pick a service right for you. By using one over the other, you can also save money."
+summary: "The AWS platform offers two services for storing sensitive configuration data. Besides many similarities, there are a few subtle differences and understanding them will help you pick a service which is right for you. By using one over the other, you can also save money."
 photo: "2021-10-18.jpg"
 ---
 
-The AWS platform offers two services for storing sensitive configuration data, [AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html) and [AWS Systems Manager Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html). Besides many similarities, there are few subtle differences and understanding them will help you pick a service right for you. By using one over the other, you can also save money — I did, and that's why I am sharing this with you.
+The AWS platform offers two services for storing sensitive configuration data, [AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html) and [AWS Systems Manager Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html). Besides many similarities, there are a few subtle differences and understanding them will help you pick a service which is right for you. By using one over the other, you can also save money — I did, and that's why I'm sharing this with you.
 
 ## Similarities
 
