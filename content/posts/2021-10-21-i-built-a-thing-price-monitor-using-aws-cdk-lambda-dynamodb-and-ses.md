@@ -8,7 +8,7 @@ I wanted to buy a PlayStation 5, but it was out of stock all over the place, so 
 
 ## Price monitor architecture
 
-Everything starts from a scheduled EnventBridge ruel (`ScheduledEvent`) that triggers the Lambda function (`PriceCheckLambda`) every so often (in my case, 15 minutes). This function reads current product prices stored in DynamoDB (`PriceTable`), compares with a current price online and updates DB accordingly. Updates in DynamoDB trigger a second Lambda (`NotificationLambda`) that sends an email to my mailbox.
+Everything starts from a scheduled EnventBridge rule (`ScheduledEvent`) that triggers the Lambda function (`PriceCheckLambda`) every so often (in my case, 15 minutes). This function reads current product prices stored in DynamoDB (`PriceTable`), compares with a current price online and updates DB accordingly. Updates in DynamoDB trigger a second Lambda (`NotificationLambda`) that sends an email to my mailbox.
 
 ![Price monitor architecture diagram](/photos/2021-10-21-1.jpg)
 
@@ -16,7 +16,7 @@ I deliberately stripped down the core parts described below to the bare minimum.
 
 ### CDK stack
 
-To provision architecture, I used AWS CDK. One one of the previous projects, I used pure CloudFormation templates, and I don’t miss these times since the day I embraced CDK.
+To provision architecture, I used AWS CDK. On one of the previous projects, I used pure CloudFormation templates, and I don’t miss these times since the day I embraced CDK.
 
 ```ts
 // stack.ts
