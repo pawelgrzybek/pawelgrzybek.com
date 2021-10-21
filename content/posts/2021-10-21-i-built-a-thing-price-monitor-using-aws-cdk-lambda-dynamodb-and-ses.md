@@ -1,5 +1,5 @@
 ---
-title: "I built a thing - Price monitor using AWS CDK, Lambda, DynamoDB and SES"
+title: "I built a thing - price monitor using AWS CDK, Lambda, DynamoDB and SES"
 summary: "The implementation turned up to be simple enough, so I decided to share core parts with you. This article assumes that you have at least some basic understanding of the AWS platform and CDK framework."
 photo: "2021-10-21.jpg"
 ---
