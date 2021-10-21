@@ -8,7 +8,7 @@ I wanted to buy a PlayStation 5, but it was out of stock all over the place, so 
 
 ## Price monitor architecture
 
-Everything starts from a scheduled EnventBridge rule (`ScheduledEvent`) that triggers the Lambda function (`PriceCheckLambda`) every so often (in my case, 15 minutes). This function reads current product prices stored in DynamoDB (`PriceTable`), compares with a current price online and updates DB accordingly. Updates in DynamoDB trigger a second Lambda (`NotificationLambda`) that sends an email to my mailbox.
+Everything starts from a scheduled EnventBridge rule (`ScheduledEvent`) that triggers the Lambda function (`PriceCheckLambda`) every so often (in my case, 15 minutes). This function reads current product prices stored in DynamoDB (`PriceTable`), compares with a current price online and updates DB accordingly. Updates in DynamoDB trigger a second Lambda (`NotificationLambda`) that sends an email to my mailbox. Done!
 
 ![Price monitor architecture diagram](/photos/2021-10-21-1.jpg)
 
@@ -31,9 +31,9 @@ import * as dynamodb from "@aws-cdk/aws-dynamodb";
 import * as iam from "@aws-cdk/aws-iam";
 import * as awsLambdaEventSources from "@aws-cdk/aws-lambda-event-sources";
 
-export class PriceMonitorStack extends cdk.Stack {
-  constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
-    super(scope, id, props);
+export class Stack extends cdk.Stack {
+  constructor(scope: cdk.Construct, id: string) {
+    super(scope, id);
 
     const dynamoDbTable = new dynamodb.Table(this, "PriceTable", {
       partitionKey: {
@@ -112,10 +112,8 @@ interface PriceRow {
   price: string;
 }
 
-// envs
 const { AWS_REGION: region, TABLE_NAME: TableName } = process.env;
 
-// clients init
 const dbClient = new DynamoDBClient({ region });
 
 const handler: ScheduledHandler = async (event) => {
@@ -182,10 +180,8 @@ import { unmarshall } from "@aws-sdk/util-dynamodb";
 import { SESClient, SendEmailCommand } from "@aws-sdk/client-ses";
 import { DynamoDBStreamHandler } from "aws-lambda";
 
-// envs
 const { AWS_REGION: region } = process.env;
 
-// clients init
 const sesClient = new SESClient({ region });
 
 const handler: DynamoDBStreamHandler = async (event) => {
