@@ -1,6 +1,6 @@
 ---
 title: "I built a thing - Price monitor using AWS CDK, Lambda, DynamoDB and SES"
-summary: ""
+summary: "The implementation turned up to be simple enough, so I decided to share core parts with you. This article assumes that you have at least some basic understanding of the AWS platform and CDK framework."
 photo: "2021-10-21.jpg"
 ---
 
@@ -12,7 +12,7 @@ Everything starts from a scheduled EnventBridge rule (`ScheduledEvent`) that tri
 
 ![Price monitor architecture diagram](/photos/2021-10-21-1.jpg)
 
-I deliberately stripped down the core parts described below to the bare minimum. You can find my full implementation of the [price monitor on my GitHub](https://github.com/pawelgrzybek/price-monitor).
+I deliberately stripped down the noise and kept only the core parts. You can find my full implementation of the [price monitor on my GitHub](https://github.com/pawelgrzybek/price-monitor).
 
 ### CDK stack
 
@@ -239,6 +239,6 @@ export { handler };
 
 ## To summarise
 
-Creating this service was very enjoyable—good Philips Hue deals on Amazon and my new discounted pair of kicks I like even more. By the way, I don’t want to buy PS5 anymore. Hopefully, you found it helpful 🤪
+Creating this service was very enjoyable — good Philips Hue deals on Amazon and my new discounted pair of kicks I like even more. I pay for this service absolutely nothing, thanks to generous AWS free tier. By the way, I don’t want to buy PS5 anymore. Hopefully, you found it helpful 🤪
 
 ![Price monitor email notification](/photos/2021-10-21-2.jpg)
