@@ -4,7 +4,7 @@ summary: "The implementation turned up to be simple enough, so I decided to shar
 photo: "2021-10-21.jpg"
 ---
 
-I wanted to buy a PlayStation 5, but it was out of stock all over the place, so I spent a few moments building a price monitor using [AWS CSK](https://aws.amazon.com/cdk/), [Lambda](https://aws.amazon.com/lambda/), [DynamoDB](https://aws.amazon.com/dynamodb/) and [SES](https://aws.amazon.com/ses/). The implementation turned up to be simple enough, so I decided to share core parts with you. This article assumes that you have at least some basic understanding of the AWS platform and CDK framework.
+I wanted to buy a PlayStation 5 but it was out of stock all over the place, so I spent a short amount of time building a price monitor using [AWS CDK](https://aws.amazon.com/cdk/), [Lambda](https://aws.amazon.com/lambda/), [DynamoDB](https://aws.amazon.com/dynamodb/) and [SES](https://aws.amazon.com/ses/). The implementation turned out to be simple enough, so I decided to share the core parts with you. This article assumes that you have at least some basic understanding of the AWS platform and CDK framework.
 
 ## Price monitor architecture
 
@@ -88,7 +88,7 @@ export class Stack extends cdk.Stack {
 
 ### Price check Lambda
 
-This function is responsible for comparing prices from the database to current prices online. I used [cheerio](https://cheerio.js.org) for the web scraping part, but most likely, I will replace it with [Puppeteer](https://developers.google.com/web/tools/puppeteer). So you do you, a million ways to skin a cat.
+This function is responsible for comparing prices from the database to current prices online. I used [cheerio](https://cheerio.js.org) for the web scraping part, but most likely, I will replace it with [Puppeteer](https://developers.google.com/web/tools/puppeteer).
 
 ```ts
 // price-check.ts
