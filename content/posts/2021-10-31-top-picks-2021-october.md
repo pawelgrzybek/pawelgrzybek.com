@@ -24,4 +24,10 @@ My favourite web bundler just got an update to version 2.0. Bunch of great news 
 
 This is a big news for all AWS Lambda users. IN some cases just by changing the architecture of underlying technology you can get a peerformance boost and also save some money. ["AWS Lambda Functions Powered by AWS Graviton2 Processor – Run Your Functions on Arm and Get Up to 34% Better Price Performance"](https://aws.amazon.com/blogs/aws/aws-lambda-functions-powered-by-aws-graviton2-processor-run-your-functions-on-arm-and-get-up-to-34-better-price-performance/) goes more into technical details and suggest a great way to measure the difference.
 
-## []()
+## [vscode.dev(!)](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev)
+
+Normally when people buy a domain with an intention to build something cool on top of it, it results in wasted money eventually. Visual Studio Code team is different, and they used a domain purchased years ago to port our favourite editor from Electron app to fully functional editor in the browser. Insane and so helpful. I tested this one on my iPad Pro moment ago and it works really well!
+
+## [Can I include a tag to a tag?](https://caninclude.glitch.me)
+
+Check if you can include a tag to a tag, and find out the reason why it is not possible. I love this kind of little helpers. This one is very handy for all Frontenders.
