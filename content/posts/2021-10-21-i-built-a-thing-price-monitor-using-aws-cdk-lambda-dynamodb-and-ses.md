@@ -10,7 +10,7 @@ I wanted to buy a PlayStation 5 but it was out of stock all over the place, so I
 
 Everything starts from a scheduled EnventBridge rule (`ScheduledEvent`) that triggers the Lambda function (`PriceCheckLambda`) every so often (in my case, 15 minutes). This function reads current product prices stored in DynamoDB (`PriceTable`), compares with a current price online and updates DB accordingly. Updates in DynamoDB trigger a second Lambda (`NotificationLambda`) that sends an email to my mailbox. Done!
 
-![Price monitor architecture diagram](/photos/2021-10-21-1.jpg)
+![Price monitor architecture diagram](/photos/2021-10-21-1.png)
 
 I deliberately stripped down the noise and kept only the core parts. You can find my full implementation of the [price monitor on my GitHub](https://github.com/pawelgrzybek/price-monitor).
 
