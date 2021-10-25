@@ -1,6 +1,6 @@
 ---
 title: "Propagate AWS X-Ray tracing header to the Lambda from SQS, SNS and DynamoDB stream"
-summary: ""
+summary: "I faced a challenge where I wanted to propagate AWS X-Ray tracing X-Amzn-Trace-Id header from one Lambda through DynamoDB stream triggered by put operation up to another Lambda. If you are facing a similar challenge in your project, I have bad news."
 photo: "2021-10-25.jpg"
 ---
 
