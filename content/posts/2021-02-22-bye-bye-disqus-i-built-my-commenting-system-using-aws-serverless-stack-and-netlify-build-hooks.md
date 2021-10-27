@@ -36,12 +36,6 @@ There are a few HTML lines on the front end, around 100 lines of custom-written 
 
 ![My custom commenting system built with AWS - the notification email](/photos/2021-02-22-4.jpg)
 
-![My custom commenting system built with AWS - diagram](/photos/2021-02-22-5.png)
-
-Pro tip! You can send a `POST` request on link click by adding a [`ping` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping) to it. I learned that from [Sven, who tweeted about it](https://twitter.com/svenluijten/status/1363245229533507585) a few days ago. Excellent, isn’t it?
-
-> A space-separated list of URLs. When the link is followed, the browser will send POST requests with the body PING to the URLs. Typically for tracking.
-
 ## Feedback please
 
 I'm planning to open-source it and provide a detailed tutorial on how you can implement a commenting system like this on your own website. Before I am going to do so, I want this thing to be properly tested. I highly encourage you to try it out and leave me a comment below. As always, I am open to your feedback. For now, stay curious, build cool things and share with others 👋
