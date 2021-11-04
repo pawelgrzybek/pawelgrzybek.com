@@ -6,7 +6,7 @@ photo: "2021-11-04.jpg"
 
 Printing the result of your program to the console is a common practice, but being familiar with a debugger opens a new world of possibilities. A debugger is built into most of the popular IDEs and is also integrated with most web browsers. It allows us to run a program, step through it, log transition stages, explore scope members and preview the values at any flow stage.
 
-To use the debugger with confidence, you need to understand the basic actions — continue, step over, step into and step out. However, I noticed that people click these buttons randomly without understanding what they're doing. So here I come with a simple explanation for y'all.
+To use the debugger with confidence, you need to understand the fundamental actions — continue, step over, step into and step out. However, I noticed that people click these buttons randomly without understanding what they're doing. So here I come with a simple explanation for y'all.
 
 ![Continue, Step Over, Step Into, Step Out, Restart and Stop actions in Visual Studio Code debugger](/photos/2021-11-04-1.png)
 
@@ -44,7 +44,7 @@ Debugger executes the program statement by statement within the current executio
 
 ## Step Into
 
-Debugger executes the program statement by statement. If the statement is a function call, the debugger will also execute the function body (a new execution context appears in the "call stack" tab). Otherwise, the debugger will continue to the following statement.
+Debugger executes the program statement by statement. The debugger will execute the function body if the statement is a function call (a new execution context appears in the "call stack" tab). Otherwise, the debugger will continue to the following statement, just like the "Step Over" action.
 
 ![Step Into actions in Visual Studio Code debugger](/photos/2021-11-04-4.gif)
 
