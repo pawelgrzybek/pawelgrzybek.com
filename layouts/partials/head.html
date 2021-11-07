@@ -31,14 +31,11 @@
   <link rel="alternate" type="application/feed+json" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}/feed.json" />
 
   {{ "<!-- Favicons -->" | safeHTML }}
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/assets/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/assets/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/assets/manifest.json">
-  <link rel="shortcut icon" href="/assets/favicon.ico">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/assets/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+  <!-- https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
+  <link rel="icon" href="/assets/favicon.ico" sizes="any"><!-- 32×32 -->
+  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml"><!-- 16×16 -->
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><!-- 180×180 -->
+  <link rel="manifest" href="/assets/manifest.webmanifest">
 
   {{ "<!-- Styles -->" | safeHTML }}
   {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}

@@ -1,3 +1,4 @@
 .DS_Store
 data
 public
+.hugo_build.lock
