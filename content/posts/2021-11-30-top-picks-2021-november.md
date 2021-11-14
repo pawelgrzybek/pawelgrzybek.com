@@ -11,3 +11,7 @@ By default, `button` within `form` element sends a `POST` request to the form's 
 ## [Web Performance Metrics Cheatsheet](https://bitsofco.de/web-performance-metrics-cheatsheet/)
 
 [Ire Aderinokun](https://twitter.com/ireaderinokun) created this handy resources that summariser all the core Web Peformnace Metrics targets in one cheatsheet. Each of the metricks is also nicelu explained.
+
+## [How the TypeScript Compiler Compiles - understanding the compiler internal](https://www.youtube.com/watch?v=X8k_4tZ16qU)
+
+[Orta Therox](https://twitter.com/orta) shared this high level overview of TypeScript compiler and all its internal workings. It is so interesting and very well explained. Orta is incredible technical instructor!
