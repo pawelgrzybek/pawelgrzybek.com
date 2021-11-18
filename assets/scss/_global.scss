@@ -29,6 +29,7 @@ body {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: var(--fz);
   line-height: var(--lh);
+  transition: background-color 0.5s;
 
   // background-image: linear-gradient(
   //   rgba(50, 50, 50, 0.15) 1px,
