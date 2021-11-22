@@ -1,7 +1,9 @@
 {{ define "main" }}
 
-      {{ range (.Paginate ( where .Site.Pages "Section" "posts" ).ByDate.Reverse).Pages }}
-      {{ "<!-- post -->" | safeHTML }}
+<div class="wrapper">
+  <main id="main">
+    {{ range (.Paginate ( where .Site.Pages "Section" "posts" ).ByDate.Reverse).Pages }}
+
       <article class="post">
         <h2 class="post__title">
           <a class="post__url" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
@@ -10,19 +12,12 @@
         <p>{{ .Summary }}</p>
         <a class="post__more" href="{{ .Permalink }}" title="{{ .Title }}" arial-link="Read more about {{ .Title }}">Read more »</a>
       </article>
-      {{ "<!-- / post -->" | safeHTML }}
+
       {{ end }}
+    </main>
 
-      {{ "<!-- pager -->" | safeHTML }}
-      <div class="pager">
-        {{ if eq .Paginator.HasPrev true }}
-        <a href="{{ .Paginator.Prev.URL }}" class="pager__btn pager__btn--prev" title="Go to page {{ .Paginator.Prev.PageNumber }}">Previous page ({{ .Paginator.Prev.PageNumber }} / {{ .Paginator.TotalPages }})</a>
-        {{ end }}
+  </div>
 
-        {{ if eq .Paginator.HasNext true }}
-        <a href="{{ .Paginator.Next.URL }}" class="pager__btn pager__btn--next" title="Go to page {{ .Paginator.Next.PageNumber }}">Next page ({{ .Paginator.Next.PageNumber }} / {{ .Paginator.TotalPages }})</a>
-        {{ end }}
-      </div>
-      {{ "<!-- / pager -->" | safeHTML }}
+  {{ partial "pagination.html" . }}
 
 {{ end }}

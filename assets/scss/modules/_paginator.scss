@@ -1,0 +1,33 @@
+.paginator {
+  display: flex;
+
+  max-width: calc(900px + (2 * var(--lh)));
+  margin-inline: auto;
+  padding-inline: var(--lh);
+}
+
+.paginator__btn {
+  padding: calc(var(--lh) / 4) calc(var(--lh) / 2);
+  box-shadow: 0 0 0 1px currentColor;
+  border-radius: 2px;
+  font-size: calc(var(--fz) / var(--type-scale));
+  text-decoration: none;
+}
+
+.paginator__btn__pager {
+  display: none;
+}
+
+.paginator__btn--prev {
+  margin-inline-end: auto;
+}
+
+.paginator__btn--next {
+  margin-inline-start: auto;
+}
+
+@media screen and (min-width: 500px) {
+  .paginator__btn__pager {
+    display: initial;
+  }
+}

@@ -1,6 +1,8 @@
 {{ define "main" }}
 
-      {{ "<!-- post -->" | safeHTML }}
+<div class="wrapper">
+  <main id="main">
+
       <article class="post js-post">
         <h1 class="post__title">{{ .Title }}</h1>
 
@@ -11,7 +13,6 @@
         {{ .Content }}
 
         {{ if eq .Title "Archive" }}
-        {{ "<!-- archive -->" | safeHTML }}
           <ul>
             {{- range (where .Site.Pages.ByDate.Reverse "Section" "posts").GroupByDate "2006" -}}
             <li><a href="#{{ .Key }}">Published in {{ .Key }} ({{ len .Pages }} posts)</a></li>
@@ -29,15 +30,12 @@
               {{ end }}
             </ul>
           {{ end }}
-        {{ "<!-- / archive -->" | safeHTML }}
         {{ end }}
 
         {{ if eq .Type "posts" }}
-        {{ "<!-- share -->" | safeHTML }}
         <div class="share">
           <p class="share__text">If you liked this article, you can <a href="https://www.buymeacoffee.com/pawelgrzybek">buy me a coffee</a> and <a href="https://twitter.com/intent/tweet?text={{ .Title }}&amp;url={{ .Permalink }}&amp;via=pawelgrzybek" class="share__link" title="share on Twitter">share it on Twitter</a>.</p>
         </div>
-        {{ "<!-- / share -->" | safeHTML }}
 
         {{ $commentsKey := replace .RelPermalink "/" "" }}
         {{ $commentsExist := isset .Site.Data.comments $commentsKey }}
@@ -55,8 +53,10 @@
         {{ end }}
 
       </article>
-      {{ "<!-- / post -->" | safeHTML }}
 
       <script src="/comments.js"></script>
+
+    </main>
+  </div>
 
 {{ end }}
