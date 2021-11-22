@@ -113,6 +113,7 @@
   padding: 0 calc(var(--lh) / 2);
   color: var(--color-text);
   font: inherit;
+  border-radius: 2px;
 }
 
 .form__input--textarea {
@@ -164,4 +165,5 @@
   cursor: pointer;
   font-size: calc(var(--fz) / var(--type-scale));
   font-weight: 600;
+  border-radius: 2px;
 }

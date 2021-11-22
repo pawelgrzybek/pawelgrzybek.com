@@ -5,7 +5,7 @@ pygmentsUseClasses = true
 enableRobotsTXT = true
 
 [params]
-  description = "Hi there, I'm Pawel Grzybek, Software Engineer from Poland. Nowadays I live in Leicester (UK). When I'm not coding, I'm spinning funky vinyl records."
+  description = "I'm Pawel Grzybek, Software Engineer from Poland. I build Web stuff and write about it. A keen cyclist and funky/jazz records collector. Welcome to my website!"
 
 [frontmatter]
   date  = [":filename", ":default"]

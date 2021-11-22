@@ -7,7 +7,7 @@
     class="paginator__btn pager__btn--prev"
     title="Go to page {{ .Paginator.Prev.PageNumber }}"
     >
-    Previous page <span class="paginator__btn__pager">({{ .Paginator.Prev.PageNumber }} / {{ .Paginator.TotalPages }})</span>
+    Previous page ({{ .Paginator.Prev.PageNumber }} / {{ .Paginator.TotalPages }})
   </a>
   {{ end }}
   
@@ -17,7 +17,7 @@
     class="paginator__btn paginator__btn--next"
     title="Go to page {{ .Paginator.Next.PageNumber }}"
     >
-    Next page <span class="paginator__btn__pager">({{ .Paginator.Next.PageNumber }} / {{ .Paginator.TotalPages }})</span>
+    Next page ({{ .Paginator.Next.PageNumber }} / {{ .Paginator.TotalPages }})
   </a>
   {{ end }}
 

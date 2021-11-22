@@ -1,18 +1,11 @@
 .share {
-  // display: flex;
-  // align-items: center;
   background-color: var(--color-box-background);
   box-shadow: 0 0 0 1px var(--color-box-border);
-  margin: calc(var(--lh) * 2) 0 calc(var(--lh) * 2) calc(var(--lh) * -1);
+  margin-block: calc(var(--lh) * 2);
   padding: calc(var(--lh));
-  width: calc(100% + var(--lh) * 2);
-}
-
-.share__title {
-  font-weight: 700;
+  border-radius: 2px;
 }
 
 .share__text {
   margin: 0;
-  // font-size: calc(var(--fz) / var(--type-scale));
 }

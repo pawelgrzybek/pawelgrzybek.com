@@ -1,7 +1,7 @@
 .paginator {
   display: flex;
-
-  max-width: calc(900px + (2 * var(--lh)));
+  gap: calc(var(--lh) / 2);
+  max-width: calc(920px + (2 * var(--lh)));
   margin-inline: auto;
   padding-inline: var(--lh);
 }
@@ -12,10 +12,9 @@
   border-radius: 2px;
   font-size: calc(var(--fz) / var(--type-scale));
   text-decoration: none;
-}
-
-.paginator__btn__pager {
-  display: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .paginator__btn--prev {
@@ -24,10 +23,4 @@
 
 .paginator__btn--next {
   margin-inline-start: auto;
-}
-
-@media screen and (min-width: 500px) {
-  .paginator__btn__pager {
-    display: initial;
-  }
 }
