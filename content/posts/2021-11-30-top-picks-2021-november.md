@@ -15,3 +15,7 @@ By default, `button` within `form` element sends a `POST` request to the form's 
 ## [How the TypeScript Compiler Compiles - understanding the compiler internal](https://www.youtube.com/watch?v=X8k_4tZ16qU)
 
 [Orta Therox](https://twitter.com/orta) shared this high level overview of TypeScript compiler and all its internal workings. It is so interesting and very well explained. Orta is incredible technical instructor!
+
+## [Proposals](https://www.proposals.es)
+
+I like checking new ECMAScript proposals, but traversing GitHub readme files is not the best user expereince. This website makes it much easier and present all proposals, categorised by stages and popularity based on a Github stars. Handy resource.
