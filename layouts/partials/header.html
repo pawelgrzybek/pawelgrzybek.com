@@ -87,6 +87,16 @@
     cursor: pointer;
   }
 
+  .header__theme__label--light {
+    cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>☀️</text></svg>"),
+      auto;
+  }
+
+  .header__theme__label--dark {
+    cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>🌜</text></svg>"),
+      auto;
+  }
+
   .header__theme__input:checked + .header__theme__label {
     text-decoration: underline;
   }
@@ -186,7 +196,11 @@
         id="light"
         value="light"
       />
-      <label class="header__theme__label" for="light">Light</label>
+      <label
+        class="header__theme__label header__theme__label--light"
+        for="light"
+        >Light</label
+      >
       <input
         class="header__theme__input js-header__theme__input"
         type="radio"
@@ -194,7 +208,9 @@
         id="dark"
         value="dark"
       />
-      <label class="header__theme__label" for="dark">Dark</label>
+      <label class="header__theme__label header__theme__label--dark" for="dark"
+        >Dark</label
+      >
     </div>
   </div>
 </header>
