@@ -3,6 +3,7 @@
   padding: var(--lh);
   background-color: var(--color-update-background);
   box-shadow: 0 0 0 1px var(--color-update-border);
+  border-radius: 2px;
 
   &::before {
     position: absolute;
@@ -15,5 +16,6 @@
     font-size: calc(var(--fz) / var(--type-scale));
     font-weight: 700;
     content: "Update";
+    border-radius: 2px;
   }
 }
