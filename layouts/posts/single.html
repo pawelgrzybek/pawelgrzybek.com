@@ -5,6 +5,8 @@
     <article class="post js-post">
       <h1 class="post__title">{{ .Title }}</h1>
 
+      <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> | {{ .ReadingTime }} minutes read</p>
+
       {{ .Content }}
 
       {{ if eq .Title "Archive" }}
@@ -27,7 +29,27 @@
         {{ end }}
       {{ end }}
 
+      <div class="share">
+        <p class="share__text">If you liked this article, you can <a href="https://www.buymeacoffee.com/pawelgrzybek">buy me a coffee</a> and <a href="https://twitter.com/intent/tweet?text={{ .Title }}&amp;url={{ .Permalink }}&amp;via=pawelgrzybek" class="share__link" title="share on Twitter">share it on Twitter</a>.</p>
+      </div>
+
+      {{ $commentsKey := replace .RelPermalink "/" "" }}
+      {{ $commentsExist := isset .Site.Data.comments $commentsKey }}
+
+      {{ if $commentsExist }}
+        {{ $commentsObject := index .Site.Data.comments $commentsKey }}
+        {{ $comments := index $commentsObject "comments" }}
+        <h2 id="comments">Comments</h2>
+        {{ partial "comments.html" (dict "context" . "comments" $comments) }}
+      {{ end }}
+
+      <h2>Leave a comment</h2>
+      {{ partial "form.html" (dict "context" . "hidden" false "parent" "") }}
+
     </article>
+
+    <script src="/comments.js"></script>
+
 
   </div>
 

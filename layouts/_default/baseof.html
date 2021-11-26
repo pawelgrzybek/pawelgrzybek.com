@@ -4,8 +4,10 @@
   <body>
     {{ partial "header.html" . }}
 
-    {{ block "main" . }}
-    {{ end }}
+    <main id="main">
+      {{ block "main" . }}
+      {{ end }}
+    </main>
 
     {{ partial "footer.html" . }}
   </body>
