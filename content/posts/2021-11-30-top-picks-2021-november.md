@@ -27,3 +27,7 @@ This article by [Simon Plenderleith](https://twitter.com/simonplend) is a great 
 ## [A Simple Explanation of Function Overloading in TypeScript](https://dmitripavlutin.com/typescript-function-overloading/)
 
 [Dmitri Pavlutin](https://twitter.com/panzerdp) published a great post about function oveloading in TypeScript. Even though I dont use this TS feature too often, I learned a few things from this post.
+
+## [AWS Lambda now supports event filtering for Amazon SQS, Amazon DynamoDB, and Amazon Kinesis as event sources](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-lambda-event-filtering-amazon-sqs-dynamodb-kinesis-sources/)
+
+This announcement can save you or your company a lot of money. With this feature, there is no need to write a separate logic to filter kinds of events on a Lambda level. Events of interest can be caputred on a config level, and for the one that are not of interest, they can be ifgnored. No need to invoke function at all. So helpful.
