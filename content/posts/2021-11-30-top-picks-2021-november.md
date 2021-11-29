@@ -31,3 +31,8 @@ This article by [Simon Plenderleith](https://twitter.com/simonplend) is a great 
 ## [AWS Lambda now supports event filtering for Amazon SQS, Amazon DynamoDB, and Amazon Kinesis as event sources](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-lambda-event-filtering-amazon-sqs-dynamodb-kinesis-sources/)
 
 This announcement can save you or your company a lot of money. With this feature, there is no need to write a separate logic to filter kinds of events on a Lambda level. Events of interest can be caputred on a config level, and for the one that are not of interest, they can be ifgnored. No need to invoke function at all. So helpful.
+
+## [Fleet - Next-generation IDE by JetBrains](https://www.jetbrains.com/fleet/)
+
+Qucik and lightweight text editor with IDE features built by JetBrains is coming. Looks like distributed deployment and collaboration tools are coming built-in, the design also looks top notch. Built-in terminal, git support, debugger, theming support, plugins and all the the things that you would expect from app like this in 2022. I am verys interested in this one and I am glad that some real competitor for Visual Stuidio Code is coming. 
+
