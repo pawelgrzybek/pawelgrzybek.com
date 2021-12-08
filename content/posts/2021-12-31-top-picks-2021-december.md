@@ -11,3 +11,7 @@ Amazon S3 Glacier is one of my favourite products from the Amazon platform. I us
 ## [Amazon SQS Enhances Dead-letter Queue Management Experience For Standard Queues](https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-sqs-dead-letter-queue-management-experience-queues/)
 
 Another announcement from reInvent 2021. This feature helps a lot to redirect failed events from DLQs (Dead Letter Queues) to another queue. This process was possible before but required a lot of manual tweaking and multi-step procedures. Not it is as simple as clicking a button. Very great feature for all maintainers of serverless infrastructures.
+
+## [AWS Cloud Development Kit (AWS CDK) v2 is now generally available](https://aws.amazon.com/about-aws/whats-new/2021/12/aws-cloud-development-kit-cdk-generally-available/)
+
+Yeah! Another AWS news (sorry if thats not your thing). AWS Cloud Development Kit v2 is now generally available and it comes with bunch of great DX improvements. All top level constructs are now accessible from a single dependency and there i sno need to inport everything individually. 
