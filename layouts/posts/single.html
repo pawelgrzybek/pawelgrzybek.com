@@ -29,9 +29,7 @@
         {{ end }}
       {{ end }}
 
-      <div class="share">
-        <p class="share__text">If you liked this article, you can <a href="https://www.buymeacoffee.com/pawelgrzybek">buy me a coffee</a> and <a href="https://twitter.com/intent/tweet?text={{ .Title }}&amp;url={{ .Permalink }}&amp;via=pawelgrzybek" class="share__link" title="share on Twitter">share it on Twitter</a>.</p>
-      </div>
+      {{ partial "share.html" . }}
 
       {{ $commentsKey := replace .RelPermalink "/" "" }}
       {{ $commentsExist := isset .Site.Data.comments $commentsKey }}

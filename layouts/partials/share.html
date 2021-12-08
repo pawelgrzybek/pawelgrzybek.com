@@ -1,0 +1,60 @@
+<style>
+  .share {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    margin-block: calc(var(--lh) * 2);
+  }
+
+  .share__item::after {
+    content: "·";
+    margin-inline: calc(var(--lh) / 4);
+  }
+
+  .share__item:last-of-type::after {
+    display: none;
+  }
+
+  .share__item__button {
+    all: unset;
+    cursor: pointer;
+    color: var(--color-link);
+    text-decoration: underline;
+  }
+
+  .share__item__button:hover {
+    color: var(--color-text);
+  }
+</style>
+
+<ul class="share">
+  <li class="share__item">
+    <a
+      href="https://twitter.com/intent/tweet?text={{ .Title }}&amp;url={{ .Permalink }}&amp;via=pawelgrzybek"
+      >Tweet about it</a
+    >
+  </li>
+  <li class="share__item js-share-container">
+    <button class="share__item__button js-share-button">Share it</button>
+  </li>
+  <li class="share__item">
+    <a href="https://www.buymeacoffee.com/pawelgrzybek">Buy me a coffee</a>
+  </li>
+</ul>
+
+<script>
+  const shareContainer = document.querySelector(".js-share-container");
+  const shareButton = document.querySelector(".js-share-button");
+
+  navigator.share
+    ? shareButton.addEventListener("click", () => {
+        navigator
+          .share({
+            title: document.title,
+            url: location.href,
+          })
+          .then(() => console.log("Sucesfully shared"))
+          .catch((error) => console.log(error.message));
+      })
+    : (shareContainer.style.display = "none");
+</script>
