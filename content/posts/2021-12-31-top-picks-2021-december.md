@@ -15,3 +15,7 @@ Another announcement from reInvent 2021. This feature helps a lot to redirect fa
 ## [AWS Cloud Development Kit (AWS CDK) v2 is now generally available](https://aws.amazon.com/about-aws/whats-new/2021/12/aws-cloud-development-kit-cdk-generally-available/)
 
 Yeah! Another AWS news (sorry if thats not your thing). AWS Cloud Development Kit v2 is now generally available and it comes with bunch of great DX improvements. All top level constructs are now accessible from a single dependency and there i sno need to inport everything individually. 
+
+## [Improving GitHub code search](https://github.blog/2021-12-08-improving-github-code-search/)
+
+This new experience of browsing code across GitHub repositories looks appealing to me. Maybe with this tool browsing open source packages will become a little bit less scary. Another good application of Rust language. Also, have a look at the promo website for new [GitHub Code Search](https://cs.github.com/about), absolutely gorgeous.
