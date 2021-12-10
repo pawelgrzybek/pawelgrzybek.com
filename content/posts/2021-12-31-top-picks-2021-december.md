@@ -10,12 +10,16 @@ Amazon S3 Glacier is one of my favourite products from the Amazon platform. I us
 
 ## [Amazon SQS Enhances Dead-letter Queue Management Experience For Standard Queues](https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-sqs-dead-letter-queue-management-experience-queues/)
 
-Another announcement from reInvent 2021. This feature helps a lot to redirect failed events from DLQs (Dead Letter Queues) to another queue. This process was possible before but required a lot of manual tweaking and multi-step procedures. Not it is as simple as clicking a button. Very great feature for all maintainers of serverless infrastructures.
+Another announcement from reInvent 2021. This feature helps a lot to redirect failed events from DLQs (Dead Letter Queues) to another queue. This process was possible before but required a lot of manual tweaking and multi-step procedures. Not it is as simple as clicking a button. Very great feature for all maintainers of server-less infrastructures.
 
 ## [AWS Cloud Development Kit (AWS CDK) v2 is now generally available](https://aws.amazon.com/about-aws/whats-new/2021/12/aws-cloud-development-kit-cdk-generally-available/)
 
-Yeah! Another AWS news (sorry if thats not your thing). AWS Cloud Development Kit v2 is now generally available and it comes with bunch of great DX improvements. All top level constructs are now accessible from a single dependency and there i sno need to inport everything individually. 
+Yeah! Another AWS news (sorry if thats not your thing). AWS Cloud Development Kit v2 is now generally available and it comes with bunch of great DX improvements. All top level constructs are now accessible from a single dependency and there is no need to import everything individually. 
 
 ## [Improving GitHub code search](https://github.blog/2021-12-08-improving-github-code-search/)
 
 This new experience of browsing code across GitHub repositories looks appealing to me. Maybe with this tool browsing open source packages will become a little bit less scary. Another good application of Rust language. Also, have a look at the promo website for new [GitHub Code Search](https://cs.github.com/about), absolutely gorgeous.
+
+## [Understanding re-rendering and memoization in React](https://engineering.udacity.com/understanding-re-rendering-and-memoization-in-react-13e8c024c2b4)
+
+This is the best explanation of re-rendering and memoization of React components that I have read so far. Thanks to Kolby Sisk — ht really has a great skill of explaining difficult things using simple words. I love this style.
