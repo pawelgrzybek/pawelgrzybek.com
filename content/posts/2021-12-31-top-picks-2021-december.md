@@ -23,3 +23,13 @@ This new experience of browsing code across GitHub repositories looks appealing 
 ## [Understanding re-rendering and memoization in React](https://engineering.udacity.com/understanding-re-rendering-and-memoization-in-react-13e8c024c2b4)
 
 This is the best explanation of re-rendering and memoization of React components that I have read so far. Thanks to Kolby Sisk — ht really has a great skill of explaining difficult things using simple words. I love this style.
+
+## [Deno joins TC39](https://deno.com/blog/deno-joins-tc39)
+
+I am excited that Deno representant, [Luca Casonato](https://twitter.com/lcasdev), will be joining regulat TC39 meetings. The goal is to make server-side JavaScript even more powerful with a strong push on features like non-JS assets in the ES module graph, explicit resource management and better standard library.
+
+## [Tailwind CSS v3.0](https://tailwindcss.com/blog/tailwindcss-v3)
+
+Tailwind 3.0 is here and there is a lot of new features coming with that versoin. Scroll-snap suppport, multi-column layout, native form controls, print stylesheets, aspect ratio, RTL modifiers and more. Even tho I am not a big Tailwind user, this looks like a super exciting announcement for die-hard Tailwind fans. Also, look at this promo video!
+
+{{< youtube TmWIrBPE6Bc >}}
