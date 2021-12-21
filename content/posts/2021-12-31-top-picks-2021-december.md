@@ -33,3 +33,11 @@ I am excited that Deno representant, [Luca Casonato](https://twitter.com/lcasdev
 Tailwind 3.0 is here and there is a lot of new features coming with that versoin. Scroll-snap suppport, multi-column layout, native form controls, print stylesheets, aspect ratio, RTL modifiers and more. Even tho I am not a big Tailwind user, this looks like a super exciting announcement for die-hard Tailwind fans. Also, look at this promo video!
 
 {{< youtube TmWIrBPE6Bc >}}
+
+## [The CSS "content" property accepts alternative text](https://www.stefanjudis.com/today-i-learned/css-content-accepts-alternative-text/)
+
+This is one of the most shocking accessibility related articles that I read recently. I didn;t have a clue that an alternative text in CSS `content` property is a thing. Also, CSS `alt` property is a new thing for me. Very great read by [Stefan Judis](stefanjudis).
+
+## [Lists are now available as a public beta](https://github.blog/changelog/2021-12-09-lists-are-now-available-as-a-public-beta/)
+
+For me this is one of the nicest features that GiHub team added recently. You can now organize your starred prjects into predefined categories. My mess of hundreds interesting projects is over, now I can organize them into groups.
