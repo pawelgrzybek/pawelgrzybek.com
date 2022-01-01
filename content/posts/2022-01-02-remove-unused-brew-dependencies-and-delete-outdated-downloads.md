@@ -19,7 +19,6 @@ The `autoremove` command removes all the hanging, no longer needed packages from
 
 ```
 ~ brew help autoremove 
-Usage: brew autoremove [--dry-run]
 
 Uninstall formulae that were only installed as a dependency of another formula
 and are now no longer needed.
@@ -28,8 +27,7 @@ and are now no longer needed.
 If you want to take your tidy-up routine to the next level, you can also run `brew cleanup`. This command removes downloads for outdated formulas and casks.
 
 ```
-~ brew help cleanup                                                                                                                                   pawelgrzybek, 19:17:36
-Usage: brew cleanup [options] [formula|cask ...]
+~ brew help cleanup
 
 Remove stale lock files and outdated downloads for all formulae and casks, and
 remove old versions of installed formulae. If arguments are specified, only do
