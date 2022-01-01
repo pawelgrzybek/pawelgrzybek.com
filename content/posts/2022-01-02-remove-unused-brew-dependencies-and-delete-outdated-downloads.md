@@ -4,11 +4,11 @@ summary: "Uninstalling a brew dependency does not remove its dependencies. There
 photo: "2022-01-02.jpg"
 ---
 
-You're reading it, so I assume you know what the brew is and most likely, you use it. If you don’t, check out my ["Homebrew — the best friend of the macOS user"](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/) that I published a few years ago.
+You're reading it, so I assume you know what the brew is and most likely, you use it. If you don't, check out my ["Homebrew — the best friend of the macOS user"](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/) that I published a few years ago.
 
-Have you ever been wondering why `brew list` comes back with a gazillion of packages even though you installed only a handful of them? These are your packages and all their dependencies. Compare it with the output of `brew leaves` that shows only top-level packages (most likely the ones you explicitly installed).
+Have you ever been wondering why `brew list` comes back with a gazillion packages even though you installed only a handful of them? These are your packages and all their dependencies. Compare it with the output of `brew leaves` that shows only top-level packages (most likely the ones you explicitly installed).
 
-For instance, when you do `brew install git`, you add `git` executable and `gettext` and `pcre2` as dependencies. Unfortunately, when you reverse this process with `brew uninstall git`, the main formula disappears, but you end up with two no longer needed dependencies. After a while, it is easy to end up with hundreds of programs that clutter your hard drive. Luckily, there is a simple solution to solve this problem.
+For instance, when you do `brew install git`, you add `git` executable and `gettext` and `pcre2` as dependencies. Unfortunately, when you reverse this process with `brew uninstall git`, the main formula disappears, but you end up with two no longer needed dependencies. After a while, it is easy to end up with hundreds of programs that clutter your hard drive. Luckily, there's a simple solution to solve this problem.
 
 ```
 brew uninstall git
@@ -37,4 +37,4 @@ this for the given formulae and casks. Removes all downloads more than 120 days
 old. This can be adjusted with HOMEBREW_CLEANUP_MAX_AGE_DAYS.
 ```
 
-OK. Enough procrastination by pretending that you are doing productive work by shaving off a few MBs of your hard drive. Get back to work!
+OK. Enough procrastination, pretending that you are doing productive work by shaving off a few MBs of your hard drive. Get back to work!
