@@ -1,6 +1,6 @@
 ---
 title: "Book review: Buddhism for Busy People by David Michie"
-summary: ""
+summary: "One of my best friends was fascinated by Buddhism. Unfortunately, he passed away more than a decade ago. I promised myself that one day I would try to explore this subject as a symbol of respect to him and fulfil my natural curiosity."
 photo: "2022-01-01.jpg"
 ---
 
