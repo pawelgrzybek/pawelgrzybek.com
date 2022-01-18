@@ -6,4 +6,10 @@ photo: top-picks.jpg
 
 ## [Using Node.js ES modules and top-level await in AWS Lambda](https://aws.amazon.com/blogs/compute/using-node-js-es-modules-and-top-level-await-in-aws-lambda/)
 
-I am glad to see that ECMAScript modules adoption is growing. From now on you can use ESM on AWS Lambda functions. To top it off, support for top level `await` has been added to the runtime as well and this can massively improve the intialization stage of your Lambda function.
+I am glad to see that ECMAScript modules adoption is growing. From now on, you can use ESM on AWS Lambda functions. To top it off, this can massively improve the initialization stage of your Lambda function.
+
+## [Life of a Pixel](https://youtu.be/K2QHdgAKP-s)
+
+This presentation is a detailed walkthrough rendering process based on the Chromium engine. Steve Kobes does an excellent job explaining each of the steps in an outstanding level of detail. Essential watch for every single Web developer.
+
+{{< youtube K2QHdgAKP-s >}}
