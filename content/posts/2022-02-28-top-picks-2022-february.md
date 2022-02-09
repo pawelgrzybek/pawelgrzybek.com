@@ -23,3 +23,7 @@ The `fetch()` API is now part of Node.js 17.5. It was one of the most frequently
 ## [Improving JavaScript Bundle Performance With Code-Splitting](https://www.smashingmagazine.com/2022/02/javascript-bundle-performance-code-splitting/)
 
 [Adrian Bece](https://twitter.com/AdrianBeceDev) published this great primer to code splitting. It clearly explains the problem that this technique solves, introduces some tooling and presents easy to apply techniques using vanilla JavaScript and React.
+
+## [Introducing the Dialog Element](https://webkit.org/blog/12209/introducing-the-dialog-element/)
+
+Browser support for native `dialog` element is getting better. With the support coming to Firefox and Safari very soon, soon we will be able to use it on our projects. This is going to solve a lot of accessibility issues one the Web. Looking forward to it!
