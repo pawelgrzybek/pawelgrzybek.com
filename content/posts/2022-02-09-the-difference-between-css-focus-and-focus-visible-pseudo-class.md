@@ -8,7 +8,7 @@ You can browse the Web using a mouse, keyboard and all sorts of assistive techno
 
 ![Clearly highlighted interactive element using :focus on gov.uk website](/photos/2022-02-09-1.gif)
 
-The CSS `:focus` and `:focus-visible` pseudo-classes allow us to customise the look of a focus indicator. The support for focus-visible recently landed in [Safari Technology Preview 138](https://webkit.org/blog/12176/release-notes-for-safari-technology-preview-138/). We can expect it to be added in an upcoming stable release and make this feature available in all modern browsers.
+The CSS `:focus` and `:focus-visible` pseudo-classes allow us to customise the look of a focus indicator. The support for `:focus-visible` recently landed in [Safari Technology Preview 138](https://webkit.org/blog/12176/release-notes-for-safari-technology-preview-138/). We can expect it to be added in an upcoming stable release and make this feature available in all modern browsers.
 
 ## CSS focus vs. focus-visible
 
