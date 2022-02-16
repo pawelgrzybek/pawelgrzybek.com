@@ -14,7 +14,7 @@ CSS Cascade Layers is a new feature to help us with the specificity of our CSS. 
 
 ## [What Were the Hottest Front-End Tools in 2021?](https://css-tricks.com/hottest-front-end-tools-in-2021/)
 
-I am still catching up with all 2021 summaries. This one by [Louis Lazaris](https://twitter.com/ImpressiveWebs) cought my attention. It is a collection of 60 great resources that were released or gained a traction in the last year. 
+I am still catching up with all 2021 summaries. This one by [Louis Lazaris](https://twitter.com/ImpressiveWebs) cought my attention. It is a collection of 60 great resources that were released or gained a traction in the last year.
 
 ## [lib: add fetch](https://github.com/nodejs/node/pull/41749)
 
@@ -27,3 +27,7 @@ The `fetch()` API is now part of Node.js 17.5. It was one of the most frequently
 ## [Introducing the Dialog Element](https://webkit.org/blog/12209/introducing-the-dialog-element/)
 
 Browser support for native `dialog` element is getting better. With the support coming to Firefox and Safari very soon, soon we will be able to use it on our projects. This is going to solve a lot of accessibility issues one the Web. Looking forward to it!
+
+## [Browsing with assistive technology videos](https://tetralogical.com/blog/2021/12/24/browsing-with-assistive-technology-videos/)
+
+The key to make an accessible website, is to understand how people with disabilities browse the Web. This resource is a collection of videos thet present the process using screen reader on desktop, screen reader on mobile, traversing the web content using only keyboard, using screen magnification and speech recognition. It is incredibly good resource for you all front end devs out there!
