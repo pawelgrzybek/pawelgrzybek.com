@@ -31,3 +31,7 @@ Browser support for native `dialog` element is getting better. With the support 
 ## [Browsing with assistive technology videos](https://tetralogical.com/blog/2021/12/24/browsing-with-assistive-technology-videos/)
 
 The key to make an accessible website, is to understand how people with disabilities browse the Web. This resource is a collection of videos thet present the process using screen reader on desktop, screen reader on mobile, traversing the web content using only keyboard, using screen magnification and speech recognition. It is incredibly good resource for you all front end devs out there!
+
+## [Express.js 5.x](https://github.com/expressjs/express/blob/5.0/History.md)
+
+When everyone thought that Express is dead and Fastify will take the world of Node.js APIs over, there it is — a new alpha versoin of Express.js 5 is out. Exciting times!
