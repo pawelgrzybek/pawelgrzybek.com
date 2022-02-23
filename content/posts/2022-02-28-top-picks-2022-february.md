@@ -35,3 +35,7 @@ The key to make an accessible website, is to understand how people with disabili
 ## [Express.js 5.x](https://github.com/expressjs/express/blob/5.0/History.md)
 
 When everyone thought that Express is dead and Fastify will take the world of Node.js APIs over, there it is — a new alpha versoin of Express.js 5 is out. Exciting times!
+
+## [Reliably Send an HTTP Request as a User Leaves a Page](https://css-tricks.com/send-an-http-request-on-page-exit/)
+
+Performing asynchronous request on an action that navigates out of the current page, cannot be guaranteed to be completed. There are solution to this problem and [Alex MacArthur](https://twitter.com/amacarthur) explains it really well. I have never heard of `navigator.sendBeacon()` before. Thank you Alex!
