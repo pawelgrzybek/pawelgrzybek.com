@@ -53,6 +53,16 @@ f(["Edd", "Edd", "Edd"]); // true
 ```
 
 ```js
+const f = (array) => {
+  const arraySorted = array.sort();
+  return arraySorted[0] === arraySorted[array.length - 1];
+};
+
+f(["Ed", "Edd", "Eddy"]); // false
+f(["Edd", "Edd", "Edd"]); // true
+```
+
+```js
 import { uniq } from "lodash";
 
 const f = (array) => uniq(array).length === 1;
