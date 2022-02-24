@@ -1,16 +1,23 @@
 ---
-title: "Few methods to check if all values in the JavaScript array are the same"
+title: "A few methods to check if all values in the JavaScript array are the same"
 summary: "You can solve the same problem in multiple ways. That's what I love about programming. Checking if all items in an array are the same is a  great exercise, isn't it?"
 photo: "2022-02-24.jpg"
 ---
 
-There are many solutions to the same problem in programming, and that's one of my favourite things about it. Checking if all the items in an array are the same is an interesting exercise, so let's look at the few options.
+There are many solutions to the same problem in programming, and that’s one of my favourite things about it. Checking if all the items in an array are the same is an interesting exercise, so let’s look at a few options.
 
 - We want to return `false` for `['Ed', 'Edd', 'Eddy']`
 - We want to return `true` for `['Edd', 'Edd', 'Edd']`
 
 ```js
 const f = (array) => array.every((item) => item === array[0]);
+
+f(["Ed", "Edd", "Eddy"]); // false
+f(["Edd", "Edd", "Edd"]); // true
+```
+
+```js
+const f = const f = ([first, ...rest]) => rest.every((item) => item === first);
 
 f(["Ed", "Edd", "Eddy"]); // false
 f(["Edd", "Edd", "Edd"]); // true
@@ -57,7 +64,7 @@ f(["Edd", "Edd", "Edd"]); // true
 ```js
 import { without } from "lodash";
 
-const f = (array) => !_.without(array, array[0]).length;
+const f = (array) => !without(array, array[0]).length;
 
 f(["Ed", "Edd", "Eddy"]); // false
 f(["Edd", "Edd", "Edd"]); // true
