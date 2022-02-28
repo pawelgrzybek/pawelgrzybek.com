@@ -155,10 +155,10 @@
     <nav class="header__nav__container">
       <ul class="header__list">
         <li class="header__item">
-          <a href="/about" title="About">About</a>
+          <a {{ if eq .RelPermalink "/about/" }}aria-current="page"{{ end }} href="/about" title="About">About</a>
         </li>
         <li class="header__item">
-          <a href="/archive" title="Archive">Archive</a>
+          <a {{ if eq .RelPermalink "/archive/" }}aria-current="page"{{ end }} href="/archive" title="Archive">Archive</a>
         </li>
         <li class="header__item">
           <a href="/feed.xml" title="RSS Feed">RSS</a>
