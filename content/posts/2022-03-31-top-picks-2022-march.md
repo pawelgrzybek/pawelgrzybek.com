@@ -17,3 +17,9 @@ This article by [Michelle Barker](https://twitter.com/MicheBarks) is a golden su
 ## [What makes writing more readable?](https://pudding.cool/2022/02/plain/)
 
 [Becca Monteleone](https://twitter.com/BeccaMonteleone), [Jamie Brew](https://twitter.com/jamieabrew) and [Michelle McGhee](https://twitter.com/mich_mcghee) created this interactive guide to plain writing. It is easy to follow, clear to understand, and very informative. I love the idea of toggling between the form that we often see nowadays and the plain alternative. This post is also full of references to studies are resources that can deepen your knowledge in good writing. I highly recommend this post to everyone, absolutely everyone!
+
+## [Maarten Van Hoof - Container queries, the next step towards a truly modular CSS](https://youtu.be/A2dMca3WrJE)
+
+CSS Container Queries is the biggest revolution since the introduction of media queries. I expressed my excitment about this feature in ["CSS Container Queries — a revolution for responsive web design"](https://pawelgrzybek.com/css-container-queries-a-revolution-for-responsive-web-design/). This talk by Maarten Van Hoof on YouTube is a great introduction to CSS COntainer Queries. Started by a brief overview of the problem that this feture aims to solve followed by technical explanation of the implementation.
+
+{{< youtube A2dMca3WrJE >}}
