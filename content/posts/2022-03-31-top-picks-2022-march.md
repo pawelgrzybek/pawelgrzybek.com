@@ -23,3 +23,11 @@ This article by [Michelle Barker](https://twitter.com/MicheBarks) is a golden su
 CSS Container Queries is the biggest revolution since the introduction of media queries. I expressed my excitment about this feature in ["CSS Container Queries — a revolution for responsive web design"](https://pawelgrzybek.com/css-container-queries-a-revolution-for-responsive-web-design/). This talk by Maarten Van Hoof on YouTube is a great introduction to CSS COntainer Queries. Started by a brief overview of the problem that this feture aims to solve followed by technical explanation of the implementation.
 
 {{< youtube A2dMca3WrJE >}}
+
+## [ECMAScript proposal: Types as Comments](https://github.com/giltayar/proposal-types-as-comments)
+
+Just by looking at the TypeScript adoption in the last few years, we could expect an ECMAScript proposals to add type anotations sooner or later. It happened to PHP, Ruby and many other dynamically typed languages. It was inevitable. I am glad to see some baby steps in that direction in JavaScript ecosystem proposed by Microsoft team, strictly speaking, the behing TypeScript language. The idea is to add optional types in a form that follows TS types annotation, that during runtime are treated like comments. Definitely one of the most controversial and exciting proposals in ECMAScript ecosystem in years.
+
+You can find more about the motivation behind this proposal is in ["A Proposal For Type Syntax in JavaScript"](https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript/) by [Daniel Rosenwasser](https://twitter.com/drosenwasser) form the TypeScript core team.
+
+> Reaching Stage 1 would mean that the standards committee believes that supporting type syntax is worth considering for ECMAScript. This isn’t a sure-fire thing – there are many valuable perspectives within the committee, and we do expect some amount of skepticism. A proposal like this will receive a lot of feedback and appropriate scrutiny. It may involve lots design changes along the way, and may take years to yield results. But if we pull this all off, we have the chance to make one of the most impactful improvements to the world of JavaScript. We’re excited by that, and we hope you are too.
