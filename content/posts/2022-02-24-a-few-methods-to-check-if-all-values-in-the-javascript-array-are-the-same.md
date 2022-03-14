@@ -17,7 +17,7 @@ f(["Edd", "Edd", "Edd"]); // true
 ```
 
 ```js
-const f = const f = ([first, ...rest]) => rest.every((item) => item === first);
+const f = ([first, ...rest]) => rest.every((item) => item === first);
 
 f(["Ed", "Edd", "Eddy"]); // false
 f(["Edd", "Edd", "Edd"]); // true
