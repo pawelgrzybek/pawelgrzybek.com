@@ -35,3 +35,7 @@ You can find more about the motivation behind this proposal is in ["A Proposal F
 ## [New WebKit Features in Safari 15.4](https://webkit.org/blog/12445/new-webkit-features-in-safari-15-4/)
 
 Safari is NOT new IE, for sure. Just check this update now. Native lazy-loading attribute, HTML `dialog` element, CSS `::backdrop` pseudo-element, CSS `:has()` pseudo-class, CSS Cascade Layers, new CSS units (no more `100vh` issue on iOS), `:focus-visible` pseudo-class, `accent-color`, new CSS math functions, `font-palette` CSS property, removing prefixes form new properties, `windows` scroll behaviour, JavaScript `structuredClone()`, improvements to file system API, new JavaScript, improvements to Progressive Web Apps, privacy and security improvements. Crazy update!
+
+## [CSS-Tricks is joining DigitalOcean!](https://css-tricks.com/css-tricks-is-joining-digitalocean/)
+
+I probably learned half of the things I know about Web development from the CSS-Tricks website. [Chris Coyier](https://twitter.com/chriscoyier)and the rest of the team created a great knowledge base for our industry. From the Flexbox reference that I still use nowadays to obscure little CSS tricks that blow your mind. DigitalOcean has acquired CSS-Tricks! I am not sure what it means for the future of CSS-Tricks, time will tell, but I just wanted to say a massive thank you to Chris and the rest of the crew!
