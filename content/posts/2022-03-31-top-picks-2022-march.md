@@ -39,3 +39,9 @@ Safari is NOT new IE, for sure. Just check this update now. Native lazy-loading 
 ## [CSS-Tricks is joining DigitalOcean!](https://css-tricks.com/css-tricks-is-joining-digitalocean/)
 
 I probably learned half of the things I know about Web development from the CSS-Tricks website. [Chris Coyier](https://twitter.com/chriscoyier)and the rest of the team created a great knowledge base for our industry. From the Flexbox reference that I still use nowadays to obscure little CSS tricks that blow your mind. DigitalOcean has acquired CSS-Tricks! I am not sure what it means for the future of CSS-Tricks, time will tell, but I just wanted to say a massive thank you to Chris and the rest of the crew!
+
+## [SSH and Git, meet 1Password](https://blog.1password.com/1password-ssh-agent/)
+
+Excellent news for all developers using 1Password. Well-thought and user-friendly integration with SSH. Creation and management of SSH keys is now easier, faster and safer. Configuration takes seconds. Now, I am desperately waiting for the 1Password 8 for macOS (currently in beta). One more thing. [1Password now supports the Open Source community](https://github.com/1Password/1password-teams-open-source) by providing free business accounts.
+
+> In today’s release 1Password can now create new SSH keys, keep them organized, and make them securely available everywhere you need them with just a few clicks. Best of all, each feature was built for developers, by developers, so they fit perfectly in your existing workflows.
