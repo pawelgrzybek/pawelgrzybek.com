@@ -45,3 +45,9 @@ I probably learned half of the things I know about Web development from the CSS-
 Excellent news for all developers using 1Password. Well-thought and user-friendly integration with SSH. Creation and management of SSH keys is now easier, faster and safer. Configuration takes seconds. Now, I am desperately waiting for the 1Password 8 for macOS (currently in beta). One more thing. [1Password now supports the Open Source community](https://github.com/1Password/1password-teams-open-source) by providing free business accounts.
 
 > In today’s release 1Password can now create new SSH keys, keep them organized, and make them securely available everywhere you need them with just a few clicks. Best of all, each feature was built for developers, by developers, so they fit perfectly in your existing workflows.
+
+## [CodeSandbox Announcement - Meet CodeSandbox Projects](https://youtu.be/XYOjF1dFt4g)
+
+From simple playground online to complete dev environment for web development, all in the browsers. Codesandbox Projects is a revolutionary concept. I am well excited to see such a big move in this space. This video explains clearly all you want to know about Sandbox Codespaces.
+
+{{< youtube XYOjF1dFt4g >}}
