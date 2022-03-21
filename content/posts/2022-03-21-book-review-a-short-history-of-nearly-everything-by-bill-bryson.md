@@ -12,4 +12,4 @@ How do we know what we know about such distant subjects like the Big Bang, a dis
 
 !["A Short History of Nearly Everything" by Bill Bryson](/photos/2022-03-21-2.jpg)
 
-Keep in mind that [the audio version of this book on Audiable](https://www.audible.co.uk/pd/A-Short-History-of-Nearly-Everything-Audiobook/B004EXKR34) is significantly abridged compared to a paper copy. I enjoyed it a lot, but for sure, one day, I will read the original full-blown version.
+Keep in mind that [the audio version of this book on Audible](https://www.audible.co.uk/pd/A-Short-History-of-Nearly-Everything-Audiobook/B004EXKR34) is significantly abridged compared to a paper copy. I enjoyed it a lot, but for sure, one day, I will read the original full-blown version.
