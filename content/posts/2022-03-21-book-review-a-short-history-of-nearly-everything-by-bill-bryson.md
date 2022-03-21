@@ -1,6 +1,6 @@
 ---
 title: "Book review: A Short History of Nearly Everything by Bill Bryson"
-summary: ""
+summary: "How do we know what we know about such distant subjects like the Big Bang, a distant space or black holes? How much science explored the universe, and what still can be discovered? We know that atoms and particles are tiny, but how small they really are?"
 photo: "2022-03-21.jpg"
 ---
 
