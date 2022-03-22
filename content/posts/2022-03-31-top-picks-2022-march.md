@@ -51,3 +51,9 @@ Excellent news for all developers using 1Password. Well-thought and user-friendl
 From simple playground online to complete dev environment for web development, all in the browsers. Codesandbox Projects is a revolutionary concept. I am well excited to see such a big move in this space. This video explains clearly all you want to know about Sandbox Codespaces.
 
 {{< youtube XYOjF1dFt4g >}}
+
+## [CSS co-designer about the !important](https://twitter.com/stevenpemberton/status/1505839184287870981)
+
+Next time you are about to use `!important` think twice. I am proud to say that I have never used it other than some experiments. Embracing the cascade part of CSS is more than enough.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">CSS co-designer here.<br><br>!important was added for one reason only: laws in the US that require certain text to be in a given font-size. !important stops the cascade from changing it.<br><br>Anything else is probably misuse, and a sign you may not understand the cascade properly.</p>&mdash; Steven Pemberton (@stevenpemberton) <a href="https://twitter.com/stevenpemberton/status/1505839184287870981?ref_src=twsrc%5Etfw">March 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
