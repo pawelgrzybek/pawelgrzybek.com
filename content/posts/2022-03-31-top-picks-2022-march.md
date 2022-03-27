@@ -57,3 +57,7 @@ From simple playground online to complete dev environment for web development, a
 Next time you are about to use `!important` think twice. I am proud to say that I have never used it other than some experiments. Embracing the cascade part of CSS is more than enough.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">CSS co-designer here.<br><br>!important was added for one reason only: laws in the US that require certain text to be in a given font-size. !important stops the cascade from changing it.<br><br>Anything else is probably misuse, and a sign you may not understand the cascade properly.</p>&mdash; Steven Pemberton (@stevenpemberton) <a href="https://twitter.com/stevenpemberton/status/1505839184287870981?ref_src=twsrc%5Etfw">March 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## [Tao of Node - Design, Architecture & Best Practices](https://alexkondov.com/tao-of-node/)
+
+This guide by [Alex Kondov](https://twitter.com/alexanderkondov) is a golden resource for every Node.js developer. Full of best practices that can very easily be applied to most of the projects. Even thou that Alex is in favour of using Express, majority of the techniques in "Tao of Node" are framework agnostic. Alex put a lot of work to write it down. Thank you Alex!
