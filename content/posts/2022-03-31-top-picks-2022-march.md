@@ -10,17 +10,17 @@ Using [AWS SAM Framework](https://github.com/aws/aws-sam-cli) with TypeScript be
 
 ## [New CSS Features In 2022](https://www.smashingmagazine.com/2022/03/new-css-features-2022/)
 
-This article by [Michelle Barker](https://twitter.com/MicheBarks) is a golden summary of all the new things that are coming to CSS in the sightable future. This format divided into sections with a brief explanation and practical examples is incredible for this post. If things like Container Queries, `:has()`, `@when/@else`, `accent-color`, CSS Color Functions, Cascade Layers, Subgrid, Scroll Timeline, Nesting are new to you, check it out now. Also, the conclusion of this post is just bang-on.
+This article by [Michelle Barker](https://twitter.com/MicheBarks) is a golden summary of all the new things that are coming to CSS in the sightable future. This format divided into sections with a brief explanation and practical examples is incredible for this post. So if things like Container Queries, `:has()`, `@when/@else`, `accent-color`, CSS Color Functions, Cascade Layers, Subgrid, Scroll Timeline, Nesting are new to you, check it out now. Also, the conclusion of this post is just bang-on.
 
 > CSS appears to be reaching a level of maturity where the challenge is no longer whether something can be done in CSS, but rather training and arming a new generation of developers to understand the tools we have at our disposal, know when to reach for them, and how to make user-centered development decisions.
 
 ## [What makes writing more readable?](https://pudding.cool/2022/02/plain/)
 
-[Becca Monteleone](https://twitter.com/BeccaMonteleone), [Jamie Brew](https://twitter.com/jamieabrew) and [Michelle McGhee](https://twitter.com/mich_mcghee) created this interactive guide to plain writing. It is easy to follow, clear to understand, and very informative. I love the idea of toggling between the form that we often see nowadays and the plain alternative. This post is also full of references to studies are resources that can deepen your knowledge in good writing. I highly recommend this post to everyone, absolutely everyone!
+[Becca Monteleone](https://twitter.com/BeccaMonteleone), [Jamie Brew](https://twitter.com/jamieabrew) and [Michelle McGhee](https://twitter.com/mich_mcghee) created this interactive guide to plain writing. It is easy to follow, clear to understand, and very informative. I love toggling between the version that we often see nowadays and the plain alternative. This post is also full of references to studies are resources that can deepen your knowledge in good writing. I highly recommend this post to everyone, absolutely everyone!
 
 ## [Maarten Van Hoof - Container queries, the next step towards a truly modular CSS](https://youtu.be/A2dMca3WrJE)
 
-CSS Container Queries is the biggest revolution since the introduction of media queries. I expressed my excitment about this feature in ["CSS Container Queries — a revolution for responsive web design"](https://pawelgrzybek.com/css-container-queries-a-revolution-for-responsive-web-design/). This talk by Maarten Van Hoof on YouTube is a great introduction to CSS COntainer Queries. Started by a brief overview of the problem that this feture aims to solve followed by technical explanation of the implementation.
+CSS Container Queries is the biggest revolution since the introduction of media queries. I expressed my excitement about this feature in ["CSS Container Queries — a revolution for responsive web design"](https://pawelgrzybek.com/css-container-queries-a-revolution-for-responsive-web-design/). This talk by Maarten Van Hoof on YouTube is an excellent introduction to CSS COntainer Queries. It started with a brief overview of the problem that this feature aims to solve, followed by a technical explanation of the implementation.
 
 {{< youtube A2dMca3WrJE >}}
 
@@ -28,7 +28,7 @@ CSS Container Queries is the biggest revolution since the introduction of media 
 
 Looking at the TypeScript adoption in the last few years, we expect an ECMAScript proposal to add type annotations sooner or later. It happened to PHP, Ruby and many other dynamically typed languages. It was inevitable. I am glad to see some baby steps in that direction in the JavaScript ecosystem proposed by the Microsoft team, strictly speaking, the behind TypeScript language. The idea is to add optional types in a form that follows TS types annotation, that during runtime, are treated as comments. One of the most controversial and exciting proposals in the ECMAScript ecosystem in years.
 
-You can find more about the motivation behind this proposal is in ["A Proposal For Type Syntax in JavaScript"](https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript/) by [Daniel Rosenwasser](https://twitter.com/drosenwasser) form the TypeScript core team.
+You can find more about the motivation behind this proposal is in ["A Proposal For Type Syntax in JavaScript"](https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript/) by [Daniel Rosenwasser](https://twitter.com/drosenwasser) from the TypeScript core team.
 
 > Reaching Stage 1 would mean that the standards committee believes that supporting type syntax is worth considering for ECMAScript. This isn’t a sure-fire thing – there are many valuable perspectives within the committee, and we do expect some amount of skepticism. A proposal like this will receive a lot of feedback and appropriate scrutiny. It may involve lots design changes along the way, and may take years to yield results. But if we pull this all off, we have the chance to make one of the most impactful improvements to the world of JavaScript. We’re excited by that, and we hope you are too.
 
@@ -42,22 +42,26 @@ I probably learned half of the things I know about Web development from the CSS-
 
 ## [SSH and Git, meet 1Password](https://blog.1password.com/1password-ssh-agent/)
 
-Excellent news for all developers using 1Password. Well-thought and user-friendly integration with SSH. Creation and management of SSH keys is now easier, faster and safer. Configuration takes seconds. Now, I am desperately waiting for the 1Password 8 for macOS (currently in beta). One more thing. [1Password now supports the Open Source community](https://github.com/1Password/1password-teams-open-source) by providing free business accounts.
+Excellent news for all developers using 1Password. Well-thought and user-friendly integration with SSH. Creating and managing SSH keys is now easier, faster, and safer. Configuration takes seconds. I am desperately waiting for the 1Password 8 for macOS (currently in beta). One more thing. [1Password now supports the Open Source community](https://github.com/1Password/1password-teams-open-source) by providing free business accounts.
 
 > In today’s release 1Password can now create new SSH keys, keep them organized, and make them securely available everywhere you need them with just a few clicks. Best of all, each feature was built for developers, by developers, so they fit perfectly in your existing workflows.
 
 ## [CodeSandbox Announcement - Meet CodeSandbox Projects](https://youtu.be/XYOjF1dFt4g)
 
-From simple playground online to complete dev environment for web development, all in the browsers. Codesandbox Projects is a revolutionary concept. I am well excited to see such a big move in this space. This video explains clearly all you want to know about Sandbox Codespaces.
+From a simple playground to a complete dev environment for web development, all in the browser. Codesandbox Projects is a revolutionary concept. I am well excited to see such a big move in this space. This video explains clearly all you want to know about Sandbox Codespaces.
 
 {{< youtube XYOjF1dFt4g >}}
 
 ## [CSS co-designer about the !important](https://twitter.com/stevenpemberton/status/1505839184287870981)
 
-Next time you are about to use `!important` think twice. I am proud to say that I have never used it other than some experiments. Embracing the cascade part of CSS is more than enough.
+Next time you are about to use `!important`, think twice. I am proud to say that I have never used it other than for some experiments. Embracing the cascade part of CSS is more than enough.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">CSS co-designer here.<br><br>!important was added for one reason only: laws in the US that require certain text to be in a given font-size. !important stops the cascade from changing it.<br><br>Anything else is probably misuse, and a sign you may not understand the cascade properly.</p>&mdash; Steven Pemberton (@stevenpemberton) <a href="https://twitter.com/stevenpemberton/status/1505839184287870981?ref_src=twsrc%5Etfw">March 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## [Tao of Node - Design, Architecture & Best Practices](https://alexkondov.com/tao-of-node/)
 
-This guide by [Alex Kondov](https://twitter.com/alexanderkondov) is a golden resource for every Node.js developer. Full of best practices that can very easily be applied to most of the projects. Even thou that Alex is in favour of using Express, majority of the techniques in "Tao of Node" are framework agnostic. Alex put a lot of work to write it down. Thank you Alex!
+This guide by [Alex Kondov](https://twitter.com/alexanderkondov) is a golden resource for every Node.js developer. Full of best practices that can very easily be applied to most of projects. Even though Alex favours using Express, the majority of the techniques in “Tao of Node” are framework agnostic. Alex put a lot of work to write it down. Thank you, Alex!
+
+## [Docker Crash Course Tutorial by The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7)
+
+The author of thousands of programming tutorials on YouTube, Shaun Pelling, created an excellent playlist about Docker. Personally, I rarely use this tool, and this series was an excellent refresher for me. You can watch it in an hour and learn enough to get started.
