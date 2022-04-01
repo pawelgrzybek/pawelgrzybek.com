@@ -20,7 +20,7 @@ const pawel: Dude = {
 
 // 👎 Uuups, age is missing
 const dan: Dude = {
-  name: "Dan jordan",
+  name: "Dan Jordan",
 };
 ```
 
@@ -48,7 +48,7 @@ type DudeAllRequired = Required<Dude>;
 
 // 👎 Uuups, age is missing
 const dan: DudeAllRequired = {
-  name: "Dan jordan",
+  name: "Dan Jordan",
 };
 ```
 
@@ -64,7 +64,7 @@ type DudeWithOptionalAge = Omit<Dude, "age"> & Partial<Pick<Dude, "age">>;
 
 // 👍 name is defined, age is optional
 const dan: DudeWithOptionalAge = {
-  name: "Dan jordan",
+  name: "Dan Jordan",
 };
 ```
 
@@ -82,12 +82,13 @@ type DudeWithOptionalAge = PartiallyOptional<Dude, "age">;
 
 // 👍 name is defined, age is optional
 const dan: DudeWithOptionalAge = {
-  name: "Dan jordan",
+  name: "Dan Jordan",
 };
 ```
 
 ```ts {hl_lines=[1, 8]}
-type PartiallyRequired<T, K extends keyof T> = Omit<T, K> & Required<Pick<T, K>>;
+type PartiallyRequired<T, K extends keyof T> = Omit<T, K> &
+  Required<Pick<T, K>>;
 
 interface Dude {
   name: string;
@@ -98,7 +99,7 @@ type DudeWithRequiredAge = PartiallyRequired<Dude, "age">;
 
 // 👎 Uuups, age is missing
 const dan: DudeWithRequiredAge = {
-  name: "Dan jordan",
+  name: "Dan Jordan",
 };
 ```
 
