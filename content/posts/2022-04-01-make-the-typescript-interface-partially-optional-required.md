@@ -52,7 +52,7 @@ const dan: DudeAllRequired = {
 };
 ```
 
-These two [utility types](https://www.typescriptlang.org/docs/handbook/utility-types.html) are super helpful, but it didn't solve my problem to make only a subset of keys optional. So I spent a moment brainstorming this idea with my friend [Matias](https://twitter.com/amatiasq) (hi dude 👋), and we came up with this solution.
+These two [utility types](https://www.typescriptlang.org/docs/handbook/utility-types.html) are super helpful, but it didn't solve my problem to make only a subset of keys optional. So I took a moment to brainstorm this idea with my friend [Matias](https://twitter.com/amatiasq) (hi dude 👋), and we came up with this solution.
 
 ```ts {hl_lines=[6]}
 interface Dude {
@@ -102,4 +102,4 @@ const dan: DudeWithRequiredAge = {
 };
 ```
 
-If you know about any better solution to my problem, please drop a comment below. If you don't know any better way of doing that, I hope you learned a thing or two. Until next time, stay curious 🤩
+If you know a better solution to my problem then please drop a comment below. If you don't know a better way of doing it, I hope you learned a thing or two. Until next time, stay curious 🤩
