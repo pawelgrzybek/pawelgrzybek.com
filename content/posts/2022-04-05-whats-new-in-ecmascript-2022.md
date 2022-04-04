@@ -1,10 +1,10 @@
 ---
 title: "What's new in ECMAScript 2022"
-summary: "The ECMAScript 2022 Language Specification candidate is now available, and even though the finall version will be approved on June, we can be almost certain of the new features coming to the language this year. Similarly, how I every year, let’s look at what’s coming to ECMAScript specification this year."
-photo: 2022-04-07.jpg
+summary: "The ECMAScript 2022 Language Specification candidate is now available. Even though the final version will be approved in June, the list of new features coming to the language this year is defined."
+photo: 2022-04-05.jpg
 ---
 
-The [ECMAScript 2022 Language Specification](https://tc39.es/ecma262/2022/) candidate is now available. Even though the final version will be approved in June, we can be almost certain of the new features coming to the language this year. Similarly, how I did it in [2016](/whats-new-in-ecmascript-2016-es7/), [2017](/whats-new-in-ecmascript-2017/), [2018](/whats-new-in-ecmascript-2018/), [2019](/whats-new-in-ecmascript-2019/), [2020](/whats-new-in-ecmascript-2020/) and [2021](/whats-new-in-ecmascript-2021/), let’s look at what’s coming to ECMAScript specification this year.
+The [ECMAScript 2022 Language Specification](https://tc39.es/ecma262/2022/) candidate is now available. Even though the final version will be approved in June, the list of new features coming to the language this year is defined. Similarly, how I did it in [2016](/whats-new-in-ecmascript-2016-es7/), [2017](/whats-new-in-ecmascript-2017/), [2018](/whats-new-in-ecmascript-2018/), [2019](/whats-new-in-ecmascript-2019/), [2020](/whats-new-in-ecmascript-2020/) and [2021](/whats-new-in-ecmascript-2021/), let’s look at what’s coming to ECMAScript specification in 2022.
 
 - [Class fields (public, static, private) and private class methods by Daniel Ehrenberg and Kevin Gibbons](#class-fields-public-static-private-and-private-class-methods-by-daniel-ehrenberg-and-kevin-gibbons)
 - [RegExp Match Indices by Ron Buckton](#regexp-match-indices-by-ron-buckton)
@@ -17,11 +17,11 @@ The [ECMAScript 2022 Language Specification](https://tc39.es/ecma262/2022/) cand
 
 ## Class fields (public, static, private) and private class methods by Daniel Ehrenberg and Kevin Gibbons
 
-[This proposal](https://github.com/tc39/proposal-class-fields) adds long-awaited class fields (public, static, private) and private methods to the ECMAScript classes. This feature will simplify or sometimes eliminate the need of creating a constructor to create instance properties. In addition, static fields eradicate the need for static getters or external assignments to the instances. Finally, private fields and private methods allow us to create genuinely protected data slots that are accessible only in the body of a class.
+[This proposal](https://github.com/tc39/proposal-class-fields) adds long-awaited class fields (public, static, private) and private methods to the ECMAScript classes. This feature will simplify or sometimes eliminate the need for a `constructor` to create instance properties. In addition, static fields eradicate the need for static getters or external assignments to the instances. Finally, private fields and private methods allow us to create genuinely protected data slots that are accessible only in the body of a class.
 
 ```js
 class MyClass {
-  // no need for constructor
+  // no need for a constructor
   // constructor() {
   //   this.publicField = 1;
   // }
@@ -55,7 +55,7 @@ console.log(MyClass.staticField); // 2
 ```js
 const pattern = /(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})/d;
 //                                                            👆
-const string = "2022-04-07";
+const string = "2022-04-05";
 const result = pattern.exec(string);
 
 console.log(result.indices);
@@ -74,7 +74,7 @@ console.log(result.indices);
 
 ## Top-level await by Myles Borins, Yulia Startsev, Daniel Ehrenberg, Guy Bedford, Ms2ger and others
 
-[This proposal](https://github.com/tc39/proposal-top-level-await) enables top-level `await` without wrapping it in an async function.
+[This proposal](https://github.com/tc39/proposal-top-level-await) enables top-level `await` without wrapping it in an `async` function.
 
 ```js
 // Quick reminder, you may not need node-fetch anymore
@@ -119,9 +119,11 @@ const dude = {
 
 // 👎 Uuuups, I can clearly see that the 'name' property is there
 console.log(dude.hasOwnProperty("name"));
+// false
 
 // 👍 Thats safer
 console.log(Object.hasOwn(dude, "name"));
+// true
 ```
 
 ## The .at() method on all the built-in indexables
@@ -143,38 +145,44 @@ console.log(fruits.at(-1));
 // This is the old way, pre 2022
 
 class MyClass {
-  static version = process.version;
-  static nodeVerion;
+  static runtime;
 }
 
 try {
-  MyClass.nodeVerion = `Node ${MyClass.version.replace("v", "")}`;
+  MyClass.runtime = `Node ${process.version.replace("v", "")}`;
 } catch {
-  MyClass.nodeVerion = "It is probably Deno";
+  MyClass.runtime = "It is probably Deno";
 }
 
-console.log(MyClass.version); // v17.8.0
-console.log(MyClass.nodeVerion); // Node 17.8.0
+console.log(MyClass.runtime);
 ```
 
 ```js
-// Welcome to 2022
+// In ECMAScript 2022 we can do it like that
 
 class MyClass {
-  static version = process.version;
-  static nodeVerion;
+  static runtime;
 
   static {
     try {
-      MyClass.nodeVerion = `Node ${MyClass.version.replace("v", "")}`;
+      MyClass.runtime = `Node ${process.version.replace("v", "")}`;
     } catch {
-      MyClass.nodeVerion = "It is probably Deno";
+      MyClass.runtime = "It is probably Deno";
     }
   }
 }
 
-console.log(MyClass.version); // v17.8.0
-console.log(MyClass.nodeVerion); // Node 17.8.0
+console.log(MyClass.runtime);
+```
+
+```
+node index.js
+Node 17.8.0
+```
+
+```
+deno run index.js
+It is probably Deno
 ```
 
 ## Error Cause
