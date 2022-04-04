@@ -1,10 +1,10 @@
 ---
 title: "What's new in ECMAScript 2022"
 summary: "The ECMAScript 2022 Language Specification candidate is now available. Even though the final version will be approved in June, the list of new features coming to the language this year is defined."
-photo: 2022-04-05.jpg
+photo: 2022-04-04.jpg
 ---
 
-The [ECMAScript 2022 Language Specification](https://tc39.es/ecma262/2022/) candidate is now available. Even though the final version will be approved in June, the list of new features coming to the language this year is defined. Similarly, how I did it in [2016](/whats-new-in-ecmascript-2016-es7/), [2017](/whats-new-in-ecmascript-2017/), [2018](/whats-new-in-ecmascript-2018/), [2019](/whats-new-in-ecmascript-2019/), [2020](/whats-new-in-ecmascript-2020/) and [2021](/whats-new-in-ecmascript-2021/), let’s look at what’s coming to ECMAScript specification in 2022.
+The [ECMAScript 2022 Language Specification](https://tc39.es/ecma262/2022/) candidate is now available. Even though the final version will be approved in June, the list of new features coming to the language this year is already defined. Similarly, how I did it in [2016](/whats-new-in-ecmascript-2016-es7/), [2017](/whats-new-in-ecmascript-2017/), [2018](/whats-new-in-ecmascript-2018/), [2019](/whats-new-in-ecmascript-2019/), [2020](/whats-new-in-ecmascript-2020/) and [2021](/whats-new-in-ecmascript-2021/), let's look at what’s coming to ECMAScript specification in 2022.
 
 - [Class fields (public, static, private) and private class methods by Daniel Ehrenberg and Kevin Gibbons](#class-fields-public-static-private-and-private-class-methods-by-daniel-ehrenberg-and-kevin-gibbons)
 - [RegExp Match Indices by Ron Buckton](#regexp-match-indices-by-ron-buckton)
@@ -50,12 +50,12 @@ console.log(MyClass.staticField); // 2
 
 ## RegExp Match Indices by Ron Buckton
 
-[This proposal](https://github.com/tc39/proposal-regexp-match-indices) gives us more information about captured groups' start and end indices. Additional output about indices on RegEx object can be enabled using the `d` flag (the `i` flag is reserved for case folding, so we so ended up with `d` due to its presence in the word indices 🤷‍♂️).
+[This proposal](https://github.com/tc39/proposal-regexp-match-indices) gives us more information about captured groups start and end indices. Additional output about indices on RegEx object can be enabled using the `d` flag (the `i` flag is reserved for case folding, so we so ended up with `d` due to its presence in the word indices 🤷‍♂️).
 
 ```js
 const pattern = /(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})/d;
 //                                                            👆
-const string = "2022-04-05";
+const string = "2022-04-04";
 const result = pattern.exec(string);
 
 console.log(result.indices);
@@ -187,7 +187,7 @@ It is probably Deno
 
 ## Error Cause
 
-[This propoasal](https://github.com/tc39/proposal-error-cause) lets us define the reason of abnormality in the `cause` propery in an `Error()` constructor. This can be helpful to diagnose unexpected exceptions especially when the exception occured inside depply nested method.
+[This propoasal](https://github.com/tc39/proposal-error-cause) lets us define the reason of abnormality in the `cause` propery in an `Error()` constructor. This can be helpful to diagnose unexpected exceptions especially when the exception occured inside a deeply nested method.
 
 ```js
 async function fetchProfile() {
