@@ -16,7 +16,7 @@ This article by [Michelle Barker](https://twitter.com/MicheBarks) is a golden su
 
 ## [What makes writing more readable?](https://pudding.cool/2022/02/plain/)
 
-[Becca Monteleone](https://twitter.com/BeccaMonteleone), [Jamie Brew](https://twitter.com/jamieabrew) and [Michelle McGhee](https://twitter.com/mich_mcghee) created this interactive guide to plain writing. It is easy to follow, clear to understand, and very informative. I love toggling between the version we often see nowadays and the straightforward alternative. This post is also full of references to studies are resources that can deepen your knowledge in good writing. I highly recommend this post to everyone, absolutely everyone!
+[Becca Monteleone](https://twitter.com/BeccaMonteleone), [Jamie Brew](https://twitter.com/jamieabrew) and [Michelle McGhee](https://twitter.com/mich_mcghee) created this interactive guide to plain writing. It is easy to follow, clear to understand, and very informative. I love toggling between the version we often see nowadays and the straightforward alternative. This post is also full of references to studies and resources that can deepen your knowledge in good writing. I highly recommend this post to everyone, absolutely everyone!
 
 ## [Maarten Van Hoof - Container queries, the next step towards a truly modular CSS](https://youtu.be/A2dMca3WrJE)
 
@@ -28,7 +28,7 @@ CSS Container Queries is the biggest revolution since the introduction of media 
 
 Looking at the TypeScript adoption in the last few years, I expected an ECMAScript proposal to add type annotations sooner or later. It happened to PHP, Ruby and many other dynamically typed languages. It was inevitable. I am glad to see some baby steps in that direction in the JavaScript ecosystem proposed by the Microsoft team. The idea is to add optional types in a form that follows TS types annotation, that during runtime, are treated as comments. One of the most controversial and exciting proposals in the ECMAScript ecosystem in years.
 
-You can find more about the motivation behind this proposal is in ["A Proposal For Type Syntax in JavaScript"](https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript/) by [Daniel Rosenwasser](https://twitter.com/drosenwasser) from the TypeScript core team.
+You can find more about the motivation behind this proposal in ["A Proposal For Type Syntax in JavaScript"](https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript/) by [Daniel Rosenwasser](https://twitter.com/drosenwasser) from the TypeScript core team.
 
 > Reaching Stage 1 would mean that the standards committee believes that supporting type syntax is worth considering for ECMAScript. This isn’t a sure-fire thing – there are many valuable perspectives within the committee, and we do expect some amount of skepticism. A proposal like this will receive a lot of feedback and appropriate scrutiny. It may involve lots design changes along the way, and may take years to yield results. But if we pull this all off, we have the chance to make one of the most impactful improvements to the world of JavaScript. We’re excited by that, and we hope you are too.
 
@@ -38,7 +38,7 @@ Safari is NOT new IE, for sure. Just check this out. Native lazy-loading attribu
 
 ## [CSS-Tricks is joining DigitalOcean!](https://css-tricks.com/css-tricks-is-joining-digitalocean/)
 
-I probably learned half of what I know about Web development from the CSS-Tricks website. [Chris Coyier](https://twitter.com/chriscoyier)and the rest of the team created a great knowledge base for our industry. From the Flexbox reference that I still use nowadays to obscure little CSS tricks that blow your mind. DigitalOcean has acquired CSS-Tricks! I am not sure what it means for the future of CSS-Tricks, time will tell, but I just wanted to say a massive thank you to Chris and the rest of the crew!
+I probably learned half of what I know about Web development from the CSS-Tricks website. [Chris Coyier](https://twitter.com/chriscoyier) and the rest of the team created a great knowledge base for our industry. From the Flexbox reference that I still use nowadays to obscure little CSS tricks that blow your mind. DigitalOcean has acquired CSS-Tricks! I am not sure what it means for the future of CSS-Tricks, time will tell, but I just wanted to say a massive thank you to Chris and the rest of the crew!
 
 ## [SSH and Git, meet 1Password](https://blog.1password.com/1password-ssh-agent/)
 
@@ -48,7 +48,7 @@ Excellent news for all developers using 1Password. Well-thought and user-friendl
 
 ## [CodeSandbox Announcement - Meet CodeSandbox Projects](https://youtu.be/XYOjF1dFt4g)
 
-CodeSandbox evolved from a simple playground to a complete dev environment in the browser. Codesandbox Projects is a revolutionary concept. I am well excited to see such a big move in this space. This video explains clearly all you want to know about Sandbox Codespaces.
+CodeSandbox evolved from a simple playground to a complete dev environment in the browser. CodeSandbox Projects is a revolutionary concept. I am well excited to see such a big move in this space. This video explains clearly all you want to know about CodeSandbox Projects.
 
 {{< youtube XYOjF1dFt4g >}}
 
