@@ -128,7 +128,7 @@ console.log(Object.hasOwn(dude, "name"));
 
 ## The .at() method on all the built-in indexables
 
-[This proposal](https://github.com/tc39/proposal-relative-indexing-method) allows us to do negative indexing on arrays, strings and typed arrays, similarly to how we can do it in other languages like Python. Currently, the only way to access the last element of an `arr` is `arr[arr.length - 1]`. With this new proposal, we can do better.
+[This proposal](https://github.com/tc39/proposal-relative-indexing-method) allows us to do negative indexing on arrays, strings and typed arrays, similarly to how we can do it in other languages like Python. Currently, the <s>only</s> most popular method to access the last element of an `arr` is `arr[arr.length - 1]`. With this new proposal, we can do better.
 
 ```js
 const fruits = ["pawel", "dan", "pedro"];
@@ -187,11 +187,11 @@ It is probably Deno
 
 ## Error Cause
 
-[This propoasal](https://github.com/tc39/proposal-error-cause) lets us define the reason of abnormality in the `cause` propery in an `Error()` constructor. This can be helpful to diagnose unexpected exceptions especially when the exception occured inside a deeply nested method.
+[This propoasal](https://github.com/tc39/proposal-error-cause) lets us define the reason of abnormality in the `cause` property in an `Error()` constructor. This can be helpful to diagnose unexpected exceptions especially when the exception occured inside a deeply nested method.
 
 ```js
 async function fetchProfile() {
-  // I made a mistahe here in the API URL
+  // I made a mistake here in the API URL
   //                  👇👇👇👇
   const API = "https://api.api.github.com/users/pawelgrzybek";
 
