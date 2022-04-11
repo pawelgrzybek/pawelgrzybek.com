@@ -15,3 +15,7 @@ HTTPS endpoints finally arrived. Not every Lambda needs to be a part of an advan
 ## [A Complete Guide to CSS Cascade Layers](https://css-tricks.com/css-cascade-layers/)
 
 The CSS Cascade Layers are the second most exciting thing in modern CSS (Container Queries winning here). This comprehensive guide by [Miriam Suzanne](https://twitter.com/TerribleMia) is insanely detailed and covers everything that you would like to know about this feature. It also helped me to understand how `!important` keyword works.
+
+## [CSS :has( ) A Parent Selector Now](https://matthiasott.com/notes/css-has-a-parent-selector-now)
+
+This article by [Matthias Ott](https://twitter.com/m_ott) is so good. Great explanation of the new `:has()` pseudo-class and many practical examples. After reading this one, I finally understood the whole excitement about this feature.
