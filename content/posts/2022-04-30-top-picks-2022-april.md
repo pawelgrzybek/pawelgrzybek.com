@@ -19,3 +19,7 @@ The CSS Cascade Layers are the second most exciting thing in modern CSS (Contain
 ## [CSS :has( ) A Parent Selector Now](https://matthiasott.com/notes/css-has-a-parent-selector-now)
 
 This article by [Matthias Ott](https://twitter.com/m_ott) is so good. Great explanation of the new `:has()` pseudo-class and many practical examples. After reading this one, I finally understood the whole excitement about this feature.
+
+## [Announcing TypeScript 4.7 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-4-7-beta/)
+
+This is the TypeScript release that you should be excited about. Microsoft team worked very hard to add support to ECMAScript modules, and the implementation looks very well-thought. Things like new extensions (`.mts` and `.cts`) map directly to the ECMAScript modules implementation. This anouncement reveals a lot of nuances and of cours goes in depth about other features released in this cycle.
