@@ -23,3 +23,7 @@ This article by [Matthias Ott](https://twitter.com/m_ott) is so good. Great expl
 ## [Announcing TypeScript 4.7 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-4-7-beta/)
 
 This is the TypeScript release that you should be excited about. Microsoft team worked very hard to add support to ECMAScript modules, and the implementation looks very well-thought. Things like new extensions (`.mts` and `.cts`) map directly to the ECMAScript modules implementation. This anouncement reveals a lot of nuances and of cours goes in depth about other features released in this cycle.
+
+## [CSS Parent Selector](https://ishadeed.com/article/css-has-parent-selector/)
+
+Another great post about recently popular CSS `:has()` pseudo-class. [Ahmad Shadeed](https://twitter.com/shadeed9) helps us understand the concept of this new feature by translating complicated selectors into a plain english. Also, the list of use-cases is impressive. Very nice read!
