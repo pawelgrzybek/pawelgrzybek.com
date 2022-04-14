@@ -87,8 +87,7 @@ const dan: DudeWithOptionalAge = {
 ```
 
 ```ts {hl_lines=[1, 8]}
-type PartiallyRequired<T, K extends keyof T> = Omit<T, K> &
-  Required<Pick<T, K>>;
+type PartiallyRequired<T, K extends keyof T> = Omit<T, K> & Required<Pick<T, K>>;
 
 interface Dude {
   name: string;
