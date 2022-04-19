@@ -27,3 +27,15 @@ This is the TypeScript release that you should be excited about. Microsoft team 
 ## [CSS Parent Selector](https://ishadeed.com/article/css-has-parent-selector/)
 
 Another great post about recently popular CSS `:has()` pseudo-class. [Ahmad Shadeed](https://twitter.com/shadeed9) helps us understand the concept of this new feature by translating complicated selectors into a plain english. Also, the list of use-cases is impressive. Very nice read!
+
+## [Introducing DuckDuckGo for Mac: A Private, Fast, and Secure Browsing App](https://spreadprivacy.com/introducing-duckduckgo-for-mac/)
+
+This kind of announcement makes me happy. Another big move from the biggest competitor to Google, DuckDuckGo. After great success after releasing the search engine and iOS app, the time for the macOS version of their browser arrived. This product offers ads-free browsing, fast rendering (based on the WebKit engine), password management, and reduced data consumption.
+
+## [Netlify Edge Functions on Deno Deploy](https://deno.com/blog/netlify-edge-functions-on-deno-deploy)
+
+Deno team teamed up withDeno team teamed up with my favourite static website hosting, Netlify, to collaboratively re-build Edge Handlers from the clean sheet. Edge Functions run on the Deno Deploy in the background and help with tasks like server-rendered components for modern frameworks, OAuth authentication, geolocation and more! Exciting collaboration! [On the Netlify announcement post](https://www.netlify.com/blog/announcing-serverless-compute-with-edge-functions), you can find a few practical examples in the context of popular frameworks like Astro, Remix etc.
+
+## [Node v18.0.0 (Current)](https://nodejs.org/en/blog/release/v18.0.0/)
+
+Node.js 18 is here, and it comes with a bunch of features that I am excited about. For example, there is no need to use `--experimental-fetch` flag anymore because it is available by default. Also, a native test runner just landed. Experimental Web Streams API, new v8 engine and more!
