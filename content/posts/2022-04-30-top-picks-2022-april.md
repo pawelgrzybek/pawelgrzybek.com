@@ -39,3 +39,9 @@ Deno team teamed up withDeno team teamed up with my favourite static website hos
 ## [Node v18.0.0 (Current)](https://nodejs.org/en/blog/release/v18.0.0/)
 
 Node.js 18 is here, and it comes with a bunch of features that I am excited about. For example, there is no need to use `--experimental-fetch` flag anymore because it is available by default. Also, a native test runner just landed. Experimental Web Streams API, new v8 engine and more!
+
+## [TypeScript tips and Tricks with Matt](https://youtu.be/hBk4nV7q6-w)
+
+Matt Pocock, commonly known as "The Rodney Mullen of TypeScript", shares some helpful TypeScript tricks. I am looking forward to his whole course of advanced TypeScript tips and tricks.
+
+{{< youtube hBk4nV7q6-w >}}
