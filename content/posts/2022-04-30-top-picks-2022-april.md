@@ -45,3 +45,7 @@ Node.js 18 is here, and it comes with a bunch of features that I am excited abou
 Matt Pocock, commonly known as "The Rodney Mullen of TypeScript", shares some helpful TypeScript tricks. I am looking forward to his whole course of advanced TypeScript tips and tricks.
 
 {{< youtube hBk4nV7q6-w >}}
+
+## [Non-interactive Elements with the inert attribute](https://webkit.org/blog/12578/non-interactive-elements-with-the-inert-attribute/)
+
+[Tim Nguyen](https://twitter.com/therealntim) from the WebKit Core team explains the new inert HTML attribute. This feature will vastly simplify optimizing the Web for assistive technologies.
