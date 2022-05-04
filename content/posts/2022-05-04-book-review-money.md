@@ -12,4 +12,4 @@ A few years ago, I started treating my finance more seriously. I stopped spendin
 
 "The Psychology of Money" is an easy-to-follow book consisting of several micro-stories full of educational insights. It goes in-depth about the real meaning of wealth, happiness, luck, greed and vanity. However, it is not a blueprint for another investing technique, nor it is dense in financial data.
 
-It wasn't a revolutionary book for me, and that's tine because I didn't expect it to be. Nevertheless, It served as a good reminder of critical psychological factors in dealing with money. Anecdotes that this book is full of are also helpful to becoming a better human being, not only a finance manager.
+It wasn't a revolutionary book for me, and that's fine because I didn't expect it to be. Nevertheless, It served as a good reminder of critical psychological factors in dealing with money. Anecdotes that this book is full of are also helpful to becoming a better human being, not only a finance manager.
