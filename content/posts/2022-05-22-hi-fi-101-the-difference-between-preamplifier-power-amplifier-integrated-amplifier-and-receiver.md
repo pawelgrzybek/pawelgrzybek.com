@@ -10,7 +10,7 @@ Dipping your toes into the world of Hi-Fi can be overwhelming. I know that becau
 
 The purpose of a Hi-Fi audio system is to send a signal from your input device up to the speaker. But, of course, signal amplification is a mandatory step in between, which is precisely the subject of this article.
 
-## Hi-fi separates
+## Hi-Fi separates
 
 A Hi-Fi system consists of multiple parts, often referred to as "separates". Today, we will look into everything between the input (turntable, microphone, CD player or whatnot) and the output (speakers). But, first, look at the simplified diagram of an audio playback chain.
 
