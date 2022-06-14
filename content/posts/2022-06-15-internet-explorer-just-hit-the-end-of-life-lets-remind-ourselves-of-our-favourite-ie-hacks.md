@@ -148,7 +148,7 @@ This hack is useless, and hopefully, you have never had to do madness like this.
 
 ## Double Margin Float Hack
 
-This one is funny — thank you, [Dan](https://twitter.com/danjordan), for sending this one my way (by the way, Dan is excellent dev, you should follow him). What do you think? What is the margin-left value of the .box element?
+This one is funny — thank you, [Dan](https://twitter.com/danjordan), for sending this one my way (by the way, Dan is excellent dev, you should follow him). What do you think? What is the `margin-left` value of the `.box` element?
 
 ```
 .box {
