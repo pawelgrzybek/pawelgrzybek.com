@@ -17,6 +17,7 @@ There is no other piece of technology that gave me more headaches in my life tha
 - [CSS Dynamic Properties](#css-dynamic-properties)
 - [PNG Hack/Fix for IE 6](#png-hackfix-for-ie-6)
 - [256 classes stronger than a single ID](#256-classes-stronger-than-a-single-id)
+- [Double Margin Float Hack](#double-margin-float-hack)
 
 ## Conditional comments
 
@@ -142,6 +143,27 @@ This hack is useless, and hopefully, you have never had to do madness like this.
 /* 256 classes */
 .class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class.class {
   color: green;
+}
+```
+
+## Double Margin Float Hack
+
+This one is funny — thank you, [Dan](https://twitter.com/danjordan), for sending this one my way (by the way, Dan is excellent dev, you should follow him). What do you think? What is the margin-left value of the .box element?
+
+```
+.box {
+  float: left;
+  margin-left: 20px;
+}
+```
+
+Yes, you are right, it is `20px`, but IE doesn’t care and renders `40px` margin anyway. Luckily the fix is simple, but god knows why it works 🤷‍♂️
+
+```
+.box {
+  float: left;
+  margin-left: 20px;
+  display: inline;
 }
 ```
 
