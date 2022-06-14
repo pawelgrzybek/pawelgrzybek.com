@@ -1,5 +1,5 @@
 ---
-title: "Internet Explorer just got retired — let's remind ourselves of our favourite IE hacks"
+title: "Internet Explorer just hit its end of life — let's remind ourselves of our favourite IE hacks"
 summary: "Microsoft's Internet Explorer just got retired. So to celebrate this historical moment, I put together a collection of ridiculous IE hacks that we used to copy/paste all the freakin time."
 photo: "2022-06-15.jpg"
 ---
