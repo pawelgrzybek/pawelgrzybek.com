@@ -28,7 +28,7 @@ I'll be the first one in the queue for one of these (for my girlfriend 💋), so
 
 Mail is one of these apps that, even though it's not the most powerful, not the most user-friendly, nor the most intuitive, it's the one I use because it just works. Unfortunately, over the years, it has become outdated, and right now is an excellent time to give it some love. They delivered!
 
-The entire rewrite of Apple Main comes with long-awaited features like undo send, scheduled emails, snoozing messages, powerful and insanely fast search, and much more. So it's an excellent time to be excited about the Mail app again.
+The entire rewrite of Apple Mail comes with long-awaited features like undo send, scheduled emails, snoozing messages, powerful and insanely fast search, and much more. So it's an excellent time to be excited about the Mail app again.
 
 Most of these features require a combination of client and server-side functionalities. Still, looking at some alerts before scheduling (at least on the beta version of the latest iOS), I am concluding that this whole set of new features are working on the client side. Because of that, I hope it will work well with any email provider (Fastmail in my case), not only iCloud email.
 
