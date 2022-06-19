@@ -7,7 +7,7 @@
       <h2 class="post__title">
         <a class="post__url" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
       </h2>
-      <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> | {{ .ReadingTime }} minutes read</p>
+      <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> · {{ .ReadingTime }} minutes read</p>
       <p>{{ .Summary }}</p>
       <a class="post__more" href="{{ .Permalink }}" title="{{ .Title }}" arial-link="Read more about {{ .Title }}">Read more »</a>
     </article>

@@ -5,7 +5,7 @@
     <article class="post js-post">
       <h1 class="post__title">{{ .Title }}</h1>
 
-      <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> | {{ .ReadingTime }} minutes read</p>
+      <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> · {{ .ReadingTime }} minutes read</p>
 
       {{ .Content }}
 
