@@ -5,12 +5,14 @@
     display: flex;
     flex-direction: column;
     gap: var(--lh);
+    max-width: 1400px;
+    margin-inline: auto;
   }
 
   .header__skip {
     position: absolute;
     top: 0;
-    left: 0;
+    left: var(--lh);
     padding-inline: calc(var(--lh) / 2);
     font-size: calc(var(--fz) / var(--type-scale));
     transform: scale(0);
@@ -55,7 +57,7 @@
     justify-content: center;
   }
 
-  .header__nav__container {
+  .header__nav {
     display: flex;
   }
 
@@ -68,52 +70,13 @@
     list-style: none;
   }
 
-  .header__theme {
-    display: flex;
-    justify-content: center;
-    gap: calc(var(--lh) / 2);
-  }
-
-  .header__theme__input {
-    clip: rect(0 0 0 0);
-    clip-path: inset(100%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-  }
-
-  .header__theme__label {
-    cursor: pointer;
-  }
-
-  .header__theme__label--light {
-    cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>☀️</text></svg>"),
-      auto;
-  }
-
-  .header__theme__label--dark {
-    cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>🌓</text></svg>"),
-      auto;
-  }
-
-  .header__theme__input:checked + .header__theme__label {
-    text-decoration: underline;
-  }
-
-  @media screen and (min-width: 764px) {
-    .header__nav {
+  @media screen and (min-width: 900px) {
+    .header {
       flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
     }
 
-    .header__nav__container::after {
-      content: "·";
-      margin-inline: calc(var(--lh) / 4);
-    }
-  }
-
-  @media screen and (min-width: 1096px) {
     .header__info {
       flex-direction: row;
     }
@@ -128,10 +91,8 @@
       margin-inline: calc(var(--lh) / 4);
     }
 
-    .header {
+    .header__nav {
       flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
     }
   }
 </style>
@@ -152,87 +113,32 @@
     <p class="header__info__description">Software Engineer at Heydoc</p>
   </div>
 
-  <div class="header__nav">
-    <nav class="header__nav__container">
-      <ul class="header__list">
-        <li class="header__item">
-          <a {{ if eq .RelPermalink "/about/" }}aria-current="page"{{ end }} href="/about" title="About">About</a>
-        </li>
-        <li class="header__item">
-          <a {{ if eq .RelPermalink "/archive/" }}aria-current="page"{{ end }} href="/archive" title="Archive">Archive</a>
-        </li>
-        <li class="header__item">
-          <a href="/feed.xml" title="RSS Feed">RSS</a>
-        </li>
-        <li class="header__item">
-          <a
-            href="https://twitter.com/pawelgrzybek"
-            title="Pawel Grzybek on Twitter"
-            >Twitter</a
-          >
-        </li>
-        <li class="header__item">
-          <a
-            href="https://github.com/pawelgrzybek"
-            title="Pawel Grzybek on GitHub"
-            >GitHub</a
-          >
-        </li>
-      </ul>
-    </nav>
-    <div class="header__theme">
-      <input
-        class="header__theme__input js-header__theme__input"
-        type="radio"
-        name="theme"
-        id="auto"
-        value="auto"
-        checked
-      />
-      <label class="header__theme__label" for="auto">Auto</label>
-      <input
-        class="header__theme__input js-header__theme__input"
-        type="radio"
-        name="theme"
-        id="light"
-        value="light"
-      />
-      <label
-        class="header__theme__label header__theme__label--light"
-        for="light"
-        >Light</label
-      >
-      <input
-        class="header__theme__input js-header__theme__input"
-        type="radio"
-        name="theme"
-        id="dark"
-        value="dark"
-      />
-      <label class="header__theme__label header__theme__label--dark" for="dark"
-        >Dark</label
-      >
-    </div>
-  </div>
+  <nav class="header__nav">
+    <ul class="header__list">
+      <li class="header__item">
+        <a {{ if eq .RelPermalink "/about/" }}aria-current="page"{{ end }} href="/about" title="About">About</a>
+      </li>
+      <li class="header__item">
+        <a {{ if eq .RelPermalink "/archive/" }}aria-current="page"{{ end }} href="/archive" title="Archive">Archive</a>
+      </li>
+      <li class="header__item">
+        <a href="/feed.xml" title="RSS Feed">RSS</a>
+      </li>
+      <li class="header__item">
+        <a
+          href="https://twitter.com/pawelgrzybek"
+          title="Pawel Grzybek on Twitter"
+          >Twitter</a
+        >
+      </li>
+      <li class="header__item">
+        <a
+          href="https://github.com/pawelgrzybek"
+          title="Pawel Grzybek on GitHub"
+          >GitHub</a
+        >
+      </li>
+    </ul>
+  </nav>
 </header>
 
-<script>
-  const theme = localStorage.getItem("theme");
-  const themeClassMapper = {
-    auto: "theme-auto",
-    light: "theme-light",
-    dark: "theme-dark",
-  };
-
-  document.body.classList.add(themeClassMapper[theme]);
-
-  document.querySelectorAll(".js-header__theme__input").forEach((input) => {
-    input.checked = input.value === theme;
-
-    input.addEventListener("change", () => {
-      localStorage.setItem("theme", input.value);
-      document.body.classList.remove(...Object.values(themeClassMapper));
-      document.body.classList.add(themeClassMapper[input.value]);
-    });
-  });
-</script>
