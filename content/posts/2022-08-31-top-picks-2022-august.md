@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2022 August"
-summary: "The truth about agile development, "
+summary: "The truth about agile development, responsive CSS content scrollers"
 photo: "top-picks.jpg"
 ---
 
@@ -8,4 +8,6 @@ photo: "top-picks.jpg"
 
 This is a fascinating conversation between two mature software engineers about the “agile” ways of working nowadays and why it is widely misinterpreted. I became a fan of Allen after this interview. After listening to this interview, one of the great resources worth checking is Allen’s ["Heuristics for Effective Organizations: A continuously evolving list"](https://holub.com/heuristics/). It may be controversial to business-oriented people, but it is worth sharing with your colleagues.
 
-## []()
+## [Responsive Faux 3D Content Scroller ✨](https://twitter.com/jh3yy/status/1554310426682281988)
+
+I learned a ton from this short (1 minute) speedy CSS tip by Jhey Tompkins. The `overlay` value for `overflow`, some cool CSS scroll snapping magic, and more. I need more content like this in my life.
