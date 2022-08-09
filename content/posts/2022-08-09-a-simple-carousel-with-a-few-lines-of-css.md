@@ -4,7 +4,7 @@ summary: "A few years back, I built Siema — a lightweight (only 3kb gzipped) c
 photo: "2022-08-09.jpg"
 ---
 
-A few years back, I built [Siema](https://pawelgrzybek.github.io/siema/) — a lightweight (only 3kb gzipped) carousel plugin with no dependencies. It became massively popular because of its simplicity and extensibility. I am proud of this project because it helped many other developers and me.
+A few years back, I built [Siema](https://pawelgrzybek.github.io/siema/) — a lightweight (only 3kb gzipped) carousel plugin with no dependencies. It became massively popular because of its simplicity and extensibility. I'm proud of this project because not only helped me but also many other developers.
 
 CSS nowadays is so powerful, and if you need a simple carousel, I would like to kindly ask you not to use Siema (or any other carousel library) anymore. Using CSS is more straightforward, accessible, feels more natural and the [browser support for scroll snap](https://caniuse.com/css-snappoints) is great. Have a look at this minimalistic example.
 
