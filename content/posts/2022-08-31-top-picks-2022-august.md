@@ -15,3 +15,7 @@ I learned a ton from this short (1 minute) speedy CSS tip by Jhey Tompkins. The 
 ## [Astro 1.0](https://astro.build/blog/astro-1/)
 
 Based on the Island Architecture, framework agnostic Astro, SSR-ready page generator just hit stable release 1.0. It is an excellent option for everyone looking for a tool to generate a static website, using the content from wherever you want and with a low learning curve because it works just fine with the tooling you already know and love.
+
+## [How to force push git branches without the --force flag](https://www.stefanjudis.com/today-i-learned/how-to-force-push-git-branches-without-the-force-flag/)
+
+Stefan’s blog is incredible. He posts many little TIL-like posts about all sorts of programming-related topics. This little post is a perfect example — a quick read that makes a big difference in your day-to-day life.
