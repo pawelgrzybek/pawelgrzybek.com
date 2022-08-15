@@ -25,7 +25,7 @@ These few lines of code are all I added to my custom stylesheet. Of course, it i
 
 /* hide what's happening section */
 :has(meta[property="og:site_name"][content="Twitter"])
-  [aria-labelledby="accessible-list-0"] {
+  [aria-label="Timeline: Trending now"] {
   display: none !important;
 }
 ```
