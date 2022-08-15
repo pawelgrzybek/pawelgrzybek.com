@@ -19,3 +19,9 @@ Based on the Island Architecture, framework agnostic Astro, SSR-ready page gener
 ## [How to force push git branches without the --force flag](https://www.stefanjudis.com/today-i-learned/how-to-force-push-git-branches-without-the-force-flag/)
 
 Stefan’s blog is incredible. He posts many little TIL-like posts about all sorts of programming-related topics. This little post is a perfect example — a quick read that makes a big difference in your day-to-day life.
+
+## [Adam Argyle | Oh Snap! | CSS Day 2022](https://youtu.be/34zcWFLCDIc)
+
+Recently I have been exploring a lot of CSS scroll-snap properties. This thing is much more powerful than I thought. This talk by Adam is a well-organized knowledge about everything you have to know about CSS scroll-snap. It is around 40 minutes of presentation, but it took me about 2 hours to watch because it is so information-dense.
+
+{{< youtube 34zcWFLCDIc >}}
