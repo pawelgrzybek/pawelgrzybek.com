@@ -30,7 +30,7 @@ For this article, I created a super simple card component that changes the layou
 </div>
 ```
 
-```css {hl_lines=[2,"5-11"]}
+```css {hl_lines=["2-3","6-12"]}
 .post {
   container-type: inline-size;
   container-name: post-container;
