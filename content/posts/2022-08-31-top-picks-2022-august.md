@@ -25,3 +25,7 @@ Stefan’s blog is incredible. He posts many little TIL-like posts about all sor
 Recently I have been exploring a lot of CSS scroll-snap properties. This thing is much more powerful than I thought. This talk by Adam is a well-organized knowledge about everything you have to know about CSS scroll-snap. It is around 40 minutes of presentation, but it took me about 2 hours to watch because it is so information-dense.
 
 {{< youtube 34zcWFLCDIc >}}
+
+## [Deno 1.25 Release Notes](https://deno.com/blog/v1.25)
+
+A new version of Deno is massive because it has experimental support for npm modules. This feature will open a gigantic gate to people keen to migrate their scripts from Node.js to Deno (like me). The new init command is also a sweet add-on. Aso, the new HTTP server API is shockingly fast. Excellent release overall.
