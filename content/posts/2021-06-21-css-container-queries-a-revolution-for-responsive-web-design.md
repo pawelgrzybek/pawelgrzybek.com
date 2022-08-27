@@ -4,8 +4,6 @@ summary: "There’s no other feature that web designers have asked for more than
 photo: "2021-06-21.jpg"
 ---
 
-First things first! It's a super early stage for CSS Container Queries, so everything here may change at any moment. For now, [Google Chrome Canary](https://www.google.com/chrome/canary/) with `#experimental-container-queries` flag enabled is the only option to play around with it. I'm so excited about this subject, I couldn’t resist scribbling down a quick post about it.
-
 There's no other feature that web designers have asked for more than being able to style elements based on the size of their parent. There were many attempts to solve this problem by attaching resize event on the element or using `ResizeObvserver` (["The Resize Observer explained"](https://pawelgrzybek.com/the-resize-observer-explained/) is for you if you're not aware of it). Luckily, thanks to smart people like [Miriam Suzanne](https://twitter.com/TerribleMia), there's great progress on the native implementation of CSS Container Queries defined as part of the [CSS Containment Module Specification](https://drafts.csswg.org/css-contain-3/).
 
 ## CSS Container Queries in practice
@@ -34,10 +32,11 @@ For this article, I created a super simple card component that changes the layou
 
 ```css {hl_lines=[2,"5-11"]}
 .post {
-  contain: layout inline-size style;
+  container-type: inline-size;
+  container-name: post-container;
 }
 
-@container (min-width: 400px) {
+@container post-container (min-width: 400px) {
   .post__wrapper {
     display: grid;
     grid-template-columns: 4.8rem 1fr;
@@ -46,7 +45,7 @@ For this article, I created a super simple card component that changes the layou
 }
 ```
 
-The `contain` property creates a containment context. The `inline-size` creates a query container that reacts to changes on the inline axis (width). We can also use `block-size` to be able to adjust styling based on elements block axis (height). There is a chance that we will be able to do [crazy stuff like named containers](https://twitter.com/TerribleMia/status/1403385297342066695?s=20) in the future. We can add this property on some general layout section (like the sidebar), but its power shines when we use it on a component level basis.
+The `container-type` property creates a containment context. The `inline-size` creates a query container that reacts to changes on the inline axis (width). We can also use `block-size` to be able to adjust styling based on elements block axis (height), `size` to react to changes on both axis, `style` to react to style changes and `state` to react to state queries. The `container-name` allows us to add a descriptive name to a container.
 
 The new `@container` rule allows us to style elements based on the size of the containment context. A lot like `@media` query, but better!
 
