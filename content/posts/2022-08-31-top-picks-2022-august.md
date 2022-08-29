@@ -29,3 +29,7 @@ Recently I have been exploring a lot of CSS scroll-snap properties. This thing i
 ## [Deno 1.25 Release Notes](https://deno.com/blog/v1.25)
 
 A new version of Deno is massive because it has experimental support for npm modules. This feature will open a gigantic gate to people keen to migrate their scripts from Node.js to Deno (like me). The new init command is also a sweet add-on. Aso, the new HTTP server API is shockingly fast. Excellent release overall.
+
+## [Announcing Crawlee: the web scraping and browser automation library](https://blog.apify.com/announcing-crawlee-the-web-scraping-and-browser-automation-library/)
+
+Crawlee is a new Node.js crawler by the team behind the [Apify](https://apify.com). It looks like super versitile option that is packed with tons of useful options like proxies, TS support, helpful CLI and plenty more.
