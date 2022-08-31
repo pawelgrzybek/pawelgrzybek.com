@@ -39,3 +39,7 @@ The Crawlee is a new Node.js crawler by the team behind [Apify](https://apify.co
 > Oven, the company behind Bun, has raised $7m in funding led by Kleiner Perkins.
 
 This is amazing to see the rapid growth of a new JavaScript runtime. After a warm welcome from Deno, I didn't expect But to explode so rapidly. Plans for this Zig-based runtime are ambitious: end-to-end integration of the entire JavaScript stack (down to the hardware), integration with frontend and backend frameworks and more. Exciting times.
+
+## [Using :has() as a CSS Parent Selector and much more](https://webkit.org/blog/13096/css-has-pseudo-class/)
+
+In this article, Jen Simmons from Safari & Webkit team explains the power of `:has` pseudo-class. Some of the examples in this article are mind-blowing. Excellent summary.
