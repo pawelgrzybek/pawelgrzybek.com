@@ -1,12 +1,12 @@
 ---
 title: "Top picks — 2022 August"
-summary: "The truth about agile development, responsive CSS content scrollers"
+summary: "The truth about agile development, responsive CSS content scrollers, Astro 1.0, git force trick, CSS scroll snapping demystified, the sick release of Deno, new crawler on Node.js ecosystem, Bun is growing and more…"
 photo: "top-picks.jpg"
 ---
 
 ## [Agile & Scrum Don't Work | Allen Holub In The Engineering Room Ep. 9](https://youtu.be/hxXmTnb3mFU)
 
-This is a fascinating conversation between two mature software engineers about the “agile” ways of working nowadays and why it is widely misinterpreted. I became a fan of Allen after this interview. After listening to this interview, one of the great resources worth checking is Allen’s ["Heuristics for Effective Organizations: A continuously evolving list"](https://holub.com/heuristics/). It may be controversial to business-oriented people, but it is worth sharing with your colleagues.
+This chat is a fascinating conversation between two mature software engineers about the “agile” ways of working nowadays and why so many people misinterpret them. I became a fan of Allen after this interview. After listening to this interview, one of the great resources worth checking is Allen’s ["Heuristics for Effective Organizations: A continuously evolving list"](https://holub.com/heuristics/). It may be controversial to business-oriented people, but it is worth sharing with your colleagues.
 
 ## [Responsive Faux 3D Content Scroller ✨](https://twitter.com/jh3yy/status/1554310426682281988)
 
@@ -32,4 +32,10 @@ A new version of Deno is massive because it has experimental support for npm mod
 
 ## [Announcing Crawlee: the web scraping and browser automation library](https://blog.apify.com/announcing-crawlee-the-web-scraping-and-browser-automation-library/)
 
-Crawlee is a new Node.js crawler by the team behind the [Apify](https://apify.com). It looks like super versitile option that is packed with tons of useful options like proxies, TS support, helpful CLI and plenty more.
+The Crawlee is a new Node.js crawler by the team behind [Apify](https://apify.com). It looks like a super versatile option packed with many useful options like proxies, TS support, helpful CLI and plenty more.
+
+## [Oven](https://oven.sh/)
+
+> Oven, the company behind Bun, has raised $7m in funding led by Kleiner Perkins.
+
+This is amazing to see the rapid growth of a new JavaScript runtime. After a warm welcome from Deno, I didn't expect But to explode so rapidly. Plans for this Zig-based runtime are ambitious: end-to-end integration of the entire JavaScript stack (down to the hardware), integration with frontend and backend frameworks and more. Exciting times.
