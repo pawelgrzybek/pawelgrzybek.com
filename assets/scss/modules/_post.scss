@@ -7,23 +7,9 @@
   margin-top: 0;
 }
 
-.post__url {
-  color: var(--color-text);
-  text-decoration: none;
-
-  &:hover {
-    color: var(--color-link);
-  }
-}
-
 .post__meta {
   margin-top: calc(var(--lh) * -1);
   font-size: calc(var(--fz) / var(--type-scale));
-}
-
-.post__more {
-  text-decoration: none;
-  vertical-align: top;
 }
 
 .post__hash {
