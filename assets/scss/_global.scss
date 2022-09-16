@@ -55,7 +55,8 @@ a {
 
 a:hover,
 a:focus,
-a:active {
+a:active,
+[aria-current="page"] {
   color: var(--color-text);
 }
 
