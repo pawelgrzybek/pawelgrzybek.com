@@ -19,3 +19,7 @@ This is a very inspiring conversation between one of my favourite podcasters, Le
 ## [Welcome to Linux command line for you and me!](https://lym.readthedocs.io/en/latest/index.html)
 
 This resource is a handy guide to learning Unix shell commands. Very well written and easy to understand, and there is an excellent level of detail for every beginner to become productive quickly and for advanced users to learn a thing or two.
+
+## [Type-Level TypeScript](https://type-level-typescript.com)
+
+[Gabriel Vergnaud](https://twitter.com/GabrielVergnaud) is working on an excellent TypeScript course. After going through the first two chapters (the only chapters ready at the time of writing this article), this project looks very promising.
