@@ -22,4 +22,4 @@ This resource is a handy guide to learning Unix shell commands. Very well writte
 
 ## [Type-Level TypeScript](https://type-level-typescript.com)
 
-[Gabriel Vergnaud](https://twitter.com/GabrielVergnaud) is working on an excellent TypeScript course. After going through the first two chapters (the only chapters ready at the time of writing this article), this project looks very promising.
+[Gabriel Vergnaud](https://twitter.com/GabrielVergnaud) is working on an excellent TypeScript course. After going through the first two chapters (the only chapters ready at the time of writing this article), this project looks very promising. However, it is probably not good to learn the basics but more for advanced users and library creators.
