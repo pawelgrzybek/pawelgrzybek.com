@@ -8,7 +8,7 @@ I mentioned multiple times [how much I like RSS](/rss-feed-for-youtube-channels-
 
 Speaking of favourite bloggers, Jim Nielsen recently published ["Creating Custom RSS Feeds For Following Others"](https://blog.jim-nielsen.com/2022/custom-rss-feeds/), which inspired me to build an RSS feed for Bandcamp. I planned to play around with [Deno Deploy](https://deno.com/) for a while, which seemed to be a perfect fit.
 
-A moment later, I came up fully working Bandcamp RSS feed that runs on the edge across 32 network locations. Not perfect, nor bulletproof, but it works just fine to fetch the most recent releases of my favourite artists! Also, working with Deno Deploy is a breeze, and their free tier gives me up to 100 000 requests per day which should be enough for me (as long as my readers are good people, which I believe they are).
+A moment later, I came up with a fully working Bandcamp RSS feed that runs on the edge across 32 network locations. Not perfect, nor bulletproof, but it works just fine to fetch the most recent releases of my favourite artists! Also, working with Deno Deploy is a breeze, and their free tier gives me up to 100 000 requests per day which should be enough for me (as long as my readers are good people, which I believe they are).
 
 ```
 curl --url 'https://rss-bandcamp.deno.dev/?artist=plash'
