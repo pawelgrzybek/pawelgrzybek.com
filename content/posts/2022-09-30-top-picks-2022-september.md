@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2022 September"
-summary: ""
+summary: "The simple way of testing using Mac VoiceOver, interesting conversation with John Carmack, best practices for creating a modern npm package, Linux command line for beginners, incredible TypeScript series of tutorials and a lot more…"
 photo: "top-picks.jpg"
 ---
 
@@ -14,7 +14,7 @@ This is a very inspiring conversation between one of my favourite podcasters, Le
 
 ## [Best practices for creating a modern npm package](https://snyk.io/blog/best-practices-create-modern-npm-package/)
 
-[Brian Clark](https://twitter.com/_clarkio) from Synk team published this comprehensive guide to creating a modern npm package. It contains a simple-to-follow explanation of how to produce a package that works well with CommonJS and ECMAScript modules, basic unit tests, firing testing using GitHub Actions and how to perform security checks using Snyk. Well written and easy to follow.
+[Brian Clark](https://twitter.com/_clarkio) from the Synk team published this comprehensive guide to creating a modern npm package. It contains a simple-to-follow explanation of how to produce a package that works well with CommonJS and ECMAScript modules, basic unit tests, firing testing using GitHub Actions and how to perform security checks using Snyk. Well written and easy to follow.
 
 ## [Welcome to Linux command line for you and me!](https://lym.readthedocs.io/en/latest/index.html)
 
