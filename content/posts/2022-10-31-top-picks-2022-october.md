@@ -1,0 +1,13 @@
+---
+title: "Top picks — 2022 October"
+summary: ""
+photo: "top-picks.jpg"
+---
+
+## [Delightful UI Animations With Shared Element Transitions API (Part 1)](https://www.smashingmagazine.com/2022/10/ui-animations-shared-element-transitions-api-part1/)
+
+Complicated transitions between two UI states are tough, and we often pull hefty third-party libraries to our projects to achieve it. However, this thing is about to change, thanks to Shared Element Transitions API. [Adrian Bece](https://twitter.com/AdrianBeceDev) published this article in Smashing Magazine that explains the complexity of the problem and shows how we can solve it using multiple practical examples (to-do list, image gallery, carousel and shop cart animation). It is almost hard to believe that these API is real — possibilities are endless, and the functionality is surprisingly easy to use.
+
+## [Introducing OG Image Generation: Fast, dynamic social card images at the Edge](https://vercel.com/blog/introducing-vercel-og-image-generation-fast-dynamic-social-card-images)
+
+Custom open graph images can boost the engagement of your article by up to 40%. So it is worth paying a little attention to this and crafting a nice picture for the posts we spend a lot of energy on. This solution by the Vercel team looks very solid to me. I love how they made the full deployment of a tool like this to your own Vercel account with a single click. If you are curious about more in-depth technical details about the design process, look at the [series of tweets by one of the authors, Shu Ding](https://twitter.com/shuding_/status/1579607964549513217).
