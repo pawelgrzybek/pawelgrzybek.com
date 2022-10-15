@@ -65,7 +65,7 @@ npm query "[name*=gulp]" | jq 'map(.name)|join("\n")' -r | xargs -I {} npm unins
 
 ## Some helpful resources
 
-I hope this brief article helped you out. Let me leave you with a list of beneficial resources to deepen your knowledge in a field. Until next time, stay groovy 👋
+I hope you liked this brief article. Let me leave you with a list of helpful resources to deepen your knowledge in a field. Until next time, stay groovy 👋
 
 - ["Introducing the new npm Dependency Selector Syntax" on GitHub blog](https://github.blog/changelog/2022-08-03-introducing-the-new-npm-dependency-selector-syntax/)
 - ["Use npm query and jq to dig into your dependencies" by Elijah Manor on YouTube](https://youtu.be/h_ZpixOgKDY)
