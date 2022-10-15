@@ -39,7 +39,7 @@ npm query ":has([funding])"
 
 ```bash
 # List all packages created by Sindre Sorhus 🦄
-npm query "*:attr(author, [name=\"Sindre Sorhus\"])"
+npm query ":attr(author, [name=\"Sindre Sorhus\"])"
 ```
 
 ## Advanced npm queries
@@ -54,7 +54,7 @@ npm query "*" | jq '.'
 
 ```bash
 # List only names of packages created by Sindre Sorhus 🦄
-npm query "*:attr(author, [name=\"Sindre Sorhus\"])" | jq '.[] | .name'
+npm query ":attr(author, [name=\"Sindre Sorhus\"])" | jq '.[] | .name'
 ```
 
 
