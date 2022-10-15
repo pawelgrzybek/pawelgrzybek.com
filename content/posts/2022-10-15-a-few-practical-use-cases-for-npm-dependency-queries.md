@@ -1,6 +1,6 @@
 ---
 title: "A few practical use cases for npm dependency queries"
-summary: "Sometimes we need to get some insights about the packages that we use. Manually going through modules directory sounds like a chore, but luckily there is a better way."
+summary: "Sometimes we need to get some insights about the packages that we use. Manually going through the modules directory sounds like a chore, but luckily there is a better way."
 photo: "2022-10-15.jpg"
 ---
 
