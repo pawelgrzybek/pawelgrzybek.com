@@ -22,3 +22,7 @@ Container queries barely landed in almost all browsers (at the time of writing t
 Records (`#{}`) and Tuples (`#[]`) are currently in stage 2 of the TC39 standardisation process, and maybe one day, we will see them being a part of the ECMAScript specification. One of the champions of this proposal, Robin Ricard, talked about this subject at NodeConf EU 2022. Quick, informative and well explained.
 
 {{< youtube D_V0np5X0ww >}}
+
+## [Why We're Breaking Up with CSS-in-JS](https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b)
+
+A list of very interesting insights about CSS-in-JS by one of the core contrinutors to Emotion (one of the leading CSS-in-JS libraries). With CSS being more powerful, we are slowly coming back to basics. I love it!
