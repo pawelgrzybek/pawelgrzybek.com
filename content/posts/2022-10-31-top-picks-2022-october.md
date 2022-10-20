@@ -16,3 +16,9 @@ Custom open graph images can boost the engagement of your article by up to 40%. 
 ## [Style Queries](https://una.im/style-queries/)
 
 Container queries barely landed in almost all browsers (at the time of writing this article, we are still waiting for Firefox support), so it is time for another type of CSS query. This post by [Una](https://twitter.com/una) is a top introduction to [Style Container Queries](https://drafts.csswg.org/css-contain-3/#container-style-query). What's most exciting about it is that you can combine container and style queries, which opens new possibilities for CSS. It is an excellent time to be a CSS developer!
+
+## [Record & Tuple: immutable data structures in JS - Robin Ricard | NodeConf EU 2022](https://youtu.be/D_V0np5X0ww)
+
+Records (`#{}`) and Tuples (`#[]`) are currently in stage 2 of the TC39 standardisation process, and maybe one day, we will see them being a part of the ECMAScript specification. One of the champions of this proposal, Robin Ricard, talked about this subject at NodeConf EU 2022. Quick, informative and well explained.
+
+{{< youtube D_V0np5X0ww >}}
