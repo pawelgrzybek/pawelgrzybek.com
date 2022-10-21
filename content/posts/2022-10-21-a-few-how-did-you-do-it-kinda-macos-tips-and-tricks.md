@@ -80,17 +80,17 @@ killall Dock
 
 ## Details about Bluetooth devices and Wi-Fi network
 
-You can alt-click on Bluetooth or Wi-Fi icon in the menu bar to show the details about the connected devices and current Wi-Fi connection. Just compare the amount of information between the regular and detailed panels.
+You can alt/option-click on Bluetooth or Wi-Fi icon in the menu bar to show the details about the connected devices and current Wi-Fi connection. Just compare the amount of information between the regular and detailed panels.
 
 
 ![The comparison between the regular and detailed Bluetooth and Wi-Fi panels](/photos/2022-10-21-6.png)
 
 ## Quickly toggle the "Do Not Disturb" mode
 
-This one saved my butt during the screen-sharing session so many times. You can alt-click the clock to toggle "Do Not Disturb" mode.
+This one saved my butt during the screen-sharing session so many times. You can alt/option-click the clock to toggle "Do Not Disturb" mode.
 
 
-![Alt-click on the clock, to toggle the "Do Not Disturb" mode](/photos/2022-10-21-7.gif)
+![Alt/option-click on the clock, to toggle the "Do Not Disturb" mode](/photos/2022-10-21-7.gif)
 
 ## Screenshots (8 methods)
 
