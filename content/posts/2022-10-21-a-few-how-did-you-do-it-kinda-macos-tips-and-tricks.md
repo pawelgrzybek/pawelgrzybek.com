@@ -94,7 +94,7 @@ This one saved my butt during the screen-sharing session so many times. You can 
 
 ## Screenshots (8 methods)
 
-There are shocking 8 methods to make a screenshot in macOS (or maybe more that I don't know about).
+There are shocking 8 methods to take a screenshot in macOS (or maybe more that I don't know about).
 
 - <kbd>Command ⌘ + Shift ⇧ + 3</kbd> — capture the entire screen (saved to Desktop by default)
 - <kbd>Command ⌘ + Shift ⇧ + 3 + Control ⌃</kbd>  — capture the entire screen (saved to clipboard)
