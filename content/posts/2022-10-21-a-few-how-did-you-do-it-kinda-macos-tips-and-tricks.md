@@ -58,7 +58,7 @@ A quick reply and tapback keyboard shortcuts can save time by avoiding using the
 
 ## Reduce duration and delay of Dock auto-hiding
 
-One of the best ways to remove the clutter on your screen is enabling "Automatically hide and show Dock" in the "Dock & Menu Bar" System Preferences section. Unfortunately, by default, the delay before showing the Dock and the duration of the animation are annoyingly long. Luckily we can control these parameters using `defaults` CLI. ["Change macOS user preferences via command line"](/change-macos-user-preferences-via-command-line/) that I published a few years ago explains the power of this command in depth. Unfortunately, as far as I know, these parameters cannot be controlled via UI (user interface).
+One of the best ways to remove the clutter on your screen is enabling "Automatically hide and show Dock" in the "Dock & Menu Bar" System Preferences section. Unfortunately, by default, the delay before showing the Dock and the duration of the animation are annoyingly slow. Luckily we can control these parameters using `defaults` CLI. ["Change macOS user preferences via command line"](/change-macos-user-preferences-via-command-line/) that I published a few years ago explains the power of this command in depth. Unfortunately, as far as I know, these parameters cannot be controlled via UI (user interface).
 
 ```bash
 # Automatically hide and show the Dock (animation duration)
