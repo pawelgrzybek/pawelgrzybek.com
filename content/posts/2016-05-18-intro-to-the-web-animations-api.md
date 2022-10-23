@@ -123,11 +123,8 @@ Cool, but does it really generate the same effect? Not really — the behavior o
 
 Have a look...
 
-<p>
-  <p data-height="384" data-theme-id="dark" data-slug-hash="oxOmGG" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/oxOmGG/">oxOmGG</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</p>
-
+<p data-height="384" data-theme-id="dark" data-slug-hash="oxOmGG" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/oxOmGG/">oxOmGG</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Animation methods and properties
 
@@ -141,10 +138,8 @@ console.log(move);
 
 Having access to all this goodness allows us to create more complex effects. If you haven't dived into the world of ES2015 Promises yet, it's worth taking a look at ["Asynchronous programming (background)"](http://exploringjs.com/es6/ch_async.html) by Dr. Axel Rauschmayer or ["ES6 Promises in Depth"](https://ponyfoo.com/articles/es6-promises-in-depth) by Nicolás Bevacqua. [Dan Wilson](https://twitter.com/dancwilson) wrote a helpful article about working with [Promises in Web Animations](http://danielcwilson.com/blog/2016/03/animations-and-promises/). Time for a simple example...
 
-<p>
 <p data-height="735" data-theme-id="dark" data-slug-hash="EKJqxG" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/EKJqxG/">2016-05-18-2</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 ## Let's talk about some constructors
 
@@ -182,10 +177,8 @@ var move = new Animation(keyframes, element.ownerDocument.timeline);
 move.play();
 ```
 
-<p>
 <p data-height="384" data-theme-id="dark" data-slug-hash="mPYmQj" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/mPYmQj/">2016-05-18-3</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 At this point you are probably thinking "Yeah, cool, but why should I bother about constructors if I can use the `animate()` function". Wait for it!
 
@@ -220,10 +213,8 @@ var group = new GroupEffect(
 var move = new Animation(group, document.timeline);
 ```
 
-<p>
 <p data-height="384" data-theme-id="dark" data-slug-hash="WwBXxb" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/WwBXxb/">2016-05-18-4</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 And one more for `SequenceEffects`.
 
@@ -250,10 +241,8 @@ var group = new SequenceEffect(
 var move = new Animation(group, document.timeline);
 ```
 
-<p>
 <p data-height="384" data-theme-id="dark" data-slug-hash="wGbpWg" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/wGbpWg/">2016-05-18-5</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 The only thing that confuses me with these two examples is that the animation is playing without invoking a `play()` method. If anyone can help me to understand this, I owe you a coffee / beer. I promise!
 

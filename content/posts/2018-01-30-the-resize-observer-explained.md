@@ -21,10 +21,8 @@ function callback() {
 window.addEventListener('resize', callback)
 ```
 
-<p>
 <p data-height="320" data-theme-id="light" data-slug-hash="qxERYa" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2018-01-30-1" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/qxERYa/">2018-01-30-1</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 ![window.onresize callbacks](/photos/2018-01-30-1.gif)
 
@@ -47,10 +45,8 @@ const myObserver = new ResizeObserver(callback);
 myObserver.observe(someElement);
 ```
 
-<p>
 <p data-height="320" data-theme-id="light" data-slug-hash="paveWg" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2018-01-30-2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/paveWg/">2018-01-30-2</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 ![Resize Observer callbacks](/photos/2018-01-30-2.gif)
 

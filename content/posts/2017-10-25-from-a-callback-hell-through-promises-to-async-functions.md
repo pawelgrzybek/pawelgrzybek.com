@@ -40,10 +40,8 @@ function getRandomJoke() {
 }
 ```
 
-<p>
 <p data-height="380" data-theme-id="dark" data-slug-hash="XeLJzJ" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-10-24-1" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/XeLJzJ/">2017-10-24-1</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 ## The promise of a better future
 
@@ -74,10 +72,8 @@ function getRandomJoke() {
 }
 ```
 
-<p>
 <p data-height="380" data-theme-id="dark" data-slug-hash="dVBPyM" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-10-24-2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/dVBPyM/">2017-10-24-2</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 Living on the bleeding edge? Safari 11, Google Chrome 63, EDGE and Node under the `-​-harmony-promise-finally` flag comes with the additional handler `finally()`. Keep it DRY!
 
@@ -104,10 +100,8 @@ function getRandomJoke() {
 }
 ```
 
-<p>
 <p data-height="380" data-theme-id="dark" data-slug-hash="wrLBmE" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-10-24-3" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/wrLBmE/">2017-10-24-3</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 ## Async code, sync look
 
@@ -137,9 +131,7 @@ const getRandomJoke = async() => {
 };
 ```
 
-<p>
 <p data-height="380" data-theme-id="dark" data-slug-hash="pWXJPy" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-10-24-4" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/pWXJPy/">2017-10-24-4</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 Hopefully you liked this quick time travel through asynchronous programming in JavaScript. The changes introduced in latest versions of the language are really exciting and I am really looking forward to see what's next! Until next time pals!

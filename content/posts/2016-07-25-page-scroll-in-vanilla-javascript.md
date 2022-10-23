@@ -18,10 +18,8 @@ $('.js-btn').click(() => {
 });
 ```
 
-<p>
 <p data-height="350" data-theme-id="14885" data-slug-hash="akqXro" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/akqXro/">Page scrolling in vanilla JavaScript 1</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 It is a decent solution, works great and it's really well supported across the browsers. But there is a recent trend of abandoning jQuery because pure vanilla JavaScript DOM manipulation is the new hipster skill (I'm one of those hipsters by the way). With the ease of modern APIs and the amount of features that the JavaScript landscape has to offer nowadays it is not that difficult to leave chunky libraries behind.
 
@@ -203,10 +201,8 @@ or simply
 document.querySelector('.js-btn50000').addEventListener('click', () => scrollIt(50000));
 ```
 
-<p>
 <p data-height="390" data-theme-id="dark" data-slug-hash="ZeomJB" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="PURE JS scrolling" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/ZeomJB/">PURE JS scrolling</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 ### A future solution using scroll-behavior: smooth
 
@@ -227,10 +223,8 @@ const elm = document.querySelector('.js-section');
 scrollIt(elm);
 ```
 
-<p>
 <p data-height="300" data-theme-id="14885" data-slug-hash="QEAZdP" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/QEAZdP/">2016.07.25 - 3</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 And one more example using just a CSS (Firefox only)
 
@@ -245,10 +239,8 @@ body {
 <div id="one" class="section">Section 1</div>
 ```
 
-<p>
 <p data-height="350" data-theme-id="14885" data-slug-hash="RRyXxJ" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/RRyXxJ/">2016.07.25 - 4</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 ## Wrap it up
 

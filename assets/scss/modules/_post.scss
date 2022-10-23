@@ -3,6 +3,10 @@
   margin-bottom: calc(var(--lh) * 3);
 }
 
+.post > * {
+  margin-bottom: var(--lh);
+}
+
 .post__title {
   margin-top: 0;
 }

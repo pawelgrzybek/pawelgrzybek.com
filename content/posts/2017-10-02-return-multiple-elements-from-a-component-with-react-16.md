@@ -6,10 +6,8 @@ photo: 2017-10-02.jpg
 
 [React 16 is here](https://reactjs.org/blog/2017/09/26/react-v16.0.html) and it brings lots of exciting changes. One of the most requesting features around React community has been [returning multiple elements](https://github.com/facebook/react/issues/2127) from a component's render method. Skipping wrapper tag is definitely something that developers are happy about — popularity of [my tweet](https://twitter.com/pawelgrzybek/status/913697990849826816) proves this point.
 
-<p>
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Return multiple elements in <a href="https://twitter.com/reactjs?ref_src=twsrc%5Etfw">@reactjs</a> 16 ❤️<a href="https://twitter.com/hashtag/js?src=hash&amp;ref_src=twsrc%5Etfw">#js</a> <a href="https://twitter.com/hashtag/javascript?src=hash&amp;ref_src=twsrc%5Etfw">#javascript</a> <a href="https://twitter.com/hashtag/react?src=hash&amp;ref_src=twsrc%5Etfw">#react</a> <a href="https://twitter.com/hashtag/reactjs?src=hash&amp;ref_src=twsrc%5Etfw">#reactjs</a> <a href="https://t.co/uPGyxUGtWn">pic.twitter.com/uPGyxUGtWn</a></p>&mdash; Paweł Grzybek (@pawelgrzybek) <a href="https://twitter.com/pawelgrzybek/status/913697990849826816?ref_src=twsrc%5Etfw">September 29, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
 
 The basic way is to return an array of elements. To avoid warnings you have to add a key to each element, although it may not be needed in the future.
 
@@ -21,10 +19,8 @@ const App = () => [
 ];
 ```
 
-<p>
 <p data-height="270" data-theme-id="14885" data-slug-hash="WZEKWj" data-default-tab="js,result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-10-02-1" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/WZEKWj/">2017-10-02-1</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 To avoid array notation and manually added keys to each of the element, you can use an `Aux` helper function that simply returns all its children. Like so…
 
@@ -39,10 +35,8 @@ const App = () =>
   </Aux>;
 ```
 
-<p>
 <p data-height="320" data-theme-id="14885" data-slug-hash="XeaPKo" data-default-tab="js,result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-10-02-2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/XeaPKo/">2017-10-02-2</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 **UPDATE!**
 
@@ -68,10 +62,8 @@ const App = () => (
 );
 ```
 
-<p>
 <p data-height="320" data-theme-id="14885" data-slug-hash="qVJwaN" data-default-tab="js,result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-10-02-3" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/qVJwaN/">2017-10-02-3</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 Nice! Isn't it?! Find out about more really cool features added in the new version of React in this [great Egghead course](https://egghead.io/courses/leverage-new-features-of-react-16) by [Nik Graf](https://twitter.com/nikgraf).
 

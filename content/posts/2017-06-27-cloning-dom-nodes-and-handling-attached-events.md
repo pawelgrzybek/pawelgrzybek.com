@@ -112,12 +112,8 @@ $('.js-source div').clone(true).appendTo('.js-destination')
 
 Hopefully that made sense and this article helped you out. Thanks for reading and don't forget about the share buttons below this article — I'm sure that your friends don't know much about cloning yet. I put together two examples for you to play with. The first one uses event delegation and `cloneNode()`, and the second one uses the jQuery `clone()` method. Peace!
 
-<p>
 <p data-height="320" data-theme-id="14885" data-slug-hash="eRWbJZ" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017.06.27 - clone elements (vanilla js)" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/eRWbJZ/">2017.06.27 - clone elements (vanilla js)</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
-<p>
 <p data-height="320" data-theme-id="14885" data-slug-hash="rwGQap" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017.06.27 - clone elements (jQuery)" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/rwGQap/">2017.06.27 - clone elements (jQuery)</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>

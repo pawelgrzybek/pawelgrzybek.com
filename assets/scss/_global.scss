@@ -60,16 +60,6 @@ a:active,
   color: var(--color-text);
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-bottom: var(--lh);
-}
-
 h1,
 h2,
 h3,
@@ -127,7 +117,6 @@ hr {
 }
 
 blockquote {
-  margin-bottom: var(--lh);
   padding: var(--lh);
   background: var(--color-box-background);
   box-shadow: inset 0 0 0 1px var(--color-box-border);
@@ -136,12 +125,4 @@ blockquote {
 blockquote p {
   margin: 0;
   font-style: italic;
-}
-
-figure {
-  margin-bottom: var(--lh);
-}
-
-figcaption {
-  font-size: var(--fz) / var(--type-scale) / var(--type-scale);
 }

@@ -101,10 +101,8 @@ As it says on the tin `background-blend-mode` applies a blend mode to `backgroun
 }
 ```
 
-<p>
 <p data-height="572" data-theme-id="14885" data-slug-hash="oWYgwd" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-04-28-1" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/oWYgwd/">2017-04-28-1</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 ### mix-blend-mode
 
@@ -127,10 +125,8 @@ It would be a bit restrictive to use blend modes with backgrounds only. That's t
 }
 ```
 
-<p>
 <p data-height="572" data-theme-id="14885" data-slug-hash="bWBNzV" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-04-28-2" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/bWBNzV/">2017-04-28-2</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 A word of advice! There is a bug in Chrome. Blending with the `body` element is broken in Google's browser — it works like a charm in other ones though.
 
@@ -168,10 +164,8 @@ And here is the result on the latest version of Google Chrome and IE 9.
 
 ![Cross browser Internet Explorer 9 CSS blend mode](/photos/2017-04-28-10.jpg)
 
-<p>
 <p data-height="472" data-theme-id="14885" data-slug-hash="GmNmJK" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-04-28-3" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/GmNmJK/">2017-04-28-3</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 ## I missed you CSS
 

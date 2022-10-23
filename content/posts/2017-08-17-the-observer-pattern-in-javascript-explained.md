@@ -69,9 +69,7 @@ input.addEventListener('keyup', e => {
 
 With a little help of a few control buttons (added to make the demo more interactive), it gives you the power to do cool things like this with just a few lines of code. Isn't it nice?
 
-<p>
 <p data-height="431" data-theme-id="14885" data-slug-hash="XaVRyY" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="XaVRyY" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/XaVRyY/">XaVRyY</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 This very simplified version of the observer pattern can save you from downloading some costly frameworks like Vue or React. If you are looking for a detailed explanation of it, I can't recommend enough ["Learning JavaScript Design Patterns"](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript) by Addy Osmani. Classic! Sometimes "Publication / Subscription" is used interchangeably to describe this pattern, although [there are some minor differences](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript) between them and Addy points them all out in his book. Hopefully this article helped you out. Until next time curious people :-)

@@ -61,9 +61,7 @@ for (let elm of elements) {
 }
 ```
 
-<p>
 <p data-height="400" data-theme-id="dark" data-slug-hash="YWqWXJ" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/YWqWXJ/">Intersection Observer API explained</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</p>
 
 Hopefully this has helped you out. Don't be shy and please share your experiments with using the Intersection Observer API. Any question? Please use the comments section below. If you liked this article please don't hesitate to use the share button. Thanks!
