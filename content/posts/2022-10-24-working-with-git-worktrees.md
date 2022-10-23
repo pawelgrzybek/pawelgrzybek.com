@@ -39,22 +39,26 @@ nothing to commit, working tree clean
 ```
 
 ```bash
-# Create a new working tree for new post one
+# Create a new working tree for new "post one"
+# at ~/Sites/pawelgrzybek.com-post-one
 $ git worktree add ../$(basename $(pwd))-post-one
 Preparing worktree (new branch 'pawelgrzybek.com-post-one')
-HEAD is now at 699f5266 little wording change
 
-# Create a new working tree for new post two
+# Create a new working tree for new "post two"
+# at ~/Sites/pawelgrzybek.com-post-two
 $ git worktree add ../$(basename $(pwd))-post-two
 Preparing worktree (new branch 'pawelgrzybek.com-post-two')
-HEAD is now at 699f5266 little wording change
 ```
 
 ```bash
+# List all woring trees
 $ git worktree list
-~/Sites/pawelgrzybek.com              699f5266 [master]
-~/Sites/pawelgrzybek.com-post-one     699f5266 [pawelgrzybek.com-post-one]
-~/Sites/pawelgrzybek.com-post-two     699f5266 [pawelgrzybek.com-post-two]
+~/Sites/pawelgrzybek.com            [master]
+~/Sites/pawelgrzybek.com-post-one   [pawelgrzybek.com-post-one]
+~/Sites/pawelgrzybek.com-post-two   [pawelgrzybek.com-post-two]
+
+#             👆                             👆
+#          Location                     Branch name
 ```
 
 By doing so, I created two new directories (`~/Sites/pawelgrzybek.com-post-one` and `~/Sites/pawelgrzybek.com-post-two`) on the same level where the origin lives (`~/Sites/pawelgrzybek.com`). Additionally, `git` created two new branches by following the names of new working trees (`pawelgrzybek.com-post-one` and `pawelgrzybek.com-post-two`).
@@ -63,4 +67,4 @@ Now I can work on multiple posts with ease without messy interruptions. Also, as
 
 ![The GitLens Worktrees panel in Visual Studio Code](/photos/2022-10-24-2.png)
 
-I hope that you liked it! Yo 👊
+It is cool, isn't it?! Yo 👊
