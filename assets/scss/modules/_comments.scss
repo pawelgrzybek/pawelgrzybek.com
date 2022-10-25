@@ -29,6 +29,10 @@
   word-wrap: break-word;
 }
 
+.comments__wrapper > * {
+  margin-bottom: var(--lh);
+}
+
 .comments__author {
   display: flex;
   margin-bottom: var(--lh);
