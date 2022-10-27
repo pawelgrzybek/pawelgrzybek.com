@@ -16,3 +16,13 @@ Custom open graph images can boost the engagement of your article by up to 40%. 
 ## [Style Queries](https://una.im/style-queries/)
 
 Container queries barely landed in almost all browsers (at the time of writing this article, we are still waiting for Firefox support), so it is time for another type of CSS query. This post by [Una](https://twitter.com/una) is a top introduction to [Style Container Queries](https://drafts.csswg.org/css-contain-3/#container-style-query). What's most exciting about it is that you can combine container and style queries, which opens new possibilities for CSS. It is an excellent time to be a CSS developer!
+
+## [Scroll-Linked Animations with ScrollTimeline and ViewTimeline | HTTP 203](https://youtu.be/Qf5wdXOxW3E)
+
+[Jake Archibald](https://jakearchibald.com) and [Bramus Van Damme](https://www.bram.us) from the Google team recorded this episode of HTTP 203 about the scroll-linked animations. Be aware that this is still an experimental feature, and you can play around with it only by using CSS/JS polyfill. Good one, dudes!
+
+{{< youtube Qf5wdXOxW3E >}}
+
+## [Introducing Turbopack: Rust-based successor to Webpack](https://vercel.com/blog/turbopack)
+
+Another addition to the turbo family of products by Vercel. After a good adoption of Turborepo that revolutionized how we work with monorepos, time to replace the most popular underlying technology of most JS projects nowadays — Webpack. Turbopack is written in Rust and offers up to 700 faster performance than Webpack. You can start using it now with Next.js 13. However, keep in mind that Turbopack is still in the alpha stage.
