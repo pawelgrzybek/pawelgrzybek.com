@@ -1,7 +1,7 @@
 ---
 title: "Top picks — 2022 October"
-summary: ""
-photo: "top-picks.jpg"
+summary: "The Shared Element Transitions API, OG Image Generation, Style Queries, Scroll-Linked Animations, Turbopack, Twitter vs Mastodon drama and a lot more!"
+photo: "2022-10-31.jpg"
 ---
 
 ## [Delightful UI Animations With Shared Element Transitions API (Part 1)](https://www.smashingmagazine.com/2022/10/ui-animations-shared-element-transitions-api-part1/)
@@ -17,12 +17,16 @@ Custom open graph images can boost the engagement of your article by up to 40%. 
 
 Container queries barely landed in almost all browsers (at the time of writing this article, we are still waiting for Firefox support), so it is time for another type of CSS query. This post by [Una](https://twitter.com/una) is a top introduction to [Style Container Queries](https://drafts.csswg.org/css-contain-3/#container-style-query). What's most exciting about it is that you can combine container and style queries, which opens new possibilities for CSS. It is an excellent time to be a CSS developer!
 
-## [Record & Tuple: immutable data structures in JS - Robin Ricard | NodeConf EU 2022](https://youtu.be/D_V0np5X0ww)
+## [Scroll-Linked Animations with ScrollTimeline and ViewTimeline | HTTP 203](https://youtu.be/Qf5wdXOxW3E)
 
-Records (`#{}`) and Tuples (`#[]`) are currently in stage 2 of the TC39 standardisation process, and maybe one day, we will see them being a part of the ECMAScript specification. One of the champions of this proposal, Robin Ricard, talked about this subject at NodeConf EU 2022. Quick, informative and well explained.
+[Jake Archibald](https://jakearchibald.com) and [Bramus Van Damme](https://www.bram.us) from the Google team recorded this episode of HTTP 203 about the scroll-linked animations. Be aware that this is still an experimental feature, and you can play around with it only by using CSS/JS polyfill. Good one, dudes!
 
-{{< youtube D_V0np5X0ww >}}
+{{< youtube Qf5wdXOxW3E >}}
 
-## [Why We're Breaking Up with CSS-in-JS](https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b)
+## [Introducing Turbopack: Rust-based successor to Webpack](https://vercel.com/blog/turbopack)
 
-A list of very interesting insights about CSS-in-JS by one of the core contrinutors to Emotion (one of the leading CSS-in-JS libraries). With CSS being more powerful, we are slowly coming back to basics. I love it!
+Another addition to the turbo family of products by Vercel. After a good adoption of Turborepo that revolutionized how we work with monorepos, time to replace the most popular underlying technology of most JS projects nowadays — Webpack. Turbopack is written in Rust and offers up to 700 faster performance than Webpack. You can start using it now with Next.js 13. However, keep in mind that Turbopack is still in the alpha stage.
+
+## [Getting started with Mastodon](https://2ality.com/2022/10/mastodon-getting-started.html)
+
+We have to deal with two hot dramas now — Kayne West and his rapid journey to bankruptcy and Eleon Mast and his latest acquisition — Twitter. I don't care about Kayne apart from his first two albums released ages ago. Twitter thingy is a bit more interesting to me. For many years, Twitter was where the Web Developers' community met, exchanging knowledge and resources. Things change tho, and Mastodon is an obvious alternative to many. Dr Axel Rauschmayer published this handy guide about this platform. An excellent read for everyone who is confused about Mastodon jargon.
