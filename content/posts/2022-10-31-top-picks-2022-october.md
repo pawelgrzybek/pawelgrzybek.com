@@ -1,7 +1,7 @@
 ---
 title: "Top picks — 2022 October"
-summary: ""
-photo: "top-picks.jpg"
+summary: "The Shared Element Transitions API, OG Image Generation, Style Queries, Scroll-Linked Animations, Turbopack, Twitter vs Mastodon drama and a lot more!"
+photo: "2022-10-31.jpg"
 ---
 
 ## [Delightful UI Animations With Shared Element Transitions API (Part 1)](https://www.smashingmagazine.com/2022/10/ui-animations-shared-element-transitions-api-part1/)
@@ -26,3 +26,7 @@ Container queries barely landed in almost all browsers (at the time of writing t
 ## [Introducing Turbopack: Rust-based successor to Webpack](https://vercel.com/blog/turbopack)
 
 Another addition to the turbo family of products by Vercel. After a good adoption of Turborepo that revolutionized how we work with monorepos, time to replace the most popular underlying technology of most JS projects nowadays — Webpack. Turbopack is written in Rust and offers up to 700 faster performance than Webpack. You can start using it now with Next.js 13. However, keep in mind that Turbopack is still in the alpha stage.
+
+## [Getting started with Mastodon](https://2ality.com/2022/10/mastodon-getting-started.html)
+
+We have to deal with two hot dramas now — Kayne West and his rapid journey to bankruptcy and Eleon Mast and his latest acquisition — Twitter. I don't care about Kayne apart from his first two albums released ages ago. Twitter thingy is a bit more interesting to me. For many years, Twitter was where the Web Developers' community met, exchanging knowledge and resources. Things change tho, and Mastodon is an obvious alternative to many. Dr Axel Rauschmayer published this handy guide about this platform. An excellent read for everyone who is confused about Mastodon jargon.
