@@ -1,7 +1,7 @@
 ---
 title: "I'm on Mastodon"
 summary: "I've been a Twitter user since June 2009. Things changed in the last few days. Elon Musk bought the platform, and things started collapsing. No surprise that a lot of users started to seek an alternative, and so did I."
-photo: "2022-11-05.jpg"
+photo: "2022-11-06.jpg"
 ---
 
 I've been a Twitter user since June 2009. Twitter is the only social media platform I use, and it has never been a procrastination space for me. Precisely the opposite! It was a place where I exchanged knowledge with other like-minded geeks. I made many friends there, and plenty of promising career opportunities emerged from this platform.
