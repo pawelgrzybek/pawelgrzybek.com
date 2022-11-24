@@ -15,3 +15,7 @@ The latest release of Deno makes npm compatibility stable. It is fantastic news 
 ## [AWS Lambda adds support for Node.js 18](https://aws.amazon.com/about-aws/whats-new/2022/11/aws-lambda-support-node-js-18/)
 
 This is well-appreciated news from the AWS team. AWS Lambda is Node.js 18 ready now. The main practical difference is `fetch()` added to the runtime, so you may not need `axios` or any other HTTP request libs from now on.
+
+## [An Interactive Guide to Flexbox in CSS](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+
+Unsurprisingly, the Web Development community went crazy about this article by Josh W. Comeau. It is the best explainer of the CSS flex model I have ever read. This article builds a great mental model about this powerful layout system, provides simple and good explanations of complex subjects and is full of good interactive examples.
