@@ -1,6 +1,6 @@
 ---
 title: "Disable/enable Pi-hole using Apple Shortcuts"
-summary: ""
+summary: "Pi-hole is my favourite ad-blocking solution. In most cases, it works like a charm, but from time to time, you just want to disable it temporarily."
 photo: "2022-12-01.jpg"
 ---
 
