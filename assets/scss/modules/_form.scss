@@ -1,6 +1,7 @@
 .form {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   position: relative;
 }
 
@@ -68,14 +69,9 @@
 
 @media screen and (min-width: 764px) {
   .form__col:nth-of-type(2),
-  .form__col:nth-of-type(3),
-  .form__col:nth-of-type(4) {
-    width: 100px;
-    margin-right: calc(var(--lh) / 2);
-  }
-
-  .form__col:nth-of-type(4) {
-    margin-right: 0;
+  .form__col:nth-of-type(3) {
+    flex-grow: 0;
+    flex-basis: calc(50% - var(--lh) / 2);
   }
 }
 
