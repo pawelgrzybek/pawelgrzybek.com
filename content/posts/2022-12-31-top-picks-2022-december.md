@@ -23,3 +23,7 @@ Fascinating debate about tRPC and GraphQL. I am keen to finally try tRPC as it i
 ## [React Router in Depth](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf)
 
 [The Net Ninja YouTube channel](https://www.youtube.com/@NetNinja/about) is an excellent source of knowledge, and I learned a lot from the author, Shaun Pelling. This playlist is a short series on React Router. Even though I used this package many times before, this series helped me to understand all the recent changes to the API. We live in the new generation of routers, where we have a much easier solution to provide layouts and nested routes without silly copy-pasting. If I am not mistaken, Remix was the first to introduce this concept (I am talking about the JS ecosystem, I am sure some PHP/Ruby frameworks have had it for years). The same pattern is now used in Next.js and React Router.
+
+## [ECMAScript proposal: Set methods](https://2ality.com/2022/12/set-methods.html)
+
+ECMAScript sets are the most underrated data structures in the language, and they are underused. This article by Dr Axel Rauschmayer is an excellent introduction to the new methods that will be added to the Set prototype. This proposal is currently in stage 3, which means it is ready to be implemented in browsers and Node.js. Will we see this in the next major release of ECMAScript? I hope so!
