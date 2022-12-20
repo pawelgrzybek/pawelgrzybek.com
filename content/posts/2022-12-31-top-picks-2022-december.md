@@ -19,3 +19,7 @@ You can guess how complex the TypeScript compiler is. Only the [type-checking pa
 ## [Discussing tRPC & GraphQL with Theo Browne & Max Stoiber](https://youtu.be/2-407yO8nEU)
 
 Fascinating debate about tRPC and GraphQL. I am keen to finally try tRPC as it is a much better fit for the type of projects I am working on. It looks like I am not the only one who thinks so.
+
+## [React Router in Depth](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf)
+
+[The Net Ninja YouTube channel](https://www.youtube.com/@NetNinja/about) is an excellent source of knowledge, and I learned a lot from the author, Shaun Pelling. This playlist is a short series on React Router. Even though I used this package many times before, this series helped me to understand all the recent changes to the API. We live in the new generation of routers, where we have a much easier solution to provide layouts and nested routes without silly copy-pasting. If I am not mistaken, Remix was the first to introduce this concept (I am talking about the JS ecosystem, I am sure some PHP/Ruby frameworks have had it for years). The same pattern is now used in Next.js and React Router.
