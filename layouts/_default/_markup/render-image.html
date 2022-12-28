@@ -7,7 +7,7 @@
     {{ $avifPathStatic:= printf "static/%s" $avifPath }}
 
     {{ if (fileExists $avifPathStatic) -}}
-      <source srcset="{{ $avifPath | safeURL }}" type="image/avif" media="(prefers-color-scheme: light)">
+      <source srcset="{{ $avifPath | safeURL }}" type="image/avif">
     {{- end }}
 
     {{ $avifPathDark:= replace .Destination ".jpg" "-dark.avif" }}
@@ -21,7 +21,7 @@
     {{ $webpPathStatic:= printf "static/%s" $webpPath }}
 
     {{ if (fileExists $webpPathStatic) -}}
-      <source srcset="{{ $webpPath | safeURL }}" type="image/webp" media="(prefers-color-scheme: light)">
+      <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
     {{- end }}
 
     {{ $webpPathDark:= replace .Destination ".jpg" "-dark.webp" }}
@@ -44,7 +44,7 @@
     {{ $avifPathStatic:= printf "static/%s" $avifPath }}
 
     {{ if (fileExists $avifPathStatic) -}}
-      <source srcset="{{ $avifPath | safeURL }}" type="image/avif" media="(prefers-color-scheme: light)">
+      <source srcset="{{ $avifPath | safeURL }}" type="image/avif">
     {{- end }}
 
     {{ $avifPathDark:= replace .Destination ".png" "-dark.avif" }}
@@ -58,7 +58,7 @@
     {{ $webpPathStatic:= printf "static/%s" $webpPath }}
 
     {{ if (fileExists $webpPathStatic) -}}
-      <source srcset="{{ $webpPath | safeURL }}" type="image/webp" media="(prefers-color-scheme: light)">
+      <source srcset="{{ $webpPath | safeURL }}" type="image/webp">
     {{- end }}
 
     {{ $webpPathDark:= replace .Destination ".png" "-dark.webp" }}
