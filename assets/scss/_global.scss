@@ -126,3 +126,12 @@ blockquote p {
   margin: 0;
   font-style: italic;
 }
+
+picture {
+  display: block;
+}
+
+figcaption {
+  font-size: calc(var(--fz) / var(--type-scale));
+  font-style: italic;
+}
