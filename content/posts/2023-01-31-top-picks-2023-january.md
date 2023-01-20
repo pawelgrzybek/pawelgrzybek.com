@@ -12,4 +12,6 @@ Dave Rupert as part of his [Web Components course on Frontend Masters](https://f
 
 This blog post is a significant improvement to GitHub Actions. Even though I am not a target user for required workflows, I can see how helpful it can be for big organisations. I am well excited about the second one, configurations variables. Not everything needs to be a secret.
 
-## []()
+## [Validate AWS Serverless Application Model (SAM) templates with CloudFormation Linter to speed up development](https://aws.amazon.com/about-aws/whats-new/2023/01/validate-aws-serverless-application-model-templates-cloudformation-linter/)
+
+I spent almost two years of my life messing around with CloudFormation templates. The `cfn-lint` CLI was one of the most helpful tools in this process. So I am happy to see this one being merged with AWS SAM (Serverless Application Model) CLI.
