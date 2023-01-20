@@ -15,3 +15,7 @@ This blog post is a significant improvement to GitHub Actions. Even though I am 
 ## [Validate AWS Serverless Application Model (SAM) templates with CloudFormation Linter to speed up development](https://aws.amazon.com/about-aws/whats-new/2023/01/validate-aws-serverless-application-model-templates-cloudformation-linter/)
 
 I spent almost two years of my life messing around with CloudFormation templates. The `cfn-lint` CLI was one of the most helpful tools in this process. So I am happy to see this one being merged with AWS SAM (Serverless Application Model) CLI.
+
+## [Announcing Rust Support in CodeSandbox](https://codesandbox.io/blog/announcing-rust-support-in-codesandbox)
+
+Rust, one of the most loved languages by developers, is getting more and more populat within the Web Developers community. CodeSandbox just dropped a support for it. This is so so so cool, and another strong sign to ay a closer attention to this language. 
