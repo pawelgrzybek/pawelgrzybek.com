@@ -1,7 +1,7 @@
 ---
 title: "Top picks — 2023 February"
 summary: ""
-photo: "2022-12-31.jpg"
+photo: "2022-12-28.jpg"
 ---
 
 ## [Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)
