@@ -35,11 +35,13 @@
   }
 
   .header__info__url a {
+    color: inherit;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: calc(var(--fz));
-    font-weight: 400;
+    font-variation-settings: "wght" 600, "slnt" 0;
+    text-decoration: none;
   }
 
   .header__info__url a::before {
@@ -104,11 +106,11 @@
   <div class="header__info">
     {{ if eq .IsHome true }}
     <h1 class="header__info__url">
-      <a href="/">pawelgrzybek.com</a>
+      <a href="/">Paweł Grzybek</a>
     </h1>
     {{ else }}
     <div class="header__info__url">
-      <a href="/">pawelgrzybek.com</a>
+      <a href="/">Paweł Grzybek</a>
     </div>
     {{ end }}
     <p class="header__info__description">Software Engineer at Polygon</p>

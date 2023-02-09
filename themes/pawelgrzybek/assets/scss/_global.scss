@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Inter";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: oblique 0deg 10deg;
+  src: url("/assets/Inter.var.woff2") format("woff2");
+}
+
 ::selection {
   background: var(--color-link);
   color: #fff;
@@ -26,11 +34,11 @@ html {
 body {
   background-color: var(--color-background);
   color: var(--color-text);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: var(--fz);
   line-height: var(--lh);
-  transition: background-color 0.5s;
+  transition: background-color 1s, color 1s;
 
   // background-image: linear-gradient(
   //   rgba(50, 50, 50, 0.15) 1px,
@@ -48,17 +56,20 @@ img {
 }
 
 a {
-  background: transparent;
-  color: var(--color-link);
-  word-wrap: break-word;
+  // background: transparent;
+  color: inherit;
+  text-decoration-color: var(--color-link);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  // word-wrap: break-word;
 }
 
-a:hover,
-a:focus,
-a:active,
-[aria-current="page"] {
-  color: var(--color-text);
-}
+// a:hover,
+// a:focus,
+// a:active,
+// [aria-current="page"] {
+//   color: var(--color-text);
+// }
 
 h1,
 h2,
@@ -67,7 +78,7 @@ h4,
 h5,
 h6 {
   margin-top: calc(var(--lh) * 1.5);
-  font-weight: 700;
+  font-variation-settings: "wght" 800, "slnt" 0;
   text-decoration: none;
   word-wrap: break-word;
 }
