@@ -40,7 +40,7 @@
     flex-direction: column;
     align-items: center;
     font-size: calc(var(--fz));
-    font-variation-settings: "wght" 600, "slnt" 0;
+    font-weight: 800;
     text-decoration: none;
   }
 
@@ -51,6 +51,7 @@
     background-image: url("/assets/logo.jpg");
     background-size: 100% 100%;
     border-radius: var(--lh);
+    box-shadow: 0 0 0 4px var(--color-background), 0 0 0 6px #FEA000;
   }
 
   .header__nav {
@@ -126,14 +127,6 @@
       </li>
       <li class="header__item">
         <a href="/feed.xml" title="RSS Feed">RSS</a>
-      </li>
-      <li class="header__item">
-        <a
-          href="https://twitter.com/intent/user?screen_name=pawelgrzybek"
-          title="Pawel Grzybek on Twitter"
-          rel="me"
-          >Twitter</a
-        >
       </li>
       <li class="header__item">
         <a

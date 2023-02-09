@@ -138,6 +138,7 @@
 .form__checkbox {
   margin-right: calc(var(--lh) / 4);
   cursor: pointer;
+  accent-color: var(--color-link);
 }
 
 .form__confirmation {

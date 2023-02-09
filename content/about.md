@@ -2,6 +2,8 @@
 title: About
 ---
 
-I'm Pawel Grzybek, a Software Engineer from Poland. I build Web stuff and write about it. A keen cyclist and a funky/jazz records collector. Welcome to my website!
+Hi, I'm Paweł, a software developer from Poland, now living in Northampton/UK. I
+do stuff on the web, write about it, and listen to funky/jazz records after
+hours. 
 
 ![Pawel Grzybek](/photos/about.jpg)
