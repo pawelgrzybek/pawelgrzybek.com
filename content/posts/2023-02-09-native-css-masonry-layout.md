@@ -7,7 +7,7 @@ photo: "2023-02-09.jpg"
 A masonry type of layout, one of the biggest obsessions of UX designers,  is finally coming to CSS. Style popularized by Pinterest, where elements fill the vertical gaps instead of being aligned to the row axis.
 
 {{< figure caption="A default layout alignment vs masonry" >}} 
-![A bunch of random photos from 2022](/photos/2023-02-09-1.png)
+![A default layout alignment vs masonry](/photos/2023-02-09-1.png)
 {{< /figure >}}
 
 Over the years, we have seen a lot of JavaScript-based solutions to achieve this effect. [Masonry by David DeSandro](https://masonry.desandro.com) is the most popular one. I created [Bricky](https://github.com/pawelgrzybek/bricky) seven years ago (WOW, time flies 🤯) that solves the same problem. Luckily we can start thinking about getting rid of these hefty libraries.
