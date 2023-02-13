@@ -15,3 +15,7 @@ Top Web giants came together to improve the interoperability of the Web platform
 ## [The Third Browser War](https://mobiledevmemo.com/the-new-browser-wars/)
 
 When writing this article, it is against [Apple’s developer guidelines](https://mobiledevmemo.com/the-new-browser-wars/) to use Web context driven by an engine other than Apple’s WebKit. This didn’t scare other Web giants to work in the background on browsers based on Google’s Chromium and Firefoxe’s Geco. Is it just playing ahead of the game, assuming that Apple will change their policy? Maybe they know more than we do about some upcoming changes? I don’t know, but I am sure opening iOS for new engines is going to big a significant event in this industry. Subject worth following.
+
+## [React.js: The Documentary](https://youtu.be/8pDqJVdNa44)
+
+Honeypot is well known for its high-quality video productions about open-source project development. They released a big one about React.js, which is outstandingly good. I enjoyed every single second of this production. From the early days and the very sceptically received presentation, through the polishing process, to the trophy of the most popular framework nowadays.
