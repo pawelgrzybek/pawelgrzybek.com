@@ -19,3 +19,9 @@ When writing this article, it is against [Apple’s developer guidelines](https:
 ## [React.js: The Documentary](https://youtu.be/8pDqJVdNa44)
 
 Honeypot is well known for its high-quality video productions about open-source project development. They released a big one about React.js, which is outstandingly good. I enjoyed every single second of this production. From the early days and the very sceptically received presentation, through the polishing process, to the trophy of the most popular framework nowadays.
+
+{{< youtube 8pDqJVdNa44 >}}
+
+## [High Definition CSS Color Guide](https://developer.chrome.com/articles/high-definition-css-color-guide/)
+
+This resource by [Adam Argyle](https://nerdy.dev) is a gem. Lengthy but absolutely worth reading. It is the resource you should read if you are confused about the recent hype about new color notations, spaces and gamuts introduced by the [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/).
