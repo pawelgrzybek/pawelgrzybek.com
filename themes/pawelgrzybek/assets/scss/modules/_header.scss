@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--lh);
+  position: relative;
+  padding-block: calc(var(--lh) * 2);
+}
+
+.header__skip {
+  position: absolute;
+  top: 0;
+  padding-inline: calc(var(--lh) / 2);
+  font-size: calc(var(--fz) / var(--type-scale));
+  transform: scale(0);
+}
+
+.header__skip:focus {
+  transform: scale(1);
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__info,
+.header__description {
+  margin: 0;
+  line-height: var(--lh);
+}
+
+.header__link {
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(var(--fz));
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.header__link::before {
+  content: "";
+  width: calc(var(--lh) * 2);
+  height: calc(var(--lh) * 2);
+  background-image: url("/logo.jpg");
+  background-size: 100% 100%;
+  border-radius: var(--lh);
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+}
+
+.header__list {
+  display: flex;
+  gap: calc(var(--lh) / 2);
+  margin: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: calc(var(--lh) * 3) var(--lh);
+  }
+
+  .header__logo {
+    flex-direction: row;
+  }
+
+  .header__link {
+    flex-direction: row;
+    gap: calc(var(--lh) / 2);
+  }
+
+  .header__description::before {
+    content: "\00B7";
+    margin-inline: calc(var(--lh) / 4);
+  }
+}

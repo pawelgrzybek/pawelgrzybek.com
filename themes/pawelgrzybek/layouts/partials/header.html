@@ -1,150 +1,50 @@
-<style>
-  .header {
-    position: relative;
-    padding: calc(var(--lh) * 2) var(--lh);
-    display: flex;
-    flex-direction: column;
-    gap: var(--lh);
-    max-width: 1400px;
-    margin-inline: auto;
-  }
+<div class="wrapper wrapper--header">
 
-  .header__skip {
-    position: absolute;
-    top: 0;
-    left: var(--lh);
-    padding-inline: calc(var(--lh) / 2);
-    font-size: calc(var(--fz) / var(--type-scale));
-    transform: scale(0);
-  }
+  <header class="header">
+    <a class="header__skip" href="#main">Skip to content</a>
 
-  .header__skip:focus {
-    transform: scale(1);
-  }
-
-  .header__info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .header__info__url,
-  .header__info__description {
-    margin: 0;
-    line-height: var(--lh);
-  }
-
-  .header__info__url a {
-    color: inherit;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: calc(var(--fz));
-    font-weight: 800;
-    text-decoration: none;
-  }
-
-  .header__info__url a::before {
-    content: "";
-    width: calc(var(--lh) * 2);
-    height: calc(var(--lh) * 2);
-    background-image: url("/assets/logo.jpg");
-    background-size: 100% 100%;
-    border-radius: var(--lh);
-    box-shadow: 0 0 0 4px var(--color-background), 0 0 0 6px #FEA000;
-  }
-
-  .header__nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .header__nav {
-    display: flex;
-  }
-
-  .header__list {
-    width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: calc(var(--lh) / 2);
-    list-style: none;
-  }
-
-  @media screen and (min-width: 1000px) {
-    .header {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      padding: calc(var(--lh) * 3) var(--lh);
-    }
-
-    .header__info {
-      flex-direction: row;
-    }
-
-    .header__info__url a {
-      flex-direction: row;
-      gap: calc(var(--lh) / 2);
-    }
-
-    .header__info__description::before {
-      content: "·";
-      margin-inline: calc(var(--lh) / 4);
-    }
-
-    .header__nav {
-      flex-direction: row;
-    }
-  }
-</style>
-
-<header class="header">
-  <a class="header__skip" href="#main">Skip to content</a>
-
-  <div class="header__info">
-    {{ if eq .IsHome true }}
-    <h1 class="header__info__url">
-      <a href="/">Paweł Grzybek</a>
-    </h1>
-    {{ else }}
-    <div class="header__info__url">
-      <a href="/">Paweł Grzybek</a>
+    <div class="header__logo">
+      {{ if eq .IsHome true }}
+      <h1 class="header__info">
+        <a class="header__link" href="/">Paweł Grzybek</a>
+      </h1>
+      {{ else }}
+      <div class="header__info">
+        <a class="header__link" href="/">Paweł Grzybek</a>
+      </div>
+      {{ end }}
+      <p class="header__description">Software Engineer at Polygon</p>
     </div>
-    {{ end }}
-    <p class="header__info__description">Software Engineer at Polygon</p>
-  </div>
 
-  <nav class="header__nav">
-    <ul class="header__list">
-      <li class="header__item">
-        <a {{ if eq .RelPermalink "/about/" }}aria-current="page"{{ end }} href="/about" title="About">About</a>
-      </li>
-      <li class="header__item">
-        <a {{ if eq .RelPermalink "/archive/" }}aria-current="page"{{ end }} href="/archive" title="Archive">Archive</a>
-      </li>
-      <li class="header__item">
-        <a href="/feed.xml" title="RSS Feed">RSS</a>
-      </li>
-      <li class="header__item">
-        <a
-          href="https://mastodon.social/@pawelgrzybek"
-          title="Pawel Grzybek on Mastodon"
-          rel="me"
-          >Mastodon</a
-        >
-      </li>
-      <li class="header__item">
-        <a
-          href="https://github.com/pawelgrzybek"
-          title="Pawel Grzybek on GitHub"
-          rel="me"
-          >GitHub</a
-        >
-      </li>
-    </ul>
-  </nav>
-</header>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <a {{ if eq .RelPermalink "/about/" }}aria-current="page"{{ end }} href="/about" title="About">About</a>
+        </li>
+        <li class="header__item">
+          <a {{ if eq .RelPermalink "/archive/" }}aria-current="page"{{ end }} href="/archive" title="Archive">Archive</a>
+        </li>
+        <li class="header__item">
+          <a href="/feed.xml" title="RSS Feed">RSS</a>
+        </li>
+        <li class="header__item">
+          <a
+            href="https://mastodon.social/@pawelgrzybek"
+            title="Pawel Grzybek on Mastodon"
+            rel="me"
+            >Mastodon</a
+          >
+        </li>
+        <li class="header__item">
+          <a
+            href="https://github.com/pawelgrzybek"
+            title="Pawel Grzybek on GitHub"
+            rel="me"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
 

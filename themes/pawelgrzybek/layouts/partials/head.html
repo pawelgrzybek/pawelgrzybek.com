@@ -18,7 +18,7 @@
   <meta property="og:url" content="{{ .Permalink | absURL }}">
   <meta property="og:type" content="{{ if eq .Type "page" }}website{{ else }}article{{ end }}">
   <meta property="og:description" content="{{ if eq .Section "posts" }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:image" content="{{ if eq .Type "page" }}{{ .Site.BaseURL }}/assets/logo.png{{ else }}{{ .Site.BaseURL }}/photos/{{ .Params.photo }}{{ end }}">
+  <meta property="og:image" content="{{ if eq .Type "page" }}{{ .Site.BaseURL }}/logo.png{{ else }}{{ .Site.BaseURL }}/photos/{{ .Params.photo }}{{ end }}">
 
   {{ "<!-- Twitter Card -->" | safeHTML }}
   <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@
 
   {{ "<!-- Favicons -->" | safeHTML }}
   <!-- https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
-  <link rel="icon" href="/assets/favicon.ico" sizes="any"><!-- 32×32 -->
-  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml"><!-- 16×16 -->
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><!-- 180×180 -->
-  <link rel="manifest" href="/assets/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
+  <link rel="icon" href="/icon.svg" type="image/svg+xml"><!-- 16×16 -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+  <link rel="manifest" href="/manifest.webmanifest">
 
   {{ "<!-- Styles -->" | safeHTML }}
   {{ $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
