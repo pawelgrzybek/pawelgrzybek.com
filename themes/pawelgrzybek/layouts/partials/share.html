@@ -1,43 +1,19 @@
-<style>
-  .share {
-    list-style: none;
-    margin: 0;
-    display: flex;
-    margin-block: calc(var(--lh) * 2);
-  }
-
-  .share__item::after {
-    content: "·";
-    margin-inline: calc(var(--lh) / 4);
-  }
-
-  .share__item:last-of-type::after {
-    display: none;
-  }
-
-  .share__item__button {
-    all: unset;
-    cursor: pointer;
-    color: var(--color-link);
-    text-decoration: underline;
-  }
-
-  .share__item__button:hover {
-    color: var(--color-text);
-  }
-</style>
-
-<ul class="share">
-  <li class="share__item js-share-container">
+<div class="share">
+  <p>
+    Did you like it? Please share it with your friends or get me a
+    <del>beer</del> coffee. Thanks!
+  </p>
+  <div class="share__buttons">
     <button class="share__item__button js-share-button">Share it</button>
-  </li>
-  <li class="share__item">
-    <a href="https://www.buymeacoffee.com/pawelgrzybek">Buy me a coffee</a>
-  </li>
-</ul>
+    <a
+      class="share__item__button"
+      href="https://www.buymeacoffee.com/pawelgrzybek"
+      >Buy me a coffee</a
+    >
+  </div>
+</div>
 
 <script>
-  const shareContainer = document.querySelector(".js-share-container");
   const shareButton = document.querySelector(".js-share-button");
 
   navigator.share
@@ -50,5 +26,5 @@
           .then(() => console.log("Sucesfully shared"))
           .catch((error) => console.log(error.message));
       })
-    : (shareContainer.style.display = "none");
+    : (shareButton.style.display = "none");
 </script>

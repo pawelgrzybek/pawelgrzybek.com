@@ -44,7 +44,9 @@
   content: "";
   width: calc(var(--lh) * 2);
   height: calc(var(--lh) * 2);
+  background-color: var(--color-link);
   background-image: url("/logo.jpg");
+  // background-blend-mode: luminosity;
   background-size: 100% 100%;
   border-radius: var(--lh);
 }
@@ -66,7 +68,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: calc(var(--lh) * 3) var(--lh);
+    padding-block: calc(var(--lh) * 3);
   }
 
   .header__logo {
