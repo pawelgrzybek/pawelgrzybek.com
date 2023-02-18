@@ -9,26 +9,6 @@
 
       {{ .Content }}
 
-      {{ if eq .Title "Archive" }}
-        <ul>
-          {{- range (where .Site.Pages.ByDate.Reverse "Section" "posts").GroupByDate "2006" -}}
-          <li><a href="#{{ .Key }}">Published in {{ .Key }} ({{ len .Pages }} posts)</a></li>
-          {{end}}
-        </ul>
-
-        {{ range (where .Site.Pages.ByDate.Reverse "Section" "posts").GroupByDate "2006" }}
-          <h2 id="{{ .Key }}">Published in {{ .Key }} ({{ len .Pages }} posts) <a href="#{{ .Key }}" class="post__hash">#</a></h2>
-          <ul class="archive">
-            {{ range .Pages }}
-              <li class="archive__item">
-                <a class="archive__link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-                <p class="archive__date">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time></p>
-              </li>
-            {{ end }}
-          </ul>
-        {{ end }}
-      {{ end }}
-
       {{ partial "share.html" . }}
 
       {{ $commentsKey := replace .RelPermalink "/" "" }}
@@ -45,25 +25,23 @@
       {{ partial "form.html" (dict "context" . "hidden" false "parent" "") }}
 
     </article>
-
-    <script>
-      const headings = document.querySelectorAll(
-        ".js-post :is(h2, h3, h4, h5, h6)"
-      );
-
-      for (const heading of headings) {
-        const hash = document.createElement("a");
-
-        hash.href = `#${heading.id}`;
-        hash.innerHTML = "#";
-        hash.className = "post__hash";
-
-        heading.appendChild(hash);
-      }
-    </script>
-    <script src="/comments.js"></script>
-
-
   </div>
+
+  <script>
+    const headings = document.querySelectorAll(
+      ".js-post :is(h2, h3, h4, h5, h6)"
+    );
+
+    for (const heading of headings) {
+      const hash = document.createElement("a");
+
+      hash.href = `#${heading.id}`;
+      hash.innerHTML = "#";
+      hash.className = "post__hash";
+
+      heading.appendChild(hash);
+    }
+  </script>
+  <script src="/comments.js"></script>
 
 {{ end }}
