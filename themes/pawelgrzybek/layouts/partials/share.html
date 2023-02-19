@@ -4,27 +4,34 @@
     <del>beer</del> coffee. Thanks!
   </p>
   <div class="share__buttons">
-    <button class="share__item__button js-share-button">Share it</button>
+    <button class="share__item__button js-share-button"></button>
     <a
       class="share__item__button"
       href="https://www.buymeacoffee.com/pawelgrzybek"
       >Buy me a coffee</a
     >
   </div>
+  <p hidden class="js-share-confirmation">All done 👌</p>
 </div>
 
 <script>
-  const shareButton = document.querySelector(".js-share-button");
+  const ELEMENT_SHARE_BUTTON = document.querySelector(".js-share-button");
+  const ELEMENT_SHARE_BUTTON_CONFIRMATION = document.querySelector(
+    ".js-share-confirmation"
+  );
+  const isShareSupported = "share" in navigator;
 
-  navigator.share
-    ? shareButton.addEventListener("click", () => {
-        navigator
-          .share({
-            title: document.title,
-            url: location.href,
-          })
-          .then(() => console.log("Sucesfully shared"))
-          .catch((error) => console.log(error.message));
-      })
-    : (shareButton.style.display = "none");
+  ELEMENT_SHARE_BUTTON.textContent = isShareSupported ? "Share it" : "Copy URL";
+
+  ELEMENT_SHARE_BUTTON.addEventListener("click", () => {
+    (isShareSupported
+      ? navigator.share({
+          title: document.title,
+          url: location.href,
+        })
+      : navigator.clipboard.writeText(location.href)
+    )
+      .then(() => ELEMENT_SHARE_BUTTON_CONFIRMATION.removeAttribute("hidden"))
+      .catch((error) => console.log(error.message));
+  });
 </script>
