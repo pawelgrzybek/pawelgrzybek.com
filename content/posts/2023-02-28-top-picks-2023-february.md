@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2023 February"
-summary: "Netlify Acquires Gatsby, Web Interop in 2023, The Third Browser War, "
+summary: "Netlify Acquires Gatsby, Web Interop in 2023, The Third Browser War, React.js: The Documentary, High Definition CSS Color Guide, a good reminder about Maps and Sets in JavaScrip, "
 photo: "2022-12-28.jpg"
 ---
 
@@ -25,3 +25,7 @@ Honeypot is well known for its high-quality video productions about open-source 
 ## [High Definition CSS Color Guide](https://developer.chrome.com/articles/high-definition-css-color-guide/)
 
 This resource by [Adam Argyle](https://nerdy.dev) is a gem. Lengthy but absolutely worth reading. It is the resource you should read if you are confused about the recent hype about new color notations, spaces and gamuts introduced by the [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/).
+
+## [Use Maps More and Objects Less](https://www.builder.io/blog/maps)
+
+This an excellent reminder from [Steve Sewell from builder.io](https://twitter.com/steve8708) about the potential of Maps and Sets in JavaScript and why we should use them more often instead of Sets and Maps. When are they better than objects, and what are their little-known benefits? Very good read.
