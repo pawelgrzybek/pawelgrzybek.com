@@ -2,10 +2,11 @@
 
 <div class="wrapper">
 
-    <article class="post js-post">
-      <h1 class="post__title">{{ .Title }}</h1>
-
-      {{ .Content }}
+    <article class="post">
+      <div class="post__content">
+        <h1 class="post__title">{{ .Title }}</h1>
+        {{ .Content }}
+      </div>
 
       {{ if eq .Title "Archive" }}
         <ul>

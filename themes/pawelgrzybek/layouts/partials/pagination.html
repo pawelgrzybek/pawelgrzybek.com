@@ -1,35 +1,58 @@
 <style>
   .paginator {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
     padding-block: calc(var(--lh) * 2);
   }
 
-  .paginator__col + .paginator__col::before {
+  .paginator__button {
+    background: var(--color-link);
+    color: var(--color-background);
+    border: 0;
+    font: inherit;
+    padding: calc(var(--lh) / 4) var(--lh);
+    cursor: pointer;
+    font-size: calc(var(--fz) / var(--type-scale));
+    font-weight: 600;
+    border-radius: var(--border-radius);
+    box-shadow: inset 0 0 0 2px var(--color-link);
+    text-decoration: none;
+  }
+
+  .paginator__button:hover {
+    background: var(--color-background);
+    color: var(--color-link);
+  }
+
+  .paginator__button:last-of-type {
+    margin-inline-start: auto;
+  }
+
+  /* .paginator__col + .paginator__col::before {
     content: "·";
     margin-inline: calc(var(--lh) / 4);
-  }
+  } */
 </style>
 
-<div class="paginator">
-  {{ if eq .Paginator.HasPrev true }}
-  <div class="paginator__col">
+<div class="wrapper wrapper--paginator">
+  <div class="paginator">
+    {{ if eq .Paginator.HasPrev true }}
     <a
+      class="paginator__button"
       href="{{ .Paginator.Prev.URL }}"
       title="Go to page {{ .Paginator.Prev.PageNumber }}"
     >
-      Previous page ({{ .Paginator.Prev.PageNumber }} / {{ .Paginator.TotalPages
-      }})
+      Page ({{ .Paginator.Prev.PageNumber }} / {{ .Paginator.TotalPages }})
     </a>
-  </div>
-  {{ end }} {{ if eq .Paginator.HasNext true }}
-  <div class="paginator__col paginator__col--next">
+    {{ end }} {{ if eq .Paginator.HasNext true }}
     <a
+      class="paginator__button"
       href="{{ .Paginator.Next.URL }}"
       title="Go to page {{ .Paginator.Next.PageNumber }}"
     >
-      Next page ({{ .Paginator.Next.PageNumber }} / {{ .Paginator.TotalPages }})
+      Page ({{ .Paginator.Next.PageNumber }} / {{ .Paginator.TotalPages }})
     </a>
+    {{ end }}
   </div>
-  {{ end }}
 </div>

@@ -3,17 +3,17 @@
   margin-bottom: calc(var(--lh) * 3);
 }
 
-.post > * {
-  margin-bottom: var(--lh);
-}
-
-.post__title {
-  margin-top: 0;
-}
+// .post__title {
+//   margin-top: 0;
+// }
 
 .post__meta {
-  margin-top: calc(var(--lh) * -1);
+  margin-bottom: var(--lh);
   font-size: calc(var(--fz) / var(--type-scale));
+}
+
+.post__content > * {
+  margin-bottom: var(--lh);
 }
 
 .post__hash {
