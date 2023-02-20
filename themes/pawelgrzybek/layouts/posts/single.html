@@ -18,11 +18,11 @@
       {{ if $commentsExist }}
         {{ $commentsObject := index .Site.Data.comments $commentsKey }}
         {{ $comments := index $commentsObject "comments" }}
-        <h2 id="comments">Comments</h2>
+        <h2 id="comments" class="mbe">Comments</h2>
         {{ partial "comments.html" (dict "context" . "comments" $comments) }}
       {{ end }}
 
-      <h2 id="comments">Leave a comment</h2>
+      <h2 id="comments" class="mbe">Leave a comment</h2>
       {{ partial "form.html" (dict "context" . "hidden" false "parent" "") }}
 
     </article>

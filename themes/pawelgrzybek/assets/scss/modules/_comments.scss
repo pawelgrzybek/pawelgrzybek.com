@@ -110,24 +110,3 @@
   color: inherit;
   text-decoration: none;
 }
-
-.comments__reply {
-  margin-bottom: calc(var(--lh) / 2);
-  background: transparent;
-  display: block;
-  height: var(--lh);
-  border: 0;
-  color: var(--color-link);
-  font: inherit;
-  font-size: calc(var(--fz) / var(--type-scale) / var(--type-scale));
-  cursor: pointer;
-  background: var(--color-background);
-  padding: 0 calc(var(--lh) / 2);
-  border-radius: var(--border-radius);
-  box-shadow: inset 0 0 0 1px var(--color-link);
-
-  &:hover {
-    background: var(--color-link);
-    color: var(--color-background);
-  }
-}

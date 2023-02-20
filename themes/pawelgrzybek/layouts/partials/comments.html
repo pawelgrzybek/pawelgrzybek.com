@@ -39,7 +39,7 @@
 
           {{ safeHTML .comment }}
 
-        <button class="comments__reply js-comments__reply">
+        <button class="btn btn--secondary btn--small js-comments__reply">
           Reply to {{ .name }}
         </button>
         {{ partial "form.html" (dict "context" . "hidden" true "parent" .id ) }}

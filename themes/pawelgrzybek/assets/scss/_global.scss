@@ -137,3 +137,7 @@ figcaption {
   font-size: calc(var(--fz) / var(--type-scale));
   font-style: italic;
 }
+
+.mbe {
+  margin-block-end: var(--lh);
+}
