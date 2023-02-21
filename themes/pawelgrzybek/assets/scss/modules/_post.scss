@@ -1,8 +1,8 @@
 .post {
-  margin-bottom: calc(var(--lh) * 3);
+  margin-block-end: calc(var(--lh) * 3);
 }
 
 .post__meta {
-  margin-bottom: var(--lh);
+  margin-block-end: var(--lh);
   font-size: calc(var(--fz) / var(--type-scale));
 }
