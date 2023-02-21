@@ -4,26 +4,26 @@
 
     <article class="post js-post">
       <h1>{{ .Title }}</h1>
-      <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> · {{ .ReadingTime }} minutes read</p>
+      <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> · {{ .ReadingTime }} {{ if (eq .ReadingTime 1) }}minute{{ else }}minutes{{ end }} read</p>
 
-      <div class="post__content">
+      <div class="content">
         {{ .Content }}
-      </div>
 
-      {{ partial "share.html" . }}
+        {{ partial "share.html" . }}
 
-      {{ $commentsKey := replace .RelPermalink "/" "" }}
-      {{ $commentsExist := isset .Site.Data.comments $commentsKey }}
+        {{ $commentsKey := replace .RelPermalink "/" "" }}
+        {{ $commentsExist := isset .Site.Data.comments $commentsKey }}
 
-      {{ if $commentsExist }}
+        {{ if $commentsExist }}
         {{ $commentsObject := index .Site.Data.comments $commentsKey }}
         {{ $comments := index $commentsObject "comments" }}
-        <h2 id="comments" class="mbe">Comments</h2>
+        <h2 id="comments">Comments</h2>
         {{ partial "comments.html" (dict "context" . "comments" $comments) }}
-      {{ end }}
+        {{ end }}
 
-      <h2 id="comments" class="mbe">Leave a comment</h2>
-      {{ partial "form.html" (dict "context" . "hidden" false "parent" "") }}
+        <h2 id="leave-a-comment">Leave a comment</h2>
+        {{ partial "form.html" (dict "context" . "hidden" false "parent" "") }}
+      </div>
 
     </article>
   </div>
@@ -38,7 +38,7 @@
 
       hash.href = `#${heading.id}`;
       hash.innerHTML = "#";
-      hash.className = "post__hash";
+      hash.className = "anchor";
 
       heading.appendChild(hash);
     }

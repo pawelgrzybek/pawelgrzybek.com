@@ -68,7 +68,6 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: calc(var(--lh) * 1.5);
   font-weight: 800;
   text-decoration: none;
   word-wrap: break-word;
@@ -136,8 +135,4 @@ picture {
 figcaption {
   font-size: calc(var(--fz) / var(--type-scale));
   font-style: italic;
-}
-
-.mbe {
-  margin-block-end: var(--lh);
 }

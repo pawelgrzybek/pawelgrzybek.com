@@ -1,11 +1,10 @@
 .archive {
-  margin-left: 0;
+  margin-inline-start: 0;
   list-style: none;
 }
 
 .archive__item {
-  padding: calc(var(--lh) / 2) 0;
-  box-shadow: 0 1px 0 0 var(--color-box-border);
+  margin-block-end: calc(var(--lh) / 2);
 }
 
 .archive__link {
@@ -18,7 +17,7 @@
   }
 }
 
-.archive__date {
+.archive__meta {
   margin: 0;
   font-size: calc(var(--fz) / var(--type-scale));
 }

@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<div class="wrapper">
+  <div class="content">
+    <h1 id="hi">Hi, I'm Paweł<a class="anchor" href="#hi">#</a></h1>
+    <p>Hi, I'm Paweł, a software developer from Poland, now living in Northampton/UK. I do stuff on the web, write about it, and listen to funky/jazz records after hours.</p>
+
+    <picture>
+      <source srcset="/photos/home.avif" type="image/avif">
+      <source srcset="/photos/home.webp" type="image/webp">
+      <img src="/photos/home.png" alt="Photo of myself" loading="lazy" decoding="async" width="1800" height="1013">
+    </picture>
+
+    <h2 id="recent-blog-posts">Recent blog posts <a class="anchor" href="#recent-blog-posts">#</a></h2>
+    <ul class="archive">
+      {{ $posts := (where .Site.Pages "Section" "posts") }}
+
+      {{ range first 5 $posts }}
+      <li class="archive__item">
+        <a class="archive__link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+        <p class="archive__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> · {{ .ReadingTime }} {{ if (eq .ReadingTime 1) }}minute{{ else }}minutes{{ end }} read</p>
+      </li>
+      {{ end }}
+    </ul>
+
+    <a href="/archive" class="btn">Browse all posts ({{ len $posts }})</a>
+  </div>
+</div>
+
+{{ end }}

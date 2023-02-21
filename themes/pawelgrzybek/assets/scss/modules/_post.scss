@@ -1,29 +1,8 @@
-/* Post */
 .post {
   margin-bottom: calc(var(--lh) * 3);
 }
 
-// .post__title {
-//   margin-top: 0;
-// }
-
 .post__meta {
   margin-bottom: var(--lh);
   font-size: calc(var(--fz) / var(--type-scale));
-}
-
-.post__content > * {
-  margin-bottom: var(--lh);
-}
-
-.post__hash {
-  text-decoration: none;
-  margin-left: calc(var(--lh) / 4);
-  color: var(--color-text);
-  opacity: 0.25;
-
-  &:hover {
-    color: var(--color-link);
-    opacity: 1;
-  }
 }

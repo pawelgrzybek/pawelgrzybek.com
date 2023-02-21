@@ -1,0 +1,11 @@
+.anchor {
+  text-decoration: none;
+  margin-inline-start: calc(var(--lh) / 4);
+  color: var(--color-text);
+  opacity: 0.25;
+
+  &:hover {
+    color: var(--color-link);
+    opacity: 1;
+  }
+}

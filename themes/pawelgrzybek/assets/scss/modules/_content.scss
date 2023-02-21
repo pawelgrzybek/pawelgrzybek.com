@@ -1,0 +1,7 @@
+.content > :where(*:not(*:last-child)) {
+  margin-block-end: var(--lh);
+}
+
+.content > * + :is(h2, h3, h4, h5, h6) {
+  margin-block-start: calc(var(--lh) * 1.5);
+}

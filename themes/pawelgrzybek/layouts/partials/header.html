@@ -1,4 +1,4 @@
-<div class="wrapper wrapper--header">
+<div class="wrapper wrapper--wide">
 
   <header class="header">
     <a class="header__skip" href="#main">Skip to content</a>
@@ -18,9 +18,6 @@
 
     <nav class="header__nav">
       <ul class="header__list">
-        <li class="header__item">
-          <a {{ if eq .RelPermalink "/about/" }}aria-current="page"{{ end }} href="/about" title="About">About</a>
-        </li>
         <li class="header__item">
           <a {{ if eq .RelPermalink "/archive/" }}aria-current="page"{{ end }} href="/archive" title="Archive">Archive</a>
         </li>
