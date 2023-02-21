@@ -5,6 +5,9 @@
     <div class="content">
       <h1>Error 404</h1>
       <p>The page you requested doesn't exist.</p>
+
+      {{ $posts := (where .Site.Pages "Section" "posts") }}
+      <a href="/archive" class="btn">Browse all posts ({{ len $posts }})</a>
     </div>
   </article>
 </div>

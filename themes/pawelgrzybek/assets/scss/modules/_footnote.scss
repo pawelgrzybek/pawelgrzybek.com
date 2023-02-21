@@ -1,0 +1,7 @@
+a[href^="#fn"] {
+  text-decoration: none;
+}
+
+.footnotes hr {
+  margin-block-end: var(--lh);
+}

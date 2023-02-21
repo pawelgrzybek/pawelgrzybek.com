@@ -29,3 +29,5 @@ theme = ['pawelgrzybek']
       unsafe = true
     [markup.goldmark.parser]
       wrapStandAloneImageWithinParagraph = false
+    [markup.goldmark.extensions]
+      footnote = true
