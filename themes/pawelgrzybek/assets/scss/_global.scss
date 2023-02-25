@@ -136,3 +136,10 @@ figcaption {
   font-size: calc(var(--fz) / var(--type-scale));
   font-style: italic;
 }
+
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: calc(var(--lh) / -4);
+  font-size: calc(var(--fz) / var(--type-scale));
+}
