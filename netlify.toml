@@ -3,18 +3,18 @@
   command = "rm -rf data && mkdir data  && curl -s -o data/comments.json https://6u9a2qa0kh.execute-api.eu-west-2.amazonaws.com/prod/?accessToken=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo --gc --minify"
 
 [[redirects]]
-  from = "/about"
-  to = "/"
+  from = "about"
+  to = "archive"
   force = true
 
 [[redirects]]
-  from = "/uses"
+  from = "uses"
+  to = "archive"
   force = true
-  to = "/"
 
 [[redirects]]
-  from = "/page/*"
-  to = "/archive"
+  from = "page/*"
+  to = "archive"
   force = true
 
 [context.production.environment]
