@@ -4,15 +4,18 @@
 
 [[redirects]]
   from = "/about"
-  to = "https://pawelgrzybek.com"
+  to = "/"
+  force = true
 
 [[redirects]]
   from = "/uses"
-  to = "https://pawelgrzybek.com"
+  force = true
+  to = "/"
 
 [[redirects]]
   from = "/page/*"
-  to = "https://pawelgrzybek.com/archive"
+  to = "/archive"
+  force = true
 
 [context.production.environment]
   HUGO_VERSION = "0.110.0"
