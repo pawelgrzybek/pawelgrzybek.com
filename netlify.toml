@@ -1,17 +1,14 @@
 [[redirects]]
-  from = "about"
-  to = "archive"
-  force = true
+  from = "/about/"
+  to = "/archive/"
 
 [[redirects]]
-  from = "uses"
-  to = "archive"
-  force = true
+  from = "/uses/"
+  to = "/archive/"
 
 [[redirects]]
   from = "page/*"
   to = "archive"
-  force = true
 
 [build]
   publish = "public/"
