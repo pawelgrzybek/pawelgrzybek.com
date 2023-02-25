@@ -1,14 +1,14 @@
 [[redirects]]
-  from = "/about/"
-  to = "/archive/"
+  from = "/about"
+  to = "/archive"
 
 [[redirects]]
-  from = "/uses/"
-  to = "/archive/"
+  from = "/uses"
+  to = "/archive"
 
 [[redirects]]
-  from = "page/*"
-  to = "archive"
+  from = "/page/*"
+  to = "/archive"
 
 [build]
   publish = "public/"
