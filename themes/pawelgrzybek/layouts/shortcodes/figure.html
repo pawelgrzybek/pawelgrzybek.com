@@ -1,4 +1,94 @@
 <figure>
-  {{ .Inner | markdownify }}
+  <picture>
+    {{- $destination := .Get "src" }}
+    {{- $isJPG := eq (path.Ext $destination) ".jpg" -}}
+    {{- $isPNG := eq (path.Ext $destination) ".png" -}}
+  
+    {{- if ($isJPG) -}}
+      {{- $avifPath:= replace $destination ".jpg" ".avif" -}}
+      {{- $avifPathStatic:= printf "static%s" $avifPath -}}
+  
+      {{- if (fileExists $avifPathStatic) -}}
+        <source srcset="{{- $avifPath | safeURL -}}" type="image/avif" media="(prefers-color-scheme: light)">
+      {{- end -}}
+  
+      {{- $avifPathDark:= replace $destination ".jpg" "-dark.avif" -}}
+      {{- $avifPathDarkStatic:= printf "static%s" $avifPathDark -}}
+  
+      {{- if (fileExists $avifPathDarkStatic) -}}
+        <source srcset="{{- $avifPathDark | safeURL -}}" type="image/avif" media="(prefers-color-scheme: dark)">
+      {{- end -}}
+  
+      {{- $webpPath:= replace $destination ".jpg" ".webp" -}}
+      {{- $webpPathStatic:= printf "static%s" $webpPath -}}
+  
+      {{- if (fileExists $webpPathStatic) -}}
+        <source srcset="{{- $webpPath | safeURL -}}" type="image/webp" media="(prefers-color-scheme: light)">
+      {{- end -}}
+  
+      {{- $webpPathDark:= replace $destination ".jpg" "-dark.webp" -}}
+      {{- $webpPathDarkStatic:= printf "static%s" $webpPathDark -}}
+  
+      {{- if (fileExists $webpPathDarkStatic) -}}
+        <source srcset="{{- $webpPathDark | safeURL -}}" type="image/webp" media="(prefers-color-scheme: dark)">
+      {{- end -}}
+  
+      {{- $jpgPathDark:= replace $destination ".jpg" "-dark.jpg" -}}
+      {{- $jpgPathDarkStatic:= printf "static%s" $jpgPathDark -}}
+  
+      {{- if (fileExists $jpgPathDarkStatic) -}}
+        <source srcset="{{- $jpgPathDark | safeURL -}}" media="(prefers-color-scheme: dark)">
+      {{- end -}}
+    {{- end -}}
+  
+    {{- if ($isPNG) -}}
+      {{- $avifPath:= replace $destination ".png" ".avif" -}}
+      {{- $avifPathStatic:= printf "static%s" $avifPath -}}
+  
+      {{- if (fileExists $avifPathStatic) -}}
+        <source srcset="{{- $avifPath | safeURL -}}" type="image/avif" media="(prefers-color-scheme: light)">
+      {{- end -}}
+  
+      {{- $avifPathDark:= replace $destination ".png" "-dark.avif" -}}
+      {{- $avifPathDarkStatic:= printf "static%s" $avifPathDark -}}
+  
+      {{- if (fileExists $avifPathDarkStatic) -}}
+        <source srcset="{{- $avifPathDark | safeURL -}}" type="image/avif" media="(prefers-color-scheme: dark)">
+      {{- end -}}
+  
+      {{- $webpPath:= replace $destination ".png" ".webp" -}}
+      {{- $webpPathStatic:= printf "static%s" $webpPath -}}
+  
+      {{- if (fileExists $webpPathStatic) -}}
+        <source srcset="{{- $webpPath | safeURL -}}" type="image/webp" media="(prefers-color-scheme: light)">
+      {{- end -}}
+  
+      {{- $webpPathDark:= replace $destination ".png" "-dark.webp" -}}
+      {{- $webpPathDarkStatic:= printf "static%s" $webpPathDark -}}
+  
+      {{- if (fileExists $webpPathDarkStatic) -}}
+        <source srcset="{{- $webpPathDark | safeURL -}}" type="image/webp" media="(prefers-color-scheme: dark)">
+      {{- end -}}
+  
+      {{- $pngPathDark:= replace $destination ".png" "-dark.png" -}}
+      {{- $pngPathDarkStatic:= printf "static%s" $pngPathDark -}}
+  
+      {{- if (fileExists $pngPathDarkStatic) -}}
+        <source srcset="{{- $pngPathDark | safeURL -}}" media="(prefers-color-scheme: dark)">
+      {{- end -}}
+    {{- end -}}
+  
+    {{- $img := imageConfig (add "/static" ($destination | safeURL)) -}}
+  
+    <img
+      src="{{- $destination | safeURL -}}"
+      alt="{{- .Get "alt" -}}"
+      loading="lazy"
+      decoding="async"
+      width="{{- $img.Width -}}"
+      height="{{- $img.Height -}}"
+    />
+  </picture>
+  
   <figcaption>{{ .Get "caption" }}</figcaption>
 </figure>
