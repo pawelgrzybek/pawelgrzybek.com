@@ -11,3 +11,7 @@ This article came out of nowhere. I have never heard that this feature is someth
 ## [Bash for Beginners](https://youtube.com/playlist?list=PLlrxD0HtieHh9ZhrnEbZKhzk0cetzuX7l)
 
 If you work as a developer, you must admit that avoiding some basic shell knowledge is hard. I rarely use bash or any other shell scripts, but when I need to, I rely purely on Stack Overflow. This quick course helped me a lot.
+
+## [Introducing Signals](https://preactjs.com/blog/introducing-signals/)
+
+I have never been a big fan of React hooks, especially all these crazy complicated patterns with memoization and `useCallbacks`. It always felt like something that the framework should handle for us. My intuition was correct, because it was not only my concern. We hear more and more about signals, a new paradigm to manage the state of applications and components that removes this mental gymnastics to keep things working optimally. This article by [Marvin Hagemeister](https://marvinh.dev) and [Jason Miller](https://mastodon.social/@developit) is by far the best explanation of Signals I have read.
