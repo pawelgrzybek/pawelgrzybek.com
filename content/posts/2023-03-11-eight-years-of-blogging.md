@@ -2,6 +2,7 @@
 title: "Eight years of blogging"
 summary: "Exactly eight years ago, I published \"Hello there!\" on this website. Since then, I have published hundreds of articles. Persistent writing is excellent for many reasons and is the best thing I have ever done for my personal and professional development."
 photo: "2023-03-11.jpg"
+draft: true
 ---
 
 Exactly eight years ago, I published ["Hello there!"](/hello-there/) on this website. Since then, I have published hundreds of articles. Persistent writing is excellent for many reasons and is the best thing I have ever done for my personal and professional development.
