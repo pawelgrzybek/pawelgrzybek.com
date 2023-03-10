@@ -49,6 +49,4 @@ I know my English could be better, but when I compare my communication skills fr
 
 Last but not least — blogging is fun! If it wasn't fun, I wouldn't have continued over the last eight years to write this crap for you all, right? Having a little space on the Web where you can do whatever the heck you want is fun. Using it for learning new skills and teaching others is fun. Exchanging links with others is fun!
 
-I recently read ["Bring back personal blogging" by Monique Judge](https://www.theverge.com/23513418/bring-back-personal-blogging), and I love the closing paragraph. Let me leave you with it because there is no chance I can come up with a better ending.
-
-> Buy that domain name. Carve your space out on the web. Tell your stories, build your community, and talk to your people. It doesn't have to be big. It doesn't have to be fancy. You don't have to reinvent the wheel. It doesn't need to duplicate any space that already exists on the web — in fact, it shouldn't. This is your creation. It's your expression. It should reflect you. 
+So go get that domain and build a website. It doesn't need to be fancy. Please share your stories and keep them authentic. You don't want to sound like somebody else, you want to sound like you! Most importantly, have lots of fun 😘
