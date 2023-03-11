@@ -2,7 +2,6 @@
 title: "Eight years of blogging"
 summary: "Exactly eight years ago, I published \"Hello there!\" on this website. Since then, I have published hundreds of articles. Persistent writing is excellent for many reasons and is the best thing I have ever done for my personal and professional development."
 photo: "2023-03-11.jpg"
-draft: true
 ---
 
 Exactly eight years ago, I published ["Hello there!"](/hello-there/) on this website. Since then, I have published hundreds of articles. Persistent writing is excellent for many reasons and is the best thing I have ever done for my personal and professional development.
@@ -33,7 +32,7 @@ Over the years, this website allowed me to test multiple built tools and hosting
 
 Every time I write about something, I do it out of passion, although you need a bit more than passion to write a good article. A technical (or not) post requires a certain understanding of the subject. Unfortunately, having both doesn't guarantee a good piece either.
 
-The long process of crystalising your thoughts and finding an easier way to explain a complex subject puts you a step closer to clicking the "publish" button. Spending more time on this process improves your understanding of the subject, and the more you understand it, the easier it gets to explain it.
+The long process of crystalising your thoughts and finding an easier way to explain a complex subject puts you a step closer to clicking the "publish" button. Spending more time on this process improves your understanding of the subject, and the more you understand it, the easier it gets to compress the insights and explain them.
 
 ## Easy English
 
