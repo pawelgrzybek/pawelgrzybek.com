@@ -15,3 +15,7 @@ If you work as a developer, you must admit that avoiding some basic shell knowle
 ## [Introducing Signals](https://preactjs.com/blog/introducing-signals/)
 
 I have never been a big fan of React hooks, especially all these crazy complicated patterns with memoization and `useCallbacks`. It always felt like something that the framework should handle for us. My intuition was correct, because it was not only my concern. We hear more and more about signals, a new paradigm to manage the state of applications and components that removes this mental gymnastics to keep things working optimally. This article by [Marvin Hagemeister](https://marvinh.dev) and [Jason Miller](https://mastodon.social/@developit) is by far the best explanation of Signals I have read.
+
+## [Zed](https://zed.dev)
+
+From the creators of Atom, Zed is the new code editor that promises high performance, collaboration features, a built-in terminal, a command palette, support for familiar language servers, themes support and anything you could expect from a modern code editor. I love seeing some competition on the market. I love using Visual Studio Code, but it can be slow, and the number of new features can be overwhelming. Zed promises performance even better than Sublime Text but without sacrificing functionality. I am looking forward to the future of this project!
