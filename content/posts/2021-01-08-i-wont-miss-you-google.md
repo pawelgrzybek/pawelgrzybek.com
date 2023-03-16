@@ -8,7 +8,7 @@ To find the best price for a dreamed up a pair of shoes, you probably use Google
 
 Isn’t that all a little bit concerning that one company knows about your passions, salary, what you eat, where you go and what the fuck is your shoe size? It’s scary for me, so I decided to move away from the Mountain View Google bandwagon. My privacy is my primary motivation, but you can easily find a lot of evidence that [companies like Google don’t positively impact civilization](https://www.scientificamerican.com/article/big-tech-out-of-control-capitalism-and-the-end-of-civilization/).
 
-When [I moved away from Adobe products](http://localhost:1313/i-wont-miss-you-adobe/) back in 2015, I went through an exciting journey looking for alternatives. I already have a list of products that replaced the army of Google services with great success. Let me share.
+When [I moved away from Adobe products](/i-wont-miss-you-adobe/) back in 2015, I went through an exciting journey looking for alternatives. I already have a list of products that replaced the army of Google services with great success. Let me share.
 
 ## Alternatives to Google services
 
