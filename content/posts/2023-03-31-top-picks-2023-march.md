@@ -19,3 +19,7 @@ I have never been a big fan of React hooks, especially all these crazy complicat
 ## [Zed](https://zed.dev)
 
 From the creators of Atom, Zed is the new code editor that promises high performance, collaboration features, a built-in terminal, a command palette, support for familiar language servers, themes support and anything you could expect from a modern code editor. I love seeing some competition on the market. I love using Visual Studio Code, but it can be slow, and the number of new features can be overwhelming. Zed promises performance even better than Sublime Text but without sacrificing functionality. I am looking forward to the future of this project!
+
+## [Announcing TypeScript 5.0](https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/)
+
+The fifth version of TS just landed with support for decorators and impressive performance optimizations. It is hard not to care about TS nowadays, and this release comes with a few more new reasons to get familiar with this superset of JavaScript. I recently bought [Total TypeScript by Matt Pocock](https://www.totaltypescript.com), and I cannot recommend it enough! So far, I have accomplished just the first section of paid material, and I already feel like a TS wizard.
