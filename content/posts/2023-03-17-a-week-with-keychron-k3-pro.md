@@ -8,9 +8,6 @@ Over the last 16 years, I have been using Apple computers. Also, since then, I h
 
 ![Keychrone K3 Pro](/photos/2023-03-17-1.jpg)
 
-
-
-
 Here is a heads-up for all die-hard mechanic keyboard enthusiasts out there. I could be a better touch typist. I have no clue about hot-swappable switches and PBT keycaps. I couldn’t care less about the patterns of RGB backlights syncing with your soul or whateva. I am just an ordinary bloke trying one of the most frequently recommended keyboards by YouTubers and having some fun.
 
 ## Quality
