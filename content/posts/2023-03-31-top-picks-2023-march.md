@@ -23,3 +23,7 @@ From the creators of Atom, Zed is the new code editor that promises high perform
 ## [Announcing TypeScript 5.0](https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/)
 
 The fifth version of TS just landed with support for decorators and impressive performance optimizations. It is hard not to care about TS nowadays, and this release comes with a few more new reasons to get familiar with this superset of JavaScript. I recently bought [Total TypeScript by Matt Pocock](https://www.totaltypescript.com), and I cannot recommend it enough! So far, I have accomplished just the first section of paid material, and I already feel like a TS wizard.
+
+## [Podcast Standards Project | Advocating for open podcasting](https://podstandards.org)
+
+Please do not let Spotify and other giants kill podcasting. Podcasting, in its simplicity, is one of the most beautiful Web inventions ever, and there are better ways to go than hiding some of its parts behind a paywall or player exclusive to a company. Please support open podcasting!
