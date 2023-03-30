@@ -27,3 +27,7 @@ The fifth version of TS just landed with support for decorators and impressive p
 ## [Podcast Standards Project | Advocating for open podcasting](https://podstandards.org)
 
 Please do not let Spotify and other giants kill podcasting. Podcasting, in its simplicity, is one of the most beautiful Web inventions ever, and there are better ways to go than hiding some of its parts behind a paywall or player exclusive to a company. Please support open podcasting!
+
+## [Announcing the GitHub Actions extension for VS Code](https://github.blog/2023-03-28-announcing-the-github-actions-extension-for-vs-code/)
+
+Managing, monitoring and triggering GitHub Actions without leaving your code editor — yes, please! I am pleased about this announcement. Using this extension on top of [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) rarely forces me to leave Visual Studio Code. Also, the syntax highlighting and built-in documentation preview for action is helpful.
