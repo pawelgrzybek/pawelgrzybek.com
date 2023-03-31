@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2023 March"
-summary: ""
+summary: "CSS anchor positioning, Bash for Beginners, Introducing Signals, Rust-based Zed, TypeScript 5.0 landed, Podcast Standards Project and GitHub Actions extension for VS Code."
 photo: "2023-03-31.jpg"
 ---
 
@@ -14,7 +14,7 @@ If you work as a developer, you must admit that avoiding some basic shell knowle
 
 ## [Introducing Signals](https://preactjs.com/blog/introducing-signals/)
 
-I have never been a big fan of React hooks, especially all these crazy complicated patterns with memoization and `useCallbacks`. It always felt like something that the framework should handle for us. My intuition was correct, because it was not only my concern. We hear more and more about signals, a new paradigm to manage the state of applications and components that removes this mental gymnastics to keep things working optimally. This article by [Marvin Hagemeister](https://marvinh.dev) and [Jason Miller](https://mastodon.social/@developit) is by far the best explanation of Signals I have read.
+I have never been a big fan of React hooks, especially all these crazy complicated patterns with memoization and `useCallbacks`. It always felt like something that the framework should handle for us. My intuition was correct because it was not only my concern. We hear more and more about signals, a new paradigm to manage the state of applications and components that removes this mental gymnastics to keep things working optimally. This article by [Marvin Hagemeister](https://marvinh.dev) and [Jason Miller](https://mastodon.social/@developit) is the best explanation of Signals I have read.
 
 ## [Zed](https://zed.dev)
 
