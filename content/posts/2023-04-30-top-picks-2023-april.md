@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2023 April"
-summary: ""
+summary: "Rust Trademark Policy, The Acronyms of Rendering on the Web, Node.js 20, oklch color space, Dialogs and popovers seem similar and more!"
 photo: "2023-04-30.jpg"
 ---
 
