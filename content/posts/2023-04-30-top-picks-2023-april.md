@@ -10,17 +10,17 @@ In August last year, the Rust Foundation stated a desire to take action to enfor
 
 ## [The Acronyms of Rendering on the Web](https://www.netlify.com/blog/the-acronyms-of-rendering/)
 
-In the world of modern front end developement, it is easy to get lost with many rendering techniques. The fact that people use accronyms when talk about rendering methods doesn't help. This article by Salma Alam-Naylor is a helpful reference if you are confused between SR, SSR, CSR, SSG, ISR, DPR, ESR and others.
+In modern front-end development, getting lost in many rendering techniques is easy. The fact that people use acronyms when talking about rendering methods doesn’t help. This article by Salma Alam-Naylor is a helpful reference if you are confused between SR, SSR, CSR, SSG, ISR, DPR, ESR and others.
 
 ## [Node.js 20 is now available!](https://nodejs.org/en/blog/announcements/v20-release-announce)
 
-Node v20.0.0 just landed and it is packed with new features. Inspired by Deno permission model is an experimental mechanism for resources. It also adds support for [all new ECMAScript 2023 features](/whats-new-in-ecmascript-2023/), makes a test runner stable, improves performance of the URL parser and a lot more. Pretty exciting release!
+Node v20.0.0 just landed, and it is packed with new features. Inspired by the Deno permission model is an experimental mechanism for resources. It also supports [all new ECMAScript 2023 features](/whats-new-in-ecmascript-2023/), makes a test runner stable, improves the performance of the URL parser and a lot more. Pretty exciting release!
 
 ## [It's time to learn oklch color](https://keithjgrant.com/posts/2023/04/its-time-to-learn-oklch-color/)
 
-CSS is getting a lot new amazing features lately. A big category of them is related to colors. Keith J. Grant explains why we should start using the new color space called `oklch`. Is it going to be a next one to rule them all for a next decade?
+CSS is getting a lot of new features lately. A significant category of them is related to colours. Keith J. Grant explains why we should start using the latest colour space called `oklch`. Is it going to be the next one to rule them all for the next decade?
 
 
 ## [Dialogs and popovers seem similar. How are they different?](https://hidde.blog/dialog-modal-popover-differences/)
 
-One ot the recent episodes Syntax.fm podcast titles "Modals, Popups, Popovers, Lightboxes" triggered my curiosity and I started to wonder about the differences between these UI components. Not long after that I found this article by Hidde de Vries that goes in depth about all these concepts and explains how to use them properly. Who whould have thought that there is as much to learn about dialogs and popovers?
+One of the recent episodes Syntax.fm podcast titled “Modals, Popups, Popovers, Lightboxes” triggered my curiosity, and I started to wonder about the differences between these UI components. Not long after, I found this article by Hidde de Vries that goes in-depth about all these concepts and explains how to use them properly. Who would have thought there was as much to learn about dialogues and popovers?
