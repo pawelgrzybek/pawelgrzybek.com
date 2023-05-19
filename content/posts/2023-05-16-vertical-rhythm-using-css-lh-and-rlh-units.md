@@ -8,7 +8,7 @@ Vertical rhythm is a design concept that helps to create a harmonious layout by 
 
 [^1]: It is just a snarky joke. I love you designers out there ❣️
 
-![Test](/photos/2023-05-16-1.jpg)
+![Vertical rhythm grid on my website](/photos/2023-05-16-1.jpg)
 
 Correctly implementing vertical rhythm is a tedious task. Luckily, the [CSS Values and Units Module Level 4](https://www.w3.org/TR/css-values-4/) defines two helpful units that make the job a breeze: `lh` and `rlh`, which are equal to the computed `line-height` of the element on which it is used and the root element, respectively.
 

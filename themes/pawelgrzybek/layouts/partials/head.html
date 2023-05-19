@@ -8,8 +8,8 @@
   <meta name="description" content="{{ if eq .Section "posts" }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
   {{ "<!-- Safari tab bar -->" | safeHTML }}
-  <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#24292e" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="hsl(255 0% 100%)" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="hsl(210 15% 15%)" media="(prefers-color-scheme: dark)" />
 
   {{ "<!-- Open graph data -->" | safeHTML }}
   <meta property="og:site_name" content="{{ .Site.Title }}">

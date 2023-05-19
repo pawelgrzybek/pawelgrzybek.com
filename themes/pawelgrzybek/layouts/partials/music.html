@@ -1,0 +1,64 @@
+<style>
+  .music {
+    margin: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--lh);
+  }
+
+  .music__link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .music__link:hover .music__cover {
+    opacity: 0.7;
+  }
+
+  .music__cover {
+    aspect-ratio: 1;
+    object-fit: cover;
+    margin-block-end: calc(var(--lh) / 2);
+    background: var(--color-box-background);
+  }
+
+  .music__artist {
+    font-weight: 800;
+  }
+
+  .music__title {
+    margin-block-end: auto;
+  }
+
+  .music__added {
+    font-size: calc(var(--fz) / var(--type-scale));
+  }
+</style>
+
+<ul class="music">
+  {{ range $.Site.Data.music }}
+  <li class="music__item">
+    <a href="{{ .url }}" class="music__link">
+      {{ if eq .cover nil }}
+      <div class="music__cover"></div>
+      {{ else }}
+      <img
+        class="music__cover"
+        src="/{{ .cover }}"
+        alt="{{ .artist }} - {{ .title }}"
+        loading="lazy"
+        decoding="async"
+        width="600"
+        height="600"
+      />
+      {{ end }}
+
+      <p class="music__artist">{{ .artist }}</p>
+      <p class="music__title">{{ .title }} ({{ .year }})</p>
+      <p class="music__added">Added: {{ .added }}</p>
+    </a>
+  </li>
+  {{ end }}
+</ul>
