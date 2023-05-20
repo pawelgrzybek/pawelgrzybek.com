@@ -35,6 +35,11 @@
   <link rel="icon" href="/icon.svg" type="image/svg+xml"><!-- 16×16 -->
   <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
   <link rel="manifest" href="/manifest.webmanifest">
+  
+  {{ "<!-- This is required to enable viewTransition API -->" | safeHTML }}
+  {{ "<!-- This is required to enable viewTransition API for navigations -->" | safeHTML }}
+  {{ "<!-- It is an experimental implementation -->" | safeHTML }}
+  <meta name="view-transition" content="same-origin" />
 
   {{ "<!-- Styles -->" | safeHTML }}
   {{- $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
