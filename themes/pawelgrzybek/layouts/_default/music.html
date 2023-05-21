@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div class="wrapper">
+  <article class="post">
+    <div class="content">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </div>
+  </article>
+</div>
+
+<div class="wrapper wrapper--huge">{{ partial "music.html" . }}</div>
+
+{{ end }}

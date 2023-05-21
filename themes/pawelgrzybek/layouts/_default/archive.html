@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<div class="wrapper">
+
+  <article class="post">
+    <div class="content">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+
+      <ul>
+        {{- range (where .Site.Pages.ByDate.Reverse "Section" "posts").GroupByDate "2006" -}}
+        <li><a href="#{{ .Key }}">{{ .Key }} ({{ len .Pages }} posts)</a></li>
+        {{end}}
+      </ul>
+
+      {{ range (where .Site.Pages.ByDate.Reverse "Section" "posts").GroupByDate "2006" }}
+        <h2 id="{{ .Key }}">{{ .Key }} ({{ len .Pages }} posts) <a href="#{{ .Key }}" class="anchor">#</a></h2>
+        <ul class="archive">
+          {{ range .Pages }}
+            <li class="archive__item">
+              <a class="archive__link" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+              <p class="archive__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> · {{ .ReadingTime }} {{ if (eq .ReadingTime 1) }}minute{{ else }}minutes{{ end }} read</p>
+            </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+  </article>
+
+</div>
+
+{{ end }}

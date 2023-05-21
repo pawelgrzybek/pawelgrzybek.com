@@ -1,3 +1,4 @@
 ---
 title: Archive
+layout: archive
 ---
