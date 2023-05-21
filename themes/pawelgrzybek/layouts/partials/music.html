@@ -39,7 +39,7 @@
 </style>
 
 <ul class="music">
-  {{ range $.Site.Data.music }}
+  {{ range $.Site.Data.music.releases }}
   <li class="music__item">
     <a href="{{ .url }}" class="music__link">
       {{ if eq .cover nil }}
