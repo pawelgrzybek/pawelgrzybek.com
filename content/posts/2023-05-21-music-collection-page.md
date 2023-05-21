@@ -10,4 +10,4 @@ Fast forward a few years, and I am a keen records collector. Another thing that 
 
 ![Screenshot presenting my Discogs collection, and its reflection on my personal website](/photos/2023-05-21-1.png)
 
-I hope you like it and maybe our collection pages will inspire you to create a similar one. Share it with me if you have one!
+I hope you like it, and our collection pages will inspire you to create a similar one. Share it with me if you have one!
