@@ -1,9 +1,10 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>{{ .Site.Title }}</title>
         <link>{{ .Site.BaseURL }}</link>
         <description>{{ .Site.Params.description }}</description>
+        <atom:link href="{{ .Site.BaseURL }}/feed.xml" rel="self" type="application/rss+xml" />
         {{ $posts := (where .Site.Pages "Section" "posts") }}
         {{ range first 10 $posts }}
         <item>
@@ -13,7 +14,7 @@
             {{ .Content | html }}
             </description>
             <guid isPermaLink="true">{{ .Permalink }}</guid>
-            <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</pubDate>
+            <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0600" | safeHTML }}</pubDate>
         </item>
         {{ end }}
     </channel>
