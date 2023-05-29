@@ -34,7 +34,7 @@ RSS (Really Simple Syndication) is the oldest feed format, with its first versio
         <title>Example website title</title>
         <link>https://example.com</link>
         <description>Example website description.</description>
-        <atom:link href="https://example.com/feed.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml" />
         <item>
             <title>Post one</title>
             <link>https://example.com/posts-one</link>
@@ -70,7 +70,7 @@ Atom was developed as an alternative to RSS to address problems concerning date 
     <author>
         <name>John Doe</name>
     </author>
-    <link href="https://example.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link href="https://example.com/atom.xml" rel="self" type="application/rss+xml" />
     <subtitle>Example website description.</subtitle>
     <entry>
         <id>https://example.com/posts-one</id>
@@ -96,7 +96,7 @@ Atom was developed as an alternative to RSS to address problems concerning date 
 JSON Feed is the newest format, released in 2017 and last time updated in August 2020. It is based on JSON compared to XML-based RSS and Atom. Due to its simplicity, it is gaining quick adoption by client applications.
 
 ```html
-<link type="application/feed+json" rel="alternate" href="https://example.com/feed.xml" title="Example - JSON Feed" />
+<link type="application/feed+json" rel="alternate" href="https://example.com/feed.json" title="Example - JSON Feed" />
 ```
 
 ```json
