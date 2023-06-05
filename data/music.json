@@ -1,6 +1,15 @@
 {
-  "date": "2023-05-28T09:07:37.080Z",
+  "date": "2023-06-05T11:13:28.950Z",
   "releases": [
+    {
+      "id": 27293340,
+      "artist": "Pharoahe Monch",
+      "title": "Internal Affairs",
+      "year": 0,
+      "added": "2023.06.05",
+      "url": "https://www.discogs.com/release/27293340-Pharoahe-Monch-Internal-Affairs",
+      "cover": "covers/27293340.jpg"
+    },
     {
       "id": 2186362,
       "artist": "Various",
