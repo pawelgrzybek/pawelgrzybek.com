@@ -1,6 +1,24 @@
 {
-  "date": "2023-06-05T11:13:28.950Z",
+  "date": "2023-06-20T13:48:56.229Z",
   "releases": [
+    {
+      "id": 27391953,
+      "artist": "Little Simz",
+      "title": "No Thank You",
+      "year": 2023,
+      "added": "2023.06.20",
+      "url": "https://www.discogs.com/release/27391953-Little-Simz-No-Thank-You",
+      "cover": "covers/27391953.jpg"
+    },
+    {
+      "id": 27400167,
+      "artist": "Lil' Kim",
+      "title": "Hard Core",
+      "year": 2023,
+      "added": "2023.06.20",
+      "url": "https://www.discogs.com/release/27400167-Lil-Kim-Hard-Core",
+      "cover": "covers/27400167.jpg"
+    },
     {
       "id": 27293340,
       "artist": "Pharoahe Monch",
