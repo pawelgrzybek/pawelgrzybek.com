@@ -1,6 +1,24 @@
 {
-  "date": "2023-06-20T13:48:56.229Z",
+  "date": "2023-06-23T18:09:49.981Z",
   "releases": [
+    {
+      "id": 26120162,
+      "artist": "Various",
+      "title": "Niewidzialna Nerka",
+      "year": 2023,
+      "added": "2023.06.23",
+      "url": "https://www.discogs.com/release/26120162-Various-Niewidzialna-Nerka",
+      "cover": "covers/26120162.jpg"
+    },
+    {
+      "id": 27129783,
+      "artist": "O.S.T.R.",
+      "title": "Diaporama",
+      "year": 2023,
+      "added": "2023.06.23",
+      "url": "https://www.discogs.com/release/27129783-OSTR-Diaporama",
+      "cover": "covers/27129783.jpg"
+    },
     {
       "id": 27391953,
       "artist": "Little Simz",
