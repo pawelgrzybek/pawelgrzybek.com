@@ -1,7 +1,7 @@
 ---
 title: "Five things I like/dislike #6"
 summary: "I started sharing some things I like/dislike occasionally. No particular schedule and no limitation about the stuff I write about —  I am just having fun sharing some cool shit with you all!"
-photo: "2023-04-23.jpg"
+photo: "2023-06-23.jpg"
 ---
 
 I love the "5 things I like right now" series of posts by [Mike Crittenden](https://critter.blog). So, inspired by it, I started sharing some things I like/dislike occasionally. No particular schedule and no limitation about the stuff I write about — I am just having fun sharing some cool shit with you all!
