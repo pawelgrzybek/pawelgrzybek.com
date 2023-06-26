@@ -1,4 +1,4 @@
 .footer {
   font-size: calc(var(--fz) / var(--type-scale));
-  padding: calc(var(--lh) * 2) var(--lh);
+  padding-block: calc(var(--lh) * 2);
 }
