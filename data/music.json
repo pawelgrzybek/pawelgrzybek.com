@@ -1,6 +1,15 @@
 {
-  "date": "2023-06-23T18:09:49.981Z",
+  "date": "2023-07-07T05:11:27.560Z",
   "releases": [
+    {
+      "id": 406021,
+      "artist": "Looptroop (2)",
+      "title": "The Struggle Continues",
+      "year": 2002,
+      "added": "2023.07.06",
+      "url": "https://www.discogs.com/release/406021-Looptroop-The-Struggle-Continues",
+      "cover": "covers/406021.jpg"
+    },
     {
       "id": 26120162,
       "artist": "Various",
@@ -232,7 +241,8 @@
       "title": "Stay A While",
       "year": 1998,
       "added": "2023.04.09",
-      "url": "https://www.discogs.com/release/2033241-Rakim-Stay-A-While"
+      "url": "https://www.discogs.com/release/2033241-Rakim-Stay-A-While",
+      "cover": "covers/2033241.jpg"
     },
     {
       "id": 716100,
