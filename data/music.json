@@ -1,6 +1,23 @@
 {
-  "date": "2023-07-07T05:11:27.560Z",
+  "date": "2023-07-13T10:29:58.221Z",
   "releases": [
+    {
+      "id": 27659502,
+      "artist": "Apollo Brown, Philmore Greene",
+      "title": "Cost Of Living",
+      "year": 2023,
+      "added": "2023.07.13",
+      "url": "https://www.discogs.com/release/27659502-Apollo-Brown-Philmore-Greene-Cost-Of-Living"
+    },
+    {
+      "id": 27196833,
+      "artist": "Sir Hiss",
+      "title": "Uderzo / Sleep Paralysis / Till The End",
+      "year": 2023,
+      "added": "2023.07.11",
+      "url": "https://www.discogs.com/release/27196833-Sir-Hiss-Uderzo-Sleep-Paralysis-Till-The-End",
+      "cover": "covers/27196833.jpg"
+    },
     {
       "id": 406021,
       "artist": "Looptroop (2)",
