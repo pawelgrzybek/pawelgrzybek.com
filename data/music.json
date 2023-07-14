@@ -1,5 +1,5 @@
 {
-  "date": "2023-07-13T10:29:58.221Z",
+  "date": "2023-07-14T05:57:59.016Z",
   "releases": [
     {
       "id": 27659502,
@@ -7,7 +7,8 @@
       "title": "Cost Of Living",
       "year": 2023,
       "added": "2023.07.13",
-      "url": "https://www.discogs.com/release/27659502-Apollo-Brown-Philmore-Greene-Cost-Of-Living"
+      "url": "https://www.discogs.com/release/27659502-Apollo-Brown-Philmore-Greene-Cost-Of-Living",
+      "cover": "covers/27659502.jpg"
     },
     {
       "id": 27196833,
