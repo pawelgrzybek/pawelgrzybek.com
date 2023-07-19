@@ -8,12 +8,12 @@ I have built a few REST APIs and seen many approaches to the response interface.
 
 ## Successful/error response
 
-Look at the example of a successful response and the one in case of an error. This interface serverd me well on multiple projects.
+Look at the example of a successful response and the one in case of an error. This interface served me well on multiple projects.
 
 ```json
 {
-  "status": "error",
-  "statusCode": 404,
+  "status": "success",
+  "statusCode": 200,
   "data": {
     "user": {
       "id": 123,
