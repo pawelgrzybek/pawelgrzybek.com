@@ -18,6 +18,6 @@ I love the "5 things I like right now" series of posts by [Mike Crittenden](http
 
 1. Airports that are located far away from the city.
 1. YouTube thumbnails featuring shocked faces.
-1. People discussing politics without proper knowledge.
+People discussing politics, knowing fuck all about politics.
 1. The culture of blaming others.
 1. The quantity of kebab and barber shops in my town.
