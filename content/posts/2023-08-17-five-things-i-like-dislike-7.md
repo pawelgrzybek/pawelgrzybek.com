@@ -12,7 +12,7 @@ I love the "5 things I like right now" series of posts by [Mike Crittenden](http
 1. [Michael Moschen performs THE TRIANGLE](https://youtu.be/qjHoedoSUXY)
 1. [Some examples of people quickly accomplishing ambitious things together.](https://patrickcollison.com/fast)
 1. [Cypress Hill: Tiny Desk Concert](https://youtu.be/tUApO77uUUk)
-1. [The A.I. Dilemma - March 9, 2023](https://youtu.be/tUApO77uUUk)
+1. [The A.I. Dilemma - March 9, 2023](https://youtu.be/xoVJKj8lcNQ)
 
 ## Disliked
 
