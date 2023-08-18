@@ -22,7 +22,7 @@ pre {
   padding: calc(var(--lh) * 0.5) calc(var(--lh) * 0.75);
   margin-block-end: var(--lh);
   background-color: var(--color-box-background);
-  overflow-x: scroll;
+  overflow-x: auto;
   border-radius: var(--border-radius);
   box-shadow: 0 0 0 1px var(--color-box-border);
 
