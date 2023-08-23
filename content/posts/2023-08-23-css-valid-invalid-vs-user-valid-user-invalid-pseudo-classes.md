@@ -6,7 +6,7 @@ photo: "2023-08-23.jpg"
 
 CSS offers many [input value-checking pseudo-classes](https://drafts.csswg.org/selectors-4/#ui-validity). The `:valid` and `:invalid` are very common, and we use them to apply styling based on the input validity. The fact that they are applied immediately, without any user interaction, can be confusing. Why would you like to see an error about the incorrect email address before you even could fill it out?
 
-Back in 2014, there was a [prosal to add `:changed`/`:edited`/`:altered`/`:dirty`](https://lists.w3.org/Archives/Public/www-style/2014Feb/0511.html) to solve this problem, but I don't think it went anywhere. This is why many popular component frameworks delegate this functionality to JavaScript. Luckily there is a way to achieve this with CSS only, using `:user-valid`/`:user-invalid` pseudo-classes. Unfortunately, [browser support is limited to Safari and Firefox](https://caniuse.com/?search=%3Auser-invalid) when writing this post. Have a look at the example:
+Back in 2014, there was a [proposal to add `:changed`/`:edited`/`:altered`/`:dirty`](https://lists.w3.org/Archives/Public/www-style/2014Feb/0511.html) to solve this problem, but I don't think it went anywhere. This is why many popular component frameworks delegate this functionality to JavaScript. Luckily there is a way to achieve this with CSS only, using `:user-valid`/`:user-invalid` pseudo-classes. Unfortunately, [browser support is limited to Safari and Firefox](https://caniuse.com/?search=%3Auser-invalid) when writing this post. Have a look at the example:
 
 ```css
 .user-invalid-message,
