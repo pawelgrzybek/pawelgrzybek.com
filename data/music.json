@@ -1,6 +1,60 @@
 {
-  "date": "2023-08-15T20:19:35.001Z",
+  "date": "2023-08-30T14:57:08.135Z",
   "releases": [
+    {
+      "id": 27870033,
+      "artist": "Michael Dop",
+      "title": "F.M.M.E.",
+      "year": 2023,
+      "added": "2023.08.30",
+      "url": "https://www.discogs.com/release/27870033-Michael-Dop-FMME",
+      "cover": "covers/27870033.jpg"
+    },
+    {
+      "id": 27576126,
+      "artist": "Yosh (20)",
+      "title": "Show Me EP",
+      "year": 2023,
+      "added": "2023.08.30",
+      "url": "https://www.discogs.com/release/27576126-Yosh-Show-Me-EP",
+      "cover": "covers/27576126.jpg"
+    },
+    {
+      "id": 27420432,
+      "artist": "Raekwon",
+      "title": "Only Built 4 Cuban Linx...",
+      "year": 2023,
+      "added": "2023.08.30",
+      "url": "https://www.discogs.com/release/27420432-Chef-Raekwon-Only-Built-4-Cuban-Linx",
+      "cover": "covers/27420432.jpg"
+    },
+    {
+      "id": 12224090,
+      "artist": "The Pharcyde",
+      "title": "Labcabincalifornia",
+      "year": 2018,
+      "added": "2023.08.30",
+      "url": "https://www.discogs.com/release/12224090-The-Pharcyde-Labcabincalifornia",
+      "cover": "covers/12224090.jpg"
+    },
+    {
+      "id": 27307722,
+      "artist": "Craig David, Mos Def, Ruff Endz, DJ Premier",
+      "title": "7 Days (Dj Premier Remix) / No More",
+      "year": 0,
+      "added": "2023.08.30",
+      "url": "https://www.discogs.com/release/27307722-Craig-David-Mos-Def-Ruff-Endz-DJ-Premier-7-Days-Dj-Premier-Remix-No-More",
+      "cover": "covers/27307722.jpg"
+    },
+    {
+      "id": 9645662,
+      "artist": "S-Max",
+      "title": "Bulldozing Imaginary Temples EP",
+      "year": 2017,
+      "added": "2023.08.19",
+      "url": "https://www.discogs.com/release/9645662-S-Max-Bulldozing-Imaginary-Temples-EP",
+      "cover": "covers/9645662.jpg"
+    },
     {
       "id": 16482717,
       "artist": "Janko Nilovic, The Soul Surfers (2)",
