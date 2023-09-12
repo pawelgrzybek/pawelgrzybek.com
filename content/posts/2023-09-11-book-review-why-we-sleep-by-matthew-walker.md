@@ -8,9 +8,9 @@ Strangely, we sleep for one-third of our lives (at least we should), yet we rare
 
 When I came across ["Why We Sleep" by Matthew Walker](https://www.goodreads.com/book/show/34466963-why-we-sleep) for the first time, I was really wondering how someone could write such a long book about such a dull thing as sleep. Oh, how wrong I was in my early assumptions!
 
-![](/photos/2023-09-11-1.jpg)
+!["Why We Sleep" by Matthew Walker book](/photos/2023-09-11-1.jpg)
 
-![](/photos/2023-09-11-2.jpg)
+!["Why We Sleep" by Matthew Walker book](/photos/2023-09-11-2.jpg)
 
 Matthew Walker, a professor of neuroscience and psychology at the University of California, has dedicated his entire life to researching the impact of sleep on human health and disease. You can feel the passion and enthusiasm in his writing. Some chapters are quick and easy, while others are more scientific and require frequent pauses to digest the information. The overall plan for the book is well-structured, starting from fundamental concepts and gradually building up to more intricate aspects.
 
