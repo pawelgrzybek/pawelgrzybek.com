@@ -16,4 +16,4 @@ Matthew Walker, a professor of neuroscience and psychology at the University of 
 
 There is no point in me going through everything I learned from this book. Instead, let me give you some advice. If you are thinking about adjusting macros in your diet, buying a new app to improve your productivity, or forcing yourself to go to the gym during your lunch break, stop for a second and take a nap. Give yourself a good night's sleep. Start from the basics! If you don't trust me, trust Matthew Walker.
 
-Speel well 😴
+Sleep well 😴
