@@ -33,3 +33,9 @@ Official release of Bun 1.0 has just landed. Some of the statistics of this mode
 ## [WebKit Features in Safari 17.0](https://webkit.org/blog/14445/webkit-features-in-safari-17-0/)
 
 Safari 17 has arrived with a range of new features. The new HTML `search` element and the `popover` attribute simplify overlays, popups, popovers, and dialogs. The `hr` rules are now valid inside `select` elements to separate related `option`s. In terms of CSS, there are new features such as `font-size-adjust` and support for `@counter-style`. The Storage API and offscreen canvas are the most significant additions to the WebKit JS engine in this iteration. Additionally, the new `Set` operation methods are also welcomed! JPEG XL and HEIC media formats have also been introduced. It's a very solid release!
+
+## [Now available: Save and sign in with passkeys using 1Password in the browser and on iOS](https://blog.1password.com/save-use-passkeys-web-ios/)
+
+The most efficient code is the one that doesn't exist. The same rule can apply to passwords - the ones that don't exist are the most secure. I'm sure you've heard about passkeys before. ["Move beyond passwords"](https://developer.apple.com/videos/play/wwdc2021/10106/), presented at WWDC 2021, was likely my initial introduction to this technology. I'm glad that two years later, the passwordless reality has hit the mainstream with this beautiful implementation of 1Password. Also, I'm surprised at how many websites already support it—just have a look at [Passkeys.directory](https://passkeys.directory).
+
+
