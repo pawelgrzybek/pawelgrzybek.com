@@ -93,29 +93,18 @@ form input {
 ```
 
 ```css
-/* after */
 form {
   padding: 1rem;
 
-/* 👇 in this example, & is mandatory */
-    & input {
-      outline: 2px solid #333;
-    }
-}
-```
-
-This is the main difference between CSS Nesting and the one you know from your favourite preprocessor. Due to the limitations of browser parsing engines, the `&` is mandatory in front of an identifier (a type selector, in other words). If the selector starts with `&`, `@`, `:`, `.`, `>`, `~`, `+`, `#`, `[` or `*`, you can skip the `&` symbol. Alternatively, you can write it using the `:is()` pseudo-class, like so…
-
-```css
-/* after */
-form {
-  padding: 1rem;
-
-  :is(input) {
+  input {
     outline: 2px solid #333;
   }
 }
 ```
+
+<del>This is the main difference between CSS Nesting and the one you know from your favourite preprocessor. Due to the limitations of browser parsing engines, the `&` is mandatory in front of an identifier (a type selector, in other words). If the selector starts with `&`, `@`, `:`, `.`, `>`, `~`, `+`, `#`, `[` or `*`, you can skip the `&` symbol. Alternatively, you can write it using the `:is()` pseudo-class, like so…</del>
+
+Luckily, the spec has changed, and the relaxed syntax for nesting identifiers is now possible, which is pretty much the same as in Sass. The `&` symbol is optional in front of an identifier (a type selector, in other words), and it is no longer mandatory as it was in the initial version of the specification.
 
 This is the very first version of the CSS Nesting specification. Keep in mind that the feature's scope and syntax limitation may change in the future as the specification evolves. For example, do you remember the "parent selector"? It was impossible to implement a few years ago, but today it is one of the coolest modern CSS features.
 
