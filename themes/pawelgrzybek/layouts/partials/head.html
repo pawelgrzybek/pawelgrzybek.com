@@ -17,7 +17,7 @@
   <meta property="og:url" content="{{ .Permalink | absURL }}">
   <meta property="og:type" content="{{ if eq .Type "page" }}website{{ else }}article{{ end }}">
   <meta property="og:description" content="{{ if eq .Section "posts" }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:image" content="{{ if eq .Type "page" }}{{ .Site.BaseURL }}/logo.png{{ else }}{{ .Site.BaseURL }}/photos/{{ .Params.photo }}{{ end }}">
+  <meta property="og:image" content="{{ if eq .Type "page" }}{{ .Site.BaseURL }}/logo.png{{ else }}{{ .Page.Permalink }}{{ .Params.photo }}{{ end }}">
 
   {{ "<!-- Twitter Card -->" | safeHTML }}
   <meta name="twitter:card" content="summary_large_image" />
