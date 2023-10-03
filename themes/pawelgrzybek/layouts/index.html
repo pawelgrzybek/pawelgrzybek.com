@@ -7,7 +7,7 @@
 
     <h2 id="recent-blog-posts">Recent blog posts <a class="anchor" href="#recent-blog-posts">#</a></h2>
     <ul class="archive">
-      {{ $posts := (where .Site.Pages "Section" "posts") }}
+      {{ $posts := (where .Site.RegularPages "Section" "posts") }}
 
       {{ range first 5 $posts }}
       <li class="archive__item">
@@ -17,7 +17,7 @@
       {{ end }}
     </ul>
 
-    <a href="/archive" class="btn">Browse all posts ({{ len $posts }})</a>
+    <a href="/posts" class="btn">Browse all posts ({{ len $posts }})</a>
   </div>
 </div>
 

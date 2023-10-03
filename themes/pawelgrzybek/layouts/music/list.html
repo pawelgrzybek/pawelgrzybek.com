@@ -11,26 +11,30 @@
 
 <div class="wrapper wrapper--huge">
   <ul class="music">
-    {{ range $.Site.Data.music.releases }}
+    {{ range (where .Site.RegularPages "Section" "music") }} {{- $url :=
+    .Params.releaseUrl -}} {{- $artist := .Params.releaseArtist -}} {{- $title
+    := .Params.releaseTitle -}} {{- $year := .Params.releaseYear -}} {{- $added
+    := .Params.releaseAdded -}}
+
     <li class="music__item">
-      <a href="{{ .url }}" class="music__link">
-        {{ if eq .cover nil }}
-        <div class="music__cover"></div>
-        {{ else }}
+      <a href="{{ $url }}" class="music__link">
+        {{ with .Page.Resources.GetMatch "cover.jpg" }}
         <img
           class="music__cover"
-          src="/{{ .cover }}"
-          alt="{{ .artist }} - {{ .title }}"
+          src="{{ .Permalink }}"
+          alt="{{ $artist }} - {{ $title }}"
           loading="lazy"
           decoding="async"
           width="600"
           height="600"
         />
+        {{ else }}
+        <div class="music__cover"></div>
         {{ end }}
 
-        <p class="music__artist">{{ .artist }}</p>
-        <p class="music__title">{{ .title }} ({{ .year }})</p>
-        <p class="music__added">Added: {{ .added }}</p>
+        <p class="music__artist">{{ $artist }}</p>
+        <p class="music__title">{{ $title }} ({{ $year }})</p>
+        <p class="music__added">Added: {{ $added }}</p>
       </a>
     </li>
     {{ end }}
