@@ -1,7 +1,6 @@
 ---
 title: "Node.js with native support for .env files — you may not need dotenv anymore"
 summary: "From now on, you may not need dotenv anymore. Node v20.6.0 comes with native support for .env configuration files."
-photo: "2023-09-05.jpg"
 ---
 
 The [dotenv](https://github.com/motdotla/dotenv) package is the most popular way to load environment variables from a `.env` file in the Node.js ecosystem. From now on, you may not need it anymore. [Node v20.6.0](https://nodejs.org/en/blog/release/v20.6.0) comes with native support for `.env` configuration files.

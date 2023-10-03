@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2023 September"
 summary: ""
-photo: "2023-09-30.jpg"
 ---
 
 ## [Announcing Biome](https://biomejs.dev/blog/annoucing-biome#enters-biome)

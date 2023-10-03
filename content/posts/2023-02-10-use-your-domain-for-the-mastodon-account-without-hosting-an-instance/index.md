@@ -1,7 +1,6 @@
 ---
 title: "Use your domain for the Mastodon account without hosting an instance"
 summary: "Here is a simple trick to access your Mastodon profile using your own domain without hosting your own instance."
-photo: "2023-02-10.jpg"
 ---
 
 Look at this trick! You can access my Mastodon account via `@pawelgrzybek@mastodon.social` and `@pawelgrzybek@pawelgrzybek.com`, even though I don't host my own instance.

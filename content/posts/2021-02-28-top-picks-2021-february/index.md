@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 February"
 summary: "We have been waiting for npm 7, but it is finally generally available. AWS Lambda now supports Node.js 14, and the new modules SDK comes with support for TypeScript. Did you know you can send a POST request on link click by adding a ping attribute? Create beautiful code snippets using Ray.so. Native popups are coming to HTML specification. Check the stunning results of Annual Awwwwards 2020! These, and much more this month."
-photo: top-picks.jpg
 ---
 
 ## [npm 7 is now generally available!](https://github.blog/2021-02-02-npm-7-is-now-generally-available/)

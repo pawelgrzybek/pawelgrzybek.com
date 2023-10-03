@@ -1,7 +1,6 @@
 ---
 title: Loop through a collection of DOM elements
 summary: Looping through a NodeList isn't as easy as iterating over a JavaScript array. In this article I am going to cover the possible methods (and hacks) to do it.
-photo: 2016-10-19.jpg
 ---
 
 It is easy to think of a collection of DOM elements as a regular JavaScript array. This is a gotcha that many beginners fall into (including myself). NodeLists don't share all of the `Array`’s prototype methods, but there are a heap of ways to achieve the desired result. Let's go through the list of possible methods and hacks. No frameworks or libraries today - it's pure js day fellaz!

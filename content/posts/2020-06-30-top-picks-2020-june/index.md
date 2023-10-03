@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2020 June"
 summary: "Accessibility features in The Last of Us Part II, consideration of picking a right monitor for development, bunch of great news in Safari 14, HTML Essential Training and more…"
-photo: top-picks.jpg
 ---
 
 ## [The Last of Us Part II isn’t just Naughty Dog’s most ambitious game — it’s the most accessible, too](https://www.theverge.com/21274923/the-last-of-us-part-2-accessibility-features-naughty-dog-interview-ps4)

@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2023 August"
 summary: "The FFmpeg in the browser, powerful CSS `color-mix()` function, entering and exiting animations in CSS are easier than ever before, Astro is now integrated with Vercel, the most influential pieces ever written about web design and more!"
-photo: "2023-08-31.jpg"
 ---
 
 ## [ffmpeg.app](https://ffmpeg.app)

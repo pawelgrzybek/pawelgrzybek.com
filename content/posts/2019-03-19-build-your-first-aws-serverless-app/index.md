@@ -1,7 +1,6 @@
 ---
 title: "Build your first AWS Serverless app"
 summary: "After years spent working on frontend development, through building AR / VR applications, I recently ended up in a team of talented people building serverless microservices on the AWS platform. Let me share with you some of my experiences."
-photo: 2019-03-19.jpg
 ---
 
 After years of frontend experience, through building AR / VR applications I recently landed a backend-focused role. Luckily I've found myself being a part of a team of super talented people working on serverless microservices on the [AWS (Amazon Web Services) platform](https://aws.amazon.com/). Having no previous experience in this field, let me share with you what I've learnt during my initial exploration into this arena and build a little serverless app with you.

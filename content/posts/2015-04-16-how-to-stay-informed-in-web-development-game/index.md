@@ -1,7 +1,6 @@
 ---
 title: How to stay informed in web development game
 summary: Web design industry is very changeable. You need to flow new trends, frameworks, methodologies, concepts and standards to stay in the game. That’s how I do it.
-photo: 2015-04-16.jpg
 ---
 
 To stay on top of the web development and web design game you need to follow. It is so changeable industry. There is many sources of information, hundreds developers to follow, youtube videos and twitter accounts. Thats the problem. If you start to follow entire market, probably you will end up in endless loop of checking what’s funky and fresh but without any time left for yourself, your partner, cycling, beer, whatever.

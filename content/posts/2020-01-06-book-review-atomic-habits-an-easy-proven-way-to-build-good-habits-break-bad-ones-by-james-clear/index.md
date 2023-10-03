@@ -1,7 +1,6 @@
 ---
 title: "Book review: Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones by James Clear"
 summary: "I have always been reading a ton but this year I am planning to make a subject shift. Less nerdy technical gibberish and more stuff that can help me to be a better version of myself."
-photo: 2020-01-06.jpg
 ---
 
 Welcome back in 2020. I have always been reading a ton but this year I am planning to make a subject shift. Less nerdy technical gibberish and more stuff that can help me to be a better version of myself. Let's start 2020 with the ["Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones" by James Clear](https://www.goodreads.com/book/show/40121378-atomic-habits).

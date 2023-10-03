@@ -1,7 +1,6 @@
 ---
 title: Cloning DOM nodes and handling attached events
 summary: As a creator and maintainer of a popular DOM library, I found myself in a situation where I had to clone an element. Sounds trivial? This is what I learnt.
-photo: 2017-06-27.jpg
 ---
 
 I'm the creator and sole maintainer of [Siema](https://pawelgrzybek.github.io/siema/) — a simple carousel library that gained quite unexpected popularity on [Github](https://github.com/pawelgrzybek/siema) (thanks by the way). I constantly look to improve it and work hard to drop some new features in every once in a while. I recently came across a very minor challenge — I had to clone some DOM elements. Let me share with you some short and easy tips through what I learnt.

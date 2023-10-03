@@ -1,7 +1,6 @@
 ---
 title: Top picks — 2017 July
 summary: Node.js authentication, the hardest accessibility issue about browsing the web, GraphQL tutorial, the future of Adobe Flash, brand new Figma with build it prototyping mode and more.
-photo: top-picks.jpg
 ---
 
 ## Everything You Ever Wanted To Know About Authentication in Node.js

@@ -1,7 +1,6 @@
 ---
 title: "TIL — Node v18.11.0 comes with a watch mode, so you might not need nodemon"
 summary: "The result of a little Twitter survey done by the Node.js team clearly shows that nodemon is one of the most helpful tools for day-to-day authoring experience. You might not need it anymore."
-photo: "2022-10-14.jpg"
 ---
 
 The result of [a little Twitter survey done by the Node.js team](https://twitter.com/nodejs/status/1446839365087412225?s=21) clearly shows that [nodemon](https://github.com/remy/nodemon) is one of the most helpful tools for day-to-day authoring experience. They did listen — just released version of Node.js v18.11.0 comes with a watch mode. Nice!

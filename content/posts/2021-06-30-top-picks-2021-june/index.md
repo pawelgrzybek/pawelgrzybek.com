@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 June"
 summary: "Intro to React 18, Pluralsight to Acquire A Cloud Guru, Introducing Astro, WebKit Features in Safari at WWDC21, Next.js 11, Deno and more…"
-photo: top-picks.jpg
 ---
 
 ## [React 18 Alpha is out! Now what?](https://www.netlify.com/blog/2021/06/08/react-18-alpha-is-out-now-what/)

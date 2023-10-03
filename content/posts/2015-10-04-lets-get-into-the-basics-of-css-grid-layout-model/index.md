@@ -1,7 +1,6 @@
 ---
 title: Lets get into the basics of CSS Grid Layout Model
 summary: The majority of websites are built based on some sort of grid and we use many techniques to achieve that. CSS Grid Layout Model is just around the corner!
-photo: 2015-10-04.jpg
 ---
 
 CSS is getting stronger and gives us much more power than a few years ago. It is difficult to miss the huge buzz about Flexbox recently. This powerful part of CSS is well supported in all modern browsers and you don't have an excuse for not using it yet. I found it very helpful in some circumstances, but it's definitely not the ideal candidate for building entire layouts. We tend to build them using floating or inline blocking elements, but it’s definitely not reason why these features were created. For me this is a broken idea, exactly the same like using fonts for icons. CSS never had a built in feature just for building layouts so we don’t have a much choice and we need to use these hacks. The good news is that CSS Grid Layout Model is just around the corner and I'm really looking forward to using it. Let's dive into it together and rebuild some standard looking layout using some basic features of brand new model.

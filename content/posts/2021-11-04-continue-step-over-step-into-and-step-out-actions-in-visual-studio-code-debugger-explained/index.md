@@ -1,7 +1,6 @@
 ---
 title: "Continue, Step Over, Step Into and Step Out actions in Visual Studio Code debugger explained"
 summary: "Printing the result of your program to the console is a common practice, but being familiar with a debugger opens a new world of possibilities. To use the debugger with confidence, you need to understand the basic actions. So here I come with a simple explanation for y’all."
-photo: "2021-11-04.jpg"
 ---
 
 Printing the result of your program to the console is a common practice, but being familiar with a debugger opens a new world of possibilities. A debugger is built into most of the popular IDEs and is also integrated with most web browsers. It allows us to run a program, step through it, log transition stages, explore scope members and preview the values at any flow stage.

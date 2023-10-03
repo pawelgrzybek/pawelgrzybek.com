@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 November"
 summary: "Change form behaviour with button attributes, Web Performance Metrics Cheatsheet, inside the TypeScript compiler, list of ECMAScript proposals, validation in Node.js, the ins and outs of function overloading in TypeScript, Lambda events filtering, next-generation text editor from JetBrains and more!"
-photo: top-picks.jpg
 ---
 
 ## [button elements offer attributes to change form behavior](https://www.stefanjudis.com/today-i-learned/button-elements-offer-attributes-to-change-form-behavior/)

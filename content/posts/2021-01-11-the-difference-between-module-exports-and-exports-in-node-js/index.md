@@ -1,7 +1,6 @@
 ---
 title: "The difference between module.exports and exports in Node.js"
 summary: "When we define Node.js module it is easy to think that we can use `module.exports` and `exports` interchangeably, but can we? Let's understand what is going on under the hood."
-photo: "2021-01-11.jpg"
 ---
 
 Let's quickly remind ourselves how to export a CommonJS module, import it and use it in a different file in Node.js runtime. Look at the example.

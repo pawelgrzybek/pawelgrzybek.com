@@ -1,7 +1,6 @@
 ---
 title: Using webpack with gulp.js
 summary: Webpack is a module bundler for modern JavaScript apps. Gulp describes itself as a platform-agnostic task runner. Can they work together? Easily! Take a look.
-photo: 2017-06-28.jpg
 ---
 
 [Webpack](https://webpack.js.org/) is a popular module bundler for modern JavaScript applications. Its biggest advantage is its flexibility — it can be as simple or as complicated as you need it to be. It doesn't matter if you live on the edge and your app is full of modern ES2015 modules or still depends on some legacy code written in AMD style — this tool has you covered.

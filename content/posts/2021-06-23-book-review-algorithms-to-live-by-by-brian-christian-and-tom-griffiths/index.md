@@ -1,7 +1,6 @@
 ---
 title: "Book review: Algorithms to Live By by Brian Christian and Tom Griffiths"
 summary: "What's the best way to sort books on your bookshelf? Is it even worth spending time sorting them? These types of questions are things that I think about a lot! Being a Software Engineer doesn't help because I always strive for logical proof of taken decisions."
-photo: "2021-06-23.jpg"
 ---
 
 How many times should you go around a car park to find a space before you give up? Should you go back to your favourite restaurant or explore a new one? Minimise risk or reduce potential regrets? What's the best way to sort books on your bookshelf? Is it even worth spending time sorting them?

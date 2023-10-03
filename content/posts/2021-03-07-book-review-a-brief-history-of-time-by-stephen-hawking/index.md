@@ -1,7 +1,6 @@
 ---
 title: "Book review: A Brief History of Time by Stephen Hawking"
 summary: "Many times in my life, I was wondering about abstract things like space travel, the size of a universe, the importance of time, gravitational force, and other stuff like that. Do you sometimes contemplate anti earthly subjects like that, or is it just me?"
-photo: "2021-03-07.jpg"
 ---
 
 Many times in my life, I have thought about abstract things like space travel, the size of a universe, the importance of time, gravitational force, and other stuff like that. Do you sometimes contemplate anti earthly subjects like that, or is it just me? I had no idea where to seek answers for my questions, but luckily, I came across ["A Brief History of Time" by Stephen Hawking"](https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time).

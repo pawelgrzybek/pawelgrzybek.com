@@ -1,7 +1,6 @@
 ---
 title: "Book review: Deep Work by Cal Newport"
 summary: "After reading \"Digital Minimalism\" by Cal Newport, I knew this wouldn't be the last book I read by this author. So, being fascinated by the results of a distraction-free lifestyle, I decided to give this almost legendary publication a read."
-photo: "2022-01-24.jpg"
 ---
 
 After reading "Digital Minimalism" by Cal Newport, I knew this wouldn't be the last book I read by this author. So, being fascinated by the results of a distraction-free lifestyle, I decided to give this almost legendary publication a read.

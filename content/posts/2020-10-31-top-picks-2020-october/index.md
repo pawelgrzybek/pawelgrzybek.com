@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2020 October"
 summary: "A new approach to stateful serverless with CloudFlare Durable Objects, CSS perspective, review of self-hosted comments for a static website, Julia Mono, the state of resource-caching across sites and domains, Node 15 with npm 7, CSS content-visibility, Next.js 10 and a more…"
-photo: top-picks.jpg
 ---
 
 ## [Workers Durable Objects Beta: A New Approach to Stateful Serverless](https://blog.cloudflare.com/introducing-workers-durable-objects/)

@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2019 November"
 summary: "Variable Fonts, Visual Studio Online, Implicit State Machines, TypeScript 3.7, Chrome Dev Summit 2019, new methods on String prototype, Google Metrics, CSS Logical Properties, AWS FIFO SQS and more…"
-photo: top-picks.jpg
 ---
 
 ## [Variable Fonts: What web authors need to know](https://rwt.io/typography-tips/variable-fonts-what-web-authors-need-know)

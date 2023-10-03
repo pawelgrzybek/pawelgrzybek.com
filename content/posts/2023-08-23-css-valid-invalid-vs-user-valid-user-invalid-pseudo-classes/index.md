@@ -1,7 +1,6 @@
 ---
 title: "CSS valid/invalid vs user-valid/user-invalid pseudo-classes"
 summary: "Why would you like to see an error about the incorrect email address before you even could fill it out? Luckily there is a way to achieve this with CSS only."
-photo: "2023-08-23.jpg"
 ---
 
 CSS offers many [input value-checking pseudo-classes](https://drafts.csswg.org/selectors-4/#ui-validity). The `:valid` and `:invalid` are very common, and we use them to apply styling based on the input validity. The fact that they are applied immediately, without any user interaction, can be confusing. Why would you like to see an error about the incorrect email address before you even could fill it out?

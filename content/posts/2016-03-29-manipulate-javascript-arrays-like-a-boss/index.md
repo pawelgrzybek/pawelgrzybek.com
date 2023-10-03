@@ -1,7 +1,6 @@
 ---
 title: Manipulate JavaScript Arrays like a boss
 summary: JavaScript arrays come with many useful methods. Mastering them can make you a much more efficient programmer. Let's have a look at a few of them.
-photo: 2016-03-29.jpg
 ---
 
 One of the most amazing things in programming is the fact that one task can be achieved via a number of different methods. My recent journey through the world of [React.js](https://facebook.github.io/react/) became extremely fascinating and not just because of the amazingness of this library. Spending so much time in the JavaScript environment taught me a lot of the language's core features. I would like to spend a few minutes showing you three easy methods that will make you a hero using arrays and give you a great start with functional programming. I will try to keep all of the examples in this article really simple, just to make the concepts discussed crystal clear.

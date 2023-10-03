@@ -1,7 +1,6 @@
 ---
 title: The Observer Pattern in JavaScript explained
 summary: This popular pattern used by tons of JavaScript applications may save you from injecting costly dependencies in your project. Easy, clean and very useful.
-photo: 2017-08-17.jpg
 ---
 
 The Observer Pattern is a popular pattern used across all sorts of JavaScript applications. The instance (subject) maintains a collection of objects (observers) and notifies them all when changes to the state occurs. Does that sound difficult to you? Yes, it was upsetting me as well when I came across this pattern for a first time. A tiny practical example may help you to grasp the concept.

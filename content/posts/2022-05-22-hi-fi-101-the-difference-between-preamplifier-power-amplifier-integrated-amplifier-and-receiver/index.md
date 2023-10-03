@@ -1,7 +1,6 @@
 ---
 title: "Hi-Fi 101: The difference between preamplifier, power amplifier, integrated amplifier and receiver"
 summary: "The purpose of a Hi-Fi audio system is to send a signal from your input device up to the speaker. But, of course, signal amplification is a mandatory step in between, which is precisely the subject of this article."
-photo: "2022-05-22.jpg"
 ---
 
 If you came here to read another programming-related article, I am afraid it will be slightly different today. Still cool, but not about software.

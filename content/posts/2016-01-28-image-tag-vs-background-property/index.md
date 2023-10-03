@@ -1,7 +1,6 @@
 ---
 title: Image tag vs background property
 summary: Images need to be treated differently dependent on whether they are part of the design or part of the content. Let's discuss backgrounds and images.
-photo: 2016-01-28.jpg
 ---
 
 As [Anselm Hannemann](https://wdrl.info/archive/121) recently mentioned: front end developers have a problem with HTML and CSS. I avoided diving into the world of JavaScript for years and looking through prism of time I can see many benefits of focusing on HTML and CSS for so long. I learned it thoroughly and I know the power and restrictions that these languages come with. The HTML5 spec was finalized, and published some time ago but many people still don't know how to correctly use the `img` tag or `background-size` property. Today I focus exclusively on this subject and a bit about the CSS `cover` value.

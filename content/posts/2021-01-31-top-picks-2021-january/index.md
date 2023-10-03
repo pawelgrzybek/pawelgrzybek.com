@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 January"
 summary: "Optimizing image loading for the web in 2021, Webbed Briefs by Heydon Pickering, Figma crash course by Pablo Stanley, insights after being 45 years in the software industry, the state of JS in 2020, running GitHub actions for certain commit messages, HTML alt attribute vs figcaption element, 10 best practices to containerize Node.js web applications with Docker and more…"
-photo: top-picks.jpg
 ---
 
 ## [Maximally optimizing image loading for the web in 2021](https://www.industrialempathy.com/posts/image-optimizations/)

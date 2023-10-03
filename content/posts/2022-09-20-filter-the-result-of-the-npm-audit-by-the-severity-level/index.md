@@ -1,7 +1,6 @@
 ---
 title: "Filter the result of the npm audit by the severity level"
 summary: "Let me walk you through a quick real-life example I experienced today, my learnings and a hacky little solution I crafted."
-photo: "2022-09-20.jpg"
 ---
 
 I am not a big fan of how npm audit works, and [I am not the only one](https://overreacted.io/npm-audit-broken-by-design/). The core design is not perfect, and the overall user experience deserves some love.

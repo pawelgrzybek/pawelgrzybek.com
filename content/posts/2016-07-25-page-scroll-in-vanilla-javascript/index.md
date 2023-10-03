@@ -1,7 +1,6 @@
 ---
 title: Page scrolling in vanilla JavaScript
 summary: Scrolling to an element on a page has always been easy with jQuery. It's a bit tricky in vanilla JavaScript — but definitely doable.
-photo: 2016-07-25.jpg
 ---
 
 {{< update >}}

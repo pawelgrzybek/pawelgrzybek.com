@@ -1,7 +1,6 @@
 ---
 title: "Capture heap snapshots in Node.js"
 summary: "Comparing heap dumps is an excellent technique for finding memory leaks. There are several methods how you can capture them in Node.js. In this post, I will show you how to do it."
-photo: "2023-01-21.jpg"
 ---
 
 Comparing heap dumps is an excellent technique for finding memory leaks. You can use it to obtain much more information about your application, but I mainly use it for this. There are several methods how you can capture them in Node.js. In this post, I will show you how to do it.

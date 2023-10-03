@@ -1,7 +1,6 @@
 ---
 title: "Understanding Node.js Streams"
 summary: "Streams in nature flow water from one side to the other, streams in programming are the same but instead of water, they flow chunks of data. It is a sequential way of handling chunks of bytes. You can achieve a lot without using streams at all, but a thorough understanding of them will make you a much better developer."
-photo: 2020-07-14.jpg
 ---
 
 The results of [Stack Overflow Developer Survey 2020](https://insights.stackoverflow.com/survey/2020#technology-other-frameworks-libraries-and-tools) for the second year in a row proved the popularity of [Node.js](https://nodejs.org/). It also hit the top of the list of [the most wanted technologies](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-other-frameworks-libraries-and-tools-wanted3) to learn by programmers who are not using it. It’s an obvious choice for frontend developers who are keen to move their JavaScript knowledge to the server-side . Apart from all of the similarities to the language used on a browser, it comes with a few hard to understand concepts. A stream is one of them (at least it was for me).

@@ -1,7 +1,6 @@
 ---
 title: "Book review: The Compound Effect by Darren Hardy"
 summary: "This book is about introducing minor changes to your life that, compounded after a while, produce a significant impact. It is also about bad habits or duties that we like to neglect and their long-term effect on our lives."
-photo: "2022-03-27.jpg"
 ---
 
 Another day, another book review. I recently can’t stop listening to audiobooks and doing little DIY things around the house. So after reading ["The Effective Executive" by Peter F. Drucker](/book-review-the-effective-executive-by-peter-f-drucker/) I decided to pick up another classic equally frequently recommended within productivity-oriented circles, ["The Compound Effect" by Darren Hardy](https://www.goodreads.com/book/show/9420697-the-compound-effect).

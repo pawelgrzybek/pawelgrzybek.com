@@ -1,7 +1,6 @@
 ---
 title: "Book review: Endurance by Scott Kelly"
 summary: "I have always been curious about the subject of space travel, living in such a distant place and the daily life and routines out there. I couldn't have picked a better book to satisfy my curiosity."
-photo: 2020-03-13.jpg
 ---
 
 You go to school, finish a mildly interesting university, find an average job that pays your bills and enjoy the rest of your life...until you die. At the same time you're doing this there are incredibly driven, determined and hard-working people conducting spacewalks around 300km above the Earth's surface. Even thinking about something like that feels like sci-fi but it's not! I have always been curious about the subject of space travel, living in such a distant place and the daily life and routines out there.

@@ -1,7 +1,6 @@
 ---
 title: "Use Cloud Changes in VS Code to sync uncommitted edits between two computers"
 summary: "Cloud Changes in VS Code is a little-known feature that allows you to sync your uncommitted changes between multiple instances of Visual Studio Code, either on the web or on the desktop."
-photo: "2023-07-01.jpg"
 ---
 
 Released in [June 2022 VS Code "Edit Sessions"](https://code.visualstudio.com/updates/v1_69#_access-edit-sessions-across-vs-code-for-the-web-and-desktop), later on [in November 2022 renamed to "Cloud Changes"](https://code.visualstudio.com/updates/v1_74#_improvements-to-continue-working-on), is a little-known feature that allows you to sync your uncommitted changes between multiple instances of Visual Studio Code, either on the web or on the desktop. Hosting a git repository on GitHub or Azure Repos is the sole requirement. No need for "work in progress" commits only to pick up the work on another machine.

@@ -1,7 +1,6 @@
 ---
 title: "C++ for JavaScript developers"
 summary: "One of my resolutions for 2018 is to learn a new programming language. I decided to go with C++ and after a few months, I am ready to share with you some of my thoughts."
-photo: 2018-06-01.jpg
 ---
 
 At the end of 2017 I committed myself to [learning a new programming language as one of my resolutions for 2018](https://pawelgrzybek.com/a-look-back-at-2017/#in-2018-i-will). I've spent the last few months jumping between client projects written mainly in JavaScript and learning C++ in my own time. I am still nowhere near proficient at it, but it is a great time to share with you a few of my conclusions.

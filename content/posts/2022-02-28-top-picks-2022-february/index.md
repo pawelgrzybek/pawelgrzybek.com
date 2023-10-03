@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 February"
 summary: "Node.js streams, CSS Cascade Layers, the hottest frontend tools in 2021, fetch in Node.js runtime, code-splitting, native HTML dialog element, explanation of assistive technologies, Express 5 is coming and more…"
-photo: top-picks.jpg
 ---
 
 ## [Use Streams to Build High-Performing Node.js Applications](https://blog.appsignal.com/2022/02/02/use-streams-to-build-high-performing-nodejs-applications.html)

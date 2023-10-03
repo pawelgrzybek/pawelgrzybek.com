@@ -1,7 +1,6 @@
 ---
 title: "Native lazy-loading of images on Hugo based website"
 summary: "The implementation of lazy-loading images using Hugo is equally simple as adding it to an HTML file and you don’t have a good reason not to do so. Let me explain."
-photo: 2020-05-28.jpg
 ---
 
 Images on the web take up more bandwidth than any other type of resources. Why do we have to load them all even if we are never going to scroll far enough to see them? Turns out that we don't have to anymore — support for [native lazy loading](https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes) is coming. If you are using [Hugo static site generator](https://gohugo.io/), the implementation of it is equally simple as adding it to an HTML file and you don't have a good reason not to do so.

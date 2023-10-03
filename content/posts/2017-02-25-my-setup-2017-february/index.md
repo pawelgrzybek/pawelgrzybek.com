@@ -1,7 +1,6 @@
 ---
 title: My setup — 2017 February
 summary: Which hardware, software and web apps other professionals are using is something that I enjoy reading about. Today's post is about my own setup from February 2017.
-photo: 2017-02-25.jpg
 ---
 
 Programming isn't the only thing that I read about although that's what I mainly write about and very rarely broach other subjects. You definitely won't find any gluten-free vegan cake recipes here, but there is a good chance that I can share with you a few words about some software or hardware. I [did it before](https://pawelgrzybek.com/my-web-development-setup/) about two years ago so I think it's just about the right time to write an update. Some things have changed, some things have been replaced but overall everything has been simplified and minimised. I always enjoy these kind of reads so I thought you may like to find out more about my equipment.

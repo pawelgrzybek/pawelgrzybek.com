@@ -1,7 +1,6 @@
 ---
 title: "Configure Netlify redirects for projects with custom publish or base directory"
 summary: "In the pre-processing stage, Netlify reads the configuration from the root. Post-processing configuration, like redirects and rewrites, is read from the base/publish directory."
-photo: "2023-02-25.jpg"
 ---
 
 Netlify supports [two methods to configure redirects](https://docs.netlify.com/routing/redirects/) — a `_redirects` file and `redirects` tables in the `netlify.toml`. For context, these are two examples of how to redirect `page-one` to `page-two` using both methods.

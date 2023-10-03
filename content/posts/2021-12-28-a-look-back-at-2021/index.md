@@ -1,7 +1,6 @@
 ---
 title: A look back at 2021
 summary: "Time for my annual summary of my personal and professional achievements and failures from the past year of 2021. The last 12 months brought many changes, luckily most of them were very good!"
-photo: 2021-12-28.jpg
 ---
 
 Here we go again. 2021 was another year of a world ruled by the global pandemic. At this point, I'm afraid that this situation is here to stay for a bit longer. I miss spontaneous travelling without expensive and time-consuming tests. I'm so tired of the amount of absurd, stress and fragmentation between people caused by this situation. So dear COVID, if you can kindly fuck off and let us live in peace, I'd appreciate it. Rant off my chest, let's get into the summary.

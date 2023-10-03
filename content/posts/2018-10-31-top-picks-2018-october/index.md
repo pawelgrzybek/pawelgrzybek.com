@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2018 October"
 summary: "Welcome to Solid, Create React App 2.0, the state of Houdini API, Adobe Fonts, GitHub Actions, relative time format is coming to JavaScript, React 16.6 released and Hooks announced on React Conf 2018. Very crazy month!"
-photo: top-picks.jpg
 ---
 
 ## [Welcome to Solid](https://solid.inrupt.com/)

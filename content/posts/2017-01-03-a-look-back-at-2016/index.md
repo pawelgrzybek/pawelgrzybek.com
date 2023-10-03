@@ -1,7 +1,6 @@
 ---
 title: A look back at 2016
 summary: The new year is a great opportunity for an annual summary and a great time to set new goals for the upcoming year. Time to reveal a bit of the professional and personal sides of myself.
-photo: 2017-01-03.jpg
 ---
 
 I have never used this website to reveal anything about myself as an individual. It's always been a technical blog without delving into personal feelings and photos of my cat (ok maybe [once](https://pawelgrzybek.com/image-tag-vs-background-property/)). I'm going to keep it this way but the article that you are reading now will be the only exception. The end of a year and beginning of a new one is a fantastic opportunity to summarise my achievements, failures and set up some goals for the upcoming year.

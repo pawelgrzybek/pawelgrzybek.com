@@ -1,7 +1,6 @@
 ---
 title: Native ECMAScript modules in the browser
 summary: Javascript modules have been a part of the spec for a little while now but it's taken some time to see the first implementation in a web browser. Finally, we have it!
-photo: 2017-04-18.jpg
 ---
 
 Three things that I wish I could ditch from my everyday front-end workflow: CSS preprocessors, JavaScript transpilers and module bundlers. Let me elaborate…

@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 January"
 summary: "ECMAScript modules on AWS Lambda, detailed walkthrough pixels rendering lifetime in the browser, Eleventy hits stable release, TypeScript features that should be avoided and CSS Cascade Layers."
-photo: top-picks.jpg
 ---
 
 ## [Using Node.js ES modules and top-level await in AWS Lambda](https://aws.amazon.com/blogs/compute/using-node-js-es-modules-and-top-level-await-in-aws-lambda/)

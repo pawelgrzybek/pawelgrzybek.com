@@ -1,7 +1,6 @@
 ---
 title: "What's new in ECMAScript 2022"
 summary: "The ECMAScript 2022 Language Specification candidate is now available. Even though the final version will be approved in June, the list of new features coming to the language this year is defined."
-photo: 2022-04-04.jpg
 ---
 
 The [ECMAScript 2022 Language Specification](https://tc39.es/ecma262/2022/) candidate is now available. Even though the final version will be approved in June, the list of new features coming to the language this year is already defined. Similarly, how I did it in [2016](/whats-new-in-ecmascript-2016-es7/), [2017](/whats-new-in-ecmascript-2017/), [2018](/whats-new-in-ecmascript-2018/), [2019](/whats-new-in-ecmascript-2019/), [2020](/whats-new-in-ecmascript-2020/) and [2021](/whats-new-in-ecmascript-2021/), let's look at what’s coming to ECMAScript specification in 2022.

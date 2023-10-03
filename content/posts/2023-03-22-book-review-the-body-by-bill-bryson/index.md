@@ -1,7 +1,6 @@
 ---
 title: "Book review: The Body by Bill Bryson"
 summary: "I became a fan of Bill Bryson after reading \"A Short History of Nearly Everything\". After embracing all little-known facts about the solar system, galaxy, black holes and many others, I naturally became super curious about other publications by the same author."
-photo: "2023-03-22.jpg"
 ---
 
 I became a fan of Bill Bryson after reading ["A Short History of Nearly Everything"](/book-review-a-short-history-of-nearly-everything-by-bill-bryson/). After embracing all little-known facts about the solar system, galaxy, black holes and many others, I naturally became super curious about other publications by the same author.

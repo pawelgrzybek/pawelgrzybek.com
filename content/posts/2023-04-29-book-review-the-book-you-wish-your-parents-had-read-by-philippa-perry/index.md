@@ -1,7 +1,6 @@
 ---
 title: "Book review: The Book You Wish Your Parents Had Read by Philippa Perry"
 summary: "From books about programming and self-development to parenting. Yes, you guessed it, I will be a father soon. I will do my best to be the best father, but I must do my homework!"
-photo: "2023-04-29.jpg"
 ---
 
 My close friends and those who follow me here and there won’t be surprised by the drastic subject change. From books about programming and self-development to parenting. Yes, you guessed it, I will be a father soon. I am well excited but also overwhelmed by the mission of raising a little human. I will do my best to be the best father, but I must do my homework! ["The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did)" by Philippa Perry](https://www.goodreads.com/book/show/42348818-the-book-you-wish-your-parents-had-read) is by far the most recommended book for new parents, and now I can see why.

@@ -1,7 +1,6 @@
 ---
 title: What's new in ECMAScript 2016 (ES7)
 summary: ES2015 brought a lot of large-scale features to the language. The new release process is going to introduce a few small bits every year. Here's what's new in ES2016.
-photo: 2016-02-04.jpg
 ---
 
 In June 2015 the TC39 (Technical Committee 39) officially released a [spec of ECMAScript 2015](http://www.ecma-international.org/ecma-262/6.0/) (colloquially known as a ES6). In parallel to the new spec, a new naming system within the language was introduced which is related with the new yearly release process. The plan is to release a new version of the language every year, and ship it with [features](https://github.com/tc39/ecma262/blob/master/README.md) that are ready at the time. ES2015 added a lot of amazing features. If you are not familiar with these fresh add-ons yet, check ["ES6 Overview in 350 Bullet Points"](https://ponyfoo.com/articles/es6) by [Nicolás Bevacqua](https://twitter.com/nzgb?lang=en). It's the best summary that I have seen so far. Luckily we shouldn't expect updates as huge every year which give us a chance to follow the spec.

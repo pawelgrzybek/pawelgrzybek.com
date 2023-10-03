@@ -1,7 +1,6 @@
 ---
 title: "Vertical rhythm using CSS lh and rlh units"
 summary: "Vertical rhythm is a design concept that helps to create a harmonious layout by following consistent spacing between elements, typically using the height of a line as a base."
-photo: "2023-05-16.jpg"
 ---
 
 Vertical rhythm is a design concept that helps to create a harmonious layout by following consistent spacing between elements, typically using the height of a line as a base. I learned it in my design days when printed media was still a thing[^1]. How much the same concept applies to the Web's fluid nature is debatable, but this post is not about that. To fulfil your curiosity — yes, the primitively simple design of my website follows the vertical rhythm.

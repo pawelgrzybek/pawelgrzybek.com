@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 May"
 summary: "The 1969 Apollo Guidance Computer, The Missing Semester of Your CS Education, dead Google AMP, DOM Events explorer, Play.js acquired by CodeSandbox and more…"
-photo: top-picks.jpg
 ---
 
 ## [Light Years Ahead | The 1969 Apollo Guidance Computer](https://youtu.be/B1J2RMorJXM)

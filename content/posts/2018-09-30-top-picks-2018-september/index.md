@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2018 September"
 summary: "React Fire and changes to React DOM, CSS Scroll Snapping, GitHub PRs in Visual Studio Code, animations in UX and more…"
-photo: top-picks.jpg
 ---
 
 ## [React Fire: Modernizing React DOM](https://github.com/facebook/react/issues/13525)

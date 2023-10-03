@@ -1,7 +1,6 @@
 ---
 title: Using the JavaScript console in Visual Studio Code
 summary: The JavaScript console in the browser is one of the most popular debugging methods. It would be cool to see its output straight in the code editor, wouldn't it?
-photo: 2017-01-18.jpg
 ---
 
 Some time ago I published an article about the [JavaScript console in Sublime Text](https://pawelgrzybek.com/javascript-console-in-sublime-text/). It's turned out to be one of the most popular articles on this website. As I recently changed my code editor from [Sublime Text](https://www.sublimetext.com/) to [VSCode](https://code.visualstudio.com/) I found a solution to replicate this functionality.

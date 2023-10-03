@@ -1,7 +1,6 @@
 ---
 title: "What's new in ECMAScript 2021"
 summary: "This week's TC39 meeting concluded with a complete list of ECMAScript 2021 features. Similarly, how I do it every year, let's have a look at what's coming this year. I also prepared for you a few code examples."
-photo: 2021-02-01.jpg
 ---
 
 This week's TC39 meeting concluded with a complete list of ECMAScript 2021 features. Similarly, how I did it in [2016](/whats-new-in-ecmascript-2016-es7/), [2017](/whats-new-in-ecmascript-2017/), [2018](/whats-new-in-ecmascript-2018/), [2019](/whats-new-in-ecmascript-2019/) and [2020](/whats-new-in-ecmascript-2020/), let's have a look at what's coming this year. I also prepared for you a few code examples.

@@ -1,7 +1,6 @@
 ---
 title: "Lesbos"
 summary: "This post is just a quick reminder to you all about the importance of switching off occasionally. With my better half, we recently travelled to Lesbos, a Greek island close to Turkey. We met amazing people down there, ate tons of excellent food, drove around the island and most importantly, had a break from an intense day-to-day lifetime."
-photo: "2022-06-10.jpg"
 ---
 
 This post is just a quick reminder to you all about the importance of switching off occasionally. With my better half, we recently travelled to Lesbos, a Greek island close to Turkey. We met amazing people down there, ate tons of excellent food, drove around the island and most importantly, had a break from an intense day-to-day lifetime.

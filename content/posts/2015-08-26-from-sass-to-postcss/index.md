@@ -1,7 +1,6 @@
 ---
 title: From Sass to PostCSS
 summary: Do you remember that amazing feeling when you discovered the power of Sass? Variables, mixins, nesting — WOW! Time to do it again, this time with PostCSS.
-photo: 2015-08-26.jpg
 ---
 
 I have a feeling that my CSS authoring went way too far from vanilla CSS. Abstraction of my super functions heavy Sass files doesn’t even remind stylesheets as we remember them from the past. I noticed on Twitter a huge buzz about PostCSS but initially I refused to try it. I just couldn’t imagine a better process for working with styles than my sassy method. Excitement of community eventually triggered my curiosity and I gave it a try. Do you remember that feeling when you discovered power of Sass few years ago? I just moved back to CSS and have exactly the same feeling. Alan Mooiman gave an awesome talk at CascadiaFest 2015 conference titled [“CSS is dead, long live CSS”](https://youtu.be/jWDZP8twWDg) and I am currently on the same boat.

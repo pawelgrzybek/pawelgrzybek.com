@@ -1,7 +1,6 @@
 ---
 title: CSS Specificity explained
 summary: CSS Specificity is the most misunderstood part of Cascading Style Sheets. Let me explain how the browser understands and interprets the jungle of selectors.
-photo: 2015-07-08.jpg
 ---
 
 CSS Specificity is the most misunderstood part of Cascading Style Sheets. No doubt! Yes, it is even trickier than floats, trust me! I hang out with many web developers on a daily basis and I assume that lack of understanding of this concept is most frequently the reason of confusion. Let me quote [Harry Roberts](http://cssguidelin.es/#specificity):

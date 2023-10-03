@@ -1,7 +1,6 @@
 ---
 title: "Attach Visual Studio Code debugger to SAM (Serverless Application Model) local endpoint"
 summary: "A debugger is something that I cannot live without. Setting it up for my current project built using SAM framework and TypeScript took me a while but I finally got it right."
-photo: 2019-12-01.jpg
 ---
 
 Hi! I am not going to go through the basics of debugging or AWS SAM framework. At this point you are most likely familiar with those — otherwise, you would’ve not landed on this page. I am going to share with you how to attach [Visual Studio Code](https://code.visualstudio.com) debugger to local endpoint served by [AWS SAM (Serverless Application Model)](https://aws.amazon.com/serverless/sam/). Let's start with a simple server-less example app.

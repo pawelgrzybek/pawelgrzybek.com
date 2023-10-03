@@ -1,7 +1,6 @@
 ---
 title: Rounding and truncating numbers in JavaScript
 summary: Convert primary school math skills into code. Let's put together all that we know about rounding and truncating numbers in JavaScript.
-photo: 2016-01-19.jpg
 ---
 
 Rounding and truncating is a bread and butter action for every single developer. It was covered during your first few math lessons in primary school. Hopefully you still remember how it works in the world of numbers.

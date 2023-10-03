@@ -1,7 +1,6 @@
 ---
 title: "Apple changed the default shell from bash to zsh, so did I"
 summary: "Love it or hate it but since macOS Catalina the default shell language is zsh. I am very excited about this decision so let me share with you my favourite parts of the new command-line interpreter."
-photo: 2019-06-06.jpg
 ---
 
 Announced at [WWDC 2019 (Worldwide Developers Conference)](https://developer.apple.com/wwdc19/), [macOS Catalina](https://www.apple.com/macos/catalina-preview/) comes with a lot of changes but in all honesty, I didn't expect [switching the default shell to zsh (Z shell)](https://support.apple.com/en-ca/HT208050). Since OS X 10.2 Jaguar released in 2002 bash has been the primary operating system shell, so why all the sudden this change? Long story short — licensing.

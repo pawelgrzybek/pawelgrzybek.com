@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2019 February"
 summary: "React Hooks landed in v16.8, CSS position sticky explained, State of JavaScript Frameworks & Libraries, future of TSLint and Twelve-Factor App Methodology to Serverless Applications."
-photo: top-picks.jpg
 ---
 
 ## [React v16.8: The One With Hooks](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html)

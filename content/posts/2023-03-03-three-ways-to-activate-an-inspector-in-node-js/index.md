@@ -1,7 +1,6 @@
 ---
 title: "Three ways to activate an inspector in Node.js"
 summary: "There are multiple methods to activate the Node.js inspector. I used to use two ways but recently learned about a third one, so I published this quick post to share it with you."
-photo: "2023-03-03.jpg"
 ---
 
 There are multiple methods to activate the Node.js inspector. I used to use two ways but recently learned about a third one, so I published this quick post to share it with you. Have a look!

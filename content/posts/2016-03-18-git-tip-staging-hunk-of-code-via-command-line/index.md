@@ -1,7 +1,6 @@
 ---
 title: Git tip - How to stage a hunk of code via the command line
 summary: GUI Git clients allow you to stage selected lines of code very easily. You may not know that but doing this in the command line isn't much more difficult.
-photo: 2016-03-18.jpg
 ---
 
 The command line is my preferred way of using git. My code editor (Sublime Text) and command line app (iTerm 2) is everything that I need. Although I have some minor experience with GUI tools, I just don't need them. A third opened app next to the two previously mentioned isn't needed. The only feature that I missed from tools like Tower 2 or SourceTree was the ability to stage small hunks of code from the same file independently and create separate commits from them. Happy days! [Wes Bos](https://twitter.com/wesbos) published a fantastic [collection of git tips and tricks](http://wesbos.com/git-hot-tips/) a few days ago, and one of them is the feature that I was always missing. Less talking, more coding!

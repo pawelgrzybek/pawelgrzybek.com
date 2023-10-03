@@ -1,7 +1,6 @@
 ---
 title: Fluent interfaces explained
 summary: Imagine a program that is written like a sentence instead of a series of separated command blocks — the technique of method chaining is the answer.
-photo: 2017-03-17.jpg
 ---
 
 It doesn't matter whether it is a professional developer writing a complicated Java application, a bored secretary playing Candy Crush Saga on Facebook or my father drinking a beer and reading football news on the Eurosport website — every single activity that is carried out on a computer ends up as a series of ones and zeros that tells the processor what to actually do. All programming languages are just a layer of abstraction on top of this principle. This article isn't about this concept but there is a publication that I can highly recommend to those curious — ["The Definitive Guide to How Computers Do Math"](https://www.amazon.com/Definitive-Guide-How-Computers-Math/dp/0471732788) by Clive Maxfield. The crucial outcome here is the fact that the computer doesn't care about the code readability — we developers do however so the code should be written in a way to help humans to read it. I'm almost sure that you heard before this popular sentence taken from from Martin Fowler's [book](https://www.amazon.co.uk/Refactoring-Improving-Design-Existing-Technology/dp/0201485672):

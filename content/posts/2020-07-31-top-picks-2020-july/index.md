@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2020 July"
 summary: "Chrome web.dev Live 2020, new approach to work with dates in JavaScript, Svelte with a support for TypeScript, AWS SAM frameworks hits stable version 1.0.0 and more…"
-photo: top-picks.jpg
 ---
 
 ## [Day 1: Chrome web.dev Live 2020](https://www.youtube.com/playlist?list=PLNYkxOF6rcIDC0-BiwSL52yQ0n9rNozaF), [Day 2: Chrome web.dev Live 2020](https://www.youtube.com/playlist?list=PLNYkxOF6rcIBhuGsbO6t8-OBE5-fVPe7K), [Day 3: Chrome web.dev Live 2020](https://www.youtube.com/playlist?list=PLNYkxOF6rcIDJHOcBzho38p6WTn3vESvQ)

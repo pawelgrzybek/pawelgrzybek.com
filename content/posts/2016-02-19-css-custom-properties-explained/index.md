@@ -1,7 +1,6 @@
 ---
 title: CSS Custom Properties explained
 summary: CSS Custom Properties (colloquially known as a CSS Variables) are around the corner. Let's embrace the power of a feature that we've been waiting years for.
-photo: 2016-02-19.jpg
 ---
 
 In programming languages the term "variable" describes a storage location normally associated with an identifier that contains some value. Despite fact that CSS is a markup language, spec creators were very generous recently and gave us a tiny, but very powerful piece of real programming capability. Excitement about native [CSS Custom Properties](https://www.w3.org/TR/css-variables/) is generally tempered by the incorrect comparison to variables used in preprocessors like [Sass](http://sass-lang.com/) or [LESS](http://lesscss.org/). Don't be fooled by this misconception! Bare with me for the rest of this article and let's embrace the power of this new native feature together.

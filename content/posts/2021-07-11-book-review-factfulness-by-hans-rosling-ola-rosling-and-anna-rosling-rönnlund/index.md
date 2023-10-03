@@ -1,7 +1,6 @@
 ---
 title: "Book review: Factfulness by Hans Rosling,  Ola Rosling and Anna Rosling Rönnlund"
 summary: "How is that possible that chimpanzee outperforms bunch of C-level executives in a simple test about global trends? But, of course, there is not necessarily something wrong with CEOs, CFOs and CTOs of well-known organisations because this issue applies to all of us — we are a bunch of ignorants stuck with the massively distorted vision of humanity."
-photo: "2021-07-11.jpg"
 ---
 
 How is that possible that chimpanzee outperforms bunch of C-level executives in a simple test about global trends? But, of course, there is not necessarily something wrong with CEOs, CFOs and CTOs of well-known organisations because this issue applies to all of us — we are a bunch of ignorants stuck with the massively distorted vision of humanity. To top it off, people are full of negative beliefs inspired by events from the distant past, but in reality, society is in a much better state than the majority of us think.

@@ -1,7 +1,6 @@
 ---
 title: "Internet Explorer just hit the end of life — let's remind ourselves of our favourite IE hacks"
 summary: "Microsoft's Internet Explorer just got retired. So to celebrate this historical moment, I put together a collection of ridiculous IE hacks that we used to copy/paste all the freakin time."
-photo: "2022-06-15.jpg"
 ---
 
 Today is the day — [Microsoft's Internet Explorer just got retired](https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/).

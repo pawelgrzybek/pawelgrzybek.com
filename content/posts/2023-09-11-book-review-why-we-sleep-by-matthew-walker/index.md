@@ -1,7 +1,6 @@
 ---
 title: "Book review: Why We Sleep by Matthew Walker"
 summary: "Why do people sleep in the first place? Why are some of my dreams so messed up? What is going on with these sleep cycles? These are just some questions that I sought answers for."
-photo: "2023-09-11.jpg"
 ---
 
 Strangely, we sleep for one-third of our lives (at least we should), yet we rarely think about it and often neglect it. Most of us know very little about sleep; we do it. I started thinking about it more after I noticed a significant improvement in the quality of my life after I changed my sleeping routine. Why do people sleep in the first place? Why are some of my dreams so messed up? What is going on with these sleep cycles? These are just some questions that I sought answers for.

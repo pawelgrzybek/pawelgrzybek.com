@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2019 June"
 summary: "The Evolution Of A Brand, plugins are coming to Figma, WWDC19 and more…"
-photo: top-picks.jpg
 ---
 
 ## [WWDC19 - Apple Developer](https://developer.apple.com/wwdc19/)

@@ -1,7 +1,6 @@
 ---
 title: "Book review: A Beginner's Guide to the Stock Market by Matthew R. Kratter"
 summary: "One of the outcomes of abandoning social media is the excess of free time that you have. I'm not the type of person who will spend their downtime watching a new Netflix show, so I decided to get into the rabbit hole of stocks trading."
-photo: "2021-01-18.jpg"
 ---
 
 One of the outcomes of abandoning social media is the excess of free time that you have. I'm not the type of person who will spend their downtime watching a new Netflix show, so I decided to get into the rabbit hole of stocks trading. There is a little problem though — I know nothing about it. It's never too late!

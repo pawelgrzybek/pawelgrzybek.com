@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2019 September"
 summary: "Writing for big publications, Command Line Heroes podcast, TypeScript vs ReasonML, Can I use merges with MDN, FaunaDB on Netlify, great guide to HTML5 `<head>` elements and more…"
-photo: top-picks.jpg
 ---
 
 ## [Pitching Your Writing To Publications](https://www.smashingmagazine.com/2019/08/pitching-writing-publications/)

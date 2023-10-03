@@ -1,7 +1,6 @@
 ---
 title: "TypeScript interface vs. type"
 summary: "Should it be an interface or a type alias? This is a question asked a lot by newcomers. Let me clarify the difference."
-photo: 2019-05-28.jpg
 ---
 
 I'm not an expert in the field of TypeScript by any means but I have worked with it every single day for the last few months and I am really enjoying the ride. Beneath its straight-forward set of features there are some confusing concepts as well. Should it be an `interface` or a `type` alias? This is a question asked a lot by newcomers.

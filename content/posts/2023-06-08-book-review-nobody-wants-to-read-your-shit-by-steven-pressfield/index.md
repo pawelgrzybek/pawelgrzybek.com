@@ -1,7 +1,6 @@
 ---
 title: "Book review: Nobody Wants to Read Your Sh*t by Steven Pressfield"
 summary: "I picked this book up before our last trip to Sicily just to keep me busy on the plane. For some reason, I assumed it is going to be similar to \"On Writing Well\" by William Zinsser that I really enjoyed. I was so wrong on this assumption, but I had a good time listening to this audiobook."
-photo: "2023-06-08.jpg"
 ---
 
 I picked this book up before [our last trip to Sicily](/sicily-2023/) just to keep me busy on the plane. For some reason, I assumed it is going to be similar to ["On Writing Well" by William Zinsser](/book-review-on-writing-well-by-william-zinsser/) that I really enjoyed. I was so wrong on this assumption, but I had a good time listening to this audiobook.

@@ -1,7 +1,6 @@
 ---
 title: A look back at 2018
 summary: Another New Year's Eve is on the horizon — the perfect time to summarise the things that went well, not so well and make some plans for the next twelve months.
-photo: 2018-12-28.jpg
 ---
 
 This isn't a post about a JavaScript — not about programming at all, in fact. Nor about photography, or graphic design either. Today is the day for a special post to recap my achievements and fails from the past year and reveal some plans for the next one. I've been cultivating this ritual for a few years now (["A look back at 2016"](https://pawelgrzybek.com/a-look-back-at-2016/) and ["A look back at 2017"](https://pawelgrzybek.com/a-look-back-at-2017/)) and couldn't let this tradition pass so here I am with this year's update.

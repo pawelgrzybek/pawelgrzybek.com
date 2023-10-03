@@ -1,7 +1,6 @@
 ---
 title: Use modern JavaScript today with Babel
 summary: ECMAScript 2015 has been recently ratified and brought us many cool features. As you may expect, browsers support is the only issue, but not with Babel.
-photo: 2015-09-12.jpg
 ---
 
 In June 2015 new [version of ECMAScript](http://www.ecma-international.org/ecma-262/6.0/index.html) has been ratified and brought us many cool features. Last big update like that happened in 2009 when ES5 has been officially revealed. As always the biggest problem with new standards is browsers compatibility (incompatibility suits better here). This is the only reason that restrains developers from using latest standards. Fortunately we have a [Babel](https://babeljs.io/) (formerly known as 6to5). It allows you to use new syntax by transpiling your ECMAScript 2015 into ES5 code, that works fine in current JavaScript environments. How cool is that? [Setup](https://babeljs.io/docs/setup/) is super easy and well documented. If you are not 100% convinced yet, you can play around with it [online](https://babeljs.io/repl/).

@@ -1,7 +1,6 @@
 ---
 title: "A few practical use cases for npm dependency queries"
 summary: "Sometimes we need to get some insights about the packages that we use. Manually going through the modules directory sounds like a chore, but luckily there is a better way."
-photo: "2022-10-15.jpg"
 ---
 
 I don’t want to joke about the JavaScript ecosystem and its dependencies because we have seen enough of it. Let’s accept that our projects consist of hundreds of third-party modules — when it works, it works fine and pays the bills.

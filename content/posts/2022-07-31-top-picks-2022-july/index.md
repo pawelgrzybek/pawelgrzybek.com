@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 July"
 summary: "Working with the file system on Node.js, come cool macOS CLI, some food for thoughs about the software lifetime, using Rust in Deno, some serious competition to Electron is coming, come aspect ratio tricks, HTML  outline drama aand more…"
-photo: top-picks.jpg
 ---
 
 ## [Working with the file system on Node.js](https://2ality.com/2022/06/nodejs-file-system.html)

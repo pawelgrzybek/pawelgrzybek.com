@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2019 December"
 summary: "Screen readers explained, graphQL connections demystified, Quoting in HTML, the State of JavaScript in 2019, Const Assertions in TypeScript, hot tips to become a better Node.js developer, the CSS Containment Specification and more…"
-photo: top-picks.jpg
 ---
 
 ## [What is a screen reader?](https://axesslab.com/what-is-a-screen-reader/)

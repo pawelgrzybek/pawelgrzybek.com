@@ -1,7 +1,6 @@
 ---
 title: "I am joining Polygon"
 summary: "I have had a great time co-creating Semble for the past nine months. But unfortunately, some internal difficulties arose that perfectly synced with the hard-to-decline offer I received. I am happy to share that I am joining Polygon as a Software Engineer."
-photo: "2022-08-24.jpg"
 ---
 
 I've had a great time co-creating [Semble (formerly Heydoc)](https://www.semble.io) for the past nine months. It was such a pleasure to build software that helps thousands of doctors around the UK. But unfortunately, some internal difficulties arose a few weeks ago that perfectly synced with the hard-to-decline offer I received.

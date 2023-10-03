@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 September"
 summary: "The simple way of testing using Mac VoiceOver, interesting conversation with John Carmack, best practices for creating a modern npm package, Linux command line for beginners, incredible TypeScript series of tutorials and a lot more…"
-photo: top-picks.jpg
 ---
 
 ## [Mac VoiceOver Testing the Simple Way](https://cloudfour.com/thinks/mac-voiceover-testing-the-simple-way/)

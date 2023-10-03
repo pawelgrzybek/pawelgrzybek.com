@@ -1,7 +1,6 @@
 ---
 title: What's the deal with the Pointer Events in JavaScript?
 summary: How do you handle mouse events but maintain a good experience for users using their finger as the input device? How about pens / styluses? Pointer events to the rescue!
-photo: 2016-12-06.jpg
 ---
 
 Have you ever worked on a UI component that depends on events triggered by a pointer device? It can be a mouse, touch pad or more precise tools like the pencil often used with an iPad Pro or other devices like the Samsung Galaxy Note. Touch devices are also reading events triggered by your fingers. But wait a sec — it is 2016 — pressure and tilt-aware devices exist and presumably you've got one in your pocket.

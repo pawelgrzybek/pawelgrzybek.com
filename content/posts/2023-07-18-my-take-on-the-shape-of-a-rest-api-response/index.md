@@ -1,7 +1,6 @@
 ---
 title: "My take on the shape of a REST API response"
 summary: "I have built a few REST APIs and seen many approaches to the response interface. I prefer to keep things simple, so I have come up with an interface that works well for me in most cases and I wanted to share it with you."
-photo: "2023-07-18.jpg"
 ---
 
 I have built a few REST APIs and seen many approaches to the response interface. A few specifications try to standardize the response shape, such as [JSON:API](https://jsonapi.org), [OData JSON Format](http://docs.oasis-open.org/odata/odata-json-format/v4.0/errata02/os/odata-json-format-v4.0-errata02-os-complete.html), and [JSend](https://github.com/omniti-labs/jsend). I prefer to keep things simple, so I have developed an interface that works well for me in most cases and wanted to share it with you.

@@ -1,7 +1,6 @@
 ---
 title: "Auto setup remote branch and never again see an error about the missing upstream"
 summary: "We have two options to automatically push a local branch to the remote repository under the same branch name. There is a subtle difference between them, though. "
-photo: "2022-07-17.jpg"
 ---
 
 A little [git tip published on Twitter by James Ide](https://twitter.com/ji/status/1546948817462800384) went viral a few days ago, and it inspired me to write down this post. You usually see this when you try to `git push` a local branch that misses a remote upstream.

@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2018 July"
 summary: "Npm joins TC39! Affinity Designer for iPad! Moment for iOS! Accessibility for Teams! CSS Container Queries! State of Browsers! CSS Shapes! TypeScript 3.0 and more…"
-photo: top-picks.jpg
 ---
 
 ## [npm Joins ECMA International and TC39](https://blog.npmjs.org/post/175722319045/npm-joins-ecma-international-and-tc39)

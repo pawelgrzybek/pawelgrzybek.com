@@ -1,7 +1,6 @@
 ---
 title: "Book review: Humble Pi: A Comedy of Maths Errors by Matt Parker"
 summary: "Despite the fact that I have never had a trophy for being the best maths student at school, I always enjoyed mathematics. I can get through some simple equations but everything more challenging than trigonometry or matrices normally ends up being a spectacular fiasco. My failures are very insignificant compared to the ones described in the book that I just read."
-photo: 2020-02-27.jpg
 ---
 
 Despite the fact that I have never had a trophy for being the best maths student at school, I always enjoyed mathematics. An understanding of the basics has helped me a lot in a real-life and probably not harmed my career either. I can get through some simple equations but everything more challenging than trigonometry or matrices normally ends up being a spectacular fiasco. My failures are very insignificant compared to the ones described in the book that I just read.

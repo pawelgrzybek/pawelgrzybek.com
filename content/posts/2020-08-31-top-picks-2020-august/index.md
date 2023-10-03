@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2020 August"
 summary: "The new TypeScript website, GraphQL course by Contentful team, Rome is coming, CSS leading-trim and more…"
-photo: top-picks.jpg
 ---
 
 ## [Announcing the new TypeScript Website](https://devblogs.microsoft.com/typescript/announcing-the-new-typescript-website/)

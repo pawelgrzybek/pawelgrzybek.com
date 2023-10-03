@@ -1,7 +1,6 @@
 ---
 title: "Configure a local WordPress development using Docker"
 summary: "WordPress being the absolute top of the podium of user-friendly content management systems can be cumbersome to spin up locally. Docker containers are perfect for tasks like this so let me explain."
-photo: 2019-07-04.jpg
 ---
 
 One of the most popular articles on my website is ["Configure a local WordPress development on macOS from scratch"](https://pawelgrzybek.com/configure-a-local-wordpress-development-on-macos-from-scratch/). I have recently used [Docker](https://www.docker.com/) a lot so I decided to tackle the same subject again but this time using containers.

@@ -1,7 +1,6 @@
 ---
 title: Sync VSCode settings and snippets via dotfiles on Github
 summary: Having access to the same settings and snippets across multiple devices is a handy feature of some text editors. This is how to do it in VSCode.
-photo: 2017-01-13.jpg
 ---
 
 My text editor and the browser are probably the most frequently used applications in my daily work routine. As long as you are logged in to Google Chrome (or any other browser) the synchronization of settings and plugins happens in the background. Unfortunately syncing settings between applications like VSCode is not as straight forward. However, just because it doesn't come baked into the software it doesn't mean it is impossible.

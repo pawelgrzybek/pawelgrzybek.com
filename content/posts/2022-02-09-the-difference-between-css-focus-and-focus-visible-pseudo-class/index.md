@@ -1,7 +1,6 @@
 ---
 title: "The difference between CSS focus and focus-visible pseudo-class"
 summary: "Browsers, by default, do a great job to determine if an element should indicate focus. The CSS `:focus` and `:focus-visible` pseudo-classes allow us to customise the look of a focus indicator. Do you know the difference between them?"
-photo: "2022-02-09.jpg"
 ---
 
 You can browse the Web using a mouse, keyboard and all sorts of assistive technology devices. Whichever input method you use, a clear indication of the current interactive element is crucial for a good user experience and accessibility. Default browsers stylesheets do a great job at it, but sometimes we want to be a little bit more sophisticated.

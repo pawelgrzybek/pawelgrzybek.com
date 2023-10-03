@@ -1,7 +1,6 @@
 ---
 title: "Vertical vs horizontal scalability in software development"
 summary: "Scalability is the ability to increase or decrease resources based on demand. There are two types of scalability: vertical and horizontal. I always imagine a simple diagram that helps me to understand the concept. This mental shortcut helps me a lot, so maybe it will help you too."
-photo: "2021-09-13.jpg"
 ---
 
 Scalability is the ability to increase or decrease resources based on demand. There are two types of scalability: vertical and horizontal. Whenever I hear one of these two terms, I need to stop for a second to think which one is which. I always imagine a simple diagram that helps me to understand the concept. This mental shortcut helps me a lot, so maybe it will help you too.

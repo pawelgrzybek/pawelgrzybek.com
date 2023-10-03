@@ -1,7 +1,6 @@
 ---
 title: "Project manager for Visual Studio Code using Raycast"
 summary: "Most likely, we work on multiple projects in Visual Studio Code hence the high popularity of the Project Manager extension. If you are a Raycast user, you can achieve the same functionality using Quicklinks."
-photo: "2022-07-01.jpg"
 ---
 
 Most likely, we work on multiple projects in Visual Studio Code hence the high popularity of [the Project Manager extension](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager). If you are a Raycast user, you can achieve the same functionality using [Quicklinks](https://www.notion.so/Quicklinks-8cc9c64a077a440189858c074492e8d8).

@@ -1,7 +1,6 @@
 ---
 title: "A week with Keychron K3 Pro"
 summary: "Less than a week after placing an order, I received my Keychrone K3 Pro with a white backlight and brown switches. I have some thoughts that I would love to share with you."
-photo: "2023-03-17.jpg"
 ---
 
 Over the last 16 years, I have been using Apple computers. Also, since then, I have used only a few generations of Apple keyboards. As I started experiencing connectivity issues with my Magic Apple Keyboard a few weeks ago, I thought it was time for a new one. Instead of blindly getting one from the Apple store, I decided to try something new. Less than a week after placing an order, I received my [Keychrone K3 Pro](https://www.keychron.com/products/keychron-k3-pro-qmk-via-wireless-custom-mechanical-keyboard) with a white backlight and brown switches. I have some thoughts that I would love to share with you.

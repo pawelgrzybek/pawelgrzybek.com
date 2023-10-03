@@ -1,7 +1,6 @@
 ---
 title: Change macOS user preferences via command line
 summary: The system preferences window is not the only way to change user preferences in macOS. The "defaults" command gives you more power to configure your machine than you would have thought.
-photo: 2017-12-18.jpg
 ---
 
 The System Preferences window is not the only way to adjust user settings. Macs come with a [`defaults`](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.html) command line interface that lets you read, write, and delete macOS user defaults. You may have even used it before — revealing hidden files in Finder is a popular snippet (hot tip: `⌘` + `⇧` + `.` is quicker).

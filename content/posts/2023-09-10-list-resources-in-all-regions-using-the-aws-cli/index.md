@@ -1,7 +1,6 @@
 ---
 title: "List resources across all regions using the AWS CLI"
 summary: "Today, I needed to list all AWS CloudFormation stacks across all locations under my account. It wasn't as straightforward as I initially thought because the AWS CLI doesn't have a single command to do that."
-photo: "2023-09-10.jpg"
 ---
 
 Today, I needed to list all AWS CloudFormation stacks across all locations under my account. It wasn't as straightforward as I initially thought because the AWS CLI doesn't have a single command to do that. The `--region all` global flag would be nice. Luckily, with a little bit of Bash scripting, we can get the job done.

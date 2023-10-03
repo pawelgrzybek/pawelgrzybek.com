@@ -1,7 +1,6 @@
 ---
 title: "Book review: On Writing Well by William Zinsser"
 summary: "Some time ago, I discovered Seth’s Godin’s blog, and since then, I have read every single article by him. There is something about his writing style that I admire a lot. It is concise and keeps me reading even if the subject is not in the scope of my interests. People like Seth inspired me to invest some time in my writing skills."
-photo: "2021-09-11.jpg"
 ---
 
 Some time ago, I discovered [Seth's Godin's blog](https://seths.blog) (thanks [Basia](https://twitter.com/barbs_zarzycka)  for the recommendation), and since then, I have read every single article by him. There is something about his writing style that I admire a lot. It is concise and keeps me reading even if the subject is not in the scope of my interests. The Akimbo Podcast is another masterpiece produced by Seth that I can’t stop listening to.

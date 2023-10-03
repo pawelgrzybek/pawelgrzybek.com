@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 July"
 summary: "The return keyword in javaScript explained, encoding of POST request data demystified, GitHub Copilot and the fair criticism of npm audit."
-photo: top-picks.jpg
 ---
 
 ## [In JS functions, the 'last' return wins](https://jakearchibald.com/2021/last-return-wins/)

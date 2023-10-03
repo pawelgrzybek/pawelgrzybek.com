@@ -1,7 +1,6 @@
 ---
 title: "My favourite WWDC22 announcements and some disappointments"
 summary: "As a real Apple fanboy, on the 6th of June, I watched Apple WWDC22 like I do every year. So, let me share a few announcements that I am the most excited about. But, I want to keep it brief and leave some room to express my disappointments."
-photo: "2022-06-13.jpg"
 ---
 
 As a real Apple fanboy, on the 6th of June, I watched [Apple WWDC22](https://youtu.be/q5D55G7Ejs8) (Worldwide Developers Conference) like I do every year. So, let me share a few announcements that I am the most excited about. I’m going to keep it brief and leave some room to express my disappointments.

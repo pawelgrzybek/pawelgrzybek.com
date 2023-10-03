@@ -1,7 +1,6 @@
 ---
 title: "Book review: The 7 Habits of Highly Effective People by Stephen R. Covey"
 summary: "There's no better time than during a global pandemic, to slow down and do a little bit for yourself. It's a great time to convert bad habits into good ones, a perfect opportunity to try a new diet, learn a new skill, meditate, or play a series of console games that we've been postponing for a long time. I decided to kick 2021 off with a classic self-development book."
-photo: "2021-01-07.jpg"
 ---
 There's no better time than during a global pandemic, to slow down and do a little bit for yourself. It's a great time to convert bad habits into good ones, a perfect opportunity to try a new diet, learn a new skill, meditate, or play a series of console games that we've been postponing for a long time. I decided to kick 2021 off with a classic self-development book — ["The 7 Habits of Highly Effective People" by Stephen R. Covey](https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People).
 

@@ -1,7 +1,6 @@
 ---
 title: "A few \"how did you do it\" kinda macOS tips and tricks"
 summary: "Over the years, I collected an arsenal of macOS tips and tricks. Let me share some of them with you. This post doesn't assume you have XYZ software installed — just pure macOS stuff here."
-photo: "2022-10-21.jpg"
 ---
 
 Over the years, I collected an arsenal of little "how did you do it" kinda macOS tips and tricks. Let me share some of them with you. This post doesn't assume you have XYZ software installed — just pure macOS stuff here. Enjoy!

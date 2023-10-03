@@ -1,7 +1,6 @@
 ---
 title: "Book review: The Effective Executive by Peter F. Drucker"
 summary: "After reading this book, I no longer wonder why this publication is so popular. If I could recommend only one self-development book, that would be this one."
-photo: "2022-03-25.jpg"
 ---
 
 Reading self-development books is my favourite way of boosting productivity. It doesn’t matter if it is only a motivational kick that keeps me going for a few weeks or perhaps it introduces a new habit in my life — as long as it helps me get things done, I'm a happy man.

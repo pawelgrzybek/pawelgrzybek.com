@@ -1,7 +1,6 @@
 ---
 title: Top picks — 2018 March
 summary: Prototyping and cloud libraries in Sketch 49, tons of cool stuff on React's world, C++ must have, shocking results of Stackoverflow Developer Survey and CSS Typed Object Model.
-photo: top-picks.jpg
 ---
 
 ## [Prototyping, Libraries on Sketch Cloud and an official iOS UI kit in Sketch 49](https://blog.sketchapp.com/prototyping-libraries-on-sketch-cloud-and-an-official-ios-ui-kit-in-sketch-49-bf090c70796c)

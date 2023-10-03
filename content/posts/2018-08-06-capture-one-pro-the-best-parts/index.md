@@ -1,7 +1,6 @@
 ---
 title: "Capture One Pro — the best parts"
 summary: "Amongst the multiple RAW image converters available on the market, I settled with the one by Phase One. Let me share with you a few reasons why I made this choice."
-photo: 2018-08-06.jpg
 ---
 
 From Monday to Friday I am a Senior Front-end Developer at [Mindera](https://mindera.com/) but come the weekend, I turn into a hobbyist photographer. After shooting analog using a Hasselblad 500C/M for years I recently became the happy owner of a [Sony α7R III](https://www.sony.co.uk/electronics/interchangeable-lens-cameras/ilce-7rm3). As far as shooting goes on an advanced camera like this it is pure pleasure. To take a good picture you need to have a good eye — this applies to both analog and digital worlds. The differences start after pressing the shutter button when instead of going to the darkroom, everything goes to software.

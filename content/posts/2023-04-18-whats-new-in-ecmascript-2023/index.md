@@ -1,7 +1,6 @@
 ---
 title: "What's new in ECMAScript 2023"
 summary: "After reading notes from the last TC39 meeting, it looks like the list of new features coming to JavaScript is already known. The final version of the ECMAScript specification is expected to be published at the end of June."
-photo: "2023-04-18.jpg"
 ---
 
 After reading [notes from the last TC39 meeting](https://github.com/tc39/notes/tree/main/meetings/2023-03), it looks like the list of new features coming to JavaScript is already known. The final version of the ECMAScript specification is expected to be published at the end of June.

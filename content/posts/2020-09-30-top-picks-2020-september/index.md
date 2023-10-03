@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2020 September"
 summary: "Think twice before you use React FC type, preloading of late-discovered images, new code editor by Panic, introduction to AVIF, command-line tool by GitHub his stable version, Vue 3.0 arrived, some consideration to take before writing new authentication service, brand new features of React transforms and more…"
-photo: top-picks.jpg
 ---
 
 ## [TypeScript + React: Why I don't use React.FC](https://fettblog.eu/typescript-react-why-i-dont-use-react-fc/)

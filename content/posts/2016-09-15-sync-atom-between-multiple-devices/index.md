@@ -1,7 +1,6 @@
 ---
 title: Sync Atom between multiple devices
 summary: Syncing the preferences and extensions of my code editor between all of my devices is part of my productive workflow. Here are a few methods to do it with Atom.
-photo: 2016-09-15.jpg
 ---
 
 Keeping the preferences and installed extensions for my text editor in sync across all of my devices is an important part of my productive workflow. I can't think of a more annoying situation than being disturbed because of a missing snippet or plugin. I'm not sure why the creators of these tools don't explicitly provide a solution to import / export things in an easier way. [iTerm](https://www.iterm2.com/) and [Alfred](https://www.alfredapp.com/) are a great example of how to do it right — simply pick a location where your settings should be exported to and keep this file in sync with other devices (Dropbox, iCloud, git, whatever).

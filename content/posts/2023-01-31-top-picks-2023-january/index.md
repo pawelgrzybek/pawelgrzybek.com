@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2023 January"
 summary: "HTML with Superpowers, improvements to GitHub actions, built-in CloudFormation validation in AWS SAM, CodeSandbox with Rust support, Astro 2.0 and more…"
-photo: "2022-12-31.jpg"
 ---
 
 ## [HTML with Superpowers](https://htmlwithsuperpowers.netlify.app)

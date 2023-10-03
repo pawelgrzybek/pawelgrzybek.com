@@ -1,7 +1,6 @@
 ---
 title: "Book review: A Short History of Nearly Everything by Bill Bryson"
 summary: "How do we know what we know about such distant subjects like the Big Bang, a distant space or black holes? How much science explored the universe, and what still can be discovered? We know that atoms and particles are tiny, but how small they really are?"
-photo: "2022-03-21.jpg"
 ---
 
 How do we know what we know about such distant subjects like the Big Bang, a distant space or black holes? How much science explored the universe, and what still can be discovered? We know that atoms and particles are tiny, but how small are they really? Luckily Bill Bryson in his book ["A Short History of Nearly Everything"](https://www.goodreads.com/book/show/21.A_Short_History_of_Nearly_Everything), explains it all very well.

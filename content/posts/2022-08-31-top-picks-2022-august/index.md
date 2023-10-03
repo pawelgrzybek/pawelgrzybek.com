@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 August"
 summary: "The truth about agile development, responsive CSS content scrollers, Astro 1.0, git force trick, CSS scroll snapping demystified, the sick release of Deno, new crawler on Node.js ecosystem, Bun is growing and more…"
-photo: top-picks.jpg
 ---
 
 ## [Agile & Scrum Don't Work | Allen Holub In The Engineering Room Ep. 9](https://youtu.be/hxXmTnb3mFU)

@@ -1,7 +1,6 @@
 ---
 title: Linting TypeScript
 summary: Lint or not to lint? TSLint or ESLint? It is hard to decide what to use to identify potential errors. Let me elaborate why I chose ESLint to help me doing that.
-photo: 2019-01-22.jpg
 ---
 
 When I started using TypeScript some time ago I identified one thing that I am missing from the vanilla JavaScript territory — linting. Having [Prettier](https://prettier.io/) take care of stylistic aspects of my codebase and [ESLint](https://eslint.org/) catching potential errors — that's the way how I tend to live my life. Despite the fact that ESLint can help me with formatting flaws I much prefer using Prettier for it. I consider its restricted configuration options and opinionated rules to be its best features. Support for TypeScript comes out of the box — formatting sorted. To detect potential errors we have a few options in TypeScript ecosystem.

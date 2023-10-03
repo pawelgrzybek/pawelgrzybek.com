@@ -1,7 +1,6 @@
 ---
 title: Hello there!
 summary: Welcome to my website. After a while of being a web developer I found out that It gives my a massive pleasure to share knowledge, so I decided to run this blog.
-photo: 2015-03-11.jpg
 ---
 
 I’m so happy to introduce you my new website. It’s not about the fancy cool effects, it is not about shiny design. It’s purely about the content that I would like to share with you.

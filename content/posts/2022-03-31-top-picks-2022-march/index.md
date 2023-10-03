@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 March"
 summary: "TypeScript native support in the AWS SAM, new CSS features in 2022, better writing, Types as Comments in ECMAScript, crazy update for Safari, CSS-Tricks acquired by DigitalOcean, 1Password meet SSH, sick CodeSandbox announcement, Tao of Node.js, Docker course, PM2 guide and more…"
-photo: top-picks.jpg
 ---
 
 ## [Announcing TypeScript native support in the AWS Serverless Application Model (AWS SAM) CLI (using esbuild) (public preview)](https://aws.amazon.com/about-aws/whats-new/2022/02/typescript-native-support-aws-serverless-application-model-cli-esbuild-public-preview/)

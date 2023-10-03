@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2018 December"
 summary: "Chromium-based Anaheim browser on Windows, Dan Abramov started his blog, WordPress 5 Bebo landed and more!"
-photo: top-picks.jpg
 ---
 
 ## [Microsoft is building a Chromium-powered web browser that will replace Edge on Windows 10](https://www.windowscentral.com/microsoft-building-chromium-powered-web-browser-windows-10)

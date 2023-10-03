@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 April"
 summary: "A new HTTP client for Node.js, website carbon calculator, great explanation of JavaScript Temporal API and Netlify announced native support for TypeScript. Pretty busy month!"
-photo: top-picks.jpg
 ---
 
 ## [undici — An HTTP/1.1 client, written from scratch for Node.js](https://github.com/nodejs/undici)

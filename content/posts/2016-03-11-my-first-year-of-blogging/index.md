@@ -1,7 +1,6 @@
 ---
 title: My first year of blogging
 summary: Exactly one year ago I published my first article. I'm not going to stop here that's for sure. Nothing went wrong, so let me share with you what went well.
-photo: 2016-03-11.jpg
 ---
 
 A web developer's learning curve is endless and the main source of information are blogs created by other developers. The vast majority of good developers highlight the benefits of written content whenever they share some thoughts about their career path. I never understood this before I tried doing it myself. Exactly one year ago I published [my first article](https://pawelgrzybek.com/hello-there/) and I couldn't be happier that I started. I won't be stopping here that's for sure! Let me share with you a few thoughts about my first year of blogging.

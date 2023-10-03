@@ -1,7 +1,6 @@
 ---
 title: "Book review: The Alcohol Experiment by Annie Grace"
 summary: "At the end of last year, I started questioning my relationship with alcohol. I decided to stop drinking. I wasn’t sure if it would be a nine-month break or a permanent change. Now I know — it is a life change."
-photo: "2023-06-28.jpg"
 ---
 
 At the end of last year, I started questioning my relationship with alcohol. Most evenings, I would have a glass or two of wine. It was not unusual for me to get drunk on a weekend night. Meeting a friend without three pints of craft DIPA (Double Indian Pale Ale) or shopping without checking the wine section was nearly impossible.

@@ -1,7 +1,6 @@
 ---
 title: "I abandoned Facebook and Instagram for a month"
 summary: "Inspired by my girlfriend and motivated by the \"Digital Minimalism\" by Cal Newport, I decided to quit Facebook and Instagram for an entire month. Literally moment ago I re-visited these two social media platforms for the first time since the end of 2020 to see that I missed absolutely nothing!"
-photo: "2021-02-02.jpg"
 ---
 
 When is the best time to try something new in your life? It’s now! But for me it happened to be precisely a month ago, at the beginning of a new year. I accomplished a dry January challenge without a single sip of my favourite Montepulciano d’Abruzzo wine. After many years of a pescatarian lifestyle, I decided to go full vegetarian. Arrivederci, seafood! Apart from these little changes, I did one more, much more meaningful thing.

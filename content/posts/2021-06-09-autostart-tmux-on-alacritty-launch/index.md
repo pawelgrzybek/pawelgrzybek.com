@@ -1,7 +1,6 @@
 ---
 title: "Autostart tmux on Alacritty launch"
 summary: "After using Hyper for a long time, I recently tried Alacritty for the first time and I decided to switch almost instantly. At the time of writing this post it doesn’t support multiple windows — no biggie for me because tmux can solve this limitation quickly"
-photo: "2021-06-09.jpg"
 ---
 
 After using [Hyper](https://hyper.is) for a long time, I recently tried [Alacritty](https://github.com/alacritty/alacritty) for the first time and I decided to switch almost instantly. This OpenGL powered terminal emulator is crazy fast, lightweight and configurable. Love it!

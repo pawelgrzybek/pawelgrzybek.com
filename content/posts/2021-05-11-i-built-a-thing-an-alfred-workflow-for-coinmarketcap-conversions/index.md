@@ -1,7 +1,6 @@
 ---
 title: "I built a thing - an Alfred workflow for CoinMarketCap conversions"
 summary: "Hi, all cryptocurrencies maniacs! I recently got into it, and I found myself checking CoinMarketCap about a trillion times a day. I have great news for all users of my favourite productivity helper — Alfred. I built a quick conversion workflow using CoinMarketCap API."
-photo: "2021-05-11.jpg"
 ---
 
 Hi, all cryptocurrencies maniacs! I recently got into it, and I found myself checking [CoinMarketCap](https://coinmarketcap.com) about a trillion times a day. I knew there must be a better way! I have great news for all users of my favourite productivity helper — Alfred. I built a quick conversion workflow using CoinMarketCap API. All you need is:

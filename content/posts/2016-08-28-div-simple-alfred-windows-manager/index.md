@@ -1,7 +1,6 @@
 ---
 title: Div — a simple Alfred window manager
 summary: I'm happy to present you Div — a simple Alfred window manager. Let me explain the full potential of this easy and powerful tool in this blog post.
-photo: 2016-08-28.jpg
 ---
 
 There are tons of window managers for Mac OS X around. Chris Coyier published a [nice comparison](https://css-tricks.com/os-x-window-manager-apps/) of the most popular ones some time ago. These apps are great utilities that can boost your productivity by eliminating the time that you normally spend adjusting the window positions on your screen. I was using [Divvy by Mizage](http://mizage.com/divvy/) for a long time and it worked like a charm for me. Another app that I use non-stop is [Alfred](https://www.alfredapp.com/). It looks like the default Spotlight search feature but it is much more powerful than that. It allows you to create advanced search functionality, custom hotkeys, explore files, control apps, store snippets, use clipboard history and so on. The app in itself is a subject that deserves a separate article (expect one soon).

@@ -1,7 +1,6 @@
 ---
 title: "A simple carousel with a few lines of CSS"
 summary: "A few years back, I built Siema — a lightweight (only 3kb gzipped) carousel plugin with no dependencies. Nowadays, I would like to ask you to stop using it."
-photo: "2022-08-09.jpg"
 ---
 
 A few years back, I built [Siema](https://pawelgrzybek.github.io/siema/) — a lightweight (only 3kb gzipped) carousel plugin with no dependencies. It became massively popular because of its simplicity and extensibility. I'm proud of this project because not only helped me but also many other developers.

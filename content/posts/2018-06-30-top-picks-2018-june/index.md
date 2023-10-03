@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2018 June"
 summary: "Guide to open source, GitHub joins Microsoft, WWDC 2018, CORS, accessible cards, CSS Blocks, DNS over HTTPS, Vue passed React, ECMAScript 2018 and more…"
-photo: top-picks.jpg
 ---
 
 ## [A Bitter Guide To Open Source](https://medium.com/@ken_wheeler/a-bitter-guide-to-open-source-a8e3b6a3c1c4)

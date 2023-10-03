@@ -1,7 +1,6 @@
 ---
 title: "Semantic Versioning (SemVer) explained"
 summary: "The versioning of software seems to be a confusing concept for developers. The meaning behind the versioning format isn't coming out of the blue so let me help you to understand it."
-photo: 2018-08-21.jpg
 ---
 
 Software nowadays is rarely built independently without the help of external packages, plugins or frameworks. It normally comes with a bunch of dependencies developed by other developers and we need a way to track the versions of them. Following a meaningful convention helps to track software progress and avoid API collisions. Adopted by multiple ecosystems and software architectures [Semantic Versioning (commonly called SemVer)](https://semver.org/) helps with this.

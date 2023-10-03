@@ -1,7 +1,6 @@
 ---
 title: "TIL: invalid CSS cyclic dependencies and a valid empty fallback value using a bare comma"
 summary: "Today I read one of the most mind-bending CSS articles I have read in a while. It made me think about all these patterns using CSS custom properties we explored in the last few years and how many we still have to discover."
-photo: "2023-06-19.jpg"
 ---
 
 Today I read ["Cyclic Dependency Space Toggles" by Roman Komarov](https://kizu.dev/cyclic-toggles/), one of the most mind-bending CSS articles I have read in a while. It made me think about all these patterns using CSS custom properties we explored in the last few years and how many we still have to discover.  I also learned two exciting concepts from this post, so let me share them with you.

@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 April"
 summary: "Writing JavaScript in a type-safe manner, HTTPS endpoints for AWS Lambdas, a complete guide to CSS Cascade Layers, CSS Parent Selector, great news in new TypeScript release, DuckDuckGo for macOS, Netlify Edge Functions, TypeScript magic with Matt, HTML inert attribute and more…"
-photo: top-picks.jpg
 ---
 
 ## [Goodbye \#TypeScript (going back to \#JavaScript)](https://youtu.be/ytWbqnppzyc)

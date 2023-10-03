@@ -1,7 +1,6 @@
 ---
 title: "From Express to Fastify in Node.js"
 summary: "It has been almost two years since Express has been updated, and a lot of new great tools came around since then. I recently tried Fastify for the first time, and it took me no longer than a few minutes to decide to make a switch. Let me share with you a few main reasons."
-photo: "2021-04-01.jpg"
 ---
 
 I've been building Node.js applications for years, and until now, [Express](https://expressjs.com) was my preference for building a server. It has been almost two years since this framework has been updated, and a lot of new great tools have come around since then. I recently tried [Fastify](https://www.fastify.io) for the first time, and it took me no longer than a few minutes to decide to make the switch. Let me share with you a few of the main reasons.

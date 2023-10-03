@@ -1,7 +1,6 @@
 ---
 title: "Simple RSS, Atom and JSON feed for your blog"
 summary: "I spent a few hours digging into the specifications of RSS, Atom and JSON feeds, and as a result, I have a simple copy/paste example that you can adapt for your blog. I also created a simple tool that allows you to generate a feed in all three formats and compare them."
-photo: "2023-05-29.jpg"
 ---
 
 After reading ["Date and Time with a Static Site Generator" by Jim Nielsen](https://blog.jim-nielsen.com/2023/date-and-time-in-ssg/), I realised I used an incorrect date format on my RSS feed. Unfortunately, not only date was invalid, but the whole feed was a mishmash of different specifications. All fixed now!

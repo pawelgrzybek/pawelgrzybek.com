@@ -1,7 +1,6 @@
 ---
 title: "Working with git worktrees"
 summary: "The most recent update of one of my favourite Visual Studio Code plugins, GitLens, triggered my curiosity when I saw a new (to me) “Worktrees” panel on the sidebar. After a quick research, I’m excited about finding a way of working with git that doesn’t restrict me."
-photo: "2022-10-24.jpg"
 ---
 
 The most recent update of one of my favourite Visual Studio Code plugins, [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), triggered my curiosity when I saw a new (to me) “Worktrees” panel on the sidebar. After a quick research, I’m excited about finding a way of working with `git` that doesn’t restrict me. So let me explain what I didn’t like about my workflow and how multiple working trees solve my problem.

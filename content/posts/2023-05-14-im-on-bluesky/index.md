@@ -1,7 +1,6 @@
 ---
 title: "I'm on Bluesky"
 summary: "Bluesky is a new player in the world of decentralised social network protocols. Even though it is beta, invite-only and mobile-only, it is gaining much traction, at least within the Web crowd."
-photo: "2023-05-14.jpg"
 ---
 
 The current state of Twitter is a shitshow, so I moved most of my social interactions with the Web community to Mastodon. I elaborated on this in ["I'm on Mastodon"](/im-on-mastodon/) a few months ago. I enjoy using this ActivityPub-based platform, especially via my favourite [Ivory by Tapbots](https://tapbots.com/ivory/) (I can't wait for the macOS version, which currently is available as a limited public alpha).

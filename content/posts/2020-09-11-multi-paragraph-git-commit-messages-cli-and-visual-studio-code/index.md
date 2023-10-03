@@ -1,7 +1,6 @@
 ---
 title: "Multi-paragraph git commit messages (CLI and Visual Studio Code)"
 summary: "I recently joined a new team that follows Conventional Commits methodology for git commit messages. Multi-paragraph format of commit messages was new to me and I didn’t have a clue how to do it. Turns out there are multiple ways of doing it using CLI and also my favourite code editor Visual Studio Code."
-photo: "2020-09-11.jpg"
 ---
 
 I recently joined a new team that follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) methodology for `git` commit messages. Multi-paragraph format of commit messages was new to me and I didn't have a clue how to do it. Turns out there are multiple ways of doing it using CLI and also my favourite code editor Visual Studio Code.

@@ -1,7 +1,6 @@
 ---
 title: "Native CSS masonry layout"
 summary: "A masonry type of layout, one of the biggest obsessions of UX designers,  is finally coming to CSS. Style popularized by Pinterest, where elements fill the vertical gaps instead of being aligned to the row axis."
-photo: "2023-02-09.jpg"
 ---
 
 A masonry type of layout, one of the biggest obsessions of UX designers,  is finally coming to CSS. Style popularized by Pinterest, where elements fill the vertical gaps instead of being aligned to the row axis.

@@ -1,7 +1,6 @@
 ---
 title: "Sicily 2023"
 summary: "We took the last opportunity for a quick, not \"lazy\" kinda holiday before we became parents. But, unfortunately, Italian prices are daylight robbery, so we ditched the plan of travelling along the coast and went to Sicily instead."
-photo: "2023-05-11.jpg"
 ---
 
 We took the last opportunity for a quick, not "lazy" (lying at the beach, sipping beer and doing nothing) kinda holiday before we became parents. But, unfortunately, Italian prices are daylight robbery, so we ditched the plan of travelling along the coast and went to Sicily instead.

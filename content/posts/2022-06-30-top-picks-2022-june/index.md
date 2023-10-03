@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 June"
 summary: "The Fastify framework just hit version 4, the next generation of JavaScript tooling, an elegant solution to store and share environmental variables by 1Password, a summary of WWDC22, GitHub Skills, #BADA55 hex colours, a dose of inspiration by Jeremy Keith, AbortController and code block in javaScript tip and a lot more…"
-photo: top-picks.jpg
 ---
 
 ## [Fastify v4 GA](https://medium.com/@fastifyjs/fastify-v4-ga-59f2103b5f0e)

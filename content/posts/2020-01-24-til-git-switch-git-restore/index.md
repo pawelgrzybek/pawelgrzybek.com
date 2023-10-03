@@ -1,7 +1,6 @@
 ---
 title: TIL — git switch & git restore
 summary: Switching branches and restoring files to its initial state are very common operations. Why the hell should we use a single command to perform such different actions?
-photo: 2020-01-24.jpg
 ---
 
 It was such an ordinary day at work. I was pair programming with my friend (hi [Pedro](https://www.instagram.com/fidalgodev/)), we finished a feature and then he jumped to the command line to type `git switch`. Instant WTF moment! I have been using `git` for years and I have never come across this one. I jumped on the docs, learned a thing and now it is time to share it with you.

@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2019 August"
 summary: "Google’s “core updates”, get experience as a software engineer, WebKit Tracking Prevention Policy, optional chaining in JavaScript and more…"
-photo: top-picks.jpg
 ---
 
 ## [What webmasters should know about Google’s “core updates”](https://webmasters.googleblog.com/2019/08/core-updates.html)

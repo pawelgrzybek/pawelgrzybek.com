@@ -1,7 +1,6 @@
 ---
 title: "Grow, shrink and reflow elements with Figma Auto Layout"
 summary: "Figma Auto Layout can save you hours. Instead of spending hours on adjusting the size of a component or moving things around the UI project, spend this time on creative tasks."
-photo: 2020-12-22.gif
 ---
 
 Let's build a quick prototype, literally just a few buttons. One rectangle, a bit of text and the button is ready. Easy-peasy!

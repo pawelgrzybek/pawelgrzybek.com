@@ -1,7 +1,6 @@
 ---
 title: 'Book review: "Creative Selection: Inside Apple''s Design Process During the Golden Age of Steve Jobs" by Ken Kocienda'
 summary: "Good read. I highly recommend it to anyone interested in Apple and the design process of world-leading products from an insider’s point of view."
-photo: "2022-09-10.jpg"
 ---
 
 If you are a real Apple fanboy, ["Steve Jobs: The Exclusive Biography" by Walter Isaacson](https://pawelgrzybek.com/book-review-steve-jobs-the-exclusive-biography-by-walter-isaacson/) is a must-read. There are plenty of other books about the company and their path to success, including ["Creative Selection: Inside Apple's Design Process During the Golden Age of Steve Jobs" by Ken Kocienda](https://www.goodreads.com/book/show/37638098-creative-selection). Recommended by one of my favourite podcasters from the Apple community, I decided to give it a go.

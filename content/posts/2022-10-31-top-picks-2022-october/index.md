@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 October"
 summary: "The Shared Element Transitions API, OG Image Generation, Style Queries, Scroll-Linked Animations, Turbopack, Twitter vs Mastodon drama and a lot more!"
-photo: "2022-10-31.jpg"
 ---
 
 ## [Delightful UI Animations With Shared Element Transitions API (Part 1)](https://www.smashingmagazine.com/2022/10/ui-animations-shared-element-transitions-api-part1/)

@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2023 June"
 summary: "Great use cases for the CSS :not pseudo-class, WWDC23 from the web developer's perspective, a native Node.js test runner, talks from CSS Day 2023, CSS magic with cyclic dependencies, huge Figma Config 2023 announcements, gotchas with CSS Nesting and a new password manager from Proton."
-photo: "2023-06-30.jpg"
 ---
 
 You have just landed on the 100th edition of my monthly top picks. I started this series in [March 2015](/top-picks-2015-march/), and without a single break, I have been sharing good stuff with you every month. I'm not sure how many regular readers of this series I have, but I am very grateful to each and every one of you. If you like what I do, [buy me a cup of good americano](https://www.buymeacoffee.com/pawelgrzybek) to say thank you. Let’s get to the best resources I found in June 2023 without further ado.

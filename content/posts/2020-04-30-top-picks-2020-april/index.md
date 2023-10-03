@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2020 April"
 summary: "DNS server for families from CloudFlare, interesting CSS elements in new Facebook design, consideration for mocking objects in your unit tests, free GitHub for teams, TypeScript’s type notation, full-height element on iOS Safari and more… "
-photo: top-picks.jpg
 ---
 
 ## [Introducing 1.1.1.1 for Families](https://blog.cloudflare.com/introducing-1-1-1-1-for-families/)

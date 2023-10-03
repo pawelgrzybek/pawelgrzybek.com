@@ -1,7 +1,6 @@
 ---
 title: "Interpolate CSS custom properties values"
 summary: "CSS transitions and animations are methods to interpolate property values. Wouldn't it be cool if we could also transition our custom properties using these?"
-photo: "2022-07-13.jpg"
 ---
 
 In recent years [CSS Custom Properties](https://www.w3.org/TR/css-variables-1/) have become much more popular. These dynamic CSS runtime-defined slots are powerful, and [the browser support](https://caniuse.com/css-variables) is decent. I published ["CSS Custom Properties explained"](/css-custom-properties-explained/) a few years ago, and I highly recommend it if all these are new to you.

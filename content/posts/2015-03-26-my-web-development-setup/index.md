@@ -1,7 +1,6 @@
 ---
 title: My web development setup
 summary: I like to read about tools, software, frameworks and frequently used tricks and tips of web developers. Today I would like to show you my set.
-photo: 2015-03-26.jpg
 ---
 
 Improving my workflow is an endless story. I always look for some new tools and new tricks that can speed my workflow up. I confirm that now I’m pretty happy with my current set of stuff that I use in my daily routine. I just bought a new MacBook so I’m in the process of installing necessary tools and adjusting all settings. I thought that is a nice opportunity to write a blog post about it.

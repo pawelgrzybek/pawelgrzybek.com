@@ -1,7 +1,6 @@
 ---
 title: "My favourite Visual Studio Code tips for \"how did you do it\" kind of people"
 summary: "Would you like to learn a few little tips for  productivity, keyboard shortcuts and little known Visual Studio Code hidden gems. This article is for you!"
-photo: 2020-05-27.jpg
 ---
 
 Apart from a web browser, [Visual Studio Code](https://code.visualstudio.com) is the application that I spend the most time using. "How did you do it" is something that I hear quite often from other developers whilst using it in front of them. This article is exactly for those kind of people — Visual Studio Code users keen to learn a few little tips for  productivity, keyboard shortcuts and little known hidden gems.

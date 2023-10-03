@@ -1,7 +1,6 @@
 ---
 title: Keep Sublime Text Snippets organized
 summary: Web development nowadays is a complex thing. Gazillion languages, techniques and functions are not easy to remember. Let me remind you how cool snippets are.
-photo: 2015-04-26.jpg
 ---
 
 As a developer in big digital agency I spend most of my day with my code editor. I tried to use many different applications but I ended up with [Sublime Text](http://www.sublimetext.com/3) and I love it. I always look for some useful tricks and tips that saves myself from tedious tasks. One of this things is definitely core feature of Sublime Text - snippets. Let me show you how I use it and how does it speed my workflow up.

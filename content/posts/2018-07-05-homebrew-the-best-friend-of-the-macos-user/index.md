@@ -1,7 +1,6 @@
 ---
 title: "Homebrew — the best friend of the macOS user"
 summary: "As a curious human being you are probably doing a lot of monotonous tasks: installing and removing software, switching versions of dependencies and searching for new tools. Make your life easier with Homebrew."
-photo: 2018-07-05.jpg
 ---
 
 So you are planning on learning something new — [Node.js](https://nodejs.org/en/) for example — and you need to download it first. You visit the project's website, download an installer, go through the installation process. Next, next, next, done. You may need some kind of database at some point — [MongoDB](https://www.mongodb.com/) works really well with it. Again — visit the project's website, download an installer… You know what?! [Visual Studio Code](https://code.visualstudio.com/) is hot. Again — visit the project's website, download an installer…

@@ -1,7 +1,6 @@
 ---
 title: Do you really need another grid system?
 summary: CSS grid system is so easy to create. We can use one of thousands frameworks, but do we really have to? Let me show you how I do it with few SASS mixing.
-photo: 2015-05-09.jpg
 ---
 
 Every single day I come across new grid systems. They all do the same job. Some of them are terribly ugly and difficult to use, some of them are fantastic and so powerful. Let me point what needs to be possible in good grid system:

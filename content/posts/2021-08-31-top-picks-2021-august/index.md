@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 August"
 summary: "Chris Messina about Alfred app, 700,000 downloads of an empty npm package, security headers, native CSS modules, CSS neting, amazing Deno and a lot more…"
-photo: top-picks.jpg
 ---
 
 ## [Automating with Alfred App with Chris Messina](https://youtu.be/deNfWTDsbHI)

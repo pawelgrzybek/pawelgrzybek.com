@@ -1,7 +1,6 @@
 ---
 title: What's new in ECMAScript 2017
 summary: Introduced in 2015, the ECMAScript annual release plan aims to add to the language any proposals that are ready at the time of the TC39 meeting. Here's what's new in ES2017.
-photo: 2017-01-30.jpg
 ---
 
 Two years ago when ECMAScript 2015 (colloquially known as a ES6) was standardized there was a massive update to the language. Announced at the same time was a yearly release plan that aims to deliver a new version of the language annually and ship it with the [proposals](https://github.com/tc39/ecma262/blob/master/README.md) that are ready at the time of the TC39 meeting. The list of language improvements is open and you can track it on the [TC39 Github account](https://github.com/tc39/proposals). You can find more info about the process itself [here](https://tc39.github.io/process-document/).

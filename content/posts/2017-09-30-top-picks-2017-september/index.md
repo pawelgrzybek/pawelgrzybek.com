@@ -1,7 +1,6 @@
 ---
 title: Top picks — 2017 September
 summary: This month was crazy! Brand new React, big licensing changes, Sketch Libraries, new Sublime Text release, CSS constants, EDGE 16, Promise API updates and more.
-photo: top-picks.jpg
 ---
 
 ## So you need a CSS utility library?

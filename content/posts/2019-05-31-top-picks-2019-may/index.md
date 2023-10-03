@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2019 May"
 summary: "Flutter framework is exploding on Google I/O, Windows Subsystem for Linux 2, Windows Terminal, CodeSandbox raises $2.4M, font-display on Google Fonts, HTML Portals, GitHub Package Registry, Node 10 on AWS Lambda, collaboration between W3C and WHATWG and much more…"
-photo: top-picks.jpg
 ---
 
 ## [Flutter: a Portable UI Framework for Mobile, Web, Embedded, and Desktop](https://developers.googleblog.com/2019/05/Flutter-io19.html)

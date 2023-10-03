@@ -1,7 +1,6 @@
 ---
 title: "What did you learn today?"
 summary: "Since I joined Mindera a few months ago I've cultivated a daily habit — at some point in the day I'll ask my team members…"
-photo: 2018-09-29.jpg
 ---
 
 Since I joined [Mindera](https://mindera.com) a few months ago I've cultivated a daily habit that I randomly initiated on one of my first days within my new workplace. At some point in the day I'll ask my team members…

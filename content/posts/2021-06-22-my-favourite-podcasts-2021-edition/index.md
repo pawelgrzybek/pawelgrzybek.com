@@ -1,7 +1,6 @@
 ---
 title: "My favourite podcasts 2021 edition"
 summary: "A few of my friends asked me for podcasts recommendations in the last few weeks, so I decided to list my current favourite shows, a little bit like I did back in 2015."
-photo: "2021-06-22.jpg"
 ---
 
 Over the last few weeks a few of my friends have asked me for podcast recommendations, so I decided to list my current favourite shows, a little bit like I did in ["My favourite front-end related podcasts"](https://pawelgrzybek.com/my-favourite-front-end-related-podcasts/) back in 2015. I listen to stuff related to the Web platform or Apple ecosystem, literally nothing else. That’s how much of a boring geek I am.

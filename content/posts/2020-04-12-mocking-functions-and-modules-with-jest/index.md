@@ -1,7 +1,6 @@
 ---
 title: "Mocking functions and modules with Jest"
 summary: "To write deterministic, repeatable unit tests, we need to control the inputs, outputs and invocations of mock objects. The Jest testing framework comes with great mocking capabilities. Let's have a look at them all."
-photo: 2020-04-12.jpg
 ---
 
 A JavaScript program can have several dependencies, internal and/or external, most likely represented by the list of imports on the very top of your script. To write deterministic, repeatable unit tests, we need to control the inputs, outputs and invocations of those dependencies. These objects that simulate the real objects are mocks. Let's have a look at [Wikipedia definition of Mock object](https://en.wikipedia.org/wiki/Mock_object).

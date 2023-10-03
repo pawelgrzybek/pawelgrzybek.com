@@ -1,7 +1,6 @@
 ---
 title: The Resize Observer explained
 summary: How many occasions have you attached a resize listener to a whole document just to track changes on a single DOM element? Those times are over — the Resize Observer is here.
-photo: 2018-01-30.jpg
 ---
 
 How many times have you attached a `resize` listener to the `window` object just to track a single DOM element? I have done it many times simply because I've had no other choice. There is an issue though — `scroll` and `resize` events are performance bottlenecks. Nowadays, the `scroll` event can be replaced with the [Intersection Observer that I explained](https://pawelgrzybek.com/the-intersection-observer-api-explained/) before. There's now hope for the `resize` event — [Resize Observer](https://wicg.github.io/ResizeObserver/).

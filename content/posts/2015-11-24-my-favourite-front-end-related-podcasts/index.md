@@ -1,7 +1,6 @@
 ---
 title: My favourite front-end related podcasts
 summary: We all know how difficult it is staying up to date in front-end development. The day is not long enough. The solution? Podcasts to the rescue!
-photo: 2015-11-24.jpg
 ---
 
 I found it very difficult to keep a balance between coding and following up all the new technologies, trends, libraries, frameworks and tools that keep appearing. The day just isn’t long enough! It is all too easy to fall into a [“State of Constant Alert”](https://developertea.com/episodes/17907) by trying to follow all of this stuff. [Tim Kadlec](https://twitter.com/tkadlec) summed it up in one of his recently published articles [“The Fallacy of Keeping Up”](https://timkadlec.com/2015/09/the-fallacy-of-keeping-up/). Fortunately our community is full of amazing people who are recording a great podcasts.

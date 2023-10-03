@@ -1,7 +1,6 @@
 ---
 title: "Avoid parameter drilling by using the Node.js AsyncLocalStorage"
 summary: "Parameter drilling or adding a property to the req object is a common solution for sharing context between asynchronous operations. There is a better way though."
-photo: "2023-06-24.jpg"
 ---
 
 Although considered a bad practice, global variables are probably the easiest form of sharing a context. In this example, I define the `context` global variable and use it to share the `uuid` value between the `main` and `logger` functions:

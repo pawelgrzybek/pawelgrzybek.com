@@ -1,7 +1,6 @@
 ---
 title: CSS mixins with @apply rule
 summary: I'm excited about a recently added CSS features. Previously we discussed custom properties, now it's a time to talk about mixins using the @apply rule.
-photo: 2016-04-18.jpg
 ---
 
 I am very excited about recent evolution of CSS. Flexbox was a buzzword some time ago, today it is a part of a spec that is well supported and widely adopted. Few months back I published an [intro to CSS grid layout module](https://pawelgrzybek.com/lets-get-into-the-basics-of-css-grid-layout-model/) that is another approaching feature that will dramatically change the way we build our projects. The enormous popularity of preprocessors like Sass or LESS undoubtedly influenced spec authors to bring variables to the language as a CSS Custom Properties. I recently published a [post](https://pawelgrzybek.com/css-custom-properties-explained/) that explains everything that you need to know about this powerful feature. Another aspect of preprocessors that developers and designers love are mixins. Well the good news keeps coming my friend - [CSS @apply Rule](https://tabatkins.github.io/specs/css-apply-rule/) is just around the corner. Let's embrace a native CSS mixins together.

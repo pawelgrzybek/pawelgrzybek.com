@@ -1,7 +1,6 @@
 ---
 title: "Book review: Digital Minimalism by Cal Newport"
 summary: "My girlfriend and I decided to live without Facebook products (including Instagram and WhatsApp) for a month and see how it’s going. Even though we are halfway through the month, I already observed a lot of positive incomes. To fully embrace life without Mark’s Zuckerberg’s products, I decided to deepen my psychological knowledge of this tech-saturated generation, and its impact on a happy, fulfilled life."
-photo: "2021-01-12.jpg"
 ---
 
 My girlfriend and I decided to live without Facebook products (including Instagram and WhatsApp) for a month and see how it’s going. Even though we are halfway through the month, I already observed a lot of positive incomes. I am going to wait until the end of the month to publish my insights about this.

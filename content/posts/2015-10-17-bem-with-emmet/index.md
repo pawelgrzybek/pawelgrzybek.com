@@ -1,7 +1,6 @@
 ---
 title: BEM with Emmet
 summary: Emmet is one of my favourite plugins for a lightning fast HTML & CSS workflow. BEM methodology helps me to keep my projects sane. Let’s try them together!
-photo: 2015-10-17.jpg
 ---
 
 You’ll notice a Russian theme to today’s post. [Emmet](http://emmet.io/), created by [Sergey Chikuyonok](https://twitter.com/chikuyonok) from Moscow, is a fantastic extension available for the majority of today’s popular code editors. [BEM](https://en.bem.info/) (Block, Element, Modifier) is a very widely used methodology that helps me to keep my projects sane and well organised. It is created by some very clever guys from Russia’s largest search engine — [Yandex](https://www.yandex.com/).

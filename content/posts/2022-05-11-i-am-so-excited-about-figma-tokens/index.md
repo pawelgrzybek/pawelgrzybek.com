@@ -1,7 +1,6 @@
 ---
 title: "I am so excited about Figma Tokens"
 summary: 'Of course, Auto-Layout was a game changer, but I wonder if "designing in the browser" is still more accessible for me after discovering Figma Tokens.'
-photo: "2022-05-11.jpg"
 ---
 
 I am a Web Dev, but it all started from UI design and progressed through years of building the front end. Not an unusual path for many Full Stack Developers (I am not a big fan of this job title). My eye is still sensitive to good design, and I still enjoy doing that by myself. [Figma](https://www.figma.com) is my weapon of choice when it comes to UI work.

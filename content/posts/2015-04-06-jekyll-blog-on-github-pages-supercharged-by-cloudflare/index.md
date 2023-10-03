@@ -1,7 +1,6 @@
 ---
 title: Jekyll blog on Github Pages supercharged by CloudFlare
 summary: Building first Jekyll website can be tricky, but it’s worth to give it a try. Let me share why I chose Jekyll, what did I struggle with and why I love it now.
-photo: 2015-04-06.jpg
 ---
 
 On daily basis I work a lot with Wordpress. In the company that I work for we build cool looking websites for clients that are not necessarily very familiar with technology behind it. It is fantastic tool, with easy to grasp backend and almost endless possibilities. Wordpress was a first thing that came to my mind when I decided to build my own blog. After a quick research I found out that it is many tools that better suits my simple text based blog than Wordpress. Node.js based [Ghost](https://ghost.org/), very popular [Tumblr](https://www.tumblr.com/) or Twitter’s founders [Medium](https://medium.com/). Shortly we can expect a new kid on the block - [typed.com](https://vimeo.com/117604881). All this tools are amazing but I wanted something even simpler and then I found a power of static sites generators.

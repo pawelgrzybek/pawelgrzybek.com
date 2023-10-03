@@ -1,7 +1,6 @@
 ---
 title: "The difference between the unordered list <ul> and the menu <menu> HTML element"
 summary: "In contrast to the unordered list, which I always use, the menu is something I have never used. So you may be wondering what the difference is between them. Well, it is very subtle."
-photo: "2022-12-02.jpg"
 ---
 
 In contrast to the `<ul>`, which I always use, the `<menu>` is something I have never used. So you may be wondering what the difference is between them. Well, it is very subtle.

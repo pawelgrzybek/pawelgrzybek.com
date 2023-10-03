@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2023 April"
 summary: "Rust Trademark Policy, The Acronyms of Rendering on the Web, Node.js 20, oklch color space, Dialogs and popovers seem similar and more!"
-photo: "2023-04-30.jpg"
 ---
 
 ## [Rust Trademark Policy Comment Form](https://twitter.com/rust_foundation/status/1644132378858729474)

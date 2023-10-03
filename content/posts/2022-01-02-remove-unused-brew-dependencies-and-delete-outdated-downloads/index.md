@@ -1,7 +1,6 @@
 ---
 title: "Remove unused brew dependencies and delete outdated downloads"
 summary: "Uninstalling a brew dependency does not remove its dependencies. There is an easy solution for that, though. If you want to delete outdated formulas, I also get you covered."
-photo: "2022-01-02.jpg"
 ---
 
 You're reading it, so I assume you know what the brew is and most likely, you use it. If you don't, check out my ["Homebrew — the best friend of the macOS user"](https://pawelgrzybek.com/homebrew-the-best-friend-of-the-macos-user/) that I published a few years ago.

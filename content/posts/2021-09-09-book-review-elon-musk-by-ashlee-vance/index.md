@@ -1,7 +1,6 @@
 ---
 title: "Book review: Elon Musk by Ashlee Vance"
 summary: "It is an inspiring tale that tells the story of Elon from early childhood in South Africa up to his recent successes in the space industry. A story based on series of interviews with Musks relatives and close friends. It is a book worthy of your time."
-photo: "2021-09-09.jpg"
 ---
 
 Elon Musk, a visionary genius, billionaire, engineer, physicist, father, founder of the most successful companies in the automotive, energy, finance and space industry. What’s not fascinating about him? Because I love biographies, I recently read ["Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future" by Ashlee Vance](https://www.goodreads.com/book/show/25541028-elon-musk) , and I think it is a book worthy of your time.

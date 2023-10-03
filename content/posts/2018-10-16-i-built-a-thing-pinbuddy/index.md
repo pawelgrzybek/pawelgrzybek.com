@@ -1,7 +1,6 @@
 ---
 title: I built a thing! PinBuddy!
 summary: PinBuddy is a Google Chrome toolbar extension for the Pinboard bookmarking service that lets you browse and add new bookmarks with ease. It is fully keyboard accessible and highlights previously bookmarked websites. It uses API tokens for server communications and never asks for your authentication credentials hence secure.
-photo: 2018-10-16.jpg
 ---
 
 The internet is full of useful things that are worth revisiting in the future. Bookmarking them all in a browser built-in feature is an option but it quickly becomes unmanageable after a while. A myriad of bookmarking services have been born to solve this issue and my favourite amongst them is [Pinboard](http://pinboard.in) built by Maciej Cegłowski. Maybe it isn't the prettiest website around neither is the API the cleanest and most intuitive but it definitely comes with one big advantage — it works.

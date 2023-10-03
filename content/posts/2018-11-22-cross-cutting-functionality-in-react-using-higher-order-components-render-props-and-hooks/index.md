@@ -1,7 +1,6 @@
 ---
 title: "Cross-cutting functionality in React using Higher-Order Components, Render Props and Hooks"
 summary: "When working with modern JavaScript frameworks we often have to share the same piece of functionality across multiple components. Let me explain a few patterns that make this a breeze."
-photo: 2018-11-22.jpg
 ---
 
 Working with modern JavaScript frameworks is all about reusable components that contain the markup, styling and business logic — React is fantastic at it and is [gaining more popularity](https://2018.stateofjs.com/front-end-frameworks/react/) every year. Very often though, we have a situation where a few components contain the same functionality and we need a way to abstract it out according to our [DRY (don't repeat yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle that we've been developing for years.

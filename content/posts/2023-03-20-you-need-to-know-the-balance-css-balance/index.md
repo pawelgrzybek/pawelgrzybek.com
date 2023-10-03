@@ -1,7 +1,6 @@
 ---
 title: "You need to know the balance! CSS balance!"
 summary: "It breaks multiple lines of text to visually better distribute the remaining space and prevents typographic widows. So soon, we may not need React Wrap Balancer anymore. Have a look at the difference!"
-photo: "2023-03-20.jpg"
 ---
 
 Since I heard about the CSS `text-wrap: balance`, I can't stop singing, "You need to know the balance, NatWest balance, CSS balance". The origin is the song by [MC Quakez & Shakes "Balance"](https://youtu.be/KPxYYo--mCE), which we always sing with my friends!

@@ -1,7 +1,6 @@
 ---
 title: I built a thing - an Alfred workflow to manage Things lists
 summary: Alfred is my favourite productivity booster for macOS. Things is my GTD tool of choice that perfectly suits my workflow. I've connected the power of the two apps together.
-photo: 2018-02-23.jpg
 ---
 
 [Alfred](https://www.alfredapp.com/) is my favourite macOS productivity booster. It allows me to configure custom keywords, manage and store multiple things in a clipboard, create custom search tools and text expansions. The most powerful part of this tool are the [Workflows](https://www.alfredapp.com/workflows/) — only your imagination and programming skills restrict the variety of automations you can create. I've built a few already: [Div](https://pawelgrzybek.com/div-simple-alfred-windows-manager/) — a simple window manager, [SShot](http://www.packal.org/workflow/sshot) to change a screenshot file extension instantly or [hex](http://www.packal.org/workflow/hex) to convert decimal system numbers into hexadecimal values.

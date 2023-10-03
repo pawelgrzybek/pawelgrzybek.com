@@ -1,7 +1,6 @@
 ---
 title: "TIL — Removing DOM Event Handlers using AbortController"
 summary: "Today I learned about the ability to remove DOM event handlers using AbortController. There is plenty of other good use cases for this controller, but this one blew my mind."
-photo: "2022-06-18.jpg"
 ---
 
 Thanks to [Dan](https://twitter.com/danjordan), who recommended ["AbortController is your friend"](https://whistlr.info/2022/abortcontroller-is-your-friend/) by [Sam Thorogood](https://twitter.com/samthor), today I learned about the ability to remove DOM event handlers using AbortController. Sam's article is full of good use cases for this controller, but this one blew my mind.

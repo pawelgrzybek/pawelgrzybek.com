@@ -1,7 +1,6 @@
 ---
 title: Background video made easy
 summary: HTML5 comes with video tag that we can use to create video as a background with a little bit help from CSS. Let’s add some movement to our projects.
-photo: 2015-12-06.jpg
 ---
 
 We love videos! It’s a pleasure for our eyes to see a little bit of modern looking movement on a website. Unfortunately our browser doesn’t love videos like we do. Good performance isn’t a friend with videos neither. I have come across many websites with autoplayed videos hosted on Vimeo or youtube that use crazy amount of bandwidth. Some minimal looking websites with full HD video in the background even triggered the fans on my laptop. I believe that there is nothing wrong with using a looped video as a background, as long as it is done correctly. Have a look at [Squarespace](http://www.squarespace.com/), [This Also](http://thisalso.com/) or [Big Cartel](https://www.bigcartel.com/) to name few — it looks nice.

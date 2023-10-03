@@ -1,7 +1,6 @@
 ---
 title: Return multiple elements from a component with React 16
 summary: One of the most requested features in React framework has always been returning multiple elements from a components render method. There you have it!
-photo: 2017-10-02.jpg
 ---
 
 [React 16 is here](https://reactjs.org/blog/2017/09/26/react-v16.0.html) and it brings lots of exciting changes. One of the most requesting features around React community has been [returning multiple elements](https://github.com/facebook/react/issues/2127) from a component's render method. Skipping wrapper tag is definitely something that developers are happy about — popularity of [my tweet](https://twitter.com/pawelgrzybek/status/913697990849826816) proves this point.

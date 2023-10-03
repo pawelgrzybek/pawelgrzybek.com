@@ -1,7 +1,6 @@
 ---
 title: "Alfred workflows that I can't live without"
 summary: "Alfred is my favourite productivity app for macOS. You can use the basic features for free, but it shines the most with the Powerpack. I use it literally hundreds of times a day. The basic app launcher, file browser, web search, clipboard history, and more advanced workflows. These are my favourite ones!"
-photo: "2021-08-17.jpg"
 ---
 
 [Alfred](https://www.alfredapp.com) is my favourite productivity app for macOS. You can use the basic features for free, but it shines the most with [the Powerpack](https://www.alfredapp.com/shop/). I use it literally hundreds of times a day. The basic app launcher, file browser, web search, clipboard history, and more advanced [workflows](https://www.alfredapp.com/workflows/).

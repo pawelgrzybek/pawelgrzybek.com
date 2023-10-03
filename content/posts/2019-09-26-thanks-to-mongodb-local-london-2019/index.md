@@ -1,7 +1,6 @@
 ---
 title: "Thanks to MongoDB.local London 2019"
 summary: "Being a MongoDB user I could not wait to go to MongoDB.local London 2019. Having an opportunity to learn the subject from its creators is irreplaceable and this time it wasn't an exception."
-photo: 2019-09-26.jpg
 ---
 
 Thanks to my good friend [Pedro Fidalgo](https://www.instagram.com/fidalgodev/) I had the opportunity to attend [MongoDB.local London 2019](https://www.mongodb.com/local/london). The data layer of my current side project (stay tuned because more info is coming soon) lives on [MongoDB](https://www.mongodb.com) so it would be silly not to join this one.

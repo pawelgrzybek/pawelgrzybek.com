@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2019 January"
 summary: "Algorithmic layouts by Heydon Pickering, free private repos on GitHub, the future of TypeScript linting and AWS services explained."
-photo: top-picks.jpg
 ---
 
 ## [Making Future Interfaces: Algorithmic Layouts](https://youtu.be/qOUtkN6M52M)

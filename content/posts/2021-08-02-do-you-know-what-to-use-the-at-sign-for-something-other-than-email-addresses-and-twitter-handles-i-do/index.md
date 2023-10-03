@@ -1,7 +1,6 @@
 ---
 title: "Do you know what to use the @ sign for something other than email addresses and Twitter handles? I do!"
 summary: "I asked three of my friends if they knew any use case of the @ sign other than obvious modern usage. Unfortunately, none of them could tell me anything more than I already knew, so I wrote this post down."
-photo: "2021-08-02.jpg"
 ---
 
 It was an ordinary Saturday when my girlfriend and myself decided to visit [Abbey Pumping Station Museum in Leicester](https://www.leicestermuseums.org/abbey-pumping-station/) while waiting for the mechanic to fix our car. Massive beam engines to support local sewage systems and all that is super cool, but something that caught my attention was Moya No. 1 typewriter machine from 1902. Typewrites fascinate me a lot, but something that triggered my curiosity was the @ sign. Surely email addresses and Twitter were not a thing back then.

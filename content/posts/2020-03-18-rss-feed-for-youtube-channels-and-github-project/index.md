@@ -1,7 +1,6 @@
 ---
 title: "RSS feed for youtube channels and GitHub project"
 summary: "Today a quick tip but a massive time saver in the long run. Let's stop being hooked on suggested youtube vides and watch only what we really care about."
-photo: 2020-03-18.jpg
 ---
 
 Today a quick tip but a massive time saver in the long run. I often check YouTube to watch a new video made by my favourite creator. Then, two more. Uuu, this review of the latest Bose headphones looks interesting. "What's in my bag" by Peter McKinnon — I must know what is inside his bag! "Why Casey Neistat Stopped Posting Videos" — how did I live my life without watching this one before. 

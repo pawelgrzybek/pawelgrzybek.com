@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2018 May"
 summary: "Arbitrary-precision integers in JavaScript, GitHub Pages gain support for HTTPS, LinkedIn’s new open source projects take on stylesheet performance, Multi-User access on Cloudflare, the best of Google I/O ’18, Prisma revolution, hard parts of JavaScript explained in simple words and more!"
-photo: top-picks.jpg
 ---
 
 ## [BigInt: arbitrary-precision integers in JavaScript](https://developers.google.com/web/updates/2018/05/bigint?utm_source=feed&utm_medium=feed&utm_campaign=updates_feed)

@@ -1,7 +1,6 @@
 ---
 title: "Bye-bye, Disqus! I built my commenting system using AWS serverless stack and Netlify build hooks!"
 summary: "I have been using Disqus on this website since its inception. It worked, and it didn’t cost me a single penny, but it cost me, and most importantly, my visitors compromised privacy. I started looking into alternatives, and surprisingly there is not a lot of things worth recommending. Yes, you guessed it — I built my own one."
-photo: "2021-02-22.jpg"
 ---
 
 I've been using Disqus on this website since its inception. It worked and it didn't cost me a single penny, but it cost me and most importantly my visitors compromised privacy. Since [Zeta Global acquired the Disqus ](https://techcrunch.com/2017/12/05/zeta-global-acquires-commenting-service-disqus) in 2017, things became even worse. To top it off, it is also a performance killer.

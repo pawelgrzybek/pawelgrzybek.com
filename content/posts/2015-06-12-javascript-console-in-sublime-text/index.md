@@ -1,7 +1,6 @@
 ---
 title: JavaScript console in Sublime Text
 summary: Reading books, attending conferences and watching videos is pointless without practice. Let me show you what helped me a lot on my JavaScript learning curve.
-photo: 2015-06-12.jpg
 ---
 
 Learning JavaScript can be a long and difficult journey. You can read tons of books and articles, attend reputable conferences and watch many videos but you are wasting your time if you won't practice it. Google Chrome Javascript Console isn't the most comfortable tool for sure. Tools like [jsbin.com](http://jsbin.com/) or [jsfiddle.net](http://jsfiddle.net/) are super cool but lets confirm that, nothing is more convenient to write a piece of code than your favourite editor. Let me share with you how you can test your JavaScript scripts and execute it via [build systems](http://docs.sublimetext.info/en/latest/file_processing/build_systems.html) feature in Sublime Text 3.

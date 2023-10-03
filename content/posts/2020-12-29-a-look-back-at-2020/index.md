@@ -1,7 +1,6 @@
 ---
 title: A look back at 2020
 summary: "Exactly a year ago, at the beginning of 2020, I was confident that it was going to be the best year of my life. Even though we had a lot of madness going on, I somehow managed to make it reality and turn 2020 into the best year of my life."
-photo: 2020-12-29.jpg
 ---
 
 This year was a little bit "different" for all of us. I'll try to stay focused on the positives because I managed to accomplish a few things worth bragging about. Exactly a year ago, at the beginning of 2020, I was confident that it was going to be the best year of my life. Even though we had a lot of madness going on, I somehow managed to make it reality and turn 2020 into the best year of my life.

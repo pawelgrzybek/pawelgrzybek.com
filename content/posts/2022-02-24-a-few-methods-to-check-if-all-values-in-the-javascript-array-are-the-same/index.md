@@ -1,7 +1,6 @@
 ---
 title: "A few methods to check if all values in the JavaScript array are the same"
 summary: "You can solve the same problem in multiple ways. That's what I love about programming. Checking if all items in an array are the same is a  great exercise, isn't it?"
-photo: "2022-02-24.jpg"
 ---
 
 There are many solutions to the same problem in programming, and that’s one of my favourite things about it. Checking if all the items in an array are the same is an interesting exercise, so let’s look at a few options.

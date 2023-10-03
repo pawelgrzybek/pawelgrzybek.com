@@ -1,7 +1,6 @@
 ---
 title: "Book review: How to be a Productivity Ninja by Graham Allcott"
 summary: "I always strive to make my learning process more efficient and to boost my productivity. I’m pretty happy with my knowledge absorption but living in the age of massive information overload I still want to improve the number of things that I’m able to accomplish during the day."
-photo: 2020-10-09.jpg
 ---
 
 I always strive to make my learning process more efficient and to boost my productivity. I’m pretty happy with my knowledge absorption but living in the age of massive information overload I still want to improve the number of things that I’m able to accomplish during the day. Even though the title of [Graham's Allcott's book "How to be a Productivity Ninja"](https://www.goodreads.com/book/show/16147694-how-to-be-a-productivity-ninja) sounds super corny, there is nothing corny about the content of this publication.

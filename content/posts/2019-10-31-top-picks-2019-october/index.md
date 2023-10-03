@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2019 October"
 summary: "Introducing Sass Modules, 100% CSS Mario Kart, Faces of Open Source, React Concurrent Modem, the two-value syntax of the CSS Display property and more…"
-photo: top-picks.jpg
 ---
 
 ## [Introducing Sass Modules](https://css-tricks.com/introducing-sass-modules/)

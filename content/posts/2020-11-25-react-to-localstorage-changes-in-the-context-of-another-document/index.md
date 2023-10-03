@@ -1,7 +1,6 @@
 ---
 title: "React to localStorage changes in the context of another document"
 summary: "The storage event that gets fired on every localStorage update that happens in different tab of window can be pretty useful on dynamic and reactive web apps. Let's explore it together."
-photo: 2020-11-25.jpg
 ---
 
 ["Back/forward cache" by Philip Walton](https://web.dev/bfcache/) triggered my curiosity to explore more obscure events of the `window` object. One of them that caught my attention is [`storage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/storage_event) that gets fired on every `localStorage` update that happens in the context of a different document. Have a look at this example.

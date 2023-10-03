@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 September"
 summary: "An Introduction to JQ, Google changes the algorithm to parse web page title (again), very helpful HTML parse htmlq, CSS Cascade Layers, beautiful CSS shadows, serverless observalibility, if/else for CSS, diagnose your HTML head and a lot more…"
-photo: top-picks.jpg
 ---
 
 ## [An Introduction to JQ](https://earthly.dev/blog/jq-select/)

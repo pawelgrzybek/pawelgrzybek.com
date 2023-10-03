@@ -1,7 +1,6 @@
 ---
 title: "You might not need Jest — the Node.js native test runner is great"
 summary: "I would like to share some of my findings from early explorations of the native Node.js test runner. Sometimes it is more than enough, and you might not need a bulky framework."
-photo: "2023-07-12.jpg"
 ---
 
 You might not need [Jest](https://jestjs.io). Just use [Vitest](https://vitest.dev) instead. Quick one today, bye!

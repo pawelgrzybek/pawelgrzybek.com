@@ -1,7 +1,6 @@
 ---
 title: What's new in ECMAScript 2019
 summary: The final list of features that are joining the ECMAScript specification this year is ready. Here's a quick summary and look at some practical examples.
-photo: 2019-02-02.jpg
 ---
 
 The ECMA TC39 committee responsible for the ECMAScript specification confirmed a list of features that have reached [stage 4](https://tc39.github.io/process-document/), meaning that they will become part of the ECMAScript 2019 specification. Three years ago I published ["What's new in ECMAScript 2016"](https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/), two years ago ["What's new in ECMAScript 2017"](https://pawelgrzybek.com/whats-new-in-ecmascript-2017/) and year later ["What's new in ECMAScript 2018"](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/). It's time to add a few more goodies.

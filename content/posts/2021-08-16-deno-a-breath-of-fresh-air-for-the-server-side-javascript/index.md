@@ -1,7 +1,6 @@
 ---
 title: "Deno, a breath of fresh air for the server-side JavaScript"
 summary: "Deno is made by the original creator of Node.js, Ryan Dahl. It is his successor project that aims to fix all regrettable things from the Node.js design. Let me share with you why I like it so much!"
-photo: "2021-08-16.jpg"
 ---
 
 There's a great reason why [JavaScript is the most used programming language](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-programming-scripting-and-markup-languages) in the world — easy-to-learn, powerful front-end and back-end technology. I have used JavaScript for years on the browser, but since I moved to the server-side, [Node.js](https://nodejs.org/en/) is the technology I use most often. Even though I use other programming languages (recently mainly Go), JavaScript is the one that keeps me the most excited.

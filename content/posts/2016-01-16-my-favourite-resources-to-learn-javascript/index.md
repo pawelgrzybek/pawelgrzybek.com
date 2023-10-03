@@ -1,7 +1,6 @@
 ---
 title: My favourite resources to learn JavaScript
 summary: Matt Mullenweg gave us a homework “Learn JavaScript, Deeply”. I wouldn’t want to disappoint the creator of WordPress so these are resources that I found helpful.
-photo: 2016-01-16.jpg
 ---
 
 A few weeks ago at the annual keynote “The State of World” Matt Mullenweg (creator of Wordpress) [gave us a homework](https://youtu.be/KrZx4IY1IgU). The task sounds simple “Learn JavaScript, Deeply”. The choice of helpful articles online is almost endless but which should you pick to start your journey? In this post, I’ll be sharing a list of resources that helped me get my head around JS.

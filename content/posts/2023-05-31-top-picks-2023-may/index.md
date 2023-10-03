@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2023 May"
 summary: "Crafting the Next.js Website, Deno KV, new storage options on Vercel, Qwik Reaches v1.0, Unsolved Tetris Mysteries, Modern HTML email, The Dangers of Google’s .zip TLD, Introduction to design systems and a lot more…"
-photo: "2023-05-31.jpg"
 ---
 
 ## [Crafting the Next.js Website](https://rauno.me/craft/nextjs)

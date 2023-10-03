@@ -1,7 +1,6 @@
 ---
 title: "Gran Canaria 2023"
 summary: "Inspired by my girlfriend, who rarely leaves the house without her beloved Olympus Trip 35, I recently bought myself a film camera. Yes, you guessed it, I bought Nikon FM2! I used it on our last trip to Gran Canaria."
-photo: "2023-04-13.jpg"
 ---
 
 When I was a teenager, I fell in love with photography. I started my journey using a cheap [Zenit 12 XP](https://en.wikipedia.org/wiki/Zenit_(camera)). It was an OK camera to learn the basics, but I quickly started experimenting with other gear. A few years later, I bought [Nikon FM2](https://en.wikipedia.org/wiki/Nikon_FM2), and this camera changed my life. I shot hundreds of rolls on it, and to save money, I learned how to develop black and white films by myself (in the windowless toilet). It was fun, but I was too busy with my typical mid-20s activities, and I sold it a couple of years later.

@@ -1,7 +1,6 @@
 ---
 title: A look back at 2022
 summary: "Time flies! Even though I had no bigger plans for 2022, this year brought many changes in my personal and professional life. Let me use this one-of-a-year occasion to share some of my past year's highlights."
-photo: 2022-12-28.jpg
 ---
 
 It feels like I published ["A look back at 2021"](/a-look-back-at-2021/) yesterday. Time flies! Even though I had no bigger plans for 2022, this year brought many changes in my personal and professional life. Let me use this one-of-a-year occasion to share some of my past year's highlights. But before that, here are a bunch of random photos from 2022 for lazy people who don't want to read the whole post.

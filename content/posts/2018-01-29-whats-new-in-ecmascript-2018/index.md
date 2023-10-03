@@ -1,7 +1,6 @@
 ---
 title: What's new in ECMAScript 2018
 summary: The last TC39 meeting resulted in finalised features set for ECMAScript 2018. This article presents all the new goodies — let's get on it.
-photo: 2018-01-29.jpg
 ---
 
 It is that time of a year again after the TC39 meeting, which finalises a list of new features that we will get in the latest ECMAScript 2018 update. I published a list of new goodies for [2017 version](https://pawelgrzybek.com/whats-new-in-ecmascript-2017/), just as I did in [2016](https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/). It is a good time to familiarise ourseves with the new features soon to be at to our disposal this year.

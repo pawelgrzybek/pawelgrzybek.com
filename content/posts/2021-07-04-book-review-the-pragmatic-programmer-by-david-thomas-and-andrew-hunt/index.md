@@ -1,7 +1,6 @@
 ---
 title: "Book review: The Pragmatic Programmer by David Thomas and Andrew Hunt"
 summary: "As you would expect from a passionate geek, I love books about programming, but I also enjoy reads about self-development. It is hard to find a combination of these two categories in one publication, but I found one, and I can't recommend it enough."
-photo: "2021-07-04.jpg"
 ---
 
 As you would expect from a passionate geek, I love books about programming but I also enjoy reads about self-development. It's hard to find a combination of these two categories in one publication but I found one! And I can't recommend it enough - ["The Pragmatic Programmer" by David Thomas and Andrew Hunt](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer).

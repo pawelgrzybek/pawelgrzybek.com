@@ -1,7 +1,6 @@
 ---
 title: A look back at 2017
 summary: Another New Year's Eve is coming — the perfect time to summarise the things that went well, list the fails and make some plans for the next twelve months.
-photo: 2017-12-30.jpg
 ---
 
 Once in a while I make an exception and use this blog to write some personal thoughts instead of trying to be a web geek. A year ago I published ["A look back at 2016"](https://pawelgrzybek.com/a-look-back-at-2016/) and now it is time to do the annual update. There are plenty of achievements that I would love to brag about and even more goals that I want to commit myself to next year. 

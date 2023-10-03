@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2019 July"
 summary: "JavaScript global variables, Netlify Analytics, AWS Toolkit for Visual Studio Code, Algebraic Effects, CSS Lists, Markers, Counters and Margins, optional chaining and more…"
-photo: top-picks.jpg
 ---
 
 ## [How do JavaScript’s global variables really work?](https://2ality.com/2019/07/global-scope.html)

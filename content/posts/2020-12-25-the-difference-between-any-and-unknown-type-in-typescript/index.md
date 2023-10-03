@@ -1,7 +1,6 @@
 ---
 title: "The difference between any and unknown type in TypeScript"
 summary: "Both any and unknown are universal types in TypeScript that allow you to  assign whatever the heck you want to it. The difference is in accessing those values. Let me explain."
-photo: 2020-12-25.jpg
 ---
 
 Both `any` and `unknown` are universal types in TypeScript that allow you to  assign whatever the heck you want to it.

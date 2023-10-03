@@ -1,7 +1,6 @@
 ---
 title: "Install Node.js — installer vs. Homebrew vs. NVM"
 summary: "There is plenty of ways to install Node.js and I am about to show you the most popular methods and highlight pros and cons of each of them"
-photo: 2019-01-15.jpg
 ---
 
 No matter if you are working on backend or are in the frontend camp, [Node.js](https://nodejs.org) is getting more popular day by day and you may need to install it at some point. There is plenty of ways to install it on your operating system and I am about to show you the most popular methods and highlight pros and cons of each of them.

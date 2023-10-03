@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2020 November"
 summary: "Native CSS Masonry Layout In CSS Grid, super simple start to Netlify functions, well-known URL for changing passwords, Tailwind CSS v2.0 arrived, TypeScript 4.1 finally there, typed React, back/forward cache and more…"
-photo: top-picks.jpg
 ---
 
 ## [Native CSS Masonry Layout In CSS Grid](https://www.smashingmagazine.com/native-css-masonry-layout-css-grid/)

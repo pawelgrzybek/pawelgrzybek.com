@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 December"
 summary: "Amazon S3 Glacier reduces prices and new storage classes arrives, imporvements to AWS deal letter queues, AWS CDK v2 announced, brand new GitHub code search, some resources abour advanced Reacr concepts, Deno and TC39 work together, Tailwind 3.0 released, things that you didn't know about CSS content property, GitHub lists and more…"
-photo: top-picks.jpg
 ---
 
 ## [Amazon S3 Glacier storage class is now Amazon S3 Glacier Flexible Retrieval; storage price reduced by 10% and bulk retrievals are now free](https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-s3-glacier-storage-class-amazon-s3-glacier-flexible-retrieval/)

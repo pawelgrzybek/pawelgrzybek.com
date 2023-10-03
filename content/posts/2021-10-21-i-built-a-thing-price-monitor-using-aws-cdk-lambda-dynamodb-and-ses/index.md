@@ -1,7 +1,6 @@
 ---
 title: "I built a thing - price monitor using AWS CDK, Lambda, DynamoDB and SES"
 summary: "The implementation turned up to be simple enough, so I decided to share core parts with you. This article assumes that you have at least some basic understanding of the AWS platform and CDK framework."
-photo: "2021-10-21.jpg"
 ---
 
 I wanted to buy a PlayStation 5 but it was out of stock all over the place, so I spent a short amount of time building a price monitor using [AWS CDK](https://aws.amazon.com/cdk/), [Lambda](https://aws.amazon.com/lambda/), [DynamoDB](https://aws.amazon.com/dynamodb/) and [SES](https://aws.amazon.com/ses/). The implementation turned out to be simple enough, so I decided to share the core parts with you. This article assumes that you have at least some basic understanding of the AWS platform and CDK framework.

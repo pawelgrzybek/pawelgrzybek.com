@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2021 October"
 summary: "Building a modern website in 2021, conditional border in CSS, ARIA in HTML, Parcel v2, AWS Lambda Functions powered by AWS Graviton2 processor, VSCode in the browser, incluging one HTML in the other and more…"
-photo: top-picks.jpg
 ---
 
 ## [How I built a modern website in 2021](https://kentcdodds.com/blog/how-i-built-a-modern-website-in-2021)

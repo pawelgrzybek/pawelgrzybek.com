@@ -1,7 +1,6 @@
 ---
 title: Pinterest style layout with Bricky
 summary: The Pinterest / Masonry style layout has always been tricky to create so I've created a very lightweight and dependency-free plugin called Bricky.
-photo: 2016-05-10.jpg
 ---
 
 One of my recent clients wanted to use this trendy kind of layout well known by Tumblr or Pinterest users. I did a quick search but I haven’t found any plugin that fits my needs (something that was responsive, lightweight and free of dependencies). All the resources that I found were huge, required a jQuery dependency or provide tons of options that I don't need. Instead of going deeper with my research I decided to code it by myself. [Bricky](https://github.com/pawelgrzybek/bricky) (thanks to my good friend Kim for this name) is a very lightweight (≈ 1.5KB minified) and dependency-free script with a minimal number of options. It is open-source and you can download it from [Github](https://github.com/pawelgrzybek/bricky) or from [npm](https://www.npmjs.com/package/bricky). It did the job on my project so maybe you will find it useful as well. Have a look at the [CodePen demo](https://codepen.io/pawelgrzybek/pen/vGbzpW).

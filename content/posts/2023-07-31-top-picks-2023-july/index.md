@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2023 July"
 summary: "Sass in the Browser, Modern Software Development Summarized, the current state of social media platforms, sad announcement from Netlify, Jeremy Keith's approach to social media and Ahmad Shadeed's CSS findings from the Threads app."
-photo: "2023-07-31.jpg"
 ---
 
 ## [Sass in the Browser](https://sass-lang.com/blog/sass-in-the-browser/)

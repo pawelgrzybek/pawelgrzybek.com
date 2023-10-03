@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2023 March"
 summary: "CSS anchor positioning, Bash for Beginners, Introducing Signals, Rust-based Zed, TypeScript 5.0 landed, Podcast Standards Project and GitHub Actions extension for VS Code."
-photo: "2023-03-31.jpg"
 ---
 
 ## [Tether elements to each other with CSS anchor positioning](https://developer.chrome.com/blog/tether-elements-to-each-other-with-css-anchor-positioning/)

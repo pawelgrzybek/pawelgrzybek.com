@@ -1,7 +1,6 @@
 ---
 title: Bookmarking with Pinboard
 summary: The internet is full of things that you don't want to forget. Bookmarking services like Pocket or Delicious are helpful but Pinboard is much more than that.
-photo: 2015-09-10.jpg
 ---
 
 The internet is full of things that you don’t want to forget, you would like to watch in the future, read later or buy after pay day. That’s what bookmarks are made for, yeah? Standard bookmarks in your browser are fine as long as you don’t have many of them. Things are getting more complicated when you have hundreds or sometimes thousands of URLs worth revisiting. Services like Pocket or do the job pretty well, but [Pinboard](https://pinboard.in/) gives you a real power.

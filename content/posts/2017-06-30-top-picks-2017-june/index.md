@@ -1,7 +1,6 @@
 ---
 title: Top picks — 2017 June
 summary: Staying up to date in web industry is a difficult and time consuming task. I would like to share with you my top finds from the past month.
-photo: top-picks.jpg
 ---
 
 ## A Unified Styling Language

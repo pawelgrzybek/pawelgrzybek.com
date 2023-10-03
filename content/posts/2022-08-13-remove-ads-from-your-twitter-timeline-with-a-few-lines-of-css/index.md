@@ -1,7 +1,6 @@
 ---
 title: "Remove ads from your Twitter timeline with a few lines of CSS"
 summary: 'Twitter timeline is full of ads, and the "What''s happening" section is nothing else, just crap that I don''t care about. The trick is simple — you must add a few lines of CSS to hide the unneeded stuff.'
-photo: "2022-08-13.jpg"
 ---
 
 Twitter timeline is full of ads, and the "What's happening" section is nothing else, just crap that I don't care about. That is the main reason why I use TweetDeck instead.

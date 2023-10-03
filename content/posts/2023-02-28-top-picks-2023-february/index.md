@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2023 February"
 summary: "Netlify Acquires Gatsby, Web Interop in 2023, The Third Browser War, React.js: The Documentary, High Definition CSS Color Guide, a good reminder about Maps and Sets in JavaScrip and more…"
-photo: "2023-02-28.jpg"
 ---
 
 ## [Netlify Acquires Gatsby Inc. to Accelerate Adoption of Composable Web Architectures](https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/)

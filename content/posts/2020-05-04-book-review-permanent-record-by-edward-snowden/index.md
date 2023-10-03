@@ -1,7 +1,6 @@
 ---
 title: "Book review: Permanent Record by Edward Snowden"
 summary: "My friend Kyran recently recommended \"Permanent Record\" a book about a story that I had heard before from the movie \"Snowden\". It's been a while since I watched it, so I decided to be a bit more curious about the controversial story of NSA's employee."
-photo: 2020-05-04.jpg
 ---
 
 After reading a few non-technical books I kinda missed some geeky publications. My friend Kyran recently recommended "Permanent Record" a book about a story that I had heard before from the [movie "Snowden"](https://www.imdb.com/title/tt3774114/). It's been a while since I watched it, so I decided to be a bit more curious about the controversial story of NSA's employee.

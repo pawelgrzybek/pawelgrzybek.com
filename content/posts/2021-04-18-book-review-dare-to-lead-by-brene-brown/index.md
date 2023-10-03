@@ -1,7 +1,6 @@
 ---
 title: "Book review: Dare to Lead by Brené Brown"
 summary: "At the beginning of a year, I got promoted to the position of Lead Software Engineer at Mindera. When I accepted this position, I didn't realize what I am putting onto my shoulders. Even though I feel more comfortable with it now, the transition wasn't easy, and I still have plenty to learn."
-photo: "2021-04-18.jpg"
 ---
 
 At the beginning of the year, I got promoted to the position of Lead Software Engineer at [Mindera](https://mindera.com). When I accepted the position, I didn't realize what I was putting onto my shoulders. I changed from being a developer, writing code, solving business problems using programming languages to mentorship and leading other developers to solve these problems. Even though I feel more comfortable with it now, the transition wasn't easy, and I still have plenty to learn.

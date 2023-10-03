@@ -1,7 +1,6 @@
 ---
 title: "Book review: Rich Dad Poor Dad by Robert T. Kiyosaki"
 summary: "Personal finance is something that interests me a little bit more recently. Am I becoming mature now? I decided to educate myself on this subject, to get into it I chose the story of a dude who grew up next to his well-educated dad (poor dad) and another business-focused dad who had dropped out of school (rich dad)."
-photo: 2020-10-14.jpg
 ---
 
 Personal finance is something that interests me a little bit more recently. Am I becoming mature now? I decided to educate myself on this subject, to get into it I chose [“Rich Dad Poor Dad” by Robert T. Kiyosaki](https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad).

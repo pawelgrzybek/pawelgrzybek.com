@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 December"
 summary: "Make your Node.js server HTTP2-compatible, granular control over npm access tokens just landed, Rust-based TypeScript compiler, GraphQL vs tRPC and more… "
-photo: "2022-12-31.jpg"
 ---
 
 ## [How to use HTTP2 with Express.js and test it locally](https://typeofnan.dev/how-to-use-http2-with-express/)

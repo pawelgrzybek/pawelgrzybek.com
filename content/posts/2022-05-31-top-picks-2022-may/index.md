@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 May"
 summary: "Some macOS ticks and tips, Web-interoperable Runtimes Community Group, Google team present new features for the Web Platform, Roboto Flex font announced, AWS powered by Node.js 16, useEvent hook in React, Next.js and Layouts proposal, Design Patterns and more!"
-photo: top-picks.jpg
 ---
 
 ## [Moving a macOS window by clicking anywhere on it (like on Linux)](https://mmazzarolo.com/blog/2022-04-16-drag-window-by-clicking-anywhere-on-macos/)

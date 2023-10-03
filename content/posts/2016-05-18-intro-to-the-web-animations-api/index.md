@@ -1,7 +1,6 @@
 ---
 title: Intro to the Web Animations API
 summary: We have many methods available to move things around on the web. Let’s embrace the power of future animations with the Web Animations API.
-photo: 2016-05-18.jpg
 ---
 
 We have plenty of ways to animate things on the web. The answer of which one to use isn’t always easy. Each method comes with pros and cons. Should we use CSS, `canvas`, Web GL, JavaScript `requestAnimationFrame` or `setInterval`? Maybe SMIL? Oh no — this one is dead now. Maybe some external libraries like jQuery, GreenSock or VelocityJS? These are just a few possible ways to go. If you are keen to know a little bit more about these methods, I encourage you to read a fantastic article [“A Comparison of Animation Technologies”](https://css-tricks.com/comparison-animation-technologies/) by [Sarah Drasner](https://twitter.com/sarah_edo) on CSS-Tricks.

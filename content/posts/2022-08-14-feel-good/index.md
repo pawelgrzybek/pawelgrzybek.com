@@ -1,7 +1,6 @@
 ---
 title: "Feel good"
 summary: 'I have been part of a development team at Semble (formerly Heydoc) for over eight months, and it’s been a blast. Working there comes with a great list of benefits, but my favourite perk is two extra "feel good" days.'
-photo: "2022-08-14.jpg"
 ---
 
 I have been part of a development team at [Semble](https://www.semble.io) (formerly Heydoc) for over eight months, and it’s been a blast. Working there comes with a great list of benefits, but my favourite perk is two extra “feel good” days.

@@ -1,7 +1,6 @@
 ---
 title: "What's new in ECMAScript 2020"
 summary: "The list of new ECMAScript 2020 features is set in stone. Let’s have a look at what’s coming this year and a few practical examples."
-photo: 2020-04-03.jpg
 ---
 
 The list of new ECMAScript 2020 features is set in stone. Similarly, how I did it in [2016](https://pawelgrzybek.com/whats-new-in-ecmascript-2016-es7/), [2017](https://pawelgrzybek.com/whats-new-in-ecmascript-2017/), [2018](https://pawelgrzybek.com/whats-new-in-ecmascript-2018/) and [2019](https://pawelgrzybek.com/whats-new-in-ecmascript-2019/), let's have a look at what's coming this year and a few practical examples.

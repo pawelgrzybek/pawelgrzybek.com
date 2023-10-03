@@ -1,7 +1,6 @@
 ---
 title: Make some magic with CSS blend modes
 summary: Remember the bloody wars between web designers and front-end developers about blend modes? Those times are over — thanks to the power of CSS!
-photo: 2017-04-28.jpg
 ---
 
 It was an ordinary Wednesday morning, I was enjoying my morning espresso shot at [Engine Creative](https://twitter.com/enginecreative), when suddenly my lovely colleague Chloe put on my desk the latest issue of [net magazine](https://twitter.com/netmag) freshly delivered by the postman. I had a quick glance at the cover art that boldly stated "Make magic with CSS". Pfff — I totally ignored it — I know everything about CSS, don't I? It was a really nice espresso.

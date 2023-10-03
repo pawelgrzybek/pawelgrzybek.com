@@ -1,7 +1,6 @@
 ---
 title: "Native CSS nesting landed"
 summary: "If you asked me a few years ago about my favourite Sass features, I would tell you about variables and nesting at the top of my list. Then, in 2016, CSS Custom Properties landed, massively changing my workflow. So, fast forward to 2023, and I am stoked to tell you that native CSS nesting has landed!"
-photo: "2023-03-19.jpg"
 ---
 
 If you asked me a few years ago about my favourite [Sass](https://sass-lang.com) features, I would tell you about variables and nesting at the top of my list. Then, in 2016, [CSS Custom Properties](/css-custom-properties-explained/) landed, massively changing my workflow. So, fast forward to 2023, and I am stoked to tell you that [native CSS nesting](https://w3c.github.io/csswg-drafts/css-nesting-1/) has landed!

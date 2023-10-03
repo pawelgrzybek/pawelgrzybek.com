@@ -1,7 +1,6 @@
 ---
 title: "Disable/enable Pi-hole using Apple Shortcuts"
 summary: "Pi-hole is my favourite ad-blocking solution. In most cases, it works like a charm, but from time to time, you just want to disable it temporarily."
-photo: "2022-12-01.jpg"
 ---
 
 [Pi-hole](https://pi-hole.net) is my favourite ad-blocking solution. It runs on Raspberry Pi hooked under my desk, and its only purpose is network-wide DNS filtering. ["The World’s Greatest Pi-hole Tutorial 2023" by Crosstalk Solutions](https://www.crosstalksolutions.com/the-worlds-greatest-pi-hole-and-unbound-tutorial-2023/) is an excellent primer if you are new to the subject.

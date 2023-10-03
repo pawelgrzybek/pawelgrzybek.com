@@ -1,7 +1,6 @@
 ---
 title: "I won't miss you Google"
 summary: "Isn’t that all a little bit concerning that one company knows about your passions, salary, what you eat, where you go and what the fuck is your shoe size? It’s scary for me, so I decided to move away from the Mountain View Google bandwagon."
-photo: 2021-01-08.jpg
 ---
 
 To find the best price for a dreamed up a pair of shoes, you probably use Google Search. To track your expenses, you use Google Sheets. A very detailed plan for your upcoming holiday is waiting for you under your Google Maps account. To check your email you visit Gmail using Google Chrome (obviously). To cook a king prawns pasta for your partner, you spend hours watching YouTube videos beforehand. Google Analytics report tells you how many people visited your website yesterday.

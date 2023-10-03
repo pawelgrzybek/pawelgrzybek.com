@@ -1,7 +1,6 @@
 ---
 title: "Use Philips Hue Dimmer Switch or Smart Button as a toggle via HomeKit"
 summary: "Unfortunately, making Philips Hue Dimmer Switch or Smart Button work as a simple toggle is not as straightforward. However, you can achieve that with some Apple Shortcut scripting."
-photo: "2023-01-08.jpg"
 ---
 
 So you just bought a [Philips Hue Dimmer Switch](https://www.philips-hue.com/en-gb/p/hue-dimmer-switch--latest-model-/8719514274617) or [Smart Button](https://www.philips-hue.com/en-gb/p/hue-smart-button/8719514342668), added them to your HomeKit and want to use it as a toggle switch? Well, it takes work. It is not as straightforward as setting it in the Philips Hue app, which you probably don't want to use because you have a gazillion other devices already configured in the Apple Home app.

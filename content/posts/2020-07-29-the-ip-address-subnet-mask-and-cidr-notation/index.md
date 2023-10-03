@@ -1,7 +1,6 @@
 ---
 title: "The IP address, subnet mask and CIDR notation"
 summary: "The Internet is a big network of devices, each of them is identified by the unique IP address. Subnetting is a process of dividing them into smaller subnetworks. Subnet mask helps us to determine which part of the IP address belongs to the network and which one belongs to us (host)."
-photo: 2020-07-29.jpg
 ---
 
 The Internet is a big network of devices, each of them is identified by the unique IP address. They are not connected directly though. Subnetting is a process of dividing them into smaller subnetworks. Subnet mask helps us to determine which part of the IP address belongs to the network and which one belongs to us (host).

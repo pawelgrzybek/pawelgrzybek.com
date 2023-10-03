@@ -1,7 +1,6 @@
 ---
 title: Native feature detection with CSS.supports() API
 summary: Feature detection is something that every front end developer faced at some point. CSS.supports() API allows us to use very elegant form to doing it.
-photo: 2015-09-17.jpg
 ---
 
 Feature detection is something that every front end developer faced at some point. There are a number of solutions to handle features incompatibility. It can be some CSS hack that overrides the previous rule, or JavaScript snippet that returns boolean value that dictates further steps. Possibly you came across more advanced solutions like [Modernizr](https://modernizr.com/), which has been updated recently and brought us so many new checks.

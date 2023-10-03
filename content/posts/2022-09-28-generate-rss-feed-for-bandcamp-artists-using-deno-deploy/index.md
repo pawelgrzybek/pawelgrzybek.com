@@ -1,7 +1,6 @@
 ---
 title: "Generate RSS feed for Bandcamp artists using Deno Deploy"
 summary: "I mentioned multiple times how much I like RSS. But unfortunately, not every website I use generates feeds — Bandcamp is one of them."
-photo: "2022-09-28.jpg"
 ---
 
 I mentioned multiple times [how much I like RSS](/rss-feed-for-youtube-channels-and-github-project/). I use them to read my favourite blogs, follow YouTube channels, stay up to date with GitHub releases and much more. But unfortunately, not every website I use generates feeds — [Bandcamp](https://bandcamp.com) is one of them.

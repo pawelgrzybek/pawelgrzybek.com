@@ -1,7 +1,6 @@
 ---
 title: "Multiple SSH keys for multiple Bitbucket/GitHub accounts"
 summary: "If we cannot use singular SSH key across multiple accounts (what makes a perfect sense) the solution is to have multiple of them. Let's create two new pair of SSH keys, one for personal use and another one for the clients project."
-photo: 2020-08-10.jpg
 ---
 
 I recently joined a new project whereby a version control repository is hosted on [Bitucket](https://bitbucket.org). It is time to create an account, clone the repo and smash some code! Not that easy — this is what I got when I tried to add my public SSH key to newly created account.

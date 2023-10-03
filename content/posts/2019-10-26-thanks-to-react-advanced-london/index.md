@@ -1,7 +1,6 @@
 ---
 title: "Thanks to React Advanced London"
 summary: "Whenever it comes to frontend apps, React is the tool that I feel the most comfortable with. Couldn't be happier when organizers reached out to me and invited me to React Advanced London."
-photo: 2019-10-26.jpg
 ---
 
 I couldn't be happier when organizers reached out to me to invite me to the [React Advanced London](https://reactadvanced.com). When it comes to frontend apps React has always been my preference for building interactive experiences. Having an opportunity to spend a day surrounded by industry leaders and creators of my favourite open-source projects is an irreplaceable experience.

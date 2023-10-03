@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2022 November"
 summary: "Remixing joining Shopify, Deno announces stable support for npm modules, AWS LAmbda runs on Node.js 18 now, CSS flexbox explained and more!"
-photo: "2022-11-30.jpg"
 ---
 
 ## [Remixing Shopify](https://remix.run/blog/remixing-shopify)

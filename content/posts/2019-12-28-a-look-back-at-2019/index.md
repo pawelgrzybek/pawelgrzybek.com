@@ -1,7 +1,6 @@
 ---
 title: A look back at 2019
 summary: "Allow me to use this post-Christmas time as an excuse to share some achievements and failures from the past year. It is also a great opportunity to think about some goals for the coming year, 2020."
-photo: 2019-12-28.jpg
 ---
 
 Like I did in [2016](https://pawelgrzybek.com/a-look-back-at-2016/), [2017](https://pawelgrzybek.com/a-look-back-at-2017/) and [2018](https://pawelgrzybek.com/a-look-back-at-2018/), I am not going to break with this tradition, so I am going to share some personal thoughts about this year as well. The end of a December is a fantastic opportunity to slow down, enjoy Christmas with family, hang out with best friends, summarize achievements and failures of the last year and think about some goals for the upcoming year. Last time I committed myself to a few goals, and even though I didn't manage to tick the box next to every single one of them, this year was great. A lot of accomplishments that I am proud of, some little breakdowns and number of inspirations to keep on working on my fulfilment.

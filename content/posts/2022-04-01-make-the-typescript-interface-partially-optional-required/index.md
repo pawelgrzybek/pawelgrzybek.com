@@ -1,7 +1,6 @@
 ---
 title: "Make the TypeScript interface partially optional/required"
 summary: "I came across a situation when I had to make a single key of the TypeScript interface optional. My friend and I came up with this solution, and we hope you will find it helpful."
-photo: "2022-04-01.jpg"
 ---
 
 I came across a situation when I had to make a single key of the TypeScript interface optional. Let’s say that I have a type that consists of two keys, `name` and `age`, and I want to make the `age` key optional. My real-life scenario was more convoluted, but I just want to show you what I learned. Look!

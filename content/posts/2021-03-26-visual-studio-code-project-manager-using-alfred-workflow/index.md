@@ -1,7 +1,6 @@
 ---
 title: "Visual Studio Code project manager using Alfred workflow"
 summary: "I spend a lot of time using Visual Studio Code, jumping from one project to another. To make it more efficient, I would love to have a simple project manager baked into the editor. I have built a simple Alfred workflow that does just that."
-photo: "2021-03-26.jpg"
 ---
 
 I spend a lot of time using Visual Studio Code, jumping from one project to another. To make it more efficient, I would love to have a simple project manager baked into the editor. I know there are many great plugins for it, but they are all too complex for my taste. I want to hit a shortcut, type the project's name, hit enter and start working.

@@ -1,7 +1,6 @@
 ---
 title: The Intersection Observer API explained
 summary: Detecting when elements become visible on the viewport has always been an expensive task. Not anymore — the Intersection Observer API just landed in Chromium.
-photo: 2016-06-13.jpg
 ---
 
 Detecting which elements are visible within the current viewport's boundaries has always been a tricky and expensive task in terms of performance. Lazy loaded images on Medium.com, infinite scrolling pictures of vegan food on Pinterest or animated images on every f*****g Tumblr theme are just a few examples where this functionality can be found in abundance. [The reporting of ad "visibility"](https://www.iab.com/viewability-has-arrived-what-you-need-to-know-to-see-through-this-sea-change/) for monetizing purpose is another important use case. There's good news on the horizon though! The web platform doesn't have to struggle to do all these things manually anymore — [`The Intersection Observer API`](https://www.w3.org/TR/intersection-observer/) just landed in [Chromium 51](https://blog.chromium.org/2016/05/new-apis-to-help-developers-improve.html). It allows us to do these things with ease, reduce CPU usage, increase battery life and eliminate rendering junk.

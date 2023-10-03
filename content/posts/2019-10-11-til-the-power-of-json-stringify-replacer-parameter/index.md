@@ -1,7 +1,6 @@
 ---
 title: "TIL — The power of JSON.stringify replacer parameter"
 summary: "I had a challenging problem with JSON stringify that ignored my data in a place where I expected sets of values. Luckily I managed to solve it in a very elegant way."
-photo: 2019-10-11.jpg
 ---
 
 I had an interesting problem that melted my brain a bit. Let me share what I have learned and maybe save you a few moments when you come across a similar challenge. Lets have some fun with `JSON.stringify()`.

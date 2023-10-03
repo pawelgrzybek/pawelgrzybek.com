@@ -1,7 +1,6 @@
 ---
 title: "Book review: Beastie Boys Book by Michael Diamond and Adam Horovitz"
 summary: "I was stoked when I found \"Beastie Boys Book\" by Michael Diamond and Adam Horovitz on Audible. The story of one of the most influential groups in hip hop culture. It’s told by the members of the group and narrated by original authors and other individuals including Chuck D, Snoop Dogg, Kim Gordon, LL Cool J, Spike Jonze, Talib Kweli, Mix Master Mike and a lot more. I couldn’t resist!"
-photo: 2020-09-07.jpg
 ---
 
 I was stoked when I found ["Beastie Boys Book" by Michael Diamond and Adam Horovitz on Audible](https://www.audible.co.uk/pd/Beastie-Boys-Book-Audiobook/0571353142). The story of one of the most influential groups in hip hop culture. It’s told by the members of the group and narrated by original authors and other individuals including Chuck D, Snoop Dogg, Kim Gordon, LL Cool J, Spike Jonze, Talib Kweli, Mix Master Mike and a lot more. I couldn’t resist!
