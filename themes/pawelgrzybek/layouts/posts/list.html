@@ -8,12 +8,12 @@
       {{ .Content }}
 
       <ul>
-        {{- range (where .Site.Pages.ByDate.Reverse "Section" "posts").GroupByDate "2006" -}}
+        {{- range (where .Site.RegularPages.ByDate.Reverse "Section" "posts").GroupByDate "2006" -}}
         <li><a href="#{{ .Key }}">{{ .Key }} ({{ len .Pages }} posts)</a></li>
         {{end}}
       </ul>
 
-      {{ range (where .Site.Pages.ByDate.Reverse "Section" "posts").GroupByDate "2006" }}
+      {{ range (where .Site.RegularPages.ByDate.Reverse "Section" "posts").GroupByDate "2006" }}
         <h2 id="{{ .Key }}">{{ .Key }} ({{ len .Pages }} posts) <a href="#{{ .Key }}" class="anchor">#</a></h2>
         <ul class="archive">
           {{ range .Pages }}
