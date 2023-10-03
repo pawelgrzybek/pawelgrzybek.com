@@ -1,6 +1,6 @@
 baseURL = "https://pawelgrzybek.com"
 title = "pawelgrzybek.com"
-disableKinds = ["section", "taxonomy", "term"]
+disableKinds = ["taxonomy", "term"]
 pygmentsUseClasses = true
 enableRobotsTXT = true
 theme = ['pawelgrzybek']

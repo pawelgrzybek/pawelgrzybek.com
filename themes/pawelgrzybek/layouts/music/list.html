@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div class="wrapper">
+  <article class="post">
+    <div class="content">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </div>
+  </article>
+</div>
+
+<div class="wrapper wrapper--huge">
+  <ul class="music">
+    {{ range $.Site.Data.music.releases }}
+    <li class="music__item">
+      <a href="{{ .url }}" class="music__link">
+        {{ if eq .cover nil }}
+        <div class="music__cover"></div>
+        {{ else }}
+        <img
+          class="music__cover"
+          src="/{{ .cover }}"
+          alt="{{ .artist }} - {{ .title }}"
+          loading="lazy"
+          decoding="async"
+          width="600"
+          height="600"
+        />
+        {{ end }}
+
+        <p class="music__artist">{{ .artist }}</p>
+        <p class="music__title">{{ .title }} ({{ .year }})</p>
+        <p class="music__added">Added: {{ .added }}</p>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+{{ end }}

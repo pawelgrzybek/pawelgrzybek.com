@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<div class="wrapper">
+
+    <article class="post js-post">
+      <h1>{{ .Title }}</h1>
+      <p class="post__meta">Published: <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006.01.02" .Date }}</time> · {{ .ReadingTime }} {{ if (eq .ReadingTime 1) }}minute{{ else }}minutes{{ end }} read</p>
+
+      <div class="content">
+        {{ .Content }}
+
+        {{ partial "share.html" . }}
+
+        {{ $commentsKey := replace .RelPermalink "/" "" }}
+        {{ $commentsExist := isset .Site.Data.comments $commentsKey }}
+
+        {{ if $commentsExist }}
+        {{ $commentsObject := index .Site.Data.comments $commentsKey }}
+        {{ $comments := index $commentsObject "comments" }}
+        <h2 id="comments">Comments</h2>
+        {{ partial "comments.html" (dict "context" . "comments" $comments) }}
+        {{ end }}
+
+        <h2 id="leave-a-comment">Leave a comment</h2>
+        {{ partial "form.html" (dict "context" . "hidden" false "parent" "") }}
+      </div>
+
+    </article>
+  </div>
+
+  <script>
+    const headings = document.querySelectorAll(
+      ".js-post :is(h2, h3, h4, h5, h6)"
+    );
+
+    for (const heading of headings) {
+      const hash = document.createElement("a");
+
+      hash.href = `#${heading.id}`;
+      hash.innerHTML = "#";
+      hash.className = "anchor";
+
+      heading.appendChild(hash);
+    }
+  </script>
+  <script src="/comments.js"></script>
+
+{{ end }}
