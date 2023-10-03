@@ -5,7 +5,7 @@
   {{ hugo.Generator }}
 
   <title>{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ if eq .Section "posts" }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="description" content="{{ .Summary }}">
 
   {{ "<!-- Safari tab bar -->" | safeHTML }}
   <meta name="theme-color" content="hsl(255 0% 100%)" media="(prefers-color-scheme: light)" />
@@ -16,7 +16,7 @@
   <meta property="og:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
   <meta property="og:url" content="{{ .Permalink | absURL }}">
   <meta property="og:type" content="{{ if eq .Type "page" }}website{{ else }}article{{ end }}">
-  <meta property="og:description" content="{{ if eq .Section "posts" }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:description" content="{{ .Summary }}">
   <meta property="og:image" content="{{ if (and .Page.File (os.FileExists (path.Join "content" .Page.File.Dir "og.jpg" )) ) }}{{ path.Join .Page.Permalink "og.jpg" }}{{ else }}{{ path.Join .Site.BaseURL "logo.png" }}{{ end }}">
 
   {{ "<!-- Twitter Card -->" | safeHTML }}
