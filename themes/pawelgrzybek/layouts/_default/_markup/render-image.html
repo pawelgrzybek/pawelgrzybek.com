@@ -1,55 +1,39 @@
 <picture>
-  {{- $extension := path.Ext .Destination -}}
-  {{- $isJpgOrPng := eq $extension ".jpg" ".png" -}}
+  {{- $destination := .Destination -}}
+  {{- $extension := path.Ext $destination -}}
+  {{- $resources := .Page.Resources -}}
 
-  {{- if ($isJpgOrPng) -}}
-    {{- $avifPath:= replace .Destination $extension ".avif" -}}
-    {{- $avifPathStatic:= printf "static%s" $avifPath -}}
-    {{- $avifPathDark:= replace .Destination $extension "-dark.avif" -}}
-    {{- $avifPathDarkStatic:= printf "static%s" $avifPathDark -}}
-    {{- $avifPathStaticExists:= fileExists $avifPathStatic -}}
-    {{- $avifPathDarkStaticExists:= fileExists $avifPathDarkStatic -}}
+  {{- $avifPath:= replace $destination $extension ".avif" -}}
+  {{- $avifPathDark:= replace $destination $extension "-dark.avif" -}}
+  {{- $webpPath:= replace $destination $extension ".webp" -}}
+  {{- $webpPathDark:= replace $destination $extension "-dark.webp" -}}
+  {{- $pathDark:= replace $destination $extension (print "-dark" $extension) -}}
+  {{- $altText := .Text -}}
 
-    {{- if $avifPathStaticExists -}}
-      <source srcset="{{- $avifPath | safeURL -}}" type="image/avif" {{- if (and $avifPathStaticExists $avifPathDarkStaticExists) -}} media="(prefers-color-scheme: light)" {{- end -}} >
-    {{- end -}}
-    {{- if $avifPathDarkStaticExists -}}
-      <source srcset="{{- $avifPathDark | safeURL -}}" type="image/avif" {{- if (and $avifPathStaticExists $avifPathDarkStaticExists) -}} media="(prefers-color-scheme: dark)" {{- end -}}>
-    {{- end -}}
-
-
-    {{- $webpPath:= replace .Destination $extension ".webp" -}}
-    {{- $webpPathStatic:= printf "static%s" $webpPath -}}
-    {{- $webpPathDark:= replace .Destination $extension "-dark.webp" -}}
-    {{- $webpPathDarkStatic:= printf "static%s" $webpPathDark -}}
-    {{- $webpPathStaticExists:= fileExists $webpPathStatic -}}
-    {{- $webpPathDarkStaticExists:= fileExists $webpPathDarkStatic -}}
-
-    {{- if (fileExists $webpPathStatic) -}}
-      <source srcset="{{- $webpPath | safeURL -}}" type="image/webp" {{- if (and $webpPathStaticExists $webpPathDarkStaticExists) -}} media="(prefers-color-scheme: light)" {{- end -}}>
-    {{- end -}}
-    {{- if (fileExists $webpPathDarkStatic) -}}
-      <source srcset="{{- $webpPathDark | safeURL -}}" type="image/webp" {{- if (and $webpPathStaticExists $webpPathDarkStaticExists) -}} media="(prefers-color-scheme: dark)" {{- end -}}>
-    {{- end -}}
-
-
-    {{- $pathDark:= replace .Destination $extension (print "-dark" $extension) -}}
-    {{- $pathDarkStatic:= printf "static%s" $pathDark -}}
-    {{- $pathDarkStaticExists:= fileExists $pathDarkStatic -}}
-
-    {{- if $pathDarkStaticExists -}}
-      <source srcset="{{- $pathDark | safeURL -}}" media="(prefers-color-scheme: dark)">
-    {{- end -}}
+  {{- with $resources.GetMatch $avifPath -}}
+  <source srcset="{{- $avifPath | safeURL -}}" type="image/avif" {{- with $resources.GetMatch $avifPathDark -}} media="(prefers-color-scheme: light)" {{- end -}} >
+  {{- end -}}
+  {{- with $resources.GetMatch $avifPathDark -}}
+  <source srcset="{{- $avifPathDark | safeURL -}}" type="image/avif" {{- with $resources.GetMatch $avifPath -}} media="(prefers-color-scheme: dark)" {{- end -}}>
+  {{- end -}}
+  {{- with $resources.GetMatch $webpPath -}}
+  <source srcset="{{- $webpPath | safeURL -}}" type="image/webp" {{- with $resources.GetMatch $webpPathDark -}} media="(prefers-color-scheme: light)" {{- end -}} >
+  {{- end -}}
+  {{- with $resources.GetMatch $webpPathDark -}}
+  <source srcset="{{- $webpPathDark | safeURL -}}" type="image/webp" {{- with $resources.GetMatch $webpPath -}} media="(prefers-color-scheme: dark)" {{- end -}}>
+  {{- end -}}
+  {{- with $resources.GetMatch $pathDark -}}
+  <source srcset="{{- $pathDark | safeURL -}}" media="(prefers-color-scheme: dark)">
   {{- end -}}
 
-  {{- $img := imageConfig (add "/static" (.Destination | safeURL)) -}}
-
-  <img
-    src="{{- .Destination | safeURL -}}"
-    alt="{{- .Text -}}"
-    loading="lazy"
-    decoding="async"
-    width="{{- $img.Width -}}"
-    height="{{- $img.Height -}}"
-  />
+  {{- with $resources.GetMatch $destination -}}
+    <img
+      src="{{- .Permalink | safeURL -}}"
+      alt="{{- $altText -}}"
+      loading="lazy"
+      decoding="async"
+      width="{{- .Width -}}"
+      height="{{- .Height -}}"
+    />
+  {{- end -}}
 </picture>
