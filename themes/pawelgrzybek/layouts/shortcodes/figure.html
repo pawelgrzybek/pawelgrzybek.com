@@ -12,24 +12,24 @@
     {{- $altText := .Get "alt" -}}
 
     {{- with $resources.GetMatch $avifPath -}}
-    <source srcset="{{- $avifPath | safeURL -}}" type="image/avif" {{- with $resources.GetMatch $avifPathDark -}} media="(prefers-color-scheme: light)" {{- end -}} >
+    <source srcset="{{- $avifPath -}}" type="image/avif" {{- with $resources.GetMatch $avifPathDark -}} media="(prefers-color-scheme: light)" {{- end -}} >
     {{- end -}}
     {{- with $resources.GetMatch $avifPathDark -}}
-    <source srcset="{{- $avifPathDark | safeURL -}}" type="image/avif" {{- with $resources.GetMatch $avifPath -}} media="(prefers-color-scheme: dark)" {{- end -}}>
+    <source srcset="{{- $avifPathDark -}}" type="image/avif" {{- with $resources.GetMatch $avifPath -}} media="(prefers-color-scheme: dark)" {{- end -}}>
     {{- end -}}
     {{- with $resources.GetMatch $webpPath -}}
-    <source srcset="{{- $webpPath | safeURL -}}" type="image/webp" {{- with $resources.GetMatch $webpPathDark -}} media="(prefers-color-scheme: light)" {{- end -}} >
+    <source srcset="{{- $webpPath -}}" type="image/webp" {{- with $resources.GetMatch $webpPathDark -}} media="(prefers-color-scheme: light)" {{- end -}} >
     {{- end -}}
     {{- with $resources.GetMatch $webpPathDark -}}
-    <source srcset="{{- $webpPathDark | safeURL -}}" type="image/webp" {{- with $resources.GetMatch $webpPath -}} media="(prefers-color-scheme: dark)" {{- end -}}>
+    <source srcset="{{- $webpPathDark -}}" type="image/webp" {{- with $resources.GetMatch $webpPath -}} media="(prefers-color-scheme: dark)" {{- end -}}>
     {{- end -}}
     {{- with $resources.GetMatch $pathDark -}}
-    <source srcset="{{- $pathDark | safeURL -}}" media="(prefers-color-scheme: dark)">
+    <source srcset="{{- $pathDark -}}" media="(prefers-color-scheme: dark)">
     {{- end -}}
   
     {{- with $resources.GetMatch $destination -}}
       <img
-        src="{{- .Permalink | safeURL -}}"
+        src="{{- .Permalink -}}"
         alt="{{- $altText -}}"
         loading="lazy"
         decoding="async"
