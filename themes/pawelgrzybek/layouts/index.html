@@ -2,10 +2,10 @@
 
 <div class="wrapper">
   <div class="content">
-    <h1>{{ .Page.Title  }}</h1>
+    <h1 id="{{ anchorize .Page.Title }}">{{ .Page.Title  }} <a class="anchor" href="#{{ anchorize .Page.Title }}">#</a></h1>
     {{ .Content }}
 
-    <h2 id="recent-blog-posts">Recent blog posts <a class="anchor" href="#recent-blog-posts">#</a></h2>
+    <h2 id="{{ anchorize "Recent blog posts" }}">Recent blog posts <a class="anchor" href="#{{ anchorize "Recent blog posts" }}">#</a></h2>
     <ul class="archive">
       {{ $posts := (where .Site.RegularPages "Section" "posts") }}
 
