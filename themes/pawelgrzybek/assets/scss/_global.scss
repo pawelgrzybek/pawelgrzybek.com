@@ -14,11 +14,14 @@
 
 html {
   font-size: var(--fzb);
-  -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   scroll-padding-top: var(--lh);
   scroll-behavior: smooth;
   color-scheme: light dark;
+  // https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 *,
