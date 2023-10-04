@@ -17,7 +17,7 @@
   <meta property="og:url" content="{{ .Permalink | absURL }}">
   <meta property="og:type" content="{{ if eq .Type "page" }}website{{ else }}article{{ end }}">
   <meta property="og:description" content="{{ .Summary }}">
-  <meta property="og:image" content="{{ if (and .Page.File (os.FileExists (path.Join "content" .Page.File.Dir "og.jpg" )) ) }}{{ urls.JoinPath .Page.Permalink "og.jpg" }}{{ else }}{{ urls.JoinPath .Site.BaseURL "logo.png" }}{{ end }}">
+  <meta property="og:image" content="{{ if (and .Page.File (os.FileExists (path.Join "content" .Page.File.Dir "og.jpg" )) ) }}{{ urls.JoinPath .Page.Permalink "og.jpg" }}{{ else }}{{ urls.JoinPath .Site.BaseURL "og.jpg" }}{{ end }}">
 
   {{ "<!-- Twitter Card -->" | safeHTML }}
   <meta name="twitter:card" content="summary_large_image" />
