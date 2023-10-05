@@ -36,7 +36,9 @@ Over the last few years, I have been writing and adding more Markdown files to t
 
 ## Benefits of Page Bundles
 
-The obvious benefit is file colocation. All files related to a single post live in the same directory. It vastly eliminates the potential for orphaned static files. When you delete a draft that you've lost hope for (which happens to me all the time), all related files will also be deleted.
+The obvious benefit is file colocation. All files related to a single post live in the same directory. It vastly eliminates the potential for orphaned static files. When you delete a draft that you've lost hope for (which happens to me all the time), all related files will also be deleted. And because all links to images follow real relative paths, Markdown previews finally render correctly. A nice bonus!
+
+![Markdown preview in Visual Studio Code correctly renders images](markdown-preview.png)
 
 [Page resources](https://gohugo.io/content-management/page-resources/) is a Hugo concept where all files in a page bundle are accessible in a template via `{{ .Resources }}`. They also have some extra [image processing powers](https://gohugo.io/content-management/image-processing/) that are impossible with static files. This is very powerful and has allowed me to massively simplify how I handle multiple file formats (`jpg`, `webp`, and `avif`) and dark mode variations. I have also managed to eliminate some unnecessary logic for handling open graph images—I need to remember to include an `og.jpg` file in the page bundle, and Hugo will take care of the rest.
 
