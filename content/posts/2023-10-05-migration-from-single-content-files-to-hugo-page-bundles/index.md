@@ -42,3 +42,4 @@ The obvious benefit is file colocation. All files related to a single post live 
 
 This single change doesn't look like a lot to the visitor, but it was a massive improvement for me as a publisher. I can also reveal that I am planning to translate some of my posts into Polish, and with page bundles, it will be a breeze.
 
+If you're curious about how it works, [the source code for my website is available on GitHub](https://github.com/pawelgrzybek/pawelgrzybek.com). Shout out if you have any questions or suggestions. Peace ✌️
