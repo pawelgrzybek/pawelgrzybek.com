@@ -12,7 +12,8 @@
   box-shadow: inset 0 0 0 2px var(--color-link);
   text-decoration: none;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background: var(--color-background);
     color: var(--color-link);
   }
@@ -22,7 +23,8 @@
   color: var(--color-link);
   background: var(--color-background);
 
-  &:hover {
+  &:hover,
+  &:focus {
     background: var(--color-link);
     color: var(--color-background);
   }
