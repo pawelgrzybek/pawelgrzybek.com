@@ -5,7 +5,7 @@ summary: "This little device enables AirPlay on any audio system that can take t
 
 I have an always-growing collection of records. It is my way of repaying my past debts to the musicians I ripped off by illegally downloading albums from the [Soulseek network](https://www.slsknet.org). I have tons of rap, funk, jazz, soul, and recently more techno and garage music. For those interested, I have a [music collection page](/music).
 
-I play and mix my records on a pair of classic [Technics SL-1200MK2](https://en.wikipedia.org/wiki/Technics_SL-1200) connected to an analogue Rane TTM-56s. The sound is amplified by [the NAD 3020](https://en.wikipedia.org/wiki/NAD_3020), which drives a pair of Bowers & Wilkins 603 S2. It is neither an expensive setup nor an audiophile one, but it produces sound I enjoy listening to.s
+I play and mix my records on a pair of classic [Technics SL-1200MK2](https://en.wikipedia.org/wiki/Technics_SL-1200) connected to an analogue Rane TTM-56s. The sound is amplified by [the NAD 3020](https://en.wikipedia.org/wiki/NAD_3020), which drives a pair of Bowers & Wilkins 603 S2. It is neither an expensive setup nor an audiophile one, but it produces sound I enjoy listening to.
 
 ![My DJ setup - Technics SL-1200MK2, Rane TTM-56s, NAD 3020, Bowers & Wilkins 603 S2](music-room.jpg)
 
