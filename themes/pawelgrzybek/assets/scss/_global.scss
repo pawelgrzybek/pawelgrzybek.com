@@ -46,7 +46,10 @@ body {
   //   rgba(50, 50, 50, 0.15) 1px,
   //   transparent 1px
   // );
-  // background-size: 100% 30px;
+  // background-size: 100% 28px;
+  // @media screen and (min-width: 764px) {
+  //   background-size: 100% 30px;
+  // }
 }
 
 main {

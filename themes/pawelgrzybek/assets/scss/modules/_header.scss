@@ -1,9 +1,13 @@
 .header {
   display: flex;
-  flex-direction: column;
-  gap: var(--lh);
+  justify-content: space-between;
+  padding-block: calc(var(--lh) * 4);
   position: relative;
   padding-block: calc(var(--lh) * 2);
+
+  @media screen and (min-width: 900px) {
+    padding-block: calc(var(--lh) * 4);
+  }
 }
 
 .header__skip {
@@ -18,17 +22,39 @@
   transform: scale(1);
 }
 
-.header__link {
+.header__nav {
+  display: flex;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: calc(var(--lh) / 2);
+  margin: 0;
+  list-style: none;
+}
+
+.header__item--logo {
+  flex-basis: 100%;
+
+  @media screen and (min-width: 764px) {
+    flex-basis: auto;
+  }
+}
+
+.header__logo {
   color: inherit;
   display: flex;
-  flex-direction: column;
+  width: fit-content;
+  gap: calc(var(--lh) / 2);
   align-items: center;
   font-size: calc(var(--fz));
   font-weight: 800;
   text-decoration: none;
 }
 
-.header__link::before {
+.header__logo::before {
   content: "";
   width: calc(var(--lh) * 2);
   height: calc(var(--lh) * 2);
@@ -37,28 +63,56 @@
   border-radius: var(--lh);
 }
 
-.header__nav {
-  display: flex;
-  justify-content: center;
-}
-
-.header__list {
-  display: flex;
+.header-theme {
+  all: unset;
+  display: none;
+  align-items: center;
   gap: calc(var(--lh) / 2);
-  margin: 0;
-  list-style: none;
+  font-size: calc(var(--fz) / var(--type-scale));
+
+  @media screen and (min-width: 900px) {
+    display: flex;
+  }
 }
 
-@media screen and (min-width: 900px) {
-  .header {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-block: calc(var(--lh) * 4);
-  }
+.header-theme__container:focus-within {
+  outline-color: inherit;
+  outline-color: Highlight;
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
 
-  .header__link {
-    flex-direction: row;
-    gap: calc(var(--lh) / 2);
-  }
+.header-theme__legend:not(:focus):not(:active) {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+}
+
+.header-theme__input {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+}
+
+.header-theme__input:checked + .header-theme__label {
+  background-color: transparent;
+  color: var(--color-link);
+  word-wrap: break-word;
+  text-decoration: underline;
+  text-decoration-color: var(--color-link);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.header-theme__label {
+  cursor: pointer;
 }

@@ -1,12 +1,12 @@
 <div class="wrapper wrapper--wide">
-
   <header class="header">
     <a class="header__skip" href="#main">Skip to content</a>
 
-    <a class="header__link" href="/">Paweł Grzybek</a>
-
     <nav class="header__nav">
       <ul class="header__list">
+        <li class="header__item header__item--logo">
+          <a class="header__logo" href="/" title="Homepage">Paweł Grzybek</a>
+        </li>
         <li class="header__item">
           <a {{ if eq .RelPermalink "/posts/" }}aria-current="page"{{ end }} href="/posts" title="Archive">Archive</a>
         </li>
@@ -36,6 +36,29 @@
         </li>
       </ul>
     </nav>
+
+    <fieldset class="header-theme js-theme">
+      <legend class="header-theme__legend">Theme:</legend>
+      <div aria-hidden="true">Theme:</div>
+
+      <div class="header-theme__container">
+        <input class="header-theme__input" type="radio" id="system" name="theme" value="system" checked />
+        <label class="header-theme__label" for="system">System</label>
+      </div>
+
+      <div class="header-theme__container">
+        <input class="header-theme__input" type="radio" id="light" name="theme" value="light" />
+        <label class="header-theme__label" for="light">Light</label>
+      </div>
+
+      <div class="header-theme__container">
+        <input class="header-theme__input" type="radio" id="dark" name="theme" value="dark" />
+        <label class="header-theme__label" for="dark">Dark</label>
+      </div>
+    </fieldset>
+
   </header>
 </div>
+
+
 
