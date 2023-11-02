@@ -179,12 +179,23 @@ hr {
 blockquote {
   padding: var(--lh);
   background: var(--color-box-background);
-  box-shadow: inset 0 0 0 1px var(--color-box-border);
+  border-inline-start: calc(var(--lh) / 4) solid var(--color-box-border);
 }
 
 blockquote p {
   margin: 0;
   font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  margin-block-start: var(--lh);
+  text-align: end;
+}
+
+blockquote cite::before {
+  content: " \2014";
+  margin-inline-end: calc(var(--lh) / 2);
 }
 
 picture {
