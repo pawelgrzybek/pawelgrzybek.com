@@ -1,13 +1,13 @@
 ---
 title: "The joy of learning Helix (and probably other modal, terminal-based editors)"
-summary: "I decided to learn Helix - heavily inspired by Kauone and Neovim editor written in Rust, which speaks to my linking by its number of built-in features and configuration ease."
+summary: "I decided to learn Helix - heavily inspired by Kakoune and Neovim editor written in Rust, which speaks to my linking by its number of built-in features and configuration ease."
 ---
 
 I went through quite a journey, from [Adobe Dreamweaver](https://www.adobe.com/uk/products/dreamweaver.html) at the very beginning through [Coda](https://panic.com/coda/), [Brackets](https://brackets.io) and many other editors I cannot recall. For the first time, I felt productive when I started using [Sublime Text](https://www.sublimetext.com). Lightweight, fast, simple, but easily adaptable by the ecosystem of plugins. I reached a productivity peak and stopped seeking another tool until the [Visual Studio Code](https://code.visualstudio.com) hype gave me a little FOMO (fear of missing out).
 
 Due to my limited sympathy for Microsoft back then, I was skeptical at first, but I gave VSCode a go and instantly liked the tool and its ecosystem. I built a [snippet generator for Visual Studio Code (and other editors)](https://snippet-generator.app) and designed a [theme](https://marketplace.visualstudio.com/items?itemName=pawelgrzybek.gatito-theme) that people clearly like (100k+ downloads). Visual Studio Code is still my daily driver, but my excitement faded away. The simplicity I liked at first is no longer there, and my configuration JSON file got out of control. Despite being one of the best examples of [Electron-based apps](https://www.electronjs.org/apps), the performance is not even close to similar applications built using closer-to-the-metal technologies.
 
-I have always been attracted to the idea of using a simple terminal-based editor. You can take it anywhere with you (in theory), and when mastered, it can be a serious boost for your productivity. I decided to learn [Helix](https://helix-editor.com) - a heavily inspired by [Kauone](http://kakoune.org) and [Neovim](https://neovim.io) editor written in Rust, which speaks to my linking by its number of built-in features and configuration ease. Here are a few things I like about it and maybe inspire you to try something new.
+I have always been attracted to the idea of using a simple terminal-based editor. You can take it anywhere with you (in theory), and when mastered, it can be a serious boost for your productivity. I decided to learn [Helix](https://helix-editor.com) - a heavily inspired by [Kakoune](http://kakoune.org) and [Neovim](https://neovim.io) editor written in Rust, which speaks to my linking by its number of built-in features and configuration ease. Here are a few things I like about it and maybe inspire you to try something new.
 
 ## Built-in features
 
