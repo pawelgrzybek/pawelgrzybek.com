@@ -33,3 +33,6 @@ Not for the first time in software development history, a product was released t
 
 I hope that developers will listen to the feedback. I am sticking with ForkLift 3 and will keep an eye on the other apps in this category.
 
+{{< update >}}
+Looks like developers from BinaryNights do listen to community feedback. [ForkLift 4.0.3](https://blog.binarynights.com/2023/11/14/forklift-4-0-3-is-available/) has added a feature to individually deselect items from a sync window. Also, my performance issues are also fixed. I am not looking for an alternative anymore. Thank you so much, Forklift team!
+{{< /update >}}
