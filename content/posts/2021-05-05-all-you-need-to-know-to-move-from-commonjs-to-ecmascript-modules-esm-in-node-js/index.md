@@ -114,6 +114,8 @@ console.log(__dirname);
 console.log(__filename);
 ```
 
+{{% update %}}Node v21.2.0 added a very helpful shortcuts for this, so this pollyfill is no longer needed. The `import.meta.dirname` and `import.meta.filename` are much nicer options.{{% /update %}}
+
 ```js
 // Recreate missing reference to require
 import { createRequire } from "module";
