@@ -3,7 +3,7 @@ title: "Just like that, we are shutting down! So, I am looking for a new role."
 summary: "It took only six months since American investors acquired Polygon Nightfall division until they decided to shut it down with immediate effect. Without previous notice, nine good developers ended up jobless just like that. Unfortunately, I was one of the members of this team."
 ---
 
-It took only six months since [American investors](https://www.brooklyncapital.com) acquired Polygon Nightfall division until they decided to shut it down with immediate effect. Without previous notice, nine good developers ended up jobless just like that. Unfortunately, I was one of the members of this team. 
+It only took six months for [American investors](https://www.brooklyncapital.com) to acquire the Polygon Nightfall division before they decided to shut it down with immediate effect. Without any prior notice, nine talented developers found themselves unemployed. Unfortunately, I was one of the members of this team. 
 
 I ask my fellow readers for help before seeking a new opportunity elsewhere. I can be an excellent addition to your team if you need a hard-working developer with a solid understanding of how the web works and a passion for Web standards, accessibility and open source. Frameworks-wise, I worked with many, but I have no strong attachment to any one of them (React is the one I have the most experience with). I am passionate about sharing knowledge with others, as you can tell by the [number of articles](/posts) I published on this page over the last few years. Learning Rust is what makes me happy recently.
 
