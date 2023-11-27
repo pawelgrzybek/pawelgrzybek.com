@@ -1,9 +1,16 @@
 @font-face {
-  font-family: "Inter var experimental";
+  font-family: InterVariable;
+  font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  font-style: oblique 0deg 10deg;
-  src: url("/Inter.var.woff2?v=3.19") format("woff2");
+  src: url("/InterVariable.woff2") format("woff2");
+}
+@font-face {
+  font-family: InterVariable;
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/InterVariable-Italic.woff2") format("woff2");
 }
 
 ::selection {
@@ -35,9 +42,9 @@ html {
 body {
   background-color: var(--color-background);
   color: var(--color-text);
-  font-family: "Inter var experimental", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: InterVariable, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   font-size: var(--fz);
   line-height: var(--lh);
   transition: all 300ms;
