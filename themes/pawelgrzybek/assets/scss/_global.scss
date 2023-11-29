@@ -5,6 +5,7 @@
   font-display: swap;
   src: url("/InterVariable.woff2") format("woff2");
 }
+
 @font-face {
   font-family: InterVariable;
   font-style: italic;
@@ -29,6 +30,8 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+  // https://chriscoyier.net/2023/11/27/the-hanging-punctuation-property-in-css/
+  hanging-punctuation: first allow-end last;
 }
 
 *,
@@ -88,6 +91,7 @@ main {
   from {
     opacity: 1;
   }
+
   to {
     opacity: 0;
     translate: calc(var(--lh) / -4) 0;
@@ -99,6 +103,7 @@ main {
     opacity: 0;
     translate: calc(var(--lh) / 4) 0;
   }
+
   to {
     opacity: 1;
   }
@@ -140,9 +145,7 @@ h6 {
 }
 
 h1 {
-  font-size: calc(
-    var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale)
-  );
+  font-size: calc(var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale));
   line-height: calc(var(--lh) * 1.5);
 }
 
