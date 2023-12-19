@@ -10,7 +10,7 @@ I replaced `npm`, `yarn` and `nvm` with `pnpm`. It stands for a "performant npm"
 - From `npm install` to `pnpm install`
 - From `npm install eslint` to `pnpm add eslint`
 - From `yarn global add eslint` to `pnpm add --global eslint`
-- From `nvm install lts` to `pnpm env install --global lts`
+- From `nvm install lts` to `pnpm env add --global lts`
 - From `nvm use lts` to `pnpm env use --global lts`
 
 Thank [Zoltan](https://www.kochan.io) for [pnpm](https://pnpm.io)!
