@@ -10,10 +10,6 @@ Today, I worked on a little [Deno](https://deno.com) project, and since I recent
 ```toml
 [[language]]
 name = "typescript"
-language-id = "typescript"
-scope = "source.ts"
-injection-regex = "^(ts|typescript)$"
-file-types = ["ts"]
 shebangs = ["deno"]
 roots = ["deno.json", "deno.jsonc", "package.json"]
 auto-format = true
