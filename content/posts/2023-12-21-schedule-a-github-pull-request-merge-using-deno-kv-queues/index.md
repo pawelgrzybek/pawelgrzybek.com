@@ -26,7 +26,7 @@ little project like this). In this article, I will go through each key component
 of the codebase. For clarity, I am skipping noisy parts of code like type
 definitions, imports, exports, error handling 🙈, etc.
 
-![](diagram.jpg)
+![Architecture diagram of deno-gh-merge](diagram.jpg)
 
 ### Router and opening a Deno KV connection
 
