@@ -122,7 +122,9 @@ const handlerPost = async (request: Request, kv: Deno.Kv) => {
 
   if (delay < 0) {
     console.error("Schedule date should be in the future");
-    return Response.json(body);
+    return Response.json({ error: "Schedule date should be in the future" }, {
+      status: 400,
+    });
   }
 
   await kv.set(
