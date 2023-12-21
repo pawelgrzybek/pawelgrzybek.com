@@ -1,6 +1,6 @@
 ---
 title: "Schedule a GitHub pull request merge using Deno KV queues"
-summary: ""
+summary: "Scheduling a pull request merge at a specific date and time would be helpful in some situations. Unfortunately, this is not a feature that GitHub currently offers. Of course, I built a thing!"
 ---
 
 Scheduling a pull request merge at a specific date and time would be helpful in
@@ -12,19 +12,21 @@ In
 ["Deno, a breath of fresh air for the server-side JavaScript"](/deno-a-breath-of-fresh-air-for-the-server-side-javascript/),
 I explained why I like this runtime so much, but after the series of recent
 announcements, I like it even more. [Deno KV](https://deno.com/kv) opens a whole
-new level of possibilities, and this is the core feature I used to build this
+new world of possibilities, and this is the core feature I used to build this
 project around. Combined with a simple HTTP router, I created a little service I
 always wanted.
 
 ## Router and Deno KV queue
 
 The source code for
-[Deno gh-merge](https://github.com/pawelgrzybek/deno-gh-merge) is open-sourced
+[deno-gh-merge](https://github.com/pawelgrzybek/deno-gh-merge) is open-sourced
 on GitHub, so feel free to fork it and deploy your own instance on
 [Deno Deploy](https://deno.com/deploy) (a free account is more than enough for a
 little project like this). In this article, I will go through each key component
 of the codebase. For clarity, I am skipping noisy parts of code like type
-definitions, imports, exports, error handling, etc.
+definitions, imports, exports, error handling 🙈, etc.
+
+![](diagram.jpg)
 
 ### Router and opening a Deno KV connection
 
@@ -35,6 +37,7 @@ down to every route handler alongside the `request` object.
 
 ```ts
 // index.ts
+
 const kv = await Deno.openKv();
 
 const HANDLER_MAPPER = {
@@ -50,10 +53,9 @@ Deno.serve(async (request) =>
   );
 ```
 
-The example below presents a data structure of entities in the my Deno KV
-database. Combining the prefix, repository owner and name followed by the ID of
-a pull request creates a unique key. The value is a scheduled time of a merge
-action.
+The example below presents a data structure of entries in the KV database.
+Combining the prefix, repository owner and name followed by the ID of a pull
+request creates a unique key. The value is the scheduled time of a merge action.
 
 ```
 key                                     |  value
@@ -70,6 +72,8 @@ returns an async iterator, and the easiest way to convert it to an array is
 [Array.fromAsync()](https://tc39.es/proposal-array-from-async/#sec-array.fromAsync).
 
 ```ts
+// handlerGet.ts
+
 const handlerGet = async (_request: Request, kv: Deno.Kv) => {
   const entries = kv.list<string>({
     prefix: [PREFIX],
@@ -78,8 +82,6 @@ const handlerGet = async (_request: Request, kv: Deno.Kv) => {
 
   return Response.json(response);
 };
-
-export default handlerGet;
 ```
 
 ### DELETE handler
@@ -88,6 +90,8 @@ If we change our mind and don’t want to merge previously scheduled PR, we can
 call API with the `DELETE` request.
 
 ```ts
+// handlerDelete.ts
+
 const handlerDelete = async (request: Request, kv: Deno.Kv) => {
   const body: Entry = await request.json();
   await kv.delete(
@@ -101,12 +105,15 @@ const handlerDelete = async (request: Request, kv: Deno.Kv) => {
 ### POST handler
 
 The `POST` request handler receives a body that contains information about the
-pull request ID, repository, owner, and the desired scheduled merge time in a
-string format (ISO 8601). It ignores requests with incorrect schedule
-timestamps. Valid requests are saved to the database, and events are enqueued to
-be processed in the future using `kv.enqueue()`.
+pull request ID `pull_number`, repository `repo`, owner `owner`, and the desired
+scheduled merge time in a string format (ISO 8601) `schedule`. It ignores
+requests with incorrect schedule timestamps. Valid requests are saved to the
+database, and events are enqueued to be processed in the future using
+`kv.enqueue()`.
 
 ```ts
+// handlerPost.ts
+
 const handlerPost = async (request: Request, kv: Deno.Kv) => {
   const body: Entry = await request.json();
   const now = new Date().getTime();
@@ -144,6 +151,8 @@ so you must generate a token with sufficient permissions. The `Deno.env.get()`
 method allows me to retrieve secrets added to the Deno Deploy dashboard.
 
 ```ts
+// index.ts
+
 kv.listenQueue(async (event) => {
   const entry = await kv.get<string>([
     PREFIX,
@@ -184,9 +193,15 @@ kv.listenQueue(async (event) => {
 
 ## Let's merge it
 
-That's it. I hope that by the simplicity of this project, I inspired you to
-build something new. Let's give it a go and schedule this article to go live on
-Thursday, 2023.12.21, at 14:00, and merge this pull request.
+That’s it. A lot can be improved, like checking if the PR exists before
+scheduling its merge, checking if the merge is allowed before triggering the
+operation, making dynamic commit messages, and more. This should work as a base.
+I hope that by the simplicity of this project, I inspired you to build something
+new.
+
+Let's give it a go and schedule this article to go live on Thursday, 2023.12.21,
+at 14:00, and merge
+[this pull request](https://github.com/pawelgrzybek/pawelgrzybek.com/pull/152).
 
 ```
 curl --request POST \
@@ -195,7 +210,7 @@ curl --request POST \
   --data '{
 	"owner": "pawelgrzybek",
 	"repo": "pawelgrzybek.com",
-	"pull_number": 121,
+	"pull_number": 152,
 	"schedule": "2023-12-21T14:00:00"
 }'
 ```
