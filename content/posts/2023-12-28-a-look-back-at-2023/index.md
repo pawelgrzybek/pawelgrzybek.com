@@ -19,7 +19,7 @@ I am closing the year unemployed, ready to start a new journey with very differe
 
 ## Writing
 
-I will refrain from bragging about this page's number of unique visitors, session duration and insignificant bounce rate. Quite the opposite because I don't care about all this noise. I am writing to express my happiness by publishing new content, learning new things and sharing it with you. In March, I published ["Eight years of blogging"](/eight-years-of-blogging/) and elaborated on all the beautiful things that consistent publishing brought to my life.
+I will refrain from bragging about this page's number of unique visitors, session duration and insignificant bounce rate. Quite the opposite because I don't care about all this noise. I am writing to express my joy at publishing new content, learning new things, and sharing it with you. In March, I published ["Eight years of blogging"](/eight-years-of-blogging/) and elaborated on all the beautiful things that consistent publishing brought to my life.
 
 Since the beginning of the year, I published 60 new articles, which is more than ever. I did a light redesign and added a new [music collection page](/music). My brain is a never-ending queue of ideas for fresh articles, and I look forward to publishing them. Thank you all for reading!
 
@@ -35,7 +35,7 @@ A productive year as a writer resulted in a lighter year as a reader, but I read
 
 ["The Body" by Bill Bryson](/book-review-the-body-by-bill-bryson/) and ["The Book You Wish Your Parents Had Read" by Philippa Perry](/book-review-the-book-you-wish-your-parents-had-read-by-philippa-perry/) were my favourite books of the year.
 
-I was late to the party, but finally watched [the Hobbit movie series](https://en.wikipedia.org/wiki/The_Hobbit_(film_series)) this year and enjoyed the whole saga. ["Tetris"](https://www.imdb.com/title/tt12758060/) was a lot nicer than I expected. I laughed the most on ["Strays"](https://www.imdb.com/title/tt15153532/). ["Flora and Son"](https://www.imdb.com/title/tt25471950/), ["The Banshees of Inisherin"](https://www.imdb.com/title/tt11813216/), and ["The Banker"](https://www.imdb.com/title/tt6285944/) are the ones we enjoyed as well. ["Beef"](https://www.imdb.com/title/tt14403178/) and ["Lessons in Chemistry"](https://www.imdb.com/title/tt13911628/) were my favourite TV shows of 2023.
+I was late to the party, but finally watched [the Hobbit movie series](https://en.wikipedia.org/wiki/The_Hobbit_(film_series)) this year and enjoyed the whole saga. ["Tetris"](https://www.imdb.com/title/tt12758060/) was a lot nicer than I expected. I laughed the most on ["Strays"](https://www.imdb.com/title/tt15153532/). ["Flora and Son"](https://www.imdb.com/title/tt25471950/), ["The Banshees of Inisherin"](https://www.imdb.com/title/tt11813216/), and ["The Banker"](https://www.imdb.com/title/tt6285944/) are the ones I enjoyed as well. ["Beef"](https://www.imdb.com/title/tt14403178/) and ["Lessons in Chemistry"](https://www.imdb.com/title/tt13911628/) were my favourite TV shows of 2023.
 
 ![Posters of movies I liked in 2023](movies.jpg)
 
