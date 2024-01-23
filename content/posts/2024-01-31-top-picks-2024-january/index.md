@@ -22,3 +22,11 @@ Ahmad Shadeed is a prolific writer, and his in-depth articles about particular U
 ## [Types vs Interfaces](https://shively-sanders.com/types-vs-interfaces.html)
 
 I can't tell you how many times I read about this subject over the past few years. I also published ["TypeScript interface vs. type"](https://pawelgrzybek.com/typescript-interface-vs-type/) a few years back. This take by Nathan Shively-Sanders, one of the TS maintainers, is a good explanation of why we even have two similar features in the language in the first place.
+
+## [Modern CSS, the state of the web, Safari's progress, and more! With Jen Simmons](https://youtu.be/nn3vYS_msc0)
+
+Kevin's channel is one of my favourite CSS resources on the Web. This guy works hard to record incredibly well-explained videos about bleeding-edge CSS features or practical use cases of commonly misunderstood features. He also occasionally invites great guests, and Jen is one of my favourite human beings on the Web—excellent conversation about browsers, Webkit engine, vendor collaboration and more.
+
+## [Reading QR codes without a computer!](https://qr.blinry.org)
+
+I was always wondering how QR codes work. This interactive explainer is incredible. It makes me want to convert everything to QR codes now!
