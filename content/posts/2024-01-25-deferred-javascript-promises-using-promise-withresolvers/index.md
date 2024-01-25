@@ -30,13 +30,13 @@ You can use it to avoid nesting in the promise executor, although it shines when
 
 Look at this example of a `createEventsAggregator`. It returns an `add` method to push new event and an `abort` method that cancels aggregation. Most importantly, it returns `events` promise that resolves when it hits a `eventsCount` limit or rejects when `abort` is triggered.
 
-```ts
-function createEventsAggregator(eventsCount: number) {
-  const events: string[] = [];
+```js
+function createEventsAggregator(eventsCount) {
+  const events = [];
   const { promise, resolve, reject } = Promise.withResolvers();
 
   return {
-    add: (event: string) => {
+    add: (event) => {
       if (events.length < eventsCount) events.push(event);
       if (events.length === eventsCount) resolve(events);
     },
@@ -46,7 +46,7 @@ function createEventsAggregator(eventsCount: number) {
 }
 ```
 
-```ts
+```js
 const eventsAggregator = createEventsAggregator(3);
 
 eventsAggregator.events
@@ -60,7 +60,7 @@ eventsAggregator.add("event-three");
 // Resolved: [ "event-one", "event-two", "event-three" ]
 ```
 
-```ts
+```js
 const eventsAggregator = createEventsAggregator(3);
 
 eventsAggregator.events
