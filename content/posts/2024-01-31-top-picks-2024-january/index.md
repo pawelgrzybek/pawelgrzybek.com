@@ -30,3 +30,13 @@ Kevin's channel is one of my favourite CSS resources on the Web. This guy works 
 ## [Reading QR codes without a computer!](https://qr.blinry.org)
 
 I was always wondering how QR codes work. This interactive explainer is incredible. It makes me want to convert everything to QR codes now!
+
+## [Apple announces changes to iOS, Safari, and the App Store in the European Union](https://www.apple.com/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/)
+
+This one came out of nowhere, but it is one of the most significant announcements for developers in years. Apple iOS enables developers to use a browser engine other than WebKit. WOW!
+
+> New frameworks and APIs for alternative browser engines — enabling developers to use browser engines, other than WebKit, for browser apps and apps with in-app browsing experiences.
+
+## [Zed is now open source](https://zed.dev/blog/zed-is-now-open-source)
+
+I mentioned this editor multiple times on my blog before. I like that someone is here to compete with Visual Studio Code, and the team behind Zed is the same team that built Atom a decade ago. Now equipped with a new Rust-based toolkit, they are building cool stuff and making it publicly available. I tried Zed before, and I liked it a lot. My fingers crossed for this app!
