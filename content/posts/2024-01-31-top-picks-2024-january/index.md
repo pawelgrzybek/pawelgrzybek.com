@@ -40,3 +40,7 @@ This one came out of nowhere, but it is one of the most significant announcement
 ## [Zed is now open source](https://zed.dev/blog/zed-is-now-open-source)
 
 I mentioned this editor multiple times on my blog before. I like that someone is here to compete with Visual Studio Code, and the team behind Zed is the same team that built Atom a decade ago. Now equipped with a new Rust-based toolkit, they are building cool stuff and making it publicly available. I tried Zed before, and I liked it a lot. My fingers crossed for this app!
+
+## [Deno 1.40: Temporal API](https://deno.com/blog/v1.40)
+
+Deno is not slowing down. Temporal API just landed. It is an excellent time to learn the basics of this API, as in no time, all browsers will support it. Working with dates and times is never going to be the same. It is going to be a lot better!
