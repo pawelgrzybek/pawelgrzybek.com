@@ -28,7 +28,7 @@ Math.random() > 0.5 ? resolve("ok") : reject("not ok");
 
 You can use it to avoid nesting in the promise executor, although it shines when you need to pass `resolve` or `reject` to multiple callers. Working with stream or event-based systems is an excellent opportunity to simplify your life with `Promise.withResolvers()`.
 
-Look at this example of a `createEventsAggregator`. It returns an `add` method to push new event and an `abort` method that cancels aggregation. Most importantly, it returns `events` promise that resolves when it hits a `eventsCount` limit or rejects when `abort` is triggered.
+Look at this example of a `createEventsAggregator`. It returns an `add` method to push new event and an `abort` method that cancels aggregation. Most importantly, it returns `events` promise that resolves when it hits an `eventsCount` limit or rejects when `abort` is triggered.
 
 ```js
 function createEventsAggregator(eventsCount) {
