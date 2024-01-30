@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2024 January"
-summary: ""
+summary: "AI scrapers, JavaScript rising stars of the last year, another npm drama, a guide to better target sizes, anatomy of QR codes, Apple will non-webkit-based browsers, Zed is going open source, Temporal is slowly landing a more."
 ---
 
 ## [Dark Visitors](https://darkvisitors.com)
