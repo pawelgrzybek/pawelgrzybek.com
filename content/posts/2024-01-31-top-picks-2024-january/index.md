@@ -5,7 +5,7 @@ summary: ""
 
 ## [Dark Visitors](https://darkvisitors.com)
 
-The list of potential AI robots that can potentially scrape content from your website is a lot longer than you expect. This resource is a comprehensive list of the known ones with a helpful guide on limiting their access to your website. If you care, your robots.txt file can suddenly grow from a classic 3-liner to a lengthy rules set. Messy as hell!
+The list of potential AI robots that can scrape content from your website is longer than we would like. This resource is a comprehensive list of the known ones with a helpful guide on limiting their access to your website. If you care, your robots.txt file can suddenly grow from a classic 3-liner to a lengthy rules set. Messy as hell!
 
 ## [2023 JavaScript Rising Stars](https://risingstars.js.org/2023/en)
 
@@ -25,7 +25,7 @@ I can't tell you how many times I read about this subject over the past few year
 
 ## [Modern CSS, the state of the web, Safari's progress, and more! With Jen Simmons](https://youtu.be/nn3vYS_msc0)
 
-Kevin's channel is one of my favourite CSS resources on the Web. This guy works hard to record incredibly well-explained videos about bleeding-edge CSS features or practical use cases of commonly misunderstood features. He also occasionally invites great guests, and Jen is one of my favourite human beings on the Web—excellent conversation about browsers, Webkit engine, vendor collaboration and more.
+Kevin’s channel is one of my favourite CSS resources on the Web. This guy works hard to record incredibly well-explained videos about bleeding-edge CSS features or practical use cases of commonly misunderstood features. He also occasionally invites great guests, and Jen is one of my favourite human beings on the Web—excellent conversation about browsers, Webkit engine, vendor collaboration and more.
 
 ## [Reading QR codes without a computer!](https://qr.blinry.org)
 
@@ -43,4 +43,4 @@ I mentioned this editor multiple times on my blog before. I like that someone is
 
 ## [Deno 1.40: Temporal API](https://deno.com/blog/v1.40)
 
-Deno is not slowing down. Temporal API just landed. It is an excellent time to learn the basics of this API, as in no time, all browsers will support it. Working with dates and times is never going to be the same. It is going to be a lot better!
+Deno is not slowing down. Temporal API just landed. It is an excellent time to learn the basics of this API, as in no time, all browsers will support it. One of the most anticipated features is slowly getting an adoption.
