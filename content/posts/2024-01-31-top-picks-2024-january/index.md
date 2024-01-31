@@ -3,6 +3,14 @@ title: "Top picks — 2024 January"
 summary: "AI scrapers, JavaScript rising stars of the last year, another npm drama, a guide to better target sizes, anatomy of QR codes, Apple will non-webkit-based browsers, Zed is going open source, Temporal is slowly landing a more."
 ---
 
+Hi folks! January is over, so I distilled a dose of the web resources I found particularly interesting from the past month to keep my monthly routine. The shocking news from Apple is the highlight, and I can assure you it has nothing to do with [Vision Pro](https://www.apple.com/apple-vision-pro/), although this one is an interesting beast.
+
+I would love to ask you for a favour. I have published monthly top picks for almost nine years now. I deliberately chose not to add analytics scripts on this website, but I would like to know if you find these monthly collections useful. If you read this series, please [drop me a quick comment below](#leave-a-comment) or [ping me on Mastodon](https://mastodon.social/@pawelgrzybek). I would appreciate it.
+
+Now, let’s look at my top picks from January 2024.
+
+---
+
 ## [Dark Visitors](https://darkvisitors.com)
 
 The list of potential AI robots that can scrape content from your website is longer than we would like. This resource is a comprehensive list of the known ones with a helpful guide on limiting their access to your website. If you care, your robots.txt file can suddenly grow from a classic 3-liner to a lengthy rules set. Messy as hell!
