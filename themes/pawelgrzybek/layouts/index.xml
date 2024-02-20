@@ -4,7 +4,7 @@
         <title>{{ .Site.Title }}</title>
         <link>{{ .Site.BaseURL }}</link>
         <description>{{ .Site.Params.description }}</description>
-        <atom:link href="{{ .Site.BaseURL }}/feed.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="{{ .Site.BaseURL }}feed.xml" rel="self" type="application/rss+xml" />
         {{ $posts := (where .Site.RegularPages "Section" "posts") }}
         {{ range first 10 $posts }}
         <item>
