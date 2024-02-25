@@ -14,6 +14,14 @@
   src: url("/InterVariable-Italic.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: MonaspaceNeonVar;
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/MonaspaceNeonVar.woff2") format("woff2");
+}
+
 ::selection {
   background: var(--color-link);
   color: #fff;

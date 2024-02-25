@@ -1,24 +1,13 @@
-@media screen and (min-width: 900px) {
-  pre {
-    width: calc(100% + var(--lh) * 1.5);
-    margin-inline-start: calc(var(--lh) * -0.75);
-  }
-
-  .comments pre {
-    width: 100%;
-    margin-inline-start: auto;
-  }
-}
-
 code,
 kbd {
   box-shadow: 0 0 0 1px var(--color-box-border);
-  padding: 2px 5px;
+  padding: 4px 6px;
   border-radius: var(--border-radius);
   background-color: var(--color-box-background);
   font-size: 0.88888889em;
-  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier,
-    monospace;
+  font-family: MonaspaceNeonVar, SFMono-Regular, Consolas, "Liberation Mono",
+    Menlo, Courier, monospace;
+  font-weight: 320;
   vertical-align: top;
   word-break: break-word;
 }
@@ -44,12 +33,14 @@ pre {
     display: block;
     width: 100%;
     background-color: var(--color-box-border);
-    box-shadow: calc(var(--lh) * -1) 0 0 0 var(--color-box-border),
+    box-shadow:
+      calc(var(--lh) * -1) 0 0 0 var(--color-box-border),
       var(--lh) 0 0 0 var(--color-box-border);
   }
 
   .c1 {
     color: var(--color-syntax-c1);
+    font-variation-settings: "slnt" -11;
   }
 
   .nx {
