@@ -1,9 +1,11 @@
 ---
 title: "Top picks — 2024 February"
-summary: ""
+summary: "Interop 2024, React Server Components and upcoming updates to new version of React core, LLRT runtime from AWS team, URLs decoding demystified, colour spaces, Apple is killing PWAs, the state of JS bloat in 2024 and more!"
 ---
 
-Hey all. Do you know anyone who celebrates a birthday on 29th of February?
+Welcome to this edition of top picks published on the leap day. Another one like that in four years! Do you know anyone who celebrates a birthday today? Sick! Happy birthday to them all 🎉
+
+Although it is the shortest month of the year, the list of resources published on the web this past month is long, intense and full of controversy (thanks Apple). Enjoy!
 
 - - -
 
@@ -52,3 +54,7 @@ Nikita Prokopov nicely presents the sad reality of the JavaScript abuse. Shockin
 ## [CSS :has() Interactive Guide](https://ishadeed.com/article/css-has-guide)
 
 Ahmad's interactive CSS guides are incredible. [Last month](/top-picks-2024-january/), he published an astonishing piece about better touch targets; this month, he published another deep dive. This time, it is all about CSS `:has()` selector—tons of beautiful and interactive examples to demonstrate the power of this recent addition to the language. It is a must-read for all design enthusiasts.
+
+## [A Practical Introduction to Scroll-Driven Animations with CSS scroll() and view()](https://tympanus.net/codrops/2024/01/17/a-practical-introduction-to-scroll-driven-animations-with-css-scroll-and-view/)
+
+Adam Argyle from Google wrote this incredible primer to scroll-driven animation in pure CSS, from the concise explanation of the core building blocks to the rad-looking carousel. This article is an excellent post for everyone who wants to grasp the basics of one of the best bleeding edge CSS features recently added to the specification.
