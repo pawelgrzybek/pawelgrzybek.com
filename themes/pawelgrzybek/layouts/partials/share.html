@@ -4,32 +4,37 @@
     <del>beer</del> coffee. Thanks!
   </p>
   <div class="share__buttons">
-    <button class="btn js-share-button"></button>
+    <button class="btn js-share-button">Share it</button>
+    <button class="btn js-copy-button">Copy URL</button>
     <a class="btn" href="https://www.buymeacoffee.com/pawelgrzybek"
       >Buy me a coffee</a
     >
   </div>
-  <p hidden class="js-share-confirmation">All done 👌</p>
 </div>
 
 <script>
-  const ELEMENT_SHARE_BUTTON = document.querySelector(".js-share-button");
-  const ELEMENT_SHARE_BUTTON_CONFIRMATION = document.querySelector(
-    ".js-share-confirmation"
-  );
-  const isShareSupported = "share" in navigator;
+  const BUTTON_SHARE = document.querySelector(".js-share-button");
+  const BUTTON_COPY = document.querySelector(".js-copy-button");
 
-  ELEMENT_SHARE_BUTTON.textContent = isShareSupported ? "Share it" : "Copy URL";
+  if ((!"share") in navigator) {
+    BUTTON_SHARE.remove();
+  }
 
-  ELEMENT_SHARE_BUTTON.addEventListener("click", () => {
-    (isShareSupported
-      ? navigator.share({
-          title: document.title,
-          url: location.href,
-        })
-      : navigator.clipboard.writeText(location.href)
-    )
-      .then(() => ELEMENT_SHARE_BUTTON_CONFIRMATION.removeAttribute("hidden"))
+  BUTTON_SHARE.addEventListener("click", () => {
+    navigator
+      .share({ title: document.title, url: location.href })
+      .then(() => {
+        BUTTON_SHARE.innerText = "Shared";
+      })
+      .catch((error) => console.log(error.message));
+  });
+
+  BUTTON_COPY.addEventListener("click", () => {
+    navigator.clipboard
+      .writeText(location.href)
+      .then(() => {
+        BUTTON_COPY.innerText = "Copied";
+      })
       .catch((error) => console.log(error.message));
   });
 </script>
