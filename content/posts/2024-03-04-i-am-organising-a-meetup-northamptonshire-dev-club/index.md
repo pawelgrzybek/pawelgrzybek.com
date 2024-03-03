@@ -1,9 +1,9 @@
 ---
 title: "I am organising a meetup - Northamptonshire Dev Club"
-summary: "The idea behind Northamptonshire Dev Club is to bring local like-minded geeks together, socialise and learn from each other. Whether part of an engineering or design team, product manager, or tester, you should find something for yourself."
+summary: "The idea behind Northamptonshire Dev Club is to bring local like-minded geeks together to socialise and learn from each other. Whether you're part of an engineering or design team, a product manager, or a tester, you should find something for you."
 ---
 
-Northampton is a lovely town in central England between London and Birmingham. It has a rich culture, great art, a good music scene, and plenty of tech firms. Since relocating to Northampton 12 years ago, I have felt the absence of a space for developers to hang out, socialise, and share knowledge. I don't know what I am doing, but I am organising a meetup and hope to change it 🙈
+Northampton is a lovely town in central England between London and Birmingham. It has a rich culture, great art, a good music scene, and plenty of tech firms. Since relocating to Northampton 12 years ago, I've felt the absence of a space for developers and people into tech to hang out, socialise, and share knowledge. I've never done this before and don't really know what I am doing, but let's go! I'm organising a meetup in the hope of change 🙈
 
 {{< figure
   src="logo.jpg"
@@ -14,27 +14,27 @@ Northampton is a lovely town in central England between London and Birmingham. I
 
 ## Northamptonshire Dev Club
 
-The idea behind [Northamptonshire Dev Club](https://nn1.dev) is to bring local like-minded geeks together to socialise and learn from each other. It is deliberately technology, language or framework agnostic to attract more people and broaden our horizons. Whether you are part of an engineering or design team, a product manager, or a tester, you should find something for yourself.
+The idea behind [Northamptonshire Dev Club](https://nn1.dev/) is to bring local like-minded geeks together to socialise and learn from each other. It is deliberately technology, language or framework agnostic to attract more people and broaden our horizons. Whether you're part of an engineering or design team, a product manager, or a tester, you should find something for you.
 
-If you need more of a reasons to join, we have speakers! For the first event, we have incredible speakers lined up, and more amazing people are keen to give a talk to support the growth of our local community. Keep up with the upcoming events on [our website](https://nn1.dev) (nn1.dev is a sick domain name, right?).
+If you need more of a reason to join, we have speakers! For the first event, we have some incredible talent lined up, and more amazing people are keen to give a talk to support the growth of our local community. Keep up with the upcoming events on [our website](https://nn1.dev/) (nn1.dev is a sick domain name, right?).
 
-### Let’s kick things off on the 27th of March at Vulcal Works
+### Let's kick things off on the 27th of March at Vulcal Works
 
-I would love to invite you all to our first event on the 27th of March at Vulcan Works. We have incredible speakers, time for networking, beers, soft drinks, pizza and other cool perks prepared for you all. Most importantly, this is all for free, and it will always be free for you lovely geeks!
+I would love to invite you all to our first event on the 27th of March at Vulcan Works. We have incredible speakers, time for networking, beers, soft drinks, pizza and other cool things prepared for you all. Most importantly, it's all for free, and it will always be free for you lovely geeks!
 
 Speaking of incredible speakers, if you are into IoT (Internet of Things), I cannot think of a better speaker than [PJ Evans](https://www.linkedin.com/in/mrpjevans/) from the Mindera team. [Dr Junade Ali](https://www.linkedin.com/in/junade/) is also joining us to walk us through the results of his recent research about the health of software engineering teams.
 
-Mark this date in your calendar, tell your friends, and join us, please! The only thing you need to do is [reserve a free spot on the Eventbrite event page](https://www.eventbrite.co.uk/e/nn1-dev-club-tickets-852315477537).
+Add this date in your calendar, tell your friends, and please join us! The only thing you need to do is [reserve a free spot on the Eventbrite event page](https://www.eventbrite.co.uk/e/nn1-dev-club-tickets-852315477537).
 
 - Location: [Vulcan Works, 34-38 Guildhall Rd, Northampton, NN1 1EW](https://vulcanworks.co.uk/)
 - Date/Time: Wednesday, 27/03/2024, 18:00
 - Price: [FREE (Eventbrite registration required)](https://www.eventbrite.co.uk/e/nn1-dev-club-tickets-852315477537)
 - Parking info: [St. John's Multi Storey Car Park](https://maps.app.goo.gl/fk3jpaPLSLGrHNmH6)
 
-After the event, we can continue at the [Maule Collective](http://maulebrewing.com/maule-collective-bar/), enjoying a few beers at the local taproom. It is just up the hill from Vulcan Works. I'm afraid this part of the event won't be free 🍻
+After the event, we can continue at the [Maule Collective](http://maulebrewing.com/maule-collective-bar/) and enjoy a few beers at the local taproom. It's just up the hill from Vulcan Works. I'm afraid this part of the event won't be free 🍻
 
 ## Thanks
 
-As I said at the beginning, I don’t know what I am doing, but luckily, I have incredible friends who are fantastic at what they do. A massive shout out to [Darren Sharp](https://www.linkedin.com/in/staffordsharp/), who handled the complex parts of organising an event. Huge thanks to [Vulcan Works](https://vulcanworks.co.uk/) for supporting the idea and providing incredible space. Thanks to my talented friend [Marcin Uscinowicz](https://uscinowi.cz), who designed a beautiful logo for us.
+As I said at the beginning, I don't know what I am doing, but luckily, I have incredible friends who are fantastic at what they do. A massive shout out to [Darren Sharp](https://www.linkedin.com/in/staffordsharp/), who handled the complex parts of organising an event. Huge thanks to [Vulcan Works](https://vulcanworks.co.uk/) for supporting the idea and providing incredible space. Thanks to my talented friend [Marcin Uścinowicz](https://uscinowi.cz), who designed a beautiful logo for us.
 
-Looking forward to seeing you all on the 27th of March. Peace 🫶
+I'm looking forward to seeing you all on the 27th of March. Peace 🫶
