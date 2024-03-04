@@ -9,5 +9,5 @@
   HUGO_VERSION = "0.123.0"
 
 [context.deploy-preview]
-  command = "mkdir data && curl -s -o data/comments.json https://6u9a2qa0kh.execute-api.eu-west-2.amazonaws.com/prod/?accessToken=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
+  command = "mkdir data && curl -s -o data/comments.json https://6u9a2qa0kh.execute-api.eu-west-2.amazonaws.com/prod/?accessToken=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo -F --gc --minify --baseURL $DEPLOY_PRIME_URL"
 
