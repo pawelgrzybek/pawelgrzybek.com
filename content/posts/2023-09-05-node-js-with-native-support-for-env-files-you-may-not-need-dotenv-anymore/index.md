@@ -29,3 +29,7 @@ node --env-file=config.env index.js
 Testing Node v20.6.0
 Hi Paweł Grzybek 👋
 ```
+
+{{< update >}}
+[Added in version 21.7 `process.loadEnvFile()`](https://nodejs.org/en/blog/release/v21.7.0) is a method to simplify loading environment variables even more. Check out the official documentation for [`process.loadEnvFile()`](https://nodejs.org/docs/latest/api/process.html#processloadenvfilepath).
+{{< /update >}}
