@@ -122,6 +122,10 @@ img {
   border: 0;
 }
 
+video {
+  max-width: 100%;
+}
+
 a {
   background-color: transparent;
   color: var(--color-link);
