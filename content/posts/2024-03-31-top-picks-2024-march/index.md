@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2024 March"
-summary: "A ral story behind the CSS Tricks aquasition by Digital Ocean, JSR, "
+summary: "Read on to find out a bit more behind-the-curtain secrets about the CSS-Tricks acquisition, details about the new JavaScript Registry, incredible production by Heneybot about the inception of Node.js, and a lot more."
 ---
 
 Hey folks, it's the end of March already—shocking! It was a busy month in the web ecosystem, and many significant things happened. Read on to find out a bit more behind-the-curtain secrets about the CSS-Tricks acquisition, details about the new JavaScript Registry, incredible production by Heneybot about the inception of Node.js, and a lot more. Brew a coffee and enjoy your Easter reading list!
