@@ -21,8 +21,6 @@ Alongside the many software announcements, those guys at Apple like to surprise 
 
 I'll be the first one in the queue for one of these (for my girlfriend 💋), so if you have any questions, I'll be more than happy to help the moment I get it, which will be at some point in July.
 
-{{< youtube jwmS1gc9S5A >}}
-
 ## Mail App
 
 Mail is one of these apps that, even though it's not the most powerful, not the most user-friendly, nor the most intuitive, it's the one I use because it just works. Unfortunately, over the years, it has become outdated, and right now is an excellent time to give it some love. They delivered!
