@@ -38,3 +38,7 @@ Molly White is well known for her constructive criticism of the web3 sector. It 
 ## [Help us invent CSS Grid Level 3, aka “Masonry” layout](https://webkit.org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3)
 
 This is a good explanation of the classic masonry layout. In a similar fashion to how the community helped shape the specification for CSS Nesting, this time, Jen Simmons calls us to agree on the future development of native implementation of Pinterest-like layouts. Let's get involved.
+
+## [Node.js 22 is now available!](https://nodejs.org/en/blog/announcements/v22-release-announce)
+
+A new LTS candidate just landed. The most notable changes are the `experimental-require-module` flag, which allows developers to `require()` the ESM module, and the updated V8 with a bunch of new features like `Array.fromAsync`, `Set` methods, and iterator helpers. Finally, the watch mode is no longer experimental. I published [a quick explainer of Node.js watch mode](/til-node-v18-11-0-comes-with-a-watch-mode-so-you-might-not-need-nodemon/) some time ago.
