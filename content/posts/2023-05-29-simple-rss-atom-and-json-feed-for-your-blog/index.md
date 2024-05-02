@@ -126,7 +126,7 @@ JSON Feed is the newest format, released in 2017 and last time updated in August
 
 ## I built a thing
 
-Looking at the blobs of text doesn’t help us understand the differences between the formats. So I built the [feed-generator.app](https://feed-generator.app) to help you with that. It’s a simple tool that allows you to generate a feed in all three formats and compare them. At this point, it serves as a simple use case for generating a feed for a blog, but I plan to add more fields and make it more universal in the future.
+Looking at the blobs of text doesn’t help us understand the differences between the formats. So I built the [feed-generator.netlify.app](https://feed-generator.netlify.app) to help you with that. It’s a simple tool that allows you to generate a feed in all three formats and compare them. At this point, it serves as a simple use case for generating a feed for a blog, but I plan to add more fields and make it more universal in the future.
 
 ![Screenshot presenting my new little web app that helps to generate RSS, Atom and JSON feeds for a blog](2023-05-29-1.png)
 
