@@ -68,53 +68,6 @@ body {
   // }
 }
 
-main {
-  view-transition-name: main;
-}
-
-@media not (prefers-reduced-motion: reduce) {
-  ::view-transition-group(root) {
-    animation-duration: 0ms;
-  }
-
-  main {
-    view-transition-name: none;
-  }
-}
-
-::view-transition-old(main) {
-  animation-name: fade-out;
-  animation-duration: 150ms;
-}
-
-::view-transition-new(main) {
-  animation-name: fade-in;
-  animation-duration: 300ms;
-  animation-delay: 150ms;
-}
-
-@keyframes fade-out {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    translate: calc(var(--lh) / -4) 0;
-  }
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    translate: calc(var(--lh) / 4) 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
 img {
   display: block;
   max-width: 100%;
