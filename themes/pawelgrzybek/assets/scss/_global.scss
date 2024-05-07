@@ -146,7 +146,10 @@ hr {
   display: block;
   height: var(--lh);
   border: 0;
-  box-shadow: 0 1px 0 #eee;
+  background-image: linear-gradient(90deg, var(--color-box-border-dark), var(--color-background));
+  background-size: 100% 1px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 blockquote {
