@@ -24,3 +24,7 @@ Nice, right? Here is a handy list of [all the available modifiers](https://nodej
 - **modifiers**: `reset`, `bold`, `italic`, `underline`, `strikethrough`, `hidden`, `dim`, `overlined`, `blink`, `inverse`, `doubleunderline` and `framed`
 - **foreground**: `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, `gray`, `redBright`, `greenBright`, `yellowBright`, `blueBright`, `magentaBright`, `cyanBright` and `whiteBright`
 - **background**: `bgBlack`, `bgRed`, `bgGreen`, `bgYellow`, `bgBlue`, `bgMagenta`, `bgCyan`, `bgWhite`, `bgGray`, `bgRedBright`, `bgGreenBright`, `bgYellowBright`, `bgBlueBright`, `bgMagentaBright`, `bgCyanBright`, `bgWhiteBright`
+
+{{< update >}}
+[Node v20.13.0 release](https://nodejs.org/en/blog/release/v20.13.0) added an ability to pass an array of modifiers, like `util.styleText(['underline', 'italic'], 'Hi')`. Super handy!
+{{< /update >}}

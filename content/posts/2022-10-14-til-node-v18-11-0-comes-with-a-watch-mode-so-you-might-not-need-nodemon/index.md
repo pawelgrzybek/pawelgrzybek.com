@@ -16,3 +16,7 @@ node --watch-path=./src --watch-path=./tests server.js
 ```
 
 At this point, I would like to thank [Remy Sharp](https://remysharp.com), the creator and maintainer of [nodemon](https://github.com/remy/nodemon). For years it has been my go-to helper tool to achieve what I described in this article (and a lot more). You might not need nodemon anymore, though — sorry, Remy 😙
+
+{{< update >}}
+This feature has been stable since the [Node v20.13.0 release](https://nodejs.org/en/blog/release/v20.13.0).
+{{< /update >}}
