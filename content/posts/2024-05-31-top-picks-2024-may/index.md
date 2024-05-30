@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2024 May"
-summary: "Bramus explains CSS Scroll Driven Animations and View Transitions, great expainer of React Server Components, "
+summary: "Bramus explains CSS scroll-driven animations and view transitions, tons of React news, a summary of the Google I/O 2024, handy terminal tools, JSR announcement, and more."
 ---
 
 I have been publishing my "top picks" for over nine years, and the format of this series has never changed—just a dry list of links annotated by a paragraph of my thoughts. Inspired by [Web Weekly by Stefan Judis](https://webweekly.email) and [Own Your Web by Matthias Ott](https://buttondown.email/ownyourweb), I decided to bring more life to it. You should subscribe to these two newsletters if you haven't already done so! 
@@ -59,4 +59,8 @@ Among frontend frameworks, React dominates them all by a significant margin. It 
 
 ### [Queueing - An interactive study of queueing strategies](https://encore.dev/blog/queueing)
 
-Sam Rose's guide to queues helps readers understand queues, the types of queues that exist, and when to use them. The interactive demos prepared just for this blog post really help convey the concept.
+Sam Rose's guide helps readers understand queues, their types, and when to use them. The interactive demos prepared for this blog post help convey the concept.
+
+### [terminal.sexy - Terminal Color Scheme Designer](https://terminal.sexy)
+
+This is a handy tool for designing terminal color schemes. It lets creators share the results via URL and supports formats for most of the popular terminal clients. It's nothing new, but it's super handy when you need it.
