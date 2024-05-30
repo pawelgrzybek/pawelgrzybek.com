@@ -51,21 +51,26 @@ html {
 body {
   background-color: var(--color-background);
   color: var(--color-text);
-  font-family: InterVariable, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  font-family:
+    InterVariable,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
     "Segoe UI Symbol";
   font-size: var(--fz);
   line-height: var(--lh);
   transition: all 300ms;
 
-  // background-image: linear-gradient(
-  //   rgba(50, 50, 50, 0.15) 1px,
-  //   transparent 1px
-  // );
-  // background-size: 100% 28px;
-  // @media screen and (min-width: 764px) {
-  //   background-size: 100% 30px;
-  // }
+  /* background-image: linear-gradient( */
+  /* var(--color-box-border-dark) 1px, */
+  /* transparent 1px */
+  /* ); */
+  /* background-size: 100% 1lh; */
 }
 
 img {
@@ -108,7 +113,9 @@ h6 {
 }
 
 h1 {
-  font-size: calc(var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale));
+  font-size: calc(
+    var(--fz) * var(--type-scale) * var(--type-scale) * var(--type-scale)
+  );
   line-height: calc(var(--lh) * 1.5);
 }
 
@@ -146,7 +153,11 @@ hr {
   display: block;
   height: var(--lh);
   border: 0;
-  background-image: linear-gradient(90deg, var(--color-box-border-dark), var(--color-background));
+  background-image: linear-gradient(
+    90deg,
+    var(--color-box-border-dark),
+    var(--color-background)
+  );
   background-size: 100% 1px;
   background-position: center;
   background-repeat: no-repeat;
