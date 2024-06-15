@@ -9,4 +9,14 @@ I don't mind using git CLI directly for simple things, but it is famously verbos
 
 ## Using lazygit
 
-The interface is divided into a few panels which you can navigate though using arrows or vim-style <kbd>H</kbd>/<kbd>J</kbd>/<kbd>K</kbd>/<kbd>L</kbd> keys. Some panels 
+You can flick through the TUI (terminal user interface) panels using arrow keys or vim-style <kbd>H</kbd>/<kbd>J</kbd>/<kbd>K</kbd>/<kbd>L</kbd>. Some panels have multiple tabs, which you can navigate using square brackets. Besides navigating through sections and tabs, the only keyboard shortcut you need to remember is <kbd>?</kbd>, which shows you contextually available operations based on a active panel/tab.
+
+{{< figure
+  src="lazygit.jpg"
+  alt="Lazygit contextually shows available options based on the active panel"
+  caption="Lazygit contextually shows available options based on the active panel"
+>}}
+
+Keybinginds are intuitive, and you can usually guess the shortcut based on the intended operation. Most likely to "commit" something, the <kbd>c</kbd> is what you're looking for while the files panel is active. Similarly, hitting <kbd>n</kbd> creates a new worktree or a branch if you're in that panel. If things are not as straightforward to guess, quick check via <kbd>?</kbd> is your friend.
+
+Have a look at the documentation, which is full of practical demos. It took me a few days until I memorized all commonly used operations. Give it a go, and I'm sure you will fly through your git repositories faster than ever. Enjoy!
