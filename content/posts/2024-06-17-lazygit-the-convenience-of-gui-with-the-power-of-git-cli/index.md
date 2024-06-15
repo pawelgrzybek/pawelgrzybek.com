@@ -1,6 +1,6 @@
 ---
 title: "Lazygit, the convenience of GUI with the power of git CLI"
-summary: ""
+summary: "I don't mind using git CLI directly for simple things, but it is famously verbose for more advanced use cases. Luckily, I found a project that ticks all the boxes of a good git client."
 ---
 
 Built-in git client is a popular feature of modern IDEs. It is handy for committing code edits, switching branches, and fetching remote changes without distracting context switching. I have been doing that in Visual Studio Code for years until I decided to try Helix and accidentally became a much more efficient coder using it. The version control client isn't built into my new editor, so I moved back to CLI like in the good old days.
