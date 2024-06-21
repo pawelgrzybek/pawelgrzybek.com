@@ -9,7 +9,7 @@ Intro
 
 ## Album of the month
 
-Album description...
+I was casually browsing Bandcamp while waiting for the CI/CD pipeline to finish and came across this Melbourne-based funk band. Super groovy funk, with tons of soul and jazz elements, deep drums and other live instruments, crate the unique cinematic feel of ["Hold Your Horses" by Karate Boogaloo](https://www.discogs.com/release/30565777-Karate-Boogaloo-Hold-Your-Horses). The last tune of the A-side, "One Hand One Bounce", is my absolute number one, followed by the "Alighting Lullaby" that concludes the album. Also, the cover with this sick optical illusion presents real attention to the details of Australian fellas.
 
 ![](album.jpg)
 
@@ -28,3 +28,9 @@ A new drop of features from Apple is coming to the upcoming version of Safari 18
 ### [Let’s hang! An intro to CSS Anchor Positioning with basic examples](https://utilitybend.com/blog/lets-hang-an-intro-to-css-anchor-positioning-with-basic-examples)
 
 This article by Brecht is an excellent introduction to CSS anchor positioning. It covers some history and explains why we ended up with something that looks like two APIs to do the same thing. It explains the feature well and goes through some drawbacks and issues with the current implementation.
+
+### [State of JavaScript 2023](https://2023.stateofjs.com/en-US)
+
+Results from the 2023 survey finally arrived. Sacha Greif does an incredible job, and every year, I keep finding great insights. I no longer need to wonder how formal education affects professionals' salaries. Well-deserved awards for the most likeable and adopted tools go to Vite and Vitest. I am slightly sad that Deno is not more popular than it is!
+
+### []()
