@@ -33,4 +33,6 @@ This article by Brecht is an excellent introduction to CSS anchor positioning. I
 
 Results from the 2023 survey finally arrived. Sacha Greif does an incredible job, and every year, I keep finding great insights. I no longer need to wonder how formal education affects professionals' salaries. Well-deserved awards for the most likeable and adopted tools go to Vite and Vitest. I am slightly sad that Deno is not more popular than it is!
 
-### []()
+### [Conditionals on Custom Properties](https://geoffgraham.me/conditionals-on-custom-properties/)
+
+A few days ago, [a post about CSS if statements by Lea Verou](https://x.com/LeaVerou/status/1801192208025940200) gained tracking on socials. This is not an April fool, so hopefully, you are no longer in the "CSS is not a programming language" camp. Going through the whole conversation on the CSS Working Group GitHub issue isn't an easy-to-grasp process, so Geoff published a digestible explainer of the feature, its limitations and potential future enrichments.
