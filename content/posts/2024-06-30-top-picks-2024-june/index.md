@@ -3,7 +3,7 @@ title: "Top picks — 2024 June"
 summary: ""
 ---
 
-Hey, web folks! Summer season is here, and I am writing this intro while looking at the sunrise in a beautiful Santorini, giggling due to a loud crowing rooster. A vacation with my family, away from my day-to-day responsibilities, helped me relax and regain creativity to do more exciting things! A quick reminder to taka a holiday from time to time 🏖️
+Hey, web folks! Summer season is here, and I am writing this intro while looking at the sunrise in a beautiful Santorini, giggling due to a loud crowing rooster. A vacation with my family, away from my day-to-day responsibilities, helped me relax and regain creativity to do more exciting things! A quick reminder to take a holiday from time to time 🏖️
 
 Despite the holiday season, the Web is still vital, and many great resources pop out in June. I picked the ones that I found most interesting for you all, as I always do! So, after a music recommendation for a month, enjoy the list of resources worth checking from the past month.
 
@@ -21,7 +21,7 @@ I was casually browsing Bandcamp while waiting for the CI/CD pipeline to finish 
 
 ### [Cap Unit](https://ishadeed.com/article/css-cap-unit/)
 
-Ahmad Shadeed shares this practical explanation of a CSS `cap` unit and a few use cases. I love then the article or side project is an successful outcome of a previously faced problem. I didn't really know anything about the `cap` unit before today and now I know.
+Ahmad Shadeed shares this practical explanation of a CSS cap unit and a few use cases. I love it when the article or side project results from a previously faced problem. I knew nothing about the cap unit before today, but now I know.
 
 ### [News from WWDC24: WebKit in Safari 18 beta](https://webkit.org/blog/15443/news-from-wwdc24-webkit-in-safari-18-beta/)
 
@@ -41,4 +41,8 @@ A few days ago, [a post about CSS if statements by Lea Verou](https://x.com/Le
 
 ### [A modern approach to browser support](https://clearleft.com/thinking/a-modern-approach-to-browser-support)
 
-I recently contributed to a project with very stricly defined a list of CSS features allowed. It allowed everything based on the two most recent major releases of popular browsers. It makes no sense to treat the Googe Chrome version released six weeks ago and the release of Safari announced on WWDC two years ago without any pragmatic flexibility in these rules. This article on Clearleft's blog perfectly summarised a sensible approach to features support. "Baseline progressive enhancement" by Jeremy Keith is a similar post about the problem. No more `last 2 versions` for me please!
+I recently contributed to a project that strictly defined the list of CSS features allowed. It allowed everything based on the two most recent major releases of popular browsers. It makes no sense to treat the Googe Chrome version released six weeks ago and the release of Safari announced on WWDC two years ago without any pragmatic flexibility in these rules. This article on Clearleft's blog perfectly summarised a sensible approach to features support. "Baseline progressive enhancement" by Jeremy Keith is a similar post about the problem. No more `last 2 versions` for me, please!
+
+### [Naming things just got easier thanks to @scope](https://youtu.be/PkFuytYVqI8)
+
+The `@scope` at-rule is a modern method of precise scoping styling to a particular range of DOM subtrees. It is a powerful method, but complicated to grasp at first, at least it was for me. Kevin, as always, did an incredible job recording an explainer on the subject with several practical demos. He also explains the difference between nesting selectors using `&` and `:scope` pseudo-class.
