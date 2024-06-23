@@ -3,7 +3,9 @@ title: "Top picks — 2024 June"
 summary: ""
 ---
 
-Intro
+Hey, web folks! Summer season is here, and I am writing this intro while looking at the sunrise in a beautiful Santorini, giggling due to a loud crowing rooster. A vacation with my family, away from my day-to-day responsibilities, helped me relax and regain creativity to do more exciting things! A quick reminder to taka a holiday from time to time 🏖️
+
+Despite the holiday season, the Web is still vital, and many great resources pop out in June. I picked the ones that I found most interesting for you all, as I always do! So, after a music recommendation for a month, enjoy the list of resources worth checking from the past month.
 
 ---
 
