@@ -16,3 +16,5 @@ We are just returning from a week in Akrotiri, a village south of Santorini. Stu
 ![A pice of street art that says "make thanoli"](makethanoli.jpg)
 
 ![A nice pattern of wood structure in concrete](concrete.jpg)
+
+![Preparation for the flight at the airport](airport.jpg)
