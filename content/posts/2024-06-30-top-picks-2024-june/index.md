@@ -37,7 +37,7 @@ Results from the 2023 survey finally arrived. Sacha Greif does an incredible job
 
 ### [Conditionals on Custom Properties](https://geoffgraham.me/conditionals-on-custom-properties/)
 
-A few days ago, [a post about CSS if statements by Lea Verou](https://x.com/LeaVerou/status/1801192208025940200) gained tracking on socials. This is not an April fool, so hopefully, you are no longer in the "CSS is not a programming language" camp. Going through the whole conversation on the CSS Working Group GitHub issue isn't an easy-to-grasp process, so Geoff published a digestible explainer of the feature, its limitations and potential future enrichments.
+A few days ago, [a post about CSS if statements by Lea Verou](https://x.com/LeaVerou/status/1801192208025940200) gained traction on socials. This is not an April fool, so hopefully, you are no longer in the "CSS is not a programming language" camp. Going through the whole conversation on the CSS Working Group GitHub issue isn't an easy-to-grasp process, so Geoff published a digestible explainer of the feature, its limitations and potential future enrichments.
 
 ### [A modern approach to browser support](https://clearleft.com/thinking/a-modern-approach-to-browser-support)
 
@@ -46,3 +46,7 @@ I recently contributed to a project that strictly defined the list of CSS featur
 ### [Naming things just got easier thanks to @scope](https://youtu.be/PkFuytYVqI8)
 
 The `@scope` at-rule is a modern method of precise scoping styling to a particular range of DOM subtrees. It is a powerful method, but complicated to grasp at first, at least it was for me. Kevin, as always, did an incredible job recording an explainer on the subject with several practical demos. He also explains the difference between nesting selectors using `&` and `:scope` pseudo-class.
+
+### [Inline conditionals in CSS, now?](https://lea.verou.me/blog/2024/css-conditionals-now/)
+
+Before the native CSS "if" statement becomes a reality, it will take a while (at least two years if things go smoothly, according to Lea's estimation). Luckily, there are some other options for conditional logic in CSS, and Lea explains most of the known techniques in this lengthy deep dive. She goes into the origins of each method, including its use cases and limitations. Very nerdy CSS space!
