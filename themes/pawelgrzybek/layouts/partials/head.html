@@ -24,6 +24,9 @@
   <meta name="twitter:site" content="@pawelgrzybek" />
   <meta name="twitter:creator" content="@pawelgrzybek" />
 
+  {{ "<!-- Fediverse -->" | safeHTML }}
+  <meta name="fediverse:creator" content="@pawelgrzybek@mastodon.social" />
+
   {{ "<!-- Standard Stuff -->" | safeHTML }}
   <link rel="canonical" href="{{ .Permalink | absURL }}">
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.xml" />
