@@ -31,4 +31,8 @@ Modern JavaSccript runtimes come with native support for some databases. Bun has
 
 ### [Get The Screen Width & Height Without JavaScript](https://css-tip.com/screen-dimension/)
 
-This is just insanly cool what you cna do with CSS nowadays!
+What you can do with CSS nowadays is pretty cool!
+
+### [Problems solved by OpenType | Roel Nieskens | CSS Day 2024](https://youtu.be/TreBK-EyACQ)
+
+This presentation by Roel Nieskens is a very practical deep-dive into the little-known features of OpenType. I found it super helpful. Also, the whole talk concludes with a quick demo of a tool made by the author, [Wakamai Fondue](https://wakamaifondue.com). It is a handy helper for exploring hidden gems in your .otf files.
