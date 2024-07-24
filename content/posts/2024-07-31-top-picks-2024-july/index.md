@@ -28,3 +28,7 @@ Jason Fried and other folks at Basecamp released a few books I enjoyed reading. 
 ### [Add node:sqlite module](https://github.com/nodejs/node/pull/53752)
 
 Modern JavaSccript runtimes come with native support for some databases. Bun has native support for SQLite. Deno comes with KV. Node.js recently rapidly added stuff influenced by other runtimes. There is a discussion about adding SQLite to Node.js! I am super exciting about this initiative!
+
+### [Get The Screen Width & Height Without JavaScript](https://css-tip.com/screen-dimension/)
+
+This is just insanly cool what you cna do with CSS nowadays!
