@@ -36,3 +36,7 @@ What you can do with CSS nowadays is pretty cool!
 ### [Problems solved by OpenType | Roel Nieskens | CSS Day 2024](https://youtu.be/TreBK-EyACQ)
 
 This presentation by Roel Nieskens is a very practical deep-dive into the little-known features of OpenType. I found it super helpful. Also, the whole talk concludes with a quick demo of a tool made by the author, [Wakamai Fondue](https://wakamaifondue.com). It is a handy helper for exploring hidden gems in your .otf files.
+
+### [module: add --experimental-strip-types](https://github.com/nodejs/node/pull/53725)
+
+Another Node.js-related news that exploded, and I am super excited about it. The experimental types stripping feature has been merged with the Node.js core. Native TypeScript support is coming without extra loaders and confusing tooling. Incredible news, Node.js team!
