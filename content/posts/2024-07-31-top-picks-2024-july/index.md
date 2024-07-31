@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2024 July"
-summary: ""
+summary: "Slash pages, Writebook to solve all web publishers' issues, SQLite and TypeScript support for Node.js, magic of OpenType, and of course some music recommendations."
 ---
 
 It was a pretty busy month! As an organisor of [NN1 Dev Club](https://nn1.dev) I decided to ditch [Eventbrite](https://www.eventbrite.co.uk) as a ticketing platform due to many limitations, costs and unpredictable email schedules. I had tons of fun with [Deno](https://deno.com) and [Astro](https://astro.build) while rebuilding a bunch of functionalities a meetup page may need (ticketing, feedback and newsletter API). Event organisation is fun, but it can be time-consuming. I love it, though!
