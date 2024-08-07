@@ -1,6 +1,6 @@
 ---
 title: "What's new in ECMAScript 2024"
-summary: ""
+summary: "The list of new JavaScript features is now confirmed, and to keep my annual tradition, I am publishing this yearly recap for you and my future self."
 ---
 
 The final version of [ECMAScript 2024 Language Specification](https://tc39.es/ecma262/2024/) was approved on [the 26th of June](https://github.com/tc39/ecma262/releases/tag/es2024). The list of new JavaScript features is now confirmed, and to keep my annual tradition, I am publishing this yearly recap for you and my future self. For curious ones, here are the posts from the past years: ([2023](/whats-new-in-ecmascript-2023/), [2022](/whats-new-in-ecmascript-2022/), [2021](/whats-new-in-ecmascript-2021/), [2020](/whats-new-in-ecmascript-2020/), [2019](/whats-new-in-ecmascript-2019/), [2018](/whats-new-in-ecmascript-2018/), [2017](/whats-new-in-ecmascript-2017/) and [2016](/whats-new-in-ecmascript-2016-es7/)).
@@ -71,4 +71,5 @@ https://github.com/tc39/proposal-arraybuffer-transfer
 ## Helpful resources
 
 - ["Unicode – a brief introduction (advanced)" by Dr. Axel Rauschmayer](https://exploringjs.com/js/book/ch_unicode.html)
-- []
+- ["UTF-16 characters, Unicode code points, and grapheme clusters" section of String referende on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#utf-16_characters_unicode_code_points_and_grapheme_clusters)
+- []()
