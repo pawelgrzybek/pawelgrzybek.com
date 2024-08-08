@@ -7,6 +7,14 @@ The final version of [ECMAScript 2024 Language Specification](https://tc39.es/ec
 
 Features added this year are pretty nuanced and outside my comfort zone, as are many other JavaScript users. I will try my best to explain them to regular app makers who rarely dig into the territory of complicated Regex, Unicode characters encoding and buffer manipulations.
 
+- [Well-Formed Unicode Strings by Guy Bedford, Bradley Farias, Michael Ficarra](#well-formed-unicode-strings-by-guy-bedford-bradley-farias-michael-ficarra)
+- [Asynchronous atomic wait for ECMAScript by Shu-yu Guo and Lars T Hansen](#asynchronous-atomic-wait-for-ecmascript-by-shu-yu-guo-and-lars-t-hansen)
+- [RegExp v flag with set notation + properties of strings by Markus Scherer and Mathias Bynens](#regexp-v-flag-with-set-notation--properties-of-strings-by-markus-scherer-and-mathias-bynens)
+- [In-Place Resizable and Growable ArrayBuffers by Shu-yu Guo](#in-place-resizable-and-growable-arraybuffers-by-shu-yu-guo)
+- [Array grouping by Justin Ridgewell and Jordan Harband](#array-grouping-by-justin-ridgewell-and-jordan-harband)
+- [Promise.withResolvers by Peter Klecha](#promisewithresolvers-by-peter-klecha)
+- [ArrayBuffer transfer by Shu-yu Guo, Jordan Harband and Yagiz Nizipli](#arraybuffer-transfer-by-shu-yu-guo-jordan-harband-and-yagiz-nizipli)
+
 ## Well-Formed Unicode Strings by Guy Bedford, Bradley Farias, Michael Ficarra
 
 Strings in JavaScript are represented as a sequence of UTF-16 code points. The 16 in the name represents the number of bits available to store the code point, which offers 65536 possible combinations (2<sup>16</sup>). This amount is sufficient to store characters of Latin, Greek, Cyrillic and East Asian alphabets but not enough to store things like Chinese, Japanese, and Korean ideographs or emojis. Additional characters are stored in pairs of 16-bit code units, known as surrogate pairs.
@@ -43,15 +51,11 @@ Leading and trailing surrogates are scoped to a range of code units which are no
 
 ## Asynchronous atomic wait for ECMAScript by Shu-yu Guo and Lars T Hansen
 
-Workers enable multi-threading in JavaScript. The `SharedArrayBuffer` is a low-level API that allows us to perform operations on piece of memory shared between agents (main thread and workers). A set of static methods on `Atomics` object help us to avoid conflicts between reads and writes.
+Workers enable multi-threading in JavaScript. The `SharedArrayBuffer` is a low-level API that allows us to perform operations on a memory shared between agents (main thread and workers). A set of static methods on `Atomics` object help us to avoid conflicts between reads and writes.
 
-A common thing to do is to put a worker to sleep and wake it when needed. We combine Atomics.wait() and Atomics.notify() methods to achieve it. However, this can be limiting because Atomics.wait() is a synchronous API and cannot be used on the main thread.
+A common thing to do is to put a worker to sleep and wake it when needed. We combine `Atomics.wait()` and `Atomics.notify()` methods to achieve it. However, this can be limiting because `Atomics.wait()` is a synchronous API and cannot be used on the main thread.
 
-The Asynchronous atomic wait proposal gives a way to do it asynchronously, and most importantly, it is possible to do it on the main thread.
-
-A common operations is to put a worker to sleep, and awake it when its needed. To do it, we use a combination of `Atomics.wait()` and `Atomics.notify()` methods. This can be limiting though, because `Atomics.wait()` is synchronous API and it cannot be used on the main thread.
-
-The [Asynchronous atomic wait proposal](https://github.com/tc39/proposal-atomics-wait-async) gives a way to do in asynch manner and most importantly, it can be used on the mian thread.
+[The Asynchronous atomic wait proposal](https://github.com/tc39/proposal-atomics-wait-async) gives a way to do it asynchronously, and most importantly, it is possible to do it on the main thread.
 
 ```js
 // main thread
@@ -80,13 +84,15 @@ const wait = Atomics.waitAsync(i32a, 0, 0);
 // { async: true; value: Promise<"ok" | "timed-out">; }
 
 if (wait.async) {
-  wait.value.then(() => console.log("Value updated or operation timed out"));
+  wait.value.then((value) => console.log(value));
 } else {
-  console.log("Value not equal or operation timed out");
+  console.log(wait.value);
 }
 ```
 
 ## RegExp v flag with set notation + properties of strings by Markus Scherer and Mathias Bynens
+
+The new `v` is similar to added in 2015 `u` flag but does a lot more and in backwards-incompatible way, so they cannot be combined. The new `v` Regex flag enables three features: checks against unicode properties, perform difference/subtraction/intersection checks and improves case-insensitive matching.
 
 https://github.com/tc39/proposal-regexp-v-flag
 
