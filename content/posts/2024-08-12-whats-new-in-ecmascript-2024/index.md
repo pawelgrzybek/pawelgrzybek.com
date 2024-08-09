@@ -10,6 +10,9 @@ Features added this year are pretty nuanced and outside my comfort zone, as are 
 - [Well-Formed Unicode Strings by Guy Bedford, Bradley Farias, Michael Ficarra](#well-formed-unicode-strings-by-guy-bedford-bradley-farias-michael-ficarra)
 - [Asynchronous atomic wait for ECMAScript by Shu-yu Guo and Lars T Hansen](#asynchronous-atomic-wait-for-ecmascript-by-shu-yu-guo-and-lars-t-hansen)
 - [RegExp v flag with set notation + properties of strings by Markus Scherer and Mathias Bynens](#regexp-v-flag-with-set-notation--properties-of-strings-by-markus-scherer-and-mathias-bynens)
+- - [Checks against subset of Unicode string properties](#checks-against-subset-of-unicode-string-properties)
+- - [Difference/subtraction/intersection checks](#differencesubtractionintersection-checks)
+- - [Improved case-insensity](#improved-case-insensity)
 - [In-Place Resizable and Growable ArrayBuffers by Shu-yu Guo](#in-place-resizable-and-growable-arraybuffers-by-shu-yu-guo)
 - [Array grouping by Justin Ridgewell and Jordan Harband](#array-grouping-by-justin-ridgewell-and-jordan-harband)
 - [Promise.withResolvers by Peter Klecha](#promisewithresolvers-by-peter-klecha)
@@ -92,9 +95,53 @@ if (wait.async) {
 
 ## RegExp v flag with set notation + properties of strings by Markus Scherer and Mathias Bynens
 
-The new `v` is similar to added in 2015 `u` flag but does a lot more and in backwards-incompatible way, so they cannot be combined. The new `v` Regex flag enables three features: checks against unicode properties, perform difference/subtraction/intersection checks and improves case-insensitive matching.
+[The new RegExp `v` flag](https://github.com/tc39/proposal-regexp-v-flag) is similar to [unicode-aware regular expressions (`u` flag) added in 2015](https://mathiasbynens.be/notes/es6-unicode-regex) but does much more. Due to similarities with the `u` flag and some incompatibilities, these two flags cannot be combined. The new `v` Regex mode enables three features: checks against subset of [Unicode string properties](https://www.unicode.org/reports/tr18/#Full_Properties), performs difference/subtraction/intersection checks and improves case-insensitive matching.
 
-https://github.com/tc39/proposal-regexp-v-flag
+```js
+// `u` and `v` modes are similar, but they cannot be combined
+const pattern = /./vu;
+// SyntaxError: Invalid regular expression: invalid flags
+```
+
+### Checks against subset of Unicode string properties 
+
+The Unicode standard defines a list of properties that simplify regex patterns. For example, `/\p{Math}/u` checks for mathematical operators, `/\p{Dash}/u` for dash punctuation characters or `/\p{Hex_Digit}/u` for symbols used for the representation of hexadecimal numbers.
+
+```js
+const patternMath = /\p{Math}/u;
+const patternDash = /\p{Dash}/u;
+const patternHex = /\p{Hex_Digit}/u;
+
+patternMath.test('+'); // true
+patternMath.test('z'); // false
+
+patternDash.test('-'); // true
+patternDash.test('z'); // false
+
+patternHex.test('f'); // true
+patternHex.test('z'); // false
+```
+
+Most of the properties apply to individual code points, but there are very few (for now, mostly emoji-related) that apply to strings (multiple code points). `Basic_Emoji`, `RGI_Emoji` and `RGI_Emoji_Flag_Sequence`, to name a few. These are the types that `u` mode doesn't support, although [there are some discussions to change it](https://github.com/tc39/proposal-regexp-v-flag/issues/49#issuecomment-988956561). Luckily, one of the features of `v` mode is the ability to perform checks against Unicode string properties.
+
+```js
+const pattern = /\p{RGI_Emoji}/u
+// SyntaxError: Invalid regular expression: /\p{RGI_Emoji}/u: Invalid property name
+```
+
+```js
+const pattern = /\p{RGI_Emoji}/v;
+
+// single codepoint emoji
+pattern.test('😀') // true
+
+// multiple codepoints emoji
+pattern.test('🫶🏾') // true
+```
+
+### Difference/subtraction/intersection checks
+
+### Improved case-insensity
 
 ## In-Place Resizable and Growable ArrayBuffers by Shu-yu Guo
 
