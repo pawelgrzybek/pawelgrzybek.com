@@ -14,9 +14,11 @@ Features added this year are pretty nuanced and outside my comfort zone, as are 
 - - [Subtraction/intersection/union matching](#subtractionintersectionunion-matching)
 - - [Improved case-insensivity](#improved-case-insensivity)
 - [In-Place Resizable and Growable ArrayBuffers by Shu-yu Guo](#in-place-resizable-and-growable-arraybuffers-by-shu-yu-guo)
+- [ArrayBuffer transfer by Shu-yu Guo, Jordan Harband and Yagiz Nizipli](#arraybuffer-transfer-by-shu-yu-guo-jordan-harband-and-yagiz-nizipli)
 - [Array grouping by Justin Ridgewell and Jordan Harband](#array-grouping-by-justin-ridgewell-and-jordan-harband)
 - [Promise.withResolvers by Peter Klecha](#promisewithresolvers-by-peter-klecha)
-- [ArrayBuffer transfer by Shu-yu Guo, Jordan Harband and Yagiz Nizipli](#arraybuffer-transfer-by-shu-yu-guo-jordan-harband-and-yagiz-nizipli)
+
+---
 
 ## Well-Formed Unicode Strings by Guy Bedford, Bradley Farias, Michael Ficarra
 
@@ -169,11 +171,36 @@ pattern.test('🫐') // true
 
 ### Improved case-insensivity
 
-How the case sensitivity check works in `u` mode is confusing. Inversed pattarns targeting specific case group (`Lowercase_Letter` or `Uppercase_Letter`) with ignored case flag (`i`) enabled do not produce intuitive results. The new `v` flag make the resuilts a lot more predictable, and this is the reason why these two flags cannot be combined. 
+How the case sensitivity check works in `u` mode is confusing. Inversed patterns targeting specific case groups (`Lowercase_Letter` or `Uppercase_Letter`) with ignored case flag (`i`) enabled do not produce intuitive results. The new `v` flag makes the results much more predictable, which is why these two flags cannot be combined.
 
 ## In-Place Resizable and Growable ArrayBuffers by Shu-yu Guo
 
-https://github.com/tc39/proposal-resizablearraybuffer
+The `ArrayBuffer` object in JavaScript is a way to represent a buffer of binary data. Resizing `ArrayBuffers` before ECMAScript 2024 was a tedious process of creating a new one and moving data from one to the other. Thanks to the ["In-Place Resizable and Growable ArrayBuffers" proposal](https://github.com/tc39/proposal-resizablearraybuffer), we have a native way of defining growable buffers using `options.maxByteLength` property, and resize them by calling `resize()` method.
+
+```js
+const buffer = new ArrayBuffer(8, { maxByteLength: 16 });
+
+buffer.resizable; // true
+buffer.byteLength; // 8
+buffer.maxByteLength; // 16
+
+buffer.resize(16);
+
+buffer.byteLength; // 16
+buffer.maxByteLength; // 16
+```
+
+## ArrayBuffer transfer by Shu-yu Guo, Jordan Harband and Yagiz Nizipli
+
+Following new resizing capabilities of `ArrayBuffer`s, [`arrayBuffer.prototype.transfer` and friends proposal](https://github.com/tc39/proposal-arraybuffer-transfer) add abilities to transfer their ownership. The `transfer()` or `transferToFixedLength()` methods allow us to relocate bytes depending on the destination. A new `detached` getter is a new native solution for checking deallocated buffers.
+
+```js
+const buffer = new ArrayBuffer();
+buffer.detached; // false
+
+const newBuffer = buffer.transfer();
+buffer.detached; // true
+```
 
 ## Array grouping by Justin Ridgewell and Jordan Harband
 
@@ -183,15 +210,6 @@ https://github.com/tc39/proposal-array-grouping
 
 https://github.com/tc39/proposal-promise-with-resolvers
 
-## ArrayBuffer transfer by Shu-yu Guo, Jordan Harband and Yagiz Nizipli
-
-https://github.com/tc39/proposal-arraybuffer-transfer
-
-
 ---
 
-## Helpful resources
-
-- ["Unicode – a brief introduction (advanced)" by Dr. Axel Rauschmayer](https://exploringjs.com/js/book/ch_unicode.html)
-- ["UTF-16 characters, Unicode code points, and grapheme clusters" section of String referende on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#utf-16_characters_unicode_code_points_and_grapheme_clusters)
-- []()
+See you next year
