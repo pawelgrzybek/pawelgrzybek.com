@@ -5,7 +5,7 @@ summary: "The list of new JavaScript features is now confirmed, and to keep my a
 
 The final version of [ECMAScript 2024 Language Specification](https://tc39.es/ecma262/2024/) was approved on [the 26th of June](https://github.com/tc39/ecma262/releases/tag/es2024). The list of new JavaScript features is now confirmed, and to keep my annual tradition, I am publishing this yearly recap for you and my future self. For curious ones, here are the posts from the past years: [2023](/whats-new-in-ecmascript-2023/), [2022](/whats-new-in-ecmascript-2022/), [2021](/whats-new-in-ecmascript-2021/), [2020](/whats-new-in-ecmascript-2020/), [2019](/whats-new-in-ecmascript-2019/), [2018](/whats-new-in-ecmascript-2018/), [2017](/whats-new-in-ecmascript-2017/) and [2016](/whats-new-in-ecmascript-2016-es7/).
 
-Features added this year are pretty nuanced and outside my comfort zone, as are many other JavaScript users. I will try my best to explain them to regular app makers who rarely delve into the territory of complicated Regex, Unicode characters encoding and buffer manipulations.
+A few handy features became part of the specification, but some are more nuanced, lower-level and outside the commonly used set of tools by a regular app maker (like me). I did my homework, and in this article, I will explain them to people who rarely delve into the territory of complicated Regex, Unicode characters encoding and buffer manipulations.
 
 - [Well-Formed Unicode Strings by Guy Bedford, Bradley Farias, Michael Ficarra](#well-formed-unicode-strings-by-guy-bedford-bradley-farias-michael-ficarra)
 - [Asynchronous atomic wait for ECMAScript by Shu-yu Guo and Lars T Hansen](#asynchronous-atomic-wait-for-ecmascript-by-shu-yu-guo-and-lars-t-hansen)
@@ -22,7 +22,7 @@ Features added this year are pretty nuanced and outside my comfort zone, as are 
 
 ## Well-Formed Unicode Strings by Guy Bedford, Bradley Farias, Michael Ficarra
 
-Strings in JavaScript are represented as a sequence of UTF-16 code points. The 16 in the name represents the number of bits available to store the code point, which offers 65536 possible combinations (2<sup>16</sup>). This amount is sufficient to store characters of Latin, Greek, Cyrillic and East Asian alphabets but not enough to store things like Chinese, Japanese, and Korean ideographs or emojis. Additional characters are stored in pairs of 16-bit code units, known as surrogate pairs.
+Strings in JavaScript are represented by a sequence of UTF-16 code points. The 16 in the name represents the number of bits available to store the code point, which offers 65536 possible combinations (2<sup>16</sup>). This amount is sufficient to store characters of Latin, Greek, Cyrillic and East Asian alphabets but not enough to store things like Chinese, Japanese, and Korean ideographs or emojis. Additional characters are stored in pairs of 16-bit code units, known as surrogate pairs.
 
 ```js
 'a'.length
