@@ -195,7 +195,7 @@ figcaption {
 }
 
 sup {
-  vertical-align: baseline;
+  vertical-align: bottom;
   position: relative;
   top: calc(var(--lh) / -4);
   font-size: calc(var(--fz) / var(--type-scale));
