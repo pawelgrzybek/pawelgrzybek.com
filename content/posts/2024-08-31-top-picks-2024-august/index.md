@@ -31,3 +31,7 @@ I am an organiser of [NN1 Dev Club](https://pawelgrzybek.com/i-am-organising-a-m
 ### [Font with Built-In Syntax Highlighting](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/)
 
 Syntax highlighting on the website is complicated. It requires millions of `div`s and `span`s or, as it turns out, a font with built-in syntax highlighting. This idea is a very creative use of open-type features. I am sure this is not the end of the story, and I look forward to future iterations of this idea. Rad!
+
+### [Just use Postgres](https://mccue.dev/pages/8-16-24-just-use-postgres)
+
+Great post by Ethan McCue about why you should default your databse selection to Postgres if you are unsure that other one fits the purpose better. This post if packed with references to good resources that are also worth checking.
