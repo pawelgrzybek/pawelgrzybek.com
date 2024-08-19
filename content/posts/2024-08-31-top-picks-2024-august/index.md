@@ -34,4 +34,4 @@ Syntax highlighting on the website is complicated. It requires millions of `div
 
 ### [Just use Postgres](https://mccue.dev/pages/8-16-24-just-use-postgres)
 
-Great post by Ethan McCue about why you should default your databse selection to Postgres if you are unsure that other one fits the purpose better. This post if packed with references to good resources that are also worth checking.
+It is an excellent post by Ethan McCue about why you should default your database selection to Postgres if you still wonder if the other one fits the purpose better. This post contains references to plenty of other related resources worth checking.
