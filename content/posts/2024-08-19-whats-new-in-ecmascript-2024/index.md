@@ -107,12 +107,12 @@ const pattern = /./vu;
 
 ### Checks against a subset of Unicode string properties 
 
-The Unicode standard defines a list of properties that simplify regex patterns. For example, `/\p{Math}/u` checks for mathematical operators, `/\p{Dash}/u` for dash punctuation characters or `/\p{Hex_Digit}/u` for symbols used for the representation of hexadecimal numbers.
+The Unicode standard defines a list of properties that simplify regex patterns. For example, `/\p{Math}/u` checks for mathematical operators, `/\p{Dash}/u` for dash punctuation characters or `/\p{ASCII_Hex_Digit}/u` for symbols used for the representation of hexadecimal numbers.
 
 ```js {hl_lines=["1-3"]}
 const patternMath = /\p{Math}/u;
 const patternDash = /\p{Dash}/u;
-const patternHex = /\p{Hex_Digit}/u;
+const patternHex = /\p{ASCII_Hex_Digit}/u;
 
 patternMath.test('+'); // true
 patternMath.test('z'); // false
@@ -155,7 +155,7 @@ pattern.test('💩') // false
 
 ```js {hl_lines=[2]}
 // Only uppercase, hex-digit-safe chatacters
-const pattern = /[\p{Uppercase}&&\p{Hex_Digit}]/v;
+const pattern = /[\p{Uppercase}&&\p{ASCII_Hex_Digit}]/v;
 
 pattern.test('f') // true
 pattern.test('F') // false
