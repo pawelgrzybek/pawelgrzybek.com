@@ -9,9 +9,9 @@ intro
 
 ## Album of the month
 
-Album of the month
+I'm going to continue my streak of recommending you some great West Coast rap. A couple of weeks after I attended a great Pharcyde gig, I went to see Souls of Mischief live for the first time in my life. No surprise that I listened to their ["93 'til Infinity" album](https://www.discogs.com/release/5651162-Souls-Of-Mischief-93-Til-Infinity-20th-Anniversary-Edition) a lot last month. Tons of great instrumental beats, a bunch of top jazz and funky samples, and of course top lyrics sung by great voices (especially by Tajai). This is how we chill from '93 'til, this is how we chill…
 
-![]()
+![Crowd dancing in front of a stage at the Souls Of mischief concert](souls-of-mischief-gig.jpg)
 
 ---
 
