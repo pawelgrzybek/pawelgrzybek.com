@@ -34,7 +34,11 @@ Syntax highlighting on the website is complicated. It requires millions of `div
 
 ### [Just use Postgres](https://mccue.dev/pages/8-16-24-just-use-postgres)
 
-It is an excellent post by Ethan McCue about why you should default your database selection to Postgres if you still wonder if the other one fits the purpose better. This post contains references to plenty of other related resources worth checking.
+It is an excellent post by Ethan McCue about why you should default your database selection to Postgres if you are still wondering if the other one fits the purpose better. This post contains references to plenty of other related resources worth checking.
 
 ### [Leaving Neovim for Zed](https://stevedylan.dev/posts/leaving-neovim-for-zed)
 I enjoy reading deep dives like this. I don't use Zed, nor am I a NeoVim user, but I enjoy exploring other devs' reasoning behind switching working environments.
+
+### [Introducing the CSS anchor positioning API](https://developer.chrome.com/blog/anchor-positioning-api)
+
+One of the most powerful recent additions to CSS is anchor positioning API. This addition to the CSS language will be the future of positioning one element in context to the other. If you have ever tried building a dynamically positioned tooltip, you know how hard a problem may become. Incredibly, it can all be solved using pure CSS. This article by Una on the Google Developers blog is an excellent explainer of API parts.
