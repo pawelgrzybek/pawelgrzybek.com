@@ -50,3 +50,7 @@ This video is a never-before-released footage of "Future Possibilities: Data, Ha
 ### [Basic keyboard shortcut support for focused links](https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links/)
 
 This post is just a masterpiece that presents the complexity of link behaviour. The moral of the whole post is "Use appropriate, semantic HTML whenever possible, I beg you". That's incredible research, Eric!
+
+### [How Google handles JavaScript throughout the indexing process](https://vercel.com/blog/how-google-handles-javascript-throughout-the-indexing-process)
+
+Do server-side rendered websites perform better in search results than client-side, JS-heavy projects? What does Google crawl and that it skips? Does everything we have heard for the last decade still hold about indexing client-side render apps? This post is a detailed research about the subject with very up-to-date insights.
