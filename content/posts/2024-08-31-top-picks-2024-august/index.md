@@ -42,3 +42,11 @@ I enjoy reading deep dives like this. I don't use Zed, nor am I a NeoVim user, b
 ### [Introducing the CSS anchor positioning API](https://developer.chrome.com/blog/anchor-positioning-api)
 
 One of the most powerful recent additions to CSS is anchor positioning API. This addition to the CSS language will be the future of positioning one element in context to the other. If you have ever tried building a dynamically positioned tooltip, you know how hard a problem may become. Incredibly, it can all be solved using pure CSS. This article by Una on the Google Developers blog is an excellent explainer of API parts.
+
+### [NSA releases copy of internal lecture delivered by computing giant Rear Adm. Grace Hopper](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3884041/nsa-releases-copy-of-internal-lecture-delivered-by-computing-giant-rear-adm-gra/)
+
+This video is a never-before-released footage of "Future Possibilities: Data, Hardware, Software, and People" by Rear Adm. Grace Hopper. It is a timeless presentation about resistant-to-change developers in the fast-paced industry, leadership, distributed systems, security, higher-level systems, and more. Incredibly, this 42-year-old presentation stays perfectly relevant nowadays.
+
+### [Basic keyboard shortcut support for focused links](https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links/)
+
+This post is just a masterpiece that presents the complexity of link behaviour. The moral of the whole post is "Use appropriate, semantic HTML whenever possible, I beg you". That's incredible research, Eric!
