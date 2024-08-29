@@ -1,15 +1,17 @@
 ---
 title: "Top picks — 2024 August"
-summary: ""
+summary: "CSS grid areas, module script integrity, lessons from running a tech meetup, syntax highlighting, PostgreSQL discussion, JavaScript decorators and more."
 ---
 
-intro
+I really enjoy my morning routine of catching up with the industry news while sipping a fresh coffee. It was particularly enjoyable this month because the web community published so many great resources. A bit of everything! From CSS magic to JavaScript security, database discussion, a nice write-up about changing code editors, some good talks, and a lot more. But before that, [a quick music recommendation](#album-of-the-month) of an album I enjoyed the most this past month 🎶
 
 ---
 
 ## Album of the month
 
 I'm going to continue my streak of recommending you some great West Coast rap. A couple of weeks after I attended a great Pharcyde gig, I went to see Souls of Mischief live for the first time in my life. No surprise that I listened to their ["93 'til Infinity" album](https://www.discogs.com/release/5651162-Souls-Of-Mischief-93-Til-Infinity-20th-Anniversary-Edition) a lot last month. Tons of great instrumental beats, a bunch of top jazz and funky samples, and of course top lyrics sung by great voices (especially by Tajai). This is how we chill from '93 'til, this is how we chill…
+
+![Souls of Mischief - 93 Til Infinity, album cover](souls-of-mischief-album.jpg)
 
 ![Crowd dancing in front of a stage at the Souls Of mischief concert](souls-of-mischief-gig.jpg)
 
@@ -54,3 +56,11 @@ This post is just a masterpiece that presents the complexity of link behaviour. 
 ### [How Google handles JavaScript throughout the indexing process](https://vercel.com/blog/how-google-handles-javascript-throughout-the-indexing-process)
 
 Do server-side rendered websites perform better in search results than client-side, JS-heavy projects? What does Google crawl and that it skips? Does everything we have heard for the last decade still hold about indexing client-side render apps? This post is a detailed research about the subject with very up-to-date insights.
+
+### [Exploring the Possibilities of Native JavaScript Decorators](https://frontendmasters.com/blog/exploring-the-possibilities-of-native-javascript-decorators/)
+
+ECMAScript proposal to add decorators to the language is at stage 3, so it will inevitably land in the specification soon. It is an excellent time to familiarize yourself with the feature-rich new addition to the language, and this post by Alex MacArthur is a great primer.
+
+### [Scroll Snap Events](https://developer.chrome.com/blog/scroll-snap-events?hl=en)
+
+Scroll snapping is one of the most exciting parts of modern CSS. Because of this addition to the language, I rarely have to use JS solutions anymore. This post presents `scrollSnapChange` and `scrollSnapChanging` events that make it even more powerful. Adam, as always, did his homework and prepared a bunch of great demos.
