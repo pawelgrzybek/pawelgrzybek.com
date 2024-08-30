@@ -64,3 +64,7 @@ ECMAScript proposal to add decorators to the language is at stage 3, so it will 
 ### [Scroll Snap Events](https://developer.chrome.com/blog/scroll-snap-events?hl=en)
 
 Scroll snapping is one of the most exciting parts of modern CSS. Because of this addition to the language, I rarely have to use JS solutions anymore. This post presents `scrollSnapChange` and `scrollSnapChanging` events that make it even more powerful. Adam, as always, did his homework and prepared a bunch of great demos.
+
+### [Reckoning](https://infrequently.org/series/reckoning/)
+
+Another must-read by Alex Russell. This series is a four-part masterpiece about the catastrophic consequences of JS-heavy websites in the US public sector. It is a super valuable read for all web creators, from managers, through the engineering team to copywriters. It explains how we ended up in this place, pinpoints examples, and provides advice on how we can make a turn, promote progressive enhancement, and make the web a better place.
