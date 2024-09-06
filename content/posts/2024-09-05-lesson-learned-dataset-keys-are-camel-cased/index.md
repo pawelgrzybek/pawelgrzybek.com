@@ -3,7 +3,7 @@ title: "Lesson learned — dataset keys are camel-cased"
 summary: "Unfortunately, it is a little rant for implementations that want to provide convenience by extending the standard but make things more confusing."
 ---
 
-This quick post tells the story of how I learned that `dataset` keys are camel-cased. Unfortunately, it is a little rant for implementations that want to provide convenience by extending the standard but make things more confusing.
+This quick post tells the story of how I learned that `dataset` keys are camel-cased. Unfortunately, it is a little rant about implementations that want to provide convenience by extending the standard but make things more confusing.
 
 ## Accessing data-* attributes via dataset
 
