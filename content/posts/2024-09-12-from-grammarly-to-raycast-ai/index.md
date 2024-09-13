@@ -13,7 +13,7 @@ With a little bit of prompt tweaking and Raycast AI commands, I can have a spell
 
 ## Spell checker using Raycast AI
 
-The ChatGPT 4o is great for this use case. I reduced its creativity to "none", to avoid potential tone changes. Thanks to my friend Jordan from [takara.ai](https://takara.ai), who explained it all to me and helped me with a prompt for a custom "Spell check" AI command. There is a high chance that other models and prompts work equally well, but I am sharing what works great for me.
+The [ChatGPT 4o mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) is great for this use case. I reduced its creativity to "none", to avoid potential tone changes. Thanks to my friend Jordan from [takara.ai](https://takara.ai), who explained it all to me and helped me with a prompt for a custom "Spell check" AI command. There is a high chance that other models and prompts work equally well, but I am sharing what works great for me.
 
 ![Spell check command in Raycast AI](spell-check-command.png)
 
