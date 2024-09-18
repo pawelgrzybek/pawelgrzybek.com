@@ -23,3 +23,11 @@ This article by Ryan Mulligan is a great explainer of the powerful `@property` a
 ### [Oracle, it’s time to free JavaScript.](https://javascript.tm)
 
 JavaScript is a trademark owned by Oracle. It is a side effect of Sun Microsystems' acquisition in 1995. Also, it is a very abandoned trademark that should not belong to Oracle, but rather to the public domain. Ryan Dahl, Brendan Eich, and plenty of other well-known contributors to the JS ecosystem put this petition in place to free up the trademark for the most popular programming language.
+
+### [Animate to height: auto; (and other intrinsic sizing keywords) in CSS](https://developer.chrome.com/docs/css-ui/animate-to-height-auto)
+
+This is absolutely crazy that things that were impossible without a bunch of JavaScript code are now single-liners of CSS. Animating height and other intrinsic sizing keywords is as simple as smashing one line of code to the root. Bramus explains things in a great level of detail.
+
+### [MODALZ MODALZ MODALZ](https://modalzmodalzmodalz.com/)
+
+That's right, we use too many damn modals! I am guilty of it myself. This is a pretty website that gives a number of reasons why we should seek a different design pattern instead of blindly smashing modals on top of modals.
