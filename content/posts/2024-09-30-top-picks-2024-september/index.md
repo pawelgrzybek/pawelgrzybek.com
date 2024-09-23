@@ -31,3 +31,7 @@ This is absolutely crazy that things that were impossible without a bunch of Jav
 ### [MODALZ MODALZ MODALZ](https://modalzmodalzmodalz.com/)
 
 That's right, we use too many damn modals! I am guilty of it myself. This is a pretty website that gives a number of reasons why we should seek a different design pattern instead of blindly smashing modals on top of modals.
+
+## [Consider Slowing Down When Switching Password Managers](https://rmondello.com/2024/09/19/consider-slowing-down-when-switching-password-managers/)
+
+With the announcement of the latest Apple iOS and macOS operating systems, for the first time ever I am considering moving away from 1Password. The new native Passwords app offers almost everything I use 1Password for, with very few exceptions that I can mitigate using password-protected notes. For sure, you can expect an article about the transition when it is done, but for now, one of the authors of the Passwords app, Ricky Mondello, gives a little advice about the transition and offers two strategies.
