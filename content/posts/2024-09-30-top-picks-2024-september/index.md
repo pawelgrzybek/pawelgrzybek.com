@@ -35,3 +35,13 @@ That's right, we use too many damn modals! I am guilty of it myself. This is a p
 ## [Consider Slowing Down When Switching Password Managers](https://rmondello.com/2024/09/19/consider-slowing-down-when-switching-password-managers/)
 
 With the announcement of the latest Apple iOS and macOS operating systems, for the first time ever I am considering moving away from 1Password. The new native Passwords app offers almost everything I use 1Password for, with very few exceptions that I can mitigate using password-protected notes. For sure, you can expect an article about the transition when it is done, but for now, one of the authors of the Passwords app, Ricky Mondello, gives a little advice about the transition and offers two strategies.
+
+## [Launch of Social Web Foundation](https://socialwebfoundation.org/2024/09/24/launch/)
+
+I disappeared from Facebook and Instagram ages ago. I kept my Twitter (X) account for some reason, but every time I visit this page, I struggle to believe my eyes at this shitshow that is happening there. Luckily, there is a future for social media platforms that are based on open standards. The Social Web Foundation is here to educate about the new open standards, popularise them amongst the general public, and improve apps and protocols involved.
+
+> Leaders of the open social networking movement have formed the Social Web Foundation, a non-profit organization dedicated to making connections between social platforms with the open standard protocol ActivityPub.
+
+## [New Values and Functions in CSS](https://alvaromontoro.com/blog/68062/new-values-and-functions-in-CSS)
+
+The first Public Working Draft for the CSS Values and Units Module Level 5 landed, and it brings a lot of exciting features. Some of them are absolute game changers. Alvaro goes through them one by one. I am most excited about the `attr()` function and `calc-size()`, but I can't wait to see what CSS magicians will do with `random()`.
