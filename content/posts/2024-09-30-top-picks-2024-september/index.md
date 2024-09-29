@@ -1,14 +1,15 @@
 ---
 title: "Top picks — 2024 September"
-summary: ""
+summary: "The CSS @property explained, JavaScript trademark, animating auto height in CSS, modalz madness, good advice about switching password managers, social web foundation and more…"
 ---
 
+End of September! Shocking how quickly time goes. This month for me passed like a blink of an eye, probably because of a pretty intense family holiday and a crazily busy time at work. Nonetheless, I managed to come across a few interesting bits around the web, so I would like to share them with you, as I have done for the past years on every last day of the month. And as always, a little music recommendation nugget from my collection just for you. Enjoy.
 
 ---
 
 ## Album of the month
 
-Abum of the month...
+My friend from Poland recently released a new album. ["Homey Moon" by Plash](https://plash.bandcamp.com/album/honey-moon) is very different from anything else he has produced before. Other than the usual very bboying, drum-heavy beats, this one includes some bits of house, jungle, and tons of obscure samples. Absolutely sick production from soup to nuts!
 
 ![]()
 
@@ -18,7 +19,7 @@ Abum of the month...
 
 ### [CSS @property and the New Style](https://ryanmulligan.dev/blog/css-property-new-style/)
 
-This article by Ryan Mulligan is a great explainer of the powerful `@property` at-rule. It is a very practical guide as it presents the power of a feature by using it heavily to build a pretty trendy call-to-action button. I need to admit that the button looks absolutely stunning!
+This article by Ryan Mulligan is a great explainer of the powerful `@property` at-rule. It is a very practical guide as it presents the power of a feature in practice to build a pretty trendy call-to-action button. I must admit that the button looks absolutely stunning!
 
 ### [Oracle, it’s time to free JavaScript.](https://javascript.tm)
 
@@ -26,7 +27,7 @@ JavaScript is a trademark owned by Oracle. It is a side effect of Sun Microsyste
 
 ### [Animate to height: auto; (and other intrinsic sizing keywords) in CSS](https://developer.chrome.com/docs/css-ui/animate-to-height-auto)
 
-This is absolutely crazy that things that were impossible without a bunch of JavaScript code are now single-liners of CSS. Animating height and other intrinsic sizing keywords is as simple as smashing one line of code to the root. Bramus explains things in a great level of detail.
+This is absolutely crazy that things that were impossible without a bunch of JavaScript a while ago, are now single-liners of CSS. Animating height and other intrinsic sizing keywords is as simple as smashing one line of code to the root. Bramus explains things in a great level of detail.
 
 ### [MODALZ MODALZ MODALZ](https://modalzmodalzmodalz.com/)
 
@@ -38,7 +39,7 @@ With the announcement of the latest Apple iOS and macOS operating systems, for t
 
 ## [Launch of Social Web Foundation](https://socialwebfoundation.org/2024/09/24/launch/)
 
-I disappeared from Facebook and Instagram ages ago. I kept my Twitter (X) account for some reason, but every time I visit this page, I struggle to believe my eyes at this shitshow that is happening there. Luckily, there is a future for social media platforms that are based on open standards. The Social Web Foundation is here to educate about the new open standards, popularise them amongst the general public, and improve apps and protocols involved.
+I disappeared from Facebook and Instagram ages ago. I kept my Twitter (X) account for some reason, but every time I visit this page, I struggle to believe my eyes at this shitshow that is happening there. Luckily, there is a future for social media platforms that are based on open standards. The Social Web Foundation is here to educate about the new open standards, popularise them amongst the general public, and improve the apps and protocols involved.
 
 > Leaders of the open social networking movement have formed the Social Web Foundation, a non-profit organization dedicated to making connections between social platforms with the open standard protocol ActivityPub.
 
