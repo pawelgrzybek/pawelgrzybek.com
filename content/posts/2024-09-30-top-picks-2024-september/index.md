@@ -11,7 +11,7 @@ End of September! Shocking how quickly time goes. This month for me passed like 
 
 My friend from Poland recently released a new album. ["Homey Moon" by Plash](https://plash.bandcamp.com/album/honey-moon) is very different from anything else he has produced before. Other than the usual very bboying, drum-heavy beats, this one includes some bits of house, jungle, and tons of obscure samples. Absolutely sick production from soup to nuts!
 
-![]()
+![Plash - Honey Moon album cover](plash-honey-moon.jpg)
 
 ---
 
