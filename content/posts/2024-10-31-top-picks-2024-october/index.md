@@ -28,3 +28,8 @@ Recently added `<dialog>` element and `popover` attribute may cause a lot of con
 ### [Announcing BCD Watch](https://meyerweb.com/eric/thoughts/2024/09/23/announcing-bcd-watch/)
 
 Eric Meyer, Brian Kardell and Stephanie Stimac built this fantastic tool that helps track features that are landing in the browsers. Weekly reports with all the features can be a little bit overwhelming, so there is an option only to report on the features that landed in all three dominant players. Also, you can subscribe to it via RSS and get just one update a week and stay up to date. So handy!
+
+## [Announcing Deno 2](https://deno.com/blog/v2.0)
+
+My favourite JavaScript runtime, Deno, just got a big update to version 2.0. It comes packed with a lot of great features, like extended compatibility with the Node.js ecosystem, new CLI commands (`install`, `add` and `remove`), a stable standard library, workspaces (yeah 🎉), LTS versions and more. As you would expect from a fancy framework, of course there is a flashy video to celebrate the release.
+{{< youtube swXWUfufu2w >}}
