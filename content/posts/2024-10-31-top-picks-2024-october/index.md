@@ -29,7 +29,19 @@ Recently added `<dialog>` element and `popover` attribute may cause a lot of con
 
 Eric Meyer, Brian Kardell and Stephanie Stimac built this fantastic tool that helps track features that are landing in the browsers. Weekly reports with all the features can be a little bit overwhelming, so there is an option only to report on the features that landed in all three dominant players. Also, you can subscribe to it via RSS and get just one update a week and stay up to date. So handy!
 
-## [Announcing Deno 2](https://deno.com/blog/v2.0)
+### [Announcing Deno 2](https://deno.com/blog/v2.0)
 
 My favourite JavaScript runtime, Deno, just got a big update to version 2.0. It comes packed with a lot of great features, like extended compatibility with the Node.js ecosystem, new CLI commands (`install`, `add` and `remove`), a stable standard library, workspaces (yeah 🎉), LTS versions and more. As you would expect from a fancy framework, of course there is a flashy video to celebrate the release.
 {{< youtube swXWUfufu2w >}}
+
+### [Typography and Opentype Default Stylesheet (TODS)](https://github.com/clagnut/TODS)
+
+Richard Rutter published this helpful repository that lists all recommended CSS typography settings. Most sections are very well described. Even if you don’t need to apply any of these changes now, it is good to skim through because you can learn a thing or two.
+
+### [CSS Tricks That Use Only One Gradient](https://css-tricks.com/css-tricks-that-use-only-one-gradient/)
+
+A very long list of creative use cases for a single CSS gradient. Temani Afif really exhausted the subject in this post.
+
+### [Introducing Express v5: A New Era for Node.js Framework](https://expressjs.com/2024/10/15/v5-release.html)
+
+This is a moment that many Node.js developers have been waiting for over 10 years. Express v5 has landed, and although it is a cosmetic update, it introduces a bunch of quality improvements like support for promises, dropping older versions of Node.js, changes to the router logic, and a few more.
