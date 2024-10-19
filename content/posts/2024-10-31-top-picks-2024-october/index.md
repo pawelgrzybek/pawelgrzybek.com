@@ -49,3 +49,7 @@ This is a moment that many Node.js developers have been waiting for over 10 year
 ### [You should go to conferences](https://localghost.dev/blog/you-should-go-to-conferences/)
 
 Sophie Koonin explains why it is worth attending a conference and getting involved in a community. The article concludes with a list of reputable conferences around the UK, Europe, and a few global ones.
+
+### [Unlocking the Power of JSON Patch](https://zuplo.com/blog/2024/10/10/unlocking-the-power-of-json-patch)
+
+JSON Patch is an interesting standardised format that can produce a lot more concise updates to JSON resources. It is efficient, precise, easy to read (not so easy for deeply nested JSON documents), idempotent and standardised. It has an implementation in most programming languages. I found this concept very interesting and I am wondering why it is not more popular. This article is a good primer to the concept.
