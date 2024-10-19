@@ -45,3 +45,7 @@ A very long list of creative use cases for a single CSS gradient. Temani Afif re
 ### [Introducing Express v5: A New Era for Node.js Framework](https://expressjs.com/2024/10/15/v5-release.html)
 
 This is a moment that many Node.js developers have been waiting for over 10 years. Express v5 has landed, and although it is a cosmetic update, it introduces a bunch of quality improvements like support for promises, dropping older versions of Node.js, changes to the router logic, and a few more.
+
+### [You should go to conferences](https://localghost.dev/blog/you-should-go-to-conferences/)
+
+Sophie Koonin explains why it is worth attending a conference and getting involved in a community. The article concludes with a list of reputable conferences around the UK, Europe, and a few global ones.
