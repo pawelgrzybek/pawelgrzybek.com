@@ -53,3 +53,7 @@ Sophie Koonin explains why it is worth attending a conference and getting involv
 ### [Unlocking the Power of JSON Patch](https://zuplo.com/blog/2024/10/10/unlocking-the-power-of-json-patch)
 
 JSON Patch is an interesting standardised format that can produce a lot more concise updates to JSON resources. It is efficient, precise, easy to read (not so easy for deeply nested JSON documents), idempotent and standardised. It has an implementation in most programming languages. I found this concept very interesting and I am wondering why it is not more popular. This article is a good primer to the concept.
+
+### [Help us choose the final syntax for Masonry in CSS](https://webkit.org/blog/16026/css-masonry-syntax/)
+
+This article by the WebKit team is a continuation of a debate about the best shape of a masonry layout specification. This post includes a list of very convincing reasons why it is a better idea to keep the new kind of layout, under the CSS Grid specification in contrast to a totally new model as per Google’s team suggestion. I like the reference to the core principles for good web standards established by Bret Bos, co-creator of CSS. This is a very good and long read for all CSS enthusiasts.
