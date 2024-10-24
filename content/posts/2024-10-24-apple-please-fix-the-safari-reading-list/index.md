@@ -5,7 +5,7 @@ summary: "As a daily user of this feature and a good web citizen, I decided not 
 
 I am a fan of Apple products, both software and hardware. I also like defaults, as you can tell by reading ["My defaults 2023"](/my-defaults-2023/). No surprise here that Safari is my default browser. I sometimes find it's set of developer tools too limiting or hit some of the feature incompatibility, but I can live with it. Safari is fast, I like its interface, it comes built-in and has a Reading List, a feature that I cannot live without.
 
-As a programmer and blogger, I browse all random corners of the web and accumulate stuff for later all the time. It all lands in the Safari Reading List. Again, I like it as it comes built-in and it doesn't require additional plugins or accounts required to use it. It syncs with iCloud (in theory), it is nicely integrated with both mobile and desktop operating systems, and it is pretty effortless to use.
+As a programmer and blogger, I browse all random corners of the web and accumulate stuff for later all the time. It all lands in the Safari Reading List. Again, I like it as it comes built-in and it doesn't require additional plugins or accounts. It syncs with iCloud (in theory), it is nicely integrated with both mobile and desktop operating systems, and it is pretty effortless to use.
 
 As a daily user of this feature and a good web citizen, I decided not to complain about the Reading List on Reddit, but to write a blog post about a few places where it could be improved, and also one where it needs to be fixed. Maybe some Apple folks will come across this post one day.
 
