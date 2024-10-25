@@ -57,3 +57,7 @@ JSON Patch is an interesting standardised format that can produce a lot more con
 ### [Help us choose the final syntax for Masonry in CSS](https://webkit.org/blog/16026/css-masonry-syntax/)
 
 This article by the WebKit team is a continuation of a debate about the best shape of a masonry layout specification. This post includes a list of very convincing reasons why it is a better idea to keep the new kind of layout, under the CSS Grid specification in contrast to a totally new model as per Google’s team suggestion. I like the reference to the core principles for good web standards established by Bret Bos, co-creator of CSS. This is a very good and long read for all CSS enthusiasts.
+
+### [WebStorm and Rider Are Now Free for Non-Commercial Use](https://blog.jetbrains.com/blog/2024/10/24/webstorm-and-rider-are-now-free-for-non-commercial-use/)
+
+JetBrains just made their WebStorm and Raiden free for non-commercial use. These tools are absolutely top-tier tools for all JavaScript, TypeScript, and .NET programmers. This is a great announcement. I am only wondering what is going on with Fleet, an editor that they released some time ago; it made some noise, but then it went so quiet.
