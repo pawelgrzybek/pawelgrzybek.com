@@ -1,15 +1,15 @@
 ---
 title: "Top picks — 2024 October"
-summary: ""
+summary: "VoidZero, Dialog vs Popovers, new major release of Deno, CSS tricks that use only one gradient, Express v5, JSON Patch, some great news from the JetBrains team and, as always, some music recommendations."
 ---
 
-Intro
+What a month. When everyone lost hope for the new major release of the most popular Node.js framework of all time, Express v5 just dropped. Deno also released a major version bump, and Evan You founded a company that is going to build the cargo for the JavaScript ecosystem. To top it off, I have some great CSS articles for you all and, of course, as always, a music recommendation from my collection. Enjoy the read ☕
 
 ---
 
 ## Album of the month
 
-Description
+I received this album on the 2nd of October, and that was the day I knew what to put in this paragraph at the end of the month. A collaboration between one of my favourite rappers and a producer who is also very high on my favourites list. ["The Auditorium Vol. 1" by Common and Pete Rock](https://www.discogs.com/release/31845473-Common-x-Pete-Rock-The-Auditorium-Vol-1) sounds fresh, like a comeback that good rap deserves. Pete Rock is one of the most versatile producers ever, and he didn’t disappoint on this release. Almost a month after I heard the full album for the first time, I still enjoy it as much, or even more, than before. Solid rap music, folks!
 
 ![]()
 
@@ -19,7 +19,7 @@ Description
 
 ### [Announcing VoidZero - Next Generation Toolchain for JavaScript](https://voidzero.dev/posts/announcing-voidzero-inc)
 
-Evan You, the inventor of Vue, Vite and plenty of other well-known frameworks, has just founded VoidZero Inc. The mission of the company is to build an open-source, high-performance, and unified development toolchain for the JavaScript ecosystem. It is a blend of tools from the OXC family, Vite and Rolldown to handle bundling, linting, formatting and TypeScript transformation. Just by looking at some of the benchmarks attached, it outperforms my favourite Biome by a significant percentage.
+Evan You, the inventor of Vue, Vite and plenty of other well-known frameworks, has just founded VoidZero Inc. The mission of the company is to build an open-source, high-performance, and unified development toolchain for the JavaScript ecosystem. It is a blend of tools from the OXC family, Vite and Rolldown to handle bundling, linting, formatting and TypeScript transformation. Just by looking at some of the benchmarks attached, it outperforms my favourite Biome by a significant percentage. [Alexander Lichter interviewed Evan You](https://youtu.be/33ex2A04b7g), so give this video a play if you are still curious after reading the initial announcement.
 
 ### [What’s the Difference Between HTML’s Dialog Element and Popovers?](https://frontendmasters.com/blog/whats-the-difference-between-htmls-dialog-element-and-popovers/)
 
@@ -44,7 +44,7 @@ A very long list of creative use cases for a single CSS gradient. Temani Afif re
 
 ### [Introducing Express v5: A New Era for Node.js Framework](https://expressjs.com/2024/10/15/v5-release.html)
 
-This is a moment that many Node.js developers have been waiting for over 10 years. Express v5 has landed, and although it is a cosmetic update, it introduces a bunch of quality improvements like support for promises, dropping older versions of Node.js, changes to the router logic, and a few more.
+This is a moment that many Node.js developers have been waiting for over 10 years. Express v5 has landed, and although it is a cosmetic update, it introduces a bunch of quality improvements, such as support for promises, dropping older versions of Node.js, changes to the router logic, and a few more.
 
 ### [You should go to conferences](https://localghost.dev/blog/you-should-go-to-conferences/)
 
@@ -52,7 +52,7 @@ Sophie Koonin explains why it is worth attending a conference and getting involv
 
 ### [Unlocking the Power of JSON Patch](https://zuplo.com/blog/2024/10/10/unlocking-the-power-of-json-patch)
 
-JSON Patch is an interesting standardised format that can produce a lot more concise updates to JSON resources. It is efficient, precise, easy to read (not so easy for deeply nested JSON documents), idempotent and standardised. It has an implementation in most programming languages. I found this concept very interesting and I am wondering why it is not more popular. This article is a good primer to the concept.
+JSON Patch is an interesting standardised format that can produce a lot more concise updates to JSON resources. It is efficient, precise, easy to read (not so easy for deeply nested JSON documents), idempotent and standardised. It has an implementation in most programming languages. I found this concept very interesting and I am wondering why it is not more popular. This article is a good primer on the concept.
 
 ### [Help us choose the final syntax for Masonry in CSS](https://webkit.org/blog/16026/css-masonry-syntax/)
 
