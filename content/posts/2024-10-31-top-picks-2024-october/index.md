@@ -11,7 +11,7 @@ What a month. When everyone lost hope for the new major release of the most popu
 
 I received this album on the 2nd of October, and that was the day I knew what to put in this paragraph at the end of the month. A collaboration between one of my favourite rappers and a producer who is also very high on my favourites list. ["The Auditorium Vol. 1" by Common and Pete Rock](https://www.discogs.com/release/31845473-Common-x-Pete-Rock-The-Auditorium-Vol-1) sounds fresh, like a comeback that good rap deserves. Pete Rock is one of the most versatile producers ever, and he didn’t disappoint on this release. Almost a month after I heard the full album for the first time, I still enjoy it as much, or even more, than before. Solid rap music, folks!
 
-![]()
+![Common and Pete Rock, Auditirium Vol 1](common.jpg)
 
 ---
 
