@@ -23,9 +23,14 @@
 }
 
 ::selection {
-  background: var(--color-link);
-  color: #fff;
+  background-color: var(--color-link);
+  color: var(--color-background);
   text-shadow: none;
+}
+
+::target-text {
+  background-color: color-mix(in srgb, var(--color-link) 25%, transparent);
+  color: var(--color-text);
 }
 
 html {
