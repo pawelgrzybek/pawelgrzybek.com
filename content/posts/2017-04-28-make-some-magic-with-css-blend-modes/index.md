@@ -135,6 +135,8 @@ Let's be honest — the browser support isn't fantastic. Internet Explorer and E
 
 ![Blend modes support in the browsers](2017-04-28-9.jpg)
 
+{{< baseline feature="background-blend-mode" >}}
+
 Let me introduce a new term now — "no blend modes first". Your project on an old-school browser shouldn't be any less functional as the one on the latest version of Google Chrome. Take the support for a crazy feature as an opportunity, not as something that should dictate your design decisions. But if you really, really must…
 
 ```js

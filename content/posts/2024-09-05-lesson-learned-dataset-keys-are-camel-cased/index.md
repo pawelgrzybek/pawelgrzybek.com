@@ -5,6 +5,8 @@ summary: "Unfortunately, it is a little rant for implementations that want to pr
 
 This quick post tells the story of how I learned that `dataset` keys are camel-cased. Unfortunately, it is a little rant about implementations that want to provide convenience by extending the standard but make things more confusing.
 
+{{< baseline feature="dataset" >}}
+
 ## Accessing data-* attributes via dataset
 
 HTML `data-*` attributes allow us to store arbitrary info on element declaration. It is also easy to retrieve these data via JavaScript `dataset` attribute. The `dataset` attribute is an object that contains all `data-*` values. According to the [`element.dataset` specifications](https://html.spec.whatwg.org/multipage/dom.html#dom-dataset-dev), all keys of this object are camel-cased.

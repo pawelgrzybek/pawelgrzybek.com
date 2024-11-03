@@ -35,4 +35,6 @@ I know this heading sounds weird, but it's cruel reality. This feature is too ni
 - iOS Safari >= 9
 - Chrome for Android >= 44.
 
+{{< baseline feature="supports" >}}
+
 I live in hope that this feature will be implemented in all browsers soon. That would be nice to have a that elegant way to feature detection. For now better keep your CSS sane or use Modernizr.

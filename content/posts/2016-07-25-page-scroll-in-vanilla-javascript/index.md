@@ -207,6 +207,8 @@ document.querySelector('.js-btn50000').addEventListener('click', () => scrollIt(
 
 **UPDATE!** As correctly pointed out by [Šime Vidas](https://twitter.com/simevidas) there is another solution. There is a property of the [CSSOM View module](https://developer.mozilla.org/en-US/docs/Web/CSS/CSSOM_View) called [`scroll-behavior`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior). This is a native solution for the problem that I'm trying to solve by my script. The implementation is extremely easy, but unfortunately this method [isn't supported well enough](https://caniuse.com/#feat=css-scroll-behavior) to be used reliably (yet). It doesn't allow us to control timing functions or the duration either. It takes the user-agent values as its defaults. If you want to test examples below, use Firefox or Google Chrome with [Experimental Web Platform features](chrome://flags/#enable-experimental-web-platform-features) flag enabled.
 
+{{< baseline feature="scroll-behavior" >}}
+
 ```js
 function scrollIt(element) {
   window.scrollTo({

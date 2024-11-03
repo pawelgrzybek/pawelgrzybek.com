@@ -24,6 +24,8 @@ const { promise, resolve, reject } = Promise.withResolvers();
 Math.random() > 0.5 ? resolve("ok") : reject("not ok");
 ```
 
+{{< baseline feature="promise-withresolvers" >}}
+
 ## Use cases for Promise.withResolvers
 
 You can use it to avoid nesting in the promise executor, although it shines when you need to pass `resolve` or `reject` to multiple callers. Working with stream or event-based systems is an excellent opportunity to simplify your life with `Promise.withResolvers()`.

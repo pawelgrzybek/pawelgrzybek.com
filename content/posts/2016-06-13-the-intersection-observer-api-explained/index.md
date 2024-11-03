@@ -7,6 +7,8 @@ Detecting which elements are visible within the current viewport's boundaries ha
 
 Bare in mind that we are talking about a really new API. At the moment of writing this article the [browser support](https://www.chromestatus.com/feature/5695342691483648) is restricted to Google Chrome 51 and Opera 38. If you want to play around with it in older browsers give some thanks to [Surma](https://twitter.com/dassurma) for this great [polyfill](https://github.com/surma-dump/IntersectionObserver/blob/polyfill/polyfill/intersectionobserver-polyfill.js).
 
+{{< baseline feature="intersection-observer" >}}
+
 ![IntersectionObserver in Google Chrome Canary](2016-06-13-1.jpg)
 
 ## How to use Intersection Observer API

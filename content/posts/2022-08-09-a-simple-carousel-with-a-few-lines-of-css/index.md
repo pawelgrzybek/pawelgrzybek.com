@@ -30,3 +30,5 @@ li {
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 This article is just a quick note to my future self to come here and copy/paste what I need, but if you found it useful, I am super happy. I can assure you that the next major release of Siema will come with a lot less JavaScript (0kb). Bye 👋
+
+{{< baseline feature="scroll-snap" >}}

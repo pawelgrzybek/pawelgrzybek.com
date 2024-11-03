@@ -11,6 +11,8 @@ When [Babel](https://babeljs.io/) came around it was like living in the future. 
 
 [Safari 10.1](https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html) brings me hope that one day I will check the box next to the last item that I would like to forget — module bundlers.
 
+{{< baseline feature="js-modules" >}}
+
 ## JavaScript modules recap
 
 Before 2015 JavaScript didn't have a native way of working with modular codebases. For years web developers managed to find a number of ways to implement it: splitting the codebase into separated files and scopes, using [AMD (Asynchronous module definition)](https://en.wikipedia.org/wiki/Asynchronous_module_definition) with file loaders like [RequireJS](http://requirejs.org/) or making the Node-style [CommonJS](https://en.wikipedia.org/wiki/CommonJS) work in the browser via libraries like [Browserify](http://browserify.org/).

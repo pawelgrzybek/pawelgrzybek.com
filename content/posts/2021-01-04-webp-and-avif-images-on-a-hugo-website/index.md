@@ -7,6 +7,10 @@ Hugo is the tool that I use to generate this website statically. It's extremely 
 
 The HTML `<picture>` element is convenient to serve multiple image versions for different scenarios. It may specify some alternative version based on the display resolution, screen density, operating system appearance mode, and the most optimised file format based on the browser support. Using modern formats like [WebP](https://developers.google.com/speed/webp/) or even [AVIF](https://aomediacodec.github.io/av1-avif/), we can gain significant performance improvements.
 
+{{< baseline feature="webp" >}}
+
+{{< baseline feature="avif" >}}
+
 ![Image of WebP and AVIF specificatoins](2021-01-04-1.jpg)
 
 Using Hugo image render hook sounds like an excellent feature to take full advantage of modern `<picture>` tag capabilities. Instead of serving the only canonical file, we can do it's more performant siblings in WebP and AVIF format. Let's make it happen!

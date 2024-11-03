@@ -5,6 +5,8 @@ summary: "There are already plenty of solutions in the ecosystem to mix and matc
 
 A few months ago, I published ["Deferred JavaScript promises using `Promise.withResolvers`"](/deferred-javascript-promises-using-promise-withresolvers/), which explains a modern way of dealing with one of the cumbersome chores as old as the Promises in JavaScript. Following the trend of adding to the specifications features that simplify our programs, today is about the upcoming [`Promise.try`](https://github.com/tc39/proposal-promise-try), which is quickly progressing through the ECMAScript proposals stages.
 
+{{< baseline feature="promise-try" >}}
+
 Assuming we have two functions, one that returns a promise and another one that synchronously returns a value, we can mix and match them like so:
 
 ```js

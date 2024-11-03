@@ -13,6 +13,10 @@ Correctly implementing vertical rhythm is a tedious task. Luckily, the [CSS Valu
 
 At the time of writing this article, [the browser support](https://caniuse.com/?search=lh%20unit) is limited to Safari and Chromium-based browsers. Have a look at this simple example.
 
+{{< baseline feature="lh" >}}
+
+{{< baseline feature="rlh" >}}
+
 <iframe style="width: 100%; height: 480px; border: 1px solid rgb(46, 49, 56);" src="https://stackblitz.com/edit/web-platform-psz7ok?embed=1&file=styles.css&hideDevTools=1&view=preview"></iframe>
 
 ```css

@@ -9,6 +9,8 @@ You can browse the Web using a mouse, keyboard and all sorts of assistive techno
 
 The CSS `:focus` and `:focus-visible` pseudo-classes allow us to customise the look of a focus indicator. The support for `:focus-visible` recently landed in [Safari Technology Preview 138](https://webkit.org/blog/12176/release-notes-for-safari-technology-preview-138/). We can expect it to be added in an upcoming stable release and make this feature available in all modern browsers.
 
+{{< baseline feature="focus-visible" >}}
+
 ## CSS focus vs. focus-visible
 
 As mentioned before, browsers, by default, do a great job to determine if an element should indicate focus based on the element type, user interaction, years of feedback, testing and studying user interaction. This state is usually indicated using the `outline`.

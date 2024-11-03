@@ -39,4 +39,6 @@ Nowadays, we can do it with just a few lines of pure CSS, without a single line 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+{{< baseline feature="starting-style" >}}
+
 Everything I presented here I learned from ["Using @starting-style and transition-behavior for enter and exit stage effects" by Adam Argyle](https://nerdy.dev/using-starting-style-and-transition-behavior-for-enter-and-exit-stage-effects) and ["Four new CSS features for smooth entry and exit animations" by Una Kravets and Joey Arhar](https://developer.chrome.com/blog/entry-exit-animations). Thanks, web folks for sharing knowledge 🫶

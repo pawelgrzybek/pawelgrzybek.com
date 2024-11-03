@@ -7,6 +7,8 @@ If you asked me a few years ago about my favourite [Sass](https://sass-lang.com)
 
 Remember that while writing this article, [the browser support is limited](https://caniuse.com/css-nesting) to Chrome in version 112 and [Safari Technology Preview 162](https://webkit.org/blog/13703/release-notes-for-safari-technology-preview-162/). But hey, remember that flexbox was a bleeding-edge technology a few years ago, and today, you cannot even centre a `div` without it 😜
 
+{{< baseline feature="nesting" >}}
+
 ## Let the community decide
 
 ["Help pick a syntax for CSS nesting" on Chrome Developers Blog](https://developer.chrome.com/blog/help-css-nesting/) followed by ["Help choose the syntax for CSS Nesting" on WebKit blog](https://webkit.org/blog/13607/help-choose-from-options-for-css-nesting-syntax/) presented multiple syntax options. The decision was made based on community feedback. I loved it so much! Collaboration between browser vendors, in this case, was more prominent than ever before. Also, the communication between spec creators and the Web community felt so good!

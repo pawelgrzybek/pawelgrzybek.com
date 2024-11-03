@@ -9,6 +9,8 @@ At the point of writing this article [browser support for CSS Grid Layout Model]
 
 ![Enable experimental Web Platform Flag](2015-10-04-1.gif)
 
+{{< baseline feature="grid" >}}
+
 ## Standard blog layout revisited
 
 A few years ago it was close to impossible to visit a blog without header on top, content section and narrow sidebar under neath followed by a footer. Despite many [discussions about the existence of the sidebar](http://shoptalkshow.com/episodes/185-this-idea-must-die/), this is still a very popular blog layout and it's going to work well as an example.
