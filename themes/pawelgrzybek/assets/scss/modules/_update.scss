@@ -3,7 +3,7 @@
   padding: var(--lh);
   background-color: var(--color-update-background);
   box-shadow: 0 0 0 1px var(--color-update-border);
-  border-radius: 2px;
+  border-radius: var(--border-radius);
 
   &::before {
     position: absolute;
