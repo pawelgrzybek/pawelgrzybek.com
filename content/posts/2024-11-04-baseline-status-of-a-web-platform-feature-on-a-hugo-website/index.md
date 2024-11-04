@@ -51,7 +51,7 @@ And here is a rendered result.
 
 ### Make it yours!
 
-Examples above should do as a starting point. It is your time to make it yours. [The OpenAPI specification for the Web Platform Status API](https://github.com/GoogleChrome/webstatus.dev/blob/main/openapi/backend/openapi.yaml) is a handy reference of all fields you can play with. This is the variation that you are going to see more often around my website. Of course, [the source code for my Baseline status shortcode](https://github.com/pawelgrzybek/pawelgrzybek.com/blob/master/themes/pawelgrzybek/layouts/shortcodes/baseline.html) is on GitHub. Nice, right?
+Examples above should do as a starting point. It is your time to make it yours. [The OpenAPI specification for the Web Platform Status API](https://github.com/GoogleChrome/webstatus.dev/blob/main/openapi/backend/openapi.yaml) is a handy reference for all fields you can play with. The WebDX Community Group is happy for web developers to use [the Baseline name and logos](https://web-platform-dx.github.io/web-features/name-and-logo-usage-guidelines/), despite the fact that they are trademarks owned by Google. This is the variation that you are going to see more often around my website. Of course, [the source code for my Baseline status shortcode](https://github.com/pawelgrzybek/pawelgrzybek.com/blob/master/themes/pawelgrzybek/layouts/shortcodes/baseline.html) is on GitHub. Nice, right?
 
 {{< baseline feature="array-from" >}}
 
