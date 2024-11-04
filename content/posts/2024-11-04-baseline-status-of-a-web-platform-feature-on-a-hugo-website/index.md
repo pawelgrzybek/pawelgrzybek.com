@@ -35,7 +35,7 @@ This examples presents a good starting point for your very own Baseline status c
 <p>The Baseline status of <strong>{{ $data.name }}</strong> is <strong>{{ $data.baseline.status }}</strong>.</p>
 ```
 
-Now, you can use it inside any of the content files. Here is an example where we request [Web Platform Status data abbout the `Array.from()` method](https://webstatus.dev/features/array-from).
+Now, you can use it inside any of the content files. Here is an example where we request [Web Platform Status data about the `Array.from()` method](https://webstatus.dev/features/array-from).
 
 ```md
 <!-- content/posts/my-cool-article.md -->
