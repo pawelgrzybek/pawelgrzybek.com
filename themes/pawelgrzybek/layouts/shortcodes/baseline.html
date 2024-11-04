@@ -10,7 +10,7 @@
   {{ end }}
 {{ end }}
 
-<sectoin class="baseline">
+<section class="baseline">
   <div class="baseline__top baseline__top--{{ $data.baseline.status }}">
   {{ if eq $data.baseline.status "limited" }}
     <svg
@@ -108,4 +108,4 @@
       <span class="baseline__release">{{ default "Not supported" (replace $data.browser_implementations.safari.date "-" "." 2) }}</span>
     </li>
   </ul>
-</sectoin>
+</section>
