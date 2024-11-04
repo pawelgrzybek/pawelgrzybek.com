@@ -28,3 +28,5 @@ Look at this example that tracks a `mousemove` event on the `document`, prints t
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+{{< baseline feature="aborting" >}}

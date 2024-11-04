@@ -204,6 +204,8 @@ testCSSVariables();
 // returns a boolean value
 ```
 
+{{< baseline feature="custom-properties" >}}
+
 ## Day / night mode switch
 
 Codepen is already full of beautiful projects that use CSS Custom Properties. Mine is nothing near this level of creativity but I had good fun doing it. Before checking example below, please make sure your browser [supports CSS Custom Properties](https://caniuse.com/#feat=css-variables) first. I'm super curious about how you use CSS Custom Properties. Don't be shy and post a link in the comments section :)

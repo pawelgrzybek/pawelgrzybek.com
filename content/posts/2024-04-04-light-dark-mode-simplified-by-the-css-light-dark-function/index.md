@@ -49,4 +49,6 @@ body {
 
 This implementation is a lot nicer, and for simple use cases, this is all we need to make our projects reactive to operating system preferences. This function is not helpful when you have a more advanced theming system for your project.
 
+{{< baseline feature="light-dark" >}}
+
 Hopefully that helps. Stay curious 👋

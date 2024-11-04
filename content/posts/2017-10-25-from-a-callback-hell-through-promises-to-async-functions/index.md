@@ -102,6 +102,8 @@ function getRandomJoke() {
 <p data-height="380" data-theme-id="dark" data-slug-hash="wrLBmE" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-10-24-3" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/wrLBmE/">2017-10-24-3</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
+{{< baseline feature="promise" >}}
+
 ## Async code, sync look
 
 In 2017 ECMAScript introduced another game changer — the [Async Function](https://tc39.github.io/ecmascript-asyncawait/). It makes working with asynchronous operations very intuitive because it is written in the same way as synchronous code with two tiny nuances — an [`async`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) keyword in front of a function declaration and an [`await`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) operator as a promise prefix. Apart from it just being syntactically much nicer to read, it comes with [optimizations in JavaScript engines](https://mathiasbynens.be/notes/async-stack-traces) as well. Based on the current [browser support](https://caniuse.com/#feat=async-functions) and the help that [babel-preset-env](https://github.com/babel/babel-preset-env) can offer this is my preferred way of working with asynchronous JavaScript.
@@ -132,5 +134,7 @@ const getRandomJoke = async() => {
 
 <p data-height="380" data-theme-id="dark" data-slug-hash="pWXJPy" data-default-tab="result" data-user="pawelgrzybek" data-embed-version="2" data-pen-title="2017-10-24-4" class="codepen">See the Pen <a href="https://codepen.io/pawelgrzybek/pen/pWXJPy/">2017-10-24-4</a> by Pawel Grzybek (<a href="https://codepen.io/pawelgrzybek">@pawelgrzybek</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+{{< baseline feature="async-await" >}}
 
 Hopefully you liked this quick time travel through asynchronous programming in JavaScript. The changes introduced in latest versions of the language are really exciting and I am really looking forward to see what's next! Until next time pals!
