@@ -55,6 +55,10 @@ Examples above should do as a starting point. It is your time to make it yours. 
 
 {{< baseline feature="array-from" >}}
 
+{{< baseline feature="backdrop-filter" >}}
+
+{{< baseline feature="scrollbar-gutter" >}}
+
 ## Time to revisit past posts
 
 Since I have a cool-looking way of presenting browser support for web features now, I decided to revisit some of my past articles. Here is a list of the revisited pages.
