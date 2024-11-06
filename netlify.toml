@@ -3,10 +3,10 @@
   command = "mkdir data && curl -s -o data/comments.json https://6u9a2qa0kh.execute-api.eu-west-2.amazonaws.com/prod/?accessToken=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo --gc --minify"
 
 [context.production.environment]
-  HUGO_VERSION = "0.137.1"
+  HUGO_VERSION = "0.138.0"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.137.1"
+  HUGO_VERSION = "0.138.0"
 
 [context.deploy-preview]
   command = "mkdir data && curl -s -o data/comments.json https://6u9a2qa0kh.execute-api.eu-west-2.amazonaws.com/prod/?accessToken=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo -F --gc --minify --baseURL $DEPLOY_PRIME_URL"
