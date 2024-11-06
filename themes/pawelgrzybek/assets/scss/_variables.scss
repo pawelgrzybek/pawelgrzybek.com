@@ -34,6 +34,8 @@
   --color-syntax-k: light-dark(#005cc5, #79b8ff);
 }
 
+/* this should go away when ligh-dark gains wider browser support */
+/* https://webstatus.dev/features/light-dark?q=light-dark */
 @supports not (color: light-dark(white, black)) {
   :root {
     --color-background: hsl(255 0% 100%);

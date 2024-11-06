@@ -72,6 +72,8 @@
   font-size: calc(var(--fz) / var(--type-scale));
 }
 
+/* this should go away when ligh-dark gains wider browser support */
+/* https://webstatus.dev/features/light-dark?q=light-dark */
 @supports not (color: light-dark(white, black)) {
   .header-theme {
     display: none;
