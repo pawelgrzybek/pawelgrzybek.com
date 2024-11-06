@@ -9,10 +9,6 @@ if (userTheme) {
   [...themePickerButtons]
     .find(({ value }) => value === userTheme)
     .setAttribute("aria-pressed", "true");
-  document
-    .querySelector('meta[name="color-scheme"]')
-    .setAttribute("content", userTheme);
-  document.querySelector("html").style.setProperty("color-scheme", userTheme);
 }
 
 themePickerButtons.forEach((button) => {
