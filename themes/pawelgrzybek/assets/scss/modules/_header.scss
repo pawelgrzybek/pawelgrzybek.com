@@ -72,6 +72,12 @@
   font-size: calc(var(--fz) / var(--type-scale));
 }
 
+@supports not (color: light-dark(white, black)) {
+  .header-theme {
+    display: none;
+  }
+}
+
 .header-theme__label {
   margin-right: calc(var(--lh) / 4);
 }

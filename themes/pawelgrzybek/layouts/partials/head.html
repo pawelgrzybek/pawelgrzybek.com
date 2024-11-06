@@ -43,4 +43,14 @@
   {{ "<!-- Styles -->" | safeHTML }}
   {{- $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
   <style>{{ $styles.Content | safeCSS }}</style>
+  <script>
+    const userThemeCritical = localStorage.getItem("theme");
+
+    if (userThemeCritical) {
+      document
+        .querySelector('meta[name="color-scheme"]')
+        .setAttribute("content", userThemeCritical);
+      document.querySelector("html").style.setProperty("color-scheme", userThemeCritical);
+    }
+  </script>
 </head>
