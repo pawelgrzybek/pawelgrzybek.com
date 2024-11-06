@@ -5,7 +5,7 @@
   {{ with  .OutputFormats.Get "JSON" -}}"feed_url": "{{.Permalink}}",{{- end }}
   "description": "{{ .Site.Params.description }}",
   "items": [
-    {{- $posts := first 10 (where .Site.Pages "Section" "posts") }}
+    {{- $posts := first 10 (where .Site.RegularPages "Section" "posts") }}
     {{- $postCount := len $posts }}
     {{- range $index, $element := $posts }}
     { {{ $page := .}}
