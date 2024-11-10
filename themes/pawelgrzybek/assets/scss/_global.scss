@@ -39,6 +39,8 @@ html {
   scroll-padding-top: var(--lh);
   scroll-behavior: smooth;
   color-scheme: light dark;
+  // get the consistent look on macOS https://dbushell.com/2024/11/05/webkit-font-smoothing/
+  -webkit-font-smoothing: antialiased;
   // https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
