@@ -17,7 +17,7 @@ sounds. One of those records that can play from the very beginning to the end,
 and your head cannot stop nodding. I need to hunt for some previous releases by
 Visioneers!
 
-![]()
+![Vioneneers - "Def Radio" LP album sitting on my mixer between two Technics turntables](visioneers.jpg)
 
 ---
 
