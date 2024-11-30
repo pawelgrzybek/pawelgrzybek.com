@@ -1,9 +1,14 @@
 ---
 title: "Top picks — 2024 November"
-summary: ""
+summary: "A very short list of resources this month, but still good! Some Neovim magic, great inspirations for dataviz, decent interview with Ryan Dahl the creator of Node.js and Deno, and some good CSS guide for you all. Enjoy!"
 ---
 
-Intro
+This is probably the shortest list that I have ever shared with you. I was just
+too busy with work-related stuff, some activities around
+[NN1 Dev Club #4 meetup](https://nn1.dev/events/4), and my exploration of new
+subjects were a bit overshadowed by the fact that I changed a code editor
+(again). Neovim that is now, and I truly enjoy the ride. I did not forget about
+the music recommendation, though.
 
 ---
 
@@ -12,7 +17,7 @@ Intro
 Marc Mac came back with his Visioneers project!
 ["Def Radio"](https://www.discogs.com/release/32075256-Marc-Mac-presents-Visioneers-Def-Radio)
 is a record that has kept on spinning on my Technics turntable nonstop for the
-past month. It is full of incredible funky beats, b-boy breaks, mellow jazzy
+past month. It is full of incredible funky beats, b-boy breaks, and mellow jazzy
 sounds. One of those records that can play from the very beginning to the end,
 and your head cannot stop nodding. I need to hunt for some previous releases by
 Visioneers!
