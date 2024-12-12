@@ -69,7 +69,7 @@ would like to highlight two that I found super helpful on my journey.
 
 I don't want to offend any die-hard Helix fans by writing this post. I have
 mentioned enough times how much
-[I like this tool](http://localhost:1313/from-helix-to-neovim/#:~:text=a%20daily%20driver.-,I%20love%20Helix,-%2C%20its%20simplicity%2C%20the).
+[I like this tool](#:~:text=a%20daily%20driver.-,I%20love%20Helix,-%2C%20its%20simplicity%2C%20the).
 One year is a decent time to give something a try and shape an opinion about it.
 I am keeping my fingers crossed for the future development of Helix and, most
 importantly, its plugins ecosystem.
