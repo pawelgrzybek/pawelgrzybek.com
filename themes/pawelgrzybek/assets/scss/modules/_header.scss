@@ -7,7 +7,7 @@
   position: relative;
   padding-block: calc(var(--lh) * 2);
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1050px) {
     flex-direction: row;
     padding-block: calc(var(--lh) * 4);
   }
