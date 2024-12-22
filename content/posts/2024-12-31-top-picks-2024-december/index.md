@@ -9,9 +9,9 @@ intro
 
 ## Album of the month
 
-album of the month
+Sometimes spontaneous click-around on Bandcamp can lead to a good exploration. That was the case with my favourite album of December, [Damu The Fudgemunk – Peace of Action](https://www.discogs.com/release/32390262-Damu-The-Fudgemunk-Peace-Of-Action). Mainly a jazz record, but heavily inspired by the hip hop nuggets here and there. You can tell that it was produced by a hip hop beats producer! Sourced from KPM (and associated music libraries), the selection makes it a truly unique compilation that just makes you want to listen from start to finish the whole day. Love it!
 
-![]()
+![Damu The Fudgemunk – Peace Of Action LP on my turntable](damu-the-fungemunk.jpg)
 
 ---
 
