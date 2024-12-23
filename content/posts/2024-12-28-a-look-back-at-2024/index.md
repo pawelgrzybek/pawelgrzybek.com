@@ -8,12 +8,7 @@ summary: ""
 
 This time of the year again! Just after Christmas, before the new year kicks in, I like to slow down and have a retrospective moment of gratitude for everything life has brought in the past year. It is also an excellent time to think about goals for the upcoming months. To keep the tradition going, I'm sharing some highlights and a little fiasco to balance things.
 
-{{< figure
-src="cefalu.jpg"
-alt="A calming view of a coast in Cefalù, Italy"
-caption="2023.05.05, A calming view of a coast in Cefalù, Italy"
-
-> }}
+{{< figure src="cefalu.jpg" alt="A calming view of a coast in Cefalù, Italy" caption="2023.05.05, A calming view of a coast in Cefalù, Italy" >}}
 
 ## Job situation fiasco
 

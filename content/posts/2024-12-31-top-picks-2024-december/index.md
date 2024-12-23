@@ -52,3 +52,7 @@ them (or rather the lack of it).
 ## [State of JavaScript 2024](https://2024.stateofjs.com/en-US)
 
 It is always interesting to browse the results of the annual JS survey. In my eyes, the JavaScript ecosystem has slowed down recently, and this is a very good thing. Of course, the ecosystem still argues about the best patterns to write code, but the set of tools at this point looks very much stable and standardised. No surprise here that Vite and Vitest adoption exploded and a bunch of new tools and meta frameworks build on top of their primitives. Overall, an interesting read.
+
+## [Easing Wizard](https://easingwizard.com)
+
+Super well-designed CSS easing wizard. It comes with predefined cubic bezier and linear functions, ready for copy and paste. Also, the preview of multiple animatable CSS properties is a super nice touch.
