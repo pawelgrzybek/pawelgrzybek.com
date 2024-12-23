@@ -36,7 +36,8 @@ The mission of helping artists make a sustainable living by creating art is what
 
 ## Next years focus
 
-- Do fewer things, and exercise patience, slowly disappearing skill
+- Do fewer things, and exercise patience, slowly disappearing skill, be more present at doin what youre doing. when i listen to a music i want to listen to a music, when i play with my kid i want to play with my kid
+- Declutter life, i want more boting but reliably working things in my life, i want mote vitamix food processors, i want less powerbanks
 - Continue being present father
 - Grow the meetup to something even bigger and better than it bacame to be in 2024
 - ***
