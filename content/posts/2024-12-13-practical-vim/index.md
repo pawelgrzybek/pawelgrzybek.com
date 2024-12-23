@@ -21,3 +21,9 @@ The `<C-a>` and `<C-x>` perform number additoina dn subsstitution respectively. 
 The expression register can be invoked using `<C-r>=` and allows us to perform a simmple math clculations without leaving the insert mode.
 
 `<C-r>=5*5*5<Cr>`
+
+## Run normal mode command across multiple lines
+
+The `normal` ex command allows us to run all normal mode commands, but on a range of consecutive lines. This thing gets a lot more powerful with the combination of dot-command or even macros. On the example below I am appending a semicolon to multiple lines by repeating a command that I executed on the first line. This is super powerful!
+
+##
