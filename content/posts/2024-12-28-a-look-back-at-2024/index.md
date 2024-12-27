@@ -3,34 +3,51 @@ title: "A look back at 2024"
 summary: ""
 ---
 
-Time for my annual summary of the past year. This yearm unusually I am not sitting next to the Christmas tree, surrounded by rainders and little Santas. I am in the south of Portugal with my family, chillin and doing everything but not participating in Christmassy overconsumptoin. Although it is tempting to say that this year went by a blink of an eye, when I deeply think about it, it was a time of a huge growth for me and I achieved tons of things I am proud of.
+This year I am not next to the Christmas tree surrounded by reindeers and blinking lights, but I am in sunny [Carvoeiro](<https://en.wikipedia.org/wiki/Carvoeiro_(Lagoa)>) on the south coast of Portugal with my family, relaxing and reflecting on the past year. To keep an annual tradition, I would like to share with you some of the highlights and set some goals for the upcoming year.
 
-Before I go any further, let me embarasingly confess that I misserably failed my running goals that I set for myself last year. I participated in the open source developement of some Rust-based projects though. I also wanted to change my profile picture to something freshed than a decade, so I am concluding the year n=with a picture that is not a decade, but 11 years old.
+{{< figure src="carvoeiro-family-pic.jpg" alt="A picture of myself, stading on the beach and smiling." caption="A family picture from the Christmas trip to Carvoeiro." >}}
 
-1. ❌ Run a half-marathon distance and stay alive.
-1. ✅ Get involved in the Rust open-source community.
-1. ❌ Change a decade-old profile picture.
+A quick goals check from the previous year. I embarrassingly failed my running goal from the past year, but I managed to accomplish the others. I am not sure why I force myself to get into running so much, but I am keeping this goal for the next year. I contributed to a number of open-sourced Rust-based projects, and after a decade of using the same profile picture, I have a new one (maybe it sounds trivial to you, but I just hate being on this side of a camera).
 
-{{< figure src="cefalu.jpg" alt="" caption="A randome pics from 2024 I like" >}}
+1. ❌ Run the distance of a half-marathon
+1. ✅ Get involved in the Rust open-source community
+1. ✅ Change a decade-old profile picture
+
+{{< figure src="avatar-2024.jpg" alt="A family picture of three of us on the beach in Carvoeiro. Baby in the pushchair on the right, and hugging couple on the center of a frame." caption="Time for a decennial profile pic update. Same kid, just more wrinkles and grey hair." >}}
 
 ## Fatherhood
 
-- super challenging
-- super rewarding
-- is when some emothions that were previously known as a theory starting make senseo
-- worry about kid is next level
+I am the proudest father of a 15 months old Antonia and she is the driving force for almost anythign else I do in my life. So far, we expereinced a few stages of parenting and every single one of them, despite its challenges, is the most rewarding thing that could happen to us. Being a father opened another level of my emotional understading inside me. This all probabably sounds super boring to you if you don't have kids, or perfectly obvious if you do. Just wanted to express my gratitude for having so incredible family.
 
 ## NN1 Dev Club
 
-- when your life is super busy youre father of 1yo you organise a meetup, best idea
+When you have a busy life and a little time to spare, throwing more responsibilities at yourself is the worst thing you can do, right? So, at the beginning of the year, I organised a meetup. Being inspired by tech meetups I attended in the past, and additionally motivated by the lack of such a thing in the area I live in, I teamed up with my friend Darren, and [NN1 Dev Club](https://nn1.dev) became a thing.
+
+The NN1 prefix is the postcode for Northampton town centre, a place where I and plenty of other software enthusiasts live. Ever since I moved to this town 13 years ago, I have met only a few local programmers, but I knew they were around, coding in their caves, also seeking a community of likeminded geeks. Organising a meetup was an incredible idea to bring this crowd together.
+
+Everything about this initiative exceeded my expectations! The enthusiasm of the attendees, the turnout, the engagement of the members, and the connections it formed. We have an incredible, thriving community of local techies and tons of ideas for the upcoming year. We put a lot of hard work into it, but it was worth it. Thank you, Northamptonshire geeks!
+
+![NN1 Dev Club logo in making](nn1-dev-club-1.jpg)
+
+![NN1 Dev Club stickers](nn1-dev-club-2.jpg)
+
+![NN1 Dev Club tshirt](nn1-dev-club-3.jpg)
+
+![NN1 Dev Club picture of a slide that says "Fuck Elon"](nn1-dev-club-4.jpg)
 
 ## Avant Arte
 
-After loosing my job in November 2022, I stayed unemployed for five months. The job hunt was not fun at all. The market was not as saturated with suitable positions than it was in previous years. Also, the recruitement process is a lot more difficult when you need to find a job compared to the process of switching from one workplace to the other. It was stressful, annoying, time consuming and momentairly embarassing. I was rejected number of times and I wasted silly time on conversations that lead to nothing. Luckily, I also met incredible people on the way who I became friends with. In the end I ended up with four job offers and at the beginning of April very happily joined Avant Arte.
+Last year at this time, [my job situation was complicated](/a-look-back-at-2023/#job-situation-fiasco). After losing my job in November 2022, I stayed unemployed for five months. There were very few job openings for companies that I would like to work for. The recruitment process is a lot more difficult when you need to find a job compared to switching jobs. It was stressful, annoying, time-consuming, and momentarily embarrassing. I was rejected a number of times, and I wasted silly time on conversations that led to nothing. Luckily, I met incredible friends along the way. Finally, I ended up with four job offers, and at the beginning of April, I joined [Avant Arte](https://avantarte.com).
 
-The mission of helping artists make a sustainable living by creating art is what makes me proud working for this company. As part of super small engineering team where everyone shares super wide scope of responsibilities keeps my brain cell cogs spinning all the time, but realistic goals allow me to have a good work-life balance. I'm grateful of being part of this team.
+Helping artists make a sustainable living is what makes me happy working for this company. I’m part of a small engineering team where everyone shares a wide scope of responsibilities. It allows me to grow as a programmer while keeping a healthy work-life balance, which is more important to me than ever before. I’m grateful to be part of this team.
 
 ## Modal editors recovered my joy of coding
+
+Striving for the most optimal solution for a given problem is what brings me joy, and it is a significant part of a programmer's job. Nowadays, AI assistants can partially do it for you (the quality of suggested solutions aside), and most of the programming tools are optimised for the collaboration between you and an AI helper. This trend has led to bloated editors with the AI front and centre. For me, this movement has killed the joy of writing code!
+
+I abandoned all of the modern programming tooling in favour of rudimentary, simple tools. [Helix](https://helix-editor.com) was the first terminal-based modal editor I used, and I loved it. After a while, I switched to [Neovim](https://neovim.io), but I elaborated on the motivation and process in ["The Joy of Learning Helix"](/the-joy-of-learning-helix-and-probably-other-modal-terminal-based-editors/) and ["From Helix to Neovim"](/from-helix-to-neovim/). This change was revolutionary for me because I enjoy writing code again. Maybe it made me slower, and possibly I could accomplish more with modern tooling, but I have tons of fun.
+
+I didn't ditch AI tools from my day-to-day workflow. I still use a few models on a daily basis for things like spell checking, quick searches and help with programming constructs of languages that I don’t know; I just removed their integration from my coding environment.
 
 ## This blog
 
@@ -40,56 +57,3 @@ The mission of helping artists make a sustainable living by creating art is what
 - Declutter life, i want more boting but reliably working things in my life, i want mote vitamix food processors, i want less powerbanks
 - Continue being present father
 - Grow the meetup to something even bigger and better than it bacame to be in 2024
-- ***
-
-## Job situation fiasco
-
-Despite my doubtful sympathy for the Web3 universe, I joined Polygon a year and a half ago. I did it for money, which was a good decision for me then. I joined the team to work on a product that was supposed to solve another non-existing problem. A few months after I joined, the whole division was acquired by an investor with even less realistic goals in mind just to shut down the initiative in November this year. I published, ["Just like that, we are shutting down! So, I am looking for a new role"](/just-like-that-we-are-shutting-down-so-i-am-looking-for-a-new-role/), where I shared more details.
-
-I'm closing the year unemployed, ready to start a new journey with very different priorities. I would love to work for a company that shares similar values, aligns with my love for open Web standards, and solves real problems for real people.
-
-## Writing
-
-I will refrain from bragging about this page's number of unique visitors, session duration and insignificant bounce rate. Quite the opposite because I don't care about all this noise. I'm writing to express my joy at publishing new content, learning new things, and sharing it with you. In March, I published ["Eight years of blogging"](/eight-years-of-blogging/) and elaborated on all the beautiful things that consistent publishing brought to my life.
-
-Since the beginning of the year, I published 60 new articles, which is more than ever. I did a light redesign and added a new [music collection page](/music). My brain is a never-ending queue of ideas for fresh articles, and I look forward to publishing them. Thank you all for reading!
-
-![Screenshot of my new music collection page](music-page.jpg)
-
-## Proficiency in Rust
-
-I have been learning Rust for a while now, but only recently have I finally reached the stage when I choose Rust more often than any other tool I know to solve my programming problems. I'm far from using this programming language professionally, but it feels good to be equipped with such a powerful tool.
-
-## Read and watched
-
-A productive year as a writer resulted in a lighter year as a reader, but I read some pieces worth mentioning. I also watched a few good movies and TV shows that I enjoyed a lot.
-
-["The Body" by Bill Bryson](/book-review-the-body-by-bill-bryson/) and ["The Book You Wish Your Parents Had Read" by Philippa Perry](/book-review-the-book-you-wish-your-parents-had-read-by-philippa-perry/) were my favourite books of the year.
-
-I was late to the party, but finally watched [the Hobbit movie series](<https://en.wikipedia.org/wiki/The_Hobbit_(film_series)>) this year and enjoyed the whole saga. ["Tetris"](https://www.imdb.com/title/tt12758060/) was a lot nicer than I expected. I laughed the most on ["Strays"](https://www.imdb.com/title/tt15153532/). ["Flora and Son"](https://www.imdb.com/title/tt25471950/), ["The Banshees of Inisherin"](https://www.imdb.com/title/tt11813216/), and ["The Banker"](https://www.imdb.com/title/tt6285944/) are the ones I enjoyed as well. ["Beef"](https://www.imdb.com/title/tt14403178/) and ["Lessons in Chemistry"](https://www.imdb.com/title/tt13911628/) were my favourite TV shows of 2023.
-
-![Posters of movies I liked in 2023](movies.jpg)
-
-## Fighting bad habits and re-learning good ones
-
-Life events, the beginning of a new year and the desire to change something nicely aligned resulted in one of the best things I have ever done to my physical and mental state. On the last day of the previous year, I had an alcoholic drink for the last time. I observed a lot of benefits: extended attention span, productivity boost, improved metabolism, better sex life and plenty more. It is quite a good way to save some cash as well. I elaborated a bit more about it in ["Book review: The Alcohol Experiment by Annie Grace"](https://pawelgrzybek.com/book-review-the-alcohol-experiment-by-annie-grace/) if you're curious.
-
-I also defeated my panic fear of driving. After over a decade of avoiding the driver's seat, I took some lessons and re-learned driving. I enjoy doing it now and feel more comfortable doing it than ever. Maybe it sounds like nothing to you, but it was a biggie for me.
-
-## Three of us
-
-No matter what words I use to write this paragraph, it won't describe my emotions for this news. In September, our daughter entered this world. Her name is Antonia, and she's strong, healthy and incredible in every aspect. This little angel fulfilled our biggest dream.
-
-![Antonia, our daughter](tosia.jpg)
-
-I would love to thank my fiance for being the best partner a man can have on his side and for being the best mother for little Tosia (the Polish diminutive of the name Antonia). After everything you have done for us, after all you do, you still have the energy to support me. Thank you ❣️
-
-## I'm ready for 2024
-
-It took me forever to condense a year of my life into this article, but I love this annual tradition. As said before, it is a moment of gratitude and an opportunity to set goals for the upcoming year. This time, I will avoid vague-sounding targets that are easy to ignore but set some concrete achievements to aim for.
-
-1. Run a half-marathon distance and stay alive.
-2. Get involved in the Rust open-source community.
-3. Change a decade-old profile picture.
-
-I'm ready for 2024. Have a good year, everybody 🎉
