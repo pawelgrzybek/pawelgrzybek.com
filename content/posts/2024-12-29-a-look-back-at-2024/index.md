@@ -17,7 +17,7 @@ A quick goals check from the previous year. I embarrassingly failed my running g
 
 ## Fatherhood
 
-I’m the proudest father of a 15-month-old Antonia, and she is the driving force for almost anything else I do in my life. So far, we have experienced a few stages of parenting, and every single one of them, despite its challenges, is the most rewarding thing that could happen to us. Being a father opened another level of emotional understanding inside me. This all probably sounds super boring to you if you don’t have kids, or perfectly obvious if you do. I just wanted to express my love and gratitude for having an incredible family.
+I’m the proudest father of a 15-month-old Antonia, and she is the driving force for everything I do in my life. So far, we have experienced a few stages of parenting, and every single one of them, despite its challenges, is the most rewarding thing that could happen to us. Being a father opened another level of emotional understanding inside me. This all probably sounds super boring to you if you don’t have kids, or perfectly obvious if you do. I just wanted to express my love and gratitude for having an incredible family.
 
 ## NN1 Dev Club
 
@@ -37,13 +37,13 @@ Everything about this initiative exceeded my expectations! The enthusiasm of the
 
 ## Avant Arte
 
-Last year at this time, [my job situation was complicated](/a-look-back-at-2023/#job-situation-fiasco). After losing my job in November 2022, I stayed unemployed for five months. There were very few job openings for companies that I would like to work for. The recruitment process is a lot more difficult when you need to find a job compared to switching jobs. It was stressful, annoying, time-consuming, and momentarily embarrassing. I was rejected a number of times, and I wasted silly time on conversations that led to nothing. Luckily, I met incredible friends along the way. Finally, I ended up with four job offers, and at the beginning of April, I joined [Avant Arte](https://avantarte.com).
+Last year at this time, [my job situation was complicated](/a-look-back-at-2023/#job-situation-fiasco). After losing my job in November 2023, I stayed unemployed for five months. There were very few job openings for companies that I would like to work for. The recruitment process is a lot more difficult when you need to find a job compared to switching jobs. It was stressful, annoying, time-consuming, and momentarily embarrassing. I was rejected a number of times, and I wasted silly time on conversations that led to nothing. Luckily, I met incredible friends along the way. Finally, I ended up with four job offers, and at the beginning of April, I joined [Avant Arte](https://avantarte.com).
 
 Helping artists make a sustainable living is what makes me happy working for this company. I’m part of a small engineering team where everyone shares a wide scope of responsibilities. It allows me to grow as a programmer while keeping a healthy work-life balance, which is more important to me than ever before. I’m grateful to be part of this team.
 
 ## Modal editors recovered my joy of coding
 
-Striving for the most optimal solution for a given problem is what brings me joy, and it is a significant part of a programmer's job. Nowadays, AI assistants can partially do it for you (the quality of suggested solutions aside), and most of the programming tools are optimised for the collaboration between you and an AI helper. This trend has led to bloated editors with the AI front and centre. For me, this movement has killed the joy of writing code!
+Striving for the most optimal solution for a given problem brings me joy, and it is a significant part of a programmer's job. Nowadays, AI assistants can partially do it for you (the quality of suggested solutions aside), and most of the programming tools are optimised for the collaboration between you and an AI helper. This trend has led to bloated editors with the AI front and centre. For me, this movement has killed the joy of writing code!
 
 I abandoned all of the modern programming tools in favour of rudimentary, simple tools. [Helix](https://helix-editor.com) was the first terminal-based modal editor I used, and I loved it. After a while, I switched to [Neovim](https://neovim.io), but I elaborated on the motivation and process in ["The Joy of Learning Helix"](/the-joy-of-learning-helix-and-probably-other-modal-terminal-based-editors/) and ["From Helix to Neovim"](/from-helix-to-neovim/). Potentially, this change made me slower, and I'm not as efficient as some of the modern tooling users, but I manage to get the job done, and I have tons of fun doing it.
 
@@ -61,6 +61,6 @@ PS. [Chris Coyier called me "a great blogger"](https://shoptalkshow.com/639/) in
 
 Nothing goes higher on my priority list than being a good father and partner for my loved ones. I have a bunch of plans for the NN1 Dev Club to be something more than just the best tech meetup in the central part of England. I hope to find more time for technical writing on this blog – I really miss that!
 
-Inspired by [the latest book by Cal Newport, "Slow Productivity"](https://calnewport.com/my-new-book-slow-productivity/), I just want to do fewer things. We live in the age of people with short attention spans looking for instant gratification. Patience is not our generation's strength. Omnipresent AI helpers have allowed us to iterate on small tasks quicker than ever, reaching the state of pseudo productivity without putting any effort into the thing. I don’t want to end up in this trap. I want to work hard on fewer things. I want to exercise my patience, solve problems that require well-thought-out solutions, and discard meaningless distractions in all areas of my life.
+Inspired by [the latest book by Cal Newport, "Slow Productivity"](https://calnewport.com/my-new-book-slow-productivity/), I just want to do fewer things. We live in the age of people with short attention span looking for instant gratification. Patience is not our generation's strength. Omnipresent AI helpers have allowed us to iterate on small tasks quicker than ever, reaching the state of pseudo productivity without putting any effort into the thing. I don’t want to end up in this trap. I want to work hard on fewer things. I want to exercise my patience, solve problems that require well-thought-out solutions, and discard meaningless distractions in all areas of my life.
 
 That's all from me in 2024. Have a wonderfull 2025 😘
