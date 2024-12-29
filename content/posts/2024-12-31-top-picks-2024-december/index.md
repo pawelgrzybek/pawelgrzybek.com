@@ -44,3 +44,7 @@ Super well-designed CSS easing wizard. It comes with predefined cubic Bézier an
 ### [Ghostty 1.0](https://ghostty.org)
 
 Ghostty is the new terminal emulator built by Mitchell Hashimoto, the creator of Vagrant, Terraform and co-founder of HashiCorp. He spent two years building it with Zig and a bunch of native technologies with the goal of creating the best terminal available. It took me a moment to transition my Alacritty configuration to Ghostty, and now I use it as my daily driver. It has everything I would expect from a terminal client built in, comes with tons of options and themes, and feels a lot snappier than any other client I used before. In ["Ghostty: Reflecting on Reaching 1.0"](https://mitchellh.com/writing/ghostty-1-0-reflection), the author elaborates further on the creation process.
+
+### [Fish 4.0: The Fish Of Theseus](https://fishshell.com/blog/rustport/)
+
+The Fish shell team shares a bunch of interesting insights from the famous [rewrite from C/C++ to Rust](https://github.com/fish-shell/fish-shell/pull/9512). The motivation and process, good, bad, and regrests. A very interesting read.
