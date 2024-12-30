@@ -19,6 +19,8 @@ A quick goals check from the previous year. I embarrassingly failed my running g
 
 I’m the proudest father of a 15-month-old Antonia, and she is the driving force for everything I do in my life. So far, we have experienced a few stages of parenting, and every single one of them, despite its challenges, is the most rewarding thing that could happen to us. Being a father opened another level of emotional understanding inside me. This all probably sounds super boring to you if you don’t have kids, or perfectly obvious if you do. I just wanted to express my love and gratitude for having an incredible family.
 
+![My doughter sitting on my shoulders, and we are both looking at the beautiful view on the beach in the south of Portugal](fatherhood.jpg)
+
 ## NN1 Dev Club
 
 When you have a busy life and a little time to spare, throwing more responsibilities at yourself is the worst thing you can do, right? So, at the beginning of the year, I organised a meetup. Being inspired by tech meetups I attended in the past, and additionally motivated by the lack of such a thing in the area I live in, I teamed up with my buddy Darren, and the [NN1 Dev Club](https://nn1.dev) became a thing.
