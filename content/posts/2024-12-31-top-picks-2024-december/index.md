@@ -3,7 +3,9 @@ title: "Top picks — 2024 December"
 summary: "You would expect December to be a quiet month, but it was full of interesting releases and a bunch of great resources came out."
 ---
 
-What a month. You would expect December to be a quiet month, but it was full of interesting releases, and a bunch of great resources came out. Other than that, I also have some great music recommendations for you folks.
+This is the last post of 2024. It was a really good year overall, but to keep an annual tradition I published ["A look back at 2024"](/a-look-back-at-2024/) where I revealed more. It was also an interesting month. You would expect December to be a quiet month, but it was full of interesting releases, and a bunch of great resources came out. Other than that, I also have some great music recommendations for you folks.
+
+Before you jump into top picks and music recommendations, I would like to wholeheartedly wish you a happy and healthy 2025.
 
 ---
 
