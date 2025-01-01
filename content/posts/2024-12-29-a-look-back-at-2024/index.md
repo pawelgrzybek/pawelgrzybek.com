@@ -66,3 +66,18 @@ Nothing goes higher on my priority list than being a good father and partner for
 Inspired by [the latest book by Cal Newport, "Slow Productivity"](https://calnewport.com/my-new-book-slow-productivity/), I just want to do fewer things. We live in the age of people with short attention span looking for instant gratification. Patience is not our generation's strength. Omnipresent AI helpers have allowed us to iterate on small tasks quicker than ever, reaching the state of pseudo productivity without putting any effort into the thing. I don’t want to end up in this trap. I want to work hard on fewer things. I want to exercise my patience, solve problems that require well-thought-out solutions, and discard meaningless distractions in all areas of my life.
 
 That's all from me in 2024. Have a wonderfull 2025 😘
+
+---
+
+## Others blog about 2024
+
+For me, it became an annual tradition to publish annual reviews, but I’m not the only one with this habit. I put together a list of others’ reviews that I enjoyed reading.
+
+- ["What I got up to in 2024" by Hidde de Vries](https://hidde.blog/2024-review/)
+- ["Twenty Twenty-Four" by Dave Ruppert](https://daverupert.com/2024/12/twenty-twenty-four/)
+- ["A year in review: 2024" by Max Böck](https://mxb.dev/blog/year-in-review-2024/)
+- ["2024 in Review" by Garrit Franke](https://garrit.xyz/posts/2024-12-29-2024-in-review)
+- ["Just 2024 Things" by Robb Knight](https://rknight.me/blog/just-2024-things-i-didnt-get-the-year-wrong-this-time/)
+- ["2024 in Review" by Noah Jacobus](https://www.noahjacob.us/words/2024-in-review.html)
+- ["Public speaking in 2024" by Rachel Andrew](https://rachelandrew.co.uk/archives/2024/12/31/public-speaking-in-2024/)
+- ["My 2024" by Remy Sharp](https://remysharp.com/2024/12/31/my-2024)
