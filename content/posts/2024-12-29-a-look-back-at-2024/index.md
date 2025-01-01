@@ -81,3 +81,5 @@ For me, it became an annual tradition to publish annual reviews, but I’m not t
 - ["2024 in Review" by Noah Jacobus](https://www.noahjacob.us/words/2024-in-review.html)
 - ["Public speaking in 2024" by Rachel Andrew](https://rachelandrew.co.uk/archives/2024/12/31/public-speaking-in-2024/)
 - ["My 2024" by Remy Sharp](https://remysharp.com/2024/12/31/my-2024)
+- ["Creative Year-in-Review 2024" by Devon Dundee](https://devondundee.com/blog/creative-year-in-review-2024)
+- ["2024 as bullet points" by Christopher Kirk-Nielsen](https://chriskirknielsen.com/blog/2024-as-bullet-points/)
