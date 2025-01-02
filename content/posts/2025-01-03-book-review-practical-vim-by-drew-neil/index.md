@@ -1,9 +1,13 @@
 ---
-title: My favourite tips from "Practical Vim" by Drew Neil
+title: 'Book review: "Practical Vim" by Drew Neil'
 summary: ""
 ---
 
 I just finished reading "Practical Vim" by Drew Neil. This book helped me to understand the Vim philosophy and made me a lot more efficient Vim user. It is a must-read for everyone interested in the subject, no matter how advanced you are. The book is structured into hundreds of bite sized practical tips and on this post I would like to share my favourite ones with you. This is just a snipet of wisdom that you can find in the book so I would highly recommend buying a copy.
+
+!["Practical Vim" by Drew Neil](1.jpg)
+
+!["Practical Vim" by Drew Neil](2.jpg)
 
 ## Underused the dot command
 
