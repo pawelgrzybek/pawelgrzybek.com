@@ -6,6 +6,6 @@
       <a href="{{ .Get "path" }}" download="{{ .Get "path" }}">link to the video</a> instead.
     </p>
   </video>
-  <figcaption>{{ .Get "caption" }}</figcaption>
+  <figcaption>{{ .Get "caption" | markdownify }}</figcaption>
 </figure>
 
