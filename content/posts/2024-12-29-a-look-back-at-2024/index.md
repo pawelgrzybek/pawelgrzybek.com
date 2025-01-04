@@ -84,3 +84,4 @@ For me, it became an annual tradition to publish annual reviews, but I’m not t
 - ["Creative Year-in-Review 2024" by Devon Dundee](https://devondundee.com/blog/creative-year-in-review-2024)
 - ["2024 as bullet points" by Christopher Kirk-Nielsen](https://chriskirknielsen.com/blog/2024-as-bullet-points/)
 - ["2024" by Rach Smith](https://rachsmith.com/2024/)
+- ["2024" by Jeremy Keith](https://adactio.com/journal/21630)
