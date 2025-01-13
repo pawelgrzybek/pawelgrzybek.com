@@ -23,4 +23,6 @@ Really great tip by Stefan, and also a great reminder that people use auto-trans
 
 Very good talk about the current state of the frontend industry. Alex elaborates on the undelivered promises of the Web platform, where we as an industry went wrong and what we can do about it. It contains a bunch of shocking stats, but the one that shocked me the most was the global growth of mobile as a platform and the disproportional stagnation of the web.
 
-{{< youtube 0XwWVjQOmyg >}}
+### [Creator of Ghostty talks Zig over Go](https://youtu.be/YQnz7L6x068)
+
+Insightful interview with [Mitchell Hashimoto](https://mitchellh.com), the creator of the [Ghostty terminal emulator](https://ghostty.org/docs) that I included in [the top picks list last month](/top-picks-2024-december/). Plenty of great lessons about choosing the programming language for the task, the importance of joy, and some controversial rants about Rust. I also learned a ton about the internals of terminal applications.
