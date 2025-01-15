@@ -26,3 +26,7 @@ Very good talk about the current state of the frontend industry. Alex elaborates
 ### [Creator of Ghostty talks Zig over Go](https://youtu.be/YQnz7L6x068)
 
 Insightful interview with [Mitchell Hashimoto](https://mitchellh.com), the creator of the [Ghostty terminal emulator](https://ghostty.org/docs) that I included in [the top picks list last month](/top-picks-2024-december/). Plenty of great lessons about choosing the programming language for the task, the importance of joy, and some controversial rants about Rust. I also learned a ton about the internals of terminal applications.
+
+### [CSS text-box-trim](https://developer.chrome.com/blog/css-text-box-trim)
+
+Very good explanation of the new `text-box` CSS property (a shorthand for `text-box-trim`, `text-box-edge` and `line-fit-edge`) by Adam Argyle from the Google team. It mayb be known as a `leading-trim`, but [it has been renamed](https://github.com/w3c/csswg-drafts/issues/8067#issuecomment-1451111081). This is super duper useful. Looking forward to some signals from Firefox about the implementation intent.
