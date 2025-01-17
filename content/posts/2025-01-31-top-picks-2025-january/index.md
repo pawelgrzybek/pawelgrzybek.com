@@ -30,3 +30,7 @@ Insightful interview with [Mitchell Hashimoto](https://mitchellh.com), the creat
 ### [CSS text-box-trim](https://developer.chrome.com/blog/css-text-box-trim)
 
 Very good explanation of the new `text-box` CSS property (a shorthand for `text-box-trim`, `text-box-edge` and `line-fit-edge`) by Adam Argyle from the Google team. It mayb be known as a `leading-trim`, but [it has been renamed](https://github.com/w3c/csswg-drafts/issues/8067#issuecomment-1451111081). This is super duper useful. Looking forward to some signals from Firefox about the implementation intent.
+
+### [CSS attr() gets an upgrade](https://developer.chrome.com/blog/advanced-attr)
+
+Definitely not enough folks talk about this announcement. The CSS `attr()` is now gaining some extra powers. Previously we could use this function to read the content of the attribute via CSS and pass it down to the `content `property, but from now on, we can use it wherever we want. This is an incredibly powerful feature and it is going to simplify tons of stuff.
