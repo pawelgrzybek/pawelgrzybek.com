@@ -34,3 +34,7 @@ Very good explanation of the new `text-box` CSS property (a shorthand for `text-
 ### [CSS attr() gets an upgrade](https://developer.chrome.com/blog/advanced-attr)
 
 Definitely not enough folks talk about this announcement. The CSS `attr()` is now gaining some extra powers. Previously we could use this function to read the content of the attribute via CSS and pass it down to the `content `property, but from now on, we can use it wherever we want. This is an incredibly powerful feature and it is going to simplify tons of stuff.
+
+### [calc-size() and interpolate size](https://12daysofweb.dev/2024/calc-size-and-interpolate-size/)
+
+As part of last year's 12 Days of Web, Kevin Powell published this great explainer of one of the most awaited CSS features ever. Animating to height `auto` is finally possible, and we have not one, but two methods of doing so. Kevin explains them in great detail.
