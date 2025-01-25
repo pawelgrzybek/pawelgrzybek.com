@@ -2,11 +2,13 @@
 {{- $baseurl := "https://api.webstatus.dev/v1/features/" -}}
 {{- $param := .Get "feature" -}}
 {{- $url := printf "%s/%s" $baseurl $param -}}
-{{- with resources.GetRemote $url -}}
+{{- with try (resources.GetRemote $url) -}}
   {{- with .Err -}}
-    {{- errorf "Failed to fetch %s: %s" $url . -}}
-  {{- else -}}
+    {{ warnf "🥑 Error: %s" . }}
+  {{- else with .Value -}}
     {{- $data = . | transform.Unmarshal -}}
+  {{- else -}}
+    {{- warnf "🥑 Failed to fetch %s: %s" $url . -}}
   {{- end -}}
 {{- end -}}
 
