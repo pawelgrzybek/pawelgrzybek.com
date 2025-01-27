@@ -7,6 +7,10 @@ summary: ""
 
 ## Album of the month
 
+I had a period of my life when I dug deeply into the Swedish rap scene. The Looptroop Rockers are still one of my favourite bands ever. Around the same time, I discovered Red Astaire, also known as Freddie Kruger or by his real name, Fredrik Lager. I can't tell you how much I dig some of his mixes. I recently picked up cheaply in a local record store ["Nuggets For The Needy Volume 3"](https://www.discogs.com/release/18822862-Red-Astaire-Nuggets-For-The-Needy-Volume-3), and it has been spinning on my record player for weeks. I recently found out that Fredrik died in June 2022 following a heart attack. Rest in peace 😔
+
+![Red Astaire, Nuggets For The Needy Volume 3](red-astaire.jpg)
+
 ---
 
 ## Top picks
