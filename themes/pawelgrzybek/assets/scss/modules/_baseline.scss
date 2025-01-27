@@ -10,7 +10,7 @@
 .baseline__top {
   display: flex;
   gap: calc(var(--lh) / 2);
-  padding: var(--lh);
+  padding: calc(var(--lh) * 0.75);
   box-shadow: inset 0 -1px 0 0 var(--color-box-border-dark);
   background-color: var(--color-box-background);
   align-items: center;
