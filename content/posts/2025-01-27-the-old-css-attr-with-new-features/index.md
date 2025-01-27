@@ -11,7 +11,7 @@ The CSS `attr()` function retrieves a value from an HTML element’s attribute. 
 
 ```css
 article::before {
-  content: "In category:" attr(data-category);
+  content: "In category: " attr(data-category);
 }
 ```
 
