@@ -42,3 +42,11 @@ Definitely not enough folks talk about this announcement. The CSS `attr()` is no
 ### [calc-size() and interpolate size](https://12daysofweb.dev/2024/calc-size-and-interpolate-size/)
 
 As part of last year's 12 Days of Web, Kevin Powell published this great explainer of one of the most awaited CSS features ever. Animating to height `auto` is finally possible, and we have not one, but two methods of doing so. Kevin explains them in great detail.
+
+### [Typescript --erasableSyntaxOnly configuration flag](https://github.com/microsoft/TypeScript/pull/61011)
+
+Recently added type stripping feature to Node.js inspired the TypeScript team to add a new configuration flag that disallows features that are not erasable, like enums, namespaces, experimental decorators and class parameter properties. It is scheduled to be released with the upcoming version 5.8. Also, Matt Pocock recorded ["TypeScript shipped a flag to disable enums"](https://youtu.be/zeNh4fuJhcA) about it.
+
+### [Who's Afraid of a Hard Page Load?](https://unplannedobsolescence.com/blog/hard-page-load/)
+
+Great article about the advantages of good old hard page reload vs. fancy client-side routing by Alex Petros. The more I work on the web, the more I respect the primitives the browser comes with. This is the first time I have read a piece by Alex, but for me, this kind of content smells like an instant subscribe kind of blog!
