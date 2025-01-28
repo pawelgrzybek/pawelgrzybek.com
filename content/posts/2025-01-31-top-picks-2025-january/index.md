@@ -50,3 +50,7 @@ Recently added type stripping feature to Node.js inspired the TypeScript team to
 ### [Who's Afraid of a Hard Page Load?](https://unplannedobsolescence.com/blog/hard-page-load/)
 
 Great article about the advantages of good old hard page reload vs. fancy client-side routing by Alex Petros. The more I work on the web, the more I respect the primitives the browser comes with. This is the first time I have read a piece by Alex, but for me, this kind of content smells like an instant subscribe kind of blog!
+
+### [It's time to ditch BlinkMacSystemFont and -apple-system](https://highperformancewebfonts.com/read/ditch-BlinkMacSystemFont-and-apple-system)
+
+A great advice about clearing out some of the legacy CSS font declarations. I must admit that for years I have been copying the system font declaration from GitHub, but now I have a good understanding of it and a good reason not to do it anymore.
