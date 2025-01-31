@@ -20,11 +20,6 @@
   <meta property="og:description" content="{{ .Summary }}">
   <meta property="og:image" content="{{ if (and .Page.File (os.FileExists (path.Join "content" .Page.File.Dir "og.jpg" )) ) }}{{ urls.JoinPath .Page.Permalink "og.jpg" }}{{ else }}{{ urls.JoinPath .Site.BaseURL "og.jpg" }}{{ end }}">
 
-  {{ "<!-- Twitter Card -->" | safeHTML }}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@pawelgrzybek" />
-  <meta name="twitter:creator" content="@pawelgrzybek" />
-
   {{ "<!-- Fediverse -->" | safeHTML }}
   <meta name="fediverse:creator" content="@pawelgrzybek@mastodon.social" />
 
