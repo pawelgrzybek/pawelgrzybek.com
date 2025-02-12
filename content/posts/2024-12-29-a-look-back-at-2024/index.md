@@ -86,3 +86,4 @@ For me, it became an annual tradition to publish annual reviews, but I’m not t
 - ["2024" by Rach Smith](https://rachsmith.com/2024/)
 - ["2024" by Jeremy Keith](https://adactio.com/journal/21630)
 - ["A year in review: 2024" by Manuel Matuzović](https://matuzo.at/blog/2025/a-year-in-review-2024)
+- ["2024 - A year in Review" by Luciano Mammino](https://loige.co/2024-a-year-in-review/)
