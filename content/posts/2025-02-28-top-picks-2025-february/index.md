@@ -28,3 +28,7 @@ Really in-depth deep dive into the TypeScript template literals by Axel Rauschma
 ### [Software development topics I've changed my mind on after 10 years in the industry](https://chriskiehl.com/article/thoughts-after-10-years)
 
 Lists are everywhere, lists are cool, and this article is a list. It is actually a list of lists. I love this format, but I also like what Chris Kiehl shared with us after being in the software game for a decade.
+
+### [Less Precious](https://nazhamid.com/journal/less-precious/)
+
+Naz Hamid shares his thoughts about the social media trap and nicely summarises the recent trend of becoming the "content creator". The part that speaks to me the most, obviously, is about the importance of a personal website. Good short read.
