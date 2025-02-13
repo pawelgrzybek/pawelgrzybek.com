@@ -81,7 +81,8 @@ body {
   // background-size: 100% 1lh;
 }
 
-img {
+img,
+video {
   display: block;
   max-width: 100%;
   height: auto;
@@ -198,7 +199,9 @@ picture {
 }
 
 figcaption {
+  margin-block-start: calc(var(--lh) * 0.25);
   font-size: calc(var(--fz) / var(--type-scale));
+  line-height: calc(var(--lh) * 0.75);
   font-style: italic;
 }
 
