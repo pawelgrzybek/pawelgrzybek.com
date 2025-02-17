@@ -32,3 +32,7 @@ Lists are everywhere, lists are cool, and this article is a list. It is actually
 ### [Less Precious](https://nazhamid.com/journal/less-precious/)
 
 Naz Hamid shares his thoughts about the social media trap and nicely summarises the recent trend of becoming the "content creator". The part that speaks to me the most, obviously, is about the importance of a personal website. Good short read.
+
+### [Interop 2025: another year of web platform improvements](https://web.dev/blog/interop-2025)
+
+Tech giants gather together to work collaboratively on the web features cross compatibility, and the focus of this year is set in stone. Great features like anchor positioning and same document view transitions are part of it, but there is a lot more.
