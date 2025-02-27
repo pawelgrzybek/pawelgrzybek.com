@@ -1,17 +1,17 @@
 ---
 title: "Top picks — 2025 February"
-summary: ""
+summary: "Patterns for a personal website, TypeScript template literals, software development retrospectively, thoughts on social media, Interop 2025 and more."
 ---
 
-Intro
+It has been a crazy month for me work-wise. Other than work and family-related responsibilities, I neglected every other area of my life in the past few weeks: blogging, hobbies, and self-care. I am on a good trajectory to slow down, and I am very much looking forward to it. I found a moment here and there to prepare a few great resources for you. I hope you will like them. Catch you next month!
 
 ---
 
 ## Album of the month
 
-Album description
+There is not a lot of music I discovered in February other than calming ambient that I listen to when I work. But I had a few great listening sessions with my daughter and we massively enjoyed ["The Struggle Continues" by Looptroop Rockers](https://www.discogs.com/release/406021-Looptroop-The-Struggle-Continues). I can’t freaking believe that this record is 23 years old! It feels like "Bandit Queen" just came out yesterday. I love this record!
 
-![]()
+![Looptroop – The Struggle Continues](looptroop-rockers.jpg)
 
 ---
 
