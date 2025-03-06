@@ -28,3 +28,7 @@ This is one of the wildest things I have seen in a while. Using nothing but the 
 ### [React Libraries for 2025](https://www.robinwieruch.de/react-libraries/)
 
 Robin Wieruch published a number of great React-related resources in the past, and this one is just another one to add on the pile. A comprehensive list of React solutions related to state management, styling, data management, authentication, payments, component libraries, and others. Very up to date and all in a single place.
+
+### [Don’t Use Fake Bold or Italic in Social Media](https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html)
+
+Adrian with another great accessibility tip. This one is about abusing some UTF characters and using them in place to fact bold or italic styling, and what the impact for screen reader users is. The consequences can be huge! Rule of thumb, plain good old text always wins.
