@@ -32,3 +32,7 @@ Robin Wieruch published a number of great React-related resources in the past, a
 ### [Don’t Use Fake Bold or Italic in Social Media](https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html)
 
 Adrian with another great accessibility tip. This one is about abusing some UTF characters and using them in place to fact bold or italic styling, and what the impact for screen reader users is. The consequences can be huge! Rule of thumb, plain good old text always wins.
+
+### [How browsers REALLY load Web pages](https://fosdem.org/2025/schedule/event/fosdem-2025-4852-how-browsers-really-load-web-pages/)
+
+A deep dive into the browsers' resources prioritisation strategies by Robin Marx from Akamai Technologies. Very interesting how much browsers differ in terms of loading assets heuristics. Very technical exploration but presented in an engaging way by Robin.
