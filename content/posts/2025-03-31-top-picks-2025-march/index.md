@@ -36,3 +36,7 @@ Adrian with another great accessibility tip. This one is about abusing some UTF 
 ### [How browsers REALLY load Web pages](https://fosdem.org/2025/schedule/event/fosdem-2025-4852-how-browsers-really-load-web-pages/)
 
 A deep dive into the browsers' resources prioritisation strategies by Robin Marx from Akamai Technologies. Very interesting how much browsers differ in terms of loading assets heuristics. Very technical exploration but presented in an engaging way by Robin.
+
+### [Introducing command and commandfor](https://developer.chrome.com/blog/command-and-commandfor)
+
+Simple actions on the web, like opening a navigation when user clicks on the button, can be a tedious task to implement if it needs to respect all scenarios and does not harm accessibility. Some HTML elements come with native behaviours like `popoverTargetAction` and `popoverTarget` to simplify that, which does not require a single line of JS. These two `popover` attributes do not go anywhere, but now we are getting a lot more powerful solution that can fully replace them, but also work with plenty of other interactive elements. The `command` and `commandFor` can trigger an action on target elements like `popover`, `dialog`, and potentially soon on `input` and `detail` elements. This is one of the greatest additions to the web platform in a while, in my opinion.
