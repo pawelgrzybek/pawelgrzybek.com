@@ -1,6 +1,6 @@
 ---
 title: "Decade of blogging"
-summary: ""
+summary: "Ten years of regular-ish publishing have passed since I published the classic “Hello there!” and it feels pretty satisfying. I have some thoughts."
 ---
 
 Decade! Ten years of regular-ish publishing have passed since I published the classic ["Hello there!"](/hello-there/) and it feels pretty satisfying. Regular writing is good for so many reasons, but on this one, I elaborated two years ago in ["Eight years of blogging"](/eight-years-of-blogging/). Thinking clarity, job opportunities, improved vocabulary, and a playground to test things out are just a few of the reasons why it is great to keep a little corner of the internet just for yourself. It was only two years ago, so it feels a bit redundant to write another article, but damn, what kind of absurdly crazy two years they were! I have some thoughts.
@@ -27,8 +27,8 @@ At first glance, the situation does not look like the slow process of blogging i
 
 For the exact same reason why [I ditched modern coding tools](/the-joy-of-learning-helix-and-probably-other-modal-terminal-based-editors/) that want to control my actions, for the same reason I feel more motivated than ever to keep on writing. I really don't want skills that I am proud of to diminish. Despite that, it all sounds like a big rant against AI tools, I'm not against them at all. I will continue using them for what they are good at, but I want my creative process to stay AI-free.
 
-## Social media
+## POSSE
 
-Twitter is over and shame on you if you still support Elon's "free-speech" farm. Luckily, we have a lot of better alternatives. [Mastodon](https://mastodon.social/@pawelgrzybek) is what I use the most nowadays for a chit-chat with the rest of the IndieWeb folks. [Bluesky](https://bsky.app/profile/pawelgrzybek.com) is another popular alternative, but because of some funding decisions the company made, I wouldn't be so sure about the ethical future of this platform.
+Social media channels are great for spreading the word about a new article. But where should we post these days? Twitter is over and shame on you if you still support Elon's "free-speech" farm. Luckily, we have many better alternatives. [Mastodon](https://mastodon.social/@pawelgrzybek) is what I use most nowadays for a chit-chat with the rest of the IndieWeb folks. [Bluesky](https://bsky.app/profile/pawelgrzybek.com) is another popular alternative, but due to some funding decisions the company made, I wouldn't be so sure about the ethical future of this platform. Social media comes and goes, so it is impossible to pick the one.
 
-My absolutely favourite "social" place to be on, and the one I am absolutely sure about its future, is the Web. I want my social media profile to be this very website, and a meticulously crafted list of RSS channels to be my feed. I will continue publishing here as the canonical place for things I want people to read and pictures to be seen.
+My absolute favourite 'social' place to be, and the one I am most confident about regarding its future, is the Web. I want my social media profile to be this very website, and a meticulously crafted list of RSS channels to be my feed. I will continue publishing here as the canonical place for things I want people to read and syndicate wherever I feel appropriate. [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE) is what I believe in and what I will continue to do as I have been doing for the past few years.
