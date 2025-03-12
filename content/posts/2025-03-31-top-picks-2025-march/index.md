@@ -40,3 +40,9 @@ A deep dive into the browsers' resources prioritisation strategies by Robin Marx
 ### [Introducing command and commandfor](https://developer.chrome.com/blog/command-and-commandfor)
 
 Simple actions on the web, like opening a navigation when user clicks on the button, can be a tedious task to implement if it needs to respect all scenarios and does not harm accessibility. Some HTML elements come with native behaviours like `popoverTargetAction` and `popoverTarget` to simplify that, which does not require a single line of JS. These two `popover` attributes do not go anywhere, but now we are getting a lot more powerful solution that can fully replace them, but also work with plenty of other interactive elements. The `command` and `commandFor` can trigger an action on target elements like `popover`, `dialog`, and potentially soon on `input` and `detail` elements. This is one of the greatest additions to the web platform in a while, in my opinion.
+
+### [A 10x Faster TypeScript](https://devblogs.microsoft.com/typescript/typescript-native-port/)
+
+Rarely do dev news articles give me as much joy as this one. The TypeScript compiler is being ported to native code written in Go, and the early results report up to a 10 times faster compilation and type checking results. Other than the port of a codebase, something that does not get enough credit is the effort that goes into the proper TypeScript LSP build. Even though TS is well known for its integration with IDEs via ts-server, its implementation predated LSP. It is going to change, so users of LSP will get a much nicer user experience.
+
+In addition to the blog post, the Microsoft team also published ["A 10x faster TypeScript" on YouTube](https://youtu.be/pNlq-EVld70) where Anders Hejlsberg elaborates more and presents the results of the project "Corsa". Additionally, the SyntaxFM crew recorded ["Typescript Just Got 10x Faster"](https://youtu.be/ZlGza4oIleY) that reveals a bit more technical details.
