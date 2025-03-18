@@ -46,3 +46,7 @@ Simple actions on the web, like opening a navigation when user clicks on the but
 Rarely do dev news articles give me as much joy as this one. The TypeScript compiler is being ported to native code written in Go, and the early results report up to a 10 times faster compilation and type checking results. Other than the port of a codebase, something that does not get enough credit is the effort that goes into the proper TypeScript LSP build. Even though TS is well known for its integration with IDEs via ts-server, its implementation predated LSP. It is going to change, so users of LSP will get a much nicer user experience.
 
 In addition to the blog post, the Microsoft team also published ["A 10x faster TypeScript" on YouTube](https://youtu.be/pNlq-EVld70) where Anders Hejlsberg elaborates more and presents the results of the project "Corsa". Additionally, the SyntaxFM crew recorded ["Typescript Just Got 10x Faster"](https://youtu.be/ZlGza4oIleY) that reveals a bit more technical details.
+
+### [Understanding Neovim](https://www.youtube.com/playlist?list=PLx2ksyallYzW4WNYHD9xOFrPRYGlntAft)
+
+This is a niche resource for NeoVim users, but not an ordinary one. This one is to gain a deep understanding of the internals of the core concepts in this modal editor. From the very basics to plugin managers, Treesitter, LSP advanced configuration, and a bunch of other concepts. I learnt a ton from this series!
