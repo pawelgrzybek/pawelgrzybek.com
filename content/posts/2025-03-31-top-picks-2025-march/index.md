@@ -50,3 +50,7 @@ In addition to the blog post, the Microsoft team also published ["A 10x faster T
 ### [Understanding Neovim](https://www.youtube.com/playlist?list=PLx2ksyallYzW4WNYHD9xOFrPRYGlntAft)
 
 This is a niche resource for NeoVim users, but not an ordinary one. This one is to gain a deep understanding of the internals of the core concepts in this modal editor. From the very basics to plugin managers, Treesitter, LSP advanced configuration, and a bunch of other concepts. I learnt a ton from this series!
+
+### [Carousels with CSS](https://developer.chrome.com/blog/carousels-with-css)
+
+Years ago I created a pretty popular carousel, [Siema](https://pawelgrzybek.github.io/siema/). Since I released it, I have been thinking about this design pattern a lot, and nowadays I mostly dislike it. In most cases where people use carousels, there is probably an easier and a lot more accessible way to present content. But the demand for it doesn’t slow down; luckily, the platform provides a lot of tools to make carousels a lot simpler. This post reveals a few parts of the [CSS Fragmentation Module Level 4 specification](https://www.w3.org/TR/css-break-4/) that makes building carousels just trivially easy. It is mad how powerful CSS is getting.
