@@ -54,3 +54,7 @@ This is a niche resource for NeoVim users, but not an ordinary one. This one is 
 ### [Carousels with CSS](https://developer.chrome.com/blog/carousels-with-css)
 
 Years ago I created a pretty popular carousel, [Siema](https://pawelgrzybek.github.io/siema/). Since I released it, I have been thinking about this design pattern a lot, and nowadays I mostly dislike it. In most cases where people use carousels, there is probably an easier and a lot more accessible way to present content. But the demand for it doesn’t slow down; luckily, the platform provides a lot of tools to make carousels a lot simpler. This post reveals a few parts of the [CSS Fragmentation Module Level 4 specification](https://www.w3.org/TR/css-break-4/) that makes building carousels just trivially easy. It is mad how powerful CSS is getting.
+
+### [Minding the gaps: A new way to draw separators in CSS](https://blogs.windows.com/msedgedev/2025/03/19/minding-the-gaps-a-new-way-to-draw-separators-in-css/)
+
+Nice to see Microsoft's effort on adding guides to the CSS Grid specification. This is one of those things that we have been hacking around using borders, outlines, box-shadows, pseudo classes and other trickery. The proposed API looks nice and simple. Also, nice to see an initiative like that coming from someone other than Google and Apple. It shouldn't be a surprise; it is Microsoft that landed a first browser implementation in Internet Explorer.
