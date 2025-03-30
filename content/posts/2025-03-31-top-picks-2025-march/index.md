@@ -1,17 +1,19 @@
 ---
 title: "Top picks — 2025 March"
-summary: ""
+summary: "The secrets of tasteful CSS animations, crazy TypeScript projects and advancements, accessibility nuggets, pure CSS carousels, a deep dive into the Neovim concepts and a lot more."
 ---
 
-...
+It was precisely 10 years ago when I published [the first article of a "Top picks" series](/top-picks-2015-march/). I have a lot of fun aggregating all my favourite web resources in a single post published monthly. I keep coming back to these articles all the time, and maybe you find them useful. I have very little feedback from readers of this series, so please drop me a line if you enjoy my top picks.
+
+Since it is the last day of the month today, let me do exactly the same as I have been doing for the past decade. Let me share with you a few links that I found interesting in the past month.
 
 ---
 
 ## Album of the month
 
-...
+This month something softer to break the streak of rap records that I have been recommending for months. [The "Maze of Sounds" by Janko Nilovic](https://www.discogs.com/release/16482717-Janko-Nilovic-The-Soul-Surfers-Maze-Of-Sounds) is probably what I have been playing the most in the last month, and even though it is not a new album for me, I have loved it ever since I heard "Sweet Path" for the first time. Very soulful funky album, with incredible voices of the Slavic choir on it. Also, the vinyl release pressed by Broc Recordz in 2020 sounds so deep and loud! It is one of those records that I really prefer to listen to on vinyl rather than streaming platforms.
 
-![Looptroop – The Struggle Continues](looptroop-rockers.jpg)
+![]()
 
 ---
 
@@ -23,11 +25,11 @@ Josh Cameau is about to release a new course, "Whimsical Animation," and [its we
 
 ### [TypeScript types can run DOOM](https://youtu.be/0mCsluv5FXA)
 
-This is one of the wildest things I have seen in a while. Using nothing but the TypeScript type system, this genius rebuilt a fully functional and interactive DOOM game. The engineering effort put into this project is insane. The scale of the resulting types in comparison to an ordinary web application, Node.js type definitions really helps to convey the effort that went into it. Absolutely impressive!
+This is one of the wildest things I have seen in a while. Using nothing but the TypeScript type system, this genius rebuilt a fully functional and interactive DOOM game. The engineering effort put into this project is insane. The scale of the resulting types in comparison to an ordinary web application and Node.js type definitions really helps to visualise the effort that went into it. Absolutely impressive!
 
 ### [React Libraries for 2025](https://www.robinwieruch.de/react-libraries/)
 
-Robin Wieruch published a number of great React-related resources in the past, and this one is just another one to add on the pile. A comprehensive list of React solutions related to state management, styling, data management, authentication, payments, component libraries, and others. Very up to date and all in a single place.
+Robin Wieruch published a number of great React-related resources in the past, and this one is just another one to add to the pile. A comprehensive list of React solutions related to state management, styling, data management, authentication, payments, component libraries, and others. Very up to date and all in a single place.
 
 ### [Don’t Use Fake Bold or Italic in Social Media](https://adrianroselli.com/2025/03/dont-use-fake-bold-or-italic-in-social-media.html)
 
@@ -39,7 +41,7 @@ A deep dive into the browsers' resources prioritisation strategies by Robin Marx
 
 ### [Introducing command and commandfor](https://developer.chrome.com/blog/command-and-commandfor)
 
-Simple actions on the web, like opening a navigation when user clicks on the button, can be a tedious task to implement if it needs to respect all scenarios and does not harm accessibility. Some HTML elements come with native behaviours like `popoverTargetAction` and `popoverTarget` to simplify that, which does not require a single line of JS. These two `popover` attributes do not go anywhere, but now we are getting a lot more powerful solution that can fully replace them, but also work with plenty of other interactive elements. The `command` and `commandFor` can trigger an action on target elements like `popover`, `dialog`, and potentially soon on `input` and `detail` elements. This is one of the greatest additions to the web platform in a while, in my opinion.
+Simple actions on the web, like opening a navigation when a user clicks on the button, can be a tedious task to implement if it needs to respect all scenarios and does not harm accessibility. Some HTML elements come with native behaviours like `popoverTargetAction` and `popoverTarget` to simplify that, which does not require a single line of JS. These two `popover` attributes do not go anywhere, but now we are getting a much more powerful solution that can fully replace them, but also work with plenty of other interactive elements. The `command` and `commandFor` can trigger an action on target elements like `popover`, `dialog`, and potentially soon on `input` and `detail` elements. This is one of the greatest additions to the web platform in a while, in my opinion.
 
 ### [A 10x Faster TypeScript](https://devblogs.microsoft.com/typescript/typescript-native-port/)
 
@@ -57,4 +59,4 @@ Years ago I created a pretty popular carousel, [Siema](https://pawelgrzybek.gith
 
 ### [Minding the gaps: A new way to draw separators in CSS](https://blogs.windows.com/msedgedev/2025/03/19/minding-the-gaps-a-new-way-to-draw-separators-in-css/)
 
-Nice to see Microsoft's effort on adding guides to the CSS Grid specification. This is one of those things that we have been hacking around using borders, outlines, box-shadows, pseudo classes and other trickery. The proposed API looks nice and simple. Also, nice to see an initiative like that coming from someone other than Google and Apple. It shouldn't be a surprise; it is Microsoft that landed a first browser implementation in Internet Explorer.
+Nice to see Microsoft's effort on adding guides to the CSS Grid specification. This is one of those things that we have been hacking around using borders, outlines, box-shadows, pseudo-classes and other trickery. The proposed API looks nice and simple. Also, nice to see an initiative like that coming from someone other than Google and Apple. It shouldn't be a surprise; it is Microsoft that landed the first browser implementation in Internet Explorer.
