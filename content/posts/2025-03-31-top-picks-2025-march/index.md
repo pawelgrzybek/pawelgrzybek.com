@@ -3,17 +3,17 @@ title: "Top picks — 2025 March"
 summary: "The secrets of tasteful CSS animations, crazy TypeScript projects and advancements, accessibility nuggets, pure CSS carousels, a deep dive into the Neovim concepts and a lot more."
 ---
 
-It was precisely 10 years ago when I published [the first article of a "Top picks" series](/top-picks-2015-march/). I have a lot of fun aggregating all my favourite web resources in a single post published monthly. I keep coming back to these articles all the time, and maybe you find them useful. I have very little feedback from readers of this series, so please drop me a line if you enjoy my top picks.
+It was precisely 10 years ago when I published [the first article of a "Top picks" series](/top-picks-2015-march/). I have a lot of fun aggregating all my favourite web resources in a single post published monthly. I keep coming back to these articles all the time, and maybe you find them useful. I have very little feedback from readers of this series, so please drop me a comment of you like my Top Picks.
 
-Since it is the last day of the month today, let me do exactly the same as I have been doing for the past decade. Let me share with you a few links that I found interesting in the past month.
+Since it is the last day of the month today, let me do exactly the same as I have been doing for the past decade. Let me share with you a few links that I found interesting in the past month. Before that though, I have a great album recommendation for you all funky/jazzy heads 🎶
 
 ---
 
 ## Album of the month
 
-This month something softer to break the streak of rap records that I have been recommending for months. [The "Maze of Sounds" by Janko Nilovic](https://www.discogs.com/release/16482717-Janko-Nilovic-The-Soul-Surfers-Maze-Of-Sounds) is probably what I have been playing the most in the last month, and even though it is not a new album for me, I have loved it ever since I heard "Sweet Path" for the first time. Very soulful funky album, with incredible voices of the Slavic choir on it. Also, the vinyl release pressed by Broc Recordz in 2020 sounds so deep and loud! It is one of those records that I really prefer to listen to on vinyl rather than streaming platforms.
+This month something softer to break the streak of rap records that I have been recommending for months. [The "Maze of Sounds" by Janko Nilovic](https://www.discogs.com/release/16482717-Janko-Nilovic-The-Soul-Surfers-Maze-Of-Sounds) is probably what I have been playing the most in the last month, and even though it is not a new album for me, I have loved it ever since I heard "Sweet Path" for the first time. Very soulful funky album, with incredible voices of the Slavic choir on it. Also, the vinyl release pressed by Broc Recordz in 2020 sounds so deep and loud! It is one of those records that I really prefer to listen to on vinyl rather than streaming platforms. Also, loook at this beautiful mesmerising cover art!
 
-![]()
+![Maze of Sounds by Janko Nilovic](janko-nilovic-maze-of-sounds.jpg)
 
 ---
 
