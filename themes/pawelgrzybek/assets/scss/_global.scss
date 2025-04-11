@@ -93,6 +93,10 @@ video {
   max-width: 100%;
 }
 
+p {
+  text-wrap: pretty;
+}
+
 a {
   background-color: transparent;
   color: var(--color-link);
@@ -119,6 +123,7 @@ h6 {
   font-weight: 800;
   text-decoration: none;
   word-wrap: break-word;
+  text-wrap: balance;
 }
 
 h1 {
