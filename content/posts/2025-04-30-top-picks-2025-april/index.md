@@ -28,3 +28,7 @@ This is the next iteration in the masonry layout hot debate about two competing 
 ### [Better typography with text-wrap pretty](https://webkit.org/blog/16547/better-typography-with-text-wrap-pretty/)
 
 The CSS `text-wrap: pretty` landed in stable Google Chrome in September 2023, and Safari is catching up only now but with a twist. The implementation between these two engines differs quite a lot. On this article Jen Simmons, explains the difference between implementations, why the differences are absolutely allowed in this case and also explains a good typography concepts needed to understand the power of the new `text-wrap` value.
+
+### [Default styles for h1 elements are changing](https://developer.mozilla.org/en-US/blog/h1-element-styles/)
+
+A pretty rare case when the browser implementation needs to be changed and potentially "break" some websites. This article explains what's changing and the reasoning behind it. Also, it is a great explainer of the HTML Outline that was removed from the spec a few years back.
