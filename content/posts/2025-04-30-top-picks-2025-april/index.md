@@ -32,3 +32,7 @@ The CSS `text-wrap: pretty` landed in stable Google Chrome in September 2023, an
 ### [Default styles for h1 elements are changing](https://developer.mozilla.org/en-US/blog/h1-element-styles/)
 
 A pretty rare case when the browser implementation needs to be changed and potentially "break" some websites. This article explains what's changing and the reasoning behind it. Also, it is a great explainer of the HTML Outline that was removed from the spec a few years back.
+
+### [Introducing Zod 4 beta](https://v4.zod.dev/v4)
+
+The de facto industry standard schema validation library in the JavaScript ecosystem is becoming a lot better. The author just announced a beta version of the 4th iteration and its performance is significantly better. It also comes with a reduced bundle size, an alternative version mini perfect to use on the client side, a global registry, JSON schema conversion, better support for recursive types, pretty errors, template literal types, and tons more. This is a good release in the JS ecosystem. I personally use Zod on multiple projects and it is just a breeze to work with.
