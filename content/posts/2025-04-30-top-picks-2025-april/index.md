@@ -40,3 +40,7 @@ The de facto industry standard schema validation library in the JavaScript ecosy
 ### [The CSS shape() function](https://webkit.org/blog/16794/the-css-shape-function/)
 
 The good old CSS `path()` function is great, but it is limited to absolute units, which makes things a lot harder in the age of responsive design and fluid components. The new `shape()` function solves all those problems and offers a bunch of extra features that open possibilities for really creative ideas. Love it! Great post by Simon Fraser.
+
+### [Learn GO Fast: Full Tutorial](https://youtu.be/8uiZC0l4Ajw)
+
+I started learning Go recently and I enjoy the ride a lot. This video is a gem that I come back to a number of times a day. Alex Mux has a really great talent for explaining things, and also narrowing down the subject to its essence. No matter if you are into Go or not, the chapter about strings and runes is a must-watch for every programmer who would like a quick explainer of strings encoding. Very good resource!
