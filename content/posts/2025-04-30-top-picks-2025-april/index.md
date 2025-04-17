@@ -36,3 +36,7 @@ A pretty rare case when the browser implementation needs to be changed and poten
 ### [Introducing Zod 4 beta](https://v4.zod.dev/v4)
 
 The de facto industry standard schema validation library in the JavaScript ecosystem is becoming a lot better. The author just announced a beta version of the 4th iteration and its performance is significantly better. It also comes with a reduced bundle size, an alternative version mini perfect to use on the client side, a global registry, JSON schema conversion, better support for recursive types, pretty errors, template literal types, and tons more. This is a good release in the JS ecosystem. I personally use Zod on multiple projects and it is just a breeze to work with.
+
+### [The CSS shape() function](https://webkit.org/blog/16794/the-css-shape-function/)
+
+The good old CSS `path()` function is great, but it is limited to absolute units, which makes things a lot harder in the age of responsive design and fluid components. The new `shape()` function solves all those problems and offers a bunch of extra features that open possibilities for really creative ideas. Love it! Great post by Simon Fraser.
