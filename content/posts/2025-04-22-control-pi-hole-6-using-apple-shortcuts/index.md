@@ -1,6 +1,6 @@
 ---
 title: "Control Pi-hole 6 using Apple Shortcuts"
-summary: ""
+summary: "It is handy to have a method to switch Pi-hole on and off in a jiffy, without logging into the Web UI or doing some CLI stuff. I found Apple Shortcuts to be the way."
 ---
 
 This is the same post as ["Disable/enable Pi-hole using Apple Shortcuts"](/disable-enable-pi-hole-using-apple-shortcuts/) that I published a few years back, but aligned with the 6th major release of [Pi-hole](https://pi-hole.net/). This little piece of software has been running at our place on a Raspberry Pi left and forgotten behind the cupboard for years. It filters the nonsense that the internet is full of and protects our privacy by killing all the trackers at the DNS level. Browsing the internet without it feels really shit now!
