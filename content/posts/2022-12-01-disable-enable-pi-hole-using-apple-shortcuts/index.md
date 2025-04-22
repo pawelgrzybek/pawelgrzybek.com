@@ -3,6 +3,10 @@ title: "Disable/enable Pi-hole using Apple Shortcuts"
 summary: "Pi-hole is my favourite ad-blocking solution. In most cases, it works like a charm, but from time to time, you just want to disable it temporarily."
 ---
 
+{{% update %}}
+This method is outdated and applicable only for Pi-hole that runs on version <=5. If you need a more up-to-date recipe, check this one out:: ["Control Pi-hole 6 using Apple Shortcuts"](/control-pi-hole-6-using-apple-shortcuts/).
+{{% /update %}}
+
 [Pi-hole](https://pi-hole.net) is my favourite ad-blocking solution. It runs on Raspberry Pi hooked under my desk, and its only purpose is network-wide DNS filtering. ["The World’s Greatest Pi-hole Tutorial 2023" by Crosstalk Solutions](https://www.crosstalksolutions.com/the-worlds-greatest-pi-hole-and-unbound-tutorial-2023/) is an excellent primer if you are new to the subject.
 
 In most cases, it works like a charm, but from time to time, you just want to disable it temporarily. You can stop it via CLI using `pihole disable` command, but this one required SSH login. It just takes too long, and on a mobile device, this is cumbersome. Look at some examples.
@@ -47,5 +51,3 @@ curl "http://pi.hole/admin/api.php?enable&auth=${WEBPASSWORD}"
 ```
 
 I hope you found it helpful. Until next time, keep on building cool shit 💩
-
-
