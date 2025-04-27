@@ -1,17 +1,19 @@
 ---
 title: "Top picks — 2025 April"
-summary: ""
+summary: "This month, a bunch of great posts from the WebKit blog. Some little Next.js drama, fresh exciting releases, and something for aspiring Go developers.  I hope you like it 🤗"
 ---
 
-Intro...
+This post was deployed by the [GitHub merge scheduler script](https://pawelgrzybek.com/schedule-a-github-pull-request-merge-using-deno-kv-queues/) that I blogged about a few years back. This little script has saved my butt a few times before, and it is super helpful now when I am in Madrid with my family, enjoying the sun and quality time with my ladies. In the meantime, the Deno app triggers the merge on GitHub, Netlify continuous deployment kicks in and spreads new HTML files across the globe. Technology is fantastic, I freaking love the web!
+
+This month, a bunch of great posts from the WebKit blog. They are smashing the game recently with tons of quality publications. Some little Next.js drama, fresh exciting releases, and something for aspiring Go developers. As always, album recommendation from my shelf included as well! I hope you like it 🤗
 
 ---
 
 ## Album of the month
 
-Album recommendation...
+Bob James is an absolute legend! Probably the most sampled artist in the history of music. Snippets of his melodies are in hundreds of rap and electronic music songs nowadays. A few days back I went for a walk with my daughter and we gave my local record store a quick visit. Finally, I found ["Three" by Bob James](https://www.discogs.com/release/14585807-Bob-James-Three). Incredible record with the outstanding tune ["Westchester Lady"](https://youtu.be/r0wMGQrWKNw) sampled in one of my favourite drum and bass records ["Circle" by Adam F](https://youtu.be/LDRNYUucKvA). Must-have for all jazz and rap collectors!
 
-![]()
+![Bob James - Three](bob-james-three.jpg)
 
 ---
 
