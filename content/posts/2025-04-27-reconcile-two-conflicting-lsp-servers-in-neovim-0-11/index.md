@@ -132,7 +132,6 @@ return {
     cmd_env = { NO_COLOR = true },
     root_markers = { "deno.json" },
     workspace_required = true,
-    -- and some oth
-er stuff
+    -- and some other stuff
 }
 ```
