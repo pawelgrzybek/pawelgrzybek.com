@@ -111,7 +111,7 @@ In my case, this little tweak to the configuration resolved the issue with the c
 
 ---
 
-## Update, Noevim 0.11.1 comes with workspace_required
+## Update, Neovim 0.11.1 comes with workspace_required
 
 Hold on! Neovim 0.11.1 comes with a better way of solving this issue. A new configuration flag `workspace_required` that, in combination with `root_markers`, solves my problem in a much more elegant way. Thanks to the [cback Reddit user](https://www.reddit.com/user/cbackas/) who pointed me to this solution. Here is how it looks now. Nice!
 
