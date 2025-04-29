@@ -46,3 +46,7 @@ The good old CSS `path()` function is great, but it is limited to absolute units
 ### [Learn GO Fast: Full Tutorial](https://youtu.be/8uiZC0l4Ajw)
 
 I started learning Go recently and I enjoy the ride a lot. This video is a gem that I come back to a number of times a day. Alex Mux has a really great talent for explaining things, and also narrowing down the subject to its essence. No matter if you are into Go or not, the chapter about strings and runes is a must-watch for every programmer who would like a quick explainer of strings encoding. Very good resource!
+
+### [What Does "use client" Do?](https://overreacted.io/what-does-use-client-do/)
+
+Dan Abramov is clearly on a mission to explain React Server Side Components to the masses. Recently, he has been blogging a lot on that matter. This article is a relatively short post (compared to some of his other publications) explaining two super confusing directives: `use client` and `use server`. It is a very good read with simple-to-understand analogies and code examples. He even posted it in the form of a [YouTube video](https://youtu.be/31e5c67znF4).
