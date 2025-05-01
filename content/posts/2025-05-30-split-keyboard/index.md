@@ -33,4 +33,6 @@ My Krychrone keyboard is put aside and Voyager is my main driver now. I’m stil
 
 ### Day 3
 
-Things are slow but I'm getting used to it. The ortholinear layout is something very new and hard at first, but not as hard as the new positions of the spacebar, return, and tab key. Where is the plus symbol?! Damn 🤦‍♂️
+Things are slow but I'm getting used to it. The ortholinear layout is something very new and hard at first, but not as hard as the new positions of the spacebar, return, and tab key. Where is the plus symbol?! Damn 🤦‍♂️ I'm not a fan of this long TRSS cable. Etsy is full of nice-looking coiled fancy cables, but I’m not paying £40 for it, no way! I don’t want this coil either. I got one off AliExpress for £0.77. Now I need to wait 47 years for it to arrive.
+
+![A cheap TRSS cable from AliExpress](day-3.jpg)
