@@ -31,8 +31,12 @@ Now I know where the question mark is and where the square brackets are. It took
 
 My Krychrone keyboard is put aside and Voyager is my main driver now. I’m still terribly slow using this thing though. Frustratingly slow!
 
-### Day 3
+## Day 3
 
 Things are slow but I'm getting used to it. The ortholinear layout is something very new and hard at first, but not as hard as the new positions of the spacebar, return, and tab key. Where is the plus symbol?! Damn 🤦‍♂️ I'm not a fan of this long TRSS cable. Etsy is full of nice-looking coiled fancy cables, but I’m not paying £40 for it, no way! I don’t want this coil either. I got one off AliExpress for £0.77. Now I need to wait 47 years for it to arrive.
 
 ![A cheap TRSS cable from AliExpress](day-3.jpg)
+
+## Day 4
+
+Today I noticed that for the last two decades I have developed a very strong muscle memory for using the wrong index fingers to type the characters "b" and "y". Also, hitting "c" and "p" on the new ortholinear layout is a little bit awkward for now. Trying a split keyboard and putting a physical barrier between the buttons and the hands that they should be pressed with made me realise that. I’m generally happy with the layout I came up with a few days ago, but I added some missing things like brackets and media control.
