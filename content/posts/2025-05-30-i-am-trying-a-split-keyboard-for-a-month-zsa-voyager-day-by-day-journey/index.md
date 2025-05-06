@@ -41,8 +41,8 @@ Things are slow but I'm getting used to it. The ortholinear layout is something 
 
 Today I noticed that for the last two decades I have developed a very strong muscle memory for using the wrong index fingers to type the characters "b" and "y". Also, hitting "c" and "p" on the new ortholinear layout is a little bit awkward for now. Trying a split keyboard and putting a physical barrier between the buttons and the hands that they should be pressed with made me realise that. I’m generally happy with the layout I came up with a few days ago, but I added some missing things like brackets and media control.
 
-## Day 6
+## Day 7
 
-Some folks use the space in between for a mouse. I much prefer to use it for my coffee. Split keyboard reviewers do not mention this feature enough.
+Some folks use the space in between for a mouse, but it is actually a space for a cup of coffee. Split keyboard reviewers do not mention this feature enough. Also, the shortest cable from AliExpress arrived, and it looks better but it was not the length of the cable that I didn’t like. It is the cable in general. Until ZSA releases a wireless version of this keyboard, there is not much I can do about it 🤷‍♂️
 
-!!! IMAGE OF A CUP OF COFFEE IN THE MIDDLE OF A KEYBOARD GOES HERE !!!
+![A cup of coffee on my desk between two parts of split keyboard](day-7.jpg)
