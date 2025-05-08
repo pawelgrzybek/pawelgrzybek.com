@@ -22,3 +22,7 @@ I totally missed the news that Webflow acquired GreenSock at the end of 2024. Bu
 ### [Seeking an Answer: Why can't HTML alone do includes?](https://frontendmasters.com/blog/seeking-an-answer-why-cant-html-alone-do-includes/)
 
 Usually, an article is a long-form answer to a question. Chris flipped this rule in this post and published a long-form question about the native ability of HTML includes. The whole post is great, but a lot of value is in the comments section. For example, the ["Client side include feature for HTML"](https://github.com/whatwg/html/issues/2791) GitHub thread opened eight years ago contains a lot of considerations and implementation ideas for of the feature.
+
+### [Config 2025: Figma product launch keynote](https://www.youtube.com/watch?v=HXVlgVWI7tc)
+
+I still need to catch up with the releases from the past year, but this year's news from the Figma Conf is cool. Grid auto layouts (finally), Figma Sites, Make, Buzz and Figma Draw. Figma Sites in the current state is something I'm particularly NOT interested in using, and I would advise you not to fall into the trap of releasing anything using this tool. The output that this tool spits out is just an accessibility nightmare. Nonetheless, a bunch of great announcements on this one. Buzz looks like something that can massively help me with assets for this blog and for [NN1 Dev Club](https://nn1.dev/).
