@@ -26,3 +26,7 @@ Usually, an article is a long-form answer to a question. Chris flipped this rule
 ### [Config 2025: Figma product launch keynote](https://www.youtube.com/watch?v=HXVlgVWI7tc)
 
 I still need to catch up with the releases from the past year, but this year's news from the Figma Conf is cool. Grid auto layouts (finally), Figma Sites, Make, Buzz and Figma Draw. Figma Sites in the current state is something I'm particularly NOT interested in using, and I would advise you not to fall into the trap of releasing anything using this tool. The output that this tool spits out is just an accessibility nightmare. Nonetheless, a bunch of great announcements on this one. Buzz looks like something that can massively help me with assets for this blog and for [NN1 Dev Club](https://nn1.dev/).
+
+### [Are 'CSS Carousels' accessible?](https://www.sarasoueidan.com/blog/css-carousels-accessibility/)
+
+Sara took a little break from blogging and social media, but now she is back with a really good write-up about the issues with much-hyped last month's pure CSS solutions for carousels. Not only does it highlight the issues with the current state of this implementation, but it also works as a good primer on accessibility debugging, understanding the accessibility tree and other basic concepts.
