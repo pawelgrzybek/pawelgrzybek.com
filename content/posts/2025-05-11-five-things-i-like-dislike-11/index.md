@@ -9,7 +9,7 @@ Next one from the "Five things" series where I occasionally share a five things 
 
 ## Liked
 
-1. [PENTAX 17](https://pentax.eu/products/pentax-17) is a beautiful camera. What makes it special is the fact that it is a film camera released in June 2024. Accordingly to [PetaPixel's review](https://petapixel.com/2024/06/17/pentax-17-review-a-brand-new-film-experience-worth-having/), it is good one. Love it!
+1. [PENTAX 17](https://pentax.eu/products/pentax-17) is a beautiful camera. What makes it special is the fact that it is a film camera released in June 2024. Accordingly to [PetaPixel's review](https://petapixel.com/2024/06/17/pentax-17-review-a-brand-new-film-experience-worth-having/), it is a good one. Love it!
 1. ["Optimal Protocols for Studying & Learning" by Dr. Andrew Huberman](https://www.hubermanlab.com/episode/optimal-protocols-for-studying-learning).
 1. I spent two decades looking for the deodorant that works, is fragrance-free, delicate on my skin, doesn't damage my clothes and doesn't cost a fortune. [Salt of the Earth - Natural Deodorant Crystal Classic](https://www.amazon.co.uk/dp/B008E4O85C) ticks all these boxes and to top it off, it lasts forever. I ordered mine in October 2024 and I still have more than half of the crystal.
 1. [Carolina Reaper Hot Chilli Sauce by Chilli Mash Company](https://www.amazon.co.uk/dp/B084C18892)
