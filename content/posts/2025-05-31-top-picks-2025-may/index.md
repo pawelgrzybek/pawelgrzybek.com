@@ -34,3 +34,7 @@ Sara took a little break from blogging and social media, but now she is back wit
 ### [How to title your blog post or whatever](https://dynomight.net/titles/)
 
 This is the article that introduced me to the Dynomight blog, but there are a lot more interesting reads on this website. So great content with tons of personality, a good sense of humour and good knowledge. I love the about page that is totally not about the author/page.
+
+### [How to have the browser pick a contrasting color in CSS](https://webkit.org/blog/16929/contrast-color/)
+
+I love the recent series of articles on the WebKit blog. Behind the simple feature announcement, there is always a deep dive into the subject. From this one I learned a lot about colour contrast, how it is calculated and the pros and cons of a few standards responsible for it. And of course about the new CSS `contrast-color()` function.
