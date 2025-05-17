@@ -30,3 +30,7 @@ I still need to catch up with the releases from the past year, but this year's n
 ### [Are 'CSS Carousels' accessible?](https://www.sarasoueidan.com/blog/css-carousels-accessibility/)
 
 Sara took a little break from blogging and social media, but now she is back with a really good write-up about the issues with much-hyped last month's pure CSS solutions for carousels. Not only does it highlight the issues with the current state of this implementation, but it also works as a good primer on accessibility debugging, understanding the accessibility tree and other basic concepts.
+
+### [How to title your blog post or whatever](https://dynomight.net/titles/)
+
+This is the article that introduced me to the Dynomight blog, but there are a lot more interesting reads on this website. So great content with tons of personality, a good sense of humour and good knowledge. I love the about page that is totally not about the author/page.
