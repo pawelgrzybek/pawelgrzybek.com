@@ -3,23 +3,29 @@ title: "I'm trying split keyboard for a month: ZSA Voyager (day-by-day journey)"
 summary: ""
 ---
 
-Two of my good friends recently started using a split keyboard, and both of them tried to convince me to give it a go. I was super sceptical at first. I don't struggle with RSI or any other discomfort, and I'm an pretty OK typist. Rather slow (50-60 words per minute) but relatively accurate. I can touch type pretty well on the Keychron K3 Pro, which is the keyboard I have been using for the past two years. Pure curiosity and my inner geek won, and I threw a pile of money at ZSA and ordered [the black Voyager](https://www.zsa.io/voyager).
+It was a casual BBQ catch-up with a bunch of old friends, when we had a conversation about programming in Go, burgers, podcasts, and keyboards. Something along these lines.
+
+> Savvas: I recently bought a split keyboard and I love it.<br/>
+> Gregory: Yeah man, I did the same and I think you should give it a go.</br>
+> Me: Fuck that!</br>
+> Savvas: Just trust me, and try it.</br>
+> Me: OK.
+
+A little bit of background. I don't struggle with RSI or any other discomfort, and I'm an OK typist. Rather slow (50-60 words per minute) but relatively accurate. I can touch type comfortably on the Keychron K3 Pro, which is the keyboard I have been using for the past two years. Pure curiosity and my inner geek won, so I threw a pile of money at ZSA and ordered [the black Voyager with tactile brown switches](https://www.zsa.io/voyager).
 
 {{< youtube w78ISgpcdD4 >}}
 
-My research was quick because I knew roughly what I wanted. A good-looking and fully pre-built keyboard without messing around with individual parts and soldering. A few weeks ago I was listening to the ["Erez Zukerman - ZSA, ErgoDox, and the Future of Keyboards" episode of the devtools.fm podcast](https://www.devtools.fm/episode/118) and I liked Erez's approach and motivations. Also, keyboards by ZSA are freakin' sexy compared to some of the competitors.
+A few weeks ago I was listening to the ["Erez Zukerman - ZSA, ErgoDox, and the Future of Keyboards" episode of the devtools.fm podcast](https://www.devtools.fm/episode/118) and I liked Erez's approach and motivations. I knew back then that if I ever ended up having an ergonomic keyboard, it was going to be produced by them. Also, keyboards by ZSA are freakin’ sexy compared to some of the competitors. Sorry Glove80 and Kinesis fans 🤷‍♂️
 
 Not a cheap business if I'm honest. The price of the keyboard was £278 and an additional £44 for duties and taxes. The shipment from Taiwan to the UK took 10 days. It arrived well packed and the unboxing was a pretty cool experience. Folks call ZSA the Apple of keyboards, and I no longer wonder why. Superb quality and attention to detail! The only downside for me is the cable but I hope to see a Voyager 2.0 one day with an wireless option.
 
 I have been warned that it takes time and patience to get used to a split keyboard, so I'm going to document my experience as I go and publish the result in a month.
 
-It took me many minutes to type these few paragraphs above 🤦‍♂️
-
 ---
 
 ## Day 1
 
-Oh my god! Typing a single word is close to impossible. Where the fuck is the question mark? Where are square brackets? I need to get back to work, so give me my Keychron back. I don't like it!
+Oh my god! Typing a single word is close to impossible. Where the fuck is the question mark? Where are the square brackets? I need to get back to work, so give me my Keychron back. I don't like it!
 
 ![My new ZSA Voyager and my good old Keychrone in between](day-1.jpg)
 
@@ -54,3 +60,31 @@ Some folks use the space in between for a mouse, but it is actually a space for 
 Today for the first time I was actually productive using a new keyboard. Typing long-form text is slowly becoming natural and the ortholinear layout is seriously a game changer. Coding, in contrast, still feels like a chore, mainly because I didn't build the muscle memory for the new symbols layer. How can I build muscle memory for something that I change twenty times a day? I'm experimenting with a bunch of ideas. I found this presentation to be pretty useful, although not all the mnemonic shortcuts from here translate to the way I use Vim. Helpful though!
 
 {{< youtube uuSR81wc6WQ >}}
+
+## Day 10-16
+
+Click, click, clack...
+
+## Day 17
+
+I enjoy my time in front of the computer again, finally! I have gained back my productivity level in most tasks, with using symbols as the only exception due to never-ending tweaks to this layer. The new position of the spacebar, return, backspace, and tab feels a lot more natural, and using home row modifiers is the idea that deserves an award.
+
+One thing that I don’t like for sure is typing on my MacBook’s keyboard anymore. I went to the local coworking space the other day and I didn't take my Voyager with me. As much as regular typing felt OK, pressing modifiers feels so unnatural. Who the hell put them there in the first place anyway! Home row mods rule! I don’t like the idea of taking my external keyboard with me everywhere I go, so I think I will end up swearing from time to time.
+
+Over the last few weeks, I did a bunch of key layer tweaking, so let me share some of the key observations and rules I follow. I realise that I never use function keys (F1, F2, etc.), so I got rid of them. By default, Oryx makes all keys transparent, which keeps the functionality from the layer below. Disabling them is a lot better for me, at least at this stage. Another thing that I kept on tweaking was the tapping term, which is the delay between when the keyboard registers a regular tap or considers that as a hold. While using home row modifiers, this one is super crucial to get right. The more familiar I am with the keyboard, the more I reduce this delay. At the moment, 160 ms is my sweet spot.
+
+![My layouts from day 17](day-17.jpg)
+
+The interesting part of my Main layer is the hyper button, which I use in combination with other keys for launching common apps. For example, the hyper key in combination with <kbd>b</kbd> opens my browser, <kbd>t</kbd> my default terminal client, <kbd>c</kbd> calendar, and <kbd>m</kbd> music player. I do not associate it with the name of the app, but more with the category of the app. Futureproofing!
+
+My second layer with symbols is the one that is tweaked the most. On the right-hand side are pairs of brackets, with the square ones in the middle as they are used the most, mainly with the combination of a very few transparent keys on my left hand to navigate vim changes (<kbd>c</kbd>), diagnostics (<kbd>d</kbd>), quicklinks (<kbd>q</kbd>) and buffers (<kbd>b</kbd>). Around the brackets are a few more pairs that trigger opposite actions in vim. The <kbd>^</kbd> and <kbd>?</kbd> are used to jump between the beginning and the end of the line, <kbd>?</kbd> and <kbd>/</kbd> to perform searches in the backward and forward direction, and similarly the <kbd>#</kbd> and <kbd>\*</kbd> to do the same using a selected word as an input. Some of the things that I use in vim all the time. And there is this bloody <kbd>=</kbd> symbol that I use all the time, but I can't find a good spot for it.
+
+Third is the navigation layer that I use nonstop. The transparent modifiers on my left hand enable me to do text selections and cursor movement easier. Like holding <kbd>Shift + Alt</kbd> to select by word and things like that. There is a chance that my media layer will eventually be merged with this one for simplicity.
+
+The numeric layer is the next one; there is nothing interesting about it. The media layer is the last one, and on this one I kept modifiers enabled to be able to change the brightness of the external screen by holding the <kbd>Ctrl</kbd> key while changing the screen brightness. Perhaps a good candidate to merge with the navigation layer.
+
+## Notes to mention
+
+- keymapp is a great app thay i kept open most of the timme in the past month
+- i kinda regret picking brows switches now, they require a significant force to press the button and I m going to replace them with something lighter
+-
