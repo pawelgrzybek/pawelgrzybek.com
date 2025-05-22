@@ -22,6 +22,10 @@
   src: url("/MonaspaceNeonVar.woff2") format("woff2");
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 ::selection {
   background-color: var(--color-link);
   color: var(--color-background);
