@@ -87,7 +87,9 @@ The numeric layer is the next one; there is nothing interesting about it. The me
 
 I ordered my keyboard with the Kailh Choc Brown tactile switches. I knew very little about different types of switches back then, so I went with the preselected default. If I could go back in time, I would go for the Choc Pro Red ones. The resistance of brown switches is significant, and when I am in the flow and I go fast, the last thing I want to deal with is the gibberish of random characters in my code editor because I didn't press <kbd>Esc</kbd> hard enough. A few other folks on Reddit shared a very similar feedback about the swittches I bought. Luckily, the switches on this keyboard are hot-swappable.
 
-I did spend a little bit of time researching what all these switch parameters mean, and I ordered a set of Choc Ambient Twilight switches by LowproKB. An extra £65 to the total cost of my experiment. I need some time to tell you if I like the change or not. Back to work.
+![Swapping switches from brown to the ambient twilight ones](day-22.jpg)
+
+I did spend a little bit of time researching what all these switch parameters mean, and I ordered a set of [Choc Ambient Twilight switches by LowproKB](https://mechboards.co.uk/products/lowprokb-ambients-twilight). An extra £65 to the total cost of my experiment. I need some time to tell you if I like the change or not, but the first impression is promising. Back to work.
 
 ## Notes to mention
 
