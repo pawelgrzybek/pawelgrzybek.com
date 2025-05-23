@@ -19,7 +19,7 @@ A few weeks ago I was listening to the ["Erez Zukerman - ZSA, ErgoDox, and the F
 
 Not a cheap business if I'm honest. The price of the keyboard was £278 and an additional £44 for duties and taxes. The shipment from Taiwan to the UK took 10 days. It arrived well packed and the unboxing was a pretty cool experience. Folks call ZSA the Apple of keyboards, and I no longer wonder why. Superb quality and attention to detail! The only downside for me is the cable but I hope to see a Voyager 2.0 one day with an wireless option.
 
-I have been warned that it takes time and patience to get used to a split keyboard, so I'm going to document my experience as I go and publish the result in a month.
+I have been warned that it takes time and patience to get used to a split keyboard, so I'm going to document my experience as I go and publish the result in a month. If I don't like it after a month, I am going back to a traditional keyboard.
 
 ---
 
@@ -41,7 +41,7 @@ My Krychrone keyboard is put aside and Voyager is my main driver now. I'm still 
 
 ## Day 3
 
-Things are slow but I'm getting used to it. The ortholinear layout is something very new and hard at first, but not as hard as the new positions of the spacebar, return, and tab key. Where is the plus symbol?! Damn 🤦‍♂️ I'm not a fan of this long TRSS cable. Etsy is full of nice-looking coiled fancy cables, but I'm not paying £40 for it, no way! I don't want this coil either. I got one off AliExpress for £0.77. Now I need to wait 47 years for it to arrive.
+The ortholinear layout is something very new and hard at first, but not as hard as the new positions of the spacebar, return, and tab key. Where is the plus symbol?! Damn 🤦‍♂️ I'm not a fan of this long TRSS cable. Etsy is full of nice-looking coiled fancy cables, but I'm not paying £40 for it, no way! I don't want this coil either. I got one off AliExpress for £0.77. Now I need to wait 47 years for it to arrive.
 
 ![A cheap TRSS cable from AliExpress](day-3.jpg)
 
@@ -82,6 +82,12 @@ My second layer with symbols is the one that is tweaked the most. On the right-h
 Third is the navigation layer that I use nonstop. The transparent modifiers on my left hand enable me to do text selections and cursor movement easier. Like holding <kbd>Shift + Alt</kbd> to select by word and things like that. There is a chance that my media layer will eventually be merged with this one for simplicity.
 
 The numeric layer is the next one; there is nothing interesting about it. The media layer is the last one, and on this one I kept modifiers enabled to be able to change the brightness of the external screen by holding the <kbd>Ctrl</kbd> key while changing the screen brightness. Perhaps a good candidate to merge with the navigation layer.
+
+## Day 22
+
+I ordered my keyboard with the Kailh Choc Brown tactile switches. I knew very little about different types of switches back then, so I went with the preselected default. If I could go back in time, I would go for the Choc Pro Red ones. The resistance of brown switches is significant, and when I am in the flow and I go fast, the last thing I want to deal with is the gibberish of random characters in my code editor because I didn't press <kbd>Esc</kbd> hard enough. A few other folks on Reddit shared a very similar feedback about the swittches I bought. Luckily, the switches on this keyboard are hot-swappable.
+
+I did spend a little bit of time researching what all these switch parameters mean, and I ordered a set of Choc Ambient Twilight switches by LowproKB. An extra £65 to the total cost of my experiment. I need some time to tell you if I like the change or not. Back to work.
 
 ## Notes to mention
 
