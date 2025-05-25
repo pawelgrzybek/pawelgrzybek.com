@@ -9,7 +9,9 @@ Intro
 
 ## Album of the month
 
-![]()
+If there is one album that I was listening to more than anything else in the past month, it needs to be the incredible [Blue Note Re:imagined (2020)](https://www.discogs.com/release/15969349-Various-Blue-Note-Reimagined-2020) compilation. Some of the greatest productionnns from the Blue Note label were recreated by the greatest artists of the British UK scene: Ezra Collective, Nubya Garcia, Poppy Ajudha, Jordan Rakei and plenty more. One of these records that you put a needle on and listen to from the very beginning to the very end. I must get the 2022 edition!
+
+![Blue Note Re:imagined (2020)](blue-note-reimagined.jpg)
 
 ---
 
