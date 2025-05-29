@@ -1,9 +1,11 @@
 ---
 title: "Top picks — 2025 May"
-summary: ""
+summary: "Great news from the GSAP team, a word about HTML includes, Figma released some new great products (and some that are awful), the accessibility of the CSS carousels, choosing a title for your next piece, CSS colour contrast reimagined and some more."
 ---
 
-Intro
+Do you also have a feeling that tech has become so freaking boring if you just judge its state by the usual suspects like Hacker News and others? Most of the new announcements are about pushing AI benchmarks by releasing another model with some cryptic name. If not that, it is about another AI feature added to the product that totally doesn't need it. Even websites, modern websites, look so freaking boring!
+
+It is more important than ever to create a curated feed of stuff that aligns with your taste, otherwise, we will all end up consuming boring slop. People sometimes call RSS boring technology, but if you compare that with what is being served by the algorithms, this is the most amazing invention ever. End of rant, back to the top picks 😮‍💨
 
 ---
 
@@ -31,7 +33,7 @@ I still need to catch up with the releases from the past year, but this year's n
 
 ### [Are 'CSS Carousels' accessible?](https://www.sarasoueidan.com/blog/css-carousels-accessibility/)
 
-Sara took a little break from blogging and social media, but now she is back with a really good write-up about the issues with much-hyped last month's pure CSS solutions for carousels. Not only does it highlight the issues with the current state of this implementation, but it also works as a good primer on accessibility debugging, understanding the accessibility tree and other basic concepts.
+Sara took a little break from blogging and social media, but now she is back with a really good write-up about the issues with last month’s much-hyped pure CSS solutions for carousels. Not only does it highlight the issues with the current state of this implementation, but it also works as a good primer on accessibility debugging, understanding the accessibility tree and other basic concepts.
 
 ### [How to title your blog post or whatever](https://dynomight.net/titles/)
 
