@@ -1,6 +1,6 @@
 ---
-title: "I'm trying split keyboard for a month: ZSA Voyager (day-by-day journey)"
-summary: ""
+title: "A month with the ZSA Voyager split keyboard"
+summary: "My month trial of the ZSA Voyager split keyboard: a game-changer for typing accuracy and comfort, despite initial struggles and a high price tag."
 ---
 
 It was a casual BBQ catch-up with a bunch of old friends, when we had a conversation about programming in Go, burgers, podcasts, and keyboards. Something along these lines.
@@ -11,11 +11,11 @@ It was a casual BBQ catch-up with a bunch of old friends, when we had a conversa
 > Savvas: Just trust me, and try it.</br>
 > Me: OK.
 
-A little bit of background. I don't struggle with RSI or any other discomfort, and I'm an OK typist. Rather slow (50-60 words per minute) but relatively accurate. I can touch type comfortably on the Keychron K3 Pro, which is the keyboard I have been using for the past two years. Pure curiosity and my inner geek won, so I threw a pile of money at ZSA and ordered [the black Voyager with tactile brown switches](https://www.zsa.io/voyager).
+A little bit of background. I don't struggle with RSI or any other discomfort, and I'm an OK typist. Rather slow (50-60 words per minute) but accurate. I can touch type comfortably on the Keychron K3 Pro, which is the keyboard I have been using for the past two years. Pure curiosity and my inner geek won, so I threw a pile of money at ZSA and ordered [the black Voyager with tactile brown switches](https://www.zsa.io/voyager).
 
 {{< youtube w78ISgpcdD4 >}}
 
-A few weeks ago I was listening to the ["Erez Zukerman - ZSA, ErgoDox, and the Future of Keyboards" episode of the devtools.fm podcast](https://www.devtools.fm/episode/118) and I liked Erez's approach and motivations. I knew back then that if I ever ended up having an ergonomic keyboard, it was going to be produced by them. Also, keyboards by ZSA are freakin’ sexy compared to some of the competitors. Sorry Glove80 and Kinesis fans 🤷‍♂️
+A few weeks ago I was listening to the ["Erez Zukerman - ZSA, ErgoDox, and the Future of Keyboards" episode of the devtools.fm podcast](https://www.devtools.fm/episode/118) and I liked the story and business goals. I knew back then that if I ever ended up having an ergonomic keyboard, it was going to be produced by them. Also, keyboards by ZSA are freakin’ sexy compared to some of the competitors. Sorry Glove80 and Kinesis fans 🤷‍♂️
 
 Not a cheap business if I'm honest. The price of the keyboard was £278 and an additional £44 for duties and taxes. The shipment from Taiwan to the UK took 10 days. It arrived well packed and the unboxing was a pretty cool experience. Folks call ZSA the Apple of keyboards, and I no longer wonder why. Superb quality and attention to detail! The only downside for me is the cable but I hope to see a Voyager 2.0 one day with an wireless option.
 
@@ -91,8 +91,14 @@ I ordered my keyboard with the Kailh Choc Brown tactile switches. I knew very li
 
 I did spend a little bit of time researching what all these switch parameters mean, and I ordered a set of [Choc Ambient Twilight switches by LowproKB](https://mechboards.co.uk/products/lowprokb-ambients-twilight). An extra £65 to the total cost of my experiment. I need some time to tell you if I like the change or not, but the first impression is promising. Back to work.
 
-## Notes to mention
+## Day 30
 
-- keymapp is a great app thay i kept open most of the timme in the past month
-- i kinda regret picking brows switches now, they require a significant force to press the button and I m going to replace them with something lighter
--
+OK, time to conclude my month-long trial of using a split keyboard. I will keep it short. I’m keeping my ZSA Voyager as my main driver and I’m not planning to ever go back full-time to the regular non-split board, nor to the keyboard without the ortholinear layout. Wide, open arms position makes a long working session a lot more comfortable. The linear layout of the keyboard makes it a lot easier to memorise, and also to create a mental model for layouts.
+
+This keyboard made me a lot more accurate typist, not necessarily the fastest yet, but over time this may change. A month in my case was not long enough to build muscle memory for some of the more advanced workflows. It gets better day by day, but I’m not quite there yet.
+
+The price of the ZSA keyboards is high, but worth every penny. Brown switches are the only thing I regret choosing, but that was an easy one to solve.
+
+---
+
+So here it is, my first month with the split keyboard and the beginning of a longer relationship with the new workflow. Thanks, Savvas and Gregory ❣️
