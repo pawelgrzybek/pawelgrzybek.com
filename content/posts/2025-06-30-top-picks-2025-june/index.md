@@ -26,3 +26,7 @@ This is a beautifully written piece about the current state of content consumers
 ### [News from WWDC25: WebKit in Safari 26 beta](https://webkit.org/blog/16993/news-from-wwdc25-web-technology-coming-this-fall-in-safari-26-beta)
 
 Big hardware and software announcements by Apple are nowhere near as exciting to me as they used to be. I’m a big fan of Safari though and I use this browser as my daily driver. The list of improvements it is going to get this year is seriously impressive. Adding support for SVG to Apple’s browser marks the end of one of the most annoying things on the web for me. SVG all the way, and nothing else! Huge CSS features are also dropping, like anchor positioning and scroll-driven animation. Other than that, the list of updates and bug fixes is endless. Very solid release. I really hoped for a dev tools rewrite, as this is the area where Safari is lacking in contrast to competitors, but the only thing we got is an incremental upgrade with features that are not relevant to me.
+
+### ["Partial Keyframes" by Josh Comeau](https://www.joshwcomeau.com/animation/partial-keyframes/)
+
+Josh with another good post about little known features of CSS animations. I found it so useful and I see how many animations that I created in the past can be simplified. Top tutorials always.
