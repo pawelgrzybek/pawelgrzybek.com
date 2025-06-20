@@ -30,3 +30,11 @@ Big hardware and software announcements by Apple are nowhere near as exciting to
 ### ["Partial Keyframes" by Josh Comeau](https://www.joshwcomeau.com/animation/partial-keyframes/)
 
 Josh with another good post about little known features of CSS animations. I found it so useful and I see how many animations that I created in the past can be simplified. Top tutorials always.
+
+### ["You're not a front-end developer until you've..." by Nic Chan](https://www.nicchan.me/blog/youre-not-a-front-end-developer-until-youve/)
+
+I like lists and this is a super funny list. "Evangelized the joys of RSS to a non-tech friend" is something I keep on doing all the time! I think I'm a real frontender then, because I proudly ticked most of the boxes. Funny one!
+
+### ["Animating zooming using CSS: transform order is important… sometimes" by Jake Archibald](https://jakearchibald.com/2025/animating-zooming/)
+
+I love Jake's practical explanations of edge-casy CSS/JavaScript gotchas. This one about the precedence of recalculating transform properties is very good. Also, this post presents a pretty neat, simple and elegant way of achieving a zooming effect.
