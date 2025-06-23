@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<div class="wrapper">
+  <div class="content">
+    <h1 id="{{ anchorize .Page.Title }}">
+      {{ .Page.Title }}
+      <a class="anchor" href="#{{ anchorize .Page.Title }}">#</a>
+    </h1>
+    {{ .Content }}
+  </div>
+</div>
+
+{{ end }}

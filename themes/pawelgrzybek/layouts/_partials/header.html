@@ -5,10 +5,13 @@
     <nav class="header__nav">
       <ul class="header__list">
         <li class="header__item header__item--logo">
-          <a class="header__logo" href="/" title="Homepage">Paweł Grzybek</a>
+          <a class="header__logo" href="/">Paweł Grzybek</a>
         </li>
         <li class="header__item">
-          <a {{ if eq .RelPermalink "/posts/" }}aria-current="page"{{ end }} href="/posts" title="Archive">Archive</a>
+          <a {{ if eq .RelPermalink "/posts/" }}aria-current="page"{{ end }} href="/posts">Archive</a>
+        </li>
+        <li class="header__item">
+          <a {{ if eq .RelPermalink "/blogroll/" }}aria-current="page"{{ end }} href="/blogroll">Blogroll</a>
         </li>
         <li class="header__item">
           <a
