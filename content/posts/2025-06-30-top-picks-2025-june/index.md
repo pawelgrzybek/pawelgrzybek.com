@@ -38,3 +38,7 @@ I like lists and this is a super funny list. "Evangelized the joys of RSS to a n
 ### ["Animating zooming using CSS: transform order is important… sometimes" by Jake Archibald](https://jakearchibald.com/2025/animating-zooming/)
 
 I love Jake's practical explanations of edge-casy CSS/JavaScript gotchas. This one about the precedence of recalculating transform properties is very good. Also, this post presents a pretty neat, simple and elegant way of achieving a zooming effect.
+
+### [How to Think About Time in Programming](https://shanrauf.com/archive/how-to-think-about-time-in-programming)
+
+Time is complicated, not only in programming but in general. Multiple standards of measuring it, and even more to represent it. Take into consideration the precision of solar day calculations back when it was established and mix it with a progressive slowdown of 1.8 ms every century, and you have another dimension of complexity in time calculations. Did you know that the JavaScript `Date.now()` is not accurate and doesn’t represent a precise value that has elapsed since the beginning of 1970? Did you know that not all time zones are location-based, but quite often dictated by the local governments? This article by Shan Rauf will help you clarify all of these. A very good (and lengthy) read.
