@@ -1,9 +1,9 @@
 ---
 title: "Top picks — 2025 June"
-summary: ""
+summary: "Some news from WWDC, some inspiring notes in the difficult age of AI everything, CSS animation tricks, a bit of frontend humour, some CSS zoom and transition intricacies, and a great one about time in programming."
 ---
 
-I have been publishing fewer "picks" in my monthly series recently. This is because most of the tech nowadays is boring as hell, and I come across things that interest me a lot less often than years ago. Is it just my impression, or do you feel the same? Luckily, the long years of carefully maintained RSS feeds pay back and serve me as a main source of content I care about. Thank God I don’t need to rely on suggestions served by the social media algorithms and whatever the masses upvote on Hacker News.
+I have been publishing fewer "picks" in my monthly series recently. This is because most of the tech nowadays is boring as hell, and I come across things that interest me a lot less often than in the past. Is it just my impression, or do you feel the same? Luckily, the long years of carefully maintained RSS feed pays off and serves me as a main source of content I care about. Thank God I don’t need to rely on suggestions provided by the social media algorithms and whatever the masses upvote on Hacker News. To appreciate the content creators I follow, I recently created a [Blogroll page](/blogroll), and to ease the discoverability of good stuff, I would encourage you to do the same.
 
 As always, I aggregated all the gems for you all in a single place and also came prepared with a solid music proposition.
 
@@ -11,9 +11,9 @@ As always, I aggregated all the gems for you all in a single place and also came
 
 ## Album of the month
 
-Album info...
+For me, every single new release by Little Simz is an instant purchase. I just love her music, and the stuff that this young lady does is just superb! Alongside the recently released "Lotus," I also ordered a few years old EP that was missing in my collection called ["Drop 6"](https://www.discogs.com/release/16234040-Little-Simz-Drop-6). Just five songs, with an absolutely outstanding track to me, "One Life, Might Live." Since I put this one on my turntable, I have been listening to the A-side for the last week, and I didn’t even open "Lotus" just yet.
 
-![]()
+![](drop-6.jpg)
 
 ---
 
