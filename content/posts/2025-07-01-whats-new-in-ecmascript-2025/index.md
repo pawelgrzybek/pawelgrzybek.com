@@ -83,7 +83,7 @@ export { data } from "./data.json" with { type: "json" };
 
 ## [Iterator Helpers](https://github.com/tc39/proposal-iterator-helpers)
 
-I love working with iterators in Rust. This proposal brings us closer to this realm and makes working with them in JavaScript a lot moje enjoyable. No more `Array.from()` or some third party libs. Here is a list of new goodies!
+I love working with iterators in Rust. This proposal brings us closer to this realm and makes working with them in JavaScript a lot moje enjoyable. No more `Array.from()` or some third party libs. This is by far my favourite proposal that landed in the new specification. Here is a list of new methods!
 
 - `map()`
 - `filter()`
@@ -97,3 +97,43 @@ I love working with iterators in Rust. This proposal brings us closer to this re
 - `every()`
 - `find()`
 - `Iterator.from()` (static method)
+
+Some of them (`map`, `filter`, `reduce`, `flatMap`, `some`, `find` and `every`) mimic the naming and functionality of methods from the `Array.prototype`, and their usecase and functionality should be familiar. Here is a quick example.
+
+```js
+const iter = [..."ECMAScript2025"].values();
+const iterNumeric = iter.filter((c) => /^\d$/.test(c));
+
+iterNumeric.next();
+// { value: '2', done: false }
+iterNumeric.next();
+// { value: '0', done: false }
+iterNumeric.next();
+// { value: '2', done: false }
+iterNumeric.next();
+// { value: '5', done: false }
+iterNumeric.next();
+// { value: undefined, done: true }
+```
+
+Some of them (`drop`, `take`) are just for iterator manipulations and are not present in an `Array.prototype`.
+
+```js
+const iter = [..."ECMAScript2025"].values();
+const iterNumeric = iter.drop(10).take(4);
+
+iterNumeric.next();
+// { value: '2', done: false }
+iterNumeric.next();
+// { value: '0', done: false }
+iterNumeric.next();
+// { value: '2', done: false }
+iterNumeric.next();
+// { value: '5', done: false }
+iterNumeric.next();
+// { value: undefined, done: true }
+```
+
+## [Promise.try()](https://github.com/tc39/proposal-promise-try)
+
+Promise try
