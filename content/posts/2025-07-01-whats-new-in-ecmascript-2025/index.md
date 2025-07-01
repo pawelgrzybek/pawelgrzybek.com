@@ -136,4 +136,103 @@ iterNumeric.next();
 
 ## [Promise.try()](https://github.com/tc39/proposal-promise-try)
 
-Promise try
+Wrapping a non-sync function in a Promise is a common operation. The new `Promise.try` is an elegant wrapper for sync or async operations that ensures a returned promise. Here is a simple use case.
+
+```js
+const handleAction = (action) =>
+  action
+    .then((result) => console.log(result))
+    .catch((error) => console.error(error))
+    .finally(() => console.log("done"));
+
+handleAction(new Promise((resolve, reject) => resolve("all good")));
+// all good
+// done
+```
+
+```js
+const handleAction = (action) =>
+  action
+    .then((result) => console.log(result))
+    .catch((error) => console.error(error))
+    .finally(() => console.log("done"));
+
+handleAction(new Promise((resolve, reject) => reject("uuuupps")));
+// uuuupps
+// done
+```
+
+The `handleAction` works great with these two, because in both cases the passed argument is a Promise. What will happen if the argument is a sync operation though?
+
+```js
+const handleAction = (action) =>
+  action
+    .then((result) => console.log(result))
+    .catch((error) => console.error(error))
+    .finally(() => console.log("done"));
+
+handleAction(() => "look ma, no promise!");
+// TypeError: action.then is not a function
+```
+
+This is a common situation when people reach for `npm i p-try`, but now that's not needed as this helper is built into the language. Here is an example with a sync action again, and another one when it throws.
+
+```js
+const handleAction = (action) =>
+  Promise.try(action) // 👈👈👈
+    .then((result) => console.log(result))
+    .catch((error) => console.error(error))
+    .finally(() => console.log("done"));
+
+handleAction(() => "look ma, no promise!");
+// look ma, no promise!
+// done
+```
+
+```js
+const handleAction = (action) =>
+  Promise.try(action) // 👈👈👈
+    .then((result) => console.log(result))
+    .catch((error) => console.error(error))
+    .finally(() => console.log("done"));
+
+handleAction(() => {
+  throw "look me, no promise, but an error!";
+});
+// look me, no promise, but an error!
+// done
+```
+
+## [Float16Array](https://github.com/tc39/proposal-float16array)
+
+To complement the already existing `Float32Array` and `Float64Array` in the language, this proposal adds the missing [half-precision floating-point format](https://en.wikipedia.org/wiki/Half-precision_floating-point_format), `Float16Array`. This proposal hardly makes any difference for web developers, but for graphics-intensive calculations where memory is limited, this can save the day.
+
+## [RegExp Escaping](https://github.com/tc39/proposal-regex-escaping)
+
+Mechanism for escaping literal strings is something that the community has been asking for a very long time. It is present in Perl, PHP, Python, Ruby and many others. Let’s look at the problem and the solution that the new `RegExp.escape()` solves.
+
+```js
+const sentence = "He has two dogs. I have one dog.";
+const pattern = /dog./;
+const newSentence = sentence.replace(pattern, "cat.");
+
+console.log(newSentence);
+// He has two cat.. I have one dog.
+```
+
+Uuups. The `.` token in the pattern is matching any single character, but our intention was to match a literal `.`. Here is where the new `RegExp.escape()` comes in handy.
+
+```js
+const sentence = "He has two dogs. I have one dog.";
+const pattern = new RegExp(RegExp.escape("dog.")); // 👈👈👈
+const newSentence = sentence.replace(pattern, "cat.");
+
+console.log(newSentence);
+// He has two dogs. I have one cat.
+```
+
+This example is not the best, but imagine if the value inside the regex is coming from an external source or user input. This solves a huge problem and simplifies otherwise complex and error-prone solutions.
+
+---
+
+JavaScript
