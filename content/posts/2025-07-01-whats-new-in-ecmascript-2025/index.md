@@ -1,9 +1,18 @@
 ---
 title: "What's new in ECMAScript 2025"
-summary: ""
+summary: "A short summary of every new feature added to the ECMAScript specification this year, with easy-to-follow, illustrative examples. A bunch of great new features."
 ---
 
-[Another version of ECMAScript version has been approved by the TC39](https://ecma-international.org/news/ecma-international-approves-new-standards-11/), and to keep my annual tradition I’m sharing what’s new in the [ES2025](https://262.ecma-international.org/16.0/index.html) with simple practical examples. If you want to catch up with the previous editions, here you have it: [2024](/whats-new-in-ecmascript-2024/), [2023](/whats-new-in-ecmascript-2023/), [2022](/whats-new-in-ecmascript-2022/), [2021](/whats-new-in-ecmascript-2021/), [2020](/whats-new-in-ecmascript-2020/), [2019](/whats-new-in-ecmascript-2019/), [2018](/whats-new-in-ecmascript-2018/), [2017](/whats-new-in-ecmascript-2017/) and [2016](/whats-new-in-ecmascript-2016-es7/). Now, let's see what is new this year.
+[Another version of ECMAScript version has been approved by the TC39](https://ecma-international.org/news/ecma-international-approves-new-standards-11/), and to keep my annual tradition I’m sharing what’s new in the [ES2025](https://262.ecma-international.org/16.0/index.html) with simple practical examples. If you want to catch up with the previous editions, here you have them: [2024](/whats-new-in-ecmascript-2024/), [2023](/whats-new-in-ecmascript-2023/), [2022](/whats-new-in-ecmascript-2022/), [2021](/whats-new-in-ecmascript-2021/), [2020](/whats-new-in-ecmascript-2020/), [2019](/whats-new-in-ecmascript-2019/), [2018](/whats-new-in-ecmascript-2018/), [2017](/whats-new-in-ecmascript-2017/) and [2016](/whats-new-in-ecmascript-2016-es7/). Now, let's see what is new this year.
+
+- [Duplicate named capturing groups](#duplicate-named-capturing-groups)
+- [Set Methods for JavaScript](#set-methods-for-javascript)
+- [Regular Expression Pattern Modifiers](#regular-expression-pattern-modifiers)
+- [Import Attributes](#import-attributes-and-json-modules)
+- [Iterator Helpers](#iterator-helpers)
+- [Promise.try()](#promisetry)
+- [Float16Array](#float16array)
+- [RegExp Escaping](#regexp-escaping)
 
 ## [Duplicate named capturing groups](https://github.com/tc39/proposal-duplicate-named-capturing-groups?tab=readme-ov-file)
 
@@ -68,7 +77,7 @@ pattern.test("bearer ABC");
 
 ## [Import Attributes](https://github.com/tc39/proposal-import-attributes) and [JSON modules](https://github.com/tc39/proposal-json-modules)
 
-We have been importing non-JS files for ages. Thanks to the powerful bundlers, importing a CSS, SVG file, or JSON data heap has become the norm. The new import `type` attribute informs the module system about the MIME type, configures fetching behaviour, and orchestrates parsing and evaluation of the imported asset. This ensures that the correct validation rules are applied and prevents potential security risks. Implementing this feature was a base for JSON modules, and as of now this is the only non-JS format supported, but additional types will come in the following years.
+We have been importing non-JS files for ages. Thanks to the powerful bundlers, importing a CSS, SVG file, or JSON data heap has become the norm. The new import `type` attribute informs the module system about the MIME type, configures fetching behaviour, and orchestrates parsing and evaluation of the imported asset. This ensures that the correct validation rules are applied and prevents potential security risks. Implementing this feature was a baseis for JSON modules, and as of now this is the only non-JS format supported, but additional types will come in the following years.
 
 ```js
 // Import
@@ -235,4 +244,8 @@ This example is not the best, but imagine if the value inside the regex is comin
 
 ---
 
-JavaScript
+## JavaScript Trademark
+
+Did you know that "JavaScript" is a registered trademark and belongs to Oracle? This company has very little to do with this language, but this is the main reason why we refer to this language as ECMAScript, and the reason why organising a "JavaScript Conf" violates trademark rules. Pretty silly, right?
+
+Folks from Deno filed and open petition to release the "JavaScript" trademark. Thousands of developers signed a letter to help to make JavaScript free. If you haven't already, please do so at [javascript.tm](https://javascript.tm/). Thank you 😘
