@@ -92,7 +92,7 @@ export { data } from "./data.json" with { type: "json" };
 
 ## [Iterator Helpers](https://github.com/tc39/proposal-iterator-helpers)
 
-I love working with iterators in Rust. This proposal brings us closer to this realm and makes working with them in JavaScript a lot moje enjoyable. No more `Array.from()` or some third party libs. This is by far my favourite proposal that landed in the new specification. Here is a list of new methods!
+I love working with iterators in Rust. This proposal brings us closer to this realm and makes working with them in JavaScript a lot more enjoyable. No more `Array.from()` or some third party libs. This is by far my favourite proposal that landed in the new specification. Here is a list of new methods!
 
 - `map()`
 - `filter()`
