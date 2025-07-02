@@ -11,7 +11,7 @@ Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the 
 
 - [MacBook Pro M2 14-inch](https://www.apple.com/uk/macbook-pro/) (personal)
 - [MacBook Pro M1 16-inch](https://www.apple.com/uk/macbook-pro/) (work)
-- [iPad Pro XX generation](https://www.apple.com/uk/ipad-pro/)
+- [iPad Pro 12.9-inch (5th generation)](https://www.apple.com/uk/ipad-pro/)
 - [iPhone 15 Pro Max](https://www.apple.com/uk/iphone-16-pro/)
 - [Apple Watch Series 4](https://www.apple.com/uk/apple-watch-series-10/)
 - [Logitech MX Master 3S for Mac](https://www.logitech.com/en-gb/shop/p/mx-master-3s-mac-bluetooth-mouse.910-006571)
