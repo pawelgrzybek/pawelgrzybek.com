@@ -3,6 +3,8 @@ title: Uses
 summary: ""
 ---
 
+Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the hardware and software used by people who inspire me. Following [the IndieWeb trend](https://indieweb.org/using), here is my list.
+
 ## Hardware
 
 - [MacBook Pro M2 14-inch](https://www.apple.com/uk/macbook-pro/) (personal)
