@@ -1,9 +1,11 @@
 ---
 title: Uses
-summary: ""
+summary: "Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the hardware and software used by people who inspire me. Here is my list."
 ---
 
 Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the hardware and software used by people who inspire me. Following [the IndieWeb trend](https://indieweb.org/using), here is my list.
+
+![Some stuff on my desk: keyboard, mouse, coffee mug, iPhone](uses.jpg)
 
 ## Hardware
 
