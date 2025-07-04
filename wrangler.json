@@ -2,6 +2,6 @@
   "name": "pawelgrzybek.com",
   "compatibility_date": "2025-07-04",
   "assets": {
-    "directory": "./public/",
+    "directory": "./public/"
   }
 }
