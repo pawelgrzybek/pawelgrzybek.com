@@ -77,7 +77,7 @@ pattern.test("bearer ABC");
 
 ## [Import Attributes](https://github.com/tc39/proposal-import-attributes) and [JSON modules](https://github.com/tc39/proposal-json-modules)
 
-We have been importing non-JS files for ages. Thanks to the powerful bundlers, importing a CSS, SVG file, or JSON data heap has become the norm. The new import `type` attribute informs the module system about the MIME type, configures fetching behaviour, and orchestrates parsing and evaluation of the imported asset. This ensures that the correct validation rules are applied and prevents potential security risks. Implementing this feature was a baseis for JSON modules, and as of now this is the only non-JS format supported, but additional types will come in the following years.
+We have been importing non-JS files for ages. Thanks to the powerful bundlers, importing a CSS, SVG file, or JSON data heap has become the norm. The new import `type` attribute informs the module system about the MIME type, configures fetching behaviour, and orchestrates parsing and evaluation of the imported asset. This ensures that the correct validation rules are applied and prevents potential security risks. Implementing this feature was a basis for JSON modules, and as of now this is the only non-JS format supported, but additional types will come in the following years.
 
 ```js
 // Import
