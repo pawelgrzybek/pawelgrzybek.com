@@ -1,6 +1,6 @@
 # Configure Cloudflare Worker
 
-name = 'hosting-cloudflare-worker'
+name = "pawelgrzybek"
 compatibility_date = "2025-05-26"
 
 [build]
