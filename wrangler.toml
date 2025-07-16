@@ -4,7 +4,7 @@ name = 'hosting-cloudflare-worker'
 compatibility_date = "2025-05-26"
 
 [build]
-command = "hugo version && hugo --gc --minify"
+command = "mkdir data && curl -s -o data/comments.json https://6u9a2qa0kh.execute-api.eu-west-2.amazonaws.com/prod/?accessToken=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo --gc --minify"
 
 [assets]
 directory = "./public"
