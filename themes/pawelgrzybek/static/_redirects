@@ -1,5 +1,4 @@
 /about /
-/uses /
 /archive /posts
 /page/* /posts
 /.well-known/avatar /.well-known/avatar.jpg 200
