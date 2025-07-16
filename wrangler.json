@@ -1,6 +1,9 @@
 {
   "name": "pawelgrzybek",
-  "compatibility_date": "2025-05-26",
+  "compatibility_date": "2025-07-16",
+  "vars": {
+    "HUGO_VERSION": "0.148.1"
+  },
   "build": {
     "command": "mkdir data && curl -s -o data/comments.json https://6u9a2qa0kh.execute-api.eu-west-2.amazonaws.com/prod/?accessToken=$COMMENTS_SERVERLESS_ACCESS_TOKEN && hugo --gc --minify"
   },
