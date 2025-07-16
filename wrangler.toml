@@ -1,0 +1,11 @@
+# Configure Cloudflare Worker
+
+name = 'hosting-cloudflare-worker'
+compatibility_date = "2025-05-26"
+
+[build]
+command = "hugo version && hugo --gc --minify"
+
+[assets]
+directory = "./public"
+not_found_handling = "404-page"
