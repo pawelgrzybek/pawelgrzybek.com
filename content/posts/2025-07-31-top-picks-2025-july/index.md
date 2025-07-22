@@ -30,3 +30,7 @@ Cloudflare changes that and blocks all AI crawlers by default unless AI giants a
 ### ["Quantity Query Carousel" by Chris Coyier](https://frontendmasters.com/blog/quantity-query-carousel/)
 
 This idea is so neat. Styling child elements based on the count is not a new idea, but to make such big layout changes as presented in this post is crazy and incredible at the same time. This is another neat CSS trick that the CSS `:has()` pseudo-class made trivially easy. As always, a nice easy-to-follow write-up by Chris.
+
+### [A Friendly Introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/)
+
+Josh is back with his interactive primers, this time all about SVG. Holy molly, this dude puts a lot of time into every single one of these posts. I learned tons of things from this one, and you will pick up something too. He is my hero of simple explainer posts!
