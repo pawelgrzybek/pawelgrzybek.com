@@ -9,7 +9,7 @@ Intro
 
 ## Album of the month
 
-Album description...
+My daughter and I had a lot of fun dancing to the soundtrack from ["Super Fly" by Curtis Mayfield](https://www.discogs.com/release/955304-Curtis-Mayfield-Super-Fly). Classic blaxploitation vibe all composed and performed by my beloved Curtis has been a massive influence for plenty of funk bands and rap producers. So funny that the soundtrack to the movie is a lot more popular than the movie. The movie is okay, I watched it, but Mayfield’s creation is just golden!
 
 ![]()
 
@@ -34,3 +34,7 @@ This idea is so neat. Styling child elements based on the count is not a new ide
 ### [A Friendly Introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/)
 
 Josh is back with his interactive primers, this time all about SVG. Holy molly, this dude puts a lot of time into every single one of these posts. I learned tons of things from this one, and you will pick up something too. He is my hero of simple explainer posts!
+
+### [You Can Now Disable All AI Features in Zed](https://zed.dev/blog/disable-ai-features)
+
+Even though I don’t use Zed as my main code editor, this is by far my favourite GUI editor. Unbeatable performance, clean and not intrusive look, and just the right amount of features and integrations. This article is just proof of how much Zed's creators listen to users' feedback. I love the way they implemented it and how they articulated the reasoning behind it in the blog post.
