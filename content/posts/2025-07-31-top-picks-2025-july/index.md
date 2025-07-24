@@ -11,7 +11,9 @@ Intro
 
 My daughter and I had a lot of fun dancing to the soundtrack from ["Super Fly" by Curtis Mayfield](https://www.discogs.com/release/955304-Curtis-Mayfield-Super-Fly). Classic blaxploitation vibe all composed and performed by my beloved Curtis has been a massive influence for plenty of funk bands and rap producers. So funny that the soundtrack to the movie is a lot more popular than the movie. The movie is okay, I watched it, but Mayfield’s creation is just golden!
 
-![]()
+![Three of the best albums by Curtis Mayfield on the shelf](superfly-1.jpg)
+
+![Cover of the "Super Fly" soundtrack by Curtis Mayfield](superfly-2.jpg)
 
 ---
 
