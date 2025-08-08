@@ -28,3 +28,7 @@ No way someone can write it better than Molly White. We live surrounded by media
 ### ["Links, Resources, and Humans of Note" by Alex Russell]
 
 Kinda related to RSS, especially if you are new to it and you're looking for resources to follow. Alex accumulated a huge list of great personal and company blogs, good articles about web essentials and browser mechanics. I got inspired and added a few more feeds to my OPML file. This is "the list" if you are into web.
+
+### ["Using the Custom Highlight API" by Chris Coyier](https://frontendmasters.com/blog/using-the-custom-highlight-api/)
+
+Quick and easy to follow intro to the `CustomHighlight` API. Good to know that this API is now supported by all the vendors!
