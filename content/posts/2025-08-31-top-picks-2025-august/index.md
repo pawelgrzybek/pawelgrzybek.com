@@ -36,3 +36,7 @@ Quick and easy to follow intro to the `CustomHighlight` API. Good to know that t
 ### [Address formats around the world](https://w3c.github.io/i18n-drafts/questions/qa-address-formats.en.html)
 
 Internationalisation is super hard on the web, and address details are one of its aspects. There are so many formats, many nomenclatures that differ from country to country, but sometimes even within the same area, rules differ massively. This article is a list of recommendations to follow when you design an address details form. I found it super interesting how different these rules are, and this made me appreciate the complexity of some of the systems that need to handle all the possible permutations.
+
+### [Rolling the Dice with CSS random()](https://webkit.org/blog/17285/rolling-the-dice-with-css-random/)
+
+The `random()` function is coming to CSS. It is super experimental for now and only available in the Safari Technology Preview. I'm well excited about it as it is going to enable a lot of creative use cases without asking JavaScript for help. Nice!
