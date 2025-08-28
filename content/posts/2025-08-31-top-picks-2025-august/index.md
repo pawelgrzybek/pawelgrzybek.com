@@ -3,15 +3,17 @@ title: "Top picks — 2025 August"
 summary: ""
 ---
 
-Intro
+August is my favourite month. Super hot summer season, still a very long day compared to the night and my birthday. Yes, I’m officially a 38-year-old happy man. Looks like it is also a great time for web folks to make some great content, and I have some of it prepared for you here today. Music recommendation from my record shelf also, as always, here.
+
+Thanks for reading and have a great September, y’all 😘
 
 ---
 
 ## Album of the month
 
-Album of the month
+Today is not about the single album but about the whole series of bootleg compilations created by Danny Dan The Beat Mann, called "Dusty Fingers". This is a selection of tunes that contain raw breaks and open drum solos, which all producers love! This series of records was a source of hundreds of incredible rap beats. Every single one of the seventeen releases is incredible. I have only four of them now, but I will do my best to have the whole set eventually. Incredible breaks!
 
-![]()
+![Dusty Fingers compilations](dusty-fingers.jpg)
 
 ---
 
@@ -40,3 +42,7 @@ Internationalisation is super hard on the web, and address details are one of it
 ### [Rolling the Dice with CSS random()](https://webkit.org/blog/17285/rolling-the-dice-with-css-random/)
 
 The `random()` function is coming to CSS. It is super experimental for now and only available in the Safari Technology Preview. I'm well excited about it as it is going to enable a lot of creative use cases without asking JavaScript for help. Nice!
+
+### [Testing Time (and other asyncronicities)](https://go.dev/blog/testing-time)
+
+I recently started learning the Go language, and I’m fascinated by it. Its simplicity and pragmatism are very appealing for someone who works in the JavaScript environment day in, day out. Testing practices in Go are something that need practice, though, and I find idiomatic testing patterns pretty overwhelming, especially when it comes to testing asynchronous code. This article is an incredible explainer, admits that all the areas that I found difficult are difficult not only for me, and introduces a `testing/synctest` package that makes this a new standard for making it a breeze. I also learned a new word, "quiescence" which describes the state when all background tasks are settled. Love it!
