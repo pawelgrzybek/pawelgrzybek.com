@@ -1,19 +1,29 @@
 ---
 title: "Top picks — 2025 August"
-summary: ""
+summary: "Scroll spy in two lines of CSS, the power of RSS, Custom Highlight API, address formats around the world, CSS random() function, testing concurrent Go, OAuth explainer, CSS gradient helper and the story behind the QWERTY and Dvorak keyboards."
 ---
 
-August is my favourite month. Super hot summer season, still a very long day compared to the night and my birthday. Yes, I’m officially a 38-year-old happy man. Looks like it is also a great time for web folks to make some great content, and I have some of it prepared for you here today. Music recommendation from my record shelf also, as always, here.
+I’m experiencing a little writing crisis. I don’t publish much nowadays, other than keeping the "Top Picks" series on a prompt schedule and some occasional short-form articles to release some infrequent bursts of creativity. It is not the first time it’s happening to me, and I’m certain that I’ll get back to regular blogging soon.
 
-Thanks for reading and have a great September, y’all 😘
+Life has just become busy. Hectic times at work but also my focus has been redirected to learning a new programming language (Go lang) and upskilling in some other areas. The explosion of AI tools and the fact that no one needs to read my writing to solve their programming challenges can be discouraging, but surprisingly doesn’t bother me too much. I believe in the positive impact of the creation, putting in an effort and delivering value to readers, even if I am the sole human being reading it. I have emphasised the value of writing a million times before, and no AI trend is going to kill it.
+
+On that note, have you noticed a recent backlash against AI tools not being as effective as previously claimed? Cal Newport recently noticed the same and published his thoughts in the ["Ep. 367: What if AI Doesn’t Get Much Better Than This?"](https://www.thedeeplife.com/podcasts/episodes/ep-367-what-if-ai-doesnt-get-much-better-than-this-2/) episode of his podcast. Just a food for thoughts.
+
+Time for some links! August is my favourite month. Hot summer, good weather, fresh fruits and veggies and also my birthday. Yes, I’m officially a 38-year-old happy man. Looks like it is also a great time for web folks to make some great content, and I have some of it prepared for you here today. Music recommendation from my records shelf as a bonus 😘
 
 ---
 
 ## Album of the month
 
-Today is not about the single album but about the whole series of bootleg compilations created by Danny Dan The Beat Mann, called "Dusty Fingers". This is a selection of tunes that contain raw breaks and open drum solos, which all producers love! This series of records was a source of hundreds of incredible rap beats. Every single one of the seventeen releases is incredible. I have only four of them now, but I will do my best to have the whole set eventually. Incredible breaks!
+Today is not about the single album but about the whole series of bootleg compilations created by Danny Dan The Beat Mann, called ["Dusty Fingers"](https://www.discogs.com/label/182798-Dusty-Fingers). These compilations of funk, jazz, soul and disco are full of raw breaks and open drum solos, which is what every hip hop producer is obsessed with. This series is a base used on hundreds if not thousands of incredible beats. Every single one of the seventeen releases is dope. I have only four of them, but I will do my best to have the whole set eventually.
 
 ![Dusty Fingers compilations](dusty-fingers.jpg)
+
+Little chance you are going to start exploring this compilation on your own if I won't give you a link to click and listen, so here you are. Some of the smashing songs picked just from the Volume One. You have sixteen more to explore.
+
+- [Billy Brooks - Fourty Days](https://youtu.be/TwyuJqiRBA0), sampled by Tribe Called Quest in "Luck of Lucien", "Testify" by Talib Kweli, "Tonight" by Children of Zeus to name a few.
+- [David Axelrod - Whe Warnings Part I](https://youtu.be/nEyx4o61DRU), used by "Duality" by DJ Krush
+- [Oliver Sain - On The Hill](https://youtu.be/o-MSeohFtnM), also present on the outro of "Tell Me" by Pete Rock and CL Smooth
 
 ---
 
