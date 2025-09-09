@@ -23,11 +23,14 @@ The moment it arrived I switched my Logitech mouse off and forced myself to use 
 ## Not so good
 
 - The slight tilt of one half of the keyboard added by attaching a new device is not an issue for me, but the fact that they are different bothers me a little. A little shim to attach to the opposite half would be a nice addition to the package.
+- Despite the configurable delay that disables the moouse layer after the specified inactivity, this works in most cases until it doesn't and somethimes forces me to wait a lot longer. This is a huge slow down of my productivity. This deleye inconsistency inconsistency makes it impossible to get into the flow.
+- The experience of using cursor pointer using both hands is simply not for me, which is mainly apparent when I use apps like Figma. I didnt realise how ofren I click or drag with modifiers. I know it is possible to do it with Navigator, it is just too hard for me to do so and I think too much about it while I do it.
 
-## Notes
+## Great product, but not for me
 
-- The default mouse layer implicitly added when I registered the Navigator added "Toggle scroll" and "Lock layer" and I have absolutely no clue how they work. I disabled them as they gave just a headache. If someone can explain how to use them, I will be super thankful.
-- I had to tweak some settings on the Navigator, as I found the default values to be way too sensitive for my fat fingers.
+It is fantastic product, looks good and its price is resanoable. The design is good, but the best part of it is the fact thet you no longer need a mouse on your desk. Having a full controll under your thumb is great. It is the more complicated workflows that distrupts my productivity. I cannot
+
+I will be selling mine, so if youre interested to get on in UK, let me know, I will give you a good price.
 
 ---
 
