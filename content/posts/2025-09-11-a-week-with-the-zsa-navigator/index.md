@@ -30,7 +30,11 @@ The moment it arrived I switched my Logitech mouse off and forced myself to use 
 
 It is a fantastic product, nicely designed, well priced and for most people will totally replace a mouse. Unfortunatelly the more complicated workflows that require holding modifiers put me out of the flow too much, to the point that I decided to sell it and welcome my good old Logitech mouse back to my desk.
 
-If you're in the UK and keen to get one, please let me know, I will give you a good price 💰
+<del>If you're in the UK and keen to get one, please let me know, I will give you a good price 💰</del>
+
+{{< update >}}
+It's not longer available, sorry. A kind Reddit user bought it 10 minutes after I published this article.
+{{< /update >}}
 
 ---
 
