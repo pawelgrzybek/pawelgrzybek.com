@@ -36,7 +36,24 @@
   <link rel="manifest" href="/manifest.webmanifest">
 
   {{ "<!-- Styles -->" | safeHTML }}
-  {{- $styles := resources.Get "scss/styles.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
+  {{- $global := resources.Get "css/global.css" }}
+  {{- $wrapper := resources.Get "css/wrapper.css" }}
+  {{- $content := resources.Get "css/content.css" }}
+  {{- $button := resources.Get "css/button.css" }}
+  {{- $anchor := resources.Get "css/anchor.css" }}
+  {{- $header := resources.Get "css/header.css" }}
+  {{- $footer := resources.Get "css/footer.css" }}
+  {{- $share := resources.Get "css/share.css" }}
+  {{- $post := resources.Get "css/post.css" }}
+  {{- $archive := resources.Get "css/archive.css" }}
+  {{- $syntax := resources.Get "css/syntax.css" }}
+  {{- $footnote := resources.Get "css/footnote.css" }}
+  {{- $update := resources.Get "css/update.css" }}
+  {{- $comments := resources.Get "css/comments.css" }}
+  {{- $form := resources.Get "css/form.css" }}
+  {{- $music := resources.Get "css/music.css" }}
+  {{- $baseline := resources.Get "css/baseline.css" }}
+  {{- $styles := slice $global $wrapper $content $button $anchor $header $footer $share $post $archive $syntax $footnote $update $comments $form $music $baseline | resources.Concat "css/styles.css" | resources.Minify }}
   <style>{{ $styles.Content | safeCSS }}</style>
   <script>
     const userThemeCritical = localStorage.getItem("theme");

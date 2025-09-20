@@ -1,3 +1,73 @@
+:root {
+  --fz: 1rem;
+  --fzb: 106.25%;
+  --lh: 1.6470588235rem;
+  --type-scale: 1.2;
+
+  --border-radius: 4px;
+
+  --color-background: light-dark(hsl(255 0% 100%), hsl(210 15% 15%));
+  --color-text: light-dark(hsl(255 10% 20%), hsl(210 15% 90%));
+  --color-link: light-dark(hsl(255 55% 40%), hsl(210 100% 81%));
+  --color-share: light-dark(hsl(255 55% 40% / 0.06), hsl(212 100% 81% / 0.06));
+  --color-share-border: light-dark(
+    hsl(255 55% 40% / 0.08),
+    hsl(212 100% 81% / 0.08)
+  );
+  --color-update-background: light-dark(hsl(5 90% 97%), hsl(5 35% 24%));
+  --color-update-border: light-dark(hsl(5 90% 80%), hsl(5 35% 32%));
+  --color-box-background: light-dark(hsl(0 0% 97%), hsl(210 12% 11%));
+  --color-box-border: light-dark(hsl(0 0% 93%), hsl(210 12% 20%));
+  --color-box-border-dark: light-dark(hsl(0 0% 87%), hsl(210 12% 30%));
+
+  --color-syntax-c1: light-dark(#6a737d, #6a737d);
+  --color-syntax-nx: light-dark(#005cc5, #79b8ff);
+  --color-syntax-p: light-dark(#24292e, #e1e4e8);
+  --color-syntax-o: light-dark(#d73a49, #f97583);
+  --color-syntax-sb: light-dark(#032f62, #e1e4e8);
+  --color-syntax-nt: light-dark(#005cc5, #79b8ff);
+  --color-syntax-s2: light-dark(#032f62, #9ecbff);
+  --color-syntax-kr: light-dark(#d73a49, #f97583);
+  --color-syntax-na: light-dark(#6f42c1, #b392f0);
+  --color-syntax-s: light-dark(#032f62, #9ecbff);
+  --color-syntax-nc: light-dark(#6f42c1, #b392f0);
+  --color-syntax-k: light-dark(#005cc5, #79b8ff);
+}
+
+@supports not (color: light-dark(white, black)) {
+  :root {
+    --color-background: hsl(255 0% 100%);
+    --color-text: hsl(255 10% 20%);
+    --color-link: hsl(255 55% 40%);
+    --color-share: hsl(255 55% 40% / 0.06);
+    --color-share-border: hsl(255 55% 40% / 0.08);
+    --color-update-background: hsl(5 90% 97%);
+    --color-update-border: hsl(5 90% 80%);
+    --color-box-background: hsl(0 0% 97%);
+    --color-box-border: hsl(0 0% 93%);
+    --color-box-border-dark: hsl(0 0% 87%);
+    --color-syntax-c1: #6a737d;
+    --color-syntax-nx: #005cc5;
+    --color-syntax-p: #24292e;
+    --color-syntax-o: #d73a49;
+    --color-syntax-sb: #032f62;
+    --color-syntax-nt: #005cc5;
+    --color-syntax-s2: #032f62;
+    --color-syntax-kr: #d73a49;
+    --color-syntax-na: #6f42c1;
+    --color-syntax-s: #032f62;
+    --color-syntax-nc: #6f42c1;
+    --color-syntax-k: #005cc5;
+  }
+}
+
+@media screen and (min-width: 764px) {
+  :root {
+    --fzb: 112.5%;
+    --lh: 1.6666666667rem;
+  }
+}
+
 @font-face {
   font-family: InterVariable;
   font-style: normal;
@@ -43,9 +113,7 @@ html {
   scroll-padding-top: var(--lh);
   scroll-behavior: smooth;
   color-scheme: light dark;
-  // get the consistent look on macOS https://dbushell.com/2024/11/05/webkit-font-smoothing/
   -webkit-font-smoothing: antialiased;
-  // https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
@@ -77,12 +145,6 @@ body {
   font-weight: 480;
   line-height: var(--lh);
   transition: all 300ms;
-
-  // background-image: linear-gradient(
-  //   var(--color-box-border-dark) 1px,
-  //   transparent 1px
-  // );
-  // background-size: 100% 1lh;
 }
 
 img,
