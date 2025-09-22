@@ -1,6 +1,8 @@
 :root {
   --fz: 1rem;
+  /* 17px */
   --fzb: 106.25%;
+  /* 28px */
   --lh: 1.6470588235rem;
   --type-scale: 1.2;
 
@@ -63,7 +65,9 @@
 
 @media screen and (min-width: 764px) {
   :root {
+    /* 18px */
     --fzb: 112.5%;
+    /* 30px */
     --lh: 1.6666666667rem;
   }
 }
@@ -145,6 +149,12 @@ body {
   font-weight: 480;
   line-height: var(--lh);
   transition: all 300ms;
+
+  /* background-image: linear-gradient( */
+  /*   var(--color-box-border-dark) 1px, */
+  /*   transparent 1px */
+  /* ); */
+  /* background-size: 100% 1lh; */
 }
 
 img,
