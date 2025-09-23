@@ -111,9 +111,16 @@
   color: var(--color-text);
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: var(--fzb);
-  box-sizing: border-box;
   scroll-padding-top: var(--lh);
   scroll-behavior: smooth;
   color-scheme: light dark;
@@ -121,14 +128,6 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-}
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
 }
 
 body {
