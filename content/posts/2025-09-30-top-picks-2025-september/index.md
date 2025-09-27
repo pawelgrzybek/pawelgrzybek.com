@@ -32,3 +32,7 @@ There is a lot going on in the browsers space. [Atlassian bought The Browser Com
 ### [Hosting a WebSite on a Disposable Vape](https://bogdanthegeek.github.io/blog/projects/vapeserver/)
 
 What an experiment! Some complain about the lack of resources of incredibly powerful boxes that need to handle the load of modern JS-heavy applications. Some put a website on the disposable vape and still have some RAM to play with. I love everything about it!
+
+### [What You Need to Know about Modern CSS (2025 Edition)](https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-2025-edition/)
+
+Looks like Chris Coyier picked up a new tradition to list the most important CSS features and listing them in a one aggregated blog post. Here is the one from 2025, and there is a bunch of incredible stuff here worth knowing about. We have been waiting for animating to the `auto` value forever, and it has finally landed, CSS `@function`s and `@if` statements are here, the `linear()` easing functions and heaps of other goodies. Check it out.
