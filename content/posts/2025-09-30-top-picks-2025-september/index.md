@@ -40,3 +40,11 @@ Looks like Chris Coyier picked up a new tradition to list the most important CSS
 ### [Navigating the World of Web Accessibility with Sara Soueidan](https://youtu.be/ndGKjhzmLXc)
 
 Sara is one of my favourite people on the internet. I have followed her for the last decade or so, and no matter if she is into SVG, CSS or accessibility, the content she creates is second to none. In this interview with Kevin Powell, she shares a ton of insights related to accessibility, the most common issues people make, some insights on the recently added elements to the CSS specification, and of course, some cooking tips.
+
+### [WebKit Features in Safari 26.0](https://webkit.org/blog/17333/webkit-features-in-safari-26-0)
+
+The new macOS Tahoe is a little disaster and by far the least polished release in Apple’s history. This is a subject for a dedicated article though. The very good thing about it is the arrival of Safari 26. It comes packed with new features which makes me super happy because Safari is my daily driver. CSS anchor positioning, scroll-driven animations, `colour-contrast` and `progress` functions, SVG icons (finally), and tons of other features and bug fixes.
+
+### [Benjamin Button Reviews macOS](https://rakhim.exotext.com/benjamin-button-reviews-macos)
+
+Speaking off the latest macOS release. This one is the most accurate review of the current state of the macOS. I love every single line of this article!
