@@ -48,3 +48,7 @@ The new macOS Tahoe is a little disaster and by far the least polished release i
 ### [Benjamin Button Reviews macOS](https://rakhim.exotext.com/benjamin-button-reviews-macos)
 
 Speaking off the latest macOS release. This one is the most accurate review of the current state of the macOS. I love every single line of this article!
+
+### [How much do you really know about media queries?](https://frontendmasters.com/blog/learn-media-queries/)
+
+This is a good refresher on the lesser-known media query descriptors. I must admit that some of them are incredibly useful and I have never heard of them before. Good reference.
