@@ -3,13 +3,13 @@ title: "Top picks — 2025 September"
 summary: "Postgres indexes explained, great documentary about the Python language, new browser is around, disposable vape as a web server, great summary of the modern CSS, more great accessibility knowledge, some of the news related to the new Apple releases and more."
 ---
 
-Holly molly, September was hectic, mostly good and definitely memorable. Family came over for a visit from Poland, we got married, we travelled to northern Italy, and [the most recent meetup I organised](https://nn1.dev/events/8/) was a huge success. It was intense and I’m ready for a chill and quiet October. On the web sphere, September was also pretty productive and a lot of good resources popped up. Here, like on every last day of each month, I have prepared for you a list of the ones I found interesting. I hope you will enjoy them! Also, the music recommendatoins is here as well!
+Holly molly, September was hectic, mostly good and definitely memorable. Family came over for a visit from Poland, we got married, we travelled to northern Italy, and [the most recent meetup I organised](https://nn1.dev/events/8/) was a huge success. It was intense and I’m ready for a chill and quiet October. On the web sphere, September was also pretty productive and a lot of good resources popped up. Here, like on every last day of each month, I have prepared for you a list of the ones I found interesting. I hope you will enjoy them! Also, the music recommendatoin is here as well!
 
 ---
 
 ## Album of the month
 
-We didn't listen to a lot of music this past month, but the bits we played were all around the Afro-funk vibe. We got our daughter a Djembe drum, and this is a good one to play along with. Here is a pretty rare ["Drum Fever" album from 1973 by Candido](https://www.discogs.com/release/405114-Candido-Drum-Fever) with an outstanding tune ["Soulwanco"](https://youtu.be/vOCza93tMco?si=K7Bv4bUjjs_1qiP0).
+We didn't listen to a lot of music this past month, but the bits we played were all around the Afro-funk vibe. We got our daughter a djembe drum, and this is a good one to play along with. Here is a pretty rare ["Drum Fever" album from 1973 by Candido](https://www.discogs.com/release/405114-Candido-Drum-Fever) with an outstanding tune ["Soulwanco"](https://youtu.be/vOCza93tMco?si=K7Bv4bUjjs_1qiP0).
 
 ![Candido "Drum Fever"](candido.jpg)
 
