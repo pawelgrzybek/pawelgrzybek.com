@@ -17,7 +17,7 @@ Album of the month
 
 ### ["Open Social" by Dan Abramov](https://overreacted.io/open-social/)
 
-This is a great and not too technical explainer of the ATProto and how it enables an open social. Dan is really great at explaining complex subjects using simple analogies, and this one is no different. I would love to read a post like this one about the Fediverse, which I use a lot more than anything related to ATProto (pretty much Bluesky only).
+This is a great and not too technical explainer of the ATProto and how it enables an open social. Dan is really great at explaining complex subjects using simple analogies, and this one is no different. I would love to read a post like this one about the Fediverse, which I use a lot more than anything related to ATProto (pretty much Bluesky only). A few days later, Dan also posted ["Where It's at://"](https://overreacted.io/where-its-at/) which is a lot more technica deep dive into the output JSON resolutions from the `at://` links.
 
 ### [CSS-only floating focus with anchor positioning](https://polypane.app/blog/css-only-floating-focus-with-anchor-positioning/)
 
