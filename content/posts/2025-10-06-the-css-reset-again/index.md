@@ -7,7 +7,7 @@ There is a lot of chatter about CSS resets in the web sphere recently, as it alw
 
 ## New project, new reset
 
-I don't maintain a single reset that I throw at the top of every single new project by default. I don't start new projects often, but when I'm about to work on a new one, I like to treat it with individual care. Fair point to you if you build a new website five times a month — I don't (look, an em dash is not only what AI can do). There is no point in loading CSS that will never be used. Here is all I need at the beginning and nothing more.
+I don't maintain a single reset that I throw at the top of every single new project by default. I don't start new projects often, but when I'm about to work on a new one, I like to treat it with individual care. Fair point to you if you build a new website five times a month — I don't (look, an em dash is not only what AI can do). I see no point in loading styles for the `meter` element if it is never going to be used. Here is all I need at the beginning and nothing more.
 
 ```css
 *,
@@ -32,9 +32,25 @@ Nuking down all the `margin`s and `padding`s is more opinionated. I still care a
 
 There was a time when the `text-size-adjust` was kinda of useful, which is well described in the ["Adjusting the Text Size" sectoin of Apple's archive](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/AdjustingtheTextSize/AdjustingtheTextSize.html#//apple_ref/doc/uid/TP40006510-SW16), but these times are long gone, so I disable that by default. Safari still respects the version prefixed by the `-webkit-` so this one and the sans-prefix version are all I use. Other ones like `-moz-` and `-ms-` are no longer needed. [Kilian's "Your CSS reset needs text-size-adjust (probably)"](https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/) goes more in depth about it.
 
-The `-webkit-font-smoothing: antialiased` is a macOS-only property, that disables the subpixel antialiasing. From my experience, it makes the website text look closer to the other OSs. David Bushell published ["What’s the deal with WebKit Font Smoothing?"](https://dbushell.com/2024/11/05/webkit-font-smoothing/) which aligns with my obseravtions.
+The `-webkit-font-smoothing: antialiased` is a macOS-only property, that disables the subpixel antialiasing. From my experience, it makes the website text look closer to the other OSs. David Bushell published ["What’s the deal with WebKit Font Smoothing?"](https://dbushell.com/2024/11/05/webkit-font-smoothing/) which aligns with my observations.
 
 ## What others do that I like
+
+While looking at dozens of resets maintained by some web folks, I picked the bits that I like that I may steal from time to time.
+
+### Apply correct direction for Google Translate results
+
+I picked this one up from [David Bushell](https://dbushell.com/2025/09/12/css-reset/). Pages translated to a language that reads from right to left, should have the `dir="rtl"` attribute on the root element. [Kagi Translate](https://translate.kagi.com/) does it right. There is also a CSS `direction: rtl` that changes only the presentation, but not the semantics, hence we should always prefer the `dir` attribute. [Yandex Translate](https://translate.yandex.com/) uses `direction: rtl`.
+
+{{< figure src="translation.jpg" alt="Homepage of my website translated from English to Arabic using Kagi Translate, Yandex Translate and Google Translate. The first two generate a correct presentation, but the most popular Google Translate not so much." caption="Homepage of my website translated from English to Arabic using Kagi Translate, Yandex Translate and Google Translate. The first two generate a correct presentation, but the most popular Google Translate not so much." >}}
+
+Amongst all the translation tools, the most popular by far is [Google Translate](https://translate.google.com), and this one does not use any of the techniques mentioned above. It simply generates a broken preview for languages that read from right to left, unless you add a declaration for the `translated-rtl` class to your stylesheet. Thanks, Google 🫤
+
+```css
+html.translated-rtl {
+  direction: rtl;
+}
+```
 
 ## What others do that I don't like
 
