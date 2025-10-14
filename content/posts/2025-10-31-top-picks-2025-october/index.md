@@ -30,3 +30,7 @@ My least favourite part of writing React components is soon going to be a thing 
 ### [15 Recent Node.js Features that Replace Popular npm Packages](https://nodesource.com/blog/nodejs-features-replacing-npm-packages)
 
 Modern JavaScript runtimes are packed with features that in the past required some external packages. Here is a good list of built-in commands like that. I published articles about some of them in the past, but I also learned a ton from this article. Great summary.
+
+### [MiniMax - Neovim with maximum MINI](https://nvim-mini.org/blog/2025-10-13-announce-minimax.html)
+
+This is a pretty niche one, for Neovim fans only. Evgeni Chasnovski, the creator of the mini.nvim family, released a great resource to help you out with your Neovim configuration. It is not another opinionated distribution, but more like a starting point to build upon. The closest thing I would compare it to is [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), which I like a ton, and this was my starting point for my configuration. Evgeni put tons of love into it, and the comments on the Lua files are insanely helpful. I’m a huge fan of his contributions to the Neovim ecosystem.
