@@ -26,3 +26,7 @@ Kilian, the creator of Polypane, recreated one of the debugging tools from his b
 ### [React Compiler v1.0](https://react.dev/blog/2025/10/07/react-compiler-1)
 
 My least favourite part of writing React components is soon going to be a thing of the past. The final release of React stable means that we no longer need to care about memoisation of static values and functions. This is what the compiler is going to do for us. This is going to significantly simplify the way we write React components.
+
+### [15 Recent Node.js Features that Replace Popular npm Packages](https://nodesource.com/blog/nodejs-features-replacing-npm-packages)
+
+Modern JavaScript runtimes are packed with features that in the past required some external packages. Here is a good list of built-in commands like that. I published articles about some of them in the past, but I also learned a ton from this article. Great summary.
