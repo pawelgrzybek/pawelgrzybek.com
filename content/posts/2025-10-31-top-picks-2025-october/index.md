@@ -38,3 +38,7 @@ This is a pretty niche one, for Neovim fans only. Evgeni Chasnovski, the creator
 ## [A pragmatic guide to modern CSS colours - part one](https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/)
 
 This title doesn't lie, this guide is very pragmatic. Potentially you know about many of these new colour features, but I'm sure you will learn an extra thing or two. I totally missed the fact that so many colour formats do not require commas and units anymore. This is a little thing, but when typed hundreds of times, it is also a time saver. Kevin is on fire with his content creation game!
+
+## [I am sorry, but everyone is getting syntax highlighting wrong](https://tonsky.me/blog/syntax-highlighting/)
+
+Nikita Prokopov is a great blogger and here is another rant post that perfectly describes the current state of code editor themes. For some reason, there is a trend to use flashy, vivid and super colourful themes, but when you look at it from the usability point of view, most of them do not work. Nikita explains why and shares some good recommendations to fix it. I use a close to default Neovim theme, with a bunch of colours toned down, and I cannot be happier. Not the prettiest but very usable.
