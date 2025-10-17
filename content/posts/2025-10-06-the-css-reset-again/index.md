@@ -23,6 +23,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+  hanging-punctuation: first allow-end last;
 }
 ```
 
@@ -34,7 +35,9 @@ There was a time when the `text-size-adjust` was kinda of useful, which is well 
 
 The `-webkit-font-smoothing: antialiased` is a macOS-only property, that disables the subpixel antialiasing. From my experience, it makes the website text look closer to the other OSs. David Bushell published ["What’s the deal with WebKit Font Smoothing?"](https://dbushell.com/2024/11/05/webkit-font-smoothing/) which aligns with my observations.
 
-Adding the `color-scheme: light dark;` is like my favourite. A cheap version of having multiple themes with next to none effort. There is still a lot that every project needs to implement proper theming, but this is a good starting point.
+Adding the `color-scheme: light dark` is like my favourite. A cheap version of having multiple themes with next to none effort. There is still a lot that every project needs to implement proper theming, but this is a good starting point.
+
+The `hanging-punctuation: first allow-end last` just looks better. [Jeremy Keith in the "Hanging punctuation in CSS"](https://adactio.com/journal/21027) reminds us how it can mess up form fields, so keep that in mind.
 
 ## More cool stuff
 
@@ -95,6 +98,32 @@ dl {
 }
 ```
 
+### Layers
+
+["Your CSS reset should be layered" by Mayank](https://mayank.co/blog/css-reset-layer/) convinced me to use cascade layers. Low-effort safety net to prevent some potential specificity collisions. It should be either that or wrap every selector in `:where()`, but throwing all to the layer is less typing, so it's my preference.
+
+```css
+@layer reset {
+  /* my stuff goes here */
+}
+```
+
+### Animate to auto and others
+
+If you missed that, you can now animate from `0px` to `auto`/`min-content` and other keywords. This snippet is to enable this one for anyone who is OK with animations. It will fallback to the good old instant transition otherwise. Magic 🪄
+
+```css
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+```
+
+### Flex/grid all the things
+
+yolo
+
 ## What others do that I don't like
 
 ### Unset all
@@ -120,3 +149,10 @@ html {
 ---
 
 ["You are not a CSS dev if you have not made a CSS reset"](https://mikemai.net/blog/2024/11/01/you-are-not-a-css-dev-if-you-have-not-made-a-css-reset.html). Mine is not a typical reset, but hopefully I elaborated about the subject enough to call myself a CSS dev.
+
+## Resources
+
+- ["Let’s see Paul Allen’s CSS Reset" by David Bushell](https://dbushell.com/2025/09/12/css-reset/)
+- ["The Coyier CSS Starter" by Chris Coyier](https://frontendmasters.com/blog/the-coyier-css-starter/)
+- ["A (more) Modern CSS Reset" on Piccalli](https://piccalil.li/blog/a-more-modern-css-reset/)
+- ["A Modern CSS Reset" by Joshua Comeau](https://www.joshwcomeau.com/css/custom-css-reset/)

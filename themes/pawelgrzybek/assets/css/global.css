@@ -128,6 +128,7 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+  hanging-punctuation: first allow-end last;
 
   &.translated-rtl {
     direction: rtl;
