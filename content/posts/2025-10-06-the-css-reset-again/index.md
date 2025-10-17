@@ -34,9 +34,11 @@ There was a time when the `text-size-adjust` was kinda of useful, which is well 
 
 The `-webkit-font-smoothing: antialiased` is a macOS-only property, that disables the subpixel antialiasing. From my experience, it makes the website text look closer to the other OSs. David Bushell published ["What’s the deal with WebKit Font Smoothing?"](https://dbushell.com/2024/11/05/webkit-font-smoothing/) which aligns with my observations.
 
-## What others do that I like
+Adding the `color-scheme: light dark;` is like my favourite. A cheap version of having multiple themes with next to none effort. There is still a lot that every project needs to implement proper theming, but this is a good starting point.
 
-While looking at dozens of resets maintained by some web folks, I picked the bits that I like that I may steal from time to time.
+## More cool stuff
+
+Piles of CSS are going to land on top of my few-lines base, but as I go I keep a few rules in mind. I also looked at dozens of resets maintained by some web folks, and I picked the bits that I like.
 
 ### Apply correct direction for Google Translate results
 
@@ -52,14 +54,69 @@ html.translated-rtl {
 }
 ```
 
-## What others do that I don't like
+### Logical properties everythere
 
-### One
+There are very few reasons not to use logical properties. Just by following this simple rule you get an experience that in the past required [preprocessor plugins](https://github.com/vkalinichev/postcss-rtl). Just do it, and you will thank me later.
+
+### Text wrap balance and pretty
+
+Stuff simply looks better. Also, how cool that the `:heading` selector is on the horizon. That will target all headings and simplify this snippet a tad.
 
 ```css
-*:where(
-  :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
-) {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+```
+
+### List style position
+
+How embarrasing that I only learned about this property a few days ago when I read ["The Coyier CSS Starter" Chris](https://frontendmasters.com/blog/the-coyier-css-starter/).
+
+```css
+ul,
+ol,
+dl {
+  list-style-position: inside;
+
+  ul,
+  ol,
+  dl {
+    padding-inline-start: 1lh;
+  }
+}
+```
+
+## What others do that I don't like
+
+### Unset all
+
+Default styles applied by the browsers are probably the most thought-out CSS resets amongst them all. They are a result of long years of itetating and reacting to user feedback, reacting to ever changing medium. This single like `unset: all` throws it all to the bin. Surprisingly, the thing is used a lot.
+
+```css
+* {
   all: unset;
 }
 ```
+
+### No fluid typography please
+
+As said before, I do care about the vertical rhythm of my typography, and having a font that scales based on the viewport is a recipe for subpixels. Not the game I like to play! Readers of this blog (yes, you) are mostly devin’ in front of high-density screens on MacBooks, or 5k Studio Displays that are just gorgeous. This is not the norm, though! Go and look at your fluid typography on the screen of your father's decade-old HP laptop. [“Time to upgrade your monitor” by Nikita Prokopov](https://tonsky.me/blog/monitors/) is a great read about font rendering. I just don’t use fluid types 🤷‍♂️
+
+```css
+html {
+  font-size: clamp(1rem, 1rem + 0.5vw, 2rem);
+}
+```
+
+---
+
+["You are not a CSS dev if you have not made a CSS reset"](https://mikemai.net/blog/2024/11/01/you-are-not-a-css-dev-if-you-have-not-made-a-css-reset.html). Mine is not a typical reset, but hopefully I elaborated about the subject enough to call myself a CSS dev.

@@ -234,12 +234,13 @@ h6 {
 
 ul,
 ol {
-  margin: 0 0 var(--lh) var(--lh);
-}
+  list-style-position: inside;
+  list-style-type: disc;
 
-li ul,
-li ol {
-  margin: 0 0 0 var(--lh);
+  ul,
+  ol {
+    margin-inline-start: 0.5lh;
+  }
 }
 
 hr {
