@@ -9,13 +9,15 @@ Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the 
 
 ## Hardware
 
-- [MacBook Pro M2 14-inch](https://www.apple.com/uk/macbook-pro/) (personal)
-- [MacBook Pro M1 16-inch](https://www.apple.com/uk/macbook-pro/) (work)
-- [iPad Pro 12.9-inch (5th generation)](https://www.apple.com/uk/ipad-pro/)
-- [iPhone 15 Pro Max](https://www.apple.com/uk/iphone-16-pro/)
-- [Apple Watch Series 4](https://www.apple.com/uk/apple-watch-series-10/)
+- [Apple MacBook Pro M2 14-inch](https://www.apple.com/uk/macbook-pro/) (personal)
+- [Apple MacBook Pro M3 16-inch](https://www.apple.com/uk/macbook-pro/) (work)
+- [Apple iPad Pro 12.9-inch (5th generation)](https://www.apple.com/uk/ipad-pro/)
+- [Apple iPhone 15 Pro Max](https://www.apple.com/uk/iphone-16-pro/)
+- [Apple Watch Ultra Series 3](https://www.apple.com/uk/apple-watch-ultra-3/)
+- [Apple AirPods Pro 2](https://www.apple.com/uk/airpods-pro/)
 - [Logitech MX Master 3S for Mac](https://www.logitech.com/en-gb/shop/p/mx-master-3s-mac-bluetooth-mouse.910-006571)
-- [ZSA Voyager split ergonomic keyboard](https://www.zsa.io/voyager)
+- [Kinesis Advantage 360 keyboard](https://kinesis-ergo.com/keyboards/advantage360/)
+- [Beyerdynamics DT 700 PRO X headphones](https://global.beyerdynamic.com/p/dt-700-pro-x)
 
 ## Software
 
@@ -31,6 +33,7 @@ Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the 
 
 - [Sony α7R III](https://www.sony.co.uk/electronics/interchangeable-lens-cameras/ilce-7rm3) (body)
 - [Sony FE 85mm F1.4 GM](https://www.sony.co.uk/store/product/sel85f14gm.syx/FE-85mm-F1-4-GM) (lens)
+- [Sony FE 50mm F1.2 GM](https://www.sony.co.uk/lenses/products/sel50f12gm?sku=sel50f12gm.syx) (lens)
 - [Sony FE 24mm F1.4 GM](https://www.sony.co.uk/store/product/sel24f14gm.syx/FE-24mm-F1-4-GM) (lens)
 - [Hasselblad 500C](https://www.hasselblad.com/about/history/500-series/) (body)
 - Zeiss Planar 80mm f/2.8 C (lens)
