@@ -9,7 +9,11 @@ Intro...
 
 ## Album of the month
 
-Album of the month
+This month is different and not about a single album, but more about the artist. A little bit of a tribute to D'Angelo who lost a battle with pancreatic cancer and passed away on the 14th of October. He was only 51 years old. He was the pioneer of the neo soul movement, owner of an incredible voice, talented songwriter and producer. All his releases are great, but "Voodoo" from 2000 is the hottest soul album ever recorded. Huge loss!
+
+![Record by D'Angelo spinning on the turntable](dangelo1.jpg)
+
+![Three albums by D'Angelo next to each other](dangelo2.jpg)
 
 ---
 
@@ -35,10 +39,18 @@ Modern JavaScript runtimes are packed with features that in the past required so
 
 This is a pretty niche one, for Neovim fans only. Evgeni Chasnovski, the creator of the mini.nvim family, released a great resource to help you out with your Neovim configuration. It is not another opinionated distribution, but more like a starting point to build upon. The closest thing I would compare it to is [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), which I like a ton, and this was my starting point for my configuration. Evgeni put tons of love into it, and the comments on the Lua files are insanely helpful. I’m a huge fan of his contributions to the Neovim ecosystem.
 
-## [A pragmatic guide to modern CSS colours - part one](https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/)
+### [A pragmatic guide to modern CSS colours - part one](https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/)
 
 This title doesn't lie, this guide is very pragmatic. Potentially you know about many of these new colour features, but I'm sure you will learn an extra thing or two. I totally missed the fact that so many colour formats do not require commas and units anymore. This is a little thing, but when typed hundreds of times, it is also a time saver. Kevin is on fire with his content creation game!
 
-## [I am sorry, but everyone is getting syntax highlighting wrong](https://tonsky.me/blog/syntax-highlighting/)
+### [I am sorry, but everyone is getting syntax highlighting wrong](https://tonsky.me/blog/syntax-highlighting/)
 
 Nikita Prokopov is a great blogger and here is another rant post that perfectly describes the current state of code editor themes. For some reason, there is a trend to use flashy, vivid and super colourful themes, but when you look at it from the usability point of view, most of them do not work. Nikita explains why and shares some good recommendations to fix it. I use a close to default Neovim theme, with a bunch of colours toned down, and I cannot be happier. Not the prettiest but very usable.
+
+### [Vite: The Documentary](https://youtu.be/bmWQqAKLgT4)
+
+As always, the production by the CultRepo is epic. I was a little doubtful how the documentary about the modules bundler can be any interesting, and I was really surprised. From the initial idea, through the race with other competitors up to the huge success and domination in the market. Really interesting documentary.
+
+### [Oral History of Ken Thompson](https://youtu.be/OmVHkL0IWk4)
+
+Ken Thompson is one of the most influential programmers in the history of computing. He created B programming language that massively inspired creation of C, developed UTF-8 encoding, co-created UNIX and Go programming language. He is an absolutaly leged and without him, our job would look very differen to what it is now. This is a very detailed interview with Ken. Not short, but I enjoyed listening every single minute of the chat with this smart fella.
