@@ -236,7 +236,6 @@ h6 {
 ul,
 ol {
   list-style-position: inside;
-  list-style-type: disc;
 
   ul,
   ol {
