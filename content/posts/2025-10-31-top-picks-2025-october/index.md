@@ -54,3 +54,7 @@ As always, the production by the CultRepo is epic. I was a little doubtful how t
 ### [Oral History of Ken Thompson](https://youtu.be/OmVHkL0IWk4)
 
 Ken Thompson is one of the most influential programmers in the history of computing. He created B programming language that massively inspired creation of C, developed UTF-8 encoding, co-created UNIX and Go programming language. He is an absolutaly leged and without him, our job would look very differen to what it is now. This is a very detailed interview with Ken. Not short, but I enjoyed listening every single minute of the chat with this smart fella.
+
+### [Importing vs fetching JSON](https://jakearchibald.com/2025/importing-vs-fetching-json/)
+
+Short, great comparison of importing JSON and fetching it by Jake Archibald. So good to see one of my favourite web folks blogging more recently, and I'm also glad that he moved back to work on the browser engine. Great addition to the Firefox team!
