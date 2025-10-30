@@ -1,15 +1,15 @@
 ---
 title: "Top picks — 2025 October"
-summary: ""
+summary: "The inner workings of OT protocol, CSS anchor positioning use cases, big React announcements, some goodies for NeoVim fans, a documentary about Vite, an incredible interview and some more. Have fun!"
 ---
 
-Intro...
+Howdy y'all, I hope your October was not as hectic as mine. Mine was ridiculous! I found some time not to neglect my monthly routine, and I prepared for you a few links that I really liked in the past month. As always, a music recommendation is waiting for you below, although I would love to have a different trigger to talk about today's artist. Enjoy the read.
 
 ---
 
 ## Album of the month
 
-This month is different and not about a single album, but more about the artist. A little bit of a tribute to D'Angelo who lost a battle with pancreatic cancer and passed away on the 14th of October. He was only 51 years old. He was the pioneer of the neo soul movement, owner of an incredible voice, talented songwriter and producer. All his releases are great, but "Voodoo" from 2000 is the hottest soul album ever recorded. Huge loss!
+This month is different and not about a single album, but more about the artist. A little bit of a tribute to D'Angelo, who lost a battle with pancreatic cancer and passed away on the 14th of October. He was only 51 years old. He was the pioneer of the neo-soul movement, owner of an incredible voice, talented songwriter and producer. All his releases are great, but "Voodoo" from 2000 is the hottest soul album ever recorded. Huge loss!
 
 ![Record by D'Angelo spinning on the turntable](dangelo1.jpg)
 
@@ -37,7 +37,7 @@ Modern JavaScript runtimes are packed with features that in the past required so
 
 ### [MiniMax - Neovim with maximum MINI](https://nvim-mini.org/blog/2025-10-13-announce-minimax.html)
 
-This is a pretty niche one, for Neovim fans only. Evgeni Chasnovski, the creator of the mini.nvim family, released a great resource to help you out with your Neovim configuration. It is not another opinionated distribution, but more like a starting point to build upon. The closest thing I would compare it to is [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), which I like a ton, and this was my starting point for my configuration. Evgeni put tons of love into it, and the comments on the Lua files are insanely helpful. I’m a huge fan of his contributions to the Neovim ecosystem.
+This is a pretty niche one, for Neovim fans only. Evgeni Chasnovski, the creator of the mini.nvim family, released a great resource to help you out with your Neovim configuration. It is not another opinionated distribution, but more like a starting point to build upon. The closest thing I would compare it to is [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), which I like a ton, and this was my starting point for my configuration. Evgeni put tons of love into it, and the comments on the Lua files are insanely helpful. I'm a huge fan of his contributions to the Neovim ecosystem.
 
 ### [A pragmatic guide to modern CSS colours - part one](https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/)
 
