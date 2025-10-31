@@ -3,7 +3,9 @@ title: "Top picks — 2025 October"
 summary: "The inner workings of OT protocol, CSS anchor positioning use cases, big React announcements, some goodies for NeoVim fans, a documentary about Vite, an incredible interview and some more. Have fun!"
 ---
 
-Howdy y'all, I hope your October was not as hectic as mine. Mine was ridiculous! I found some time not to neglect my monthly routine, and I prepared for you a few links that I really liked in the past month. As always, a music recommendation is waiting for you below, although I would love to have a different trigger to talk about today's artist. Enjoy the read.
+Howdy y'all, I hope your October was not as hectic as mine. Mine was ridiculous! It's been a super hardworking year overall, and I'm looking forward to a trip with my family at the end of the year. We are going to spend December in Sri Lanka, so if you have any tips and recommendations, ping me on [Mastodon](https://mastodon.social/@pawelgrzybek), [Bluesky](https://bsky.app/profile/pawelgrzybek.com), [LinkedIn](https://www.linkedin.com/in/pgrzybek/) or in the comments section below.
+
+I found some time not to neglect my monthly routine, and I prepared for you a few links that I really liked in the past month. As always, a music recommendation is waiting for you below, although I would love to have a different trigger to talk about today's artist. Enjoy the read.
 
 ---
 
