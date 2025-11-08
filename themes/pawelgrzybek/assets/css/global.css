@@ -283,8 +283,19 @@ picture {
   display: block;
 }
 
+figure {
+  display: grid;
+  gap: calc(var(--lh) * 0.25);
+
+  &[data-size="biggie"] picture {
+    @media screen and (min-width: 1000px) {
+      justify-self: center;
+      width: 130%;
+    }
+  }
+}
+
 figcaption {
-  margin-block-start: calc(var(--lh) * 0.25);
   font-size: calc(var(--fz) / var(--type-scale));
   line-height: calc(var(--lh) * 0.75);
   font-style: italic;

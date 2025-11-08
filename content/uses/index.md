@@ -5,7 +5,9 @@ summary: "Folks often ask me about the stuff I use. Similiarly, I enjoy reading 
 
 Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the hardware and software used by people who inspire me. Following [the IndieWeb trend](https://indieweb.org/using), here is my list.
 
-![Some stuff on my desk: keyboard, mouse, coffee mug, iPhone](uses.jpg)
+{{< figure src="setup1.jpg" alt="A top view of my workspace. Laptio on the left, monitor in the middle, tablet on the right. Mouse, keyboard and headphones in the middle just in front of the monitor." size="biggie"  >}}
+
+{{< figure src="setup2.jpg" alt="Clouse up photo on my headphones and hald of my keyboard." size="biggie" >}}
 
 ## Hardware
 

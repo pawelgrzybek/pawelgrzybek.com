@@ -1,16 +1,17 @@
-<figure>
-  <picture>
-    {{- $destination := .Get "src" -}}
-    {{- $extension := path.Ext $destination -}}
-    {{- $resources := .Page.Resources -}}
-  
-    {{- $avifPath:= replace $destination $extension ".avif" -}}
-    {{- $avifPathDark:= replace $destination $extension "-dark.avif" -}}
-    {{- $webpPath:= replace $destination $extension ".webp" -}}
-    {{- $webpPathDark:= replace $destination $extension "-dark.webp" -}}
-    {{- $pathDark:= replace $destination $extension (print "-dark" $extension) -}}
-    {{- $altText := .Get "alt" -}}
+{{- $destination := .Get "src" -}}
+{{- $extension := path.Ext $destination -}}
+{{- $resources := .Page.Resources -}}
+{{- $caption := .Get "caption" -}}
+{{- $size := .Get "size" -}}
 
+{{- $avifPath:= replace $destination $extension ".avif" -}}
+{{- $avifPathDark:= replace $destination $extension "-dark.avif" -}}
+{{- $webpPath:= replace $destination $extension ".webp" -}}
+{{- $webpPathDark:= replace $destination $extension "-dark.webp" -}}
+{{- $pathDark:= replace $destination $extension (print "-dark" $extension) -}}
+{{- $altText := .Get "alt" -}}
+<figure data-size="{{- $size | default "medium" -}}">
+  <picture>
     {{- with $resources.GetMatch $avifPath -}}
     <source srcset="{{- $avifPath -}}" type="image/avif" {{- with $resources.GetMatch $avifPathDark -}} media="(prefers-color-scheme: light)" {{- end -}} >
     {{- end -}}
@@ -39,5 +40,5 @@
     {{- end -}}
   </picture>
   
-  <figcaption>{{ .Get "caption" }}</figcaption>
+  {{- with $caption -}}<figcaption>{{ $caption }}</figcaption>{{- end -}}
 </figure>
