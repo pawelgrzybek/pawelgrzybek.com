@@ -25,3 +25,7 @@ Often times we don’t need a complicated storage mechanisms, state management l
 ### [The (lazy) Git UI You Didn't Know You Need](https://www.bwplotka.dev/2025/lazygit/)
 
 It is no secret that [I'm a huge fan of lazygit](/lazygit-the-convenience-of-gui-with-the-power-of-git-cli/), and naturally I like to see more likeminded geeks embracing this powerful TUI. Bartek’s article highlights all the good reasons why you should try it, if you’re still pursuing the masochistic practice of using the git CLI. A little side note, that you should probably try Jujutsu, but this is a story for another day.
+
+### [Handy](https://handy.computer/)
+
+Pretty slick little app. It is surprisingly very accurate with English and does an OK with Polish as well. I will give it a spin.
