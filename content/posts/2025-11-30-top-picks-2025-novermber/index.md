@@ -47,3 +47,7 @@ A good write-up about the Frdiverse and it value from prolific contributor to th
 ### [Running TypeScript Natively](https://nodejs.org/en/learn/typescript/run-natively)
 
 As of now, three dominant server-side JavaScript runtimes (Node.js, Deno and Bun) can natively run TypeScript code. This is incredibly useful and it is a huge convenience not to worry about the transpilation process. Deno and Bun supported this from the beginning, but Node.js just unfledged this feature. Happy days!
+
+### [Simple One-Time Passcode Inputs](https://cloudfour.com/thinks/simple-one-time-passcode-inputs/)
+
+This is a super cool little snippet that may save you from `npm i some-chunky-otp-lib`. Nothing beats the simplicity of HTML elements when all you need is HTML element, not a bunch of `div`s and inaccessible nonsense masks.
