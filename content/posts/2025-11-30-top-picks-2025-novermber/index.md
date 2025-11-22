@@ -44,4 +44,6 @@ The specification of HTTP is evolving and it is a good time to learn about the n
 
 A good write-up about the Frdiverse and it value from prolific contributor to the open Web, Tim Bray. I cannot agree more with Tims opinion, and for this number of reasons I treat Mastodon as my only serious social media presence. Of course, this very page is my home on the web. Some may be asking what's my take on the Bluesky which I use almost as much as I do Mastodon, but Tim also wrote ["Why Not Bluesky"](https://www.tbray.org/ongoing/When/202x/2024/11/15/Not-Bluesky) about it so I don't need to. Great articles!
 
-### []()
+### [Running TypeScript Natively](https://nodejs.org/en/learn/typescript/run-natively)
+
+As of now, three dominant server-side JavaScript runtimes (Node.js, Deno and Bun) can natively run TypeScript code. This is incredibly useful and it is a huge convenience not to worry about the transpilation process. Deno and Bun supported this from the beginning, but Node.js just unfledged this feature. Happy days!
