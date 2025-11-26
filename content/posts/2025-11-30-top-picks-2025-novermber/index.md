@@ -51,3 +51,7 @@ As of now, three dominant server-side JavaScript runtimes (Node.js, Deno and Bun
 ### [Simple One-Time Passcode Inputs](https://cloudfour.com/thinks/simple-one-time-passcode-inputs/)
 
 This is a super cool little snippet that may save you from `npm i some-chunky-otp-lib`. Nothing beats the simplicity of HTML elements when all you need is HTML element, not a bunch of `div`s and inaccessible nonsense masks.
+
+### [Brand New Layouts with CSS Subgrid](https://www.joshwcomeau.com/css/subgrid/)
+
+Josh Comeau is the master of the interactive CSS explainers. This post about the CSS subgrids is not different and I learnt a ton from it. I found the gotcha section the most interesting, especially the one about indexing the grid lines inside the nested subgrid.
