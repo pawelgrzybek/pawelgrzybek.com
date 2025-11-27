@@ -4,7 +4,7 @@ summary: ""
 draft: true
 ---
 
-Intro
+What a busy month! Crazy at work, but also a lot of prep went into the last [NN1 Dev Club meetup of the year](https://nn1.dev/events/9/). I’m very proud of how this little meetup idea grew to become a solid community of software engineers from the Northamptonshire area. Luckily, at the beginning of December, we are travelling to Sri Lanka and we are staying there until the end of the year. I'm very much looking forward to it. The World Wide Web kept on sending interesting articles my way, so like I do every month, I wanted to share with you my favourite bits. Hopefully, you will like this month's selection. Music recommendation from my music collection is also here!
 
 ---
 
@@ -55,3 +55,7 @@ This is a super cool little snippet that may save you from `npm i some-chunky-ot
 ### [Brand New Layouts with CSS Subgrid](https://www.joshwcomeau.com/css/subgrid/)
 
 Josh Comeau is the master of the interactive CSS explainers. This post about the CSS subgrids is not different and I learnt a ton from it. I found the gotcha section the most interesting, especially the one about indexing the grid lines inside the nested subgrid.
+
+### [Migrating from GitHub to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/)
+
+Since the explosion of AI tools, I keep on hearing about the increased productivity and the ability to build software at a speed never imagined before. But from time to time I hear the other part of this story, which resonates with me a lot more, which talks about the quality degradation of software overall. GitHub is a perfect example of something that was insanely good and stable, and in recent years has become so problematic to use. The Zig team, sharing the same frustrations, decided to make a big move and move entirely to Codeberg. This platform is fantastic, built with performance in mind and focused on developers trying to build software without any annoying nonsense. I really hope others will follow and Codeberg helps us stop relying on Microsoft.
