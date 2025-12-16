@@ -41,3 +41,9 @@ I’m sure you can relate to the hypothetical scenario described in this post. A
 ### [CSS scroll-triggered animations are coming!](https://developer.chrome.com/blog/scroll-triggered-animations)
 
 Another milestone for the animation on the web. This article is a first view of the totally new scroll-triggered animations. In contrast to scroll-driven animation, they do not advance and reverse as you scroll. They just play when the boundaries of the trigger are crossed. The `IntersectionObserver` is no longer needed for that.
+
+### [Avoid UUID Version 4 Primary Keys (for Postgres)](https://andyatkinson.com/avoid-uuid-version-4-primary-keys)
+
+Great and insightful post. For most use cases and the majority of apps out there that rely on Postgres, using UUID for the primary key is okay, but the performance degradation can hit at scale. I learned tons from this post!
+
+> The number of random version-4 UUIDs which need to be generated in order to have a 50% probability of one collision: 2.71 quintillion. This number would be equivalent to generating 1 billion UUIDs per second for about 86 years.
