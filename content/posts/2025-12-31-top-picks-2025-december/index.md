@@ -37,3 +37,7 @@ HTMHell is one of my favourite geeky advent calendars. This post introduced me t
 ### ["Why Companies Don’t Fix Bugs" by Ibrahim Diallo](https://idiallo.com/blog/companies-dont-fix-bugs)
 
 I’m sure you can relate to the hypothetical scenario described in this post. A real story of why good UX is an afterthought for most companies, often caused by the fast-paced business requirements, staff rotation, lack of confidence in working on the dated codebases and invisible ROI.
+
+### [CSS scroll-triggered animations are coming!](https://developer.chrome.com/blog/scroll-triggered-animations)
+
+Another milestone for the animation on the web. This article is a first view of the totally new scroll-triggered animations. In contrast to scroll-driven animation, they do not advance and reverse as you scroll. They just play when the boundaries of the trigger are crossed. The `IntersectionObserver` is no longer needed for that.
