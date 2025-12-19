@@ -47,3 +47,7 @@ Another milestone for the animation on the web. This article is a first view of 
 Great and insightful post. For most use cases and the majority of apps out there that rely on Postgres, using UUID for the primary key is okay, but the performance degradation can hit at scale. I learned tons from this post!
 
 > The number of random version-4 UUIDs which need to be generated in order to have a 50% probability of one collision: 2.71 quintillion. This number would be equivalent to generating 1 billion UUIDs per second for about 86 years.
+
+### [No nonsense guide to Go projects layout](https://laurentsv.com/blog/2024/10/19/no-nonsense-go-package-layout.html)
+
+When I started learning Go, I struggled to understand why so many Go projects follow an overly complicated project layout. Since the naming convention of packages and file locations is pretty consistent across many open source Go projects, it is easy to fall into a trap and think this is a language requirement. This article clarifies it all.
