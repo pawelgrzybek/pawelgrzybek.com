@@ -8,9 +8,9 @@ Intro here
 
 ---
 
-Album description goes here
-
 ## Album of the month
+
+This whole month we spent in Sri Lanka, far away from my physical records collection, but worry not, I still have a solid album recommendation for you if this is the thing you came for by visiting my Top Picks post.
 
 ![]()
 
@@ -51,3 +51,7 @@ Great and insightful post. For most use cases and the majority of apps out there
 ### [No nonsense guide to Go projects layout](https://laurentsv.com/blog/2024/10/19/no-nonsense-go-package-layout.html)
 
 When I started learning Go, I struggled to understand why so many Go projects follow an overly complicated project layout. Since the naming convention of packages and file locations is pretty consistent across many open source Go projects, it is easy to fall into a trap and think this is a language requirement. This article clarifies it all.
+
+### [Cloudflare Radar 2025 Year in Review](https://radar.cloudflare.com/year-in-review/2025)
+
+Cloudflare shared their annual recap of web trends. I find all these stats super interesting. Significant growth of internet traffic in the last year doesn't surprise me, but the increasing adoption of the v2 and v3 HTTP protocols is something I didn't expect. Hilbert curve visualisation of the IPv4 distribution is so cool! Also, we have heard for decades that we are running out of IPv4 addresses, but the adoption of v6 is so slow, literally 1% more than last year only. This page is full of interesting insights, so check it out yourself and pick your gems.
