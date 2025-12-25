@@ -1,10 +1,18 @@
 ---
 title: "Sri Lanka 2025"
-summary: "Sri Lanka 2025"
+summary: ""
 draft: true
 ---
 
-We spent the last month in Sri Lanka. What a country! Incredibly kind people, the most scenic place I have ever visited, really tasty (spicy) food and every corner is full of shockers. I'm not here to bore you with a review of the places we visited, the foods I tried and the beaches I swam in. I just wanted to share a few photos from our trip and I hope you will like them.
+We spent most of the month in Sri Lanka. It is becoming our annual tradition to travel abroad for the Christmas season. What a country, I’m telling you!
+
+People in Sri Lanka are incredibly kind. No matter if they are wealthy or living in extreme poverty, no matter which god they pray to, south or north, Sri Lankan people are the loveliest. Crazy tuk-tuk driver though!
+
+If you’re hunting for the scenic views, a month here is not enough. This is by far the most beautiful country I have ever visited and for sure we will revisit it when our daughter is a tad older. Beautiful seasides, mountains, fields, temples and absolutely wild nature. Monkeys and two-metre-long iguanas in your garden are the norm, and you better accept the fact that you’re going to share your hotel room with house geckos. Strange at first but these little fellas are cute 🦎
+
+What is a holiday without trying new food? There is a lot to enjoy here. My favourite coconut roti, lentil dhal, spicy coconut sambal, devilled calamari, red bananas, passion fruits, and absolutely the best mangoes nature can produce. Restaurant owners are always very welcoming, and they wholeheartedly want you to try dishes they are proud of. Seafood here is incredible and so cheap compared to Europe. Overall, a great destination for foodies.
+
+A few pics for you all to get jealous 🇱🇰
 
 {{< figure src="my-girls.jpg" alt="The shadow of my wife and daughter blowing bubbles. The sky has a beautiful colour of subset." caption="Sony ILCE-7RM3, 50 mm f/1.2, 1/500, 7° 2' 6.872\" N, 79° 51' 37.122\" E. The shadow of two most beautiful ladies on the world, my wife and my daughter. Are your kids also obsessed about blowing bubbles? My kiddo can do if for hours!" >}}
 
@@ -17,3 +25,13 @@ We spent the last month in Sri Lanka. What a country! Incredibly kind people, th
 {{< figure src="nn1.jpg" alt="NN1 Dev Club sticker on the king coconut. Beautiful sunny beach and palm trees in the background." caption="Sony ILCE-7RM3, 24 mm f/2.5, 1/2500, 6° 0' 1.405\" N, 80° 15' 45.342\" E. NN1 Dev Club sticker on king coconut. NN1 Dev Club is the meetup I organise for those who don't know." >}}
 
 {{< figure size="biggie" src="patience.jpg" alt="Lady showing the beautifully hand crafted thing. I don't even know what's the name of this thing." caption="Sony ILCE-7RM3, 50 mm f/1.2, 1/60, 6° 1' 37.679\" N, 80° 13' 3.798\" E. It is hard to describe how mesmerizing the process of looking at this lady doing this thing was. She has been doing it for the last 25 years, every day. Meeting this lady was a good lesson in patience for me. One of the most beautiful things I have ever seen in my life, not only the final product but this kind lady doing it." >}}
+
+{{< figure src="secret-beach.jpg" alt="My daughter running downhill to meet her mother down the hill. Mother is playing with waves in the beautiful beach." caption="Sony ILCE-7RM3, 50 mm f/1.2, 1/6400, 6° 0' 5.235\" N, 80° 45' 42.678\" E. We found a secret beach (not so secret anymore as I'm revealing its longitude and latitude) and we enjoyed it all just for ourselves for a whole day. Probably the most beautiful places that I have seen in my whole life." >}}
+
+{{< figure src="stray-dog.jpg" alt="My wife and my daughter play with a very young stray dog at the beach." caption="Sony ILCE-7RM3, 85 mm f/1.4, 1/640, 6° 0' 20.182\" N, 80° 46' 21.396\" E. There is a lot of stray dogs in Sri Lanka, so so so many! This little fella was super cute." >}}
+
+{{< figure src="flag.jpg" alt="Sri Lanknan flag on the beach." caption="Sony ILCE-7RM3, 85 mm f/1.4, 1/5000, 6° 0' 20.182\" N, 80° 46' 21.396\" E." >}}
+
+{{< figure src="wifey.jpg" alt="My wife chillin by the pool. In the background jungle." caption="Sony ILCE-7RM3, 85 mm f/1.4, 1/250, 6° 0' 24.355\" N, 80° 45' 42.6\" E. Wifey chilln'" >}}
+
+{{< figure size="biggie" src="pattern.jpg" alt="" caption="Sony ILCE-7RM3, 24 mm f/1.4, 1/13, 6° 7' 23.498\" N, 80° 44' 11.466\" E. Pattern on the celling of Mulkirigala Temple." >}}
