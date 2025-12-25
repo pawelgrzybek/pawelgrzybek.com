@@ -9,7 +9,7 @@ We are in Sri Lanka now, the epicentre of insane tuk-tuk drivers, coconut roti h
 
 ![Sri Lanknan flag on the beach.](flag.jpg)
 
-I'm lucky that in these very uncertain times, my year was good! Very stable, healthy and filled with happiness. My family and looking after my gang give me a deep sense of fulfilment in life and I'm extremely grateful for having such beautiful people around. There are some other personal and professional aspects of life that I would like to tell you about which make me happy and miserable.
+I'm lucky that in these very uncertain times, my year was good! Very stable, healthy and filled with happiness. My family and looking after my gang give me a deep sense of fulfilment in life and I'm extremely grateful for having such beautiful people around. There are some other personal and professional aspects of life that I would like to tell you about which make me happy with an exception of a single miserable note.
 
 ## Wifey
 
