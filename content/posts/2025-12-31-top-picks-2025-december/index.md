@@ -55,3 +55,7 @@ When I started learning Go, I struggled to understand why so many Go projects fo
 ### [Cloudflare Radar 2025 Year in Review](https://radar.cloudflare.com/year-in-review/2025)
 
 Cloudflare shared their annual recap of web trends. I find all these stats super interesting. Significant growth of internet traffic in the last year doesn't surprise me, but the increasing adoption of the v2 and v3 HTTP protocols is something I didn't expect. Hilbert curve visualisation of the IPv4 distribution is so cool! Also, we have heard for decades that we are running out of IPv4 addresses, but the adoption of v6 is so slow, literally 1% more than last year only. This page is full of interesting insights, so check it out yourself and pick your gems.
+
+### [Please Just Fucking Try HTMX](https://pleasejusttryhtmx.com/)
+
+I like the simplicity of HTMX a lot. I tried that on the website for the meetup I organise, but I managed to keep things even simpler, so I don’t even need HTMX there, just good old plain HTML spit out by Astro. Otherwise, HTMX would be my first pick for the interactions library and should be yours for most projects. This website is a series of reasons to reach the same conclusion. Give it a go on the next project.
