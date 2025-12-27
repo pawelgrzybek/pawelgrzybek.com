@@ -82,3 +82,4 @@ I love reading annual recaps of other indie web folks. I'm genuinely curious how
 - ["2025 in review" by Cory Dransfeldt](https://www.coryd.dev/posts/2025/2025-in-review)
 - ["My 2025 review" by Hidde de Vries](https://hidde.blog/2025-review/)
 - ["Thank You (2025 Edition)" by Geoff Graham](https://css-tricks.com/thank-you-2025-edition/)
+- ["Year­notes 2025" by Christopher Kirk-Nielsen](https://chriskirknielsen.com/blog/yearnotes-2025/)
