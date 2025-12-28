@@ -1,12 +1,12 @@
 ---
 title: "Sri Lanka 2025"
-summary: ""
+summary: "A little photo review from our honeymoon trip to Sri Lanka. Absolutely the most exotic and beautiful country I have ever visited!"
 draft: true
 ---
 
 We spent most of the month in Sri Lanka. It is becoming our annual tradition to travel abroad for the Christmas season. What a country, I’m telling you!
 
-People in Sri Lanka are incredibly kind. No matter if they are wealthy or living in extreme poverty, no matter which god they pray to, south or north, Sri Lankan people are the loveliest. Crazy tuk-tuk driver though!
+People in Sri Lanka are incredibly kind. No matter if they are wealthy or living in extreme poverty, no matter which god they pray to, south or north, Sri Lankan people are the loveliest. Crazy tuk-tuk driver though! Do not ask them for non-alcoholic beer unless you want to trigger big laughs 🍻
 
 If you’re hunting for the scenic views, a month here is not enough. This is by far the most beautiful country I have ever visited and for sure we will revisit it when our daughter is a tad older. Beautiful seasides, mountains, fields, temples and absolutely wild nature. Monkeys and two-metre-long iguanas in your garden are the norm, and you better accept the fact that you’re going to share your hotel room with house geckos. Strange at first but these little fellas are cute 🦎
 
