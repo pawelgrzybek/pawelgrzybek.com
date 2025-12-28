@@ -1,18 +1,20 @@
 ---
 title: "Top picks — 2025 December"
-summary: ""
+summary: "Solid list of resources this month. Some tutorials for web developers, something for Go programmers, interesting updates on acquisitions, management insights, database deep dives and more."
 draft: true
 ---
 
-Intro here
+Howdy folks, can you believe that the year is over? Shocking! I spent December travelling around Sri Lanka with my family, and it was incredible! I published [a few pics from our trip](/sri-lanka-2025/). I managed to catch up on a long reading list and, as I do every year, I published [my annual summary of the past year](/a-look-back-at-2025/). It's been a good year for me!
+
+I have a ton of good links for you prepared this month. Even though I spent most of the month far away from my record collection, I still have a solid music recommendation for you. I really hope you will like this month's selection and I will catch you all in 2026.
 
 ---
 
 ## Album of the month
 
-This whole month we spent in Sri Lanka, far away from my physical records collection, but worry not, I still have a solid album recommendation for you if this is the thing you came for by visiting my Top Picks post.
+Nightmares on Wax is my daughter's favourite artist and we spent countless hours dancing to his "Carboot Soul" and "Smoker's Delight". Now we listen to [the new album "Echo45 Sound System"](https://nightmaresonwax.warp.net/release/532575-nightmares-on-wax-echo45-sound-system) nonstop. Our favourite tune is "True" with Sadie Walker on vocals and Big Daddy Kane on bass. Super good album!
 
-![]()
+![iPhone on the table and AirPods Pro next to it. The album cover on the screen is Nightmares on Wax "Echo45 Sound System"](echo45.jpg)
 
 ---
 
@@ -58,4 +60,14 @@ Cloudflare shared their annual recap of web trends. I find all these stats super
 
 ### [Please Just Fucking Try HTMX](https://pleasejusttryhtmx.com/)
 
-I like the simplicity of HTMX a lot. I tried that on the website for the meetup I organise, but I managed to keep things even simpler, so I don’t even need HTMX there, just good old plain HTML spit out by Astro. Otherwise, HTMX would be my first pick for the interactions library and should be yours for most projects. This website is a series of reasons to reach the same conclusion. Give it a go on the next project.
+I like the simplicity of HTMX a lot. It's my first pick for the interactions library and should be yours for most projects. This website is a series of reasons to reach the same conclusion. Give it a go on the next project and I bet you will like it.
+
+### ["always bet on text" by frog hop](https://graydon2.dreamwidth.org/193447.html)
+
+A great essay about the power of text and why should we prefer it over other kinds of media system. Little bit about the history of text, using it as a communication method, and about millions of reasons why you should bet on it.
+
+### [Introducing CSS Grid Lanes](https://webkit.org/blog/17660/introducing-css-grid-lanes/)
+
+The consensus about the native CSS masonry layout landed, and the `display: grid-lanes` is the way to go. This article by Jan Simons explains the property and also introduces the concept of "tolerance". I'm happy that this debate is finally over. The new feature is ready to play around with in Safari Technology Preview, and let's hope that other engines will catch up soon.
+
+> Think of tolerance as how chill you want the car drivers to be. Will they change lanes to get just a few inches ahead? Or will they only move if there’s a lot of space in the other lane? The amount of space you want them to care about is the amount you set in item-tolerance.
