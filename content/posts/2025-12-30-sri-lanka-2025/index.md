@@ -1,18 +1,17 @@
 ---
 title: "Sri Lanka 2025"
 summary: "A little photo review from our honeymoon trip to Sri Lanka. Absolutely the most exotic and beautiful country I have ever visited!"
-draft: true
 ---
 
 We spent most of the month in Sri Lanka. It is becoming our annual tradition to travel abroad for the Christmas season. What a country, I’m telling you!
 
-People in Sri Lanka are incredibly kind. No matter if they are wealthy or living in extreme poverty, no matter which god they pray to, south or north, Sri Lankan people are the loveliest. Crazy tuk-tuk driver though! Do not ask them for non-alcoholic beer unless you want to trigger big laughs 🍻
+People in Sri Lanka are incredibly kind. No matter whether they are wealthy or living in extreme poverty, no matter which god they pray to, south or north, Sri Lankan people are the loveliest. Crazy tuk-tuk drivers though! Do not ask them for non-alcoholic beer unless you want to trigger big laughs 🍻
 
-If you’re hunting for the scenic views, a month here is not enough. This is by far the most beautiful country I have ever visited and for sure we will revisit it when our daughter is a tad older. Beautiful seasides, mountains, fields, temples and absolutely wild nature. Monkeys and two-metre-long iguanas in your garden are the norm, and you better accept the fact that you’re going to share your hotel room with house geckos. Strange at first but these little fellas are cute 🦎
+If you’re hunting for scenic views, a month here is not enough. This is by far the most beautiful country I have ever visited and for sure we will revisit it when our daughter is a tad older. Beautiful seasides, mountains, fields, temples and absolutely wild nature. Monkeys and two-metre-long iguanas in your garden are the norm, and you'd better accept the fact that you're going to share your hotel room with house geckos. Strange at first but these little fellas are cute 🦎
 
 What is a holiday without trying new food? There is a lot to enjoy here. My favourite coconut roti, lentil dhal, spicy coconut sambal, devilled calamari, red bananas, passion fruits, and absolutely the best mangoes nature can produce. Restaurant owners are always very welcoming, and they wholeheartedly want you to try dishes they are proud of. Seafood here is incredible and so cheap compared to Europe. Overall, a great destination for foodies.
 
-A few pics for you all to get jealous 🇱🇰
+A few pics to make you all jealous 🇱🇰
 
 {{< figure src="my-girls.jpg" alt="The shadow of the two most beautiful ladies in the world, my wife and my daughter. Are your kids also obsessed with blowing bubbles? My kiddo can do it for hours!" caption="Sony ILCE-7RM3, 50 mm f/1.2, 1/500, 7° 2' 6.872\" N, 79° 51' 37.122\" E. The shadow of the two most beautiful ladies in the world, my wife and my daughter. Are your kids also obsessed with blowing bubbles? My kiddo can do it for hours!" >}}
 
@@ -37,3 +36,5 @@ A few pics for you all to get jealous 🇱🇰
 {{< figure size="biggie" src="pattern.jpg" alt="Pattern on the ceilling " caption="Sony ILCE-7RM3, 24 mm f/1.4, 1/13, 6° 7' 23.498\" N, 80° 44' 11.466\" E. Pattern on the ceiling of Mulkirigala Temple." >}}
 
 {{< figure src="triumph.jpg" alt="Triumph car" caption="Sony ILCE-7RM3, 50 mm f/1.2, 1/2500, 6° 54' 32.976\" N, 79° 51' 44.976\" E. I know very little about cars. I barely know how to drive one. This one looks sick though!" >}}
+
+{{< figure src="colombo.jpg" alt="A panoramic view at Colombo at night." caption="iPhone 15 Pro Max, 13 mm f/2.2, 1/13, 6° 55' 10.71\" N, 79° 51' 29.772\" E. A night-time view of Colombo. Full credit for this composition goes to my wife who stuck out her hand out of the hotel window and snapped a way better picture than mine in no time. I followed with five thousand attempts to get anything similar to her photo and that's the best one I got." >}}
