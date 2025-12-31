@@ -85,3 +85,4 @@ I love reading annual recaps of other indie web folks. I'm genuinely curious how
 - ["Year­notes 2025" by Christopher Kirk-Nielsen](https://chriskirknielsen.com/blog/yearnotes-2025/)
 - ["2025 in review" by Damian Walsh](https://damianwalsh.co.uk/posts/2025-in-review/)
 - ["2025 - A year in Review" by Luciano Mammino](https://loige.co/2025-a-year-in-review/)
+- ["Feeling The Pulse of Twenty Twenty-Five" by Declan Chidlow (Vale)](https://vale.rocks/pulse/2025)
