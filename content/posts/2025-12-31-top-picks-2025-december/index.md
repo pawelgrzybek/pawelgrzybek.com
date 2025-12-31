@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2025 December"
 summary: "Solid list of resources this month. Some tutorials for web developers, something for Go programmers, interesting updates on acquisitions, management insights, database deep dives and more."
-draft: true
 ---
 
 Howdy folks, can you believe that the year is over? Shocking! I spent December travelling around Sri Lanka with my family, and it was incredible! I published [a few pics from our trip](/sri-lanka-2025/). I managed to catch up on a long reading list and, as I do every year, I published [my annual summary of the past year](/a-look-back-at-2025/). It's been a good year for me!
