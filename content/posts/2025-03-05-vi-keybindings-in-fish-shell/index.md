@@ -8,7 +8,7 @@ Some time ago, [Stefan](https://www.stefanjudis.com/) shared a great tip on [how
 You can enable it by adding this command to your `config.fish` file.
 
 ```fish
-set -g fish_key_bindings fish_vi_key_bindings in config.fish.
+set -g fish_key_bindings fish_vi_key_bindings
 ```
 
 {{< figure-video path="vi-keybindings-in-fish-shell.mp4" caption="" >}}
