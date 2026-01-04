@@ -94,3 +94,7 @@ I love reading annual recaps of other indie web folks. I'm genuinely curious how
 - ["My 2025 in CSS" by Roma Komarov](https://blog.kizu.dev/my-2025-in-css/)
 - ["Our frail thoughts" by Ethan Marcotte](https://ethanmarcotte.com/wrote/our-frail-thoughts/)
 - ["2025 year in review" by Aubrey Sambor](https://aubreysambor.com/2025-year-in-review/)
+- ["Twenty Twenty-Five" by Dave Rupert](https://daverupert.com/2026/01/twenty-twenty-five/)
+- ["This is not a 2025 wrap up post" by Salma Alam-Naylor](https://whitep4nth3r.com/blog/this-is-not-a-2025-wrap-up-post/)
+- ["Things I did in 2025 that have nothing to do with the internet" by Henry Desroches](https://henry.codes/writing/2025/)
+- ["2025 Recap" by Nic Chan](https://www.nicchan.me/blog/2025-recap/)
