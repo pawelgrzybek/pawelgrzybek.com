@@ -98,3 +98,4 @@ I love reading annual recaps of other indie web folks. I'm genuinely curious how
 - ["This is not a 2025 wrap up post" by Salma Alam-Naylor](https://whitep4nth3r.com/blog/this-is-not-a-2025-wrap-up-post/)
 - ["Things I did in 2025 that have nothing to do with the internet" by Henry Desroches](https://henry.codes/writing/2025/)
 - ["2025 Recap" by Nic Chan](https://www.nicchan.me/blog/2025-recap/)
+- ["2025 in review" by Rachel Andrew](https://rachelandrew.co.uk/archives/2026/01/04/2025-in-review/)
