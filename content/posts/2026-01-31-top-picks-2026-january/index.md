@@ -20,4 +20,4 @@ Album of the month
 
 ### ["A Website To End All Websites" by Henry Desroches](https://henry.codes/writing/a-website-to-destroy-all-websites/)
 
-A beautiful essay about the current state of the web but mostly a great incentive to abandon some terrible tech and invest time in little indie communities and making the web great again. Beautiful read, Henry.
+An essay about the current state of the broken web but mostly a great incentive to abandon some terrible tech and dedicate your energy to more decentralised and honest alternatives. A beautiful ode to the Indie Web. I appreciate the effort of creating a very custom design for this page. Not only is there custom design, but there is also a dedicated [a-website-to-destroy-all-websites.com](https://a-website-to-destroy-all-websites.com/) domain that proxies to this post.
