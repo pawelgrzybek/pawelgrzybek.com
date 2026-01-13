@@ -100,3 +100,4 @@ I love reading annual recaps of other indie web folks. I'm genuinely curious how
 - ["2025 Recap" by Nic Chan](https://www.nicchan.me/blog/2025-recap/)
 - ["2025 in review" by Rachel Andrew](https://rachelandrew.co.uk/archives/2026/01/04/2025-in-review/)
 - ["2025 in Review" by Una Kravets](https://una.im/2025-in-review/)
+- ["My Favorite Media of 2025" by David Brownman](https://david.reviews/articles/favorite-media-2025/)
