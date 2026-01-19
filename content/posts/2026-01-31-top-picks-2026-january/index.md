@@ -4,13 +4,17 @@ summary: ""
 draft: true
 ---
 
-Intro
+For the past 15 years I have been writing software for multiple companies, but I have always tried to stay close to the frontend layer of the stack. This is my background and this is my passion. Recently my interest has been shifting away from working on the Web APIs, more towards backend code. I cannot articulate yet if this is because I like working with Go so much, or because I dislike working with JavaScript on the server side. One is true, I read and post more about Go. Sorry for the disappointment, Web folks, if the content of my blog doesn't align anymore with what you got used to.
+
+Saying that, working in a few sectors using a variety of tech stacks gave me good exposure to different programming languages. While I was at Polygon, I spent a significant amount of time writing Rust code. Now, at Avant Arte, most of my days I spend in Go codebases. I don’t want to talk about my preferences here because I did that briefly in the ["Look Back at 2025"](/a-look-back-at-2025/). I would like to encourage you to try getting out of your bubble sometimes. Learning a new skill, a new programming language, or framework can give you good exposure to new paradigms, points of view, and reorder your priorities.
+
+After this long intro totally not related to any of my picks for this month, let’s get into the meat of this monthly series. As always, a quick music recommendation for you to check out!
 
 ---
 
 ## Album of the month
 
-Album of the month
+The ["Mishaps Happening" by Quantic](https://www.discogs.com/release/297554-Quantic-Mishaps-Happening) is as fresh today as it was on the release day 22 years ago. It will never stop surprising me how diverse Quantic’s productions are. A good portion of afro beats, funk, live instruments and electronic accents are here. It is one of those albums that you just play from the beginning and you don’t have any reason to skip a song. I was well chuffed when I picked this album up in the record store that recently opened in my neighbourhood.
 
 ![]()
 
