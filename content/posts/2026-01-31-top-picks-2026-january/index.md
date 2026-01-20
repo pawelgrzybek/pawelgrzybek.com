@@ -16,7 +16,7 @@ After this long intro totally not related to any of my picks for this month, let
 
 The ["Mishaps Happening" by Quantic](https://www.discogs.com/release/297554-Quantic-Mishaps-Happening) is as fresh today as it was on the release day 22 years ago. It will never stop surprising me how diverse Quantic’s productions are. A good portion of afro beats, funk, live instruments and electronic accents are here. It is one of those albums that you just play from the beginning and you don’t have any reason to skip a song. I was well chuffed when I picked this album up in the record store that recently opened in my neighbourhood.
 
-![]()
+![Qnantic "Mishaps Happening"](quantic.jpg)
 
 ---
 
