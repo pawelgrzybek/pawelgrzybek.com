@@ -73,7 +73,7 @@ I'm a software developer with 15 years of professional experience, specialising 
 ### 2012.09 - 2014.02, dobrzedobrze.net, Front-end Developer / Co-owner
 
 - Co-founded and operated a web development business, managing full project lifecycle from UI design to WordPress implementation
-- Delivered end-to-end solutions for clients using Adobe Creative Suite, HTML5, CSS3 and JavaScript
+- Delivered end-to-end solutions for clients using Adobe Creative Suite, HTML, CSS and JavaScript
 
 ### 2009.12 - 2011.12, TM Druk (print house and DTP studio), Graphic Designer / DTP
 
