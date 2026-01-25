@@ -7,7 +7,7 @@
   position: relative;
   padding-block: calc(var(--lh) * 2);
 
-  @media screen and (min-width: 1050px) {
+  @media screen and (min-width: 1200px) {
     flex-direction: row;
     padding-block: calc(var(--lh) * 4);
   }
@@ -41,7 +41,7 @@
 .header__item--logo {
   flex-basis: 100%;
 
-  @media screen and (min-width: 764px) {
+  @media screen and (min-width: 960px) {
     flex-basis: auto;
   }
 }

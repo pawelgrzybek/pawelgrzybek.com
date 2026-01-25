@@ -1,13 +1,26 @@
 {{ define "main" }}
 
 <div class="wrapper">
-  <div class="content">
-    <h1 id="{{ anchorize .Page.Title }}">
-      {{ .Page.Title }}
-      <a class="anchor" href="#{{ anchorize .Page.Title }}">#</a>
-    </h1>
+  <div class="content js-content">
+    <h1 id="{{ anchorize .Page.Title }}">{{ .Page.Title }}</h1>
     {{ .Content }}
   </div>
 </div>
+
+<script>
+  const headings = document.querySelectorAll(
+    ".js-content :is(h2, h3, h4, h5, h6)",
+  );
+
+  for (const heading of headings) {
+    const hash = document.createElement("a");
+
+    hash.href = `#${heading.id}`;
+    hash.innerHTML = "#";
+    hash.className = "anchor";
+
+    heading.appendChild(hash);
+  }
+</script>
 
 {{ end }}
