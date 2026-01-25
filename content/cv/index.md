@@ -11,7 +11,7 @@ I'm a software developer with 15 years of professional experience, specialising 
 
 ## Key skills
 
-- Languages: HTML, CSS, JavaScript/TypeScript, Go
+- Languages: HTML, CSS, JavaScript (TypeScript), Go
 - Frameworks and runtimes: React, Next.js, Astro, Node.js, Deno, Express, Fastify, Hono, Vite
 - APIs and protocols: REST, GraphQL, gRPC
 - Databases: Postgres, MongoDB, SQLite
