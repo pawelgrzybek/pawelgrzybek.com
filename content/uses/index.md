@@ -11,8 +11,8 @@ Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the 
 
 ## Hardware
 
-- [Apple MacBook Pro M2 14-inch](https://www.apple.com/uk/macbook-pro/) (personal)
-- [Apple MacBook Pro M3 16-inch](https://www.apple.com/uk/macbook-pro/) (work)
+- [Apple MacBook Pro M2 14-inch](https://www.apple.com/uk/macbook-pro/)
+- [Apple MacBook Pro M3 16-inch](https://www.apple.com/uk/macbook-pro/)
 - [Apple iPad Pro 12.9-inch (5th generation)](https://www.apple.com/uk/ipad-pro/)
 - [Apple iPhone 15 Pro Max](https://www.apple.com/uk/iphone-16-pro/)
 - [Apple Watch Ultra Series 3](https://www.apple.com/uk/apple-watch-ultra-3/)
