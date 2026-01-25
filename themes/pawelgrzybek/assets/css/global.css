@@ -235,8 +235,6 @@ h6 {
 
 ul,
 ol {
-  list-style-position: inside;
-
   ul,
   ol {
     margin-inline-start: 0.5lh;
