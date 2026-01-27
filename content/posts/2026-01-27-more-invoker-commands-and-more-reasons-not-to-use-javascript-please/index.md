@@ -1,16 +1,15 @@
 ---
-title: "More invoker commands please, and more reasons not to use JavaScript"
-summary: ""
-draft: true
+title: "More invoker commands, and more reasons not to use JavaScript please"
+summary: "The Invoker Commands API moved the implementation of button click handlers upstream, from JS to the HTML, and now it is supported by all modern engines"
 ---
 
-The rule of least power on the web incentivised using HTML before reaching for CSS, CSS before JavaScript, and bashing it into the JS script as a last resort. Every time the web ships new features that let us shift the implementation left on the stack, I’m excited about it. In recent years, we have received a heap of CSS features that required not a trivial chunk of JS code a few years ago. [The Invoker commands API](https://developer.mozilla.org/en-US/docs/Web/API/Invoker_Commands_API) moved the implementation upstream to the HTML, and I’m well pumped about it.
+The rule of least power on the web incentivised using HTML before reaching for CSS, CSS before JavaScript, and bashing it into the JS script as a last resort. Every time the web ships new features that let us shift the implementation left on the stack, I’m excited about it. In recent years, we have received a heap of CSS features that required not a trivial chunk of JS code a few years ago. [The Invoker Commands API](https://developer.mozilla.org/en-US/docs/Web/API/Invoker_Commands_API) moved the implementation of button click handlers upstream to the HTML.
 
-The invoker commands API recently landed on Safari, and now it is supported by all modern engines. This is usually the moment when I like to learn enough about the new feature so I will remember it when I need it. I probably won't wait too long until I need it as it is crazy useful.
+The Invoker Commands API recently landed on Safari, and now it is supported by all modern engines. This is usually the moment when I like to learn enough about the new feature so I will remember it when I need it. I probably won't wait too long as it is crazy useful.
 
 {{< baseline feature="invoker-commands" >}}
 
-## No need for the event listeners to do XYZ
+## No need for event listeners
 
 It is a declarative API that triggers common behaviours against other elements via the click of a button, like opening and closing a dialog or a popover. The `command` attribute accepts an action and the `commandfor` sets the target to invoke the command upon. A classic dialog example.
 
@@ -34,7 +33,7 @@ Currently the list of commands predefined by the browsers is limited to: `toggle
 
 ### Custom commands
 
-Registering a custom commands is what makes it interesting, and to make one you only need to prefix it with a double dash, for example `--change-bg`. This one invokes a custom command of the `CommandEvent` interface on the target element. It doesn't offer anything you couldn't do before, it just offers another, more declarative way. Here is a simple example (worth noting that the value defined on the button can be read from the `source` property).
+Registering a custom commands is what makes it interesting, and to make one you need to prefix it with a double dash, for example `--change-bg`. This one invokes a custom command of the `CommandEvent` interface on the target element. Here is a simple example (worth noting that the value defined on the button can be read from the `source` property). Contrary to the title of this post, this one needs a tiny, tiny snippet of JavaScript.
 
 ```html
 <button commandfor="d" command="--change-bg" value="salmon">Salmon</button>
@@ -63,7 +62,7 @@ d.addEventListener("command", (e) => {
 
 ### The future of the invoker commands
 
-Although the list of predefined commands looks slim at the moment, I learned from from the ["Everything you need to know about Invoker Commands" by Keith Cirkel talk](https://developer.mozilla.org/en-US/docs/Web/API/Invoker_Commands_API) that there are discussions to add more commands. Media control, toggling the `summary` view of the `details` element and controlling form elements are all great candidates and they are all under the discussion. I will keep this post up to date if some of it lands.
+Although the list of predefined commands looks slim at the moment, I learned from from the ["Everything you need to know about Invoker Commands" by Keith Cirkel talk](https://developer.mozilla.org/en-US/docs/Web/API/Invoker_Commands_API) that there are discussions to add more commands. Media control, toggling the `summary` view of the `details` element and controlling form elements are all great candidates and they are all under discussions.
 
 ## Resources
 
