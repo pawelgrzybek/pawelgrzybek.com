@@ -62,7 +62,7 @@ d.addEventListener("command", (e) => {
 
 ### The future of the invoker commands
 
-Although the list of predefined commands looks slim at the moment, I learned from from the ["Everything you need to know about Invoker Commands" by Keith Cirkel talk](https://developer.mozilla.org/en-US/docs/Web/API/Invoker_Commands_API) that there are discussions to add more commands. Media control, toggling the `summary` view of the `details` element and controlling form elements are all great candidates and they are all under discussions.
+Although the list of predefined commands looks slim at the moment, I learned from from the ["Everything you need to know about Invoker Commands" by Keith Cirkel talk](https://developer.mozilla.org/en-US/docs/Web/API/Invoker_Commands_API) that there are discussions to add more commands. Media control, toggling the `summary` view of the `details` element, full screen view, copy, share and controlling form elements are all great candidates and they are all under discussions. [OpenUI "Invoker Commands Future (Explainer)" page](https://open-ui.org/components/future-invokers.explainer/) goes a lot more in depth about future possibilities.
 
 ## Resources
 
