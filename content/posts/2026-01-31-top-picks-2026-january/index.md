@@ -1,10 +1,11 @@
 ---
 title: "Top picks — 2026 January"
-summary: ""
-draft: true
+summary: "Definitely not my month. A bunch of sad things happened recently, but at least a few great web resources came out last month. So let's stay focused on those."
 ---
 
-A month ago I published ["Look Back at 2025"](/a-look-back-at-2025/) where I mentioned that the past year has been super stable and how grateful I was for it. This state didn't last much longer. I lost my job and I’m on the hunt for a new full-time position. If you or your company needs an experienced full stack developer who understands how the web works, knows modern tech, and communicates well, please reach out. To find out more about my past experience and skills, have a look at [my CV page](/cv). Wish me luck, folks!
+A month ago I published ["Look Back at 2025"](/a-look-back-at-2025/) where I mentioned that the past year has been super stable and how grateful I was for it. This state didn't last much longer. I lost my job, one of my best friends was diagnosed with a cancer and another good buddy of mine had a heart attack. Fuck off January, I'm glad you're over. FUCK OFF!
+
+I’m on the hunt for a new full-time position. If you or your company needs an experienced full stack developer who understands how the web works, knows modern tech, and communicates well, please reach out. To find out more about my past experience and skills, have a look at [my CV page](/cv). Wish me luck, folks!
 
 After this little pessimistic intro, let’s get into the meat of this monthly series. As always, a quick music recommendation for you to check out!
 
