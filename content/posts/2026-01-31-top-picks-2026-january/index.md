@@ -4,11 +4,9 @@ summary: ""
 draft: true
 ---
 
-For the past 15 years I have been writing software for multiple companies, but I have always tried to stay close to the frontend layer of the stack. This is my background and this is my passion. Recently my interest has been shifting away from working on the Web APIs, more towards backend code. I cannot articulate yet if this is because I like working with Go so much, or because I dislike working with JavaScript on the server side. One is true, I read and post more about Go. Sorry for the disappointment, Web folks, if the content of my blog doesn't align anymore with what you got used to.
+A month ago I published ["Look Back at 2025"](/a-look-back-at-2025/) where I mentioned that the past year has been super stable and how grateful I was for it. This state didn't last much longer. I lost my job and I’m on the hunt for a new full-time position. If you or your company needs an experienced full stack developer who understands how the web works, knows modern tech, and communicates well, please reach out. To find out more about my past experience and skills, have a look at [my CV page](/cv). Wish me luck, folks!
 
-Saying that, working in a few sectors using a variety of tech stacks gave me good exposure to different programming languages. While I was at Polygon, I spent a significant amount of time writing Rust code. Now, at Avant Arte, most of my days I spend in Go codebases. I don’t want to talk about my preferences here because I did that briefly in the ["Look Back at 2025"](/a-look-back-at-2025/). I would like to encourage you to try getting out of your bubble sometimes. Learning a new skill, a new programming language, or framework can give you good exposure to new paradigms, points of view, and reorder your priorities.
-
-After this long intro totally not related to any of my picks for this month, let’s get into the meat of this monthly series. As always, a quick music recommendation for you to check out!
+After this little pessimistic intro, let’s get into the meat of this monthly series. As always, a quick music recommendation for you to check out!
 
 ---
 
@@ -45,3 +43,7 @@ Recent release notes of Astro 6 Beta, where they dedicated a whole section to [A
 ### [Introducing the <geolocation> HTML element](https://developer.chrome.com/blog/geolocation-html-element)
 
 Not every day you read about new HTML elements. This is a result of a long-running experiment to provide better primitives on the web to improve the experience of obtaining user permission to access geolocation, camera and microphone access. It is a huge user experience improvement to the UX currently present on the web where prompts for permission pop up out of context, we deny it by default and then it is super confusing to recover from this state when we really need to grant this permission. The dedicated element for user media will follow this. The API seems to be super easy and there is a polyfill for impatient ones.
+
+### [Explainer: Tree-sitter vs. LSP](https://lambdaland.org/posts/2026-01-21_tree-sitter_vs_lsp/)
+
+As a Neovim user I have a good grasp of these two key technologies, but users of more conventional IDEs may benefit from understanding the basics of LSP and Treesitter. These two technologies make code editors so powerful, and knowing the capabilities of LSPs can speed your workflow up so much! Understanding how Treesitter works, its tree structure and how to perform basic queries enables so many great editing powers.
