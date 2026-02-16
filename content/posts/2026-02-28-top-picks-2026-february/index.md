@@ -32,4 +32,12 @@ Amit’s CSS experiments are insane, and this one is no different, less visually
 
 ### ["Your Go tests probably don't need a mocking library" by Redowan Delowar](https://rednafi.com/go/mocking-libraries-bleh/#mocking-a-method-on-a-type)
 
-A good article that explains plenty of Go patterns for well-testable code. Dependency injection, monkey patching, interface segregation and a number of other ways to be able to provide a fake implementation for a member.
+A good article that explains plenty of Go patterns for well-testable code. Dependency injection, monkey patching, interface segregation and a number of other ways for members faking.
+
+### ["Introduction to PostgreSQL Indexes" by Dalto Curvelano](https://dlt.github.io/blog/posts/introduction-to-postgresql-indexes/)
+
+A very good deep dive into the different types of Postgres indexes. I learned a lot from this article! I didn't have a clue about expression indexes and this article landed on my reading list precisely when I needed it. Well explained from the very basics of index internals up to tree structures with a bunch of real-life scenarios when to use them. I would love to see more articles by Dalto Curvelano.
+
+### ["CSS Minify Tests" by Keith Cirkel](https://www.keithcirkel.co.uk/css-minify-tests/)
+
+Keith is working so hard on the [csskit](https://csskit.rs) and he just released a super useful comparison of all the popular CSS minifiers. It is a collection of 350+ tests of individual features, with a clear description, input and expected result. It is open-sourced and everyone with a good idea for a missing test can contribute to the tool.
