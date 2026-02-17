@@ -9,7 +9,7 @@ The Cloudflare team clearly stated that [we should prefer Workers over Pages](ht
 
 Back in June when [Cloudflare announced pay per crawl](https://blog.cloudflare.com/introducing-pay-per-crawl/) for AI crawlers, I miserably failed to migrate this very website to them. My site is a Hugo project, and [the only official guide](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/) for my static site generator is for Cloudflare Pages. Hugo documentation contains a detailed guide on [how to host on Cloudflare Workers](https://gohugo.io/host-and-deploy/host-on-cloudflare/), but this guide is a little too complex for my taste. I figured out a simpler approach that works for me.
 
-The Cloudflare Workers runtime comes pre-built with `hugo` (standard, not the extended build) and `sass` executables along with [a gazillion of others](https://cf-clis.pawelgrzybek.workers.dev/) that the official docs never mention. Since [the release of v0.153.0](https://github.com/gohugoio/hugo/releases/tag/v0.153.0), the WebP support no longer requires the extended version of Hugo binary. This should work for most projects just fine. Here is the copy/pasta 🍝 `wrangler.jsonc` file!
+The Cloudflare Workers runtime comes pre-built with `hugo` (standard, not the extended build) and `sass` executables along with a gazillion of others that the official docs never mention. Since [the release of v0.153.0](https://github.com/gohugoio/hugo/releases/tag/v0.153.0), the WebP support no longer requires the extended version of Hugo binary. This should work for most projects just fine. Here is the copy/pasta 🍝 `wrangler.jsonc` file!
 
 ```json
 {
