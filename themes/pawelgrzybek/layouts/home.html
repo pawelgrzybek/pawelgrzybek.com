@@ -1,45 +1,11 @@
 {{ define "main" }}
 
 <div class="wrapper">
-  <div class="content">
+  <div class="content js-post">
     <h1 id="{{ anchorize .Page.Title }}">{{ .Page.Title  }}</h1>
     {{ .Content }}
-
-    <h2 id="{{ anchorize "Contact" }}">Contact <a class="anchor" href="#{{ anchorize "Contact" }}">#</a></h2>
-    <ul>
-        <li>
-          <a
-            href="https://mastodon.social/@pawelgrzybek"
-            title="Pawel Grzybek on Mastodon"
-            rel="me"
-            >Mastodon</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://bsky.app/profile/pawelgrzybek.com"
-            title="Pawel Grzybek on Bluesky"
-            >Bluesky</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/pgrzybek/"
-            title="Pawel Grzybek on LinkedIn"
-            rel="me"
-            >LinkedIn</a
-          >
-        </li>
-        <li>
-          <a
-            href="mailto:mail@pawelgrzybek.com"
-            title="Email Pawel Grzybek"
-            >mail@pawelgrzybek.com</a
-          >
-        </li>
-    </ul>
-
-    <h2 id="{{ anchorize "Recent blog posts" }}">Recent blog posts <a class="anchor" href="#{{ anchorize "Recent blog posts" }}">#</a></h2>
+ 
+    <h2 id="{{ anchorize "Recent blog posts" }}">Recent blog posts</h2>
     <ul class="archive">
       {{ $posts := (where .Site.RegularPages "Section" "posts") }}
 
