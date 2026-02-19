@@ -45,3 +45,7 @@ Keith is working so hard on the [csskit](https://csskit.rs) and he just released
 ### ["Try text scaling support in Chrome Canary" by Josh Tumath](https://www.joshtumath.uk/posts/2026-01-27-try-text-scaling-support-in-chrome-canary/)
 
 Regardless of how the font size of your operating system is configured, your browser simply ignores it. There are some browser overrides, but most affect only the `zoom` of the entire page, not the `font-size` property. The new proposal by Josh Tumath, already implemented in Google Chrome Canary, is going to change that. The `<meta name="text-scale" content="scale" />` will magically make your page respect OS-level font settings. If you have been a good web citizen and you have been using the right units for the right things, you're good and there's not much work to do for you. If you use `px` units for your font-size, it is time to become a good web citizen.
+
+### [Announcing Interop 2026](https://webkit.org/blog/17818/announcing-interop-2026/)
+
+Web Interop is one of the best initiatives that ever happened to the web. A common effort of multiple leading tech giants to make the platform more interoperable across engines. This year's set of features is really exciting. My favourite focuses are CSS Container Queries, Custom Highlights, Navigation API, Scroll Snapping, and Scroll-driven animations. There are a few more that are great, but you should read on to find out more details or track the progress of the implementations in the [Interop 2026 Dashboard](https://wpt.fyi/interop-2026).
