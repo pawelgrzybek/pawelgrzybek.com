@@ -41,3 +41,7 @@ A very good deep dive into the different types of Postgres indexes. I learned a 
 ### ["CSS Minify Tests" by Keith Cirkel](https://www.keithcirkel.co.uk/css-minify-tests/)
 
 Keith is working so hard on the [csskit](https://csskit.rs) and he just released a super useful comparison of all the popular CSS minifiers. It is a collection of 350+ tests of individual features, with a clear description, input and expected result. It is open-sourced and everyone with a good idea for a missing test can contribute to the tool.
+
+### ["Try text scaling support in Chrome Canary" by Josh Tumath](https://www.joshtumath.uk/posts/2026-01-27-try-text-scaling-support-in-chrome-canary/)
+
+Regardless of how the font size of your operating system is configured, your browser simply ignores it. There are some browser overrides, but most affect only the `zoom` of the entire page, not the `font-size` property. The new proposal by Josh Tumath, already implemented in Google Chrome Canary, is going to change that. The `<meta name="text-scale" content="scale" />` will magically make your page respect OS-level font settings. If you have been a good web citizen and you have been using the right units for the right things, you're good and there's not much work to do for you. If you use `px` units for your font-size, it is time to become a good web citizen.
