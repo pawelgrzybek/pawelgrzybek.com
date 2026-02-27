@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2026 February"
-summary: ""
-draft: true
+summary: "After an absolutely devastating January, my February was chilled and productive, and I really hope to keep that trend. Today is the State of the Browsers day, and I’m well pumped to be there with my best friends."
 ---
 
 After an absolutely [devastating January](/top-picks-2026-january/), my February was chilled and productive, and I really hope to keep that trend. Today is the [State of the Browsers](https://2026.stateofthebrowser.com/) day, and I'm well pumped to be there with my best friends, surrounded by the best folks from the web community.
