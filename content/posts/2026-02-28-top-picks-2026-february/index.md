@@ -63,3 +63,7 @@ Thanks to Scott Jehl and his team at Squarespace, soon we will be able to use th
 ### ["Sprites on the Web" by Josh Comeau](https://www.joshwcomeau.com/animation/sprites/)
 
 Another top article by Josh exploring the concept of sprites. Not a technique I used in the last decade, but still applicable for the right kind of animation. For me, the most important part of this post is about the second argument of the `step()` function, which I totally didn't have a clue about. As always, I learned something new from his post.
+
+### ["Goodbye innerHTML, Hello setHTML: Stronger XSS Protection in Firefox 148" by Tom Schuster, Frederik Braun, Christoph Kerschbaumer](https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/)
+
+The native solution for cross-site scripting attacks (XSS) is coming, with the first implementation of [HTML Sanitizer API](https://wicg.github.io/sanitizer-api/) landing on Firefox 148. The sanitizer comes with a sane default configuration, but the API is very flexible. Jake posted on socials [a short video](https://mastodon.social/@firefoxwebdevs/116131186218787540) that explains the feature beautifully.
