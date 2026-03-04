@@ -23,10 +23,9 @@ Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the 
 
 ## Software
 
-[I like defaults](/my-defaults-2023/) a lot, but besides that, I use some software that does not come pre-installed. Here is a list of the ones that I use most frequently.
+[I like defaults](/my-defaults-2026/) a lot, but besides that, I use some software that does not come pre-installed. Here is a list of the ones that I use most frequently.
 
-- Password manager: [1Password](https://1password.com/)
-- RSS reader: [Reeder Classic](https://reederapp.com/classic/)
+- RSS reader: [NetNewsWire](https://netnewswire.com)
 - Launcher: [Raycast](https://www.raycast.com/)
 - Terminal client: [Ghostty](https://ghostty.org/)
 - Text editor: [Neovim](https://neovim.io/)
