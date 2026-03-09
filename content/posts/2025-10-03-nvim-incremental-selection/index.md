@@ -82,3 +82,33 @@ There is also [a strong signal from core maintainers](https://github.com/neovim/
 I know that this feature is not specific to Neovim. Helix also comes with `expand_selection` and `shrink_selection`, also powered by Tree-sitter. Visual Studio Code most likely uses TextMate grammar and LSP under the hood to create the `Expand` and `Shrink` commands. IntelliJ uses its own proprietary PSI (Program Structure Interface) to enable `Extend Selection` and `Shrink Selection`, but I have never used it and I don't know how it compares to the TS one.
 
 Done 👋
+
+## Update 2026.03.09
+
+[The incremental selection using Treesitter is merged](https://github.com/neovim/neovim/pull/36993) with the master branch now and it is expected to land on Neovim 0.12. This update kills the previous implementation, will use Treesitter via new keybindings, and fall back to the LSP-based one only when Treesitter is not set up. Here are the new updated mappings.
+
+```lua
+vim.keymap.set({ 'x' }, '[n', function()
+  require 'vim.treesitter._select'.select_prev(vim.v.count1)
+end, { desc = 'Select previous treesitter node' })
+
+vim.keymap.set({ 'x' }, ']n', function()
+  require 'vim.treesitter._select'.select_next(vim.v.count1)
+end, { desc = 'Select next treesitter node' })
+
+vim.keymap.set({ 'x', 'o' }, 'an', function()
+  if vim.treesitter.get_parser(nil, nil, { error = false }) then
+    require 'vim.treesitter._select'.select_parent(vim.v.count1)
+  else
+    vim.lsp.buf.selection_range(vim.v.count1)
+  end
+end, { desc = 'Select parent treesitter node or outer incremental lsp selections' })
+
+vim.keymap.set({ 'x', 'o' }, 'in', function()
+  if vim.treesitter.get_parser(nil, nil, { error = false }) then
+    require 'vim.treesitter._select'.select_child(vim.v.count1)
+  else
+    vim.lsp.buf.selection_range(-vim.v.count1)
+  end
+end, { desc = 'Select child treesitter node or inner incremental lsp selections' })
+```
