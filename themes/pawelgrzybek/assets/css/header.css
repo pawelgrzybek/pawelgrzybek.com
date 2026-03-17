@@ -61,7 +61,7 @@
   content: "";
   width: calc(var(--lh) * 2);
   height: calc(var(--lh) * 2);
-  background-image: url("/logo.jpg");
+  background-image: url("/images/logo.jpg");
   background-size: 100% 100%;
   border-radius: var(--lh);
 }

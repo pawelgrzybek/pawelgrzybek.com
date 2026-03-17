@@ -77,7 +77,7 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url("/InterVariable.woff2") format("woff2");
+  src: url("/fonts/InterVariable.woff2") format("woff2");
 }
 
 @font-face {
@@ -85,7 +85,7 @@
   font-style: italic;
   font-weight: 100 900;
   font-display: swap;
-  src: url("/InterVariable-Italic.woff2") format("woff2");
+  src: url("/fonts/InterVariable-Italic.woff2") format("woff2");
 }
 
 @font-face {
@@ -93,7 +93,7 @@
   font-style: normal;
   font-weight: 200 800;
   font-display: swap;
-  src: url("/MonaspaceNeonVar.woff2") format("woff2");
+  src: url("/fonts/MonaspaceNeonVar.woff2") format("woff2");
 }
 
 @view-transition {
