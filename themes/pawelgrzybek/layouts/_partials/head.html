@@ -36,7 +36,7 @@
   {{ "<!-- Styles -->" | safeHTML }}
   {{ $opts := dict "minify" true "targetPath" "styles.css"   }}
   {{- with resources.Get "css/main.css" | css.Build $opts  -}}
-    <style>{{ .Content | safeCSS }}</style>
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{ end }}
 
     <script>
