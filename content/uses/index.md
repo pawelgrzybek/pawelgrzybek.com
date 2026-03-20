@@ -1,25 +1,25 @@
 ---
 title: Uses
-summary: "Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the hardware and software used by people who inspire me. Here is my list."
+summary: "Folks often ask me about the stuff I use. Similarly, I enjoy reading about the hardware and software used by people who inspire me."
 ---
 
-Folks often ask me about the stuff I use. Similiarly, I enjoy reading about the hardware and software used by people who inspire me. Following [the IndieWeb trend](https://indieweb.org/using), here is my list.
+Folks often ask me about the stuff I use. Similarly, I enjoy reading about the hardware and software used by people who inspire me. Following [the IndieWeb trend](https://indieweb.org/using), here is my list.
 
-{{< figure src="setup1.jpg" alt="A top view of my workspace. Laptio on the left, monitor in the middle, tablet on the right. Mouse, keyboard and headphones in the middle just in front of the monitor." size="biggie"  >}}
+{{< figure src="setup1.jpg" alt="A top view of my workspace. Laptop on the left, monitor in the middle, tablet on the right. Mouse, keyboard and headphones in the middle just in front of the monitor." size="biggie"  >}}
 
-{{< figure src="setup2.jpg" alt="Clouse up photo on my headphones and hald of my keyboard." size="biggie" >}}
+{{< figure src="setup2.jpg" alt="Close up photo on my headphones and half of my keyboard." size="biggie" >}}
 
 ## Hardware
 
-- [Apple MacBook Pro M2 14-inch](https://www.apple.com/uk/macbook-pro/)
-- [Apple MacBook Pro M3 16-inch](https://www.apple.com/uk/macbook-pro/)
+- [Apple MacBook Air M4 13-inch](https://www.apple.com/uk/macbook-air/) (work)
+- [Apple MacBook Pro M2 14-inch](https://www.apple.com/uk/macbook-pro/) (personal)
 - [Apple iPad Pro 12.9-inch (5th generation)](https://www.apple.com/uk/ipad-pro/)
 - [Apple iPhone 15 Pro Max](https://www.apple.com/uk/iphone-16-pro/)
 - [Apple Watch Ultra Series 3](https://www.apple.com/uk/apple-watch-ultra-3/)
 - [Apple AirPods Pro 2](https://www.apple.com/uk/airpods-pro/)
 - [Logitech MX Master 3S for Mac](https://www.logitech.com/en-gb/shop/p/mx-master-3s-mac-bluetooth-mouse.910-006571)
 - [Kinesis Advantage 360 keyboard](https://kinesis-ergo.com/keyboards/advantage360/)
-- [Beyerdynamics DT 700 PRO X headphones](https://global.beyerdynamic.com/p/dt-700-pro-x)
+<!-- - [Beyerdynamics DT 700 PRO X headphones](https://global.beyerdynamic.com/p/dt-700-pro-x) -->
 
 ## Software
 
