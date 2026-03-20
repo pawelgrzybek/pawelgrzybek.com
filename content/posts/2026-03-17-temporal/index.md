@@ -8,3 +8,4 @@ draft: true
 - https://bloomberg.github.io/js-blog/post/temporal/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal
 - https://piccalil.li/blog/date-is-out-and-temporal-is-in/
+- https://www.smashingmagazine.com/2026/03/moving-from-moment-to-temporal-api/
