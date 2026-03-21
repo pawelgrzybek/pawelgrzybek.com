@@ -37,3 +37,7 @@ The release schedule of Node.js is changing, and things are becoming a lot easie
 I'm very lucky that I attended a talk by Jason Williams at the recent [State of the Browser conference](https://stateofthebrowser.com/), and this article is just a written version of it. It is a celebration of the Temporal proposal reaching stage 4, which means it is officially going to be part of ECMAScript 2026. Finally, the date/time in JavaScript is fixed.
 
 > Earlier today, Temporal reached Stage 4 in the TC39 staging process, which means it will be part of the next annual ECMAScript specification (ES2026). However, you don't need to wait until then - you can use it today!
+
+### ["Trash Talk - Understanding Memory Management" by Shelley Vohr](https://youtu.be/fJlW6HVfKFU)
+
+Good talk by Shelley Vohr about the garbage collector in JavaScript (very V8 specific, but most of the concepts are also present in other engines). What it is, how it works, and how to optimise your application to make it more memory efficient. It presents a few not very obvious practical tips. Good one!
