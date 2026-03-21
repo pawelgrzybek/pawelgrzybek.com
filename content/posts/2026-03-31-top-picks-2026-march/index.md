@@ -41,3 +41,7 @@ I'm very lucky that I attended a talk by Jason Williams at the recent [State of 
 ### ["Trash Talk - Understanding Memory Management" by Shelley Vohr](https://youtu.be/fJlW6HVfKFU)
 
 Good talk by Shelley Vohr about the garbage collector in JavaScript (very V8 specific, but most of the concepts are also present in other engines). What it is, how it works, and how to optimise your application to make it more memory efficient. It presents a few not very obvious practical tips. Good one!
+
+### [A Guide to vim.pack (Neovim built-in plugin manager)](https://echasnovski.com/blog/2026-03-13-a-guide-to-vim-pack#hooks)
+
+Evgeni Chasnovski, one of the core contributors to Neovim and also a maintainer of a top collection of plugins from the `mini.nvim` family, published this incredible guide to the new, native way of managing packages. I'm looking forward to the upcoming stable release. The built-in package manager is one of the new add-ons I'm super excited about, along with tons of other improvements. This release is going to be a huge one. ["A Demo of vim.pack" by Evgeni Chasnovski on YouTube](https://youtu.be/J1r0vrqOMJo) is a video version of this blog post that nicely summarises the most important bits, although the blog post contains more more details.
