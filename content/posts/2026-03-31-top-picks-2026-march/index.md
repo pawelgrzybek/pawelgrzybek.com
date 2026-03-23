@@ -45,6 +45,7 @@ Good talk by Shelley Vohr about the garbage collector in JavaScript (very V8 spe
 ### [A Guide to vim.pack (Neovim built-in plugin manager)](https://echasnovski.com/blog/2026-03-13-a-guide-to-vim-pack#hooks)
 
 Evgeni Chasnovski, one of the core contributors to Neovim and also a maintainer of a top collection of plugins from the `mini.nvim` family, published this incredible guide to the new, native way of managing packages. I'm looking forward to the upcoming stable release. The built-in package manager is one of the new add-ons I'm super excited about, along with tons of other improvements. This release is going to be a huge one. ["A Demo of vim.pack" by Evgeni Chasnovski on YouTube](https://youtu.be/J1r0vrqOMJo) is a video version of this blog post that nicely summarises the most important bits, although the blog post contains more more details.
+
 ### [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](https://golang50shades.com/)
 
 This is over a decade-old resource that presents a miles-long list of common tips in the Go programming language. These things should be part of the official learning path for this language. I found some of these points so well explained, and for sure I will be coming back to this list a lot.
