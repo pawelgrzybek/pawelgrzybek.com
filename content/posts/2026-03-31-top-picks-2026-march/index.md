@@ -49,3 +49,7 @@ Evgeni Chasnovski, one of the core contributors to Neovim and also a maintainer 
 ### [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](https://golang50shades.com/)
 
 This is over a decade-old resource that presents a miles-long list of common tips in the Go programming language. These things should be part of the official learning path for this language. I found some of these points so well explained, and for sure I will be coming back to this list a lot.
+
+### [Concurrency, Goroutines and GOMAXPROCS](https://www.ardanlabs.com/blog/2014/01/concurrency-goroutines-and-gomaxprocs.html)
+
+Concurrency in Go is a beauty if you understand how it works. Coming from other programming languages, it may be hard to grasp without a good real-life analogy. This post does a perfect job at explaining the concept. There is a follow-up post ["The Nature Of Channels In Go"](https://www.ardanlabs.com/blog/2014/02/the-nature-of-channels-in-go.html) that is a natural next step to embrace the two most powerful concepts in Go: goroutines and channels.
