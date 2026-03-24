@@ -53,3 +53,9 @@ This is over a decade-old resource that presents a miles-long list of common tip
 ### [Concurrency, Goroutines and GOMAXPROCS](https://www.ardanlabs.com/blog/2014/01/concurrency-goroutines-and-gomaxprocs.html)
 
 Concurrency in Go is a beauty if you understand how it works. Coming from other programming languages, it may be hard to grasp without a good real-life analogy. This post does a perfect job at explaining the concept. There is a follow-up post ["The Nature Of Channels In Go"](https://www.ardanlabs.com/blog/2014/02/the-nature-of-channels-in-go.html) that is a natural next step to embrace the two most powerful concepts in Go: goroutines and channels.
+
+### [Some Things Just Take Time](https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/)
+
+A beautiful essay by Armin Ronacher, creator of Flask, Pygments and plenty of other great open source projects. I love how he talks about the importance of friction in the peak of the AI momentum when automation maniacs do everything to remove friction. I can’t help it, but I also love the series of good analogies that this post is full of.
+
+> Nobody is going to mass-produce a 50-year-old oak. And nobody is going to conjure trust, or quality, or community out of a weekend sprint. The things I value most — the projects, the relationships, the communities — are all things that took years to become what they are.
