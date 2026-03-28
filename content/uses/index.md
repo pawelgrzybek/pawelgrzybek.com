@@ -17,6 +17,7 @@ Folks often ask me about the stuff I use. Similarly, I enjoy reading about the h
 - [Apple iPhone 15 Pro Max](https://www.apple.com/uk/iphone-16-pro/)
 - [Apple Watch Ultra Series 3](https://www.apple.com/uk/apple-watch-ultra-3/)
 - [Apple AirPods Pro 2](https://www.apple.com/uk/airpods-pro/)
+- [Apple AirPods Max 2](https://www.apple.com/uk/airpods-max/)
 - [Logitech MX Master 4 for Mac](https://www.logitech.com/en-gb/shop/p/mx-master-4-mac.910-007577)
 - [Kinesis Advantage 360 keyboard](https://kinesis-ergo.com/keyboards/advantage360/)
 <!-- - [Beyerdynamics DT 700 PRO X headphones](https://global.beyerdynamic.com/p/dt-700-pro-x) -->
