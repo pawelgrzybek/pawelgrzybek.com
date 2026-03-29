@@ -1,16 +1,26 @@
 ---
 title: "Top picks — 2026 March"
-summary: ""
+summary: "A little URL trick, Keith Cirkel and his colour game are gaining popularity, Node.js's schedule is about to change, the ECMAScript Temporal spec has landed, some general AI musings and more."
 draft: true
 ---
 
-Intro
+What a month! After losing a job at the end of January, I started looking for a new one straight away. Seeking a new job nowadays is very different from how it used to be. Very long, multi-step and mentally draining processes are a new norm. The recent explosion of AI tools makes things massively more complicated. Some companies force you to use AI agents and others mandate disabling the autocompletion or even solving the problem on the whiteboard. When it comes to the number of available positions, things don't look as bad as people say, but the competition is high. Everything is just mad!
+
+I'm happy to share that a few weeks ago I joined a new company as a Lead Engineer where I'll be working mainly on backend services written in Go. I had been preparing myself for a little break from the frontend for a while. I do love frontend and web standards, but I'm tired of the immaturity of the JS ecosystem. I'm tired of CSS-in-JS, Tailwind, Next.js that keeps on getting worse every release and Vercel's CEO photos on Twitter. I'm worried about the surveillance forced upon web users, the quality and the direction of the dominant web services. I just need a break.
+
+I have been writing Go for a while now, and using it has revived my passion for programming. I still learn a lot, but I'm extremely productive using it and the ecosystem and community of Gophers align with my values better.
+
+Other than some exciting changes in my professional life, the past month has been busy on the Web and a lot of good resources popped up. I really hope you will like this month's selections. Music recommendation is as always here for ya. Enjoy!
 
 ---
 
 ## Album of the month
 
-Album of the month
+Black Sheep is a rather lesser-known part of the Native Tongues Collective. They are mainly known by their first album "A Wolf In Sheep’s Clothing," but the next, "Non-Fiction," released in 1994, is my favourite. I really like the vibe of "City Lights" and "Summa Tha Time." Also, there is a funny story behind the [European release of this album](https://www.discogs.com/release/2069035-Black-Sheep-Non-Fiction). The spine says "Balck," not "Black".
+
+![Black Sheep - Non-Fiction](black-sheep-1.jpg)
+
+![Black Sheep - Non-Fiction](black-sheep-2.jpg)
 
 ---
 
