@@ -5,7 +5,7 @@ summary: "After many years of fighting with the sync issues of Safari Reading Li
 
 Two years ago I published ["Apple, please fix the Safari Reading List"](https://pawelgrzybek.com/apple-please-fix-the-safari-reading-list/) which suggests some improvements and highlights one critical bug that Apple should fix to make Safari Reading List usable. Having a robust system to keep things for later is crucial for my workflow. Unfortunately, nothing changed since then and it is still broken as it was years ago.
 
-This morning I received a very kind email from Cal, who asked me about my current solution for keeping links for later. Great reminder about the fact that I never published a post about it. Thanks Cal! Some time ago I nerd sniped my good friend [Olivier Ash](https://oliverjash.me/) who struggled with a similar problem and we designed a solution that we both use to this day.
+This morning I received a very kind email from [Cal](https://seagramairlie.com/), who asked me about my current solution for keeping links for later. Great reminder about the fact that I never published a post about it. Thanks Cal! Some time ago I nerd sniped my good friend [Olivier Ash](https://oliverjash.me/) who struggled with a similar problem and we designed a solution that we both use to this day.
 
 ## From Safari Reading List to Apple Reminders
 
