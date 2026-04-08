@@ -25,3 +25,7 @@ This game is close to my heart. When we got our first family computer a few deca
 ### ["How Email Actually Works" by Sushant Dhiman](https://sushantdhiman.dev/how-email-actually-works-ep-1-behind/)
 
 I use email every day, and it is embarrassing how little I knew about the way it works before reading this post. I also browse the web daily and I know tonnes about the protocols and transfer layers involved in that. This article helped me to fill the gaps in my knowledge. Well explained step by step and all the technologies involved in every single process of authenticating, receiving and sending emails.
+
+### [Protect Your Shed](https://dylanbutler.dev/blog/protect-your-shed/)
+
+I loved this article. The difference between writing code for a enterprise organisation at work, vs the little side projects that passionate people create on their own time aligns with my experience as well, as everything that keeps me going as a software creator comes from these extra hours I spent after writing enterprise-level code at work. Things I get out of work-related lessons just improve my head. Good read, good analogy!
