@@ -5,7 +5,7 @@ summary: "I’m a huge fan of Sir Tim Berners-Lee, his values and his modest and
 
 The World Wide Web is one of the greatest inventions of humanity. This medium gave me the opportunity to do what I do, made me passionate about it, taught me so many things and gave me so many laughs. In many contexts this saying sounds cliché, but without the internet this world really wouldn't be what it is now.
 
-I'm a huge fan of Sir Tim Berners-Lee, his values and his modest and humble aura. I ordered a physical copy of ["This is for Everyone"](https://thisisforeveryone.timbl.com/index.html) the moment it came out, but I mostly listened to it on [Audiable](https://www.audible.co.uk/pd/This-Is-for-Everyone-Audiobook/B0DK42QWHT), read by a great voice of Stephen Fry. The audiobook contains a great prologue read by the author, and also a (not so great) conversation between the web inventor and the narrator.
+I'm a huge fan of Sir Tim Berners-Lee, his values and his modest and humble aura. I ordered a physical copy of ["This is for Everyone"](https://thisisforeveryone.timbl.com/index.html) the moment it came out, but I mostly listened to it on [Audible](https://www.audible.co.uk/pd/This-Is-for-Everyone-Audiobook/B0DK42QWHT), read by a great voice of Stephen Fry. The audiobook contains a great prologue read by the author, and also a (not so great) conversation between the web inventor and the narrator.
 
 !["This Is for Everyone" by Tim Berners-Lee](1.jpg)
 
