@@ -15,7 +15,9 @@ In the string `2026-03-10`, when you try to bump up a month, you are actually ad
 
 > This defines what bases Vim will consider for numbers when using the CTRL-A and CTRL-X commands for adding to and subtracting from a number respectively.
 
-```
+```lua
+vim.o.nrformats = "unsigned"
+-- or
 vim.o.nrformats = "unsigned"
 ```
 
