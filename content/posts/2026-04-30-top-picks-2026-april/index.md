@@ -29,3 +29,11 @@ I use email every day, and it is embarrassing how little I knew about the way it
 ### [Protect Your Shed](https://dylanbutler.dev/blog/protect-your-shed/)
 
 I loved this article. The difference between writing code for a enterprise organisation at work, vs the little side projects that passionate people create on their own time aligns with my experience as well, as everything that keeps me going as a software creator comes from these extra hours I spent after writing enterprise-level code at work. Things I get out of work-related lessons just improve my head. Good read, good analogy!
+
+### [How I run multiple $10K MRR companies on a $20/month tech stack](https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack)
+
+Good reminder not to overoptimize prematurely. I found this article at the perfect time in my life, where I'm in the middle of untangling the difference between multiple AWS services, because I am trying to deploy a container. Maybe I don't need a container at all. Maybe you also don't.
+
+### ["Bring Back Idiomatic Design" by John Loeber](https://essays.johnloeber.com/p/4-bring-back-idiomatic-design)
+
+A great reminder of the design idioms, why we missed them and how we can bring them back. Another article from the category "just keep it simple," but surprisingly, no matter how often advice like that comes out, the industry still struggles to implement it. Quite the opposite is the reality nowadays, unfortunately.

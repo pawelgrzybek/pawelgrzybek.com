@@ -18,7 +18,7 @@ In the string `2026-03-10`, when you try to bump up a month, you are actually ad
 ```lua
 vim.o.nrformats = "unsigned"
 -- or
-vim.o.nrformats = "unsigned"
+vim.o.nrformats = "blank"
 ```
 
 Smash that into your config and from now on Vim will treat all numbers as absolute values. Now it works like I want!
