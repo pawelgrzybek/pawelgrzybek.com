@@ -3,15 +3,19 @@ title: "Repository pattern in Go service"
 summary: "Some good habits are worth picking up from the get-go, and in the world of Go services, the repository pattern is one of them."
 ---
 
-When you start a new project, it feels nice that everything lives in a single main.go file. When things start to grow, you split things into multiple files. We will add tests later, right? Requirements change, someone joins the team, and in the meantime, you swapped the storage layer. In no time, your pedantically maintained project became an untangled mess of layers dependent on each other, with no clear separation of concerns, and previously neglected tests are close to impossible to implement at this point. Some good habits are worth picking up from the get-go, and in the world of Go services, the [repository pattern](https://martinfowler.com/eaaCatalog/repository.html) is one of them.
+When you start a new project, it feels nice that everything lives in a single main.go file. When things start to grow, you split things into multiple files. We will add tests later, right? Requirements change, someone joins the team, and in the meantime, you swapped SQLite for Postgres. In no time, your pedantically maintained project became an untangled mess of layers dependent on each other, with no clear separation of concerns, and previously neglected tests are close to impossible to implement at this point. Some good habits are worth picking up from the get-go, and in the world of Go services, the [repository pattern](https://martinfowler.com/eaaCatalog/repository.html) is one of them.
 
 > Conceptually, a Repository encapsulates the set of objects persisted in a data store and the operations performed over them, providing a more object-oriented view of the persistence layer. Repository also supports the objective of achieving a clean separation and one-way dependency between the domain and data mapping layers.
+
+This is the definition from the classic ["Patterns of Enterprise Application Architecture" by Martin Fowler](https://martinfowler.com/eaaCatalog/repository.html), but the one from [".NET Microservices Architecture for Containerized .NET Applications" by the Microsoft team](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design) is way more human readable.
+
+> The Repository pattern is a Domain-Driven Design pattern intended to keep persistence concerns outside of the system's domain model. One or more persistence abstractions - interfaces - are defined in the domain model, and these abstractions have implementations in the form of persistence-specific adapters defined elsewhere in the application.
 
 The terminology here matters less than the principles. We want to achieve encapsulation, testability, scalability and the flexibility of swapping individual components with ease. Core concepts here are common for the repository pattern, service pattern and domain-driven design, hence I put less emphasis on the definition and more into the practicality.
 
 ![Simple information flow inside the go application](1.png)
 
-No matter if you’re building a gRPC, HTTP or WebSocket streaming application, the same rules apply. The idea is that you won’t need to change a single line of business logic if you ever decide to change a storage layer (database). Swapping or adding an additional transport layer should also be easy. The contract between the layers is enforced by interfaces (what it does), but the individual parts shouldn’t be concerned about the implementation details (how it works).
+No matter if you’re building a gRPC, HTTP or WebSocket streaming application, the same rules apply. The idea is that you won’t need to change a single line of business logic if you ever decide to change a storage layer (database). The biggest benefit of this pattern is the ease of testing layers in isolation. Swapping or adding an additional transport layer should also be easy. The contract between the layers is enforced by interfaces (what it does), but the individual parts shouldn’t be concerned about the implementation details (how it works).
 
 ## Practical example
 
@@ -56,7 +60,7 @@ type User struct {
 
 ### Service
 
-That's the place for the business logic and it depends on the repositories that are defined as interfaces. Service is aware of what kind of database operations we can make, but it doesn't care how they are made. Just by looking at this file, you cannot even tell if we use Postgres, SQLite or DynamoDB as a storage for users. This is the essence of this pattern!
+That's the place for the business logic and it depends on the repositories that are defined as interfaces. Service is aware of what kind of database operations we can make, but it doesn't care how they are made. The ease of dependency injection is the natural benefit of this design, so adding tests for this service are trivial. Just by looking at this file, you cannot even tell if we use Postgres, SQLite or DynamoDB as a storage for users. This is the essence of this pattern!
 
 ```go
 // user/service.go
@@ -213,6 +217,8 @@ func main() {
 ```
 
 Here you go, a simplified example of the repository pattern in a Go service. Following this simple technique makes your core easily testable, modular and scalable. Also, following the file structure suggested in this post makes finding files super intuitive, as everything has its place. Wonder no more where the database inserts or validation logic are declared.
+
+Huge shout out to [Redowan Delowar](https://rednafi.com/) for the proof read and great pointers. If you don't follow his blog, you should subscribe to it now. Thank you!
 
 I really hope that helps 🤗
 
