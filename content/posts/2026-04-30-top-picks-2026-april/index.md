@@ -37,3 +37,7 @@ Good reminder not to overoptimize prematurely. I found this article at the perfe
 ### ["Bring Back Idiomatic Design" by John Loeber](https://essays.johnloeber.com/p/4-bring-back-idiomatic-design)
 
 A great reminder of the design idioms, why we missed them and how we can bring them back. Another article from the category "just keep it simple," but surprisingly, no matter how often advice like that comes out, the industry still struggles to implement it. Quite the opposite is the reality nowadays, unfortunately.
+
+### [Accepted proposal: UUID in the Go standard library](https://rednafi.com/shards/2026/04/go-uuid/)
+
+Redowan Delowar's blog is one of my favourite resources for learning Go. He is such a good blogger, super active and insanely helpful. Here is his little recap of the UUID proposal being added to the Go standard library. The day has come and I really hope that with the release of 1.27, I will be able to replace `github.com/google/uuid` with the built-in `uuid`.
