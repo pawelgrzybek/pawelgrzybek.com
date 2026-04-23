@@ -41,3 +41,7 @@ A great reminder of the design idioms, why we missed them and how we can bring t
 ### [Accepted proposal: UUID in the Go standard library](https://rednafi.com/shards/2026/04/go-uuid/)
 
 Redowan Delowar's blog is one of my favourite resources for learning Go. He is such a good blogger, super active and insanely helpful. Here is his little recap of the UUID proposal being added to the Go standard library. The day has come and I really hope that with the release of 1.27, I will be able to replace `github.com/google/uuid` with the built-in `uuid`.
+
+### [The importance of people who care](https://rachelandrew.co.uk/archives/2026/04/21/the-importance-of-people-who-care/)
+
+Beautifully written by Rachel Andrew. I love her writing and her deep attention to detail in her craft. Her talks, her posts, her presentation slides. Rachel has been hugely inspiring to me since I started learning web development, and she still is a mentor today.
