@@ -45,3 +45,7 @@ Redowan Delowar's blog is one of my favourite resources for learning Go. He is s
 ### [The importance of people who care](https://rachelandrew.co.uk/archives/2026/04/21/the-importance-of-people-who-care/)
 
 Beautifully written by Rachel Andrew. I love her writing and her deep attention to detail in her craft. Her talks, her posts, her presentation slides. Rachel has been hugely inspiring to me since I started learning web development, and she still is a mentor today.
+
+### [The Courage to Stop](https://zeldman.com/2026/04/15/the-courage-to-stop/)
+
+Another banger post on the same vibe as Rachel's article. It is funny that in the age of AI-generated everything, I value non-techy posts a lot more than before this whole madness.
