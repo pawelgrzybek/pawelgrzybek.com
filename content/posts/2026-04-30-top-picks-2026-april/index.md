@@ -10,9 +10,13 @@ Intro
 
 ## Album of the month
 
-Album description
+I was shocked when I visited [my local records store](https://maps.app.goo.gl/H5Cnwu3VUYpm4wNn6) on RSD (Record Store Day) and I found most of the discography of Lack of Afro. I love his heavy drums style, mostly fast paced raw funk. Modern, but with this old, JB (James Brown) kinda groove to it. When I took the record home and listened to it for the first time after many years, I couldn't stop playing ["Rusty"](https://youtu.be/9RUIt9IByfc) which is based on a drum line from ["Fire Eater" by Rusty Bryant](https://youtu.be/8-2W2fy-y5Y). What a tune! What a monster tune for bboys! Naturally ["Press On" by Lack of Afro](https://www.discogs.com/release/25025797-Lack-Of-Afro-Press-On) is my album recommendation for this month.
 
-![]()
+!["Press On" by Lack of Afro](1.jpg)
+
+!["Press On" by Lack of Afro](2.jpg)
+
+!["Press On" by Lack of Afro](3.jpg)
 
 ---
 
