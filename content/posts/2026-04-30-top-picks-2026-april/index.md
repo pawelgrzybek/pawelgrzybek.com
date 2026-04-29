@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2026 April"
-summary: ""
+summary: "Other than an absolute banger of an album recommendation, I have a few really good links for you all this month. Great post about the classic game micro-optimisations, a primer to understand how email actually works, a few classic AI rants and some more."
 draft: true
 ---
 
