@@ -25,3 +25,11 @@ Very interesting read about the state of the accessibility of TUI tools written 
 ### ["font-family Doesn’t Fall Back the Way You Think" by Harry Roberts](https://csswizardry.com/2026/04/font-family-doesnt-fall-back-the-way-you-think/)
 
 Harry was right, I didn't know about it. I love CSS so much and feel a little embarrassed every time I learn basic concepts like this. I didn't know about the `font-family` fallback strategy, so maybe you don't know about it either. Check it out, Harry is a good web fella!
+
+### ["I'm an idiot" by Dave Letorey](https://letorey.co.uk/thoughts/i-am-an-idiot/)
+
+Dave is not an idiot. You may know him from his incredible contributions to MDN, he literally documented half of the CSS there. Also, he is an organiser of my favourite, super community-focused web conference, [State of the Browser](https://2026.stateofthebrowser.com/2027/). Most importantly, he is a good friend! For sure, not an idiot! He shared this fantastic story that many of you can relate to. This is top-class blogging here, folks; go and read it!
+
+### ["Better Browser Caching with No-Vary-Search" by Harry Roberts](https://csswizardry.com/2026/05/better-browser-caching-with-no-vary-search/)
+
+Very good explainer of the experimental "No-Vary-Search" HTTP response header. This single addition to the list of headers coming from the server may save a lot of data sent over the wire. Harry is also a good educator, I have followed him for many years, and his content is always second to none.
