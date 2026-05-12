@@ -33,3 +33,7 @@ Dave is not an idiot. You may know him from his incredible contributions to MDN,
 ### ["Better Browser Caching with No-Vary-Search" by Harry Roberts](https://csswizardry.com/2026/05/better-browser-caching-with-no-vary-search/)
 
 Very good explainer of the experimental "No-Vary-Search" HTTP response header. This single addition to the list of headers coming from the server may save a lot of data sent over the wire. Harry is also a good educator, I have followed him for many years, and his content is always second to none.
+
+### ["LSP and Autocomplete in Neovim Is Finally Native" by Systematician](https://youtu.be/s7zb73fgXqU)
+
+A quick video about the LSP setup with the native autocomplete. Every major release of Neovim, they add really useful stuff to the core. I rarely add any plugins recently, but I remove them quite often, and this video makes me think that maybe I don't need Blink anymore.
