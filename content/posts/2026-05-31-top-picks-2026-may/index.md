@@ -37,3 +37,11 @@ Very good explainer of the experimental "No-Vary-Search" HTTP response header. T
 ### ["LSP and Autocomplete in Neovim Is Finally Native" by Systematician](https://youtu.be/s7zb73fgXqU)
 
 A quick video about the LSP setup with the native autocomplete. Every major release of Neovim, they add really useful stuff to the core. I rarely add any plugins recently, but I remove them quite often, and this video makes me think that maybe I don't need Blink anymore.
+
+### ["Gap decorations: Now available in Chromium" by Javier Contreras and Sam Davis Omekara](https://developer.chrome.com/blog/gap-decorations-stable)
+
+Can’t tell you how many hacks I used to get nice-looking custom borders around the CSS grid items. Pseudo classes, box shadows, background on the parent with a little gap and padding around the parent, you name it. I tried all these tricks. [The CSS Gaps Module Level 1](https://drafts.csswg.org/css-gaps-1/) is really exciting and it is not a little add-on, but a comprehensive spec to go absolutely wild with the look and feel of dividers between CSS grid items. They are animatable! Modern CSS is awesome. This is a super progressively enhancable feature so you don’t need to wait for support on all browsers to start using it. This is a good explainer by two Microsoft folks.
+
+### ["Scroll-Driven Animations" by Josh Comeau](https://www.joshwcomeau.com/animation/scroll-driven-animations/)
+
+Another super interactive explainer by Josh. I think I put every single post published by Josh on my top picks list, because they are all so good. This one is no exception. Scroll-driven animations are not that bleeding edge anymore; they are supported by most browsers, and they can be added conditionally only when they are supported. Progressive enhancement for the win! Solid work, Josh, thank you!
