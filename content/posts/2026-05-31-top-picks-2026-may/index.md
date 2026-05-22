@@ -4,11 +4,19 @@ summary: ""
 draft: true
 ---
 
-Intro
+If there is one software theme that dominated this month, it must be either related to npm vulnerabilities or changes in the pricing of frontier AI models. Neither of these subjects interests me in the slightest, so I prepared for you a few links that are not related to these two at all.
+
+In the past month, I worked super hard on a side project that I have been developing for months at this point, and I can’t wait to present it to you all. I didn't have a lot of time for blogging, but I’m learning tons about Go, backend and distributed systems, but in between, I have tons of fun using some incredible bits of modern CSS on the frontend layer. Stay tuned, folks, and now straight to the music recommendation and some good links from the past month.
 
 ---
 
 ## Album of the month
+
+The point of this section is to share what I have been listening to the most in the past month, and on this one you’re unlucky unless you understand Polish language. Sorry. This month I must dedicate to "Koniec Żartów" by Łona, a great rapper from my hometown, Szczecin. I know the lyrics of every song on this LP, and even though this one is 25 years old, the lyrics still feel fresh. ["Rozmowa z Bogiem"](https://youtu.be/OMXpf2UvYoQ) is my absolute favourite one!
+
+!["Koniec żartów" by Łona](lona-1.jpg)
+
+!["Koniec żartów" by Łona](lona-2.jpg)
 
 ---
 
