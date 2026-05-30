@@ -1,10 +1,10 @@
 ---
 title: "Top picks — 2026 May"
-summary: ""
+summary: "Proposal for global tracking denial flag, TUIs accessibility, some CSS font-family strange behaviours, a little personal story from Dave, another lesson about caching from Harry, LSP autocomplete in Neovim, CSS gap decorators, another incredible animation guide by Josh and a few highlights from the recent conference by Google."
 draft: true
 ---
 
-If there is one software theme that dominated this month, it must be either related to npm vulnerabilities or changes in the pricing of frontier AI models. Neither of these subjects interests me in the slightest, so I prepared for you a few links that are not related to these two at all. Google IO also happened a few days ago, and although it was mostly a series of another AI announcements, a few bits are very interesting.
+Drama about the pricing of AI models, countless npm vulnerabilities and Google I/O that at this point should be rebranded to Google AI. This is a short summary of the past month in software. Most of the news from these categories I entirely ignore, so I prepared for you a list of super non-trendy resources from the past month, as I do every last day of each month for the past 11 years. A few bits presented by friends from Google are the only exceptions.
 
 In the past month, I worked super hard on a side project that I have been developing for months at this point, and I can’t wait to present it to you all. I didn't have a lot of time for blogging, but I’m learning tons about Go, backend and distributed systems, but in between, I have tons of fun using some incredible bits of modern CSS on the frontend layer. Stay tuned, folks, and now straight to the music recommendation and some good links from the past month.
 
