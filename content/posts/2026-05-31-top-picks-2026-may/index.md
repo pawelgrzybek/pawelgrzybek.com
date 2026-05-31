@@ -1,7 +1,6 @@
 ---
 title: "Top picks — 2026 May"
 summary: "Proposal for global tracking denial flag, TUIs accessibility, some CSS font-family strange behaviours, a little personal story from Dave, another lesson about caching from Harry, LSP autocomplete in Neovim, CSS gap decorators, another incredible animation guide by Josh and a few highlights from the recent conference by Google."
-draft: true
 ---
 
 Drama about the pricing of AI models, countless npm vulnerabilities and Google I/O that at this point should be rebranded to Google AI. This is a short summary of the past month in software. Most of the news from these categories I entirely ignore, so I prepared for you a list of super non-trendy resources from the past month, as I do every last day of each month for the past 11 years. A few bits presented by friends from Google are the only exceptions.
