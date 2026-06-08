@@ -1,7 +1,6 @@
 ---
 title: "Fuck|Thank you"
-summary: ""
-draft: true
+summary: "Some of the tech giants for the past few years have tried hard to kill the most important tool of the web, links. The web is changing and folks are losing hope. I just wanted to thank those who made the internet interesting for me."
 ---
 
 Some of the tech giants for the past few years have tried hard to kill the most important tool of the web, links. AI companies have stolen content from the web without ever asking for permission just to wrap it into the soulless chats that keep on forgetting to credit the original authors. They rarely mention where the source of the information comes from. You know, a link.
@@ -21,6 +20,25 @@ I really hope that all my people will find a way to get out of this state. Despi
 Inspired by a great post ["Reach out and say thanks" by Kevin Powell](https://www.kevinpowell.co/article/tell-someone-you-appreciate-them/), I just want to say thanks to a few of you. All of you are very special to me. No matter if we know each other in person or I’m an online fan of your content, thank you!
 
 - [Dr. Axel Rauschmayer, thank you](#dr-axel-rauschmayer-thank-you)
+- [Adrian Roselli, thank you](#adrian-roselli-thank-you)
+- [Ben Frain, thank you](#ben-frain-thank-you)
+- [Ben Myers, thank you](#ben-myers-thank-you)
+- [Chris Coyier, thank you](#chris-coyier-thank-you)
+- [Bramus Van Damme, thank you](#bramus-van-damme-thank-you)
+- [Dave Rupert, thank you](#dave-rupert-thank-you)
+- [Hidde de Vries, thank you](#hidde-de-vries-thank-you)
+- [Jake Archibald, thank you](#jake-archibald-thank-you)
+- [Jim Nielsen, thank you](#jim-nielsen-thank-you)
+- [Josh Comeau, thank you](#josh-comeau-thank-you)
+- [Rob Hough, thank you](#rob-hough-thank-you)
+- [Luciano Mammino, thank you](#luciano-mammino-thank-you)
+- [Andy Bell, thank you](#andy-bell-thank-you)
+- [Stefan Judis, thank you](#stefan-judis-thank-you)
+- [Kyle Simpson, thank you](#kyle-simpson-thank-you)
+- [Redowan Delowar, thank you](#redowan-delowar-thank-you)
+- [Keith Circle, thank you](#keith-circle-thank-you)
+- [Dave Lotorie, thank you](#dave-lotorie-thank-you)
+- [Others](#others)
 
 ### Dr. Axel Rauschmayer, thank you
 
