@@ -36,7 +36,7 @@ Inspired by a great post ["Reach out and say thanks" by Kevin Powell](https://ww
 - [Stefan Judis, thank you](#stefan-judis-thank-you)
 - [Kyle Simpson, thank you](#kyle-simpson-thank-you)
 - [Redowan Delowar, thank you](#redowan-delowar-thank-you)
-- [Keith Circle, thank you](#keith-circle-thank-you)
+- [Keith Cirkel, thank you](#keith-cirkel-thank-you)
 - [Dave Lotorie, thank you](#dave-lotorie-thank-you)
 - [Others](#others)
 
@@ -173,14 +173,14 @@ Without you and your free to read online series of books ["You don’t know JS"]
 
 ### Redowan Delowar, thank you
 
-Go programming language is what I spend most of my days with recently, and there is no other person from whom I learn more than Redowan. An incredible educator, fantastic blogger and also a super good fella. Redowan and I exchanged countless messages about some Go concepts, he proofread some of my blog posts in the past and not even once refused to help me. I’m new to Go, and I have been following Redowan for only a few months, I’m extremely thankful for his contribution on the web mate!
+Go programming language is what I spend most of my days nowadays, and there is no other person from whom I learn more than Redowan. An incredible educator, fantastic blogger and also a super good fella. Redowan and I exchanged countless messages about some Go concepts, he proofread some of my blog posts in the past and not even once refused to help me. I’m new to Go, and I have been following Redowan for only a few months, but he absolutely belongs to the list of my favourite web makers. I’m extremely thankful for your contribution to the web mate!
 
 - [Redowan's blog](https://rednafi.com/)
 - [Redowan on Bluesky](https://bsky.app/profile/rednafi.com)
 - [Redowan on LinkedIn](https://www.linkedin.com/in/rednafi/)
 
 
-### Keith Circle, thank you
+### Keith Cirkel, thank you
 
 What a legend Keith is! Not only the most modest human on this planet, he is the smartest bloke out there. I appreciate all you do for the web platform, your CSS tooling and funny little games you come up with and all the standards you implement across the browser engines. Thank you for [your support for the NN1 Dev Club meetup](https://nn1.dev/events/10/), it was really an honour to have a speaker like you at the meetup I organise. Thank you for being a top human being mate!
 
