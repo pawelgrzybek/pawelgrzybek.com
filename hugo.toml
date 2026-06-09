@@ -1,7 +1,6 @@
 baseURL = "https://pawelgrzybek.com/"
 title = "pawelgrzybek.com"
 disableKinds = ["taxonomy", "term"]
-pygmentsUseClasses = true
 enableRobotsTXT = true
 theme = ['pawelgrzybek']
 
@@ -24,6 +23,9 @@ theme = ['pawelgrzybek']
   baseName = "feed"
 
 [markup]
+  [markup.highlight]
+    noClasses = false
+    tabWidth = 2
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true

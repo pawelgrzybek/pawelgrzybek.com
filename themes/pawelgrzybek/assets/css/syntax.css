@@ -5,15 +5,16 @@ kbd {
   border-radius: var(--border-radius);
   background-color: var(--color-box-background);
   font-size: 0.8333333333rem;
-  font-family: MonaspaceNeonVar, SFMono-Regular, Consolas, "Liberation Mono",
-    Menlo, Courier, monospace;
+  font-family:
+    MonaspaceNeonVar, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+    Courier, monospace;
   font-weight: 480;
   vertical-align: top;
   word-break: break-word;
 }
 
 pre {
-  padding: calc(var(--lh) * 0.5) calc(var(--lh) * 0.75);
+  padding: 0.25lh 0.5lh;
   margin-block-end: var(--lh);
   background-color: var(--color-box-background);
   overflow-x: auto;
@@ -28,62 +29,355 @@ pre {
   }
 }
 
+/* Generated using: hugo gen chromastyles --style=monokai */
+
+/* I don't know what's that, maybe one day i will see this, keeping it for the compatibility with the auto generated classes */
+/* Background */ .bg {
+  color: red;
+  background-color: lime;
+}
+/* PreWrapper */
 .chroma {
+  color: var(--color-text);
+  -webkit-text-size-adjust: none;
+
+  /* Error */
+  /* .err { */
+  /* color: white; */
+  /* background-color: red; */
+  /* } */
+
+  /* LineLink */
+  .lnlinks {
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* LineTableTD */
+  .lntd {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  /* LineTable */
+  .lntable {
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  /* LineHighlight */
   .hl {
-    display: block;
-    width: 100%;
     background-color: var(--color-box-border);
     box-shadow:
       calc(var(--lh) * -1) 0 0 0 var(--color-box-border),
       var(--lh) 0 0 0 var(--color-box-border);
   }
 
+  /* LineNumbersTable */
+  .lnt {
+    white-space: pre;
+    -webkit-user-select: none;
+    user-select: none;
+    /* margin-right: 0.4em; */
+    /* padding: 0 0.4em 0 0.4em; */
+    color: var(--color-text);
+    opacity: 0.25;
+  }
+
+  /* LineNumbers */
+  .ln {
+    white-space: pre;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-right: 0.5lh;
+    /* padding: 0 0.4em 0 0.4em; */
+    color: var(--color-text);
+    opacity: 0.25;
+  }
+
+  /* Line */
+  .line {
+    display: flex;
+  }
+
+  /* Keyword */
+  .k {
+    color: var(--color-syntax-k);
+  }
+
+  /* KeywordConstant */
+  /* .kc { */
+  /*   color: #66d9ef; */
+  /* } */
+
+  /* KeywordDeclaration */
+  /* .kd { */
+  /*   color: #66d9ef; */
+  /* } */
+
+  /* KeywordNamespace */
+  /* .kn { */
+  /*   color: #f92672; */
+  /* } */
+
+  /* KeywordPseudo */
+  /* .kp { */
+  /*   color: #66d9ef; */
+  /* } */
+
+  /* KeywordReserved */
+  .kr {
+    color: var(--color-syntax-kr);
+  }
+
+  /* KeywordType */
+  /* .kt { */
+  /*   color: #66d9ef; */
+  /* } */
+
+  /* NameAttribute */
+  .na {
+    color: var(--color-syntax-na);
+  }
+
+  /* NameClass */
+  .nc {
+    color: var(--color-syntax-nc);
+  }
+
+  /* NameConstant */
+  /* .no { */
+  /*   color: #66d9ef; */
+  /* } */
+
+  /* NameDecorator */
+  /* .nd { */
+  /*   color: #a6e22e; */
+  /* } */
+
+  /* NameException */
+  /* .ne { */
+  /*   color: #a6e22e; */
+  /* } */
+
+  /* NameOther */
+  .nx {
+    color: var(--color-syntax-nx);
+  }
+
+  /* NameTag */
+  .nt {
+    color: var(--color-syntax-nt);
+  }
+
+  /* NameFunction */
+  /* .nf { */
+  /*   color: #a6e22e; */
+  /* } */
+
+  /* NameFunctionMagic */
+  /* .fm { */
+  /*   color: #a6e22e; */
+  /* } */
+
+  /* Literal */
+  /* .l { */
+  /*   color: #ae81ff; */
+  /* } */
+
+  /* LiteralDate */
+  /* .ld { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralString */
+  /* .s { */
+  /*   color: var(--color-syntax-s); */
+  /* } */
+
+  /* LiteralStringAffix */
+  /* .sa { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralStringBacktick */
+  .sb {
+    color: var(--color-syntax-sb);
+  }
+
+  /* LiteralStringChar */
+  /* .sc { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralStringDelimiter */
+  /* .dl { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralStringDoc */
+  /* .sd { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralStringDouble */
+  .s2 {
+    color: var(--color-syntax-s2);
+  }
+
+  /* LiteralStringEscape */
+  /* .se { */
+  /*   color: #ae81ff; */
+  /* } */
+
+  /* LiteralStringHeredoc */
+  /* .sh { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralStringInterpol */
+  /* .si { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralStringOther */
+  /* .sx { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralStringRegex */
+  /* .sr { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralStringSingle */
+  /* .s1 { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralStringSymbol */
+  /* .ss { */
+  /*   color: #e6db74; */
+  /* } */
+
+  /* LiteralNumber */
+  /* .m { */
+  /*   color: #ae81ff; */
+  /* } */
+
+  /* LiteralNumberBin */
+  /* .mb { */
+  /*   color: #ae81ff; */
+  /* } */
+
+  /* LiteralNumberFloat */
+  /* .mf { */
+  /*   color: #ae81ff; */
+  /* } */
+
+  /* LiteralNumberHex */
+  /* .mh { */
+  /*   color: #ae81ff; */
+  /* } */
+
+  /* LiteralNumberInteger */
+  /* .mi { */
+  /*   color: #ae81ff; */
+  /* } */
+
+  /* LiteralNumberIntegerLong */
+  /* .il { */
+  /*   color: #ae81ff; */
+  /* } */
+
+  /* LiteralNumberOct */
+  /* .mo { */
+  /*   color: #ae81ff; */
+  /* } */
+
+  /* Operator */
+  .o {
+    color: var(--color-syntax-o);
+  }
+
+  /* OperatorWord */
+  /* .ow { */
+  /*   color: #f92672; */
+  /* } */
+
+  /* OperatorReserved */
+  /* .or { */
+  /*   color: #f92672; */
+  /* } */
+
+  /* Punctuation */
+  /* .p { */
+  /*   color: var(--color-syntax-p); */
+  /* } */
+
+  /* Comment */
+  /* .c { */
+  /*   color: #75715e; */
+  /* } */
+
+  /* CommentHashbang */
+  /* .ch { */
+  /*   color: #75715e; */
+  /* } */
+
+  /* CommentMultiline */
+  /* .cm { */
+  /*   color: #75715e; */
+  /* } */
+
+  /* CommentSingle */
   .c1 {
     color: var(--color-syntax-c1);
     font-variation-settings: "slnt" -11;
   }
 
-  .nx {
-    color: var(--color-syntax-nx);
+  /* CommentSpecial */
+  /* .cs { */
+  /*   color: #75715e; */
+  /* } */
+
+  /* CommentPreproc */
+  /* .cp { */
+  /*   color: #75715e; */
+  /* } */
+
+  /* CommentPreprocFile */
+  /* .cpf { */
+  /*   color: #75715e; */
+  /* } */
+
+  /* GenericDeleted */
+  /* .gd { */
+  /*   color: #f92672; */
+  /* } */
+
+  /* GenericEmph */
+  .ge {
+    font-style: italic;
   }
 
-  .p {
-    color: var(--color-syntax-p);
+  /* GenericInserted */
+  /* .gi { */
+  /*   color: #a6e22e; */
+  /* } */
+
+  /* GenericStrong */
+  .gs {
+    font-weight: bold;
   }
 
-  .o {
-    color: var(--color-syntax-o);
-  }
-
-  .sb {
-    color: var(--color-syntax-sb);
-  }
-
-  .nt {
-    color: var(--color-syntax-nt);
-  }
-
-  .s2 {
-    color: var(--color-syntax-s2);
-  }
-
-  .kr {
-    color: var(--color-syntax-kr);
-  }
-
-  .na {
-    color: var(--color-syntax-na);
-  }
-
-  .s {
-    color: var(--color-syntax-s);
-  }
-
-  .nc {
-    color: var(--color-syntax-nc);
-  }
-
-  .k {
-    color: var(--color-syntax-k);
-  }
+  /* GenericSubheading */
+  /* .gu { */
+  /*   color: #75715e; */
+  /* } */
 }
