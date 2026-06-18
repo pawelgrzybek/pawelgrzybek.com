@@ -33,3 +33,7 @@ I recently spent hours trying to understand the order of transitions and animati
 ### [VoidZero is Joining Cloudflare](https://voidzero.dev/posts/voidzero-cloudflare)
 
 VoidZero, a company founded by the creator of the Vue framework, now holds the most powerful suite of tools in the JavaScript ecosystem: Vite, Vitest, Rolldown, and the Ox set of tools (linter, formatter, parser and so on). Now it becomes part of CloudFlare, a company that I’m a huge fan of, but at the same time I’m a little scared that they own all the tools I like. Not long ago, they also acquired Astro. I really hope that CF won’t become a bad player and that they will fulfil the promise of continuous openness and development under the current licence for all these apps.
+
+### [Reading your own writes with WAIT FOR LSN in Postgres 19](https://rednafi.com/system/wait-for-lsn/)
+
+There is a cool feature coming to Postgres 19. Read-after-write removes the need for the age-old hack of querying the data after writing it with a delay in between to accommodate for replica delays. Redowan explains it really well.
