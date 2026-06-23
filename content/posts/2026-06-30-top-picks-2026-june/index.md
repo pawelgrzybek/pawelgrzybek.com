@@ -36,4 +36,12 @@ VoidZero, a company founded by the creator of the Vue framework, now holds the m
 
 ### [Reading your own writes with WAIT FOR LSN in Postgres 19](https://rednafi.com/system/wait-for-lsn/)
 
-There is a cool feature coming to Postgres 19. Read-after-write removes the need for the age-old hack of querying the data after writing it with a delay in between to accommodate for replica delays. Redowan explains it really well.
+There is a cool feature coming to Postgres 19. Read-after-write removes the need for the age-old hack of querying the data after writing it with a delay in between to accommodate replica delays. Redowan explains it really well.
+
+### [".gitignore Isn’t the Only Way To Ignore Files in Git" by Nelson Figueroa](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/)
+
+What a hot tip. I had no idea I can make a global `.config/git/ignore` file to never again deal with the annoying macOS `.DS_Store` files. Short one, good one.
+
+### [no slop grenade.](https://noslopgrenade.com/)
+
+Ain't that golden? Literally a whole website with a cool domain (I love short, single-purpose, even silly domains) dedicated to all I have been moaning about for the past years since the AI-generated slop explosion happened. Love it, read it, apply it and keep the human conversation going.
