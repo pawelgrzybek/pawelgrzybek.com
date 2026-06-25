@@ -45,3 +45,7 @@ What a hot tip. I had no idea I can make a global `.config/git/ignore` file to n
 ### [no slop grenade.](https://noslopgrenade.com/)
 
 Ain't that golden? Literally a whole website with a cool domain (I love short, single-purpose, even silly domains) dedicated to all I have been moaning about for the past years since the AI-generated slop explosion happened. Love it, read it, apply it and keep the human conversation going.
+
+### [The Siren Song of ariaNotify()](https://css-tricks.com/the-siren-song-of-arianotify/)
+
+Good explainer of the new `ariaNotify()` and the overall state of assistive technology announcements of live regions. Mat Marquis presented a few practical examples, two ways of triggering new notifications and left us with a fair warning not to abuse this API.
