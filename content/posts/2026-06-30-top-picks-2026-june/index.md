@@ -3,7 +3,17 @@ title: "Top picks — 2026 June"
 summary: "Browsers maintain lists of quirks, assistive technologies review, HTML dl tag, in and out animations in pure CSS, a few ways of ignoring files in Git, CSS grid lanes, little-known facts about the Polish keyboards and some cool announcements from Apple."
 ---
 
-Pretty cool month for the web. Tons of great posts came out, Apple  WWDC took place and a few shocking acquisitions happened as well. Considering that I spent the last month travelling with my family, I have no clue how I managed to read so much and combine a pretty long list of resources for this monthly summary. Unfortunately, no music recommendation today, but tons of great web links below here. Enjoy!
+Pretty big month for the web. Tons of great posts came out, Apple WWDC took place and a few shocking acquisitions happened as well. I have been travelling for work and with family this month a lot so no other crazy updates from my personal life this month, but as always great music recommendations for you all and a bunch of links. We freaking love good links right! Enjoy!
+
+---
+
+## Album of the month
+
+["Dirty Old Hip Hop" by Visioneers directed by Marc Mac](https://www.discogs.com/release/37292835-Marc-Mac-Presents-Visioneers-Dirty-Old-Hip-Hop), is a compilation of jazz interpretations of super influential rap and funky tunes. Initially released in 2006 and recently repressed for it's 20th anniversary. You will find on this album great versions of ["Runnin'" by The Pharcyde](https://youtu.be/jQ-RrGCSa2M), ["The world is yours" by Nas](https://youtu.be/e5PnuIRnJW8) or ["Ike's Mood I" originally released by the great Isaac Hayes](https://youtu.be/1DS5D6cYQhA). Back in [November of 2024](/top-picks-2024-noveber/#album-of-the-month) I was recommending stuff by Visioneers already, this one is another, probably even better one to add to your collection!
+
+!["Dirty Old Hip Hop" by Visioneers](visioneers.jpg)
+
+{{< youtube w0G29PSyKn4 >}}
 
 ---
 
