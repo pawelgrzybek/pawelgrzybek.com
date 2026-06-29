@@ -1,14 +1,9 @@
 ---
 title: "Top picks — 2026 June"
-summary: ""
-draft: true
+summary: "Browsers maintain lists of quirks, assistive technologies review, HTML dl tag, in and out animations in pure CSS, a few ways of ignoring files in Git, CSS grid lanes, little-known facts about the Polish keyboards and some cool announcements from Apple."
 ---
 
----
-
-## Album of the month
-
-![]()
+Pretty cool month for the web. Tons of great posts came out, Apple  WWDC took place and a few shocking acquisitions happened as well. Considering that I spent the last month travelling with my family, I have no clue how I managed to read so much and combine a pretty long list of resources for this monthly summary. Unfortunately, no music recommendation today, but tons of great web links below here. Enjoy!
 
 ---
 
@@ -57,3 +52,11 @@ Here is a helpful little cheat sheet about new `grid lanes` display layouts (aka
 ### ["Publishing on the Atmosphere with Standard.site" by Declan Chidlow](https://piccalil.li/blog/publishing-on-the-atmosphere-with-standardsite/)
 
 Standard.site came out of nowhere some time ago, and a bunch of bloggers integrate their blogs with the new lexicons on the ATProto (Authenticated Transfer Protocol is the tech behind BlueSky). I read a few of the guides, and as much as the implementation makes sense to me, the part I was missing is the basic understanding of the ATProto concepts needed for the integration. This article by Declan "Vale" Chidlow is just perfect. It goes into the very basics of the concepts and presents just the essential parts needed for the integration. What a good blogger he is!
+
+### ["The curious case of the disappearing Polish S" by Marcin Wichary](https://aresluna.org/the-curious-case-of-the-disappearing-polish-s/)
+
+What a great story by Marcin of the little decades-old keyboard quirk that made typing "S" a little bit more problematic for Polish keyboard users. As you could expect from his post, it is packed with obscure details about the keyboard's design and little-known history facts behind the editor's inner workings.
+
+### ["What's new in WebKit for Safari 27" by Jen Simmons](https://developer.apple.com/videos/play/wwdc2026/204/)
+
+This year Apple invested more time into the improvements other than new features across the board of all OSs, which was a general theme of this year's WWDC. Safari is no different and the huge focus went into the interoperability of Safari with other engines. But a few brand new things landed of course — grid lanes and customisable selects are probably the highlights most are talking about. For me, the changes to the web extensions and the way to package them up in Safari are the most noticeable changes. This 16-minute session with Jen Simmons sums it up really nicely.
