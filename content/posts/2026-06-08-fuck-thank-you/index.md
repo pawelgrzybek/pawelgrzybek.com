@@ -37,7 +37,7 @@ Inspired by a great post ["Reach out and say thanks" by Kevin Powell](https://ww
 - [Kyle Simpson, thank you](#kyle-simpson-thank-you)
 - [Redowan Delowar, thank you](#redowan-delowar-thank-you)
 - [Keith Cirkel, thank you](#keith-cirkel-thank-you)
-- [Dave Lotorie, thank you](#dave-lotorie-thank-you)
+- [Dave Letorey, thank you](#dave-letorey-thank-you)
 - [Others](#others)
 
 ### Dr. Axel Rauschmayer, thank you
@@ -189,7 +189,7 @@ What a legend Keith is! Not only the most modest human on this planet, he is the
 - [Keith on Bluesky](https://bsky.app/profile/keithamus.social)
 - [Keith on LinkedIn](https://www.linkedin.com/in/keithcirkel/)
 
-### Dave Lotorie, thank you
+### Dave Letorey, thank you
 
 You know how thankful I am for organising [State of the Browser](https://2027.stateofthebrowser.com/), which is one of the best web conferences out there. You know how thankful I am for producing top content for MDN. You know how thankful I am for your constant support of all the initiatives I do. You know all that! I just wanted to thank you for being a friend! Top friend. Thank you, Dave!
 
