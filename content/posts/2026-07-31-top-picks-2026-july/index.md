@@ -27,3 +27,7 @@ I was so excited when the Microsoft team announced the TypeScript rewrite to Go 
 ### [Rediscover the HTML select element](https://developer.apple.com/videos/play/wwdc2026/315/)
 
 I know that there are plenty of other resources that explain the new possibilities of fully customisable HTML select elements, but there is something different about this Apple production. This presentation is not too long, not too short, follows a nice pace and the constructs are layered on top of each other, so we are not bombarded with the complexity of new values and features all at once.
+
+### [Create web extensions for Safari](https://developer.apple.com/videos/play/wwdc2026/216/)
+
+This is a good guide on creating a web browser extension. The chapter closer to the end of this presentation is the most exciting to me, as it presents how you can package and distribute a Safari extension without ever downloading Xcode. This is exciting news and probably will unblock a lot of authors from distributing their plugins to Safari as well.
