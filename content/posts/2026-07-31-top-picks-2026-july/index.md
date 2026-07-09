@@ -19,3 +19,11 @@ I like posts about modern parts of CSS, but posts like this one are even better.
 ### ["Modernizers & go fix" by Redowan Delowar](https://rednafi.com/go/gofix/)
 
 Really good primer to the `go fix` CLI and the concept of modernizers in the Go language. The command line tool has been totally revamped in the recent major version 1.26 and it is an incredibly useful tool for projects managed by a team of multiple devs. Surprisingly, it is also very useful for codebases written using AI, even though modern LLMs are pretty good at writing Go.
+
+### [Announcing TypeScript 7.0](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/)
+
+I was so excited when the Microsoft team announced the TypeScript rewrite to Go over a year ago. For many months, I have been using `tsgo`, and the difference in the experience of working with this language is night and day. The part that I'm most excited about, other than the speed, of course, is the native LSP integration that fully follows the protocol spec. If you have ever complained about the TS compilation speed, today is the day when the wait is over. Update your projects and your IDEs to take full advantage of it.
+
+### [Rediscover the HTML select element](https://developer.apple.com/videos/play/wwdc2026/315/)
+
+I know that there are plenty of other resources that explain the new possibilities of fully customisable HTML select elements, but there is something different about this Apple production. This presentation is not too long, not too short, follows a nice pace and the constructs are layered on top of each other, so we are not bombarded with the complexity of new values and features all at once.
