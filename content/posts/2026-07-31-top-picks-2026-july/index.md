@@ -31,3 +31,7 @@ I know that there are plenty of other resources that explain the new possibiliti
 ### [Create web extensions for Safari](https://developer.apple.com/videos/play/wwdc2026/216/)
 
 This is a good guide on creating a web browser extension. The chapter closer to the end of this presentation is the most exciting to me, as it presents how you can package and distribute a Safari extension without ever downloading Xcode. This is exciting news and probably will unblock a lot of authors from distributing their plugins to Safari as well.
+
+### ["Working backwards" by Daniel Roe | JSHeroes 2026 ](https://youtu.be/QFy7HmfTelo)
+
+Really inspiring talk by Daniel about building successful products with people. It is backed by the origin story of npmx, which is one of the most successful open source stories in recent times. I love the way Daniel always puts people first in the way he works.
