@@ -35,3 +35,7 @@ This is a good guide on creating a web browser extension. The chapter closer to 
 ### ["Working backwards" by Daniel Roe | JSHeroes 2026 ](https://youtu.be/QFy7HmfTelo)
 
 Really inspiring talk by Daniel about building successful products with people. It is backed by the origin story of npmx, which is one of the most successful open source stories in recent times. I love the way Daniel always puts people first in the way he works.
+
+### [Announcing v1 of OpenTelemetry Go Compile-Time Instrumentation](https://opentelemetry.io/blog/2026/go-compile-time-instrumentation-v1/)
+
+OpenTelemetry is an open-source framework to enable key observability elements in your application. It is a single framework that gives you logs, metrics, and traces, and it supports a lot of modern programming languages. Adding it to a Go application has never been simple, though. It required a lot of boilerplate code to propagate logs, hook into the transport layer events, and orchestrate spans for database calls, etc. Now this whole thing can go away, and we no longer need to write it all, as the new otelc CLI is a tool that can auto-instrument our application at compile time. The best code is the one that doesn't exist, right?
