@@ -43,3 +43,15 @@ OpenTelemetry is an open-source framework to enable key observability elements i
 ### ["Fluid Typography with progress()" by Matthew Morete](https://master.dev/blog/fluid-typography-with-progress/)
 
 I had absolutely no clue about the CSS `progress()` function. This article presents one great use case for the new function, but I can think of plenty more good ones. Isn't modern CSS just too good?!
+
+### ["Building Gin: Simple Over Easy" by Manuel Martínez-Almeida](https://manualmeida.dev/articles/gin-simple-over-easy/)
+
+Good post about the goals of Gin, the most popular HTTP Go language framework. The author elaborates on the importance of backward compatibility, how the radix tree-based router made it a lot more efficient compared to other regex-based projects of its kind, and some other decisions that made it as popular as it is. Really good, short write-up with an interactive radix tree explainer.
+
+### ["Maybe you should learn something" by Viktor Löfgren](https://www.marginalia.nu/log/a_135_learn/)
+
+What a good write-up. Learning new things is probably your bread and butter if you work in the software engineering sector, but some people may need this reminder. It is really useful for people who claim not to have time for anything, and even more applicable to those who didn't train their self-improvement muscle since their school years.
+
+### ["Your Worker can now have its own cache in front of it" by Dan Lapid and Connor Harwood](https://blog.cloudflare.com/workers-cache/)
+
+I really like Cloudflare's intuitive, headers-controlled advanced caching. This is the thing that I always wanted to be available in Cloudflare Workers, and the wait is over. This blog post starts from the basics and goes into depth about the reasoning why this implementation took so long. It is such an interesting story how the web changed and the core Worker methodology flipped the order of resources (moved the cache in front of the origin).
