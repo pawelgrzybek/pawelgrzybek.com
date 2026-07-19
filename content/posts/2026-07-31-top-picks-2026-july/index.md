@@ -55,3 +55,11 @@ What a good write-up. Learning new things is probably your bread and butter if y
 ### ["Your Worker can now have its own cache in front of it" by Dan Lapid and Connor Harwood](https://blog.cloudflare.com/workers-cache/)
 
 I really like Cloudflare's intuitive, headers-controlled advanced caching. This is the thing that I always wanted to be available in Cloudflare Workers, and the wait is over. This blog post starts from the basics and goes into depth about the reasoning why this implementation took so long. It is such an interesting story how the web changed and the core Worker methodology flipped the order of resources (moved the cache in front of the origin).
+
+### ["Good Tools Are Invisible" by Ginger Bill](https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/)
+
+Just read it. It is not about a specific tool, and Bill’s point is not to compare one to the other. It is about core principles of building a product that people want to use. The whole post, line by line, is a masterpiece and I would highly recommend reading it regardless of what the output of your creation is: a website, CLI tool or programming language. It applies to all those.
+
+> Maximal configurability shouldn't be a tool's goal, it should be an option for when it's actually necessary. Designing an ergonomic tool is fundamentally about having good defaults, while still allowing escape hatches where they're possible/needed.
+
+> "Highly configurable" is often just an excuse for shipping no opinion at all and calling the resulting work your problem. Good defaults are a form of respect for the user's time: the toolmaker does the thinking once so a thousand users don't each have to.
