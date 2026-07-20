@@ -69,3 +69,11 @@ Just read it. It is not about a specific tool, and Bill’s point is not to comp
 > Maximal configurability shouldn't be a tool's goal, it should be an option for when it's actually necessary. Designing an ergonomic tool is fundamentally about having good defaults, while still allowing escape hatches where they're possible/needed.
 
 > "Highly configurable" is often just an excuse for shipping no opinion at all and calling the resulting work your problem. Good defaults are a form of respect for the user's time: the toolmaker does the thinking once so a thousand users don't each have to.
+
+### [The Java Story | The Official Documentary](https://youtu.be/ZqGSg4b_cZA)
+
+Documentaries by CultRepo are incredible, and another one has joined their collection recently, this time about the Java programming language. A language that I have absolutely no clue about, but that actually makes this a more interesting documentary for me. As always, top production quality and a superbly interesting story. Hey, modern Java doesn't really look as verbose as it looked a decade ago when I looked into it for the first time.
+
+### ["Getting Started with Anchor Positioning" by Josh W. Comeau](https://www.joshwcomeau.com/css/anchor-positioning/)
+
+Do I really need to highlight every single post by Josh in my top picks? Yes, I do, because they are great explainers of modern CSS concepts. His demos and very practical examples are always on point to convey just enough without exhausting my brain capacity.
