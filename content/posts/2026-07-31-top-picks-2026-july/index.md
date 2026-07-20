@@ -4,9 +4,15 @@ summary: ""
 draft: true
 ---
 
+This was a good month.
+
 ---
 
 ## Album of the month
+
+Time for a classic! I have two reasons why ["The Score" by Fugees](https://www.discogs.com/release/11406302-Fugees-The-Score) was spinning quite a lot on our turntable in the past month. Firstly, this is an incredible album full of bangers, one after the other. Another reason is that my wife and I are going to see Lauryn Hill and Wyclef Jean live in a few weeks' time at the [Diaspora Calling](https://www.diasporacalling.com/) festival and we are expecting to hear quite a few songs by refugees. I’m well pumped about it. If you don’t know this album, you have homework to do, because this is one of the greatest pieces of music ever released.
+
+!["The Score" by Fugees](fugees.jpg)
 
 ---
 
