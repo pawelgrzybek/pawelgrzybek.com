@@ -4,7 +4,7 @@ summary: ""
 draft: true
 ---
 
-This was a good month.
+End of July? Seriously? Feels like yesterday when I celebrated New Year's Eve, and all of a sudden it is the end of July. Can we all slow down a little, please? Not a little. Slow down! You, time, the world. Pretty please! I'm in a good mood today, but not in a good one to write interesting intros, so let's go straight to the album of the month (it is a good one), and of course links. I have plenty of good resources for you that I liked in the past month. Enjoy!
 
 ---
 
@@ -77,3 +77,7 @@ Documentaries by CultRepo are incredible, and another one has joined their colle
 ### ["Getting Started with Anchor Positioning" by Josh W. Comeau](https://www.joshwcomeau.com/css/anchor-positioning/)
 
 Do I really need to highlight every single post by Josh in my top picks? Yes, I do, because they are great explainers of modern CSS concepts. His demos and very practical examples are always on point to convey just enough without exhausting my brain capacity.
+
+### ["git rebase -i is not that scary" by Akrm Al-Hakimi](https://cachebag.sh/journal/interactive-rebasing/)
+
+Super simple to follow intro to the interactive rebasing. I'm not scared of `git rebase -i` but I use it so infrequently that every time I use it, I need to remind myself where to put "s" to squash one commit onto the other. I really like this refresher.
