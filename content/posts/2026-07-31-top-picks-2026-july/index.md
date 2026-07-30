@@ -1,6 +1,6 @@
 ---
 title: "Top picks — 2026 July"
-summary: ""
+summary: "The list of links for this month is long, so brew a good (and large) coffee and enjoy the read. Tons about the web, go, some conference talks, and a bit about the AT Protocol at the end."
 draft: true
 ---
 
@@ -81,3 +81,7 @@ Do I really need to highlight every single post by Josh in my top picks? Yes, I 
 ### ["git rebase -i is not that scary" by Akrm Al-Hakimi](https://cachebag.sh/journal/interactive-rebasing/)
 
 Super simple to follow intro to the interactive rebasing. I'm not scared of `git rebase -i` but I use it so infrequently that every time I use it, I need to remind myself where to put "s" to squash one commit onto the other. I really like this refresher.
+
+### [The Open Web's second chance (w/ Dan Abramov)](https://syntax.fm/show/1025/the-open-web-s-second-chance-w-dan-abramov)
+
+This episode of Syntax.fm answered so many questions I had about AT Protocol and a little bit about how it compares to something like the Fediverse (the concept behind Mastodon). Dan is a great educator and some of the concepts he explained finally clicked in my brain. After chatting about it on social media, Dan shared with me ["There Are No Instances in atproto"](https://overreacted.io/there-are-no-instances-in-atproto/) that goes much deeper into the comparison of AT Protocol and the Fediverse. I think I'm becoming a fan, but there is still one knowledge gap in my understanding, and I have a blog post coming precisely about that. There is no better way to learn something than writing about it. Right?
