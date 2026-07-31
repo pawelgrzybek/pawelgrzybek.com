@@ -1,10 +1,9 @@
 ---
 title: "Top picks — 2026 July"
 summary: "The list of links for this month is long, so brew a good (and large) coffee and enjoy the read. Tons about the web, go, some conference talks, and a bit about the AT Protocol at the end."
-draft: true
 ---
 
-End of July? Seriously? Feels like yesterday when I celebrated New Year's Eve, and all of a sudden it is the end of July. Can we all slow down a little, please? Not a little. Slow down! You, time, the world. Pretty please! I'm in a good mood today, but not in a good one to write interesting intros, so let's go straight to the album of the month (it is a good one), and of course links. I have plenty of good resources for you that I liked in the past month. Enjoy!
+End of July? Seriously? Feels like yesterday when I celebrated New Year’s Eve, and all of a sudden it is the end of July. Can we all slow down a little, please? Not a little. Slow down! You, time, the world. Pretty please! I’m in a good mood today, but not in a good one to write interesting intros, so let’s go straight to the album of the month (it is a good one), and of course links. I have plenty of good resources for you that I liked over the past month. Enjoy!
 
 ---
 
@@ -85,3 +84,7 @@ Super simple to follow intro to the interactive rebasing. I'm not scared of `git
 ### [The Open Web's second chance (w/ Dan Abramov)](https://syntax.fm/show/1025/the-open-web-s-second-chance-w-dan-abramov)
 
 This episode of Syntax.fm answered so many questions I had about AT Protocol and a little bit about how it compares to something like the Fediverse (the concept behind Mastodon). Dan is a great educator and some of the concepts he explained finally clicked in my brain. After chatting about it on social media, Dan shared with me ["There Are No Instances in atproto"](https://overreacted.io/there-are-no-instances-in-atproto/) that goes much deeper into the comparison of AT Protocol and the Fediverse. I think I'm becoming a fan, but there is still one knowledge gap in my understanding, and I have a blog post coming precisely about that. There is no better way to learn something than writing about it. Right?
+
+### [CodePen 2.0](https://chriscoyier.net/2026/07/30/codepen-2-0/)
+
+There is no other web service that I have been using more throughout my career other than my email. Second is CodePen. This is a huge milestone that the whole team spent years to achieve and the whole, super small team deserves huge kudos. The new CodePen 2.0 is a lot more powerful, comes with all you would expect from a very modern service of its kind, but in a typical fashion for these folks, they kept it simple. To use its basic features it is as simple as it always has been, but now you can do serious development work with it including a whole deployment of your website, which is absolutely sick. I also enjoyed two episodes of the CodePen Radio podcast, that I would highly recommend you checking if you are curious about some internals: ["Why are we building CodePen v2"](https://youtu.be/S_wCMc_iNk4) and ["CodePen 2.0 Launch Party! Find out what everyone's favorite features of CodePen 2.0 are"](https://youtu.be/HC5CSWRqOGw). Huge congrats team!
