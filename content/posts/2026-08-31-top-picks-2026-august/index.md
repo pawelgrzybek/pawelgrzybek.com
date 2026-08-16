@@ -33,3 +33,7 @@ This one is my favourite kind of posts. Lea Verou dives deeply into the user psy
 ### [_for-sale DNS records](https://specification.website/spec/foundations/for-sale-dns/)
 
 What a brilliant idea. It is shocking that this thing is becoming a reality only now, in 2026. If you want to sell a domain name, just add a `_for_sale` DNS record. Brilliant!
+
+### ["Reminder that `system-ui` is well supported, when you use it on macOS you get San Francisco which is a variable font, which is fun, and the fallbacks are pretty good." by Chris Coyier](https://master.dev/blog/system-ui-san-francisco-fun/)
+
+Fonts contribute a lot to the overall weight of your web project. In this post, Chris reminds us about the system font that often may be more than enough. The default macOS San Francisco font is actually a variable font, and you can go pretty crazy using only this one and nothing else.
