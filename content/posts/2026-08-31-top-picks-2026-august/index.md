@@ -37,3 +37,11 @@ What a brilliant idea. It is shocking that this thing is becoming a reality only
 ### ["Reminder that `system-ui` is well supported, when you use it on macOS you get San Francisco which is a variable font, which is fun, and the fallbacks are pretty good." by Chris Coyier](https://master.dev/blog/system-ui-san-francisco-fun/)
 
 Fonts contribute a lot to the overall weight of your web project. In this post, Chris reminds us about the system font that often may be more than enough. The default macOS San Francisco font is actually a variable font, and you can go pretty crazy using only this one and nothing else.
+
+### ["Simple Made Easy" - Rich Hickey (2011)](https://youtu.be/SxdOUGdseq4)
+
+One of these talks that I keep coming back to every few years, and every time I watch it I have a feeling that it becomes increasingly more relevant. In the age of AI tools that generate code for programmers, it is so easy for an additional complexity to slip into our project, and the thing is not always immediate to spot. This talk is a good reminder about the correlation of "simple" and "reliable". If you have never watched this talk, today is the day you should hit the play button.
+
+### ["Choose Boring Technology" by Dan McKinley](https://mcfunley.com/choose-boring-technology)
+
+On a similar vein, this is a classic blog post that is over a decade old. A little reminder that goes so well with the "Simple Made Easy" talk. The more I'm a part of this industry, the more I appreciate boring tech. At the same time, I care less and less about shiny new things, and I apply a lot more aggressive filters to the industry news I dedicate any time to. Again, if you have never read this one, brew a coffee now and give it a go.
