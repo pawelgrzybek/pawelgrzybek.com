@@ -64,3 +64,5 @@ Let's add another element into the mix that inherits the `grid-template-columns`
 As a result, the subgrid should look no different from the top-level `div`s. This is the case in Chromium and Firefox, but not in Safari. Here is the [Bug 321024 on the WebKit Bugzilla website](https://bugs.webkit.org/show_bug.cgi?id=321024), so you can track the progress of resolution of that issue.
 
 {{< figure src="subgrid.jpg" alt="A comparison view of rendering CSS subgrids with three children. Side by side Chrome, Firefox and Safari." caption="Top to bottom, Chrome, Firefox and Safari." >}}
+
+{{% update %}}Wow! It took only 10 days since I published this bug report to the [merged issues resolution](https://github.com/WebKit/WebKit/pull/71768). This is the reason why you, web developer, should report bugs to browser engineers. They do listen and you have a chance to make the web a better place.{{% /update %}}
