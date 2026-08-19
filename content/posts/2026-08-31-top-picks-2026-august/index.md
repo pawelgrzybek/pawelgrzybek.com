@@ -45,3 +45,7 @@ One of these talks that I keep coming back to every few years, and every time I 
 ### ["Choose Boring Technology" by Dan McKinley](https://mcfunley.com/choose-boring-technology)
 
 On a similar vein, this is a classic blog post that is over a decade old. A little reminder that goes so well with the "Simple Made Easy" talk. The more I'm a part of this industry, the more I appreciate boring tech. At the same time, I care less and less about shiny new things, and I apply a lot more aggressive filters to the industry news I dedicate any time to. Again, if you have never read this one, brew a coffee now and give it a go.
+
+### [The Case for Tri-State Dark Mode Toggles](https://www.bram.us/2026/08/18/the-case-for-tri-state-dark-mode-toggles/)
+
+This is the counterargument to Lea's post by Bramus. Both posts are very good, and they present two very different points of view, but the prioritisation of explicit user control advocated by Bramus is closer to my preference. I really like this blog post response to another blog post that went viral in the industry.
