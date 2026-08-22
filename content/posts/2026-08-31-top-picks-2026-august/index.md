@@ -65,3 +65,7 @@ Now when you install Buf CLI, it comes with an LSP server that you can hook into
 ### [Reading a performance profile](https://perf.reviews/profile-guide)
 
 A little AI slop warning before you click this one, because it feels like something mostly AI-generated and I think authors should make it a little bit more personal. It is still a very useful collection of explainers related to profiling the performance of your web project. It is a miles-long page and probably reading it from top to bottom is not the way, but skim through the headings and explore the subjects that you don't fully grasp. I learned a ton using it.
+
+### [Go 1.27 is released](https://go.dev/blog/go1.27)
+
+This is a relatively small release compared to some past Go releases, but version 1.27 of my favourite programming language adds quite a few things that I'm really excited about. Generics on methods, more strict JSON encoding, and finally UUID built-in in the standard library. The ["Go 1.27 Release Notes"](https://go.dev/doc/go1.27) go more in depth about every new feature.
