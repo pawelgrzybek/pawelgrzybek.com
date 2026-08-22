@@ -49,3 +49,19 @@ On a similar vein, this is a classic blog post that is over a decade old. A litt
 ### [The Case for Tri-State Dark Mode Toggles](https://www.bram.us/2026/08/18/the-case-for-tri-state-dark-mode-toggles/)
 
 This is the counterargument to Lea's post by Bramus. Both posts are very good, and they present two very different points of view, but the prioritisation of explicit user control advocated by Bramus is closer to my preference. I really like this blog post response to another blog post that went viral in the industry.
+
+### ["The True Cost of AI Coding" by Scott Tolinski](https://youtu.be/iPUn1Fnfn0k)
+
+A great presentation of the results that Scott collected on the effect of AI-assisted coding on mental health. Not only dry facts, but also practical advice from psychology experts and some snippets from the interviews with burnt-out developers. If you use any level of AI coding in your day-to-day, this can serve as a good warning. The production quality is, as always, second to none, but at this point, I would expect nothing else from the Syntax folks.
+
+### ["The End of Navel Gazing" by Paul Adams (UX London 2018)](https://vimeo.com/275265188)
+
+I recently had a discussion with some of my tech friends on the [NN1 Dev Club](https://nn1.dev) Discord server about the tech talks that aged well. The one mentioned above by Rich Kickey was, of course, my recommendation, but my friend Rob recommended this one by Paul Adams presented at UX London 8 years ago. This talk aged very well, and other than some obsolete tools at this point, this talk is probably more relevant now than it was back then. If you can think of some old tech talks that aged well, please send them my way!
+
+### [Protobuf now has full LSP support](https://buf.build/blog/protobuf-lsp)
+
+Now when you install Buf CLI, it comes with an LSP server that you can hook into your favourite editor and enjoy a much nicer experience while working with protobufs. That was the missing piece from the official bundle. Protobufs are my favourite way of communication between backend services, and this not only simplifies my tooling to work with it but also makes it more powerful than ever.
+
+### [Reading a performance profile](https://perf.reviews/profile-guide)
+
+A little AI slop warning before you click this one, because it feels like something mostly AI-generated and I think authors should make it a little bit more personal. It is still a very useful collection of explainers related to profiling the performance of your web project. It is a miles-long page and probably reading it from top to bottom is not the way, but skim through the headings and explore the subjects that you don't fully grasp. I learned a ton using it.
