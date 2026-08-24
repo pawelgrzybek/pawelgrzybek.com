@@ -10,9 +10,15 @@ Intro...
 
 ## Album of the month
 
-Album of the month...
+Let me tell you a story. I was listening to some music while cooking a breakie for the family the other day. My 3-year-old daughter came down from her bedroom, paused for a moment next to the speaker and asked.
 
-![](<>)
+> "Dada, Nina Simone?"
+
+My heart melted and the pride I felt that exact second is hard to describe. My little angel who can barely count to five knows who Nina Simone is. All these music listening sessions and dancing every evening were worth it. The exact song that was playing at that moment was a beautiful song called "Baltimore" (listen to ["Baltimore" by Nina Simone on YouTube](https://youtu.be/ztCgNQg9FCQ)). Even though Nina’s version of this song is by far the most popular, the original was made by Randy Newman in 1977. Beautiful song! Probably no surprise that the album from my collection that I would like to recommend you this month is ["Baltimore" by Nina Simone](https://www.discogs.com/release/29784409-Nina-Baltimore).
+
+!["Baltimore" by Nina Simone](baltimore.jpg)
+
+PS. If you cook without music, you live your life wrong. A good speaker in the kitchen is essential. And in the bathroom. And the living room. Every room. The garage too!
 
 ---
 
