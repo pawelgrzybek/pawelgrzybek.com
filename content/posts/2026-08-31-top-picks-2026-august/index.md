@@ -1,10 +1,11 @@
 ---
 title: "Top picks — 2026 August"
-summary: ""
-draft: true
+summary: "Classic end of the month collection of links, mainly Go lang specific with a few bonuses about the UI patterns or some latest DNS spec updates."
 ---
 
-Intro...
+It was a good month for me. Very productive, slower than usual. When the rest of the world races, folks go faster, produce more than ever with all these modern tools, I find more joy in doing precisely the opposite.
+
+My friend inspired me to re-watch a decades-old conference talk about programming, and surprisingly I found it more relevant than ever before. That inspired me to re-watch some classic old talks about our craft, and below you will find a few of them. The past month was also full of good resources and discussions around the web that I found super insightful. I hope you will like the collection I put together for you this month. As usual, the album of the month for you first, and a stack of links later. Go!
 
 ---
 
@@ -40,7 +41,7 @@ This one is my favourite kind of posts. Lea Verou dives deeply into the user psy
 
 What a brilliant idea. It is shocking that this thing is becoming a reality only now, in 2026. If you want to sell a domain name, just add a `_for_sale` DNS record. Brilliant!
 
-### ["Reminder that `system-ui` is well supported, when you use it on macOS you get San Francisco which is a variable font, which is fun, and the fallbacks are pretty good." by Chris Coyier](https://master.dev/blog/system-ui-san-francisco-fun/)
+### ["Reminder that system-ui is well supported, when you use it on macOS you get San Francisco which is a variable font, which is fun, and the fallbacks are pretty good." by Chris Coyier](https://master.dev/blog/system-ui-san-francisco-fun/)
 
 Fonts contribute a lot to the overall weight of your web project. In this post, Chris reminds us about the system font that often may be more than enough. The default macOS San Francisco font is actually a variable font, and you can go pretty crazy using only this one and nothing else.
 
