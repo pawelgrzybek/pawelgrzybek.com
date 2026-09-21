@@ -54,6 +54,8 @@ src="undotree.jpg"
 alt="The undotree Vim plugin exposes the undo tree and allows for the easy switches between branches"
 caption="The undotree Vim plugin exposes the undo tree and allows for the easy switches between branches" >}}
 
-IntelliJ family of editors has a concept of [local history](https://www.jetbrains.com/help/idea/local-history.html) that also allows you to recover stuff in the case of accidental data loss. Is there a similar concept in other popular apps you know of?
+IntelliJ family of editors has a concept of [local history](https://www.jetbrains.com/help/idea/local-history.html) that also allows you to recover stuff in the case of accidental data loss. Is there a similar concept in other popular apps you know of? ["Who undoes the undoers" by Marcin Wichary](https://unsung.aresluna.org/who-undoes-the-undoers/) also gives a few great examples (follow his blog, it is amazing!).
 
 Thanks for reading my random rumblings. Until next time, stay curious 🤗
+
+{{% update %}}Since Neovim 0.12, you no longer need a plugin. The undotree comes built-in, and all you need is `vim.cmd("packadd nvim.undotree")` to enable it and `require("undotree").open()` to open it. I use it all the time.{{% /update %}}
