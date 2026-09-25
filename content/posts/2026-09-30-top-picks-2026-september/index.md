@@ -42,3 +42,7 @@ I don’t use React as often as I used to, but this release is pretty cool and c
 ### [https://try.cloudflare.com/](https://try.cloudflare.com/)
 
 A new feature by Cloudflare to make tunnelling super duper easy. I have been using ngrok for things like that in the past, but this one has become complicated over time and also requires an account. The new Cloudflare CLI makes it seamless and takes only 3 seconds to make your localhost instances remotely available. Handy!
+
+### [The Story of VS Code | Official Documentary](https://youtu.be/kHL3XzjpT5w)
+
+Microsoft did multiple amazing things for software engineering, but TypeScript and Visual Studio Code are two of my favourites amongst them all. I really enjoyed watching this documentary. It is not a dry, boring, technical story, quite the opposite. It is a story of amazing people who met at the Zurich office and built Monaco, which then became the most popular IDE ever used. It goes a lot about the community and the open-source aspect. I really liked the part where they explained the motivation to create an LSP protocol, of which I'm a huge fan. Good background watch and a lovely story about people.
