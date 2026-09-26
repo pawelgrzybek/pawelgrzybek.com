@@ -58,3 +58,7 @@ A new proposal by the Microsoft Edge team to introduce the `previewsrc` attribut
 ### ["The root scroller and how not to lose it" by Kilian Valkhof](https://polypane.app/blog/the-root-scroller-and-how-not-to-lose-it/)
 
 This is an incredible post by Kilian Valkhof from Polypane that goes in depth about the scrollable elements and all the special properties of the root scroller. I learned a lot from this post and I'm sure you will too. Kilian is an incredible educator and every single article he writes is worth your time.
+
+### ["Node.js built-ins that replaced npm packages" by Flavio Copes](https://flaviocopes.com/node-builtins/)
+
+A common things in Node.js, like project reloading and basic stdout styling, no longer needs a third-party package. Here, Flavio Copes gives us 12 alternatives to very popular things that some time ago were only possible using third-party packages, but now can be achieved using built-ins. Good short summary. I published a post about most of these in the past individually, but it is good to see them all together on a concise list.
