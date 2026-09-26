@@ -54,3 +54,7 @@ Microsoft did multiple amazing things for software engineering, but TypeScript a
 ### ["Blurry before beautiful: image previews for the web" by Patrick Brosset](https://patrickbrosset.com/articles/2026-09-22-blurry-before-beautiful-image-previews-for-the-web/)
 
 A new proposal by the Microsoft Edge team to introduce the `previewsrc` attribute to the native `img` HTML element. It's proposed to solve the popular use case of serving a preview image before the full resource is loaded. There are plenty of third-party solutions and also many framework-dependent solutions. It is interesting, but it missed a few considerations about the `alt` text rendering and also the progressive rendering of formats that support it. Reading the discussion under some of [the issues raised against this proposal](https://github.com/MicrosoftEdge/MSEdgeExplainers/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Image%20Preview%22) is equally interesting as [the proposal itself](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ImagePreview/explainer.md).
+
+### ["The root scroller and how not to lose it" by Kilian Valkhof](https://polypane.app/blog/the-root-scroller-and-how-not-to-lose-it/)
+
+This is an incredible post by Kilian Valkhof from Polypane that goes in depth about the scrollable elements and all the special properties of the root scroller. I learned a lot from this post and I'm sure you will too. Kilian is an incredible educator and every single article he writes is worth your time.
