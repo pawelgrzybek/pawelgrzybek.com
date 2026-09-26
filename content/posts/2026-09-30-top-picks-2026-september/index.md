@@ -3,13 +3,17 @@ title: "Top picks — 2026 September"
 summary: ""
 ---
 
-Intro
+Most of this month we spent at the Polish seaside, with family and friends, chilling at the Baltic Sea, playing cards, grilling fresh fish and enjoying a poor internet connection. The rest of the month I spent trying to understand the madness that happened at work during my absence. But I managed to read some of the interesting bits on the web and also got addicted to a new album by Bonobo. So here you are, a music recommendation straight from my records shelf and a few resources that I found interesting this past month. Enjoy!
 
 ---
 
 ## Album of the month
 
-Album of the month
+Yes, you guessed it, it is [a new Bonobo album, "Distance in Static"](https://www.discogs.com/release/38372355-Bonobo-Distance-In-Static). I love it and this is the one that was spinning on my turntable the most this past month. Lucky me, I managed to get a signed copy from Juno.
+
+![Bonobo "Distance in Static" cover in the bacground in front of a blury record spinning on the turntable](bonobo-1.jpg)
+
+![Bonobo "Distance in Static" cover signed by Bonobo](bonobo-2.jpg)
 
 ---
 
@@ -46,3 +50,7 @@ A new feature by Cloudflare to make tunnelling super duper easy. I have been usi
 ### [The Story of VS Code | Official Documentary](https://youtu.be/kHL3XzjpT5w)
 
 Microsoft did multiple amazing things for software engineering, but TypeScript and Visual Studio Code are two of my favourites amongst them all. I really enjoyed watching this documentary. It is not a dry, boring, technical story, quite the opposite. It is a story of amazing people who met at the Zurich office and built Monaco, which then became the most popular IDE ever used. It goes a lot about the community and the open-source aspect. I really liked the part where they explained the motivation to create an LSP protocol, of which I'm a huge fan. Good background watch and a lovely story about people.
+
+### ["Blurry before beautiful: image previews for the web" by Patrick Brosset](https://patrickbrosset.com/articles/2026-09-22-blurry-before-beautiful-image-previews-for-the-web/)
+
+A new proposal by the Microsoft Edge team to introduce the `previewsrc` attribute to the native `img` HTML element. It's proposed to solve the popular use case of serving a preview image before the full resource is loaded. There are plenty of third-party solutions and also many framework-dependent solutions. It is interesting, but it missed a few considerations about the `alt` text rendering and also the progressive rendering of formats that support it. Reading the discussion under some of [the issues raised against this proposal](https://github.com/MicrosoftEdge/MSEdgeExplainers/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Image%20Preview%22) is equally interesting as [the proposal itself](https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/main/ImagePreview/explainer.md).
