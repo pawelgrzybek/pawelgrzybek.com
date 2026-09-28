@@ -62,3 +62,11 @@ This is an incredible post by Kilian Valkhof from Polypane that goes in depth ab
 ### ["Node.js built-ins that replaced npm packages" by Flavio Copes](https://flaviocopes.com/node-builtins/)
 
 A common things in Node.js, like project reloading and basic stdout styling, no longer needs a third-party package. Here, Flavio Copes gives us 12 alternatives to very popular things that some time ago were only possible using third-party packages, but now can be achieved using built-ins. Good short summary. I published a post about most of these in the past individually, but it is good to see them all together on a concise list.
+
+### [Go 1.27 Explained by the Go Team | Release Party](https://www.youtube.com/live/UkswvuLfUMQ)
+
+It is hard to beat this way of presenting new features in the recently released Go 1.27. Ainsley Clark and Jesús Espino did a fantastic job hosting it and interviewing no one else but the implementers responsible for all the new parts of the language.
+
+### ["Stop buttons triggering zoom when they’re double tapped" by Andy Bell](https://piccalil.li/blog/stop-buttons-triggering-zoom-when-theyre-double-tapped/)
+
+This article presents a problem that I didn't even know I had, but secondly, it also gives a one-liner solution for it. I also had no clue that this CSS property and value existed. Andy and his Piccalilli blog are one of the very few incredible CSS resources that are still going on the web, and I'm very thankful for it. Top quality as always.
