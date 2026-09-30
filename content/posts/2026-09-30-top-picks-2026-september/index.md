@@ -1,9 +1,9 @@
 ---
 title: "Top picks — 2026 September"
-summary: ""
+summary: "Most of this month I spent away from technology with family at the Polish seaside. Other than that, I organised a really successful meetup and read a bunch of good stuff on the web. Enjoy some of the gems!"
 ---
 
-Most of this month we spent at the Polish seaside, with family and friends, chilling at the Baltic Sea, playing cards, grilling fresh fish and enjoying a poor internet connection. The rest of the month I spent trying to understand the madness that happened at work during my absence. But I managed to read some of the interesting bits on the web and also got addicted to a new album by Bonobo. So here you are, a music recommendation straight from my records shelf and a few resources that I found interesting this past month. Enjoy!
+Most of this month we spent at the Polish seaside, with family and friends, chilling at the Baltic Sea, playing cards, grilling fresh fish and enjoying a poor internet connection. The rest of the month I spent trying to understand the madness that happened at work during my absence. But I managed to read some of the interesting bits on the web and also got addicted to a new album by Bonobo. A really successful edition of the [NN1 Dev Club meetup](https://nn1.dev) was a nice way to enter the autumn season. So here you are, a music recommendation straight from my records shelf and a few resources that I found interesting this past month. Enjoy!
 
 ---
 
@@ -70,3 +70,7 @@ It is hard to beat this way of presenting new features in the recently released 
 ### ["Stop buttons triggering zoom when they’re double tapped" by Andy Bell](https://piccalil.li/blog/stop-buttons-triggering-zoom-when-theyre-double-tapped/)
 
 This article presents a problem that I didn't even know I had, but secondly, it also gives a one-liner solution for it. I also had no clue that this CSS property and value existed. Andy and his Piccalilli blog are one of the very few incredible CSS resources that are still going on the web, and I'm very thankful for it. Top quality as always.
+
+### [Inclusive Design 24 (#id24) 2026 - YouTube Playlist](https://youtube.com/playlist?list=PLFbG3UWnuE3U)
+
+Inclusive Design 24 is a free, 24-hour online event all about accessibility that every year highlights talks by industry experts. Every time it happens, I go through the presentation recordings, and there is plenty of good content to learn from. This year is no different. Me being a web lover, naturally I must recommend ["19½ Things You Didn't Know about Accessibility in HTML and CSS" by Manuel Matuzović](https://www.youtube.com/live/h3JhFyOyzK0), ["How we want to make WCAG better" by Hidde de Vries](https://www.youtube.com/live/tDvdzcbo_tU) and ["Building for People in the Age of AI Agents" by Neha Pandit](https://www.youtube.com/live/b4bD5v3-0FA) to you. These are my favourite cherry picks, but there is plenty of other great content there to choose from.
