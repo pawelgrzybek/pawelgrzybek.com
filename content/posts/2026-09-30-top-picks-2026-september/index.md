@@ -43,7 +43,7 @@ Have you ever encountered missing types for the modern web APIs in your TypeScri
 
 I don’t use React as often as I used to, but this release is pretty cool and comes with a solution to two problems I frequently faced in the past. The Fragment’s references and the native way of detecting the browser environment specifically. The addition of the View Transitions, which are built on top of the [View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API), is a nice addition to the library for sure. Other than that, there is a bunch of news around server-side rendering that I don’t really know that much about. Overall, a solid release.
 
-### [https://try.cloudflare.com/](https://try.cloudflare.com/)
+### [Cloudflare Quick Tunnels](https://try.cloudflare.com/)
 
 A new feature by Cloudflare to make tunnelling super duper easy. I have been using ngrok for things like that in the past, but this one has become complicated over time and also requires an account. The new Cloudflare CLI makes it seamless and takes only 3 seconds to make your localhost instances remotely available. Handy!
 
