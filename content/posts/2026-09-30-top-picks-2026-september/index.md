@@ -31,7 +31,7 @@ Declan is one of my favourite bloggers. His deep research into web-related subje
 
 A natural follow-up, also by Vale, also about the relics of a web programming language. This time about the dated parts of the CSS. I will just stop recommending blog posts by Vale; you should just follow him and read everything he writes. He is one of my favourite bloggers these days and an awesome web folk!
 
-### ["Introducing <rich-input>, a GitHub-like search/filter text input to embed on your site" by Bramus](https://www.bram.us/2026/09/14/introducing-rich-input-a-github-like-search-filter-text-input-to-embed-on-your-site/)
+### ["Introducing \<rich-input\>, a GitHub-like search/filter text input to embed on your site" by Bramus](https://www.bram.us/2026/09/14/introducing-rich-input-a-github-like-search-filter-text-input-to-embed-on-your-site/)
 
 What's interesting about this blog post by Bramus is not the web component he announces, but the set of technologies used to build it. I heard tons about the [CSS Custom Highlights API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Custom_Highlight_API) in the past and I'm well excited about its capabilities, but the OpaqueRange API is totally new to me, and it is awesome! This combination of these two modern APIs will totally change the way we build complex UI elements. Coincidentally, not long ago I have been researching the market to see what options third-party solutions offer, and seeing a truly native solution to do exactly what I need it to do makes me super happy. The ["Highlighting a range of text inside an input or textarea" by Ollie Williams](https://olliewilliams.xyz/blog/opaquerange/) is a good follow up on the subject.
 
