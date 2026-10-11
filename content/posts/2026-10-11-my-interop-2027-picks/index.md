@@ -17,3 +17,12 @@ Totally inspired by [Ana Rodrigues](https://ohhelloana.blog/) who published ["My
 1. [CSS `@supports at-rule()`](https://github.com/web-platform-tests/interop/issues/1434). Key for the progressive enhancement of some modern features. I love progressive enhancement and more powerful `@supports` is the way.
 1. [CSS `reading-flow` and `reading-order` properties](https://github.com/web-platform-tests/interop/issues/1349). Visual order of things doesn't always makes sense. Folks use `order` all over the place without too much of considerations. Things become even more complicated with the masonry layouts. This is kinda must have.
 1. [`ariaNotify()`](https://github.com/web-platform-tests/interop/issues/1387). With great responsibility comes great power and abusing this feature can degrade experience for screen reader users, but when used wisely can help a tonnes.
+
+## Update
+
+Not only did Ana and Tayload blog about it, but it looks like more web bloggers shared their rankings, and I enjoyed reading them all. I'll keep a list of all the ones I came across here.
+
+- ["My Interop feature ranking" by Ana Rodrigues](https://ohhelloana.blog/my-interop-2027/)
+- ["My Interop 2027 Ranking" by Tayler Sticka](https://tylersticka.com/journal/interop-2027-rank/)
+- ["My Interop 2027 Rankings" by Declan Chidlow](https://vale.rocks/micros/20261011-0700)
+- ["And That's My Rank! 2027 Edition" by Stuart Robson](https://www.alwaystwisted.com/articles/and-thats-my-rank-2027-edition)
