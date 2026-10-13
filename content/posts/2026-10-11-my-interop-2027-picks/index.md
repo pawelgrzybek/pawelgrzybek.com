@@ -20,10 +20,10 @@ Totally inspired by [Ana Rodrigues](https://ohhelloana.blog/) who published ["My
 
 ## Update
 
-Not only did Ana and Tayload blog about it, but it looks like more web bloggers shared their rankings, and I enjoyed reading them all. I'll keep a list of all the ones I came across here.
+Not only did Ana and Tyler blog about it, but it looks like more web bloggers shared their rankings, and I enjoyed reading them all. I'll keep a list of all the ones I came across here.
 
 - ["My Interop feature ranking" by Ana Rodrigues](https://ohhelloana.blog/my-interop-2027/)
-- ["My Interop 2027 Ranking" by Tayler Sticka](https://tylersticka.com/journal/interop-2027-rank/)
+- ["My Interop 2027 Ranking" by Tyler Sticka](https://tylersticka.com/journal/interop-2027-rank/)
 - ["My Interop 2027 Rankings" by Declan Chidlow](https://vale.rocks/micros/20261011-0700)
 - ["And That's My Rank! 2027 Edition" by Stuart Robson](https://www.alwaystwisted.com/articles/and-thats-my-rank-2027-edition)
 - ["My top picks for Interop 2027" by SaraSoueidan](https://www.sarasoueidan.com/blog/interop-2027-rankings/)
