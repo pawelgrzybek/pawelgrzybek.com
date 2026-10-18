@@ -66,3 +66,7 @@ The `iframe` on your page can dynamically adjust its size based on the content i
 ### [This hue shall pass](https://thishueshallpass.clearleft.com/)
 
 Really neat little tool that does one job and does it really well. You pass the colours you use across your project, and it shows you the contrast ratio and whether the combination of colours on top of each other passes AA or AAA standards. It also suggests little adjustments to the colours when applicable. The only limitation of this tool is the hex colour format, which is the only option for passing an input to it. I sent my feedback to the author of the tool. Not the first tool that does this job, but for sure the simplest and most intuitive to use.
+
+### [Interactive refactoring in gopls](https://go.dev/blog/interactive-refactoring)
+
+Ignore the fact that this article comes from the official Go lang blog, as this is more about the new LSP protocol features that the Go team proposed and implemented. Developers using LSP (you may not realise, but you are probably one of them), regardless of the programming language, will take advantage of these multi-step refactoring capabilities that are coming to the Language Server Protocol.
