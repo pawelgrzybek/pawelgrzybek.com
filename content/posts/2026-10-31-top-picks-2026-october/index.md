@@ -70,3 +70,9 @@ Really neat little tool that does one job and does it really well. You pass the 
 ### [Interactive refactoring in gopls](https://go.dev/blog/interactive-refactoring)
 
 Ignore the fact that this article comes from the official Go lang blog, as this is more about the new LSP protocol features that the Go team proposed and implemented. Developers using LSP (you may not realise, but you are probably one of them), regardless of the programming language, will take advantage of these multi-step refactoring capabilities that are coming to the Language Server Protocol.
+
+### [Introducing tsrs: A port of TypeScript to Rust](https://blog.cloudflare.com/typescript-rust-port/)
+
+I don't find anything exciting about this article. It is just another one that makes you rethink the current space of software engineering. Every single day, we hear about new LLM-generated forks of something popular: Adobe applications, Microsoft's set of office tools, `brew` CLI, or now also TypeScript. In theory, all these forks perform a lot better according to the graphs that the authors decided to put on the Claude Code-generated README page on GitHub.
+
+For the past few years, no one decided to invest in the rewrite of the TypeScript compiler due to its complexity, but all of a sudden, in the past month, I heard about three new initiatives to do so. It makes headline after headline for a week or two and in the end the idea dies and the original tool wins. It wins for a simple reason: the original authors do care about it. Even if this is not true, let me live in this naive world where people who care win.
