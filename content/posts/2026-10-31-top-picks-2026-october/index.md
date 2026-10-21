@@ -76,3 +76,7 @@ Ignore the fact that this article comes from the official Go lang blog, as this 
 I don't find anything exciting about this article. It is just another one that makes you rethink the current space of software engineering. Every single day, we hear about new LLM-generated forks of something popular: Adobe applications, Microsoft's set of office tools, `brew` CLI, or now also TypeScript. In theory, all these forks perform a lot better according to the graphs that the authors decided to put on the Claude Code-generated README page on GitHub.
 
 For the past few years, no one decided to invest in the rewrite of the TypeScript compiler due to its complexity, but all of a sudden, in the past month, I heard about three new initiatives to do so. It makes headline after headline for a week or two and in the end the idea dies and the original tool wins. It wins for a simple reason: the original authors do care about it. Even if this is not true, let me live in this naive world where people who care win.
+
+### ["The Future of CSS - My top 10 picks for Interop 2027" by Joshua Comeau](https://www.joshwcomeau.com/css/interop-2027/)
+
+Really nice selection of Interop 2027 features by Joshua Comeau. This one is a lot cooler than the one I shared because of the examples attached to every item. Josh is one of my favourite CSS bloggers. You can always find top explainers on his blog. Must follow!
