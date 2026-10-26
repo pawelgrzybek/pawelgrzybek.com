@@ -80,3 +80,7 @@ For the past few years, no one decided to invest in the rewrite of the TypeScrip
 ### ["The Future of CSS - My top 10 picks for Interop 2027" by Joshua Comeau](https://www.joshwcomeau.com/css/interop-2027/)
 
 Really nice selection of Interop 2027 features by Joshua Comeau. This one is a lot cooler than the one I shared because of the examples attached to every item. Josh is one of my favourite CSS bloggers. You can always find top explainers on his blog. Must follow!
+
+### ["CSS-Tricks has a new owner!" by Geoff Graham](https://css-tricks.com/css-tricks-has-a-new-owner/)
+
+Since Chris Coyier sold CSS-Tricks to DigitalOcean in 2022, things around this website have become a little strange. The DigitalOcean sponsorship sometimes felt subtle, but the next day it felt super salesy. The content was mainly good because it was still mainly curated by the right web people, but occasionally some really bad pieces managed to slip in. This all of a sudden became so quiet recently, and it was the first time in almost two decades that the page felt dead. Geoff now takes it over and has tons of plans for how to keep it alive under private ownership. I'm glad that DigitalOcean is out of this picture and the project is again with the right people.
