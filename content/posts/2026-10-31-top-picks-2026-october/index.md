@@ -84,3 +84,7 @@ Really nice selection of Interop 2027 features by Joshua Comeau. This one is a l
 ### ["CSS-Tricks has a new owner!" by Geoff Graham](https://css-tricks.com/css-tricks-has-a-new-owner/)
 
 Since Chris Coyier sold CSS-Tricks to DigitalOcean in 2022, things around this website have become a little strange. The DigitalOcean sponsorship sometimes felt subtle, but the next day it felt super salesy. The content was mainly good because it was still mainly curated by the right web people, but occasionally some really bad pieces managed to slip in. This all of a sudden became so quiet recently, and it was the first time in almost two decades that the page felt dead. Geoff now takes it over and has tons of plans for how to keep it alive under private ownership. I'm glad that DigitalOcean is out of this picture and the project is again with the right people.
+
+### [It's time to come back to Firefox. The Internet you loved is still here.](https://youtu.be/E2AoYIKwJqM)
+
+Firefox people are not only good at making incredible browser engines, they also made the funniest ad for their product! This is a classic internet meme from the early 2000s and you're going to find it here. This is so so so funny!
