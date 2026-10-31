@@ -13,7 +13,7 @@ While I was busy building stuff, the web didn't slow down! I'm not talking about
 
 I was listening to a lot of incredible music this past month, and it was really hard to pick a single record to recommend. Just look how much [my collection](/music/) expanded in recent weeks! Some time ago, I discovered [Karate Boogaloo from Australia](/top-picks-2024-june/#album-of-the-month). One of their members also plays with Surprise Chef, and I've been listening to them a lot recently. They just released ["Frogs In A Pond"](https://www.discogs.com/release/38820123-Surprise-Chef-Frogs-In-A-Pond), which is really good, but my favourite album by these guys is ["Daylight Savings"](https://www.discogs.com/release/16082627-Surprise-Chef-Daylight-Savings) from 2020, and this is my recommendation this month for all you funky heads! The title track is a top banger!
 
-!["Daylight Savings" by Surprise Chef album label](/album.jpg)
+!["Daylight Savings" by Surprise Chef album label](album.jpg)
 
 {{< youtube 2S5kb6QJ83A >}}
 
