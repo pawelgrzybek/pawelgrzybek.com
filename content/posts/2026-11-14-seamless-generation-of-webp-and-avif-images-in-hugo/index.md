@@ -1,6 +1,6 @@
 ---
 title: "Seamless generation of WebP and AVIF images in Hugo"
-summary: ""
+summary: "Shipping a website that uses only JPG and PNG is literally disrespectful to the end user. Hugo makes this process a tonne easier now, you literally don’t need to generate anything yourself, because it is all built in."
 ---
 
 Shipping a website that uses only JPG and PNG is literally disrespectful to the end user. Especially for those without access to multi-Mbps broadband. Using "backwards compatibility" as an excuse not to serve better image formats is stupid because the browser serves the best one it is capable of serving and falls back to the archaic formats as a last resort. Progressive enhancement at its best. But the chance is slim that you use a browser that fails to use formats like WebP or AVIF because they have fantastic browser support.
