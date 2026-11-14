@@ -16,6 +16,12 @@ theme = ['pawelgrzybek']
   [imaging.webp]
     method = 4
 
+[security.funcs]
+  getenv = ['^COMMENTS_SERVERLESS_ACCESS_TOKEN$']
+
+[caches.getresource]
+  maxAge = 0
+
 [permalinks]
   posts = "/:slug/"
 

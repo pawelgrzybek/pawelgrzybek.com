@@ -1,0 +1,14 @@
+{{- $comments := dict -}}
+{{- with os.Getenv "COMMENTS_SERVERLESS_ACCESS_TOKEN" -}}
+  {{- $url := printf "https://6u9a2qa0kh.execute-api.eu-west-2.amazonaws.com/prod/?accessToken=%s" . -}}
+  {{- with try (resources.GetRemote $url) -}}
+    {{- with .Err -}}
+      {{- errorf "Unable to fetch comments from the comments API" -}}
+    {{- else with .Value -}}
+      {{- $comments = .Content | transform.Unmarshal -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- warnf "COMMENTS_SERVERLESS_ACCESS_TOKEN is not set, comments will not be rendered" -}}
+{{- end -}}
+{{- return $comments -}}

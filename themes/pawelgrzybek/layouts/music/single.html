@@ -12,10 +12,11 @@
         {{ partial "share.html" . }}
 
         {{ $commentsKey := replace .RelPermalink "/" "" }}
-        {{ $commentsExist := isset hugo.Data.comments $commentsKey }}
+        {{ $allComments := partialCached "comments-data.html" . }}
+        {{ $commentsExist := isset $allComments $commentsKey }}
 
         {{ if $commentsExist }}
-        {{ $commentsObject := index hugo.Data.comments $commentsKey }}
+        {{ $commentsObject := index $allComments $commentsKey }}
         {{ $comments := index $commentsObject "comments" }}
         <h2 id="comments">Comments</h2>
         {{ partial "comments.html" (dict "context" . "comments" $comments) }}
