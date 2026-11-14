@@ -1,34 +1,30 @@
 {{- $destination := .Get "src" -}}
 {{- $extension := path.Ext $destination -}}
-{{- $resources := .Page.Resources -}}
+{{- $image := .Page.Resources.Get $destination -}}
+{{- $imageDark := .Page.Resources.Get (replace $destination $extension (print "-dark" $extension)) -}}
 {{- $caption := .Get "caption" -}}
 {{- $size := .Get "size" -}}
-
-{{- $avifPath:= replace $destination $extension ".avif" -}}
-{{- $avifPathDark:= replace $destination $extension "-dark.avif" -}}
-{{- $webpPath:= replace $destination $extension ".webp" -}}
-{{- $webpPathDark:= replace $destination $extension "-dark.webp" -}}
-{{- $pathDark:= replace $destination $extension (print "-dark" $extension) -}}
 {{- $altText := .Get "alt" -}}
+
+{{- $formats := slice -}}
+{{- if in (slice ".jpg" ".jpeg" ".png") (lower $extension) -}}
+  {{- $formats = slice "avif" "webp" -}}
+{{- end -}}
 <figure data-size="{{- $size | default "medium" -}}">
   <picture>
-    {{- with $resources.GetMatch $avifPath -}}
-    <source srcset="{{- $avifPath -}}" type="image/avif" {{- with $resources.GetMatch $avifPathDark -}} media="(prefers-color-scheme: light)" {{- end -}} >
+    {{- with $image -}}
+      {{- range $format := $formats -}}
+      <source srcset="{{- ($image.Process $format).Permalink -}}" type="image/{{- $format -}}" {{ with $imageDark }}media="(prefers-color-scheme: light)" {{- end -}}>
+      {{- with $imageDark -}}
+      <source srcset="{{- (.Process $format).Permalink -}}" type="image/{{- $format -}}" media="(prefers-color-scheme: dark)">
+      {{- end -}}
+      {{- end -}}
     {{- end -}}
-    {{- with $resources.GetMatch $avifPathDark -}}
-    <source srcset="{{- $avifPathDark -}}" type="image/avif" {{- with $resources.GetMatch $avifPath -}} media="(prefers-color-scheme: dark)" {{- end -}}>
-    {{- end -}}
-    {{- with $resources.GetMatch $webpPath -}}
-    <source srcset="{{- $webpPath -}}" type="image/webp" {{- with $resources.GetMatch $webpPathDark -}} media="(prefers-color-scheme: light)" {{- end -}} >
-    {{- end -}}
-    {{- with $resources.GetMatch $webpPathDark -}}
-    <source srcset="{{- $webpPathDark -}}" type="image/webp" {{- with $resources.GetMatch $webpPath -}} media="(prefers-color-scheme: dark)" {{- end -}}>
-    {{- end -}}
-    {{- with $resources.GetMatch $pathDark -}}
-    <source srcset="{{- $pathDark -}}" media="(prefers-color-scheme: dark)">
+    {{- with $imageDark -}}
+    <source srcset="{{- .Permalink -}}" media="(prefers-color-scheme: dark)">
     {{- end -}}
   
-    {{- with $resources.GetMatch $destination -}}
+    {{- with $image -}}
       <img
         src="{{- .Permalink -}}"
         alt="{{- $altText -}}"
