@@ -10,6 +10,12 @@ theme = ['pawelgrzybek']
 [frontmatter]
   date  = [":filename", ":default"]
 
+[imaging]
+  [imaging.avif]
+    encoderSpeed = 8
+  [imaging.webp]
+    method = 4
+
 [permalinks]
   posts = "/:slug/"
 
