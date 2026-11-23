@@ -9,7 +9,17 @@ Intro...
 
 ## Album of the month
 
-Album info...
+Other than being amazing piece of music, I have a quite complicated story with that record! It is generally hard to get one, and if it is available in one of the local stores, it is very limited.
+
+I ordered my first copy from Juno, but it arrived damaged. Folks from Juno are good people, so in no time they sent me another copy. The new one was also damaged in a very similar way to the first one. Clearly, some faulty press batch. The third one arrived perfect, and I was so happy with it, and we kept on listening to this groovy funk a lot. Until my 3-year-old daughter decided to flip the record to the other side while the needle was still spinning on the record. As a result, she scratched the record very badly and broke one of my original Shure M44-7 needles. She is a golden kiddo, and she never destroys things for fun. It was an accident. Of course, I got a fourth copy of it, and I look after this one as if it was made of gold.
+
+This is the end of the story of ["Kold Funk #1" by The Soul Surfers](https://www.discogs.com/release/38130234-The-Soul-Surfers-Kold-Funk-1). So, so, so good funk!
+
+![Kold Funk #1 by The Soul Surfers](kold-funk-1.jpg)
+
+![Kold Funk #1 by The Soul Surfers](kold-funk-2.jpg)
+
+{{< youtube P5JDC0-xCkQ >}}
 
 ---
 
@@ -29,4 +39,12 @@ I love this kind of post and I miss them so much. In the age of AI, folks think 
 
 ### ["Taming Typography: Building a Modern CSS Reset" by Stu Robson](https://css-tricks.com/taming-typography-modern-css-reset/)
 
-I love geeking out over little things that people put into their CSS reset files. I talked about mine some time ago in ["The CSS Reset, again"](/the-css-reset-again/). This post by Stu is more typography-oriented and goes into depth about little nerdy stuff. I learned a lot from the post, but there are also tonnes of great comments underneath to go through. I literally didn’t have a clue about the existence of [`font-synthesis`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-synthesis) and a few others.
+I love geeking out over little things that people put into their CSS reset files. I talked about mine some time ago in ["The CSS Reset, again"](/the-css-reset-again/). This post by Stu is more typography-oriented and goes into depth about little nerdy stuff. I learned a lot from the post, but there are also tonnes of great comments underneath to go through. I literally didn't have a clue about the existence of [`font-synthesis`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-synthesis) and a few others.
+
+### ["Why there are still no non-WebKit browsers on iOS"](https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/)
+
+As a result of the Digital Markets Act (DMA) actions in 2024, Apple opened the door to non-WebKit browsers on iOS. But did they really? This short post on Mozilla's blog explains the real state of the situation.
+
+### ["Browsers To Try If You’re Being Forced Off Arc" by Chris Coyier](https://blog.master.dev/browsers-to-try-if-youre-being-forced-off-arc/)
+
+I’m not an ex-Arc user, and I’m not really after a new browser. I like defaults and, despite some of its downsides, I like and use Safari. What I found interesting about this post by Chris, is how the browser space has changed in recent years. For years, if not decades, we have been living in a world with three dominant browsers: Chrome, Firefox and Safari. Some others also existed, but they were usually based on the engines from one of the big players. The space has shifted massively. For the last few years, I have been hearing about the new VSCode fork on a weekly basis, and now it looks like the browser space is the new target category for vibe coders. This post lists so many browsers that I have never heard about. Shocking!
