@@ -48,3 +48,13 @@ As a result of the Digital Markets Act (DMA) actions in 2024, Apple opened the d
 ### ["Browsers To Try If You’re Being Forced Off Arc" by Chris Coyier](https://blog.master.dev/browsers-to-try-if-youre-being-forced-off-arc/)
 
 I’m not an ex-Arc user, and I’m not really after a new browser. I like defaults and, despite some of its downsides, I like and use Safari. What I found interesting about this post by Chris, is how the browser space has changed in recent years. For years, if not decades, we have been living in a world with three dominant browsers: Chrome, Firefox and Safari. Some others also existed, but they were usually based on the engines from one of the big players. The space has shifted massively. For the last few years, I have been hearing about the new VSCode fork on a weekly basis, and now it looks like the browser space is the new target category for vibe coders. This post lists so many browsers that I have never heard about. Shocking!
+
+### [Rebirth of the WDRL — a personal take on the web’s latest](https://wdrl.info/archive/314)
+
+Nothing on the web makes me happier than seeing good people doing good things for other good people. Anselm Hannemann is bringing back his WDRL (Web Development Reading List), and I’m really pumped that he decided to revive this project. I have been following his newsletter for a very long time, and seeing it in the age of AI, with aggregators everywhere, is awesome. Thank you for doing that, Anselm! Folks who are into web dev, this one’s an instant subscribe for you all.
+
+### ["Ladybird is now in alpha"](https://ladybird.org/posts/alpha/)
+
+Ladybird is not another browser based on an already existing engine. It is a brand-new engine, and the diversity that it brings to the browser space is good. I heard a lot of good things about it from people testing it out. The only thing that you want to be aware of is the [controversy behind the author](https://drewdevault.com/weird-guys/#kling).
+
+### [](<>)
